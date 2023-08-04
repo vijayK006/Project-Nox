@@ -1,9 +1,35 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+
+import { PiPhoneCall } from 'react-icons/pi';
+import { AiOutlineGlobal, AiOutlineMenu } from 'react-icons/ai';
+import { IoNotificationsOutline } from 'react-icons/io5';
+import { BsPersonGear,  BsCart3 } from 'react-icons/bs';
+
 
 const Navbar = () => {
   return (
     <>
+    <div className='bg-gray'>
+        <div className='container'>
+<div className='d-flex justify-content-between' style={{flexWrap:"wrap"}}>
+    <p className='margin-0-lineHeight text-center'>Fast shipping to India</p>
+
+    <div className='d-flex'>
+<p className='margin-0-lineHeight mobile-screen-noneed'> India (English/ $ USD)</p>
+&nbsp;
+&nbsp;
+&nbsp;
+<p className='margin-0-lineHeight'><PiPhoneCall style={{marginBottom:"5px", fontSize:"18px"}}/> Contact Us</p>
+    </div>
+
+</div>
+</div>
+    </div>
+
+
 <div className='navbar-top'>
 
 <div className='nav-icon-tab'>
@@ -11,13 +37,22 @@ const Navbar = () => {
 </div>
 
 
-<ul className='n'>
+<ul className='n mobile-screen-noneed'>
     <li className='n-items hover-item'>All Products
 
     <div className='inner-menu'>
 <h4>Fiber Optical Transceiver</h4>
+<Swiper
+      modules={[Navigation, Scrollbar]}
+      navigation={true}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+      className="mySwiper"
+ >
+<SwiperSlide>
 
-<div className='container'>
+    <div className='container'>
 <div className='row'>
 
 <div className='col-lg-2 col-md-4'>
@@ -43,21 +78,34 @@ const Navbar = () => {
 
 </div>
 
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>200G QSFP56 QSFP-DD</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP-DD SR8</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP56 SR4</p></Link>
-
-<p className='menu-title pt-3'>16GFC SFP+( 14.025G )</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>16GFC SFP+ SW</p></Link>
-
-</div>
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>100G CFP CFP2 CFP4</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP2</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP4</p></Link>
+
+</div>
+
+<div className='col-lg-2'>
+    <p className='menu-title '>10G Xenpak</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK DUAL</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK CWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK DWDM</p></Link>
+
+<p className='menu-title pt-2'>8GFC SFP+</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>8GFC SFP+ DUAL</p></Link>
+
+</div>
+
+
+<div className='col-lg-3 col-md-4'>
+<p className='menu-title '>200G QSFP56 QSFP-DD</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP-DD SR8</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP56 SR4</p></Link>
+
+<p className='menu-title pt-3'>16GFC SFP+( 14.025G )</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>16GFC SFP+ SW</p></Link>
 
 </div>
 
@@ -136,6 +184,96 @@ const Navbar = () => {
 
 </div>
 
+
+
+</div>
+</div>
+</SwiperSlide>
+
+<SwiperSlide>
+
+    <div className='container'>
+<div className='row'>
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>2.5G SFP</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP CWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DUAL</p></Link>
+
+<p className='menu-title pt-2'>1.25G CSFP</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G CSFP Dual Bidi LC</p></Link>
+
+</div>
+
+<div className='col-lg-2 col-md-4'>
+
+<p className='menu-title '>1.25G SFP</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP CWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP BIDI</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DUAL</p></Link>
+
+<p className='menu-title pt-2'>1.25G GBIC</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G GBIC SC</p></Link>
+
+</div>
+
+
+<div className='col-lg-2 col-md-4'>
+
+<p className='menu-title '>PON SFP   SFP+</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XG/XGS PON</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G EPON</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G GPON SFP</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G EPON SFP</p></Link>
+
+<p className='menu-title pt-2'>2X5 SFF</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/1.25G 2X5 SFF</p></Link>
+
+</div>
+
+<div className='col-lg-2 col-md-4'>
+
+<p className='menu-title '>1X9</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 BIDI</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 DUAL</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 CWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 BIDI</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps </p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 DUAL</p></Link>
+</div>
+
+<div className='col-lg-2 col-md-4'>
+
+<p className='menu-title '>125M 155M SFP</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP BIDI</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
+
+<p className='menu-title '>622M SFP</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP BIDI</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP DUAL</p></Link>
+
+
+</div>
+
+<div className='col-lg-2 col-md-4'>
+
+<p className='menu-title '>10G SFP+</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ DWDM Tunable</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ CWDM</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ BIDI</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DUAL</p></Link>
+
+<p className='menu-title pt-2'>4G SFP</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>4.25G SFP DUAL</p></Link>
+
+</div>
+
 <div className='col-lg-2'>
     <p className='menu-title '>10G XFP </p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM Tunable</p></Link>
@@ -143,6 +281,9 @@ const Navbar = () => {
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP CWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DUAL</p></Link>
+
+<p className='menu-title pt-2'>6G SFP+ </p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>6G SFP+ DUAL</p></Link>
 
 </div>
 
@@ -155,28 +296,102 @@ const Navbar = () => {
 <p className='menu-title pt-2'>8GFC SFP+</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>8GFC SFP+ DUAL</p></Link>
 
+
 </div>
+
 
 </div>
 </div>
+</SwiperSlide>
+
+
+<SwiperSlide>
+
+    <div className='container'>
+    <h5 className='pb-5'>Fiber Optical Cable / Patch-cord</h5>
+<div className='row'>
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>AOC (Active Optical Cable)</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ AOC</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 AOC</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ AOC</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 AOC</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP56 AOC</p></Link>
+
+</div>
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>DAC (Direct-Attach Cable)</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DAC</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 DAC</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ DAC</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 DAC</p></Link>
+
+</div>
+
+<div className='col-lg-3 col-md-4'>
+<p className='menu-title '>Indoor Patch-cord   Cable</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Armored Breakout Cable</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Breakout Cable</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Mini Distribution Cable</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>General Patch-cord</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Energy Chain Cable</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>High Strength and Suppleness Patch-cord</p></Link>
+
+</div>
+
+<div className='col-lg-3 col-md-4'>
+<p className='menu-title '>Outdoor Patch-cord   Cable</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Armored Patch-cord / Armored Breakout Cable</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>FTTA Waterproof Cable for Mobile Base Station</p></Link>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Military Tactical Waterproof Cable</p></Link>
+
+</div>
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>MPO Patch-cord   Cassette</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>MPO PatchCord</p></Link>
+
+</div>
+
+
+</div>
+</div>
+</SwiperSlide>
+
+</Swiper>
+
 
     </div>
     </li>
     
-    <li className='n-items '>Solution
-
-    </li>
+    <li className='n-items'>Solution</li>
 
     <li className='n-items'>Service</li>
     <li className='n-items'>Support</li>
     <li className='n-items'>Company</li>
+
+
 </ul>
+
+
+<div className='n'>
+<IoNotificationsOutline className='nav-icons'/>
+<BsPersonGear className='nav-icons'/>
+<BsCart3 className='nav-icons'/>
+<AiOutlineMenu className='nav-icons only-small'/>
+</div>
 
 
 {/* <ul className='n'>
     <li className='n-items'></li>
 </ul>  This is for 3rd section*/}
 </div>
+
+
+
+
     </>
   )
 }
