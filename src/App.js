@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import Index from './Component/Index'
+import AboutUs from './Component/AboutUs';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <BrowserRouter>
     <Routes>
      <Route path="/" element={<Index/>}/>
+     <Route path="/AboutUs" element={<AboutUs/>}/>
 
     </Routes>
     

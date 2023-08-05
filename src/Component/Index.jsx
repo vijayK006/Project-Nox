@@ -65,7 +65,7 @@ import { TbTruckDelivery, TbMessageChatbot, TbMessage2 } from 'react-icons/tb';
 
 {/*Carousel Banner Start*/}
 
-<div id="demo" class="carousel slide leave-navbar" data-bs-ride="carousel" style={{paddingTop:"100px"}}>
+<div id="demo" class="carousel slide leave-navbar" data-bs-ride="carousel">
 
 
   <div class="carousel-indicators">

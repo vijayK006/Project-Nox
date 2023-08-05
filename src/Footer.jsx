@@ -3,8 +3,13 @@ import { Link } from 'react-router-dom';
 
 // react icons
 import { BiLogoFacebook } from 'react-icons/bi';
+import { MdAddIcCall } from 'react-icons/md';
+import { RiMailAddLine } from 'react-icons/ri';
 import { GrTwitter, GrLinkedinOption } from 'react-icons/gr';
 import { AiFillYoutube, AiOutlineGlobal } from 'react-icons/ai';
+
+import logoIcon from './img/logo/navlogo.png'; 
+
 
 const Footer = () => {
   return (
@@ -15,7 +20,28 @@ const Footer = () => {
     <div className='row'>
 
       <div className='col-lg-4 col-md-4 col-sm-12'>
-<h3 className='pb-5 mb-3'>NX Optics</h3>
+      <img src={logoIcon} className='logo_footer' alt='logo'/>
+
+
+<p className='pt-3 pb-1'>No. 52, 1st Floor, 
+Above Indian Overseas Bank,
+St Johns Road, Bangalore – 42
+India.
+</p>
+
+<div className='d-flex pb-2'>
+  <a href='tel:+91 80-41622171' style={{textDecoration:"none"}}><p className='childone'><MdAddIcCall className='footerIcons'/> 80-41622171 |&nbsp;</p></a>
+<a href='tel:+91-80-41622171' style={{textDecoration:"none"}}><p className='childone'> 80-41622171 |&nbsp;</p></a>
+<a href='tel:+91 9945052666' style={{textDecoration:"none"}}><p className='childone'> 9945052666.</p></a>
+
+</div>
+
+<div className='d-flex flex-wrap pb-2'>
+  <a href='tel:+91 80-41622171' style={{textDecoration:"none"}}><p className='childone'><RiMailAddLine className="footerIcons"/> sales@netwaresystems.biz |&nbsp;</p></a>
+<a href='tel:+91-80-41622171' style={{textDecoration:"none"}}><p className='childone'> Info@netwaresystems.biz |&nbsp;</p></a>
+<a href='tel:+91 9945052666' style={{textDecoration:"none"}}><p className='childone'> nsm@netwaresystems.biz</p></a>
+
+</div>
 
 <div className='d-flex pb-4'>
 
@@ -25,9 +51,6 @@ const Footer = () => {
 <GrLinkedinOption className="social-icons"/>
 
 </div>
-
-<a href='tel:' className='childone'>Call Us at 00xxxx xxxx xxxx</a>
-<p className='childone'>24X7 Phone Support</p>
 </div>
 
     <div className='col-lg-2 col-md-4 col-sm-12'>
@@ -80,7 +103,7 @@ const Footer = () => {
 <hr/>
 
 <div className='d-flex justify-content-between' style={{flexWrap:"wrap"}}>
-<p className='copy-rightText'>Copyright © NX Optics All Rights Reserved | Design & Hosted by Web Universals </p>
+<p className='copy-rightText'>Copyright © Netware All Rights Reserved | Design & Hosted by Web Universals </p>
 
 <div className='d-flex' style={{flexWrap:"wrap"}}>
 <p className='footer-end-text'><AiOutlineGlobal /> India (English/ $ USD)</p>&nbsp; &nbsp;

@@ -4,8 +4,45 @@ background-color: #f1f1f1;
 
 
 @media only screen and (max-width:600px){
-    .resp-overflow{
+    .notification_card-hover{
+        background-color: white;
+        height: 100px;
+        position: absolute;
+        width: 810%;
+        opacity: 0;
+        top: 0px;
+        right: -250%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 10px;
+        transition: all 0.8s ease-in-out;
+     }
 
+     .logo_footer{
+        height: auto;
+        width: 90%;
+            }
+
+     .hover-parent:hover .sign_card-hover{
+        opacity: 1;
+        top: -15%;
+        transform: translateY(15%);
+        visibility: visible;
+    
+    }
+    
+    .sign_card-hover{
+        background-color: white;
+        position: absolute;
+        width: 350px;
+        opacity: 0;
+        top: -700%;
+        right: -185%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+        visibility: hidden;
     }
 
     .certifyImg{
@@ -16,15 +53,44 @@ background-color: #f1f1f1;
     .flip-card {
         height: 320px;
     }
+
+
+    .leave-navbar{
+        padding-Top:80px;
+    }
+
+    .bannerImgcover{
+        width: 100%;
+        height: 300px;
+        
+        }
+
 
 }
 
 @media only screen and (min-width:768px){
-    .resp-overflow{
-
+    .notification_card-hover{
+        background-color: white;
+        height: 100px;
+        position: absolute;
+        width: 400px;
+        opacity: 0;
+        top: -500px;
+        right: -100%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 0px 0px 10px 10px;
+        transition: all 0.8s ease-in-out;
     }
 
+    .logo_footer{
+        height: auto;
+        width: 90%;
+            }
 
+    .leave-navbar{
+        padding-Top:100px;
+    }
 
     .certifyImg{
         width: 100%;
@@ -34,14 +100,56 @@ background-color: #f1f1f1;
     .flip-card {
         height: 320px;
     }
+
+    .bannerImgcover{
+        width: 100%;
+        height: 560px;
+        
+        }
+
+        .hover-parent:hover .sign_card-hover{
+            opacity: 1;
+            top: -15%;
+            transform: translateY(15%);
+            visibility: visible;
+        
+        }
+        
+        .sign_card-hover{
+            background-color: white;
+            position: absolute;
+            width: 400px;
+        opacity: 0;
+            top: -700%;
+            right: -100%;
+            z-index: -1;
+            padding: 10px;
+            border-radius: 10px;
+            transition: all 0.5s ease-in-out;
+            visibility: hidden;
+        }
+
 }
 
 @media only screen and (min-width:998px){
-    .resp-overflow{
-
+    .notification_card-hover{
+        background-color: white;
+        height: 100px;
+        position: absolute;
+        width: 400px;
+        opacity: 0;
+        top: -500px;
+        right: -100%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 0px 0px 10px 10px;
+        transition: all 0.8s ease-in-out;
     }
 
- 
+    .leave-navbar{
+        padding-Top:100px;
+    }
+
     .certifyImg{
         width: 100%;
         height: 250px;
@@ -50,13 +158,63 @@ background-color: #f1f1f1;
     .flip-card {
         height: 320px;
     }
+
+    .bannerImgcover{
+        width: 100%;
+        height: 360px;
+        
+        }
+
 }
 
 @media only screen and (min-width:1200px){
-    .resp-overflow{
-
+    
+    .hover-parent:hover .sign_card-hover{
+        opacity: 1;
+        top: -17%;
+        transform: translateY(17%);
+        visibility: visible;
+    
     }
 
+    .logo_footer{
+height: auto;
+width: 60%;
+margin: 10px 0px;
+    }
+
+    .sign_card-hover{
+        background-color: white;
+        position: absolute;
+        width: 400px;
+    opacity: 0;
+        top: -700%;
+        right: -100%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+        visibility: hidden;
+    }
+
+
+    .notification_card-hover{
+        background-color: white;
+        height: 100px;
+        position: absolute;
+        width: 400px;
+        opacity: 0;
+        top: -500px;
+        right: -100%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 0px 0px 10px 10px;
+        transition: all 0.8s ease-in-out;
+    }
+
+    .leave-navbar{
+        padding-Top:100px;
+    }
 
 
         .certifyImg{
@@ -67,13 +225,16 @@ background-color: #f1f1f1;
         .flip-card {
             height: 320px;
         }
+
+        .bannerImgcover{
+            width: 100%;
+            height: 560px;
+            
+            }
+
 }
 
-.bannerImgcover{
-width: 100%;
-height: 560px;
 
-}
 
 .content-card{
     box-shadow: 5px 4px 20px 0px #b9b9b9;
@@ -288,10 +449,16 @@ cursor: pointer;
 }
 
 .childone{
-    text-decoration: none;
     color: black;
     line-height: 2;
+    margin: 0px;
+transition: all 0.3s ease-in-out;
 }
+
+.childone:hover{
+color: #bd0000;
+}
+
 .footer-end-text{
     color: rgb(124, 124, 124);
 font-weight: 500;
@@ -304,5 +471,67 @@ text-decoration: none;
 }
 
 
+.hover-parent:hover .notification_card-hover{
+    opacity: 1;
+    top: -70%;
+    transform: translateY(70%);
+
+}
 
 
+
+/* .hover-parent:hover .notification_card-hover{
+    opacity: 1;
+    top: -70%;
+    transform: translateY(70%);
+
+} */
+
+
+
+
+
+/* .notification_card-hover{
+    background-color: white;
+    height: 100px;
+    position: absolute;
+    width: 400px;
+    opacity: 0;
+    top: -500px;
+    right: -100%;
+    z-index: -1;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: all 0.8s ease-in-out;
+} */
+
+
+.sign-content-link{
+    font-weight: 400;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.sign-content-link:hover{
+    color: #bd0000;
+}
+
+.button-sign-default{
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 2.5;
+    color: black;
+    background-color: #d7d7d7;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.button-sign-red{
+    margin: 5px 0px;
+    text-align: center;
+    line-height: 2.5;
+    color: white;
+    background-color: rgb(189 0 0);
+    font-weight: 500;
+    border-radius: 5px;
+}
