@@ -27,7 +27,7 @@ const Footer = () => {
 </div>
 
 <a href='tel:' className='childone'>Call Us at 00xxxx xxxx xxxx</a>
-<p className='childone'>5x24 Phone Support</p>
+<p className='childone'>24X7 Phone Support</p>
 </div>
 
     <div className='col-lg-2 col-md-4 col-sm-12'>
@@ -80,7 +80,7 @@ const Footer = () => {
 <hr/>
 
 <div className='d-flex justify-content-between' style={{flexWrap:"wrap"}}>
-<p className='copy-rightText'>Copyright © NX Optics INC All Rights Reserved.</p>
+<p className='copy-rightText'>Copyright © NX Optics All Rights Reserved | Design & Hosted by Web Universals </p>
 
 <div className='d-flex' style={{flexWrap:"wrap"}}>
 <p className='footer-end-text'><AiOutlineGlobal /> India (English/ $ USD)</p>&nbsp; &nbsp;
