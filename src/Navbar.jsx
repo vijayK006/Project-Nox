@@ -10,9 +10,15 @@ import { BsPersonGear,  BsCart3 } from 'react-icons/bs';
 
 
 const Navbar = () => {
+
+const OpenCloseMenu =()=>{
+    document.getElementById('mobile_Setting').classList.toggle("openmenu");
+}
+
   return (
     <>
-    <div className='bg-gray'>
+    <div className='navbar-position-fixed'>
+            <div className='bg-gray'>
         <div className='container'>
 <div className='d-flex justify-content-between' style={{flexWrap:"wrap"}}>
     <p className='margin-0-lineHeight text-center'>Fast shipping to India</p>
@@ -380,15 +386,25 @@ const Navbar = () => {
 <IoNotificationsOutline className='nav-icons'/>
 <BsPersonGear className='nav-icons'/>
 <BsCart3 className='nav-icons'/>
-<AiOutlineMenu className='nav-icons only-small'/>
+<AiOutlineMenu className='nav-icons only-small' onClick={OpenCloseMenu}/>
 </div>
 
+</div>
+    </div>
 
-{/* <ul className='n'>
-    <li className='n-items'></li>
-</ul>  This is for 3rd section*/}
+
+
+<div className='mobile-navbar' id='mobile_Setting'>
+
+<div className="mobile-navbarcontent">
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>All Products</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Solution</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Service</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Support</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Company</p></Link>
 </div>
 
+</div>
 
 
 
