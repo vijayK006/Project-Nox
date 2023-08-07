@@ -214,7 +214,7 @@ color: gray;
 }
 
 .light-box-img{
-    height: auto;
+    height: 60px;
     width: 100%;
     border: 1px solid black;
     border-radius: 5px;
@@ -225,4 +225,8 @@ color: gray;
 padding: 5px;
 border-radius: 5px;   
 box-shadow: 0px 1px 8px 0px #dbdbdb;
+}
+
+.product-contain-col-two p{
+
 }

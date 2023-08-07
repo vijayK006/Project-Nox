@@ -1,41 +1,37 @@
 import React from 'react';
-import Navbar from '../Navbar';
+import Navbar from "../Navbar";
 import Footer from '../Footer';
 
-
-//product Images 
-import loopbackImg1 from '../img/products/40GLoopbackImg.jpg'
+import Dualduplex from "../img/products/Dualduplex.jpg"
 import { Link } from 'react-router-dom';
 
 import { BiDollar } from 'react-icons/bi';
 
-
-const FourtyGLoopbackProduct = () => {
- 
+const DualDuplex1X9 = () => {
   return (
     <>
-<Navbar/>
+    <Navbar/>
 
 <div className=' d-flex product-contain flex-wrap'>
 <div className='product-img'>
 
 <div className='section-fixed'>
-<img src={loopbackImg1} alt='40GLoopBack' className='mainproduct-img'/>
+<img src={Dualduplex} alt='40GLoopBack' className='mainproduct-img'/>
 
 <div className='container-fluid pt-lg-5 pt-2'>
     <div className='row'>
 
         <div className='col-4'>
-<img src={loopbackImg1} alt='40GLoopBack' className='light-box-img'/>
+<img src={Dualduplex} alt='40GLoopBack' className='light-box-img'/>
 
         </div>
         <div className='col-4'>
-<img src={loopbackImg1} alt='40GLoopBack' className='light-box-img'/>
+<img src={Dualduplex} alt='40GLoopBack' className='light-box-img'/>
 
         </div>
 
         <div className='col-4'>
-<img src={loopbackImg1} alt='40GLoopBack' className='light-box-img'/>
+<img src={Dualduplex} alt='40GLoopBack' className='light-box-img'/>
 
         </div>
 
@@ -57,47 +53,80 @@ const FourtyGLoopbackProduct = () => {
 </div>
 
 <div className='product-content'>
-<h1>40G QSFP+ Electrical Passive Loopback
-Hot Pluggable, 0~5dB Internal Attenuation, 0~3.5W Power Consumption</h1>
+<h1>1.25G 1X9 1000BASE-SX Transceiver
+Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
+</h1>
 
-<span>Path Number : NXO-IX-XLB-xx-xx</span>
+<span>Path Number : NXO-C1-M85-X5P
+</span>
 
 
 <div className='product-overview pt-4 pb-2'>
 <h5>Overview</h5>
-    <p>NXO-IX-XLB QSFP+ Loopback modules are compliant with the current QSFP+ Multi-Source Agreement
-( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP+ port in the host
-system by looping back the electrical signal (optics are excluded). It provides an economical way to mimic 40G Ethernet in simulation testing environments.
+    <p>NXO-C1-M85-X5P 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 850nm VCEL transmitter and high sensitivity PIN receiver provide superior
+performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications up to MMF OM2 550m optical links.
 </p>
 </div>
+
 
 <div className='container-fluid'>
     <div className='row'>
         <div className='col-lg-6 col-md-6 col-sm-12'>
 <div className='product-contain-col-two pt-4 pb-2'>
 <h5>Applications</h5>
-    <p>Board and System Level Testing</p>
-    <p>System Test and Measurement</p>
-    <p>Switch / Router Chamber Test</p>
-    <p>Power Consumption Validation</p>
- 
+    <p>Gigabit Ethernet 1000BASE-SX @1.25G
+
+</p>
+    <p>Fiber Channel 1GFC @1.0625G</p>
+    {/* <p>Switch / Router Chamber Test</p>
+    <p>Power Consumption Validation</p> */}
+     
 </div>
         </div>
 
         <div className='col-lg-6 col-md-6 col-sm-12'>
 <div className='product-contain-col-two pt-4 pb-2'>
 <h5>Features</h5>
-    <p>Compliant with SFF-8436 QSFP28 MSA</p>
-    <p>Compliant with IEEE 802.3bm CAUI-4 Interface</p>
-    <p>Electrical Data Rate up to 10.5Gbps per Lane</p>
-    <p>Hot Pluggable QSFP+ footprint</p>
- 
+    <p>Compliant with IEEE802.3z Gigabit Ethernet</p>
+    <p>Compliant with Fiber Channel 100-M5-SN-I</p>
+    <p>Industry Standard 1x9 Footprint
+</p>
+    <p>850nm VCSEL laser transmitter
+</p>
+    <p>
+Duplex SC connector
+
+    </p>
+    {/* <p>
+Single 3.3V or 5V Power Supply
+
+    </p>
+    <p>
+DC-coupled Differential PECL inputs and outputs
+
+    </p> */}
+    {/* <p>
+LVPECL / PECL Signal Detection Output
+
+    </p>
+    <p>
+Wave Solderable and Aqueous Washable
+
+    </p>
+<p>
+Link distance 275m over MM OM1 fiber and 550m over MM OM2 fiber
+
+</p>
+<p>
+RoHS Compliant
+
+</p> */}
+
 </div>
         </div>
 
     </div>
 </div>
-
 
 
 
@@ -114,7 +143,7 @@ system by looping back the electrical signal (optics are excluded). It provides 
       <a class="nav-link active" data-bs-toggle="pill" href="#home">Absolute Maximum Ratings</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Recommended Operating Conditions</a>
+      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
     </li>
 
   </ul> 
@@ -172,7 +201,7 @@ system by looping back the electrical signal (optics are excluded). It provides 
 </div>
     <div id="menu1" class="container tab-pane fade"><br/>
     <div class="container mt-3">
-  <h2>Recommended Operating Conditions</h2>
+  <h2>Absolute Maximum Ratings</h2>
   
   <div class="table-responsive">
     <table class="table table-hover">
@@ -181,7 +210,6 @@ system by looping back the electrical signal (optics are excluded). It provides 
           <th>Parameters</th>
           <th>Symbol</th>
           <th>Min.</th>
-          <th>Typ.</th>
           <th>Max.</th>
           <th>Unit</th>
 
@@ -191,48 +219,27 @@ system by looping back the electrical signal (optics are excluded). It provides 
       <tbody>
 
         <tr>
-          <td>Case Operating Temperature</td>
-          <td>TOP</td>
-          <td>-20</td>
-          <td>-</td>
+          <td>Storage Temperature</td>
+          <td>TST</td>
+          <td>-40</td>
           <td>+85</td>
           <td>°C</td>
         </tr>
 
         <tr>
+          <td>Storage Relative Humidity</td>
+          <td>RH</td>
+          <td>0</td>
+          <td>85</td>
+          <td>%</td>
+        </tr>
+
+        <tr>
           <td>Supply Voltage</td>
-          <td>VCC</td>
-          <td>+3.13</td>
-          <td>+3.3</td>
-          <td>+3.47</td>
+          <td>VCC3</td>
+          <td>-0.5</td>
+          <td>+3.6</td>
           <td>V</td>
-        </tr>
-
-        <tr>
-          <td>Data Rate, per Lane</td>
-          <td>DR</td>
-          <td>0.1</td>
-          <td>-</td>
-          <td>10.5</td>
-          <td>Gb/s</td>
-        </tr>
-
-        <tr>
-          <td>Differential Impedance</td>
-          <td>Z</td>
-          <td>90</td>
-          <td>100</td>
-          <td>110</td>
-          <td>Ohm</td>
-        </tr>
-
-        <tr>
-          <td>Durability Cycles</td>
-          <td></td>
-          <td></td>
-          <td>100</td>
-          <td>200</td>
-          <td>Times</td>
         </tr>
 
       </tbody>
@@ -244,12 +251,9 @@ system by looping back the electrical signal (optics are excluded). It provides 
   </div>
 </div>
 
-
-
-
 <Footer/>
     </>
   )
 }
 
-export default FourtyGLoopbackProduct
+export default DualDuplex1X9;
