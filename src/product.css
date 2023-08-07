@@ -230,3 +230,108 @@ box-shadow: 0px 1px 8px 0px #dbdbdb;
 .product-contain-col-two p{
 
 }
+
+
+/* --------New Product ----------*/
+
+@media only screen and (max-width:600px){
+.product-struct{
+    padding:35% 2% 5% 2%;
+}
+
+}
+
+@media only screen and (min-width:786px){
+.product-struct{
+    padding:20% 5% 0% 5%;
+}
+
+}
+
+@media only screen and (min-width:998px){
+.product-struct{
+    padding:15% 10% 0% 10% ;
+}
+
+}
+
+@media only screen and (min-width:1400px){
+.product-struct{
+    padding:15% 8% 0% 8% ;
+}
+
+}
+
+/*--------------------- Swiper -------------------- */
+
+.product-struct{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productImgLightBox{
+    width: 50%;
+}
+
+.product-content{
+    width: 50%;
+}
+
+.lightbox-img{
+    height: 50px ;
+    width:100px;
+    margin: 0px 5px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.LightBox{
+position: sticky;
+top: 20%;
+}
+
+.product-content{
+
+}
+
+.img-main{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    
+}
+
+.pricing-section{
+    background-color: #e3e3e3;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+
+.pricing-section p{
+    line-height: 3.5;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+
+.cart-btn{
+    width:100%
+}
+
+.cart-btn-buy{
+width: 100%;
+text-align: center;
+}
+
+.cart-btn-cart{
+  width: 100%;
+  text-align: center;  
+}
+
+.btn-warning{
+    color: white !important;
+    width: 45% !important;
+}

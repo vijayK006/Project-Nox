@@ -12,6 +12,8 @@ import Index from './Component/Index';
 import AboutUs from './Component/AboutUs';
 import FourtyGLoopbackProduct from './Component/40GLoopbackProduct';
 import DualDuplex1X9 from "./Component/DualDuplex1X9"
+import Productpage from './Component/Productpage';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
      <Route path="/AboutUs" element={<AboutUs/>}/>
      <Route path="/40G-Loopback-Product" element={<FourtyGLoopbackProduct/>}/>
      <Route path="/DualDuplex1X9" element={<DualDuplex1X9/>}/>
+     <Route path="/Productpage" element={<Productpage/>}/>
     </Routes>
     
      
