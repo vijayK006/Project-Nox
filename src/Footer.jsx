@@ -29,7 +29,7 @@ St Johns Road, Bangalore – 42
 India.
 </p>
 
-<div className='d-flex pb-2'>
+<div className='d-flex flex-wrap pb-2'>
   <a href='tel:+91 80-41622171' style={{textDecoration:"none"}}><p className='childone'><MdAddIcCall className='footerIcons'/> 80-41622171 |&nbsp;</p></a>
 <a href='tel:+91-80-41622171' style={{textDecoration:"none"}}><p className='childone'> 80-41622171 |&nbsp;</p></a>
 <a href='tel:+91 9945052666' style={{textDecoration:"none"}}><p className='childone'> 9945052666.</p></a>
@@ -45,10 +45,10 @@ India.
 
 <div className='d-flex pb-4'>
 
-<BiLogoFacebook className="social-icons"/>
-<GrTwitter className="social-icons"/>
-<AiFillYoutube className="social-icons"/>
-<GrLinkedinOption className="social-icons"/>
+<a href="#"><BiLogoFacebook className="social-icons"/></a>
+<a href="#"><GrTwitter className="social-icons"/></a>
+<a href="#"><AiFillYoutube className="social-icons"/></a>
+<a href="#"><GrLinkedinOption className="social-icons"/></a>
 
 </div>
 </div>

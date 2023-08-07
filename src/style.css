@@ -16,7 +16,56 @@ background-color: #f1f1f1;
         padding: 10px;
         border-radius: 10px;
         transition: all 0.8s ease-in-out;
-     }
+     
+    }
+
+    
+.section-header2 h1{
+    font-size: 40px;
+    }
+
+     .section-header2 {
+        width: 100%;
+    }
+
+
+     .bg-img1{
+        background-image: url('./img/sectionBg/bg1.jpg');
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+    }
+
+     .bg-content{
+        position: absolute;
+        width: 94%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: 500;
+        line-height: 2;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+     .sectionImg {
+        height: 300px;
+        width: 100%;
+        object-fit: fill;
+    }
+     
+     .heading-banner h1{
+        font-size: 30px;
+        }
+
+     .about-bg{
+        background-image: url('./img/aboutus.jpg');
+        height: 167px;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: contain;
+        position: relative;
+    }
 
      .logo_footer{
         height: auto;
@@ -83,6 +132,53 @@ background-color: #f1f1f1;
         transition: all 0.8s ease-in-out;
     }
 
+    
+.section-header2 h1{
+    font-size: 40px;
+    }
+
+    .section-header2 {
+        width: 85%;
+    }
+
+    .bg-img1{
+        background-image: url('./img/sectionBg/bg1.jpg');
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        position: relative;
+    }
+    
+     .bg-content{
+        position: absolute;
+        width: 70%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: 500;
+        line-height: 2;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .sectionImg {
+        height: 300px;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .heading-banner h1{
+        font-size: 60px;
+        }
+
+    .about-bg{
+        background-image: url('./img/aboutus.jpg');
+        height: 550px;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+    }
+
     .logo_footer{
         height: auto;
         width: 90%;
@@ -131,7 +227,7 @@ background-color: #f1f1f1;
 
 }
 
-@media only screen and (min-width:998px){
+@media only screen and (min-width: 998px){
     .notification_card-hover{
         background-color: white;
         height: 100px;
@@ -144,6 +240,55 @@ background-color: #f1f1f1;
         padding: 10px;
         border-radius: 0px 0px 10px 10px;
         transition: all 0.8s ease-in-out;
+    }
+
+    
+.section-header2 h1{
+    font-size: 50px;
+    }
+
+    .logo_footer{
+        height: auto;
+        width: 60%;
+        margin: 10px 0px;
+            }
+            
+    .section-header2 {
+        width: 85%;
+    }
+
+    .bg-img1{
+        background-image: url('./img/sectionBg/bg1.jpg');
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        position: relative;
+    }
+    
+     .bg-content{
+        position: absolute;
+        width: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: 500;
+        line-height: 2;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .sectionImg {
+        height: 300px;
+        width: 90%;
+        object-fit: fill;
+    }
+
+    .about-bg{
+        background-image: url('./img/aboutus.jpg');
+        height: 400px;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        position: relative;
     }
 
     .leave-navbar{
@@ -167,7 +312,7 @@ background-color: #f1f1f1;
 
 }
 
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:1400px){
     
     .hover-parent:hover .sign_card-hover{
         opacity: 1;
@@ -175,6 +320,53 @@ background-color: #f1f1f1;
         transform: translateY(17%);
         visibility: visible;
     
+    }
+
+    .heading-banner h1{
+        font-size: 80px;
+        }
+
+        
+.section-header2 h1{
+    font-size: 55px;
+    }
+
+        .section-header2 {
+            width: 85%;
+        }
+
+    .about-bg{
+        background-image: url('./img/aboutus.jpg');
+        height: 550px;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+    }
+
+    .bg-img1{
+        background-image: url('./img/sectionBg/bg1.jpg');
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        position: relative;
+    }
+    
+     .bg-content{
+        position: absolute;
+        width: 45%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: 500;
+        line-height: 2;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .sectionImg {
+        height: 300px;
+        width: 90%;
+        object-fit: fill;
     }
 
     .logo_footer{
@@ -535,3 +727,40 @@ text-decoration: none;
     font-weight: 500;
     border-radius: 5px;
 }
+
+
+
+.sectionImg{
+    border-radius: 10px;
+}
+
+
+
+
+.section-header2 p{
+text-align: justify;
+}
+
+.section-card2{
+/* background-image: linear-gradient(188deg, white, #008ad2); */
+/* border-radius: 10px; */
+background-color: #008ad2;
+transition: all 0.3s ease-in-out;
+transform: translateY(0px);
+}
+
+.section-card2:hover{
+    transform: translateY(-10px);
+
+}
+.section-card2 p{
+    text-align: center;
+    margin: 0px 0px;
+    color: white;
+    line-height: 8;
+    font-weight: 500;
+
+}
+
+
+
