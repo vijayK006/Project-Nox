@@ -327,7 +327,7 @@ const close_menu30=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP28 100G Loopback</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP56 200G Loopback</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP-DD 400G Loopback</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP+ 40G Loopback</p></Link>
+<Link to="/40G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP+ 40G Loopback</p></Link>
 
 
 </div>
@@ -503,7 +503,7 @@ const close_menu30=()=>{
 
 <p className='menu-title '>1X9</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 BIDI</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 DUAL</p></Link>
+<Link to="/DualDuplex1X9" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 DUAL</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 CWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps </p></Link>
