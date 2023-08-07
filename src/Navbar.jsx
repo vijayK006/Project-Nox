@@ -295,7 +295,10 @@ const close_menu30=()=>{
 <div className='navbar-top'>
 
 <div className='nav-icon-tab'>
+<Link to="/">
+
     <img src={logoIcon} className='logo_icon' alt='logo'/>
+    </Link>
 </div>
 
 

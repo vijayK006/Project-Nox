@@ -20,7 +20,9 @@ const Footer = () => {
     <div className='row'>
 
       <div className='col-lg-4 col-md-4 col-sm-12'>
+     <Link to="/">
       <img src={logoIcon} className='logo_footer' alt='logo'/>
+     </Link> 
 
 
 <p className='pt-3 pb-1'>No. 52, 1st Floor, 
