@@ -228,6 +228,18 @@ box-shadow: 0px 1px 8px 0px #dbdbdb;
     
 }
 
+.banner-heading{
+    position: absolute;
+    left: 85%;
+    color: black;
+    top: 50%;
+    transform: translate(-85%, -50%);
+    font-weight: 500;
+    margin: 0px;
+    width: max-content;
+    letter-spacing: 2px;
+}
+
 .lightbox-img{
      height: auto;
     width: 70px;
@@ -292,6 +304,17 @@ background-color: #ff5416;
     padding:20% 5% 0% 5%;
 }
 
+.banner-heading{
+    position: absolute;
+    left: 85%;
+    color: black;
+    top: 50%;
+    transform: translate(-85%, -50%);
+    font-weight: 500;
+    margin: 0px;
+    width: max-content;
+    letter-spacing: 2px;
+}
 
 .cart-btn{
     width:100%;
@@ -385,6 +408,18 @@ background-color: #ff5416;
     
 }
 
+.banner-heading{
+    position: absolute;
+    left: 85%;
+    color: black;
+    top: 50%;
+    transform: translate(-85%, -50%);
+    font-weight: 500;
+    margin: 0px;
+    width: max-content;
+    letter-spacing: 2px;
+}
+
 .lightbox-img{
     height: 50px ;
     width:100px;
@@ -455,6 +490,18 @@ background-color: #ff5416;
     top: 20%;
     margin-bottom: 0px;
 
+    }
+
+    .banner-heading{
+        position: absolute;
+        left: 85%;
+        color: black;
+        top: 50%;
+        transform: translate(-85%, -50%);
+        font-weight: 500;
+        margin: 0px;
+        width: max-content;
+        letter-spacing: 2px;
     }
 
 .btn-buy_now{
@@ -570,4 +617,56 @@ background-color: white;
     margin: 10px 15px;
     font-size: 15px;
     font-weight: 400;
+}
+
+.banner_img2{
+    height: 100px;
+  
+}
+
+
+
+.productImg3{
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.product-dec{
+    padding-top: 20px;
+}
+
+.product-dec h5{
+    font-size: 16px;
+    font-weight: 350;
+}
+
+.product-card:hover{
+cursor: pointer;
+}
+
+.product-dec p{
+font-weight: 500;
+}
+
+.enquire-btn{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    background-color: #008ad2;
+    transform: translate(-5%, -0%);
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 50px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover .enquire-btn{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    top: 5%;
+    transform: translate(-5%, -5%);
+cursor: pointer;
 }
