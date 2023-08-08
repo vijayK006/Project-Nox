@@ -9,13 +9,6 @@ width: 100%;
 margin-bottom: 20px;
 }
 
-.product-content{
-
-}
-
-.product-overview p{
-
-}
 
 
 .mainproduct-img{
@@ -53,13 +46,7 @@ width: 100%;
 margin-bottom: 20px;
 }
 
-.product-content{
 
-}
-
-.product-overview p{
-
-}
 
 .mainproduct-img{
     width: 100%;
@@ -206,12 +193,7 @@ color: gray;
 }
 
 
-.pricing{
-    margin: 20px 0px;
-    font-size: 30px;
-    font-weight: 600;
-    color: green;
-}
+
 
 .light-box-img{
     height: 60px;
@@ -541,17 +523,6 @@ background-color: #ff5416;
     display: flex;
     flex-wrap: wrap;
 }
-
-
-
-
-
-
-
-.product-content{
-
-}
-
 
 
 .pricing-section{

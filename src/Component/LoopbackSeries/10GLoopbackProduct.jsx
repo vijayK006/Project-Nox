@@ -1,11 +1,11 @@
-import {React,useState} from 'react'
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+import {React} from 'react'
+import Navbar from '../../Navbar';
+import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../img/products/40GLoopbackImg.jpg'
-import memorymapimg from '../img/products/40GLoopback/memorymap.jpg'
-import mchdimensionImg from '../img/products/40GLoopback/mechDimention.png'
+import loopbackImg1 from '../../img/products/10GLoopback/10GloopbackImg.jpg'
+import memorymapimg from '../../img/products/10GLoopback/memoryMapImg.jpg'
+import mchdimensionImg from '../../img/products/10GLoopback/macdimension.jpg'
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -15,7 +15,7 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const FourtyGLoopbackProduct = () => {
+const TenGLoopbackProduct = () => {
    
   return (
 
@@ -92,15 +92,14 @@ const FourtyGLoopbackProduct = () => {
 
 </div>
 
-
-
 </div>
 
 <div className='product-content'>
-<h4>40G QSFP+ Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 
-0~3.5W Power Consumption</h4>
+<h4>10G SFP+ Electrical Passive Loopback
+Hot Pluggable, 0~5dB Internal Attenuation, 0~2.5W Power Consumption
+</h4>
 
-<span>Path Number : NXO-IX-XLB-xx-xx</span>
+<span>Path Number : NXO-HX-XLB-xx-xx</span>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>US $149.00</p>
@@ -115,20 +114,23 @@ const FourtyGLoopbackProduct = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with SFF-8436 QSFP28 MSA</p>
-<p className='listFeture'>Compliant with IEEE 802.3bm CAUI-4 Interface</p>
+<p className='listFeture'>Compliant with SFF-8431 SFP+ MSA</p>
 <p className='listFeture'>Electrical Data Rate up to 10.5Gbps per Lane</p>
-<p className='listFeture'>Hot Pluggable QSFP+ footprint</p>
+<p className='listFeture'>Hot Pluggable </p>
 <p className='listFeture'>2-wire interface for management</p>
 <p className='listFeture'>Single 3.3V power supply</p>
 <p className='listFeture'>Different Option for Internal Attenuation and Power Consumption</p>
 <p className='listFeture'>RoHS compliant</p>
 
+
+<h5 className='pt-5'>Applications</h5>
+
+<p className='listFeture'>Board and System Level Testing</p>
+<p className='listFeture'>System Test and Measurement</p>
+<p className='listFeture'>Switch / Router Chamber Test</p>
+<p className='listFeture'>Power Consumption Validation</p>
+
 </div>
-
-
-
-
 
 </div>
 
@@ -138,6 +140,9 @@ const FourtyGLoopbackProduct = () => {
     <li class="nav-item">
       <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
+
+ 
+
     <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
     </li>
@@ -155,11 +160,13 @@ const FourtyGLoopbackProduct = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-IX-XLB QSFP+ Loopback modules are compliant with the current QSFP+ Multi-Source Agreement
-( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP+ port in the host
-system by looping back the electrical signal (optics are excluded). It provides an economical way to mimic 40G Ethernet in simulation testing environments</p>
+ <p>NXO-HX-XLB SFP+ Loopback modules are compliant with the current SFP+ Multi-Source Agreement ( MSA ) specification. The Loopback modules provide an effective way of testing the SFP+ port in the host system by looping back the electrical signal (optics are excluded).
+It provides an economical way to mimic Fast Ethernet, Gigabit Ethernet, 10G Ethernet, SONET OC3~OC192, SDH STM-1~STM-64, 1x/2x/4x/8x/10x Fiber Channel, and CPRI Option #7, #8 on SFP/SFP+ ports in simulation testing environments.
+</p>
 </div>
 </div>
+
+
 
 <div id="menu1" class="container tab-pane active"><br/>
     <div class="container mt-3">
@@ -191,16 +198,16 @@ system by looping back the electrical signal (optics are excluded). It provides 
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
-          <td>0</td>
-          <td>85</td>
+          <td>5</td>
+          <td>95</td>
           <td>%</td>
         </tr>
 
         <tr>
           <td>Supply Voltage</td>
-          <td>VCC3</td>
+          <td>VCC</td>
           <td>-0.5</td>
-          <td>+3.6</td>
+          <td>+4.0</td>
           <td>V</td>
         </tr>
 
@@ -313,4 +320,4 @@ system by looping back the electrical signal (optics are excluded). It provides 
   )
 }
 
-export default FourtyGLoopbackProduct;
+export default TenGLoopbackProduct;

@@ -322,11 +322,11 @@ const close_menu30=()=>{
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>Loop Back Series</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ 10G Loopback</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP28 25G Loopback</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP28 100G Loopback</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP56 200G Loopback</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP-DD 400G Loopback</p></Link>
+<Link to="/10G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ 10G Loopback</p></Link>
+<Link to="/25G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP28 25G Loopback</p></Link>
+<Link to="/100G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP28 100G Loopback</p></Link>
+<Link to="/200G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP56 200G Loopback</p></Link>
+<Link  to="/400G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP-DD 400G Loopback</p></Link>
 <Link to="/40G-Loopback-Product" style={{textDecoration:"none"}}><p className='menu-inner-items'>QSFP+ 40G Loopback</p></Link>
 
 
@@ -733,12 +733,12 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series1'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu1}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ 10G Loopback</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP28 25G Loopback</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G Loopback</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28 100G Loopback</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP56 200G Loopback</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP-DD 400G Loopback</p></Link>
+<Link to="/10G-Loopback-Product" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ 10G Loopback</p></Link>
+<Link to="/25G-Loopback-Product" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP28 25G Loopback</p></Link>
+<Link to="/40G-Loopback-Product" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G Loopback</p></Link>
+<Link to="/100G-Loopback-Product" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28 100G Loopback</p></Link>
+<Link to="/200G-Loopback-Product" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP56 200G Loopback</p></Link>
+<Link to="/400G-Loopback-Product" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP-DD 400G Loopback</p></Link>
 </div>
 
 <div className='mobile-nav-all_product' id='series2'>

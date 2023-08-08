@@ -32,11 +32,7 @@ import tcable1 from '../img/products/transceiverCable1.jpg';
 import tcable3 from '../img/products/transceiverCable2.jpg';
 import tcable2 from '../img/products/transceiverCable3.jpg';
 
-// Cart Products
-import product1 from '../img/products/pro1.jpg';
-import product2 from '../img/products/pro2.jpg';
-import product3 from '../img/products/pro3.jpg';
-import product4 from '../img/products/pro4.jpg';
+
 
 // Certification
 import houseImg from '../img/wherehouse.jpg';
