@@ -1,108 +1,133 @@
-import React from 'react';
+import {React,useState} from 'react'
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-
-
-//product Images 
-import loopbackImg1 from '../img/products/40GLoopbackImg.jpg'
 import { Link } from 'react-router-dom';
 
-import { BiDollar } from 'react-icons/bi';
+import loopbackImg1 from '../img/products/40GLoopbackImg.jpg'
+import memorymapimg from '../img/products/40GLoopback/memorymap.jpg'
+import mchdimensionImg from '../img/products/40GLoopback/mechDimention.png'
 
+import { LiaWarehouseSolid } from 'react-icons/lia';
+import { MdSecurity } from 'react-icons/md';
+import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
+
+// photo swaping 
+import 'photoswipe/dist/photoswipe.css'
+import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const FourtyGLoopbackProduct = () => {
- 
+   
   return (
+
     <>
-<Navbar/>
+    <Navbar/>
 
-<div className=' d-flex product-contain flex-wrap'>
-<div className='product-img'>
+<div className='product-struct'>
+<div className='productImgLightBox'>
 
-<div className='section-fixed'>
-<img src={loopbackImg1} alt='40GLoopBack' className='mainproduct-img'/>
+<div className='LightBox'>
 
-<div className='container-fluid pt-lg-5 pt-2'>
-    <div className='row'>
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={loopbackImg1} className='img-main' alt="product-40GLoobBack"/>
+</div>
 
-        <div className='col-4'>
-<img src={loopbackImg1} alt='40GLoopBack' className='light-box-img'/>
+<p className='text-center' style={{color:"gray", fontWeight:"200", fontSize:"15px" , marginBottom:"0px"}}>Click to open expanded view</p>
 
-        </div>
-        <div className='col-4'>
-<img src={loopbackImg1} alt='40GLoopBack' className='light-box-img'/>
-
-        </div>
-
-        <div className='col-4'>
-<img src={loopbackImg1} alt='40GLoopBack' className='light-box-img'/>
-
-        </div>
+  <div className="d-flex justify-content-center">
+        <Gallery>
 
 
-    </div>
+    <Item
+      original={loopbackImg1}
+      thumbnail={loopbackImg1}
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+      )}
+    </Item>
+
+    <Item
+      original={loopbackImg1}
+      thumbnail={loopbackImg1}
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+      )}
+    </Item>
+
+    <Item
+      original={loopbackImg1}
+      thumbnail={loopbackImg1}
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+      )}
+    </Item>
+
+    <Item
+      original={loopbackImg1}
+      thumbnail={loopbackImg1}
+      width="1024"
+      height="768"
+    >
+      {({ ref, open }) => (
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+      )}
+    </Item>
+   
+  </Gallery>
 </div>
 
 
-<p className='pricing'><BiDollar/> 1.0 USD</p>
-<div className='but-button d-flex'>
-<Link to='/' className='btn btn-primary btn-cover'><p className='product-btn'>Buy Now</p></Link> &nbsp;&nbsp;
-<Link to='/' className='btn btn-warning btn-cover'><p className='product-btn'>Add To Cart</p></Link>
+<div className="d-flex justify-content-center flex-wrap cart-btn">
+<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Buy Now</Link> &nbsp;
+<Link className='btn-add_cart' to=''><BsCartPlus style={{marginBottom:"5px"}}/> Add To Cart</Link>
+</div>
+
 </div>
 
 
-
-</div>
 
 </div>
 
 <div className='product-content'>
-<h1>40G QSFP+ Electrical Passive Loopback
-Hot Pluggable, 0~5dB Internal Attenuation, 0~3.5W Power Consumption</h1>
+<h4>40G QSFP+ Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 
+0~3.5W Power Consumption</h4>
 
 <span>Path Number : NXO-IX-XLB-xx-xx</span>
 
+<div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
+<p>US $149.00</p>
 
-<div className='product-overview pt-4 pb-2'>
-<h5>Overview</h5>
-    <p>NXO-IX-XLB QSFP+ Loopback modules are compliant with the current QSFP+ Multi-Source Agreement
-( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP+ port in the host
-system by looping back the electrical signal (optics are excluded). It provides an economical way to mimic 40G Ethernet in simulation testing environments.
-</p>
+<div className='sell-text'>629 Sold | 19 Reviews | 50 Questions</div>
 </div>
 
-<div className='container-fluid'>
-    <div className='row'>
-        <div className='col-lg-6 col-md-6 col-sm-12'>
-<div className='product-contain-col-two pt-4 pb-2'>
-<h5>Applications</h5>
-    <p>Board and System Level Testing</p>
-    <p>System Test and Measurement</p>
-    <p>Switch / Router Chamber Test</p>
-    <p>Power Consumption Validation</p>
- 
+<div className='sub-content'>
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse</p>
+<p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
-        </div>
 
-        <div className='col-lg-6 col-md-6 col-sm-12'>
-<div className='product-contain-col-two pt-4 pb-2'>
 <h5>Features</h5>
-    <p>Compliant with SFF-8436 QSFP28 MSA</p>
-    <p>Compliant with IEEE 802.3bm CAUI-4 Interface</p>
-    <p>Electrical Data Rate up to 10.5Gbps per Lane</p>
-    <p>Hot Pluggable QSFP+ footprint</p>
- 
-</div>
-        </div>
 
-    </div>
-</div>
-
-
-
-
+<p className='listFeture'>Compliant with SFF-8436 QSFP28 MSA</p>
+<p className='listFeture'>Compliant with IEEE 802.3bm CAUI-4 Interface</p>
+<p className='listFeture'>Electrical Data Rate up to 10.5Gbps per Lane</p>
+<p className='listFeture'>Hot Pluggable QSFP+ footprint</p>
+<p className='listFeture'>2-wire interface for management</p>
+<p className='listFeture'>Single 3.3V power supply</p>
+<p className='listFeture'>Different Option for Internal Attenuation and Power Consumption</p>
+<p className='listFeture'>RoHS compliant</p>
 
 </div>
+
+
+
 
 
 </div>
@@ -111,10 +136,14 @@ system by looping back the electrical signal (optics are excluded). It provides 
 <div className='d-flex felx-wrap justify-content-center'>
        <ul class="nav nav-pills" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" data-bs-toggle="pill" href="#home">Absolute Maximum Ratings</a>
+      <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Recommended Operating Conditions</a>
+      <a class="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
   </ul> 
@@ -123,6 +152,16 @@ system by looping back the electrical signal (optics are excluded). It provides 
 
   <div class="tab-content">
     <div id="home" class="container tab-pane active"><br/>
+    <div class="container mt-3">
+  <h2>Overview</h2>
+  
+ <p>NXO-IX-XLB QSFP+ Loopback modules are compliant with the current QSFP+ Multi-Source Agreement
+( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP+ port in the host
+system by looping back the electrical signal (optics are excluded). It provides an economical way to mimic 40G Ethernet in simulation testing environments</p>
+</div>
+</div>
+
+<div id="menu1" class="container tab-pane active"><br/>
     <div class="container mt-3">
   <h2>Absolute Maximum Ratings</h2>
   
@@ -170,7 +209,8 @@ system by looping back the electrical signal (optics are excluded). It provides 
   </div>
 </div>
 </div>
-    <div id="menu1" class="container tab-pane fade"><br/>
+
+    <div id="menu2" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Recommended Operating Conditions</h2>
   
@@ -244,12 +284,33 @@ system by looping back the electrical signal (optics are excluded). It provides 
   </div>
 </div>
 
+{/* Memory Map Section Start */}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Memory Map</h1>
 
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={memorymapimg} className='sectionImg2' alt="memorymapImg"/>
+</div>
 
+</div>
+{/* Memory Map Section End */}
+
+{/* Mechanical Dimensions section start */}
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Mechanical Dimensions </h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
+</div>
+
+</div>
+
+{/* Mechanical Dimensions section end */}
 
 <Footer/>
     </>
   )
 }
 
-export default FourtyGLoopbackProduct
+export default FourtyGLoopbackProduct;
