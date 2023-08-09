@@ -23,6 +23,8 @@ import LR4_10KM_40G from './Component/40G_QSFP+/40G_LR4_10KM';
 import LR4_20KM_40G from './Component/40G_QSFP+/40G_LR4_20KM';
 import IR4_40G from './Component/40G_QSFP+/40G_IR4';
 import PSM4_IR_40G from './Component/40G_QSFP+/40G_PSM4_IR';
+import PSM4_LR_40G from './Component/40G_QSFP+/40G_PSM4_LR';
+import SWDM4_40G from './Component/40G_QSFP+/40G_SWDM4';
 
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
      <Route path="/LR4_20KM_40G" element={<LR4_20KM_40G/>}/>
      <Route path="/IR4_40G" element={<IR4_40G/>}/>
      <Route path="/PSM4_IR_40G" element={<PSM4_IR_40G/>}/>
+     <Route path="/PSM4_LR_40G" element={<PSM4_LR_40G/>}/>
+     <Route path="/SWDM4_40G" element={<SWDM4_40G/>}/>
     </Routes>
     
      
