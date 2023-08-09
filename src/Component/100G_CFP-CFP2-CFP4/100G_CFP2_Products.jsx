@@ -58,7 +58,7 @@ const CFP2_Products_100G = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>100G CFP CFP2 CFP4</h2>
+<h2 className='pt-5'>100G CFP2 </h2>
 
       <div className='row pt-5  pb-5'>
 
@@ -92,14 +92,15 @@ const CFP2_Products_100G = () => {
 <img src={productImg2} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
+  <h5>100G CFP2 ER4 Dual Rate Transceiver
+Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
 </h5>
 
 <h4>Feature's</h4>
-<p>Single +3.3V power supply</p>
-<p>Hot Pluggable</p>
-<p>1 port QSFP28 TX&RX</p>
-<p>RoHS compliant</p>
+<p>APD receiver</p>
+<p>Duplex LC connector</p>
+<p>Low power consumption, {'<'}12W</p>
+<p>Single 3.3V power supply</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -115,14 +116,16 @@ const CFP2_Products_100G = () => {
 <img src={productImg3} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
+  <h5>100G CFP2 LR4 Transceiver
+Hot Pluggable, Duplex LC, DML LAN-WDM, Single Mode, 10KM, DDM
+
 </h5>
 
 <h4>Feature's</h4>
-<p>Single +3.3V power supply</p>
-<p>Hot Pluggable</p>
-<p>1 port QSFP28 TX&RX</p>
-<p>RoHS compliant</p>
+<p>Compliant to CFP2 MSA</p>
+<p>Duplex LC connector</p>
+<p>Built in quad TX CDR and RX CDR</p>
+<p>Single 3.3V power supply</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -138,14 +141,15 @@ const CFP2_Products_100G = () => {
 <img src={productImg3} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
+  <h5>100G CFP2 LR4 Dual Rate Transceiver
+Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM
 </h5>
 
 <h4>Feature's</h4>
-<p>Single +3.3V power supply</p>
-<p>Hot Pluggable</p>
-<p>1 port QSFP28 TX&RX</p>
-<p>RoHS compliant</p>
+<p>Compliant to CFP2 MSA</p>
+<p>4-CH optical Mux/DeMux design</p>
+<p>Support up to 111.8Gb/s aggregate bit rate</p>
+<p>Built in quad TX CDR and RX CDR</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -162,13 +166,14 @@ const CFP2_Products_100G = () => {
 <img src={productImg4} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
+  <h5>100G CFP2 SR10 Dual Rate Transceiver
+Hot Pluggable, MPO / MTP-24, 850nm VCSEL, MMF, 100M, DDM
 </h5>
 
 <h4>Feature's</h4>
-<p>Single +3.3V power supply</p>
-<p>Hot Pluggable</p>
-<p>1 port QSFP28 TX&RX</p>
+<p>Compliant to CFP2 MSA</p>
+<p>Compliant to ITU G.709 OTU4</p>
+<p>Single 3.3V power supply</p>
 <p>RoHS compliant</p>
 </div>
 
