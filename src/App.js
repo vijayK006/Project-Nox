@@ -18,7 +18,7 @@ import TenGLoopbackProduct from './Component/LoopbackSeries/10GLoopbackProduct.j
 import TwentyFiveGLoopbackProduct from './Component/LoopbackSeries/25GLoopbackProduct.jsx';
 import Products_40G_LR4 from './Component/40G_QSFP+/40G_LR4_Products';
 import Product_40G_ER4 from './Component/40G_QSFP+/40G_ER4_Products';
-
+import Product_40G_eSR4 from "./Component/40G_QSFP+/40G_eSR4_Products";
 
 function App() {
   return (
@@ -35,6 +35,7 @@ function App() {
      <Route path="/25G-Loopback-Product" element={<TwentyFiveGLoopbackProduct/>}/>
      <Route path="/Products_40G_LR4" element={<Products_40G_LR4/>}/>
      <Route path="/Product_40G_ER4" element={<Product_40G_ER4/>}/>
+     <Route path='/Product_40G_eSR4' element={<Product_40G_eSR4/>}/>
     </Routes>
     
      
