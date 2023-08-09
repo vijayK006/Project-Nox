@@ -204,7 +204,7 @@ RoHS Compliant
 </div>
 </div>
 
-<div id="menu1" class="container tab-pane active"><br/>
+<div id="menu1" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Absolute Maximum Ratings</h2>
   
@@ -324,6 +324,7 @@ RoHS Compliant
   </div>
 </div>
  </div>
+ 
  <div id="menu3" class="container tab-pane fade"><br/>
  
  <div class="container mt-3">
