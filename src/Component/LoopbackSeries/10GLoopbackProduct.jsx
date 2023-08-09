@@ -86,8 +86,7 @@ const TenGLoopbackProduct = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Buy Now</Link> &nbsp;
-<Link className='btn-add_cart' to=''><BsCartPlus style={{marginBottom:"5px"}}/> Add To Cart</Link>
+<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Enquire Now</Link>
 </div>
 
 </div>
@@ -99,12 +98,12 @@ const TenGLoopbackProduct = () => {
 Hot Pluggable, 0~5dB Internal Attenuation, 0~2.5W Power Consumption
 </h4>
 
-<span>Path Number : NXO-HX-XLB-xx-xx</span>
+{/* <span> : </span> */}
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>US $149.00</p>
+<p>Path Number</p>
 
-<div className='sell-text'>629 Sold | 19 Reviews | 50 Questions</div>
+<p className='sell-text'>NXO-HX-XLB-xx-xx</p>
 </div>
 
 <div className='sub-content'>

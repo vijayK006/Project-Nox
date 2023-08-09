@@ -86,8 +86,7 @@ const FourtyGLoopbackProduct = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Buy Now</Link> &nbsp;
-<Link className='btn-add_cart' to=''><BsCartPlus style={{marginBottom:"5px"}}/> Add To Cart</Link>
+<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Enquire Now</Link>
 </div>
 
 </div>
