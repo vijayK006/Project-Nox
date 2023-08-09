@@ -63,7 +63,7 @@ const CFP2_Products_100G = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Product_100G_QSFP28" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
