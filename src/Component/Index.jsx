@@ -75,7 +75,7 @@ import { TbTruckDelivery, TbMessageChatbot, TbMessage2 } from 'react-icons/tb';
     <div class="carousel-item active">
       <img src={bannerImg3} alt="Los Angeles" class="d-block bannerImgcover"/>
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
+        <h3>Los </h3>
         <p>We had such a great time in LA!</p>
       </div>
     </div>
