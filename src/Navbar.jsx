@@ -378,7 +378,7 @@ const close_menu30=()=>{
 <p className='menu-title text-center'>40G QSFP+</p>
 <div className='row'>
     <div className='col-lg-6'>
-    <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SR4</p></Link>
+    <Link to="/Product_40G_SR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SR4</p></Link>
 <Link to="/Product_40G_eSR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-eSR4</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SRBD</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-IR4</p></Link>
@@ -790,13 +790,13 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series6'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu6}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-SR4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-eSR4</p></Link>
+<Link to="/Product_40G_ER4" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-SR4</p></Link>
+<Link to="/Product_40G_eSR4" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-eSR4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-SRBD</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-IR4</p></Link>
 <Link to="/Products_40G_LR4" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-LR4</p></Link>
 <Link to="/Product_40G_ER4" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-ER4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-ZR4</p></Link>
+<Link to="/Product_40G_ZR4" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-ZR4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-SWDM4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-PSM4-IR</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-PSM4-LR</p></Link>

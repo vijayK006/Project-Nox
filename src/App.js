@@ -21,7 +21,8 @@ import Product_40G_ER4 from './Component/40G_QSFP+/40G_ER4_Products';
 import Product_40G_eSR4 from "./Component/40G_QSFP+/40G_eSR4_Products";
 import LR4_10KM_40G from './Component/40G_QSFP+/40G_LR4_10KM';
 import Product_40G_ZR4 from './Component/40G_QSFP+/40G_ZR4_Products'
-
+import LR4_20KM_40G from './Component/40G_QSFP+/40G_LR4_20KM';
+import Product_40G_SR4 from './Component/40G_QSFP+/40G_SR4_Products'
 
 function App() {
   return (
@@ -40,8 +41,9 @@ function App() {
      <Route path="/Product_40G_ER4" element={<Product_40G_ER4/>}/>
      <Route path='/Product_40G_eSR4' element={<Product_40G_eSR4/>}/>
      <Route path="/LR4_10KM_40G" element={<LR4_10KM_40G/>}/>
-     <Route path="/Product_40G_ZR4" element={<Product_40G_ZR4/>}/>
-    
+     <Route path="/Product_40G_ZR4" element={<Product_40G_ZR4/>}/> 
+     <Route path="/LR4_20KM_40G" element={<LR4_20KM_40G/>}/>
+     <Route path="/Product_40G_SR4" element={<Product_40G_SR4/>}/>
      
     </Routes>
     
