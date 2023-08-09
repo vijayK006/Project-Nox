@@ -21,6 +21,8 @@ import Product_40G_ER4 from './Component/40G_QSFP+/40G_ER4_Products';
 import Product_40G_eSR4 from "./Component/40G_QSFP+/40G_eSR4_Products";
 import LR4_10KM_40G from './Component/40G_QSFP+/40G_LR4_10KM';
 import LR4_20KM_40G from './Component/40G_QSFP+/40G_LR4_20KM';
+import IR4_40G from './Component/40G_QSFP+/40G_IR4';
+import PSM4_IR_40G from './Component/40G_QSFP+/40G_PSM4_IR';
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
      <Route path='/Product_40G_eSR4' element={<Product_40G_eSR4/>}/>
      <Route path="/LR4_10KM_40G" element={<LR4_10KM_40G/>}/>
      <Route path="/LR4_20KM_40G" element={<LR4_20KM_40G/>}/>
+     <Route path="/IR4_40G" element={<IR4_40G/>}/>
+     <Route path="/PSM4_IR_40G" element={<PSM4_IR_40G/>}/>
     </Routes>
     
      
