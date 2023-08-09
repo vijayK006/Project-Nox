@@ -96,8 +96,9 @@ const Product_40G_ZR4 = () => {
 </div>
 
 <div className='product-content'>
-<h4>40G QSFP+ eSR4 Transceiver
-Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM
+<h4>40G QSFP+ ZR4 Transceiver
+Hot Pluggable, Duplex LC, LAN-WDM EML, SMF 80KM, DDM
+
 
 
 </h4>
@@ -175,8 +176,11 @@ RoHS compliant
 </p>
 <p className='listFeture'>OTN OTU3 @43.01G, OTU3e2 @44.58G
 
-
 </p>
+
+<p className='listFeture'>Data Centers Switch Interconnect
+</p>
+
 <p className='listFeture'>Server and Storage Area Network Interconnect
 </p>
 

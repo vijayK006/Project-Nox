@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const LR4_20KM_40G = () => {
+const IR4_40G = () => {
   return (
 <>
     <Navbar/>
@@ -98,14 +98,16 @@ const LR4_20KM_40G = () => {
 </div>
 
 <div className='product-content'>
-<h4>40G QSFP+ LR4 Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
+<h4>40G QSFP+ IR4 Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 2KM, DDM
+
+
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>NXO-I7-C13-20D</p>
+<p className='sell-text'>NXO-I7-C13-02D</p>
 </div>
 
 <div className='sub-content'>
@@ -117,7 +119,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
 
 <p className='listFeture'>Compliant with IEEE802.3ba 40GBASE-LR4</p>
 <p className='listFeture'>Compliant to SFF-8436 QSFP+ MSA</p>
-<p className='listFeture'>Supports QDR / DDR InfiniBand</p>
+<p className='listFeture'>Supports QDR InfiniBand</p>
 <p className='listFeture'>4CH CWDM MUX / DEMUX design</p>
 <p className='listFeture'>Up to 11.2Gbps data rate per CWDM channel</p>
 <p className='listFeture'>Hot Pluggable</p>
@@ -126,7 +128,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant 
 with SFF-8436, SFF-8636</p>
 <p className='listFeture'>Single 3.3V power supply</p>
-<p className='listFeture'>Link distance 10km over SM fiber</p>
+<p className='listFeture'>Link distance 2km over SM fiber</p>
 <p className='listFeture'>Maximum Power consumption 3.5W</p>
 <p className='listFeture'>RoHS compliant</p>
 
@@ -180,9 +182,9 @@ with SFF-8436, SFF-8636</p>
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I7-C13-20D is a 4-Channel CWDM 1300nm
-QSFP+ transceiver for 40GbE and InfiniBand DDR, QDR applications especially in Data Center & Storage networks. The transmitter converts 4-Channel 10G electrical input data to four CWDM optical signals and multiplex that into one 40G signal. The receiver
-de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 40Gbps up to SMF 20km optical links.
+ <p>NXO-I7-C13-02D is a 4-Channel CWDM 1300nm
+QSFP+ transceiver for 40GbE and InfiniBand DDR,  QDR applications especially in Data Center & Storage  networks. The transmitter converts 4-Channel 10G  electrical input data to four CWDM optical signals and  multiplex that into one 40G signal. The receiver
+de-multiplex the 40G signal reversely and converts that  to 4-Channel 10G electrical output data. The techniques  bring a compact transceiver module for an aggregate  bandwidth of 40Gbps up to SMF 2km optical links.
 
 </p>
 </div>
@@ -260,7 +262,7 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-I7-C13-20D)</td>
+          <td>Case Operating Temp. (NXO-I7-C13-10D)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -269,18 +271,9 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-I7-C13-20Di)</td>
-          <td>TOP</td>
-          <td>-40</td>
-          <td>-</td>
-          <td>+85</td>
-          <td>°C</td>
-        </tr>
-
-        <tr>
           <td>Supply Voltage</td>
           <td>VCC</td>
-          <td>+3.13</td>
+          <td>+3.00</td>
           <td>+3.3</td>
           <td>+3.47</td>
           <td>V</td>
@@ -318,7 +311,7 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
           <td>ICC</td>
           <td></td>
           <td></td>
-          <td>1100</td>
+          <td>1000</td>
           <td>mA</td>
         </tr>
 
@@ -326,7 +319,7 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
           <td>Power Consumption</td>
           <td>P</td>
           <td></td>
-          <td></td>
+          <td>2.5</td>
           <td>3.5</td>
           <td>W</td>
         </tr>
@@ -338,42 +331,6 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
           <td></td>
           <td>2000</td>
           <td>ms</td>
-        </tr>
-
-        <tr>
-          <td>Control Input Voltage High</td>
-          <td>VHI</td>
-          <td>2.0</td>
-          <td></td>
-          <td>Vcc</td>
-          <td>V</td>
-        </tr>
-
-        <tr>
-          <td>Control Input Voltage Low</td>
-          <td>VIL</td>
-          <td>GND</td>
-          <td></td>
-          <td>0.7</td>
-          <td>V</td>
-        </tr>
-
-        <tr>
-          <td>Control Output Voltage High</td>
-          <td>Voh</td>
-          <td>2.0</td>
-          <td></td>
-          <td>Vcc</td>
-          <td>V</td>
-        </tr>
-
-        <tr>
-          <td>Control Output Voltage Low</td>
-          <td>Vol</td>
-          <td>GND</td>
-          <td></td>
-          <td>0.7</td>
-          <td>V</td>
         </tr>
 
       </tbody>
@@ -418,7 +375,16 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
   are outside of a factory-set normal range.
 </p>
 
-<p>The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the QSFP+ transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the QSFP+ transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The  memories are organized as a series of 8-bit data words that can be addressed individually or sequentially. The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed from 000h to  the maximum address of the memory.
+<p>The operating and diagnostics information is monitored and reported by a Digital 
+Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial 
+interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated 
+by the host. The positive edge clocks data into the QSFP+ transceiver into those segments of its 
+memory map that are not write-protected. The negative edge clocks data from the QSFP+ transceiver. 
+The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in 
+conjunction with SCL to mark the start and end of serial protocol activation. The  memories are 
+organized as a series of 8-bit data words that can be addressed individually or sequentially. 
+The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed 
+from 000h to  the maximum address of the memory.
 </p>
 
 </div>
@@ -481,4 +447,4 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
   )
 }
 
-export default LR4_20KM_40G;
+export default IR4_40G;

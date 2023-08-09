@@ -7,7 +7,7 @@ import loopbackImg1 from '../../img/products/40G_eSR4/eSR4_1.jpg'
 import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
 import mchdimensionImg from '../../img/products/40G_eSR4/eSR4_3.jpg'
 import Transceiverimg from "../../img/products/40G_eSR4/eSR4_4.jpg"
-import powersupply from "../../img/products/40G_eSR4/eSR4_5.jpg.png"
+import powersupply from "../../img/products/40GQSFP+/optical.png"
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
