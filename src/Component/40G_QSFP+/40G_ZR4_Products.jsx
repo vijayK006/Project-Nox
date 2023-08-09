@@ -3,11 +3,11 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/40G_eSR4/eSR4_1.jpg'
-import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
-import mchdimensionImg from '../../img/products/40G_eSR4/eSR4_3.jpg'
-import Transceiverimg from "../../img/products/40G_eSR4/eSR4_4.jpg"
-import powersupply from "../../img/products/40GQSFP+/optical.png"
+import loopbackImg1 from '../../img/products/40G_ZR4/ZR4_1.jpg'
+import memorymapimg from '../../img/products/40G_ZR4/ZR4_2.jpg'
+import mchdimensionImg from '../../img/products/40G_ZR4/ZR4_3.jpg'
+import Transceiverimg from "../../img/products/40G_ZR4/ZR4_4.jpg"
+import powersupply from "../../img/products/40G_ZR4/ZR4_5.jpg"
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -17,7 +17,7 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Product_40G_eSR4 = () => {
+const Product_40G_ZR4 = () => {
    
   return (
 
@@ -96,8 +96,9 @@ const Product_40G_eSR4 = () => {
 </div>
 
 <div className='product-content'>
-<h4>40G QSFP+ eSR4 Transceiver
-Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM
+<h4>40G QSFP+ ZR4 Transceiver
+Hot Pluggable, Duplex LC, LAN-WDM EML, SMF 80KM, DDM
+
 
 
 </h4>
@@ -105,7 +106,8 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Path Number</p>
 
-<div className='sell-text'>NXO-I9-M85-X3D
+<div className='sell-text'>NXO-I7-L13-80D
+
 </div>
 </div>
 
@@ -117,54 +119,71 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM
 <h5>Features</h5>
 
 
+<p className='listFeture'>Compatible with IEEE802.3bm 40GBASE-ER4
 
-<p className='listFeture'>Compliant with IEEE802.3ba 40GBASE-SR4
-
-</p>
-<p className='listFeture'>Compliant with SFF-8436 QSFP+ MSA
 
 </p>
-<p className='listFeture'>Support InfiniBand QDR
+<p className='listFeture'>Compliant to SFF-8436 QSFP+ MSA
 
 </p>
-<p className='listFeture'>4 independent full-duplex channels
+<p className='listFeture'>Supports QDR / DDR InfiniBand
+
+
+</p>
+<p className='listFeture'>4CH LWDM MUX / DEMUX design
+
+<p className='listFeture'>
+Data Rate up to 11.2Gbps per Lane
+
+</p>
 
 </p>
 <p className='listFeture'>Hot Pluggable
 
 
 </p>
-<p className='listFeture'>MPO-12 receptacle connector
+<p className='listFeture'>O-Band LWDM EML transmitter
+</p>
+<p className='listFeture'>APD receiver
+
+
+</p>
+<p className='listFeture'>Duplex LC connector
+
 </p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8436, SFF-8636
 
 </p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8436, SFF-8636
-</p>
 <p className='listFeture'>Single 3.3V power supply
 </p>
-<p className='listFeture'>Link distance 300m over MM OM3 fiber, 400m over MM OM4 fiber
-RoHS Compliant
+<p className='listFeture'> 
+Link distance 80km over SM fiber
+</p>
+<p className='listFeture'>
+Maximum Power consumption 4.5W
+
+</p>
+<p className='listFeture'>
+RoHS compliant
 </p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>40Gb Ethernet
+<p className='listFeture'>40GBASE-ZR4 Ethernet
+
 
 </p>
 <p className='listFeture'>OTN OTU3 @43.01G, OTU3e2 @44.58G
 
 </p>
-<p className='listFeture'>Breakout to 4 x 10GBASE-SR Ethernet
-</p>
-<p className='listFeture'>InfiniBand QDR interconnects
-</p>
-<p className='listFeture'>Data Center & Storage
-</p>
-<p className='listFeture'>Datacom / Telecom Switch & Router
 
+<p className='listFeture'>Data Centers Switch Interconnect
 </p>
+
+<p className='listFeture'>Server and Storage Area Network Interconnect
+</p>
+
 </div>
 
 </div>
@@ -199,7 +218,14 @@ RoHS Compliant
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I9-M85-X3D is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
+ <p>
+ NXO-I7-L13-80D is a 4-Channel LWDM 1300nm QSFP+ transceiver for 40GbE and InfiniBand DDR,QDR applications especially in Data Center & Storage
+ networks. The transmitter converts 4-Channel 10G electrical input data to four LWDM optical signals and multiplex that into one 40G signal. The receiver
+de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 40Gbps up to SMF 80km optical links.
+
+
+
+
 </p>
 </div>
 </div>
@@ -301,30 +327,73 @@ RoHS Compliant
         </tr>
         
         <tr>
-          <td>Power Consumption</td>
-          <td>p</td>
+          <td>Data Rate, per lane
+</td>
+          <td>DR</td>
           <td></td>
-          <td></td>
-          <td>1.5</td>
-          <td>W</td>
+          <td>10.3125</td>
+          <td>12.</td>
+          <td>GB/s</td>
         </tr>
      
+        <tr>
+          <td>Data Rate Accuracy
+
+</td>
+          <td>ΔDR</td>
+          <td>-100
+</td>
+          <td></td>
+          <td>+100</td>
+          <td>ppm</td>
+        </tr>
+        
+
+        <tr>
+          <td>Bit Error Rate
+
+</td>
+          <td>BER
+</td>
+          <td>
+</td>
+          <td></td>
+          <td>10^-12
+</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Supply Current</td>  
+          <td>Icc</td>
+          <td>-</td>
+          <td></td>
+          <td>1300</td>
+          <td>mA</td>
+        </tr>
+        <tr>
+          <td>Power Consumption</td>
+          <td>p</td>
+          <td>
+</td>
+          <td></td>
+          <td>4.5</td>
+          <td>W</td>
+        </tr>
         <tr>
           <td>Transceiver Power-on Initialization Time
 </td>
           <td></td>
+          <td>
+</td>
           <td></td>
-          <td></td>
-          <td>2000</td>
+          <td>200</td>
           <td>ms</td>
         </tr>
-      
       </tbody>
     </table>
   </div>
 </div>
  </div>
- 
  <div id="menu3" class="container tab-pane fade"><br/>
  
  <div class="container mt-3">
@@ -354,6 +423,7 @@ Received optical power
 Transceiver supply voltage
   </li>
 </ul>
+
 
 <p>
 It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
@@ -424,4 +494,4 @@ It also provides a sophisticated system of alarm and warning flags, which may be
   )
 }
 
-export default Product_40G_eSR4;
+export default Product_40G_ZR4;

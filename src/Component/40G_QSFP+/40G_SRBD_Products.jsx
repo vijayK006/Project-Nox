@@ -3,11 +3,11 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/40G_eSR4/eSR4_1.jpg'
+import loopbackImg1 from '../../img/products/40GQSFP+/SRBD_1.jpg'
 import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
-import mchdimensionImg from '../../img/products/40G_eSR4/eSR4_3.jpg'
-import Transceiverimg from "../../img/products/40G_eSR4/eSR4_4.jpg"
-import powersupply from "../../img/products/40GQSFP+/optical.png"
+import mchdimensionImg from '../../img/products/40GQSFP+/SRBD_2.jpg'
+import Transceiverimg from "../../img/products/40GQSFP+/SRBD_3.jpg"
+import powersupply from "../../img/products/40GQSFP+/SRBD_4.jpg"
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -17,7 +17,7 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Product_40G_eSR4 = () => {
+const Product_40G_SRBD = () => {
    
   return (
 
@@ -96,8 +96,10 @@ const Product_40G_eSR4 = () => {
 </div>
 
 <div className='product-content'>
-<h4>40G QSFP+ eSR4 Transceiver
-Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM
+<h4>40G QSFP+ SR2-BiDi Transceiver
+Hot Pluggable, Dual Bidi LC, 850 / 910nm VCSEL, MMF 100M, DDM
+
+
 
 
 </h4>
@@ -105,7 +107,9 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Path Number</p>
 
-<div className='sell-text'>NXO-I9-M85-X3D
+<div className='sell-text'>NXO-IC-C85-X1D
+
+
 </div>
 </div>
 
@@ -118,53 +122,65 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM
 
 
 
-<p className='listFeture'>Compliant with IEEE802.3ba 40GBASE-SR4
-
+<p className='listFeture'>Compliant with 40GBASE-SR2 BiDi
 </p>
 <p className='listFeture'>Compliant with SFF-8436 QSFP+ MSA
 
-</p>
-<p className='listFeture'>Support InfiniBand QDR
 
 </p>
-<p className='listFeture'>4 independent full-duplex channels
-
-</p>
-<p className='listFeture'>Hot Pluggable
+<p className='listFeture'>Compliant with IEEE 802.3ba-2010 40GbE XLPPI Interface
 
 
 </p>
-<p className='listFeture'>MPO-12 receptacle connector
+<p className='listFeture'>Dual wavelength 850 / 910nm VCSEL Bi- Directional optical interface
+
+
+</p>
+<p className='listFeture'>Up to 11.2Gbps data rate per 10G channel
+</p>
+<p className='listFeture'>Built in quad TX CDR and RX CDR
+
+</p>
+<p className='listFeture'> 
+Hot Pluggable
+</p>
+<p className='listFeture'>
+Dual Bidi LC connector
+
 </p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8436, SFF-8636
 
 </p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8436, SFF-8636
-</p>
+
 <p className='listFeture'>Single 3.3V power supply
 </p>
-<p className='listFeture'>Link distance 300m over MM OM3 fiber, 400m over MM OM4 fiber
+<p className='listFeture'>Link distance 100m over MM OM3 fiber, 150m over MM OM4 fiber
 RoHS Compliant
+</p>
+
+<p className='listFeture'>
+Maximum power consumption 3.5W
+
+</p>
+<p className='listFeture'>
+RoHS compliant
+
 </p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>40Gb Ethernet
+<p className='listFeture'>40GBASE-SR2 Ethernet @41.3G
 
 </p>
-<p className='listFeture'>OTN OTU3 @43.01G, OTU3e2 @44.58G
+<p className='listFeture'>Data Centers Switch Interconnect
 
 </p>
-<p className='listFeture'>Breakout to 4 x 10GBASE-SR Ethernet
-</p>
-<p className='listFeture'>InfiniBand QDR interconnects
-</p>
-<p className='listFeture'>Data Center & Storage
-</p>
-<p className='listFeture'>Datacom / Telecom Switch & Router
+<p className='listFeture'>Server and Storage Area Network Interconnect
 
 </p>
+
+
 </div>
 
 </div>
@@ -199,7 +215,9 @@ RoHS Compliant
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I9-M85-X3D is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
+ <p>
+ NXO-I9-M85-X1D is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
+
 </p>
 </div>
 </div>
@@ -283,29 +301,45 @@ RoHS Compliant
         </tr>
        
         <tr>
-          <td>Supply Voltage</td>
-          <td>VCC</td>
-          <td>+3.13</td>
-          <td>+3.3</td>
-          <td>+3.47</td>
-          <td>V</td>
+          <td>Electrical Data Rate, per Lane</td>
+          <td>DRel</td>
+          <td></td>
+          <td>10.3125</td>
+          <td>11.2</td>
+          <td>Gb/s</td>
         </tr>
 
         <tr>
-          <td>Supply Current</td>
-          <td>icc</td>
+          <td>Data Rate Accuracy</td>
+          <td>ΔDR</td>
+          <td>-100</td>
           <td></td>
-          <td></td>
-          <td>450</td>
-          <td>mA</td>
+          <td>-100</td>
+          <td>ppm</td>
         </tr>
         
+        <tr>
+          <td>Bit Error Rate </td>
+          <td>BER</td>
+          <td></td>
+          <td></td>
+          <td>5x10^-5</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Supply Current </td>
+          <td>Icc</td>
+          <td></td>
+          <td>750</td>
+          <td>1000</td>
+          <td>mA</td>
+        </tr>
         <tr>
           <td>Power Consumption</td>
           <td>p</td>
           <td></td>
-          <td></td>
-          <td>1.5</td>
+          <td>2.5</td>
+          <td>3.5</td>
           <td>W</td>
         </tr>
      
@@ -318,7 +352,48 @@ RoHS Compliant
           <td>2000</td>
           <td>ms</td>
         </tr>
-      
+        <tr>
+          <td>Control Input Voltage High
+
+        </td>
+          <td>ViH</td>
+          <td>2.0</td>
+          <td></td>
+          <td>Vcc</td>
+          <td>V</td>
+        </tr>
+        
+        <tr>
+          <td>Control Input Voltage Low
+
+        </td>
+          <td>ViL</td>
+          <td>2.0</td>
+          <td></td>
+          <td>Vcc</td>
+          <td>V</td>
+        </tr>
+        <tr>
+          <td>Control output Voltage High
+
+        </td>
+          <td>VoH</td>
+          <td>2.0</td>
+          <td></td>
+          <td>Vcc</td>
+          <td>V</td>
+        </tr>
+        <tr>
+          <td>Control Input Voltage High
+
+        </td>
+          <td>VoL</td>
+          <td>GND</td>
+          <td></td>
+          <td>o.7</td>
+          <td>V</td>
+        </tr>
+       
       </tbody>
     </table>
   </div>
@@ -410,7 +485,7 @@ It also provides a sophisticated system of alarm and warning flags, which may be
 
 {/* Recommended Power Supply Filter */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Optical Interface Lanes and Assignment </h1>
+  <h1 className='pb-4'>Recommended Power Supply Filter</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={powersupply} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
@@ -424,4 +499,4 @@ It also provides a sophisticated system of alarm and warning flags, which may be
   )
 }
 
-export default Product_40G_eSR4;
+export default Product_40G_SRBD;
