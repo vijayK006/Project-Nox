@@ -347,7 +347,7 @@ const close_menu30=()=>{
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>100G CFP CFP2 CFP4</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP2</p></Link>
+<Link to="/CFP2_Products_100G" style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP2</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G CFP4</p></Link>
 
 </div>
@@ -764,7 +764,7 @@ const close_menu30=()=>{
 <TiBackspaceOutline className='close_icon' onClick={close_menu4}/>
 
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G CFP</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G CFP2</p></Link>
+<Link to="/CFP2_Products_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G CFP2</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G CFP4</p></Link>
 
 </div>
