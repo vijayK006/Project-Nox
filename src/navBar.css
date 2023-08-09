@@ -121,6 +121,7 @@ margin: 0px 0px 20px 0px;
         .navs{
             display: flex;
         flex-wrap: unset;
+        padding-left: 100%;
         }
 
         .nav-icons{
@@ -165,6 +166,7 @@ display: inline-block;
         .navs{
             display: flex;
         flex-wrap: unset;
+        padding-left: 0%;
         }
 
         .n{
@@ -220,6 +222,7 @@ display: inline-block;
         .navs{
             display: flex;
         flex-wrap: wrap;
+        padding-left: 0%;
         }
 
         .margin-0-lineHeight{
@@ -268,6 +271,7 @@ display: none;
         .navs{
             display: flex;
         flex-wrap: wrap;
+        padding-left: 0%;
         }
 
 .navbar-top{

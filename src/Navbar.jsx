@@ -794,8 +794,8 @@ const close_menu30=()=>{
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-eSR4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-SRBD</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-IR4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-LR4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-ER4</p></Link>
+<Link to="/Products_40G_LR4" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-LR4</p></Link>
+<Link to="/Product_40G_ER4" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-ER4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-ZR4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-SWDM4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP+ 40G-PSM4-IR</p></Link>

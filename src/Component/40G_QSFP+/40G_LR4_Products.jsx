@@ -7,6 +7,7 @@ import bannerImg2 from '../../img/products/productbanner2.jpg'
 import Navbar from '../../Navbar'
 import Footer from '../../Footer';
 import EnquireForm from '../EnquireForm';
+import { Link } from 'react-router-dom';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -59,6 +60,8 @@ const Products_40G_LR4 = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/LR4_10KM_40G" style={{textDecoration:"none", color:"black"}}>
+
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
@@ -76,9 +79,9 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
+</Link>
 
         </div>
-
 
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
