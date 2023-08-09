@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const LR4_10KM_40G = () => {
+const LR4_20KM_40G = () => {
   return (
 <>
     <Navbar/>
@@ -99,14 +99,13 @@ const LR4_10KM_40G = () => {
 
 <div className='product-content'>
 <h4>40G QSFP+ LR4 Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
-
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>NXO-I7-C13-10D</p>
+<p className='sell-text'>NXO-I7-C13-20D</p>
 </div>
 
 <div className='sub-content'>
@@ -483,4 +482,4 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
   )
 }
 
-export default LR4_10KM_40G;
+export default LR4_20KM_40G;

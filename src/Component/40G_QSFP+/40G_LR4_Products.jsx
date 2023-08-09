@@ -85,7 +85,8 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-<div className='product-card position-relative'>
+        <Link to="/LR4_20KM_40G" style={{textDecoration:"none", color:"black"}}>
+        <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
@@ -102,11 +103,8 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
-
+        </Link>
         </div>
-
-    
-
       </div>
 </div>
 
