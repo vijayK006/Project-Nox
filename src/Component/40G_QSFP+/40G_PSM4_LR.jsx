@@ -201,9 +201,9 @@ with SFF-8436, SFF-8636</p>
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I9-S13-02D is a Four-Channel Parallel SM Fibers QSFP+ transceiver for 40GbE and
+ <p>NXO-I9-S13-10D is a Four-Channel Parallel SM Fibers QSFP+ transceiver for 40GbE and
 InfiniBand DDR, QDR, SDR application especially in
-Data Center & Storage networks. The QSFP full- duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3Gbps operation for an aggregate data rate of 41.2Gbps up to SMF 2km optical links.
+Data Center & Storage networks. The QSFP full- duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3Gbps operation for an aggregate data rate of 41.2Gbps up to SMF 10km optical links.
 
 </p>
 </div>
@@ -405,6 +405,9 @@ organized as a series of 8-bit data words that can be addressed individually or 
 The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed 
 from 000h to  the maximum address of the memory.
 </p>
+
+<p><b>For more detailed information including memory map definitions, please see the QSFP+ MSA Specification.
+</b></p>
 
 </div>
  </div>

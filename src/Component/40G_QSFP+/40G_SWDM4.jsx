@@ -444,6 +444,8 @@ The 2-wire serial interface provides sequential or random access to the 8 bit pa
 from 000h to  the maximum address of the memory.
 </p>
 
+<p><b>For more detailed information including memory map definitions, please see the QSFP+ MSA Specification.
+</b></p>
 </div>
  </div>
 

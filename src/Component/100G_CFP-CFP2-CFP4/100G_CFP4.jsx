@@ -276,9 +276,9 @@ Interoperability with G.709 FEC
 
         <tr>
           <td>Supply Voltage</td>
-          <td>VCC</td>
-          <td>-0.5</td>
-          <td>+3.6</td>
+          <td>VCC3</td>
+          <td>-0.3</td>
+          <td>+3.7</td>
           <td>V</td>
         </tr>
 
