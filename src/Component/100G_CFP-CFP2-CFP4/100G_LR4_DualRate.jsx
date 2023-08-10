@@ -1,13 +1,14 @@
-import {React} from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/100G CFP CFP2 CFP4/100GCFP2.jpg'
-import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
-import mchdimensionImg from '../../img/products/40GQSFP+/p28_2.jpg'
-import Transceiverimg from "../../img/products/100G CFP CFP2 CFP4/adopterBlock.png"
-import powersupply from "../../img/products/100G CFP CFP2 CFP4/CFP2Assisment.png"
+import loopbackImg1 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
+import memorymapimg from '../../img/products/100G CFP CFP2 CFP4/pinAssisment.jpg'
+import mchdimensionImg from '../../img/products/100G CFP CFP2 CFP4/macdimensionLR4Eathernet.jpg'
+import Transceiverimg from "../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg"
+import powersupply from "../../img/products/40GQSFP+/SRBD_4.jpg"
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -17,8 +18,25 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Product_100G_QSFP28 = () => {
+const LR4_DualRate_100G = () => {
    
+  let pathNumber = "NXO-K7-L13-10DR";
+  let productName = "100G CFP2 LR4 Dual Rate Transceiver Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM";
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_s6yscqg', 'template_nnkudli', form.current, 'ctLMl35oWO-hYo21q')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message Sent :)");
+
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
 
     <>
@@ -88,7 +106,7 @@ const Product_100G_QSFP28 = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/>Request a Quote</Link>
+<Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal" ><BsCartCheck style={{marginBottom:"5px"}}/>Request a Quote</Link>
 </div>
 
 </div>
@@ -96,8 +114,7 @@ const Product_100G_QSFP28 = () => {
 </div>
 
 <div className='product-content'>
-<h4>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
-
+<h4>{productName}
 
 
 
@@ -108,8 +125,7 @@ const Product_100G_QSFP28 = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Path Number</p>
 
-<div className='sell-text'>NXO-AS8-C2QP-Nx
-
+<div className='sell-text'>{pathNumber}
 
 
 </div>
@@ -122,49 +138,65 @@ const Product_100G_QSFP28 = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with CFP2 Hardware Specification Version 1.0
+
+
+
+<p className='listFeture'>Compliant to CFP2 MSA
 
 
 </p>
-<p className='listFeture'>Compliant with CFP Management Interface Specification Version 2.4
+<p className='listFeture'>Compliant to IEEE802.3ba 100GBase-LR4 and OTN OTU4 OTL4.4 standard
 
 </p>
-<p className='listFeture'>4 Full-Duplex channels
+<p className='listFeture'>Electrical interface compliant with CFP2 MSA
 
 </p>
-<p className='listFeture'>Internal CDR on Transmitters and Receivers
-</p>
-<p className='listFeture'>Transmission data rate up to 28Gpbs per channel
-
+<p className='listFeture'>4-CH optical Mux/DeMux design
 
 </p>
-<p className='listFeture'>OTU4 compatible
+<p className='listFeture'>Electrical serial data rate up to 27.9525Gbps
+
+
+
+</p>
+<p className='listFeture'>EML LAN-WDM array transmitter
 
 
 
 </p>
 <p className='listFeture'> 
-Without FEC
-</p>
-<p className='listFeture'>
-1 port QSFP28 TX&RX
-</p>
-<p className='listFeture'>
-Interoperability with G.709 FEC
-</p>
+Duplex LC connector
 
-<p className='listFeture'>MDIO digital diagnostic interface
-</p>
-<p className='listFeture'>
-Single +3.3V power supply
 
 </p>
 <p className='listFeture'>
-Power Class 3
+MDIO interface for management and diagnostic monitor
+
+
 
 </p>
 <p className='listFeture'>
-Operating case temperature 0 ~ +70°C
+Built in quad TX CDR and RX CDR
+
+
+
+</p>
+
+<p className='listFeture'>Single 3.3V power supply
+
+
+</p>
+
+<p className='listFeture'>
+Low power consumption, less than 9W
+
+</p>
+<p className='listFeture'>
+Link length up to 10km over single mode fiber
+
+</p>
+<p className='listFeture'>
+All metal housing for superior EMI performance
 
 </p>
 <p className='listFeture'>
@@ -172,23 +204,25 @@ RoHS compliant
 
 </p>
 
-
 <h5 className='pt-5'>Applications</h5>
 
 
-<p className='listFeture'>Metro 100G DWDM transmission
+<p className='listFeture'>100GBASE-LR4 Ethernet
 
-
-</p>
-<p className='listFeture'>Cloud / Data Center interconnection
 
 
 </p>
-<p className='listFeture'>Long-Haul transmission system
+<p className='listFeture'>OTN OTU4 Application
+
 
 
 </p>
+<p className='listFeture'>Data Center
+</p>
+<p className='listFeture'>
+Datacom/ Telecom Switch & Router
 
+</p>
 
 </div>
 
@@ -222,10 +256,8 @@ RoHS compliant
   <h2>Overview</h2>
   
  <p>
- The 100G CFP2 to QSFP28 Adapter module,
-NXO-AS8-C2QP, is a four-channel, high performance, hot pluggable and ideal interconnect solution supporting 100G Ethernet and OTN OTU4. It converts CFP MSA interface to 1-port 100GE QSFP28 and integrates four data lanes in each direction with operating data rate up to 28Gbps per lane. NXO-AS8-C2QP has no FEC function itself but it could support 100G QSFP28 LR4 / ER4 modules without FEC. When the 100GE host equipment has FEC function on CFP2 port, it could support 100G QSFP28 SR4 / PSM4 / CWDM4 / CLR4
-modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS compliant.
-
+ NXO-K7-L13-10DR is a parallel fiber optical transceiver module for 100Gbit/s data transmission applications at 1300nm LAN-WDM. It is ideally suited for 100GbE Datacom, Storage Area Network (SAN) and OTN Telecom applications based on IEEE 802.3ba 100GBase Ethernet and OTN OTU4 standards.
+The transceiver incorporates a 4-channel laser driver circuit together with a 4-channel EML LAN-WDM array coupled with an optical multiplexer. On the receiver side. an optical de-multiplexer is coupled with a 4-channel photodiode array and a 4-channel TIA array resulting in a compact module for an aggregate bandwidth of 111.8Gb/s
 </p>
 </div>
 </div>
@@ -249,7 +281,7 @@ modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS c
       </thead>
       <tbody>
 
-        <tr>
+      <tr>
           <td>Storage Temperature</td>
           <td>TST</td>
           <td>-40</td>
@@ -260,14 +292,14 @@ modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS c
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
-          <td>0</td>
+          <td>5</td>
           <td>85</td>
           <td>%</td>
         </tr>
 
         <tr>
           <td>Supply Voltage</td>
-          <td>VCC</td>
+          <td>VCC3</td>
           <td>-0.5</td>
           <td>+3.6</td>
           <td>V</td>
@@ -284,72 +316,68 @@ modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS c
   <h2>Recommended Operating Conditions</h2>
   
   <div class="table-responsive">
-  <table class="table table-hover">
+    <table class="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
           <th>Symbol</th>
-          <th>Typ.</th>
           <th>Min.</th>
+          <th>Typ.</th>
           <th>Max.</th>
           <th>Unit</th>
-          <th>Note</th>
-          
 
 
         </tr>
       </thead>
       <tbody>
-
-        <tr>
-          <td>Operating Case Temperature
-</td>
-          <td>Top</td>
+      
+      <tr>
+          <td>Case Operating Temperature</td>
+          <td>TOP</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
-          <td> </td>
         </tr>
 
         <tr>
           <td>Supply Voltage</td>
-          <td>Vcc</td>
-          <td>+3.13</td>
+          <td>VCC</td>
+          <td>+3.135</td>
           <td>+3.3</td>
-          <td>+3.47</td>
+          <td>+3.465</td>
           <td>V</td>
-          <td></td>
         </tr>
+
+
         <tr>
-          <td>Maximum Power Dissipation</td>
-          <td>P</td>
+          <td>Supply Current</td>
+          <td>ICC</td>
           <td></td>
           <td></td>
-          <td>2</td>
-          <td>W</td>
-          <td>1</td>
+          <td>2500</td>
+          <td>mA</td>
         </tr>
 
         <tr>
-          <td>Data Rate per Lane</td>
+          <td>Module Total Power</td>
+          <td>P</td>
           <td></td>
           <td></td>
-          <td>25.78125</td>
-          <td>27.952</td>
-          <td>GBPS</td>
-          <td></td>
+          <td>9</td>
+          <td>W</td>
         </tr>
-        
+
         <tr>
-          <td>Aggregate Data Rate</td>
-          <td></td>
+          <td>Aggregate Bit Rate</td>
+          <td>BRAVE</td>
           <td></td>
           <td>103.125</td>
-          <td>111.8</td>
-          <td>Gbps</td>
           <td></td>
+          <td>Gb/s</td>
         </tr>
+
+       
       </tbody>
     </table>
   </div>
@@ -371,7 +399,6 @@ modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS c
 </div>
 
 </div> */}
-{/* Memory Map Section End */}
 
 {/* Mechanical Dimensions section start */}
 
@@ -379,7 +406,7 @@ modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS c
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
+<img src={mchdimensionImg} className='sectionImg4' alt="memorymapImg"/>
 </div>
 
 </div>
@@ -390,28 +417,85 @@ modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS c
 {/* {Transceiver Block Diagram} */}
 
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Adapter Block Diagram </h1>
+  <h1 className='pb-4'>Transceiver Block Diagram </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={Transceiverimg} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
 
 </div>
+{/* Memory Map Section End */}
 
-{/* Recommended Power Supply Filter */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>CFP2 Pin Assignment</h1>
+  <h1 className='pb-4'>Pin Assignment  </h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={memorymapimg} className='sectionImg2' alt="memorymapImg"/>
+</div>
+
+</div>
+{/* Recommended Power Supply Filter */}
+{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Recommended Power Supply Filter</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={powersupply} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 
 </div>
 
-</div>
+</div> */}
 
 <Footer/>
+{/* --------------------------------------------------------------------------------------------------------- */}
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      {/* <!-- Modal Header --> */}
+      <div class="modal-header">
+        <h4 class="modal-title">Enquire Now</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {/* <!-- Modal body --> */}
+      <div class="modal-body">
+      <form ref={form} onSubmit={sendEmail}>
+
+      <div className='row'>
+<div className='col-6'>
+<label>Your Product Path Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+</div>
+<div className='col-6'>
+<label>Your Product Name</label>
+<input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
+
+      </div>
+    </div>
+
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+        <div className='row'>
+<div className='col-6'>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+</div>
+<div className='col-6'>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+
+      </div>
+    </div>
+      
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+<input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
+      </form>
+       </div>
+
+
+
+    </div>
+  </div>
+</div>
     </>
   )
 }
 
-export default Product_100G_QSFP28;
+export default LR4_DualRate_100G;
