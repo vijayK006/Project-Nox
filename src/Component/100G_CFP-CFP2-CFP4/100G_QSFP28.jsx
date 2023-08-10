@@ -176,17 +176,21 @@ RoHS compliant
 <h5 className='pt-5'>Applications</h5>
 
 
-<p className='listFeture'>Metro 100G DWDM transmission
+<p className='listFeture'>IEEE 802.3ba 100GBASE-LR4 / ER4 Ethernet
 
 
 </p>
-<p className='listFeture'>Cloud / Data Center interconnection
+<p className='listFeture'>100GE interconnects for QSFP28 SR4 / PSM4 / CWDM4, CLR4 when CFP2 port with FEC.
 
 
 </p>
-<p className='listFeture'>Long-Haul transmission system
+<p className='listFeture'>Data aggregation and backplane application
 
 
+
+</p>
+
+<p className='listFeture'>High speed core router connection and Datacom / Telcom switch
 </p>
 
 
