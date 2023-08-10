@@ -88,7 +88,7 @@ const Product_40G_SR4 = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Enquire Now</Link>
+<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/>Request a Quote</Link>
 </div>
 
 </div>
