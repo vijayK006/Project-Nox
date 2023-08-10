@@ -1,4 +1,5 @@
-import {React} from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
@@ -18,6 +19,23 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_40G_SRBD = () => {
+  let productName = "40G QSFP+ SR2-BiDi Transceiver Hot Pluggable, Dual Bidi LC, 850 / 910nm VCSEL, MMF 100M, DDM";
+  let pathNumber = "NXO-IC-C85-X1D";
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_s6yscqg', 'template_nnkudli', form.current, 'ctLMl35oWO-hYo21q')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message Sent :)");
+
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
    
   return (
 
@@ -88,7 +106,7 @@ const Product_40G_SRBD = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Enquire Now</Link>
+<Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal"><BsCartCheck style={{marginBottom:"5px"}}/> Enquire Now</Link>
 </div>
 
 </div>
@@ -495,6 +513,55 @@ It also provides a sophisticated system of alarm and warning flags, which may be
 </div>
 
 <Footer/>
+
+{/* --------------------------------------------------------------------------------------------------------- */}
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      {/* <!-- Modal Header --> */}
+      <div class="modal-header">
+        <h4 class="modal-title">Enquire Now</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {/* <!-- Modal body --> */}
+      <div class="modal-body">
+      <form ref={form} onSubmit={sendEmail}>
+
+      <div className='row'>
+<div className='col-6'>
+<label>Your Product Path Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+</div>
+<div className='col-6'>
+<label>Your Product Name</label>
+<input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
+
+      </div>
+    </div>
+
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+        <div className='row'>
+<div className='col-6'>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+</div>
+<div className='col-6'>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+
+      </div>
+    </div>
+      
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+<input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
+      </form>
+       </div>
+
+
+
+    </div>
+  </div>
+</div>
     </>
   )
 }
