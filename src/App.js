@@ -39,8 +39,17 @@ import ER4_DuleRate_100G from './Component/100G_CFP-CFP2-CFP4/100G_ER4_DualRate'
 import SR10_DuleRate_100G from './Component/100G_CFP-CFP2-CFP4/100G_SR10_Dual-Rate';
 import SFP_8GFC_ELR from './Component/8GFC SFP+_DUAL/SFP+8GFC_ELR';
 import LR4_DualRate_100G from "./Component/100G_CFP-CFP2-CFP4/100G_LR4_DualRate"
-import ER4_100G from './Component/100G_QSFP28/100G_ER4';
+import ER4_100G from './Component/100G_QSFP28/100G_ER4_Products';
 import Product_16GFC_SFP from "./Component/16GFC_SFP_SW/16GFC_SFP"
+import ER4_Single_rate_100G from './Component/100G_QSFP28/100G_ER4_Single-Rate';
+import ER4_VNTP_Media_100G from './Component/100G_QSFP28/100G_ER4_VNTP_Media';
+import ESR4_100G from './Component/100G_QSFP28/100G-eSR4';
+import ZR4_100G from './Component/100G_QSFP28/100G-ZR4';
+import PSM4_Ethernet_100G from './Component/100G_QSFP28/100G_PSM4_Ethernet';
+import LR4_100G from './Component/100G_QSFP28/100G_LR4_Products';
+import LR4_Ethernet_OTU4_100G from './Component/100G_QSFP28/100G_LR4_Ethernet_OTU4';
+import LR4_Ethernet_100G from './Component/100G_QSFP28/100G_LR4_Ethernet';
+import SFP28_SR_Products from './Component/25G SFP28/SFP28_SR_Products';
 
 function App() {
   return (
@@ -79,6 +88,15 @@ function App() {
      <Route path="/LR4_DualRate_100G" element={<LR4_DualRate_100G/>}/>
      <Route path="/ER4_100G" element={<ER4_100G/>}/>
      <Route path="/Product_16GFC_SFP" element={<Product_16GFC_SFP/>}/>
+     <Route path="/ER4_Single_rate_100G" element={<ER4_Single_rate_100G/>}/>
+     <Route path="/ER4_VNTP_Media_100G" element={<ER4_VNTP_Media_100G/>}/>
+     <Route path="/ESR4_100G" element={<ESR4_100G/>}/>
+     <Route path="/ZR4_100G" element={<ZR4_100G/>}/>
+     <Route path="/PSM4_Ethernet_100G" element={<PSM4_Ethernet_100G/>}/>
+     <Route path="/LR4_100G" element={<LR4_100G/>}/>
+     <Route path="/LR4_Ethernet_OTU4_100G" element={<LR4_Ethernet_OTU4_100G/>}/>
+     <Route path="/LR4_Ethernet_100G" element={<LR4_Ethernet_100G/>}/>
+     <Route path="/SFP28_SR_Products" element={<SFP28_SR_Products/>}/>
      
     </Routes>
     

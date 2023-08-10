@@ -61,7 +61,7 @@ const ER4_100G = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/ER4_Single_rate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -85,7 +85,7 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/ER4_VNTP_Media_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>

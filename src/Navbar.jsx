@@ -402,15 +402,15 @@ const close_menu30=()=>{
 <div className="row">
     <div className='col-lg-6 '>
     <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-SR4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-eSR4</p></Link>
+<Link to="/ESR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-eSR4</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-SRBD</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-PSM4</p></Link>
+<Link to="/PSM4_Ethernet_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-PSM4</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-DR1/FR1/LR1</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-LR4</p></Link>
+<Link to="/LR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-LR4</p></Link>
     </div>
     <div className='col-lg-6 '>
     <Link to="/ER4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ER4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ZR4</p></Link>
+<Link to="/ZR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ZR4</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-CWDM4</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-4WDM-20</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-10/20/30/40</p></Link>
@@ -425,7 +425,7 @@ const close_menu30=()=>{
 <div className='col-lg-2'>
 <p className='menu-title '>25G SFP28</p>
 
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 SR</p></Link>
+<Link to="/SFP28_SR_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 SR</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 LR</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 CWDM</p></Link>
@@ -773,13 +773,13 @@ const close_menu30=()=>{
 <TiBackspaceOutline className='close_icon' onClick={close_menu5}/>
 
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-SR4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-eSR4</p></Link>
+<Link to="/ESR4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-eSR4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-SRBD</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-PSM4</p></Link>
+<Link to="/PSM4_Ethernet_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-PSM4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-DR1/FR1/LR1</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-LR4</p></Link>
+<Link to="/LR4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-LR4</p></Link>
 <Link to="/ER4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-ER4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-ZR4</p></Link>
+<Link to="/ZR4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-ZR4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-CWDM4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-BIDI-4WDM-20</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-BIDI-10 / 20 / 30 / 40</p></Link>
@@ -806,7 +806,7 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series7'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu7}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 SR</p></Link>
+<Link to="/SFP28_SR_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 SR</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 LR</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 BIDI</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 CWDM</p></Link>

@@ -140,14 +140,14 @@ const Product_CFP4 = () => {
 
 
 
-<p className='listFeture'>Compliant with NXO MSA and CAUI 100GE host
+<p className='listFeture'>Compliant with CFP MSA and CAUI 100GE host
+interface
+</p>
 
-</p>
-<p className='listFeture'>interface
-</p>
 <p className='listFeture'>Compliant with OTL4.10 for OTU4 host interface
 </p>
-<p className='listFeture'>DNDSF reach distance 1200km without in-line Dispersion Compensation ( with Optical Amplifier )
+<p className='listFeture'>NDSF reach distance 1200km without in-line Dispersion Compensation ( with Optical Amplifier )
+
 </p>
 <p className='listFeture'>98 Channels DWDM 50GHz Tunable in the rage of THz 191.25 (H12) to THz196.10 (C61)
 
