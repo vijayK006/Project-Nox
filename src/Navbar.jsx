@@ -370,7 +370,7 @@ const close_menu30=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP56 SR4</p></Link>
 
 <p className='menu-title pt-3'>16GFC SFP+( 14.025G )</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>16GFC SFP+ SW</p></Link>
+<Link to="/Product_16GFC_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>16GFC SFP+ SW</p></Link>
 
 </div>
 
@@ -820,7 +820,7 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series8'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu8}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>16GFC SFP+ SW</p></Link>
+<Link to="/Product_16GFC_SFP" style={{textDecoration:"none"}}><p className='mob-nav-items'>16GFC SFP+ SW</p></Link>
 
 
 </div>
