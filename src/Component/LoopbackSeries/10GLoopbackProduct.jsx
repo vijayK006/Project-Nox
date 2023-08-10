@@ -1,6 +1,7 @@
 import {React} from 'react'
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
+import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
 
 import loopbackImg1 from '../../img/products/10GLoopback/10GloopbackImg.jpg'
@@ -15,7 +16,11 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
+
+
 const TenGLoopbackProduct = () => {
+let pathNumber = "NXO-HX-XLB-xx-xx"
+let productName = "10G SFP+ Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 0~2.5W Power Consumption "
    
   return (
 
@@ -86,7 +91,7 @@ const TenGLoopbackProduct = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Request a Quote</Link>
+<Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal"><BsCartCheck style={{marginBottom:"5px"}} /> Request a Quote</Link>
 </div>
 
 </div>
@@ -94,20 +99,19 @@ const TenGLoopbackProduct = () => {
 </div>
 
 <div className='product-content'>
-<h4>10G SFP+ Electrical Passive Loopback
-Hot Pluggable, 0~5dB Internal Attenuation, 0~2.5W Power Consumption
-</h4>
+<h4>{productName}</h4>
 
 {/* <span> : </span> */}
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Path Number</p>
 
-<p className='sell-text'>NXO-HX-XLB-xx-xx</p>
+<p className='sell-text' id="pathNumber">{pathNumber}</p>
+
 </div>
 
 <div className='sub-content'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse</p>
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse </p>
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
@@ -314,7 +318,58 @@ It provides an economical way to mimic Fast Ethernet, Gigabit Ethernet, 10G Ethe
 
 {/* Mechanical Dimensions section end */}
 
+
 <Footer/>
+{/* --------------------------------------------------------------------------------------------------------- */}
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      {/* <!-- Modal Header --> */}
+      <div class="modal-header">
+        <h4 class="modal-title">Enquire Now</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {/* <!-- Modal body --> */}
+      <div class="modal-body">
+      <form>
+
+      <div className='row'>
+<div className='col-6'>
+<label>Your Product Path Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={pathNumber} readOnly/>
+</div>
+<div className='col-6'>
+<label>Your Product Name</label>
+<input type='text' className='form-control mt-2 mb-2' value={productName} readOnly/>
+
+      </div>
+    </div>
+
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' required/>
+        <div className='row'>
+<div className='col-6'>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' required/>
+</div>
+<div className='col-6'>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' required/>
+
+      </div>
+    </div>
+      
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' required></textarea>
+<input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
+      </form>
+       </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
     </>
   )
 }

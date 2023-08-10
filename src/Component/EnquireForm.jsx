@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+
 
 const EnquireForm = () => {
   return (
@@ -10,7 +12,7 @@ const EnquireForm = () => {
 
       {/* <!-- Modal Header --> */}
       <div class="modal-header">
-        <h4 class="modal-title">Enquire Now</h4>
+        <h4 class="modal-title">Enquire Now </h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
@@ -28,15 +30,12 @@ const EnquireForm = () => {
       </div>
     </div>
       
-       <textarea rows="5" cols="5" className='form-control' placeholder='Enter Your Message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>
 
-      {/* <!-- Modal footer --> */}
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-      </div>
+
 
     </div>
   </div>
