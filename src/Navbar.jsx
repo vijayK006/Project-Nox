@@ -401,9 +401,9 @@ const close_menu30=()=>{
 <p className='menu-title text-center'>100G QSFP28</p>
 <div className="row">
     <div className='col-lg-6 '>
-    <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-SR4</p></Link>
+    <Link to="/Product_QSFP28_100G_SR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-SR4</p></Link>
+<Link to="/Product_QSFP28_100G_SRBD" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-SRBD</p></Link>
 <Link to="/ESR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-eSR4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-SRBD</p></Link>
 <Link to="/PSM4_Ethernet_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-PSM4</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-DR1/FR1/LR1</p></Link>
 <Link to="/LR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-LR4</p></Link>
@@ -772,9 +772,9 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series5'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu5}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-SR4</p></Link>
+<Link to="/Product_QSFP28_100G_SR4" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-SR4</p></Link>
 <Link to="/ESR4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-eSR4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-SRBD</p></Link>
+<Link to="/Product_QSFP28_100G_SRBD" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-SRBD</p></Link>
 <Link to="/PSM4_Ethernet_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-PSM4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-DR1/FR1/LR1</p></Link>
 <Link to="/LR4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-LR4</p></Link>
