@@ -459,6 +459,9 @@ It also provides a sophisticated system of alarm and warning flags, which may be
 </p>
 <p>For more detailed information including memory map definitions, please see the QSFP+ MSA Specification.
 </p>
+
+<p><b>For more detailed information including memory map definitions, please see the QSFP+ MSA Specification.
+</b></p>
 </div>
 </div>
   </div>
