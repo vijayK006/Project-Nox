@@ -50,6 +50,7 @@ import LR4_100G from './Component/100G_QSFP28/100G_LR4_Products';
 import LR4_Ethernet_OTU4_100G from './Component/100G_QSFP28/100G_LR4_Ethernet_OTU4';
 import LR4_Ethernet_100G from './Component/100G_QSFP28/100G_LR4_Ethernet';
 import SFP28_SR_Products from './Component/25G SFP28/SFP28_SR_Products';
+import SFP28_25G_SR from './Component/25G SFP28/SFP28_25G_SR';
 
 function App() {
   return (
@@ -97,6 +98,7 @@ function App() {
      <Route path="/LR4_Ethernet_OTU4_100G" element={<LR4_Ethernet_OTU4_100G/>}/>
      <Route path="/LR4_Ethernet_100G" element={<LR4_Ethernet_100G/>}/>
      <Route path="/SFP28_SR_Products" element={<SFP28_SR_Products/>}/>
+     <Route path="/SFP28_25G_SR" element={<SFP28_25G_SR/>}/>
      
     </Routes>
     

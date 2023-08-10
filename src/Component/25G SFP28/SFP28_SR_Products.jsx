@@ -60,7 +60,7 @@ const SFP28_SR_Products = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP28_25G_SR" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
