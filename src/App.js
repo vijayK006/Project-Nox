@@ -41,6 +41,13 @@ import SFP_8GFC_ELR from './Component/8GFC SFP+_DUAL/SFP+8GFC_ELR';
 import LR4_DualRate_100G from "./Component/100G_CFP-CFP2-CFP4/100G_LR4_DualRate"
 import ER4_100G from './Component/100G_QSFP28/100G_ER4';
 import Product_16GFC_SFP from "./Component/16GFC_SFP_SW/16GFC_SFP"
+import Product_QSFP28_100G_SR4 from "./Component/100G_QSFP28/QSFP28_100G_SR4"
+import Product_100G_SR4 from "./Component/100G_QSFP28/100G_SR4"
+import Product_100G_SR4_DualRate from "./Component/100G_QSFP28/100G_SR4_DualRate"
+import Product_QSFP28_100G_SRBD from "./Component/100G_QSFP28/QSFP28-100G-SRBD"
+import Product_100G_SRBD from "./Component/100G_QSFP28/100G_SRBD"
+import Product_100G_SRBD_DualRate from "./Component/100G_QSFP28/100G_SRBD-DualRate"
+
 
 function App() {
   return (
@@ -79,6 +86,13 @@ function App() {
      <Route path="/LR4_DualRate_100G" element={<LR4_DualRate_100G/>}/>
      <Route path="/ER4_100G" element={<ER4_100G/>}/>
      <Route path="/Product_16GFC_SFP" element={<Product_16GFC_SFP/>}/>
+     <Route path="/Product_QSFP28_100G_SR4" element={<Product_QSFP28_100G_SR4/>}/>
+     <Route path="/Product_100G_SR4" element={<Product_100G_SR4/>}/>
+     <Route path="/Product_100G_SR4_DualRate" element={<Product_100G_SR4_DualRate/>}/>
+     <Route path="/Product_QSFP28_100G_SRBD" element={<Product_QSFP28_100G_SRBD/>}/>
+     <Route path="/Product_100G_SRBD" element={<Product_100G_SRBD/>}/>
+     <Route path="/Product_100G_SRBD_DualRate" element={<Product_100G_SRBD_DualRate/>}/>
+     
      
     </Routes>
     
