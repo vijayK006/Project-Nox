@@ -40,6 +40,7 @@ import SR10_DuleRate_100G from './Component/100G_CFP-CFP2-CFP4/100G_SR10_Dual-Ra
 import SFP_8GFC_ELR from './Component/8GFC SFP+_DUAL/SFP+8GFC_ELR';
 import LR4_DualRate_100G from "./Component/100G_CFP-CFP2-CFP4/100G_LR4_DualRate"
 import ER4_100G from './Component/100G_QSFP28/100G_ER4';
+import Product_16GFC_SFP from "./Component/16GFC_SFP_SW/16GFC_SFP"
 
 function App() {
   return (
@@ -77,6 +78,7 @@ function App() {
      <Route path="/SFP_8GFC_ELR" element={<SFP_8GFC_ELR/>}/>
      <Route path="/LR4_DualRate_100G" element={<LR4_DualRate_100G/>}/>
      <Route path="/ER4_100G" element={<ER4_100G/>}/>
+     <Route path="/Product_16GFC_SFP" element={<Product_16GFC_SFP/>}/>
      
     </Routes>
     

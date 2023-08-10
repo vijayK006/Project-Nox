@@ -234,7 +234,9 @@ RoHS compliant
   <h2>Overview</h2>
   
  <p>
- NXO-I9-M85-X1D is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
+ NXO-IC-C85-X1D is a pluggable optical transceiver with a Dual Bidi LC connector for short-reach 40G data communication and interconnect applications using
+multi-mode fiber. It allows reuse existing 10G duplex
+MMF cabling infrastructure for easy migration to 40 Gigabit Ethernet connectivity. The transceiver internally multiplexes XLPPI 4x10G interface into 2x20G electrical channels, then converting to 2x20G optical channels for an aggregated data rate of 40G up to MMF OM3 100m optical link.
 
 </p>
 </div>
@@ -402,13 +404,13 @@ RoHS compliant
           <td>V</td>
         </tr>
         <tr>
-          <td>Control Input Voltage High
+          <td>Control Input Voltage Low
 
         </td>
           <td>VoL</td>
           <td>GND</td>
           <td></td>
-          <td>o.7</td>
+          <td>0.7</td>
           <td>V</td>
         </tr>
        
