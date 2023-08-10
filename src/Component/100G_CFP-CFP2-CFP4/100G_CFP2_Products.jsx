@@ -86,7 +86,7 @@ const CFP2_Products_100G = () => {
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/ER4_DuleRate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg2} className='productImg3'/>
@@ -110,7 +110,7 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/LR4_Eathernet_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg3} className='productImg3'/>
@@ -160,7 +160,7 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM
 
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SR10_DuleRate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg4} className='productImg3'/>

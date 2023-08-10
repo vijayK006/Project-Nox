@@ -359,7 +359,7 @@ const close_menu30=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK DWDM</p></Link>
 
 <p className='menu-title pt-2'>8GFC SFP+</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>8GFC SFP+ DUAL</p></Link>
+<Link to="/SFP_8GFC_ELR" style={{textDecoration:"none"}}><p className='menu-inner-items'>8GFC SFP+ DUAL</p></Link>
 
 </div>
 
@@ -870,7 +870,7 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series13'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu13}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>8GFC SFP+ DUAL</p></Link>
+<Link to="/SFP_8GFC_ELR" style={{textDecoration:"none"}}><p className='mob-nav-items'>8GFC SFP+ DUAL</p></Link>
 
 
 

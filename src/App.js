@@ -35,6 +35,10 @@ import LR4_Eathernet_100G from './Component/100G_CFP-CFP2-CFP4/100G_LR4_Ethernet
 import Product_CFP1 from "./Component/100G_CFP-CFP2-CFP4/100G_CFP1"
 import Product_CFP4 from "./Component/100G_CFP-CFP2-CFP4/100G_CFP4"
 import Product_100G_QSFP28 from "./Component/100G_CFP-CFP2-CFP4/100G_QSFP28"
+import ER4_DuleRate_100G from './Component/100G_CFP-CFP2-CFP4/100G_ER4_DualRate';
+import SR10_DuleRate_100G from './Component/100G_CFP-CFP2-CFP4/100G_SR10_Dual-Rate';
+import SFP_8GFC_ELR from './Component/8GFC SFP+_DUAL/SFP+8GFC_ELR';
+
 function App() {
   return (
 
@@ -66,6 +70,9 @@ function App() {
      <Route path="/LR4_Eathernet_100G" element={<LR4_Eathernet_100G/>}/>
      <Route path="/Product_CFP4" element={<Product_CFP4/>}/>
      <Route path="/Product_100G_QSFP28" element={<Product_100G_QSFP28/>}/>
+     <Route path="/ER4_DuleRate_100G" element={<ER4_DuleRate_100G/>}/>
+     <Route path="/SR10_DuleRate_100G" element={<SR10_DuleRate_100G/>}/>
+     <Route path="/SFP_8GFC_ELR" element={<SFP_8GFC_ELR/>}/>
      
     </Routes>
     

@@ -4,11 +4,11 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/100G CFP CFP2 CFP4/CFP1_1.jpg'
-import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
-import mchdimensionImg from '../../img/products/100G CFP CFP2 CFP4/CFP1_2.jpg'
-import Transceiverimg from "../../img/products/40GQSFP+/SRBD_3.jpg"
-import powersupply from "../../img/products/40GQSFP+/SRBD_4.jpg"
+import loopbackImg1 from "../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg";
+import opticals from '../../img/products/100G CFP CFP2 CFP4/sr10_Opticals.jpg';
+import mchdimensionImg from '../../img/products/100G CFP CFP2 CFP4/ER4_dulerateMecdimension.png'
+import Transceiverimg from "../../img/products/100G CFP CFP2 CFP4/SR10_Transicvers.jpg"
+import pinassisment from "../../img/products/100G CFP CFP2 CFP4/SR10_pinAssisment.png";
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -18,10 +18,10 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Product_CFP4 = () => {
+const SR10_DuleRate_100G = () => {
    
-  let pathNumber = "NXO-K7-DCO-12KD";
-  let productName = "100G CFP-DCO coherent Dual Rate Transceiver Hot Pluggable, Duplex LC, Micro-ITLA LD, NDSF reach 1200KM, DDM";
+  let pathNumber = "NXO-K9-M85-X1DR";
+  let productName = "100G CFP2 SR10 Dual Rate Transceiver Hot Pluggable, MPO / MTP-24, 850nm VCSEL, MMF, 100M, DDM";
   
   const form = useRef();
 
@@ -140,57 +140,62 @@ const Product_CFP4 = () => {
 
 
 
-<p className='listFeture'>Compliant with NXO MSA and CAUI 100GE host
+<p className='listFeture'>Compliant to CFP2 MSA</p>
+<p className='listFeture'>Compliant to IEEE802.3ba 100GBase-SR10 and CAUI-10 electrical interface</p>
+<p className='listFeture'>Compliant to ITU G.709 OTU4
+</p>
+<p className='listFeture'>10 independent full-duplex channels
+</p>
+<p className='listFeture'>Aggregate Data Rate 103.1Gbps to 112Gbps
+</p>
+<p className='listFeture'>850nm VCSEL array transmitter
 
-</p>
-<p className='listFeture'>interface
-</p>
-<p className='listFeture'>Compliant with OTL4.10 for OTU4 host interface
-</p>
-<p className='listFeture'>DNDSF reach distance 1200km without in-line Dispersion Compensation ( with Optical Amplifier )
-</p>
-<p className='listFeture'>98 Channels DWDM 50GHz Tunable in the rage of THz 191.25 (H12) to THz196.10 (C61)
-
-</p>
-<p className='listFeture'>Transmission with mixed 10G/40G traffic
 
 
 </p>
 <p className='listFeture'> 
-Low latency soft-decision FEC
-
-</p>
-<p className='listFeture'>
-Built-in OTN Processing
+MPO-24 receptacle connector
 
 
 </p>
 <p className='listFeture'>
-Interoperability with G.709 FEC
+MDIO interface for management and diagnostic monitor
+</p>
+<p className='listFeture'>
+Link length up to 100m over OM3 MMF and 
+
 
 
 </p>
 
-<p className='listFeture'>PRBS generation and detection for line and host interfaces
+<p className='listFeture'>150m over OM4 MMF
+
 
 </p>
 
+<p className='listFeture'>Maximum Power consumption 4.0W
+
+</p>
+
+<p className='listFeture'>Single 3.3V power supply
+</p>
+
+<p className='listFeture'>RoHS compliant
+</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
 
-<p className='listFeture'>Metro 100G DWDM transmission
-
+<p className='listFeture'>100GBASE-SR10 Ethernet @103.1G
+</p>
+<p className='listFeture'>OTN OTU4  @112.1G
 
 </p>
-<p className='listFeture'>Cloud / Data Center interconnection
-
-
+<p className='listFeture'>Data Centers Switch Interconnect
 </p>
-<p className='listFeture'>Long-Haul transmission system
 
-
+<p className='listFeture'>Server and Storage Area Network Interconnect
 </p>
 
 
@@ -215,6 +220,10 @@ Interoperability with G.709 FEC
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Laser Safety</a>
+    </li>
+
   
   </ul> 
 </div>
@@ -226,8 +235,8 @@ Interoperability with G.709 FEC
   <h2>Overview</h2>
   
  <p>
- NXO-K7-DCO-12KD supports 100 Gbps transmission speeds in an industry-standard, pluggable CFP form factor, which is optimized for power sensitive applications. With a rich feature set, it enables cost effective system architectures. The integration of power saving DSP technology and silicon photonic integrated circuit (PIC) technologies optimize the balance of power and performance. Widely adopted in metro carrier and Cloud/DCI applications, NXOCFP-K7-DCO-12KD support a range of applications from up to 1200km DWDM links without Dispersion compensation. ( with Optical Amplifier ). Various features can also be configured to optimize the power dissipation for any given application.
-
+ NXO-K9-M85-X1DR is a parallel fiber optical transceiver module for dual rate 103.1Gbps / 112Gbps data transmission applications with uncooled 850nm VCSEL array transmitter and PIN array receiver. It is Ideally suited for datacom, storage area network (SAN/NAS) and OTN networks applications based on IEEE 802.3ba 100GBASE-SR10 and OTN standards. Designed for short range multi-lane data communication, the CFP2 optical module with MPO-24 receptacle integrates ten independent transmitter and receiver channels each capable 10.3125G to 11.181Gbps operation for 
+ an aggregate data rate of 103.1Gbps to 112Gbps up to MMF OM4 100m optical links.
 </p>
 </div>
 </div>
@@ -258,25 +267,17 @@ Interoperability with G.709 FEC
           <td>+85</td>
           <td>°C</td>
         </tr>
-
-        <tr>
-          <td>Operating Temperature</td>
-          <td>Top</td>
-          <td>-10</td>
-          <td>+80</td>
-          <td>°C</td>
-        </tr>
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
-          <td>0</td>
+          <td>5</td>
           <td>85</td>
           <td>%</td>
         </tr>
 
         <tr>
           <td>Supply Voltage</td>
-          <td>VCC</td>
+          <td>VCC3</td>
           <td>-0.5</td>
           <td>+3.6</td>
           <td>V</td>
@@ -310,7 +311,7 @@ Interoperability with G.709 FEC
       <tr>
           <td>Case Operating Temperature</td>
           <td>TOP</td>
-          <td>-5</td>
+          <td>0</td>
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
@@ -320,28 +321,83 @@ Interoperability with G.709 FEC
         <tr>
           <td>Supply Voltage</td>
           <td>Vcc</td>
-          <td>+3.2</td>
+          <td>+3.13</td>
           <td>+3.3</td>
-          <td>+3.4</td>
+          <td>+3.47</td>
           <td>V</td>
 
         </tr>
+
         <tr>
-          <td>Rx Input Power</td>
-          <td>TOP</td>
+          <td>Bit Error Rate</td>
+          <td>BER</td>
           <td></td>
           <td></td>
-          <td>10</td>
-          <td>dBm</td>
+          <td>5X10-5</td>
+          <td></td>
 
         </tr>
+
         <tr>
-          <td>Total Rx Input Power</td>
-          <td>TOP</td>
+          <td>Supply Current</td>
+          <td>Icc</td>
           <td></td>
           <td></td>
-          <td>17</td>
-          <td>dBm</td>
+          <td>1500</td>
+          <td>mA</td>
+
+        </tr>
+
+        
+        <tr>
+          <td>Power Consumption</td>
+          <td>P</td>
+          <td></td>
+          <td></td>
+          <td>4.0</td>
+          <td>W</td>
+
+        </tr>
+
+        <tr>
+          <td>Control Input Voltage High</td>
+          <td>ViH</td>
+          <td>2.0</td>
+          <td></td>
+          <td>VCC+0.7</td>
+          <td>V</td>
+
+        </tr>
+
+ 
+        <tr>
+          <td>Control Input Voltage Low</td>
+          <td>Vil</td>
+          <td>-0.3</td>
+          <td></td>
+          <td>0.8</td>
+          <td>V</td>
+
+        </tr>
+
+        <tr>
+          <td>Control Output Voltage High</td>
+          <td>VoH</td>
+          <td>2.0</td>
+          <td></td>
+          <td>VCC+0.7</td>
+          <td>V</td>
+
+        </tr>
+
+ 
+        <tr>
+          <td>Control Output Voltage Low</td>
+          <td>Vol</td>
+          <td>-0.3</td>
+          <td></td>
+          <td>0.8</td>
+          <td>V</td>
 
         </tr>
         
@@ -352,22 +408,33 @@ Interoperability with G.709 FEC
 </div>
  </div>
 
+ <div id="menu3" class="container tab-pane fade"><br/>
+    <div class="container mt-3">
+  <h2>Laser Safety</h2>
+  
+<ul>
+    <li>This is a Class 1 Laser Product complies with 21 CFR 1040.10 and 1040.11 except for conformance with IEC 60825-1 Ed. 3., as described in Laser Notice No. 56, dated May 8, 2019.
+</li>
+    <li>Caution: Use of control or adjustments or performance of procedure other than those specified herein may result in hazardous radiation exposure.
+</li>
+</ul>
+</div>
+</div>
+
   </div>
   
 </div>
 
 
-{/* Memory Map Section Start */}
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Memory Map
-</h1>
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Pin Assisment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={memorymapimg} className=' sectionImg2' alt="memorymapImg"/>
+<img src={pinassisment} className='sectionImg2' alt="Transceiver Block Diagram"/>
 </div>
 
-</div> */}
-{/* Memory Map Section End */}
+</div>
 
 {/* Mechanical Dimensions section start */}
 
@@ -383,27 +450,31 @@ Interoperability with G.709 FEC
 {/* Mechanical Dimensions section end */}
 
 
+
+
+
 {/* {Transceiver Block Diagram} */}
 
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Transceiver Block Diagram </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={Transceiverimg} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
 
-</div> */}
+</div>
 
-{/* Recommended Power Supply Filter */}
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Recommended Power Supply Filter</h1>
+{/* {Optical Interface  Diagram} */}
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-5'>
+  <h1 className='pb-4'>Optical Interface Lanes and Assignment </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={powersupply} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
+<img src={opticals} className='sectionImg2_2' alt="Transceiver Block Diagram"/>
+</div>
 
 </div>
 
-</div> */}
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
@@ -458,4 +529,4 @@ Interoperability with G.709 FEC
   )
 }
 
-export default Product_CFP4;
+export default SR10_DuleRate_100G;

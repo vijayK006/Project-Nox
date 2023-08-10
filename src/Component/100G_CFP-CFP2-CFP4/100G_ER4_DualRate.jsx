@@ -4,11 +4,11 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/100G CFP CFP2 CFP4/CFP1_1.jpg'
+import loopbackImg1 from "../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg";
 import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
-import mchdimensionImg from '../../img/products/100G CFP CFP2 CFP4/CFP1_2.jpg'
-import Transceiverimg from "../../img/products/40GQSFP+/SRBD_3.jpg"
-import powersupply from "../../img/products/40GQSFP+/SRBD_4.jpg"
+import mchdimensionImg from '../../img/products/100G CFP CFP2 CFP4/ER4_dulerateMecdimension.png'
+import Transceiverimg from "../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg"
+import pinassisment from "../../img/products/100G CFP CFP2 CFP4/pinAssisment.jpg";
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -18,10 +18,10 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Product_CFP4 = () => {
+const ER4_DuleRate_100G = () => {
    
-  let pathNumber = "NXO-K7-DCO-12KD";
-  let productName = "100G CFP-DCO coherent Dual Rate Transceiver Hot Pluggable, Duplex LC, Micro-ITLA LD, NDSF reach 1200KM, DDM";
+  let pathNumber = "NXO-K7-L13-40DR";
+  let productName = "100G CFP2 ER4 Dual Rate TransceiverHot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM";
   
   const form = useRef();
 
@@ -140,57 +140,80 @@ const Product_CFP4 = () => {
 
 
 
-<p className='listFeture'>Compliant with NXO MSA and CAUI 100GE host
+<p className='listFeture'>Compliant to CFP2 MSA</p>
+<p className='listFeture'>Compliant to IEEE802.3ba 100GBase-ER4 and ITU-T G.709/Y.133 standards</p>
+<p className='listFeture'>Electrical interface compliant with CFP2 MSA
+</p>
+<p className='listFeture'>4-CH optical Mux/DeMux design
+</p>
+<p className='listFeture'>Support up to 112Gb/s aggregate bit rate
+
 
 </p>
-<p className='listFeture'>interface
-</p>
-<p className='listFeture'>Compliant with OTL4.10 for OTU4 host interface
-</p>
-<p className='listFeture'>DNDSF reach distance 1200km without in-line Dispersion Compensation ( with Optical Amplifier )
-</p>
-<p className='listFeture'>98 Channels DWDM 50GHz Tunable in the rage of THz 191.25 (H12) to THz196.10 (C61)
+<p className='listFeture'>Electrical serial data rate up to 27.9525Gbps
 
-</p>
-<p className='listFeture'>Transmission with mixed 10G/40G traffic
 
 
 </p>
 <p className='listFeture'> 
-Low latency soft-decision FEC
-
-</p>
-<p className='listFeture'>
-Built-in OTN Processing
+EML LAN-WDM array transmitter
 
 
 </p>
 <p className='listFeture'>
-Interoperability with G.709 FEC
+APD receiver
+
+
+
+</p>
+<p className='listFeture'>
+Duplex LC connector
+
 
 
 </p>
 
-<p className='listFeture'>PRBS generation and detection for line and host interfaces
+<p className='listFeture'>MDIO interface for management and diagnostic monitor
+
 
 </p>
 
+<p className='listFeture'>Built in quad TX CDR and RX CDR
+</p>
 
+<p className='listFeture'>Single 3.3V power supply
+</p>
+
+<p className='listFeture'>Low power consumption, {'<'}12W</p>
+<p className='listFeture'>Link length up to 40km over single mode fiber
+</p>
+
+<p className='listFeture'>All metal housing for superior EMI performance
+</p>
+
+<p className='listFeture'>RoHS compliant
+</p>
 
 <h5 className='pt-5'>Applications</h5>
 
 
-<p className='listFeture'>Metro 100G DWDM transmission
+<p className='listFeture'>100GBASE-ER4 Ethernet
 
-
-</p>
-<p className='listFeture'>Cloud / Data Center interconnection
 
 
 </p>
-<p className='listFeture'>Long-Haul transmission system
+<p className='listFeture'>OTN OTU4 Application
 
 
+
+</p>
+<p className='listFeture'>Data Center
+
+
+
+</p>
+
+<p className='listFeture'>Datacom/ Telecom Switch & Router
 </p>
 
 
@@ -226,7 +249,8 @@ Interoperability with G.709 FEC
   <h2>Overview</h2>
   
  <p>
- NXO-K7-DCO-12KD supports 100 Gbps transmission speeds in an industry-standard, pluggable CFP form factor, which is optimized for power sensitive applications. With a rich feature set, it enables cost effective system architectures. The integration of power saving DSP technology and silicon photonic integrated circuit (PIC) technologies optimize the balance of power and performance. Widely adopted in metro carrier and Cloud/DCI applications, NXOCFP-K7-DCO-12KD support a range of applications from up to 1200km DWDM links without Dispersion compensation. ( with Optical Amplifier ). Various features can also be configured to optimize the power dissipation for any given application.
+ NXO-K7-L13-40DR is a parallel fiber optical transceiver module for 100Gbit/s data transmission applications at 1300nm LAN-WDM. It is ideally suited for 100GbE Datacom, Storage Area Network (SAN) and OTN Telecom applications based on IEEE 802.3ba 100GBase Ethernet and OTN OTU4 standards.
+The transceiver incorporates a 4-channel laser driver circuit together with a 4-channel EML LAN-WDM array coupled with an optical multiplexer. On the receiver side, an optical de-multiplexer is coupled with a 4-channel photodiode array and a 4-channel APD array resulting in a compact module for an aggregate bandwidth of 11.8Gb/s.
 
 </p>
 </div>
@@ -258,25 +282,17 @@ Interoperability with G.709 FEC
           <td>+85</td>
           <td>°C</td>
         </tr>
-
-        <tr>
-          <td>Operating Temperature</td>
-          <td>Top</td>
-          <td>-10</td>
-          <td>+80</td>
-          <td>°C</td>
-        </tr>
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
-          <td>0</td>
+          <td>5</td>
           <td>85</td>
           <td>%</td>
         </tr>
 
         <tr>
           <td>Supply Voltage</td>
-          <td>VCC</td>
+          <td>VCC3</td>
           <td>-0.5</td>
           <td>+3.6</td>
           <td>V</td>
@@ -310,7 +326,7 @@ Interoperability with G.709 FEC
       <tr>
           <td>Case Operating Temperature</td>
           <td>TOP</td>
-          <td>-5</td>
+          <td>0</td>
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
@@ -320,28 +336,39 @@ Interoperability with G.709 FEC
         <tr>
           <td>Supply Voltage</td>
           <td>Vcc</td>
-          <td>+3.2</td>
+          <td>+3.135</td>
           <td>+3.3</td>
-          <td>+3.4</td>
+          <td>+3.465</td>
           <td>V</td>
 
         </tr>
         <tr>
-          <td>Rx Input Power</td>
-          <td>TOP</td>
+          <td>Supply Current</td>
+          <td>Icc</td>
           <td></td>
           <td></td>
-          <td>10</td>
-          <td>dBm</td>
+          <td>2700</td>
+          <td>mA</td>
 
         </tr>
+
         <tr>
-          <td>Total Rx Input Power</td>
-          <td>TOP</td>
+          <td>Module Total Power</td>
+          <td>P</td>
           <td></td>
           <td></td>
-          <td>17</td>
-          <td>dBm</td>
+          <td>9.5</td>
+          <td>W</td>
+
+        </tr>
+
+        <tr>
+          <td>Aggregate Bit Rate</td>
+          <td>BRave</td>
+          <td></td>
+          <td>103.125</td>
+          <td>111.810</td>
+          <td>Gb/s</td>
 
         </tr>
         
@@ -357,17 +384,15 @@ Interoperability with G.709 FEC
 </div>
 
 
-{/* Memory Map Section Start */}
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Memory Map
-</h1>
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Pin Assisment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={memorymapimg} className=' sectionImg2' alt="memorymapImg"/>
+<img src={pinassisment} className='sectionImg2' alt="Transceiver Block Diagram"/>
 </div>
 
-</div> */}
-{/* Memory Map Section End */}
+</div>
 
 {/* Mechanical Dimensions section start */}
 
@@ -383,27 +408,20 @@ Interoperability with G.709 FEC
 {/* Mechanical Dimensions section end */}
 
 
+
+
+
 {/* {Transceiver Block Diagram} */}
 
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Transceiver Block Diagram </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={Transceiverimg} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
 
-</div> */}
-
-{/* Recommended Power Supply Filter */}
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Recommended Power Supply Filter</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={powersupply} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
-
 </div>
 
-</div> */}
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
@@ -458,4 +476,4 @@ Interoperability with G.709 FEC
   )
 }
 
-export default Product_CFP4;
+export default ER4_DuleRate_100G;
