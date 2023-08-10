@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/40GLR41.jpg'
 import memorymapimg from '../../img/products/40G-ER4/40G_ER4(3).jpg'
 import mchdimensionImg from '../../img/products/40G-ER4/40G_ER4(2).jpg'
@@ -21,6 +22,23 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const IR4_40G = () => {
+ let productName="40G QSFP+ IR4 Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 2KM, DDM";
+  let pathNumber ="NXO-I7-C13-02D";
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_s6yscqg', 'template_nnkudli', form.current, 'ctLMl35oWO-hYo21q')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message Sent :)");
+
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
 <>
     <Navbar/>
@@ -90,7 +108,7 @@ const IR4_40G = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Request a Quote</Link>
+<Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal"><BsCartCheck style={{marginBottom:"5px"}}/> Request a Quote</Link>
 </div>
 
 </div>
@@ -98,16 +116,12 @@ const IR4_40G = () => {
 </div>
 
 <div className='product-content'>
-<h4>40G QSFP+ IR4 Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 2KM, DDM
-
-
-</h4>
+<h4>{productName}</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>NXO-I7-C13-02D</p>
+<p className='sell-text'>{pathNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -443,6 +457,56 @@ from 000h to  the maximum address of the memory.
 
 
 <Footer/>
+{/* --------------------------------------------------------------------------------------------------------- */}
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      {/* <!-- Modal Header --> */}
+      <div class="modal-header">
+        <h4 class="modal-title">Enquire Now</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {/* <!-- Modal body --> */}
+      <div class="modal-body">
+      <form ref={form} onSubmit={sendEmail}>
+
+      <div className='row'>
+<div className='col-6'>
+<label>Your Product Path Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+</div>
+<div className='col-6'>
+<label>Your Product Name</label>
+<input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
+
+      </div>
+    </div>
+
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+        <div className='row'>
+<div className='col-6'>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+</div>
+<div className='col-6'>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+
+      </div>
+    </div>
+      
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+<input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
+      </form>
+       </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
     </>
   )
 }

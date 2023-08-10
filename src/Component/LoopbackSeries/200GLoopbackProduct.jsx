@@ -1,4 +1,5 @@
-import {React} from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
@@ -17,8 +18,23 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const TwoHGLoopbackProduct = () => {
-  let pathNumber = ""
-  let productName = ""
+  let pathNumber = "NXO-SX-XLB-xx-xx"
+  let productName = "200G QSFP56 Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 0~3.5W Power Consumption"
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_s6yscqg', 'template_nnkudli', form.current, 'ctLMl35oWO-hYo21q')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message Sent :)");
+
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
     
   return (
 
@@ -90,7 +106,7 @@ const TwoHGLoopbackProduct = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Request a Quote</Link>
+<Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal"><BsCartCheck style={{marginBottom:"5px"}}/> Request a Quote</Link>
 </div>
 
 </div>
@@ -98,17 +114,12 @@ const TwoHGLoopbackProduct = () => {
 </div>
 
 <div className='product-content'>
-<h4>200G QSFP56 Electrical Passive Loopback
-Hot Pluggable, 0~5dB Internal Attenuation, 0~3.5W Power Consumption
-
-</h4>
-
-<span>Path Number : NXO-SX-XLB-xx-xx</span>
+<h4>{productName}</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>US $149.00</p>
+<p>Path Number</p>
 
-<div className='sell-text'>629 Sold | 19 Reviews | 50 Questions</div>
+<div className='sell-text'>{pathNumber}</div>
 </div>
 
 <div className='sub-content'>
@@ -338,32 +349,32 @@ system by looping back the electrical signal (optics are excluded). It could be 
 
       {/* <!-- Modal body --> */}
       <div class="modal-body">
-      <form>
+      <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>
 <div className='col-6'>
 <label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} readOnly/>
+<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>
-<input type='text' className='form-control mt-2 mb-2' value={productName} readOnly/>
+<input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
 
       </div>
     </div>
 
- <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' required/>
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
         <div className='row'>
 <div className='col-6'>
-<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' required/>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
 </div>
 <div className='col-6'>
-<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' required/>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
 
       </div>
     </div>
       
-       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>

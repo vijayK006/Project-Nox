@@ -1,4 +1,5 @@
-import {React} from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
@@ -18,7 +19,24 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_40G_ER4 = () => {
-   
+   let productName ="40G QSFP+ ER4 Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 40KM, DDM";
+   let pathNumber = "NXO-I7-C13-40D";
+
+   const form = useRef();
+
+   const sendEmail = (e) => {
+     e.preventDefault();
+ 
+     emailjs.sendForm('service_s6yscqg', 'template_nnkudli', form.current, 'ctLMl35oWO-hYo21q')
+       .then((result) => {
+           console.log(result.text);
+           console.log("Message Sent :)");
+ 
+       }, (error) => {
+           console.log(error.text);
+       });
+   };
+
   return (
 
     <>
@@ -88,7 +106,7 @@ const Product_40G_ER4 = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' to=''><BsCartCheck style={{marginBottom:"5px"}}/> Request a Quote</Link>
+<Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal"><BsCartCheck style={{marginBottom:"5px"}}/> Request a Quote</Link>
 </div>
 
 </div>
@@ -96,18 +114,13 @@ const Product_40G_ER4 = () => {
 </div>
 
 <div className='product-content'>
-<h4>40G QSFP+ ER4 Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 40KM, DDM
+<h4>{productName}</h4>
 
-</h4>
-
-<span>Path Number : NXO-I7-C13-40D
-</span>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>US $149.00</p>
+<p>Product Number</p>
 
-<div className='sell-text'>629 Sold | 19 Reviews | 50 Questions</div>
+<div className='sell-text'>{pathNumber}</div>
 </div>
 
 <div className='sub-content'>
@@ -462,6 +475,57 @@ The operating and diagnostics information is monitored and reported by a Digital
 </div>
 
 <Footer/>
+
+
+{/* --------------------------------------------------------------------------------------------------------- */}
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      {/* <!-- Modal Header --> */}
+      <div class="modal-header">
+        <h4 class="modal-title">Enquire Now</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {/* <!-- Modal body --> */}
+      <div class="modal-body">
+      <form ref={form} onSubmit={sendEmail}>
+
+      <div className='row'>
+<div className='col-6'>
+<label>Your Product Path Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+</div>
+<div className='col-6'>
+<label>Your Product Name</label>
+<input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
+
+      </div>
+    </div>
+
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+        <div className='row'>
+<div className='col-6'>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+</div>
+<div className='col-6'>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+
+      </div>
+    </div>
+      
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+<input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
+      </form>
+       </div>
+
+
+
+    </div>
+  </div>
+</div>
+
     </>
   )
 }
