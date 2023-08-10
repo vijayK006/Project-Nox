@@ -30,6 +30,8 @@ import SWDM4_40G from './Component/40G_QSFP+/40G_SWDM4';
 
 import Product_40G_SRBD from "./Component/40G_QSFP+/40G_SRBD_Products";
 import CFP2_Products_100G from './Component/100G_CFP-CFP2-CFP4/100G_CFP2_Products';
+import LR4_Eathernet_100G from './Component/100G_CFP-CFP2-CFP4/100G_LR4_Ethernet';
+
 import Product_CFP1 from "./Component/100G_CFP-CFP2-CFP4/100G_CFP1"
 import Product_CFP4 from "./Component/100G_CFP-CFP2-CFP4/100G_CFP4"
 import Product_100G_QSFP28 from "./Component/100G_CFP-CFP2-CFP4/100G_QSFP28"
@@ -61,6 +63,7 @@ function App() {
      <Route path="/SWDM4_40G" element={<SWDM4_40G/>}/>
      <Route path="/Product_CFP1" element={<Product_CFP1/>}/>
      <Route path="/CFP2_Products_100G" element={<CFP2_Products_100G/>}/>
+     <Route path="/LR4_Eathernet_100G" element={<LR4_Eathernet_100G/>}/>
      <Route path="/Product_CFP4" element={<Product_CFP4/>}/>
      <Route path="/Product_100G_QSFP28" element={<Product_100G_QSFP28/>}/>
      

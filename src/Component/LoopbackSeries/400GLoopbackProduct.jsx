@@ -18,6 +18,8 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 // import ReactImageMagnify from 'react-image-magnify';
 
 const FourHGLoopbackProduct = () => {
+  let pathNumber = ""
+  let productName = ""
    
   return (
 
@@ -336,6 +338,55 @@ Hot Pluggable, 0~5dB Internal Attenuation, 0~5W Power Consumption
 {/* Mechanical Dimensions section end */}
 
 <Footer/>
+
+{/* --------------------------------------------------------------------------------------------------------- */}
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      {/* <!-- Modal Header --> */}
+      <div class="modal-header">
+        <h4 class="modal-title">Enquire Now</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {/* <!-- Modal body --> */}
+      <div class="modal-body">
+      <form>
+
+      <div className='row'>
+<div className='col-6'>
+<label>Your Product Path Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={pathNumber} readOnly/>
+</div>
+<div className='col-6'>
+<label>Your Product Name</label>
+<input type='text' className='form-control mt-2 mb-2' value={productName} readOnly/>
+
+      </div>
+    </div>
+
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' required/>
+        <div className='row'>
+<div className='col-6'>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' required/>
+</div>
+<div className='col-6'>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' required/>
+
+      </div>
+    </div>
+      
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' required></textarea>
+<input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
+      </form>
+       </div>
+
+
+
+    </div>
+  </div>
+</div>
     </>
   )
 }
