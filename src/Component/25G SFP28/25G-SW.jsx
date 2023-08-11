@@ -4,7 +4,7 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/25G SFP28/SFP28_LR.jpg';
+import loopbackImg1 from '../../img/products/25G SFP28/SFP28_SW.jpg';
 
 
 import memorymapimg from '../../img/products/25G SFP28/memoryMap.png'
@@ -23,8 +23,8 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_25G_SW = () => {
-  let pathNumber = "NXO-N7-Dxx-10DQ";
-  let productName = "25G SFP28 DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 10KM, DDM";
+  let pathNumber = "NXO-P7-M85-X1DQ";
+  let productName = "32GFC SFP28 SW Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM";
 
   const form = useRef();
 
@@ -150,26 +150,37 @@ const SFP28_25G_SW = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with IEEE802.3cc 25GBASE-LR</p>
-<p className='listFeture'>Compliant with CPRI option10</p>
-<p className='listFeture'>Compliant with SFF-8402 SFP28 MSA</p>
-<p className='listFeture'>Data Rate up to 25.78Gbps</p>
+<p className='listFeture'>Compliant with Fiber Channel 3200-M5F-SN-I
+</p>
+<p className='listFeture'>Compliant with SFF-8402 SFP28 MSA
+</p>
+<p className='listFeture'>Support 4x/8x/10x/16x/32x Fiber Channel
+</p>
+<p className='listFeture'>Support 4.25Gb/s to 28.05Gb/s Multi-Rate
+</p>
 <p className='listFeture'>Built-in CDR on both Transmitter and Receiver</p>
 <p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>1310nm DFB laser transmitter</p>
+<p className='listFeture'>850nm VCSEL laser transmitter
+</p>
 <p className='listFeture'>Duplex LC connector</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 2km over SM fiber</p>
+<p className='listFeture'>Link distance
+@32GFC: OM4 100m / OM3 70m / OM2 20m @16GFC: OM4 125m / OM3 100m / OM2 35m @8GFC: OM4 150m / OM3 150m / OM2 50m @4GFC: OM4 400m / OM3 380m / OM2 150m
+</p>
 <p className='listFeture'>RoHS Compliant</p>
+
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>25GBASE-SR Ethernet @25.78G</p>
-<p className='listFeture'>CPRI Option #10 @24.33G</p>
-<p className='listFeture'>eCPRI 5G Mobile Networks</p>
-<p className='listFeture'>DWDM Networks</p>
+<p className='listFeture'>Fiber Channel 3200-SN 32GFC @28.05G,
+1600-SN 16GFC @14.025G,
+1200-SN 10GFC @10.51875G,
+800-SN 8GFC @8.5G
+400-SN 4GFC @4.25G
+</p>
+
 
 
 </div>
@@ -209,7 +220,7 @@ const SFP28_25G_SW = () => {
   
  <p>
 
-NXO-N7-Dxx-10DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance cooled DWDM EML transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for DWDM Networks, 25GBASE-LR Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
+NXO-P7-M85-X1DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 4x/8x/10x/16x/32x Fiber Channel applications up to MMF OM4 100m optical links.
 
 </p>
 </div>
@@ -311,7 +322,7 @@ NXO-N7-Dxx-10DQ is a Small Form Factor Pluggable SFP28 transceiver compliant wit
           <td>Icc</td>
           <td>-</td>
           <td>-</td>
-          <td>700</td>
+          <td>300</td>
           <td>mA</td>
         </tr>
        
@@ -321,7 +332,7 @@ NXO-N7-Dxx-10DQ is a Small Form Factor Pluggable SFP28 transceiver compliant wit
           <td>P</td>
           <td></td>
           <td></td>
-          <td>2.3</td>
+          <td>1.0</td>
           <td>W</td>
         </tr>
 
