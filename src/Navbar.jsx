@@ -439,7 +439,8 @@ const close_menu30=()=>{
 <p className='menu-title '>RJ45 Copper Series</p>
 <Link to="/SFP_100Tx" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-100TX</p></Link>
 <Link to="/SFP_1000T" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-1000T</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ 10G-T</p></Link>
+
+<Link to="/Projects_SFP_10G" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ 10G-T</p></Link>
 
 
 <p className='menu-title pt-2'>10G X2</p>
@@ -825,7 +826,7 @@ const close_menu30=()=>{
 
 <Link to="/SFP_100Tx" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP-100TX</p></Link>
 <Link to="/SFP_1000T" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP-1000T</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ 10G-T</p></Link>
+<Link to="/Projects_SFP_10G" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ 10G-T</p></Link>
 
 
 </div>

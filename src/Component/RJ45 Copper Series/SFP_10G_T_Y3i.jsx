@@ -4,13 +4,13 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/RJ45 Copper Series/SFP_100Tx_1.jpg';
+import loopbackImg1 from '../../img/products/RJ45 Copper Series/SFP_10-T_Y.jpg';
 
 
 import memorymapimg from '../../img/products/25G SFP28/memoryMap.png'
-import mchdimensionImg from '../../img/products/RJ45 Copper Series/SFP_100Tx_3.jpg'
+import mchdimensionImg from '../../img/products/RJ45 Copper Series/SFP_10-T_Y_3.jpg'
 import powerSupply from '../../img/products/100G QSFP28/PowerSupply.jpg'
-import pinAssisment from '../../img/products/RJ45 Copper Series/SFP_100Tx_2.jpg'
+import pinAssisment from '../../img/products/RJ45 Copper Series/SFP_10-T_Y_2.jpg'
 import transcerve from '../../img/products/RJ45 Copper Series/SFP_100Tx_2.jpg'
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
@@ -22,9 +22,9 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
-const SFP_100Tx = () => {
-  let pathNumber = "NXO-AJ-Tx1-X1";
-  let productName = "125M SFP-100TX Transceiver Hot Pluggable, RJ-45, Active Copper SFP";
+const SFP_10G_T_Y3i = () => {
+  let pathNumber = "NXO-HJ-T11-Y3i";
+  let productName = "10GBASE-T SFP+ Transceiver Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp";
 
   const form = useRef();
 
@@ -150,26 +150,41 @@ const SFP_100Tx = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compatible with IEEE802.3u Standard
+<p className='listFeture'>Compliant with IEEE 802.3an, 802.3ab and 802.3z
+
 
 </p>
-<p className='listFeture'>Compliant with SFP MSA
+
+<p className='listFeture'>Compliant with SFF-8431, 8432 SFP+ MSA
+
+
+</p>
+<p className='listFeture'>
+Support 10GBASE-T
 
 </p>
 <p className='listFeture'>Hot Pluggable
 
-</p>
-<p className='listFeture'>Auto-detect MDI/MDI-X on RJ-45 port
 
 </p>
-<p className='listFeture'>Compatible with 10BASE-T and 100BASE-TX auto-negotiation on RJ-45 port
+
+<p className='listFeture'>Auto-detect MDI/MDI-X 
+
 </p>
+
 <p className='listFeture'>Support RX_LOS(Loss Of Signal) function
+</p>
+<p className='listFeture'>I2C 2-wire interface for serial ID
+
+</p>
+<p className='listFeture'>RJ-45 connector
+
 </p>
 
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link length up to 100m with four-pair Cat.5 UTP
+<p className='listFeture'>10G link length up to 30m with Cat.6a/7
 </p>
+<p className='listFeture'>Operating Temperature -40~+85°C</p>
 
 <p className='listFeture'>RoHS Compliant</p>
 
@@ -177,7 +192,8 @@ const SFP_100Tx = () => {
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>10/100BASE-TX Application
+<p className='listFeture'>10GBASE-T Application
+
 
 </p>
 
@@ -219,7 +235,12 @@ const SFP_100Tx = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 125Mbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the 2-wire serial bus I2C protocol. This 100Base-TX Copper SFP Transceiver supports the SFP based switch100Base-FX ports that accept standard 100Base-FX optics SFP.
+
+The NXO-HJ-T11-Y3i Small Form Factor Pluggable SFP+ Copper transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA)
+Specification. The High performance designed is integrated full duplex data link at 10Gbps over four pair Category 6a/7 cable up to 30m links. It is specifically
+designed for high speed communication links that require 10 Gigabit Ethernet over copper cable in
+Industrial Temperature(-40~+85°C) applications.
+
 </p>
 </div>
 </div>
@@ -296,7 +317,7 @@ NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant 
       <tbody>
 
         <tr>
-          <td> Case Operating Temp. (NXO-AJ-Tx1-X1)</td>
+          <td> Case Operating Temp.</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -304,14 +325,6 @@ NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant 
           <td>°C</td>
         </tr>
         
-        <tr>
-          <td>Case Operating Temp. (NXO-AJ-Tx1-X1i)</td>
-          <td>TOP</td>
-          <td>-40</td>
-          <td>-</td>
-          <td>+85</td>
-          <td>°C</td>
-        </tr>
       
         <tr>
           <td>Supply Voltage</td>
@@ -322,16 +335,55 @@ NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant 
           <td>V</td>
         </tr>
 
-
+        <tr>
+          <td>Maximum Voltage</td>
+          <td>Vmax</td>
+          <td></td>
+          <td></td>
+          <td>4</td>
+          <td>V</td>
+        </tr>
+        <tr>
+          <td>Data Rate</td>
+          <td>DR</td>
+          <td></td>
+          <td>10.3125</td>
+          <td></td>
+          <td>Gb/s</td>
+        </tr>
+        <tr>
+          <td>Bit Error Rate</td>
+          <td>BER</td>
+          <td></td>
+          <td></td>
+          <td>10^-12</td>
+          <td></td>
+        </tr>
         <tr>
           <td>Supply Current</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>300</td>
+          <td>750</td>
           <td>mA</td>
         </tr>
-       
+        <tr>
+          <td>Surge Current</td>
+          <td>Isurge
+</td>
+          <td></td>
+          <td></td>
+          <td>30</td>
+          <td>mA</td>
+        </tr>
+        <tr>
+          <td>Power Consumption</td>
+          <td>P</td>
+          <td></td>
+          <td></td>
+          <td>2.5</td>
+          <td>W</td>
+        </tr>
         
        
 
@@ -387,7 +439,7 @@ The operating and diagnostics information is monitored and reported by a Digital
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
+<img src={mchdimensionImg} className='sectionImg2' alt="memorymapImg"/>
 </div>
 
 </div>
@@ -487,5 +539,5 @@ The operating and diagnostics information is monitored and reported by a Digital
   )
 }
 
-export default SFP_100Tx;
+export default SFP_10G_T_Y3i;
 

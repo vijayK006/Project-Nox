@@ -86,6 +86,10 @@ import X2_10G_LR from './Component/10G X2/X2_10G_LR';
 import X2_10G_ER from './Component/10G X2/X2_10G_ER';
 import X2_10G_ZR from './Component/10G X2/X2_10G_ZR';
 import Dual_Bidi_LC from './Component/1.25G CSFP/Dual_Bidi_LC';
+import Projects_SFP_10G from "./Component/RJ45 Copper Series/Projects_SFP_10G_T";
+import SFP_10G_T_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T_Y3";
+import SFP_10G_T_Y3i from "./Component/RJ45 Copper Series/SFP_10G_T_Y3i";
+import SFP_10G_T_Y38 from "./Component/RJ45 Copper Series/SFP_10G_T_Y38";
 
 
 function App() {
@@ -168,6 +172,10 @@ function App() {
      <Route path="/X2_10G_ER" element={<X2_10G_ER/>}/>
      <Route path="/X2_10G_ZR" element={<X2_10G_ZR/>}/>
      <Route path="/Dual_Bidi_LC" element={<Dual_Bidi_LC/>}/>
+     <Route path="/Projects_SFP_10G" element={<Projects_SFP_10G/>}/>
+     <Route path="/SFP_10G_T_Y3" element={<SFP_10G_T_Y3/>}/>
+     <Route path="/SFP_10G_T_Y3i" element={<SFP_10G_T_Y3i/>}/>
+     <Route path="/SFP_10G_T_Y38" element={<SFP_10G_T_Y38/>}/>
      
     </Routes>
     
