@@ -72,6 +72,9 @@ import SFP28_25G_LR_10km from "./Component/25G SFP28/25G-LR_10km"
 import SFP28_25G_LR_DualRate from "./Component/25G SFP28/25G-LR_DualRate"
 import SFP28_25G_LR_Transceiver from "./Component/25G SFP28/25G-LR_transciever"
 import SFP28_25G_DWDM from "./Component/25G SFP28/25G-DWDM"
+import SFP28_25G__LWDM_products from './Component/25G SFP28/SFP28_25G_LWDM_products';
+import LWDM_25G_40KM from './Component/25G SFP28/LWDM_25G_40KM';
+import LWDM_25G_40KM_DuelRate from './Component/25G SFP28/LWDM_25G_40KM_DuelRate';
 
 
 function App() {
@@ -142,6 +145,9 @@ function App() {
      <Route path="/SFP28_25G_LR_DualRate" element={<SFP28_25G_LR_DualRate/>}/>
      <Route path="/SFP28_25G_LR_Transceiver" element={<SFP28_25G_LR_Transceiver/>}/>
      <Route path="/SFP28_25G_DWDM" element={<SFP28_25G_DWDM/>}/>
+     <Route path="/SFP28_25G__LWDM_products" element={<SFP28_25G__LWDM_products/>}/>
+     <Route path="/LWDM_25G_40KM" element={<LWDM_25G_40KM/>}/>
+     <Route path="/LWDM_25G_40KM_DuelRate" element={<LWDM_25G_40KM_DuelRate/>}/>
      
     </Routes>
     
