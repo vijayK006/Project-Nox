@@ -79,6 +79,13 @@ import LWDM_25G_40KM_DuelRate from './Component/25G SFP28/LWDM_25G_40KM_DuelRate
 
 import SFP28_25G_SW from "./Component/25G SFP28/25G-SW";
 import SFP_100Tx from "./Component/RJ45 Copper Series/SFP-100Tx";
+import SFP_1000T from './Component/RJ45 Copper Series/SFP_1000T';
+import X2_DUAL_Products from './Component/10G X2/X2_DUAL_Products';
+import X2_10G_SR from './Component/10G X2/X2_10G_SR';
+import X2_10G_LR from './Component/10G X2/X2_10G_LR';
+import X2_10G_ER from './Component/10G X2/X2_10G_ER';
+import X2_10G_ZR from './Component/10G X2/X2_10G_ZR';
+import Dual_Bidi_LC from './Component/1.25G CSFP/Dual_Bidi_LC';
 
 
 function App() {
@@ -154,6 +161,13 @@ function App() {
      <Route path="/LWDM_25G_40KM_DuelRate" element={<LWDM_25G_40KM_DuelRate/>}/>
      <Route path="/SFP28_25G_SW" element={<SFP28_25G_SW/>}/>
      <Route path="/SFP_100Tx" element={<SFP_100Tx/>}/>
+     <Route path="/SFP_1000T" element={<SFP_1000T/>}/>
+     <Route path="/X2_DUAL_Products" element={<X2_DUAL_Products/>}/>
+     <Route path="/X2_10G_SR" element={<X2_10G_SR/>}/>
+     <Route path="/X2_10G_LR" element={<X2_10G_LR/>}/>
+     <Route path="/X2_10G_ER" element={<X2_10G_ER/>}/>
+     <Route path="/X2_10G_ZR" element={<X2_10G_ZR/>}/>
+     <Route path="/Dual_Bidi_LC" element={<Dual_Bidi_LC/>}/>
      
     </Routes>
     

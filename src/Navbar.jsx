@@ -438,12 +438,12 @@ const close_menu30=()=>{
 <div className='col-lg-2'>
 <p className='menu-title '>RJ45 Copper Series</p>
 <Link to="/SFP_100Tx" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-100TX</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-1000T</p></Link>
+<Link to="/SFP_1000T" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-1000T</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ 10G-T</p></Link>
 
 
 <p className='menu-title pt-2'>10G X2</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G X2 DUAL</p></Link>
+<Link to='/X2_DUAL_Products' style={{textDecoration:"none"}}><p className='menu-inner-items'>10G X2 DUAL</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G X2 CWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G X2 DWDM</p></Link>
 
@@ -468,7 +468,7 @@ const close_menu30=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DUAL</p></Link>
 
 <p className='menu-title pt-2'>1.25G CSFP</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G CSFP Dual Bidi LC</p></Link>
+<Link to="/Dual_Bidi_LC" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G CSFP Dual Bidi LC</p></Link>
 
 </div>
 
@@ -824,7 +824,7 @@ const close_menu30=()=>{
 <TiBackspaceOutline className='close_icon' onClick={close_menu9}/>
 
 <Link to="/SFP_100Tx" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP-100TX</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP-1000T</p></Link>
+<Link to="/SFP_1000T" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP-1000T</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ 10G-T</p></Link>
 
 
@@ -833,7 +833,7 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series10'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu10}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G X2 DUAL</p></Link>
+<Link to="/X2_DUAL_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G X2 DUAL</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G X2 CWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G X2 DWDM</p></Link>
 
@@ -917,10 +917,7 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series18'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu18}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G CSFP Dual Bidi LC</p></Link>
-
-
-
+<Link to="/Dual_Bidi_LC" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G CSFP Dual Bidi LC</p></Link>
 </div>
 
 <div className='mobile-nav-all_product' id='series19'>
