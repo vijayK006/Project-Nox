@@ -22,9 +22,9 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
-const SFP28_25G_eSR = () => {
-  let pathNumber = "NXO-N7-M85-X3DQ";
-  let productName = "25G SFP28 eSR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM";
+const SFP28_25G_eSR_DuleRate = () => {
+  let pathNumber = "NXO-N7-M85-X3DR";
+  let productName = "10G / 25G SFP28 eSR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate";
 
   const form = useRef();
 
@@ -52,24 +52,7 @@ const SFP28_25G_eSR = () => {
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={loopbackImg1} className='img-main' alt="product-40GLoobBack"/>
-{/* <ReactImageMagnify {...{
-                        smallImage: {
-                            alt: 'nox product image',
-                            isFluidWidth: true,
-                            src: loopbackImg1,
-                        },
-                        largeImage: {
-                            src: loopbackImg1,
-                            width: 1200,
-                            height: 1800,
-                            // opacity:1
-                          
-                        },
-                        enlargedImageContainerDimensions: {
-                          width: '150%',
-                          height: '100%'
-                      }
-                    }} className='img-main'/> */}
+
 </div>
 
 <p className='text-center' style={{color:"gray", fontWeight:"200", fontSize:"15px" , marginBottom:"0px"}}>Click to open expanded view</p>
@@ -149,10 +132,12 @@ const SFP28_25G_eSR = () => {
 </div>
 
 <h5>Features</h5>
+
 <p className='listFeture'>Compliant with IEEE802.3by 25GBASE-SR</p>
+<p className='listFeture'>Compatible with IEEE802.3ae 10GBASE-SR/SW</p>
 <p className='listFeture'>Compliant with CPRI option10</p>
 <p className='listFeture'>Compliant with SFF-8402 SFP28 MSA</p>
-<p className='listFeture'>Data Rate up to 25.78Gbps</p>
+<p className='listFeture'>Support 10.3125G / 25.78G Dual-Rate Ethernet</p>
 <p className='listFeture'>Built-in CDR on both Transmitter and Receiver</p>
 <p className='listFeture'>Hot Pluggable</p>
 <p className='listFeture'>850nm VCSEL laser transmitter</p>
@@ -165,8 +150,9 @@ const SFP28_25G_eSR = () => {
 
 <h5 className='pt-5'>Applications</h5>
 
+<p className='listFeture'>10GBASE-SR/SW Ethernet @10.3125G</p>
 <p className='listFeture'>25GBASE-SR Ethernet @25.78G</p>
-<p className='listFeture'>CPRI Option #10 @24.33G</p>
+<p className='listFeture'>CPRI Option #10 @24.33G   </p>
 <p className='listFeture'>eCPRI 5G Mobile Networks</p>
 
 </div>
@@ -204,8 +190,8 @@ const SFP28_25G_eSR = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N7-M85-X3DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE-SR
-Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
+ <p>NXO-N7-M85-X3DR is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 10GBASE-SR / 25GBASE-SR Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
+
 
 </p>
 </div>
@@ -403,18 +389,6 @@ For more detailed information including memory map definitions, please see the S
 
 {/* Mechanical Dimensions section end */}
 
-{/* Power Supply section start */}
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Recommended Power Supply Filter</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={powerSupply} className='sectionImg3' alt="memorymapImg"/>
-</div>
-
-</div>
-
-{/* Power Supply section end */}
 
 {/* Pin Assisment section start */}
 
@@ -483,4 +457,4 @@ For more detailed information including memory map definitions, please see the S
   )
 }
 
-export default SFP28_25G_eSR;
+export default SFP28_25G_eSR_DuleRate;
