@@ -85,7 +85,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP28_25G_eSR" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>

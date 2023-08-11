@@ -534,8 +534,7 @@ const close_menu30=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DUAL</p></Link>
 
-<p className='menu-title pt-2'>4G SFP</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>4.25G SFP DUAL</p></Link>
+
 
 </div>
 
@@ -547,21 +546,16 @@ const close_menu30=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DUAL</p></Link>
 
-<p className='menu-title pt-2'>6G SFP+ </p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>6G SFP+ DUAL</p></Link>
+
 
 </div>
 
 <div className='col-lg-2'>
-    <p className='menu-title '>10G Xenpak</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK DUAL</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK CWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK DWDM</p></Link>
+<p className='menu-title pt-2'>4G SFP</p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>4.25G SFP DUAL</p></Link>
 
-<p className='menu-title pt-2'>8GFC SFP+</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>8GFC SFP+ DUAL</p></Link>
-
-
+<p className='menu-title pt-2'>6G SFP+ </p>
+<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>6G SFP+ DUAL</p></Link>
 </div>
 
 

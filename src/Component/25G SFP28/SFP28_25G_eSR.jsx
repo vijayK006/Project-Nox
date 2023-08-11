@@ -22,9 +22,9 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
-const SFP28_25G_SR = () => {
-  let pathNumber = "NXO-N7-M85-X1DQ"
-  let productName = "25G SFP28 SR Transceiver  Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM"
+const SFP28_25G_eSR = () => {
+  let pathNumber = "NXO-N7-M85-X3DQ";
+  let productName = "25G SFP28 eSR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM";
 
   const form = useRef();
 
@@ -149,7 +149,6 @@ const SFP28_25G_SR = () => {
 </div>
 
 <h5>Features</h5>
-
 <p className='listFeture'>Compliant with IEEE802.3by 25GBASE-SR</p>
 <p className='listFeture'>Compliant with CPRI option10</p>
 <p className='listFeture'>Compliant with SFF-8402 SFP28 MSA</p>
@@ -160,16 +159,15 @@ const SFP28_25G_SR = () => {
 <p className='listFeture'>Duplex LC connector</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 70m over MM OM3 fiber and 100m over MM OM4 fiber</p>
+<p className='listFeture'>Link distance 200m over MM OM3 fiber and 300m over MM OM4 fiber</p>
 <p className='listFeture'>Maximum Power consumption 1.0W</p>
 <p className='listFeture'>RoHS Compliant</p>
-
 
 <h5 className='pt-5'>Applications</h5>
 
 <p className='listFeture'>25GBASE-SR Ethernet @25.78G</p>
-<p className='listFeture'>eCPRI 5G Mobile Networks</p>
 <p className='listFeture'>CPRI Option #10 @24.33G</p>
+<p className='listFeture'>eCPRI 5G Mobile Networks</p>
 
 </div>
 
@@ -206,8 +204,8 @@ const SFP28_25G_SR = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N7-M85-X1DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE-SR
-Ethernet and CPRI Option #10 applications up to MMF OM4 100m optical links.
+ <p>NXO-N7-M85-X3DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE-SR
+Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
 
 </p>
 </div>
@@ -252,7 +250,7 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 100m optical links.
 
         <tr>
           <td>Supply Voltage</td>
-          <td>VCC3</td>
+          <td>Vcc</td>
           <td>-0.5</td>
           <td>+4.0</td>
           <td>V</td>
@@ -304,7 +302,7 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 100m optical links.
 
         <tr>
           <td>Supply Voltage</td>
-          <td>VCC</td>
+          <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
           <td>+3.47</td>
@@ -333,11 +331,11 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 100m optical links.
         
         <tr>
           <td>Power Consumption</td>
-          <td>Icc</td>
+          <td>P</td>
           <td></td>
           <td></td>
-          <td>300</td>
-          <td>V</td>
+          <td>1.0</td>
+          <td>W</td>
         </tr>
 
       </tbody>
@@ -425,19 +423,6 @@ The operating and diagnostics information is monitored and reported by a Digital
 
 {/* Pin Assisment section end */}
 
-{/* Transcrve Block section start */}
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2 mb-4'>
-  <h1 className='pb-4'>Transceiver Block Diagram:</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={transcerve} className='sectionImg2_2' alt="memorymapImg"/>
-</div>
-
-</div>
-
-{/* Transcrve Block section end */}
-
 <Footer/>
 
 {/* --------------------------------------------------------------------------------------------------------- */}
@@ -492,4 +477,4 @@ The operating and diagnostics information is monitored and reported by a Digital
   )
 }
 
-export default SFP28_25G_SR;
+export default SFP28_25G_eSR;

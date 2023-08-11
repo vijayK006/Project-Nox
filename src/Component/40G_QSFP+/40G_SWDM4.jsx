@@ -182,10 +182,6 @@ with SFF-8436, SFF-8636</p>
 
 
     <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Laser Safety</a>
-    </li>
-
-    <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic</a>
     </li>
 

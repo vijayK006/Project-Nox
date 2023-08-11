@@ -198,10 +198,6 @@ const SFP_8GFC_ELR = () => {
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
-    <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Laser Safety</a>
-    </li>
-
   
   </ul> 
 </div>
@@ -343,19 +339,6 @@ performance for 2x/4x/8x Multi-Rate Fiber Channel applications up to SMF 30km op
   </div>
 </div>
  </div>
-
- <div id="menu3" class="container tab-pane fade"><br/>
-    <div class="container mt-3">
-  <h2>Laser Safety</h2>
-  
-<ul>
-    <li>This is a Class 1 Laser Product complies with 21 CFR 1040.10 and 1040.11 except for conformance with IEC 60825-1 Ed. 3., as described in Laser Notice No. 56, dated May 8, 2019.
-</li>
-    <li>Caution: Use of control or adjustments or performance of procedure other than those specified herein may result in hazardous radiation exposure.
-</li>
-</ul>
-</div>
-</div>
 
   </div>
   
