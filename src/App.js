@@ -67,6 +67,7 @@ import SFP28_BX10_33 from './Component/25G SFP28/SFP28_BX10_33';
 import SFP28_BX20_33 from './Component/25G SFP28/SFP28_BX20_33';
 import SFP28_25G_CWDM from './Component/25G SFP28/SFP28_25G_CWDM';
 import SFP28_LR_25G_Projects from './Component/25G SFP28/25G_SFP28_LR_Projects';
+
 import SFP28_25G_LR_2km from "./Component/25G SFP28/25G-LR_2km"
 import SFP28_25G_LR_10km from "./Component/25G SFP28/25G-LR_10km"
 import SFP28_25G_LR_DualRate from "./Component/25G SFP28/25G-LR_DualRate"
@@ -75,6 +76,9 @@ import SFP28_25G_DWDM from "./Component/25G SFP28/25G-DWDM"
 import SFP28_25G__LWDM_products from './Component/25G SFP28/SFP28_25G_LWDM_products';
 import LWDM_25G_40KM from './Component/25G SFP28/LWDM_25G_40KM';
 import LWDM_25G_40KM_DuelRate from './Component/25G SFP28/LWDM_25G_40KM_DuelRate';
+
+import SFP28_25G_SW from "./Component/25G SFP28/25G-SW";
+import SFP_100Tx from "./Component/RJ45 Copper Series/SFP-100Tx";
 
 
 function App() {
@@ -148,6 +152,8 @@ function App() {
      <Route path="/SFP28_25G__LWDM_products" element={<SFP28_25G__LWDM_products/>}/>
      <Route path="/LWDM_25G_40KM" element={<LWDM_25G_40KM/>}/>
      <Route path="/LWDM_25G_40KM_DuelRate" element={<LWDM_25G_40KM_DuelRate/>}/>
+     <Route path="/SFP28_25G_SW" element={<SFP28_25G_SW/>}/>
+     <Route path="/SFP_100Tx" element={<SFP_100Tx/>}/>
      
     </Routes>
     

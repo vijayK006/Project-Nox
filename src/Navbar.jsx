@@ -431,13 +431,13 @@ const close_menu30=()=>{
 <Link to="/SFP28_LR_25G_Projects" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 LR</p></Link>
 <Link to="/SFP28_25G__LWDM_products" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 LWDM</p></Link>
 <Link to="/SFP28_25G_DWDM" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 DWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>32GFC SFP28 SW</p></Link>
+<Link to="/SFP28_25G_SW" style={{textDecoration:"none"}}><p className='menu-inner-items'>32GFC SFP28 SW</p></Link>
 
 </div>
 
 <div className='col-lg-2'>
 <p className='menu-title '>RJ45 Copper Series</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-100TX</p></Link>
+<Link to="/SFP_100Tx" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-100TX</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP-1000T</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ 10G-T</p></Link>
 
@@ -807,7 +807,7 @@ const close_menu30=()=>{
 
 <Link to="/SFP28_25G__LWDM_products" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 LWDM</p></Link>
 <Link to="/SFP28_25G_DWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 DWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>32GFC SFP28 SW</p></Link>
+<Link to="/SFP28_25G_SW" style={{textDecoration:"none"}}><p className='mob-nav-items'>32GFC SFP28 SW</p></Link>
 
 
 </div>
@@ -823,7 +823,7 @@ const close_menu30=()=>{
 <div className='mobile-nav-all_product' id='series9'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu9}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP-100TX</p></Link>
+<Link to="/SFP_100Tx" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP-100TX</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP-1000T</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ 10G-T</p></Link>
 
