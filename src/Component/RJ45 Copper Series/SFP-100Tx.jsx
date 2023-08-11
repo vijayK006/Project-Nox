@@ -4,7 +4,7 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/25G SFP28/SFP28_SW.jpg';
+import loopbackImg1 from '../../img/products/RJ45 Copper Series/SFP_100Tx_1.jpg';
 
 
 import memorymapimg from '../../img/products/25G SFP28/memoryMap.png'
@@ -23,8 +23,8 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP_100Tx = () => {
-  let pathNumber = "NXO-P7-M85-X1DQ";
-  let productName = "32GFC SFP28 SW Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM";
+  let pathNumber = "NXO-AJ-Tx1-X1";
+  let productName = "125M SFP-100TX Transceiver Hot Pluggable, RJ-45, Active Copper SFP";
 
   const form = useRef();
 
@@ -150,24 +150,27 @@ const SFP_100Tx = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with Fiber Channel 3200-M5F-SN-I
+<p className='listFeture'>Compatible with IEEE802.3u Standard
+
 </p>
-<p className='listFeture'>Compliant with SFF-8402 SFP28 MSA
+<p className='listFeture'>Compliant with SFP MSA
+
 </p>
-<p className='listFeture'>Support 4x/8x/10x/16x/32x Fiber Channel
+<p className='listFeture'>Hot Pluggable
+
 </p>
-<p className='listFeture'>Support 4.25Gb/s to 28.05Gb/s Multi-Rate
+<p className='listFeture'>Auto-detect MDI/MDI-X on RJ-45 port
+
 </p>
-<p className='listFeture'>Built-in CDR on both Transmitter and Receiver</p>
-<p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>850nm VCSEL laser transmitter
+<p className='listFeture'>Compatible with 10BASE-T and 100BASE-TX auto-negotiation on RJ-45 port
 </p>
-<p className='listFeture'>Duplex LC connector</p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
+<p className='listFeture'>Support RX_LOS(Loss Of Signal) function
+</p>
+
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance
-@32GFC: OM4 100m / OM3 70m / OM2 20m @16GFC: OM4 125m / OM3 100m / OM2 35m @8GFC: OM4 150m / OM3 150m / OM2 50m @4GFC: OM4 400m / OM3 380m / OM2 150m
+<p className='listFeture'>Link length up to 100m with four-pair Cat.5 UTP
 </p>
+
 <p className='listFeture'>RoHS Compliant</p>
 
 
@@ -219,9 +222,7 @@ const SFP_100Tx = () => {
   <h2>Overview</h2>
   
  <p>
-
-NXO-P7-M85-X1DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 4x/8x/10x/16x/32x Fiber Channel applications up to MMF OM4 100m optical links.
-
+NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 125Mbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the 2-wire serial bus I2C protocol. This 100Base-TX Copper SFP Transceiver supports the SFP based switch100Base-FX ports that accept standard 100Base-FX optics SFP.
 </p>
 </div>
 </div>
