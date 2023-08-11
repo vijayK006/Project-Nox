@@ -74,6 +74,10 @@ import SFP28_25G_LR_Transceiver from "./Component/25G SFP28/25G-LR_transciever";
 import SFP28_25G_DWDM from "./Component/25G SFP28/25G-DWDM";
 import SFP28_25G_SW from "./Component/25G SFP28/25G-SW";
 import SFP_100Tx from "./Component/RJ45 Copper Series/SFP-100Tx";
+import Projects_SFP_10G from "./Component/RJ45 Copper Series/Projects_SFP_10G_T";
+import SFP_10G_T_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T_Y3";
+import SFP_10G_T_Y3i from "./Component/RJ45 Copper Series/SFP_10G_T_Y3i";
+import SFP_10G_T_Y38 from "./Component/RJ45 Copper Series/SFP_10G_T_Y38";
 
 
 function App() {
@@ -146,6 +150,10 @@ function App() {
      <Route path="/SFP28_25G_DWDM" element={<SFP28_25G_DWDM/>}/>
      <Route path="/SFP28_25G_SW" element={<SFP28_25G_SW/>}/>
      <Route path="/SFP_100Tx" element={<SFP_100Tx/>}/>
+     <Route path="/Projects_SFP_10G" element={<Projects_SFP_10G/>}/>
+     <Route path="/SFP_10G_T_Y3" element={<SFP_10G_T_Y3/>}/>
+     <Route path="/SFP_10G_T_Y3i" element={<SFP_10G_T_Y3i/>}/>
+     <Route path="/SFP_10G_T_Y38" element={<SFP_10G_T_Y38/>}/>
      
     </Routes>
     
