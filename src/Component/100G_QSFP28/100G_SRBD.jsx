@@ -160,48 +160,37 @@ RoHS compliant
 </p>
 <p className='listFeture'>Support KP4 FEC at 100Gbps
 </p>
-<p className='listFeture'>MPO-12 / MTP-12 optical connector
-</p>
-<p className='listFeture'>4CH PIN array receiver
-</p>
-<p className='listFeture'>MPO-12 receptacle connector
-</p>
-<p className='listFeture'>Built-in digital diagnostic function
-</p>
-<p className='listFeture'>
-Hot Pluggable QSFP28 footprint
+
+<p className='listFeture'>Hot Pluggable QSFP28 footprint
 
 </p>
-<p className='listFeture'>
-Dual Bidi LC connector
+<p className='listFeture'>Dual Bidi LC connector
 
 </p>
-<p className='listFeture'>
-2-wire interface for management and diagnostic monitor compliant with SFF-8636
-</p>
-<p className='listFeture'>
-Single 3.3V power supply
-</p>
+<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8636
 
+</p>
+<p className='listFeture'>Single 3.3V power supply
+n
+</p>
 <p className='listFeture'>
 Link distance 150m over OM5 fiber, 100m over OM4 fiber and 70m over MM OM3 fiber
+
+
 </p>
-<p >
+<p className='listFeture'>
+Operating Temperature +10~+65°C
+
+
+</p>
+<p className='listFeture'>
 Maximum power consumption 4W
-</p>
-<p className='listFeture'>RoHS compliant
-</p>
 
-<h5 className='pt-5'>Applications</h5>
-
-<p className='listFeture'>100GBASE-SR4 Ethernet @103.1G
 </p>
+<p className='listFeture'>
+RoHS compliant
 
-<p className='listFeture'>Data Centers Switch Interconnect
 </p>
-<p className='listFeture'>Server and Storage Area Network Interconnect
-</p>
-
 
 </div>
 

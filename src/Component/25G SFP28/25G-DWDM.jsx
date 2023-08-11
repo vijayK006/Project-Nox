@@ -1,38 +1,33 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/100G QSFP28/100G_SR4_1.jpg'
-
-import transcrve from '../../img/products/100G QSFP28/TransciverSR4-2.jpg';
-import pinassisment from '../../img/products/100G QSFP28/AssesmentSR4_3.jpg';
-import machdimenssion from '../../img/products/100G QSFP28/mechanical-5_2.jpg';
-import Memorymap from '../../img/products/100G QSFP28/memorymap_4.jpg';
-import opticalInterface from "../../img/products/40GQSFP+/optical.png";
-import powersupply from "../../img/products/100G QSFP28/powersupply_7.jpg";
-
-
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
-
-
-
-import { BsCartCheck } from 'react-icons/bs';
-import { LiaWarehouseSolid } from 'react-icons/lia';
-import { MdSecurity } from 'react-icons/md';
-
 import { Link } from 'react-router-dom';
 
+import loopbackImg1 from '../../img/products/25G SFP28/SFP28_LR.jpg';
+
+
+import memorymapimg from '../../img/products/25G SFP28/memoryMap.png'
+import mchdimensionImg from '../../img/products/25G SFP28/mecDimenssion.jpg'
+import powerSupply from '../../img/products/100G QSFP28/PowerSupply.jpg'
+import pinAssisment from '../../img/products/25G SFP28/pinAssisment.jpg'
+import transcerve from '../../img/products/100G QSFP28/transciverBlock_ER4_single.jpg'
+
+import { LiaWarehouseSolid } from 'react-icons/lia';
+import { MdSecurity } from 'react-icons/md';
+import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Product_100G_SR4_DualRate = () => { 
 
-  let pathNumber = "NXOQ28-K9-M85-X1DR";
-  let productName ="100G QSFP28 SR4 Transceiver Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate";
+const SFP28_25G_DWDM = () => {
+  let pathNumber = "NXO-N7-Dxx-10DQ";
+  let productName = "25G SFP28 DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 10KM, DDM";
 
   const form = useRef();
-  
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -44,9 +39,10 @@ const Product_100G_SR4_DualRate = () => {
       }, (error) => {
           console.log(error.text);
       });
-  }; 
+  };
   return (
-<>
+
+    <>
     <Navbar/>
 
 <div className='product-struct'>
@@ -55,8 +51,25 @@ const Product_100G_SR4_DualRate = () => {
 <div className='LightBox'>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={productImg1} className='img-main' alt="product-40GLoobBack"/>
-
+<img src={loopbackImg1} className='img-main' alt="product-40GLoobBack"/>
+{/* <ReactImageMagnify {...{
+                        smallImage: {
+                            alt: 'nox product image',
+                            isFluidWidth: true,
+                            src: loopbackImg1,
+                        },
+                        largeImage: {
+                            src: loopbackImg1,
+                            width: 1200,
+                            height: 1800,
+                            // opacity:1
+                          
+                        },
+                        enlargedImageContainerDimensions: {
+                          width: '150%',
+                          height: '100%'
+                      }
+                    }} className='img-main'/> */}
 </div>
 
 <p className='text-center' style={{color:"gray", fontWeight:"200", fontSize:"15px" , marginBottom:"0px"}}>Click to open expanded view</p>
@@ -66,46 +79,46 @@ const Product_100G_SR4_DualRate = () => {
 
 
     <Item
-      original={productImg1}
-      thumbnail={productImg1}
+      original={loopbackImg1}
+      thumbnail={loopbackImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={productImg1}
-      thumbnail={productImg1}
+      original={loopbackImg1}
+      thumbnail={loopbackImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={productImg1}
-      thumbnail={productImg1}
+      original={loopbackImg1}
+      thumbnail={loopbackImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={productImg1}
-      thumbnail={productImg1}
+      original={loopbackImg1}
+      thumbnail={loopbackImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
       )}
     </Item>
    
@@ -122,14 +135,12 @@ const Product_100G_SR4_DualRate = () => {
 </div>
 
 <div className='product-content'>
-<h4>
-{productName}
-</h4>
+<h4>{productName}</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Part Number</p>
+<p>Path Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<div className='sell-text'>{pathNumber}</div>
 </div>
 
 <div className='sub-content'>
@@ -139,101 +150,26 @@ const Product_100G_SR4_DualRate = () => {
 
 <h5>Features</h5>
 
+<p className='listFeture'>Compliant with IEEE802.3cc 25GBASE-LR</p>
+<p className='listFeture'>Compliant with CPRI option10</p>
+<p className='listFeture'>Compliant with SFF-8402 SFP28 MSA</p>
+<p className='listFeture'>Data Rate up to 25.78Gbps</p>
+<p className='listFeture'>Built-in CDR on both Transmitter and Receiver</p>
+<p className='listFeture'>Hot Pluggable</p>
+<p className='listFeture'>1310nm DFB laser transmitter</p>
+<p className='listFeture'>Duplex LC connector</p>
+<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
+<p className='listFeture'>Single +3.3V power supply</p>
+<p className='listFeture'>Link distance 2km over SM fiber</p>
+<p className='listFeture'>RoHS Compliant</p>
 
-
-<p className='listFeture'>Compliant to SFF-8636 QSFP28 MSA
-
-
-</p>
-<p className='listFeture'>Compliant to IEEE 802.3bm CAUI-4 Interface
-
-
-</p>
-<p className='listFeture'>Compliant to IEEE802.3ba 100GBASE-SR4
-
-
-</p>
-<p className='listFeture'>4 independent full-duplex channels
-
-</p>
-<p className='listFeture'>Up to 27.952Gbps Data rate per lane
-
-</p>
-<p className='listFeture'>Hot Pluggable QSFP28 footprint
-
-</p>
-<p className='listFeture'>4 channels 850nm VCSEL array transmitter
-
-
-</p>
-<p className='listFeture'>4 channels PIN array receiver
-
-</p>
-<p className='listFeture'>MPO-12 / MTP-12 optical connector
-
-
-</p>
-<p className='listFeture'>4CH PIN array receiver
-
-</p>
-<p className='listFeture'>MPO-12 receptacle connector
-
-</p>
-<p className='listFeture'>Built-in digital diagnostic function
-
-
-</p>
-<p className='listFeture'>
-2-wire interface for management
-
-
-</p>
-<p className='listFeture'>
-Built in quad TX CDR and RX CDR
-
-
-</p>
-<p className='listFeture'>
-Single 3.3V power supply
-
-
-</p>
-<p className='listFeture'>
-Link distance 100m over MM4 fiber and 70m over MM OM3 fiber
-
-
-</p>
-
-<p className='listFeture'>
-Maximum power consumption 2W
-
-</p>
-<p className='listFeture'>
-RoHS compliant
-
-</p>
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>100GBASE-SR4 Ethernet @103.1G
-
-
-</p>
-<p className='listFeture'>Breakout to 4 x 25GBASE-SR Ethernet
-
-</p>
-<p className='listFeture'>
-ITU-T OTN OTU4 @111.8G
-
-</p>
-<p className='listFeture'>Data Centers Switch Interconnect
-
-
-</p>
-<p className='listFeture'>Server and Storage Area Network Interconnect
-
-
-</p>
+<p className='listFeture'>25GBASE-SR Ethernet @25.78G</p>
+<p className='listFeture'>CPRI Option #10 @24.33G</p>
+<p className='listFeture'>eCPRI 5G Mobile Networks</p>
+<p className='listFeture'>DWDM Networks</p>
 
 
 </div>
@@ -241,9 +177,8 @@ ITU-T OTN OTU4 @111.8G
 </div>
 
 <div className='container pt-lg-5  pb-lg-5'>
-<div className='resp-overflow'>
-    <div className='d-flex justify-content-center'>
-       <ul class="navs nav-pills" role="tablist">
+<div className='d-flex felx-wrap justify-content-center'>
+       <ul class="nav nav-pills" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
@@ -258,10 +193,13 @@ ITU-T OTN OTU4 @111.8G
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
+
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic Functions</a>
+    </li>
+
   </ul> 
 </div>
-</div>
-
 
 
   <div class="tab-content">
@@ -270,13 +208,14 @@ ITU-T OTN OTU4 @111.8G
   <h2>Overview</h2>
   
  <p>
-NXOQ28-K9-M85-X1DR is a parallel fiber optical transceiver module for 103.1Gbps and 111.8Gbps data transmission applications at 850nm. It is ideally suited for datacom & storage area network (SAN/NAS) applications based on IEEE 802.3ba 100GBASE-SR4 and OTN OTU4
-standard. Designed for short range multi-lane data communication, The QSFP28 full-duplex optical module with MPO-12 receptacle integrates four independent transmitter and receiver channels. Each capable 25.78125 or 27.952Gbps operation for an aggregate data
-rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
+
+NXO-N7-Dxx-10DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance cooled DWDM EML transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for DWDM Networks, 25GBASE-LR Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
 
 </p>
 </div>
 </div>
+
+
 
 <div id="menu1" class="container tab-pane fade"><br/>
     <div class="container mt-3">
@@ -308,16 +247,16 @@ rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
-          <td>0</td>
-          <td>85</td>
+          <td>5</td>
+          <td>95</td>
           <td>%</td>
         </tr>
 
         <tr>
           <td>Supply Voltage</td>
-          <td>VCC3</td>
+          <td>VCC</td>
           <td>-0.5</td>
-          <td>+3.6</td>
+          <td>+4.0</td>
           <td>V</td>
         </tr>
 
@@ -327,7 +266,7 @@ rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
 </div>
 </div>
 
- <div id="menu2" class="container tab-pane fade"><br/>
+    <div id="menu2" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Recommended Operating Conditions</h2>
   
@@ -346,8 +285,9 @@ rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
         </tr>
       </thead>
       <tbody>
-      <tr>
-          <td>Case Operating Temperature</td>
+
+        <tr>
+          <td>Case Operating Temp.</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -355,6 +295,7 @@ rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
           <td>°C</td>
         </tr>
 
+      
         <tr>
           <td>Supply Voltage</td>
           <td>VCC</td>
@@ -364,134 +305,126 @@ rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
           <td>V</td>
         </tr>
 
-        <tr>
-          <td>Data Rate, each Lane</td>
-          <td></td>
-          <td></td>
-          <td>25.78125</td>
-          <td>27.952</td>
-          <td>Gb/s</td>
-        </tr>
-
-        <tr>
-          <td>Data Rate Accuracy</td>
-          <td></td>
-          <td>-100</td>
-          <td></td>
-          <td>+100</td>
-          <td>ppm</td>
-        </tr>
-          
-        <tr>
-          <td>Bit Error Rate</td>
-          <td>BER</td>
-          <td></td>
-          <td></td>
-          <td>10^-12</td>
-          <td></td>
-        </tr>
 
         <tr>
           <td>Supply Current</td>
-          <td>ICC</td>
-          <td></td>
-          <td></td>
-          <td>600</td>
+          <td>Icc</td>
+          <td>-</td>
+          <td>-</td>
+          <td>700</td>
           <td>mA</td>
         </tr>
-
+       
+        
         <tr>
           <td>Power Consumption</td>
           <td>P</td>
           <td></td>
           <td></td>
-          <td>2</td>
+          <td>2.3</td>
           <td>W</td>
         </tr>
-        
-        <tr>
-          <td>Transceiver Power-on Initialization Time</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>2000</td>
-          <td>ms</td>
-        </tr>
-        
+
       </tbody>
     </table>
   </div>
 </div>
  </div>
 
+ 
+
+
+ <div id="menu4" class="container tab-pane fade"><br/>
+    <div class="container mt-3">
+  <h2>Digital Diagnostic Functions</h2>
+  <p>As defined by the QSFP28 MSA(SFF-8472) , NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
+</p>
+
+<ul>
+    <li>Transceiver temperature</li>
+    <li>Laser bias current </li>
+    <li>Transmitted optical power </li>
+    <li>Received optical power </li>
+    <li>Transceiver supply voltage</li>
+</ul>
+<p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.</p>
+<p>
+The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the QSFP28 transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the QSFP28 transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially. The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed from 000h to the maximum address of the memory.
+</p>
+<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.
+</b></p>
+</div>
+ </div>
+
   </div>
 </div>
 
-
-{/* Memory Map Section End */}
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Transceiver Block Diagram</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={transcrve} className='sectionImg3' alt="memorymapImg"/>
-</div>
-
-</div>
 {/* Memory Map Section Start */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assisment</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>
-</div>
-
-</div>
-{/* Mechanical Dimensions section start */}
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Memory Map
+  <h1 className='pb-4'>Digital Diagnostic Memory Map
 </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={Memorymap} className='sectionImg2' alt="memorymapImg"/>
+<img src={memorymapimg} className='sectionImg2_1' alt="memorymapImg"/>
+</div>
+
+</div>
+{/* Memory Map Section End */}
+
+{/* Mechanical Dimensions section start */}
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Mechanical Dimensions </h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
 </div>
 
 </div>
 
 {/* Mechanical Dimensions section end */}
 
-{/* Transivers Block Diagram Section Start */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Mechanical Dimensions </h1>
+{/* Power Supply section start */}
 
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={machdimenssion} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
-</div>
-
-</div>
-
-
-{/* Transivers Block Diagram Section End */}
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Optical Interface Lanes and Assignment </h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={opticalInterface} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
-</div>
-
-</div>
-{/* power supply */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Recommended Power Supply Filter</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={powersupply} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
+<img src={powerSupply} className='sectionImg3' alt="memorymapImg"/>
+</div>
+
+</div> */}
+
+{/* Power Supply section end */}
+
+{/* Pin Assisment section start */}
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Pin Assisment</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={pinAssisment} className='sectionImg3' alt="memorymapImg"/>
 </div>
 
 </div>
+
+{/* Pin Assisment section end */}
+
+{/* Transcrve Block section start */}
+
+{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2 mb-4'>
+  <h1 className='pb-4'>Transceiver Block Diagram:</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={transcerve} className='sectionImg2_2' alt="memorymapImg"/>
+</div>
+
+</div> */}
+
+{/* Transcrve Block section end */}
+
 <Footer/>
+
 {/* --------------------------------------------------------------------------------------------------------- */}
 <div class="modal fade" id="myModal">
   <div class="modal-dialog modal-dialog-centered">
@@ -544,4 +477,4 @@ rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
   )
 }
 
-export default Product_100G_SR4_DualRate;
+export default SFP28_25G_DWDM;
