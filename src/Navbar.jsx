@@ -431,7 +431,7 @@ const close_menu30=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 CWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 LWDM</p></Link>
 <Link to="/SFP28_25G_DWDM" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 DWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>32GFC SFP28 SW</p></Link>
+<Link to="/SFP28_25G_SW" style={{textDecoration:"none"}}><p className='menu-inner-items'>32GFC SFP28 SW</p></Link>
 
 </div>
 
@@ -806,7 +806,7 @@ const close_menu30=()=>{
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 CWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 LWDM</p></Link>
 <Link to="/SFP28_25G_DWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 DWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>32GFC SFP28 SW</p></Link>
+<Link to="/SFP28_25G_SW" style={{textDecoration:"none"}}><p className='mob-nav-items'>32GFC SFP28 SW</p></Link>
 
 
 </div>
