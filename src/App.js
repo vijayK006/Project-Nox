@@ -59,6 +59,13 @@ import LR4_Ethernet_100G from './Component/100G_QSFP28/100G_LR4_Ethernet';
 import SFP28_SR_Products from './Component/25G SFP28/SFP28_SR_Products';
 import SFP28_25G_SR from './Component/25G SFP28/SFP28_25G_SR';
 import SFP28_25G_eSR from './Component/25G SFP28/SFP28_25G_eSR';
+import SFP28_LR_25G_Projects from './Component/25G SFP28/25G_SFP28_LR_Projects';
+import SFP28_25G_LR_2km from "./Component/25G SFP28/25G-LR_2km"
+import SFP28_25G_LR_10km from "./Component/25G SFP28/25G-LR_10km"
+import SFP28_25G_LR_DualRate from "./Component/25G SFP28/25G-LR_DualRate"
+import SFP28_25G_LR_Transceiver from "./Component/25G SFP28/25G-LR_transciever"
+import SFP28_25G_DWDM from "./Component/25G SFP28/25G-DWDM"
+
 
 function App() {
   return (
@@ -115,6 +122,12 @@ function App() {
      <Route path="/SFP28_SR_Products" element={<SFP28_SR_Products/>}/>
      <Route path="/SFP28_25G_SR" element={<SFP28_25G_SR/>}/>
      <Route path="/SFP28_25G_eSR" element={<SFP28_25G_eSR/>}/>
+     <Route path="/SFP28_LR_25G_Projects" element={<SFP28_LR_25G_Projects/>}/>
+     <Route path="/SFP28_25G_LR_2km" element={<SFP28_25G_LR_2km/>}/>
+     <Route path="/SFP28_25G_LR_10km" element={<SFP28_25G_LR_10km/>}/>
+     <Route path="/SFP28_25G_LR_DualRate" element={<SFP28_25G_LR_DualRate/>}/>
+     <Route path="/SFP28_25G_LR_Transceiver" element={<SFP28_25G_LR_Transceiver/>}/>
+     <Route path="/SFP28_25G_DWDM" element={<SFP28_25G_DWDM/>}/>
      
     </Routes>
     
