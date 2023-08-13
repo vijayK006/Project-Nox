@@ -20,7 +20,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_CFP4 = () => {
    
-  let pathNumber = "NXO-K7-DCO-12KD";
+  let PartNumber = "NXO-K7-DCO-12KD";
   let productName = "100G CFP-DCO coherent Dual Rate Transceiver Hot Pluggable, Duplex LC, Micro-ITLA LD, NDSF reach 1200KM, DDM";
   
   const form = useRef();
@@ -123,9 +123,9 @@ const Product_CFP4 = () => {
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
-<div className='sell-text'>{pathNumber}
+<div className='sell-text'>{PartNumber}
 
 
 </div>
@@ -423,8 +423,8 @@ Interoperability with G.709 FEC
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

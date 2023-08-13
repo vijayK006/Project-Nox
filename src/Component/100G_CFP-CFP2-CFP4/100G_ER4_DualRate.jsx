@@ -20,7 +20,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const ER4_DuleRate_100G = () => {
    
-  let pathNumber = "NXO-K7-L13-40DR";
+  let PartNumber = "NXO-K7-L13-40DR";
   let productName = "100G CFP2 ER4 Dual Rate TransceiverHot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM";
   
   const form = useRef();
@@ -123,9 +123,9 @@ const ER4_DuleRate_100G = () => {
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
-<div className='sell-text'>{pathNumber}
+<div className='sell-text'>{PartNumber}
 
 
 </div>
@@ -441,8 +441,8 @@ The transceiver incorporates a 4-channel laser driver circuit together with a 4-
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

@@ -248,8 +248,13 @@ box-shadow: 0px 1px 8px 0px #dbdbdb;
 
 .pricing-section{
 
-width: 95%;
+width: 100%;
 }
+
+.pricing-section p{
+    margin: 0px ;
+    line-height: 4;
+    }
 
 .banner-heading{
     position: absolute;
@@ -334,6 +339,11 @@ background-color: #ff5416;
     width: max-content;
     letter-spacing: 2px;
 }
+
+.pricing-section p{
+    margin: 0px ;
+    line-height: 2;
+    }
 
 
 .pricing-section{
@@ -527,6 +537,11 @@ width: 80%;
     margin-bottom: 0px;
 
     }
+
+    .pricing-section p{
+        margin: 0px ;
+        line-height: 1;
+        }
 
     .sectionImg2_1{
         height: 375px;

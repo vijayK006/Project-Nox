@@ -20,7 +20,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const HundredGLoopbackProduct = () => {
    
-  let pathNumber = "NXO-KX-XLB-xx-xx";
+  let PartNumber = "NXO-KX-XLB-xx-xx";
   let productName = "100G QSFP28 Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 0~3.5W Power Consumption";
 
   const form = useRef();
@@ -121,9 +121,9 @@ const HundredGLoopbackProduct = () => {
 
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
-<div className='sell-text'>{pathNumber}</div>
+<div className='sell-text'>{PartNumber}</div>
 </div>
 
 <div className='sub-content'>
@@ -355,8 +355,8 @@ system by looping back the electrical signal (optics are excluded). It provides 
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

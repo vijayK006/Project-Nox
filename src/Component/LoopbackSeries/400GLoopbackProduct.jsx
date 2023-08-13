@@ -19,7 +19,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 // import ReactImageMagnify from 'react-image-magnify';
 
 const FourHGLoopbackProduct = () => {
-  let pathNumber = "NXO-TX-XLB-xx-xx"
+  let PartNumber = "NXO-TX-XLB-xx-xx"
   let productName = "400G QSFP-DD Electrical Passive LoopbackHot Pluggable, 0~5dB Internal Attenuation, 0~5W Power Consumption"
 
   const form = useRef();
@@ -134,9 +134,9 @@ const FourHGLoopbackProduct = () => {
 <h4>{productName}</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
-<div className='sell-text'>{pathNumber}</div>
+<div className='sell-text'>{PartNumber}</div>
 </div>
 
 <div className='sub-content'>
@@ -367,8 +367,8 @@ const FourHGLoopbackProduct = () => {
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

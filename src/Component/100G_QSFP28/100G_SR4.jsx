@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_100G_SR4 = () => { 
 
-  let pathNumber = "NXOQ28-K9-M85-X1D";
+  let PartNumber = "NXOQ28-K9-M85-X1D";
   let productName ="100G QSFP28 SR4 Transceiver Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM";
 
   const form = useRef();
@@ -128,7 +128,7 @@ const Product_100G_SR4 = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -515,8 +515,8 @@ NXOQ28-K9-M85-X1D is a parallel fiber optical transceiver module for 103.1Gbps d
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

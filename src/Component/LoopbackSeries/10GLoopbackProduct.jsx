@@ -19,7 +19,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const TenGLoopbackProduct = () => {
-let pathNumber = "NXO-HX-XLB-xx-xx"
+let PartNumber = "NXO-HX-XLB-xx-xx"
 let productName = "10G SFP+ Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 0~2.5W Power Consumption "
    
   return (
@@ -104,9 +104,9 @@ let productName = "10G SFP+ Electrical Passive Loopback Hot Pluggable, 0~5dB Int
 {/* <span> : </span> */}
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
-<p className='sell-text' id="pathNumber">{pathNumber}</p>
+<p className='sell-text' id="PartNumber">{PartNumber}</p>
 
 </div>
 
@@ -337,8 +337,8 @@ It provides an economical way to mimic Fast Ethernet, Gigabit Ethernet, 10G Ethe
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

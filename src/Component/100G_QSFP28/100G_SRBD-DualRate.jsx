@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_100G_SRBD_DualRate = () => { 
 
-  let pathNumber = "NXO-KC-C85-X1DR";
+  let PartNumber = "NXO-KC-C85-X1DR";
   let productName ="40G / 100G QSFP28 SR2-BiDi TransceiverHot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM, Dual-Rate";
 
   const form = useRef();
@@ -129,7 +129,7 @@ const Product_100G_SRBD_DualRate = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -500,8 +500,8 @@ NXO-KC-C85-X1DR is a pluggable optical transceiver with a Dual Bidi LC connector
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

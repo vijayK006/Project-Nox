@@ -26,7 +26,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_Bidi_LC = () => { 
 
-  let pathNumber = "NXO-CC-S43-20D";
+  let PartNumber = "NXO-CC-S43-20D";
   let productName ="1.25G SFP 1000BX-D Compact 2CH Bidi Transceiver Hot Pluggable, Dual Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 20KM, DDM";
 
   const form = useRef();
@@ -127,7 +127,7 @@ const Dual_Bidi_LC = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -409,8 +409,8 @@ Specification.
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

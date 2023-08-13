@@ -106,7 +106,7 @@ const Product_100G_QSFP28 = () => {
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
 <div className='sell-text'>NXO-AS8-C2QP-Nx
 

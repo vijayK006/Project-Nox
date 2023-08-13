@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const X2_10G_SR = () => { 
 
-  let pathNumber = "NXO-H1-M85-X3D";
+  let PartNumber = "NXO-H1-M85-X3D";
   let productName ="10G X2-SR Transceiver Hot Pluggable, Duplex SC, 850nm VCSEL, Multi-Mode, 300M, DDM";
 
   const form = useRef();
@@ -126,7 +126,7 @@ const X2_10G_SR = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -378,8 +378,8 @@ management functions are all integrated into the module. This transceiver uses a
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

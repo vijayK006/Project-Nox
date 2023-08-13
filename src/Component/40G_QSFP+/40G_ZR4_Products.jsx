@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 const Product_40G_ZR4 = () => {
 
   let productName = "40G QSFP+ ZR4 Transceiver Hot Pluggable, Duplex LC, LAN-WDM EML, SMF 80KM, DDM";
-  let pathNumber = "NXO-I7-L13-80D";
+  let PartNumber = "NXO-I7-L13-80D";
 
   const form = useRef();
 
@@ -123,7 +123,7 @@ Hot Pluggable, Duplex LC, LAN-WDM EML, SMF 80KM, DDM
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
 <div className='sell-text'>NXO-I7-L13-80D
 
@@ -530,8 +530,8 @@ It also provides a sophisticated system of alarm and warning flags, which may be
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

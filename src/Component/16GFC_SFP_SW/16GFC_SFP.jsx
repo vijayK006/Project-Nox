@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_16GFC_SFP = () => { 
 
-  let pathNumber = "NXO-M7-M85-X1D";
+  let PartNumber = "NXO-M7-M85-X1D";
   let productName ="16GFC SFP+ SW TransceiverHot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 100M, DDM";
 
   const form = useRef();
@@ -126,7 +126,7 @@ const Product_16GFC_SFP = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -393,8 +393,8 @@ performance for 4x/8x/10x/16x Fiber Channel applications up to MMF OM3 100m opti
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

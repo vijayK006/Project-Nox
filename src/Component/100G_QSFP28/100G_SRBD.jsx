@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_100G_SRBD = () => { 
 
-  let pathNumber = "NXO-KC-C85-X1D-T10";
+  let PartNumber = "NXO-KC-C85-X1D-T10";
   let productName ="100G QSFP28 SR2-BiDi Transceiver Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM";
 
   const form = useRef();
@@ -129,7 +129,7 @@ const Product_100G_SRBD = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -507,8 +507,8 @@ channels, then converting to PAM4 2x50G optical channels for an aggregated data 
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

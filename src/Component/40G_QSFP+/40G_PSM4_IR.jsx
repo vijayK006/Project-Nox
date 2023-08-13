@@ -23,7 +23,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const PSM4_IR_40G = () => {  
   let productName = "40G QSFP+ PSM4 IR Transceiver Hot Pluggable, MPO / MTP, 1310nm DFB, SMF 2KM, DDM";
-  let pathNumber = "NXO-I9-S13-02D";
+  let PartNumber = "NXO-I9-S13-02D";
 
   const form = useRef();
 
@@ -122,7 +122,7 @@ const PSM4_IR_40G = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -460,8 +460,8 @@ from 000h to  the maximum address of the memory.
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

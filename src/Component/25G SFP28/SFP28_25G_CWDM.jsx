@@ -23,7 +23,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_25G_CWDM = () => {
-  let pathNumber = "NXO-N7-Cxx-10DQ";
+  let PartNumber = "NXO-N7-Cxx-10DQ";
   let productName = "25G SFP28 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM";
 
   const form = useRef();
@@ -138,9 +138,9 @@ const SFP28_25G_CWDM = () => {
 <h4>{productName}</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
-<div className='sell-text'>{pathNumber}</div>
+<div className='sell-text'>{PartNumber}</div>
 </div>
 
 <div className='sub-content'>
@@ -435,8 +435,8 @@ The operating and diagnostics information is monitored and reported by a Digital
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

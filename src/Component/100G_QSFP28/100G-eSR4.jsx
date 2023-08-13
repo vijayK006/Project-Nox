@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const ESR4_100G = () => {
-  let pathNumber = "NXO-K9-M85-X3D"
+  let PartNumber = "NXO-K9-M85-X3D"
   let productName = "100G QSFP28 eSR4 Transceiver Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM"
 
   const form = useRef();
@@ -139,9 +139,9 @@ const ESR4_100G = () => {
 <h4>{productName}</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
-<p>Path Number</p>
+<p>Part Number</p>
 
-<div className='sell-text'>{pathNumber}</div>
+<div className='sell-text'>{PartNumber}</div>
 </div>
 
 <div className='sub-content'>
@@ -520,8 +520,8 @@ The operating and diagnostics information is monitored and reported by a Digital
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

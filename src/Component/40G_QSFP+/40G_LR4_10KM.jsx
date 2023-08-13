@@ -23,7 +23,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const LR4_10KM_40G = () => {
   let productName ="40G QSFP+ LR4 Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM";
-  let pathNumber = "NXO-I7-C13-10D";
+  let PartNumber = "NXO-I7-C13-10D";
 
   const form = useRef();
 
@@ -122,7 +122,7 @@ const LR4_10KM_40G = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content'>
@@ -499,8 +499,8 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
 
       <div className='row'>
 <div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-6'>
 <label>Your Product Name</label>

@@ -41,7 +41,7 @@ advanced tools & technologies.
 For more than 22 years we have been doing exactly what we 
 have promised! Delivering innovative, smart solutions without 
 compromising affordability, and meeting  our customer’s Network & 
-IT challenges successfully.
+IT challenges successfully. 
 </p>
 
 </div>
