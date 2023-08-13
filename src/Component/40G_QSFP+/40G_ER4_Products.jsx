@@ -496,11 +496,11 @@ The operating and diagnostics information is monitored and reported by a Digital
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>
-<div className='col-6'>
+<div className='col-6 col-sm-12'>
 <label>Your Product Part Number</label>
 <input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
-<div className='col-6'>
+<div className='col-6 col-sm-12'>
 <label>Your Product Name</label>
 <input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
 

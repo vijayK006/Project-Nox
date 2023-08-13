@@ -11,6 +11,8 @@ import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 
+import {TiTickOutline} from 'react-icons/ti';
+
 
 
 import { BsCartCheck } from 'react-icons/bs';
@@ -38,11 +40,18 @@ const Dual_Bidi_LC = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
+          document.getElementById('successMsg').classList.add('popupvisiable');
 
       }, (error) => {
           console.log(error.text);
       });
   }; 
+
+
+  const hidePop = ()=>{
+    document.getElementById("successMsg").classList.add('popuphidden');
+      }
+
   return (
 <>
     <Navbar/>
@@ -408,11 +417,11 @@ Specification.
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>
-<div className='col-6'>
+<div className='col-md-6 col-sm-12'>
 <label>Your Product Part Number</label>
 <input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
-<div className='col-6'>
+<div className='col-md-6 col-sm-12'>
 <label>Your Product Name</label>
 <input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
 
@@ -439,6 +448,27 @@ Specification.
 
     </div>
   </div>
+
+  <div className="message-sent" id="successMsg">
+
+<div className="card-message">
+
+  <div className="d-flex justify-content-center">
+<TiTickOutline className="messagetick-mark"/>
+</div>
+
+  <p className="successMsgTest">Thank you so much for taking the time to fill out the form! We truly appreciate your interest in our services. 
+  Your inquiry is valuable to us, and our team shall get back to you soon.</p>
+
+  <div className="d-flex justify-content-center pt-5 pb-1">
+    <button type="button" className="btn btn-danger" onClick={hidePop}>Go Back</button>
+  </div>
+
+</div>
+
+
+</div>
+
 </div>
     </>
   )
