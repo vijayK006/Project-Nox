@@ -69,8 +69,9 @@ const Products_2point5_SFP_BIDI = () => {
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
-Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
+  <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
+
 
 </h5>
 
