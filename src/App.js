@@ -91,7 +91,20 @@ import SFP_10G_T_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T_Y3";
 import SFP_10G_T_Y3i from "./Component/RJ45 Copper Series/SFP_10G_T_Y3i";
 import SFP_10G_T_Y38 from "./Component/RJ45 Copper Series/SFP_10G_T_Y38";
 import Products_2point5_SFP_BIDI from "./Component/2.5_SFP/2.5_SFP_BIDI_Products";
-
+import BIDI_S35_20D from "./Component/2.5_SFP/SFP_BIDI_2.5G_S35_20D";
+import BIDI_S53_20D from "./Component/2.5_SFP/BIDI_S53_20D";
+import BIDI_S35_40D from "./Component/2.5_SFP/BIDI_S35_40D";
+import BIDI_S53_40D from "./Component/2.5_SFP/BIDI_S53_40D";
+import Products_SFP_CWDM from "./Component/2.5_SFP/Products_2.5_SFP_CWDM";
+import CWDM_b20D from "./Component/2.5_SFP/CWDM_b20D";
+import CWDM_b26D from "./Component/2.5_SFP/CWDM_b26D";
+import CWDM_b30D from "./Component/2.5_SFP/CWDM_b30D";
+import CWDM_b30DM from "./Component/2.5_SFP/CWDM_b30DM";
+import CWDM_b26DM from "./Component/2.5_SFP/CWDM_b26DM";
+import Products_2point5_Dual from "./Component/2.5_SFP/Products_2.5G_Dual";
+import Dual_X3D from "./Component/2.5_SFP/Dual_X3D";
+import Dual_X3DM from "./Component/2.5_SFP/Dual_X3DM";
+import Dual_02D from "./Component/2.5_SFP/Dual_02D";
 
 function App() {
   return (
@@ -178,7 +191,23 @@ function App() {
      <Route path="/SFP_10G_T_Y3i" element={<SFP_10G_T_Y3i/>}/>
      <Route path="/SFP_10G_T_Y38" element={<SFP_10G_T_Y38/>}/>
      <Route path="/Products_2point5_SFP_BIDI" element={<Products_2point5_SFP_BIDI/>}/>
-    
+     <Route path="/BIDI_S35_20D" element={<BIDI_S35_20D/>}/>
+     <Route path="/BIDI_S53_20D" element={<BIDI_S53_20D/>}/>
+     <Route path="/BIDI_S35_40D" element={<BIDI_S35_40D/>}/>
+     <Route path="/BIDI_S53_40D" element={<BIDI_S53_40D/>}/>
+     <Route path="/Products_SFP_CWDM" element={<Products_SFP_CWDM/>}/>
+     <Route path="/CWDM_b20D" element={<CWDM_b20D/>}/>
+     <Route path="/CWDM_b26D" element={<CWDM_b26D/>}/>
+     <Route path="/CWDM_b30D" element={<CWDM_b30D/>}/>
+     <Route path="/CWDM_b30DM" element={<CWDM_b30DM/>}/>
+     <Route path="/CWDM_b26DM" element={<CWDM_b26DM/>}/>
+     <Route path="/Products_2point5_Dual" element={<Products_2point5_Dual/>}/>
+     <Route path="/Dual_X3D" element={<Dual_X3D/>}/>
+     <Route path="/Dual_X3DM" element={<Dual_X3DM/>}/>
+     <Route path="/Dual_02D" element={<Dual_02D/>}/>
+     
+     
+     
     </Routes>
     
      

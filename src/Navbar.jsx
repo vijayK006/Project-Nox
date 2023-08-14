@@ -22,6 +22,11 @@ const allProduct =()=>{
     document.getElementById('mobile_Setting_all_product').style.left="0%";
 }
 
+
+const switchsProduct =()=>{
+    document.getElementById('mobile_Setting_Switchs').style.left="0%";
+}
+
 const series1btn =()=>{
     document.getElementById('series1').style.left="0%";
 }
@@ -142,11 +147,11 @@ const series30btn =()=>{
     document.getElementById('series30').style.left="0%";
 }
 
-
-
 const close_menu =()=>{
     document.getElementById('mobile_Setting_all_product').style.left="-100%";
 }
+
+
 
 const close_menu1 =()=>{
     document.getElementById('series1').style.left="-100%";
@@ -267,6 +272,82 @@ const close_menu29=()=>{
 const close_menu30=()=>{
     document.getElementById('series30').style.left="-100%";
 }
+
+
+
+//--------------------------- Switchs Section -------------------------
+
+const Switchsseries1btn =()=>{
+    document.getElementById('Switchseries1').style.left="0%";
+}
+
+const Switchsseries2btn =()=>{
+    document.getElementById('Switchseries2').style.left="0%";
+}
+
+const Switchsseries3btn =()=>{
+    document.getElementById('Switchseries3').style.left="0%";
+}
+
+const Switchsseries4btn =()=>{
+    document.getElementById('Switchseries4').style.left="0%";
+}
+
+const Switchsseries5btn =()=>{
+    document.getElementById('Switchseries5').style.left="0%";
+}
+
+const Switchsseries6btn =()=>{
+    document.getElementById('Switchseries6').style.left="0%";
+}
+
+const Switchsseries7btn =()=>{
+    document.getElementById('Switchseries7').style.left="0%";
+}
+
+const Switchsseries8btn =()=>{
+    document.getElementById('Switchseries8').style.left="0%";
+}
+
+
+//Switch Close Menu
+const Switchclose =()=>{
+    document.getElementById('mobile_Setting_Switchs').style.left="-100%";
+}
+
+const Switchclose_menu1=()=>{
+    document.getElementById('Switchseries1').style.left="-100%";
+}
+
+const Switchclose_menu2=()=>{
+    document.getElementById('Switchseries2').style.left="-100%";
+}
+
+const Switchclose_menu3=()=>{
+    document.getElementById('Switchseries3').style.left="-100%";
+}
+
+const Switchclose_menu4=()=>{
+    document.getElementById('Switchseries4').style.left="-100%";
+}
+
+const Switchclose_menu5=()=>{
+    document.getElementById('Switchseries5').style.left="-100%";
+}
+
+const Switchclose_menu6=()=>{
+    document.getElementById('Switchseries6').style.left="-100%";
+}
+
+const Switchclose_menu7=()=>{
+    document.getElementById('Switchseries7').style.left="-100%";
+}
+
+const Switchclose_menu8=()=>{
+    document.getElementById('Switchseries8').style.left="-100%";
+}
+
+// ------------------------------------------------------------------------------------------ 
 
 
   return (
@@ -464,9 +545,9 @@ const close_menu30=()=>{
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>2.5G SFP</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP CWDM</p></Link>
+<Link to="/Products_SFP_CWDM" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP CWDM</p></Link>
 <Link to="/Products_2point5_SFP_BIDI" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DUAL</p></Link>
+<Link to="/Products_2point5_Dual" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DUAL</p></Link>
 
 <p className='menu-title pt-2'>1.25G CSFP</p>
 <Link to="/Dual_Bidi_LC" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G CSFP Dual Bidi LC</p></Link>
@@ -789,11 +870,13 @@ const close_menu30=()=>{
 
 <div className="mobile-navbarcontent">
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={allProduct}>All Products</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Solution</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={switchsProduct}>Switchs</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Service</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Support</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Company</p></Link>
 </div>
+
+
 
 <div className='mobile-nav-all_product' id='mobile_Setting_all_product'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu}/>
@@ -832,6 +915,101 @@ const close_menu30=()=>{
 
 
 </div>
+
+{/* Switchs All menu */}
+<div className='mobile-nav-all_product' id='mobile_Setting_Switchs'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries1btn}>10G Ethernet Switches</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries2btn}>Gigabit Ethernet Switches</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries3btn}>Layer 3 Ethernet Switches</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries4btn}>Managed Media Converters</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries5btn}>Managed Ethernet Switches</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries6btn}>Optical Fiber Bypass Switch</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries7btn}>Unmanaged Ethernet Switches</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries8btn}>Unmanaged Media Converters</p></Link>
+</div>
+
+{/* Switchs menu inner menu */}
+<div className='mobile-nav-all_product' id='Switchseries1'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose_menu1}/>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH-AA</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-GS24044X & NXO-G24044X & NXO-G4804X</p></Link>
+
+</div>
+
+<div className='mobile-nav-all_product' id='Switchseries2'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose_menu2}/>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM-24PH</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM-24PH-AA</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-S2408GTM & NXO-2408SM & NXO-4804SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-S2804TM</p></Link>
+
+</div>
+
+<div className='mobile-nav-all_product' id='Switchseries3'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose_menu3}/>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM - NXO-4804SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO2408SM-24PH</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-NXO-G4804X</p></Link>
+
+</div>
+
+<div className='mobile-nav-all_product' id='Switchseries4'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose_menu4}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1000MS</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1000MS-PH12</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1000WS-PB</p></Link>
+
+</div>
+
+<div className='mobile-nav-all_product' id='Switchseries5'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose_menu5}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402CGSW</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402CSW</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-803SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402GSM & NXO-803GSM & NXO-1604GSM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-812SM & NXO-1604SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1604XSM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO+404SM & NXO+803SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO+402GSM & NXO+803GSM</p></Link>
+
+</div>
+
+<div className='mobile-nav-all_product' id='Switchseries6'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose_menu6}/>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-202</p></Link>
+
+</div>
+
+<div className='mobile-nav-all_product' id='Switchseries7'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose_menu7}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402CS</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402S & NXO-402F</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-500 & NXO-800</p></Link>
+
+</div>
+
+<div className='mobile-nav-all_product' id='Switchseries8'>
+<TiBackspaceOutline className='close_icon' onClick={Switchclose_menu8}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100C</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100-PH12</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1000S-PB</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1001C & NXO-1001CS</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1001S-PH</p></Link>
+
+</div>
+
+
+
 
 <div className='mobile-nav-all_product' id='series1'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu1}/>
@@ -1002,9 +1180,9 @@ const close_menu30=()=>{
 <TiBackspaceOutline className='close_icon' onClick={close_menu16}/>
 
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP DWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP CWDM</p></Link>
+<Link to="/Products_SFP_CWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP CWDM</p></Link>
 <Link to="/Products_2point5_SFP_BIDI" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP BIDI</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP DUAL</p></Link>
+<Link to="/Products_2point5_Dual" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP DUAL</p></Link>
 
 
 

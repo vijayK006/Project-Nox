@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/2.5_SFP/BIDI_S53_20D.jpg'
+import productImg1 from '../../img/products/2.5_SFP/Dual_1.jpg'
 import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
 import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
@@ -24,7 +24,7 @@ import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const Products_2point5_SFP_BIDI = () => {
+const Products_2point5_Dual = () => {
   return (
     <>
 <Navbar/>
@@ -60,31 +60,41 @@ const Products_2point5_SFP_BIDI = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>2.5 SFP BIDI</h2>
+<h2 className='pt-5'>2.5 SFP Dual</h2>
 
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_S35_20D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Dual_X3D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
-Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
+
+ 
+2.5G SFP OC-48 / STM-16 Transceiver
+Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
+
 
 
 
 
 </h5>
 
-<h4>Feature's</h4>
-<p>1310nm DFB transmitter</p>
-<p>Duplex SC connector</p>
-<p>Support DDM function</p>
-<p>Compliant to X2 MSA</p>
+<h4>Feature's</h4> 
+<p>Single +3.3V power supply
+</p>
+<p>850nm VCSEL laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
 
 
 </div>
@@ -96,55 +106,69 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_S53_20D" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>2.5G SFP OC-48 IR-2 / STM-16 S16.2 Transceiver
-Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
-
-</h5>
-
-<h4>Feature's</h4>
-<p>Compliant with INF-8074i SFP MSA
-</p>
-<p>Hot Pluggable
-</p>
-<p>1550nm DFB laser transmitter
-</p>
-<p>Simplex LC connector
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_S35_40D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Dual_X3DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
-Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
+  <h5>2.5G SFP OC-48 / STM-16 Multi-Rate Transceiver
+Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
+
+
+
+
 </h5>
 
 <h4>Feature's</h4>
-<p>Compliant with INF-8074i SFP MSA
+<p>Single +3.3V power supply
 </p>
-<p>Hot Pluggable
-</p>
-<p>1310nm DFB laser transmitter
+<p>850nm VCSEL laser transmitter
 
 </p>
-<p>Simplex LC connector
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Dual_02D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 SR / STM-16 I-16 Transceiver
+Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1310nm FP laser transmitter
+
+</p>
+<p>Duplex LC connector
+
+</p>
+
+<p>RoHS Compliant
 </p>
 
 </div>
@@ -157,26 +181,57 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_S53_40D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/CWDM_b30DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_2} className='productImg3'/>
+<img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
-Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
+
 
 </h5>
 
 <h4>Feature's</h4>
-<p>Compliant with INF-8074i SFP MSA
+<p>Single +3.3V power supply
 </p>
-<p>Hot Pluggable
+<p>Link budget 30dB over SM fiber at 2.5G
 </p>
-<p>1550nm DFB laser transmitter
+<p>Link distance 100km over SM fiber for 1470~1610nm
+</p>
+<p>RoHS Compliant
+</p>
+</div>
 
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/CWDM_b26DM" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
 </p>
-<p>Simplex LC connector
+<p>Link budget 30dB over SM fiber at 2.5G
+</p>
+<p>Link distance 100km over SM fiber for 1470~1610nm
+</p>
+<p>RoHS Compliant
 </p>
 </div>
 
@@ -196,4 +251,4 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
   )
 }
 
-export default Products_2point5_SFP_BIDI;
+export default Products_2point5_Dual;
