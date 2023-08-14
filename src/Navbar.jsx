@@ -465,7 +465,7 @@ const close_menu30=()=>{
 <p className='menu-title '>2.5G SFP</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP CWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link>
+<Link to="/Products_2point5_SFP_BIDI" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DUAL</p></Link>
 
 <p className='menu-title pt-2'>1.25G CSFP</p>
@@ -1003,7 +1003,7 @@ const close_menu30=()=>{
 
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP DWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP CWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP BIDI</p></Link>
+<Link to="/Products_2point5_SFP_BIDI" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP BIDI</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP DUAL</p></Link>
 
 

@@ -90,6 +90,7 @@ import Projects_SFP_10G from "./Component/RJ45 Copper Series/Projects_SFP_10G_T"
 import SFP_10G_T_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T_Y3";
 import SFP_10G_T_Y3i from "./Component/RJ45 Copper Series/SFP_10G_T_Y3i";
 import SFP_10G_T_Y38 from "./Component/RJ45 Copper Series/SFP_10G_T_Y38";
+import Products_2point5_SFP_BIDI from "./Component/2.5_SFP/2.5_SFP_BIDI_Products";
 
 
 function App() {
@@ -176,7 +177,8 @@ function App() {
      <Route path="/SFP_10G_T_Y3" element={<SFP_10G_T_Y3/>}/>
      <Route path="/SFP_10G_T_Y3i" element={<SFP_10G_T_Y3i/>}/>
      <Route path="/SFP_10G_T_Y38" element={<SFP_10G_T_Y38/>}/>
-     
+     <Route path="/Products_2point5_SFP_BIDI" element={<Products_2point5_SFP_BIDI/>}/>
+    
     </Routes>
     
      
