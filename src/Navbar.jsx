@@ -626,7 +626,115 @@ const close_menu30=()=>{
     </div>
     </li>
 
-   <Link to="" style={{color:"black", textDecoration:"none"}}><li className='n-items'>Solution</li></Link> 
+    <li className='n-items hover-item'>Switchs
+
+<div className='inner-menu'>
+{/* <h4>Fiber Optical Transceiver</h4> */}
+<Swiper
+  modules={[Navigation, Scrollbar]}
+  navigation={true}
+  scrollbar={{ draggable: true }}
+  onSwiper={(swiper) => console.log(swiper)}
+  onSlideChange={() => console.log('slide change')}
+  className="mySwiper"
+>
+<SwiperSlide>
+
+<div className='container pt-5'>
+<div className='row'>
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>10G Ethernet Switches</p>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH-AA</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-GS24044X & NXO-G24044X & NXO-G4804X</p></Link>
+</div>
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>Gigabit Ethernet Switches</p>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH-AA</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2408GTM & NXO-2408SM & NXO-4804SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2804TM</p></Link>
+</div>
+
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>Layer 3 Ethernet Switches</p>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM - NXO-4804SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO2408SM-24PH</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-NXO-G4804X</p></Link>
+</div>
+
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>Managed Media Converters</p>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000MS</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000MS-PH12</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000WS-PB</p></Link>
+</div>
+
+<div className='col-lg-4 col-md-4'>
+<p className='menu-title'>Managed Ethernet Switches</p>
+<div className='row'>
+    <div className='col-6'>
+    <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CGSW</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CSW</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-803SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402GSM & NXO-803GSM & NXO-1604GSM</p></Link>
+    </div>
+
+    <div className='col-6'>
+    <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-812SM & NXO-1604SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1604XSM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO+404SM & NXO+803SM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO+402GSM & NXO+803GSM</p></Link>
+    </div>
+</div>
+
+
+</div>
+
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>Optical Fiber Bypass Switch</p>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-202</p></Link>
+</div>
+
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>Unmanaged Ethernet Switches</p>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CS</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402S & NXO-402F</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-500 & NXO-800</p></Link>
+</div>
+
+<div className='col-lg-4 col-md-4'>
+<p className='menu-title '>Unmanaged Media Converters</p>
+<div className='row'>
+    <div className='col-6'>
+    <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100C</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100-PH12</p></Link>
+    </div>
+    <div className='col-6'>
+    <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000S-PB</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1001C & NXO-1001CS</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1001S-PH</p></Link>
+    </div>
+</div>
+</div>
+
+</div>
+</div>
+</SwiperSlide>
+
+</Swiper>
+
+
+</div>
+</li>
    <Link to="" style={{color:"black", textDecoration:"none"}}><li className='n-items'>Service</li></Link> 
    <Link to="" style={{color:"black", textDecoration:"none"}}><li className='n-items'>Support</li></Link> 
 
