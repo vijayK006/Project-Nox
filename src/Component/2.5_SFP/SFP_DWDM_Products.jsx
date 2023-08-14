@@ -15,14 +15,14 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/2.5_SFP/BIDI_S53_20D.jpg'
+import productImg1 from '../../img/products/2.5_SFP/SFP_DWDM.jpg'
 import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
 import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
 import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const Products_2point5_SFP_BIDI = () => {
+const SFP_DWDM_Products = () => {
   return (
     <>
 <Navbar/>
@@ -58,30 +58,26 @@ const Products_2point5_SFP_BIDI = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>2.5 SFP BIDI</h2>
+<h2 className='pt-5'>2.5 SFP DWDM</h2>
 
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/X2_10G_SR" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/DWDM_80km" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
-Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
-
+  <h5>1.25G SFP DWDM Transceiver
+Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
 
 <h4>Feature's</h4>
-<p>Compliant with INF-8074i SFP MSA</p>
-<p>Hot Pluggable</p>
-<p>1310nm DFB laser transmitter
-</p>
-<p>Simplex LC connector</p>
-
-
+<p>Cooled DWDM DFB laser transmitter</p>
+<p>Single +3.3V power supply</p>
+<p>Link distance 80km over SM fiber</p>
+<p>RoHS compliant</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -91,70 +87,21 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/X2_10G_LR" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/DWDM_120km" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>10G X2-LR Transceiver
-Hot Pluggable, Duplex SC, 1310nm DFB, Single Mode, 10KM, DDM
+  <h5>1.25G SFP DWDM Transceiver
+Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
 
 <h4>Feature's</h4>
-<p>1310nm DFB transmitter</p>
-<p>Duplex SC connector</p>
-<p>Support DDM function</p>
-<p>Compliant to X2 MSA</p>
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/X2_10G_ER" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>10G X2-ER Transceiver
-Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 40KM, DDM
-</h5>
-
-<h4>Feature's</h4>
-<p>Cooled 1550nm EA-DFB transmitter</p>
-<p>Duplex SC connector</p>
-<p>Support DDM function</p>
-<p>Compliant to X2 MSA</p>
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/X2_10G_ZR" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>10G X2-ZR Transceiver
-Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 80KM, DDM
-</h5>
-
-<h4>Feature's</h4>
-<p>Cooled 1550nm EA-DFB transmitter</p>
-<p>Duplex SC connector</p>
-<p>Support DDM function</p>
-<p>Compliant to X2 MSA</p>
+<p>Cooled DWDM DFB laser transmitter</p>
+<p>APD receiver</p>
+<p>Link distance 120km over SM fiber</p>
+<p>RoHS compliant</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -173,4 +120,4 @@ Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 80KM, DDM
   )
 }
 
-export default Products_2point5_SFP_BIDI;
+export default SFP_DWDM_Products;

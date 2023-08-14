@@ -333,11 +333,11 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 100m optical links.
         
         <tr>
           <td>Power Consumption</td>
-          <td>Icc</td>
+          <td>P</td>
           <td></td>
           <td></td>
-          <td>300</td>
-          <td>V</td>
+          <td>1.0</td>
+          <td>W</td>
         </tr>
 
       </tbody>

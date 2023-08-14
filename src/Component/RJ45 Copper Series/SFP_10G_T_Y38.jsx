@@ -23,7 +23,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP_10G_T_Y38 = () => {
-  let PartNumber = "NXO-HJ-T11-Y8";
+  let PartNumber = "NXO-HJ-T11-Y3";
   let productName = "10GBASE-T SFP+ Transceiver Hot Pluggable, RJ-45, Active Copper SFP+, 30M";
 
   const form = useRef();
@@ -143,52 +143,24 @@ const SFP_10G_T_Y38 = () => {
 <div className='sell-text'>{PartNumber}</div>
 </div>
 
-<div className='sub-content'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse</p>
+<div className='sub-content d-flex justify-content-start'>
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with IEEE 802.3an, 802.3ab and 802.3z
-
-
-</p>
-
-<p className='listFeture'>Compliant with SFF-8431, 8432 SFP+ MSA
-
-
-</p>
-<p className='listFeture'>
-Support 10GBASE-T
-
-</p>
-<p className='listFeture'>Hot Pluggable
-
-
-
-</p>
-<p className='listFeture'>
-Auto-negotiates with other 10GBASE-T PHYs
-
-</p>
-<p className='listFeture'>Auto-detect MDI/MDI-X 
-
-</p>
-
-<p className='listFeture'>Support RX_LOS(Loss Of Signal) function
-</p>
-<p className='listFeture'>I2C 2-wire interface for serial ID
-
-</p>
-<p className='listFeture'>RJ-45 connector
-
-</p>
-
+<p className='listFeture'>Compliant with IEEE 802.3an, 802.3ab and 802.3z</p>
+<p className='listFeture'>Compliant with SFF-8431, 8432 SFP+ MSA</p>
+<p className='listFeture'>Support 10GBASE-T/ 5GBASE-T/ 2.5GBASE-T/ 1000BASE-T/ 100BASE-TX</p>
+<p className='listFeture'>Hot Pluggable</p>
+<p className='listFeture'>Auto-negotiates with other 10GBASE-T PHYs</p>
+<p className='listFeture'>Auto-detect MDI/MDI-X</p>
+<p className='listFeture'>Support RX_LOS function</p>
+<p className='listFeture'>I2C 2-wire interface for serial ID</p>
+<p className='listFeture'>RJ-45 connector</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>10G link length up to 30m with Cat.6a/7
-</p>
-
+<p className='listFeture'>10G link length up to 30m with Cat.6a/7, 2.5G/5G link length up to 50m with Cat.5E, 100M/1G link length up to 100m with Cat.5E</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 
@@ -239,9 +211,10 @@ Auto-negotiates with other 10GBASE-T PHYs
   
  <p>
 
-The NXO-HJ-T11-Y8 Small Form Factor Pluggable SFP+ Copper transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA)
-Specification. The High performance designed is integrated full duplex data link at 10Gbps over four pair Category 6a/7 cable up to 80m links. It is specifically
+The NXO-HJ-Txx-Y3 Small Form Factor Pluggable SFP+ Copper transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA)
+Specification. The High performance designed is integrated full duplex data link at 10Gbps over four pair Category 6a/7 cable up to 30m links. It is specifically
 designed for high speed communication links that require 10 Gigabit Ethernet over copper cable.
+
 
 </p>
 </div>

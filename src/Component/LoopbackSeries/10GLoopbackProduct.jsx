@@ -110,8 +110,8 @@ let productName = "10G SFP+ Electrical Passive Loopback Hot Pluggable, 0~5dB Int
 
 </div>
 
-<div className='sub-content'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse </p>
+<div className='sub-content d-flex justify-content-start'>
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 

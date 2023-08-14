@@ -47,15 +47,26 @@ import Product_100G_SR4_DualRate from "./Component/100G_QSFP28/100G_SR4_DualRate
 import Product_QSFP28_100G_SRBD from "./Component/100G_QSFP28/QSFP28-100G-SRBD"
 import Product_100G_SRBD from "./Component/100G_QSFP28/100G_SRBD"
 import Product_100G_SRBD_DualRate from "./Component/100G_QSFP28/100G_SRBD-DualRate"
+import L13_4WDM from './Component/100G_QSFP28/4WDM_L13';
+import L12_4WDM from './Component/100G_QSFP28/4WDM_L12';
+import BIDI_10_to_40_Products from './Component/100G_QSFP28/BIDI_10_to_40';
+import BIDI_C27 from './Component/100G_QSFP28/BIDI_C27';
+import BIDI_C29 from './Component/100G_QSFP28/BIDI_C29';
+import BIDI_C31 from './Component/100G_QSFP28/BIDI_C31';
+import BIDI_L04 from './Component/100G_QSFP28/BIDI_L04';
+import BIDI_L09 from './Component/100G_QSFP28/BIDI_L09';
+import QSPF28_adaptor from './Component/100G_QSFP28/QSPF28_adaptor';
 
 import ER4_Single_rate_100G from './Component/100G_QSFP28/100G_ER4_Single-Rate';
 import ER4_VNTP_Media_100G from './Component/100G_QSFP28/100G_ER4_VNTP_Media';
+import ER4_40Di_100G from './Component/100G_QSFP28/100G_ER4_40Di';
 import ESR4_100G from './Component/100G_QSFP28/100G-eSR4';
 import ZR4_100G from './Component/100G_QSFP28/100G-ZR4';
 import PSM4_Ethernet_100G from './Component/100G_QSFP28/100G_PSM4_Ethernet';
 import LR4_100G from './Component/100G_QSFP28/100G_LR4_Products';
 import LR4_Ethernet_OTU4_100G from './Component/100G_QSFP28/100G_LR4_Ethernet_OTU4';
 import LR4_Ethernet_100G from './Component/100G_QSFP28/100G_LR4_Ethernet';
+import BIDI_4WDM_Products from './Component/100G_QSFP28/BIDI_4WDM_Products';
 import SFP28_SR_Products from './Component/25G SFP28/SFP28_SR_Products';
 import SFP28_25G_SR from './Component/25G SFP28/SFP28_25G_SR';
 import SFP28_25G_eSR from './Component/25G SFP28/SFP28_25G_eSR';
@@ -76,7 +87,6 @@ import SFP28_25G_DWDM from "./Component/25G SFP28/25G-DWDM"
 import SFP28_25G__LWDM_products from './Component/25G SFP28/SFP28_25G_LWDM_products';
 import LWDM_25G_40KM from './Component/25G SFP28/LWDM_25G_40KM';
 import LWDM_25G_40KM_DuelRate from './Component/25G SFP28/LWDM_25G_40KM_DuelRate';
-
 import SFP28_25G_SW from "./Component/25G SFP28/25G-SW";
 import SFP_100Tx from "./Component/RJ45 Copper Series/SFP-100Tx";
 import SFP_1000T from './Component/RJ45 Copper Series/SFP_1000T';
@@ -90,7 +100,10 @@ import Projects_SFP_10G from "./Component/RJ45 Copper Series/Projects_SFP_10G_T"
 import SFP_10G_T_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T_Y3";
 import SFP_10G_T_Y3i from "./Component/RJ45 Copper Series/SFP_10G_T_Y3i";
 import SFP_10G_T_Y38 from "./Component/RJ45 Copper Series/SFP_10G_T_Y38";
-import Products_2point5_SFP_BIDI from "./Component/2.5_SFP/2.5_SFP_BIDI_Products";
+import SFP_BIDI_Products from "./Component/2.5_SFP/SFP_BIDI_Products";
+import SFP_DWDM_Products from './Component/2.5_SFP/SFP_DWDM_Products';
+import DWDM_80km from './Component/2.5_SFP/DWDM_80km';
+import DWDM_120km from './Component/2.5_SFP/DWDM_120km';
 
 
 function App() {
@@ -136,15 +149,28 @@ function App() {
      <Route path="/Product_QSFP28_100G_SRBD" element={<Product_QSFP28_100G_SRBD/>}/>
      <Route path="/Product_100G_SRBD" element={<Product_100G_SRBD/>}/>
      <Route path="/Product_100G_SRBD_DualRate" element={<Product_100G_SRBD_DualRate/>}/>
-     
      <Route path="/ER4_Single_rate_100G" element={<ER4_Single_rate_100G/>}/>
      <Route path="/ER4_VNTP_Media_100G" element={<ER4_VNTP_Media_100G/>}/>
+     <Route path="/ER4_40Di_100G" element={<ER4_40Di_100G/>}/>
      <Route path="/ESR4_100G" element={<ESR4_100G/>}/>
      <Route path="/ZR4_100G" element={<ZR4_100G/>}/>
      <Route path="/PSM4_Ethernet_100G" element={<PSM4_Ethernet_100G/>}/>
      <Route path="/LR4_100G" element={<LR4_100G/>}/>
      <Route path="/LR4_Ethernet_OTU4_100G" element={<LR4_Ethernet_OTU4_100G/>}/>
      <Route path="/LR4_Ethernet_100G" element={<LR4_Ethernet_100G/>}/>
+     <Route path="/BIDI_4WDM_Products" element={<BIDI_4WDM_Products/>}/>
+     <Route path="/L13_4WDM" element={<L13_4WDM/>}/>
+     <Route path="/L12_4WDM" element={<L12_4WDM/>}/>
+     <Route path="/BIDI_10_to_40_Products" element={<BIDI_10_to_40_Products/>}/>
+     <Route path="/BIDI_C27" element={<BIDI_C27/>}/>
+     <Route path="/BIDI_C29" element={<BIDI_C29/>}/>
+     <Route path="/BIDI_C31" element={<BIDI_C31/>}/>
+     <Route path="/BIDI_L04" element={<BIDI_L04/>}/>
+     <Route path="/BIDI_L09" element={<BIDI_L09/>}/>
+     <Route path="/QSPF28_adaptor" element={<QSPF28_adaptor/>}/>
+     
+     
+
      <Route path="/SFP28_SR_Products" element={<SFP28_SR_Products/>}/>
      <Route path="/SFP28_25G_SR" element={<SFP28_25G_SR/>}/>
      <Route path="/SFP28_25G_eSR" element={<SFP28_25G_eSR/>}/>
@@ -177,7 +203,10 @@ function App() {
      <Route path="/SFP_10G_T_Y3" element={<SFP_10G_T_Y3/>}/>
      <Route path="/SFP_10G_T_Y3i" element={<SFP_10G_T_Y3i/>}/>
      <Route path="/SFP_10G_T_Y38" element={<SFP_10G_T_Y38/>}/>
-     <Route path="/Products_2point5_SFP_BIDI" element={<Products_2point5_SFP_BIDI/>}/>
+     <Route path="/SFP_BIDI_Products" element={<SFP_BIDI_Products/>}/>
+     <Route path="/SFP_DWDM_Products" element={<SFP_DWDM_Products/>}/>
+     <Route path="/DWDM_80km" element={<DWDM_80km/>}/>
+     <Route path="/DWDM_120km" element={<DWDM_120km/>}/>
     
     </Routes>
     

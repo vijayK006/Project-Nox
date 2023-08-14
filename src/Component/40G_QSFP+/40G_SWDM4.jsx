@@ -129,8 +129,8 @@ Hot Pluggable, Duplex LC, SWDM VCSEL, MMF OM3 300M, DDM
 <p className='sell-text'>NXO-I7-S85-X3D</p>
 </div>
 
-<div className='sub-content'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse</p>
+<div className='sub-content d-flex justify-content-start'>
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
