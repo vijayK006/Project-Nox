@@ -493,9 +493,9 @@ const Switchclose_menu8=()=>{
     <Link to="/ER4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ER4</p></Link>
 <Link to="/ZR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ZR4</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-CWDM4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-4WDM-20</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-10/20/30/40</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28 to SFP28 Adapter</p></Link>
+<Link to="/BIDI_4WDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-4WDM-20</p></Link>
+<Link to="/BIDI_10_to_40_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-10/20/30/40</p></Link>
+<Link to="/QSPF28_adaptor" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28 to SFP28 Adapter</p></Link>
     </div>
 </div>
 
@@ -544,10 +544,11 @@ const Switchclose_menu8=()=>{
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>2.5G SFP</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DWDM</p></Link>
 <Link to="/Products_SFP_CWDM" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP CWDM</p></Link>
-<Link to="/Products_2point5_SFP_BIDI" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link>
+<Link to="/SFP_BIDI_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link>
 <Link to="/Products_2point5_Dual" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DUAL</p></Link>
+<Link to="/SFP_DWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP DWDM</p></Link>
+{/* <Link to="/SFP_BIDI_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link> */}
 
 <p className='menu-title pt-2'>1.25G CSFP</p>
 <Link to="/Dual_Bidi_LC" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G CSFP Dual Bidi LC</p></Link>
@@ -1062,9 +1063,9 @@ const Switchclose_menu8=()=>{
 <Link to="/ER4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-ER4</p></Link>
 <Link to="/ZR4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-ZR4</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-CWDM4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-BIDI-4WDM-20</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-BIDI-10 / 20 / 30 / 40</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28 to SFP28 Adapter</p></Link>
+<Link to="/BIDI_4WDM_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-BIDI-4WDM-20</p></Link>
+<Link to="/BIDI_10_to_40_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-BIDI-10 / 20 / 30 / 40</p></Link>
+<Link to="/QSPF28_adaptor" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28 to SFP28 Adapter</p></Link>
 
 </div>
 
@@ -1181,7 +1182,7 @@ const Switchclose_menu8=()=>{
 
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP DWDM</p></Link>
 <Link to="/Products_SFP_CWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP CWDM</p></Link>
-<Link to="/Products_2point5_SFP_BIDI" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP BIDI</p></Link>
+<Link to="/SFP_BIDI_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP BIDI</p></Link>
 <Link to="/Products_2point5_Dual" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G SFP DUAL</p></Link>
 
 

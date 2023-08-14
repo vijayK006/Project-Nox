@@ -155,6 +155,7 @@ const SFP28_25G_CWDM = () => {
 <p className='listFeture'>Compliant with SFF-8402 SFP28 MSA</p>
 <p className='listFeture'>Data Rate up to 25.78Gbps</p>
 <p className='listFeture'>Built-in CDR on both Transmitter and Receiver</p>
+<p className='listFeture'>Uncooled CWDM DFB laser transmitter</p>
 <p className='listFeture'>Hot Pluggable</p>
 <p className='listFeture'>Duplex LC connector</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>

@@ -131,8 +131,8 @@ const SFP_8GFC_ELR = () => {
 </div>
 </div>
 
-<div className='sub-content'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse</p>
+<div className='sub-content d-flex justify-content-start'>
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
@@ -347,7 +347,7 @@ performance for 2x/4x/8x Multi-Rate Fiber Channel applications up to SMF 30km op
 
 
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assisment</h1>
+  <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={pinassisment} className='sectionImg2' alt="Transceiver Block Diagram"/>

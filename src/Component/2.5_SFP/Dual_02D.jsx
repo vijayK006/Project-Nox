@@ -311,7 +311,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-M85-X3DM)</td>
+          <td>Case Operating Temp. (NXO-E7-S13-02D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -320,7 +320,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-M85-X3DMi)</td>
+          <td>Case Operating Temp. (NXO-E7-S13-02Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -338,7 +338,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-M85-X3DM)</td>
+          <td>Supply Current (NXO-E7-S13-02D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -347,7 +347,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-M85-X3DMi)</td>
+          <td>Supply Current (NXO-E7-S13-02Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

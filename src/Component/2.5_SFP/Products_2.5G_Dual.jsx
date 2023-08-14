@@ -18,7 +18,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/2.5_SFP/Dual_1.jpg'
 import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
-import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
+import productImg2 from '../../img/products/2.5_SFP/Dual_02D.jpg'
 import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
 import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
@@ -146,7 +146,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
         <Link to="/Dual_02D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg2} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 SR / STM-16 I-16 Transceiver
@@ -181,7 +181,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/CWDM_b30DM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -211,7 +211,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/CWDM_b26DM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>

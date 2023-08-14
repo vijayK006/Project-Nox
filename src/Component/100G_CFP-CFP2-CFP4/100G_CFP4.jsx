@@ -20,7 +20,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_CFP4 = () => {
    
-  let PartNumber = "NXO-K7-DCO-12KD";
+  let PartNumber = "NXO-K7-L13-10DR";
   let productName = "100G CFP-DCO coherent Dual Rate Transceiver Hot Pluggable, Duplex LC, Micro-ITLA LD, NDSF reach 1200KM, DDM";
   
   const form = useRef();

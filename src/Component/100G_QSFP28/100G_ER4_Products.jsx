@@ -108,6 +108,30 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
 
         </div>
 
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/ER4_40Di_100G" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>100G QSFP28 ER4 Transceiver
+Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
+</h5>
+
+<h4>Feature's</h4>
+<p>Data Rate 25.78125Gbps per Lane</p>
+<p>LAN-WDM DFB transmitter</p>
+<p>Maximum Power consumption 4.5W</p>
+<p>Compliant with SFF-8665 QSFP28 MSA</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
       </div>
 </div>
 

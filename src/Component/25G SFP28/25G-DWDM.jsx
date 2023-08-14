@@ -143,8 +143,8 @@ const SFP28_25G_DWDM = () => {
 <div className='sell-text'>{PartNumber}</div>
 </div>
 
-<div className='sub-content'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse</p>
+<div className='sub-content d-flex justify-content-start'>
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
@@ -155,12 +155,13 @@ const SFP28_25G_DWDM = () => {
 <p className='listFeture'>Compliant with SFF-8402 SFP28 MSA</p>
 <p className='listFeture'>Data Rate up to 25.78Gbps</p>
 <p className='listFeture'>Built-in CDR on both Transmitter and Receiver</p>
+<p className='listFeture'>100GHz ITU Grid, cooled C-Band DWDM EML laser transmitter</p>
 <p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>1310nm DFB laser transmitter</p>
 <p className='listFeture'>Duplex LC connector</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 2km over SM fiber</p>
+<p className='listFeture'>Link distance 10km over SM fiber</p>
+<p className='listFeture'>Maximum Power consumption 2.3W</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 
