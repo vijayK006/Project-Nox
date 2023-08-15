@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/1.25G CSFP/dualBX_img.jpg'
 
@@ -31,6 +31,11 @@ const Dual_Bidi_LC = () => {
   let PartNumber = "NXO-CC-S43-20D";
   let productName ="1.25G SFP 1000BX-D Compact 2CH Bidi Transceiver Hot Pluggable, Dual Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 20KM, DDM";
 
+  const [name, setName] = useState("");
+  const [mobNumber, setmobNumber] = useState("");
+  const [userEmail, setuserEmail] = useState("");
+  const [userMessage, setuserMessage] = useState("");
+
   const form = useRef();
   
   const sendEmail = (e) => {
@@ -40,7 +45,12 @@ const Dual_Bidi_LC = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
-          document.getElementById('successMsg').classList.add('popupvisiable');
+          document.getElementById('successMsg').style.top="0px";
+    
+          setName("");
+          setmobNumber("");
+          setuserEmail("");
+          setuserMessage("");
 
       }, (error) => {
           console.log(error.text);
@@ -49,7 +59,7 @@ const Dual_Bidi_LC = () => {
 
 
   const hidePop = ()=>{
-    document.getElementById("successMsg").classList.add('popuphidden');
+    document.getElementById("successMsg").style.top="-100%";
       }
 
   return (
@@ -423,7 +433,7 @@ Specification.
       <div className='row'>
 <div className='col-md-6 col-sm-12'>
 <label>Your Product Part Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
 </div>
 <div className='col-md-6 col-sm-12'>
 <label>Your Product Name</label>
@@ -432,18 +442,18 @@ Specification.
       </div>
     </div>
 
- <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+ <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
         <div className='row'>
 <div className='col-6'>
-<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+<input type='number' className='form-control mt-2 mb-2' value={mobNumber}  onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required/>
 </div>
 <div className='col-6'>
-<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+<input type='email' className='form-control mt-2 mb-2' value={userEmail}  onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required/>
 
       </div>
     </div>
       
-       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' value={userMessage}  onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>

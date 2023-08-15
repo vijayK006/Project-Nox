@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/16GFC_SFP/16GFC_1.jpg'
 
@@ -10,6 +10,7 @@ import Memorymap from '../../img/products/16GFC_SFP/16GFC_3.jpg.png';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 
+import { TiTickOutline } from 'react-icons/ti';
 
 
 import { BsCartCheck } from 'react-icons/bs';
@@ -28,6 +29,11 @@ const Product_16GFC_SFP = () => {
   let PartNumber = "NXO-M7-M85-X1D";
   let productName ="16GFC SFP+ SW TransceiverHot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 100M, DDM";
 
+  const [name, setName] = useState("");
+  const [mobNumber, setmobNumber] = useState("");
+  const [userEmail, setuserEmail] = useState("");
+  const [userMessage, setuserMessage] = useState("");
+
   const form = useRef();
   
   const sendEmail = (e) => {
@@ -37,11 +43,23 @@ const Product_16GFC_SFP = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
+          document.getElementById('successMsg').style.top="0px";
+    
+          setName("");
+          setmobNumber("");
+          setuserEmail("");
+          setuserMessage("");
 
       }, (error) => {
           console.log(error.text);
       });
   }; 
+
+
+  const hidePop = ()=>{
+    document.getElementById("successMsg").style.top="-100%";
+      }
+
   return (
 <>
     <Navbar/>
@@ -392,29 +410,29 @@ performance for 4x/8x/10x/16x Fiber Channel applications up to MMF OM3 100m opti
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>
-<div className='col-6'>
+<div className='col-md-6 col-sm-12'>
 <label>Your Product Part Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
 </div>
-<div className='col-6'>
+<div className='col-md-6 col-sm-12'>
 <label>Your Product Name</label>
 <input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
 
       </div>
     </div>
 
- <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+ <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
         <div className='row'>
 <div className='col-6'>
-<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+<input type='number' className='form-control mt-2 mb-2' value={mobNumber}  onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required/>
 </div>
 <div className='col-6'>
-<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+<input type='email' className='form-control mt-2 mb-2' value={userEmail}  onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required/>
 
       </div>
     </div>
       
-       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' value={userMessage}  onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>
@@ -423,6 +441,27 @@ performance for 4x/8x/10x/16x Fiber Channel applications up to MMF OM3 100m opti
 
     </div>
   </div>
+
+  <div className="message-sent" id="successMsg">
+
+<div className="card-message">
+
+  <div className="d-flex justify-content-center">
+<TiTickOutline className="messagetick-mark"/>
+</div>
+
+  <p className="successMsgTest">Thank you so much for taking the time to fill out the form! We truly appreciate your interest in our services. 
+  Your inquiry is valuable to us, and our team shall get back to you soon.</p>
+
+  <div className="d-flex justify-content-center pt-5 pb-1">
+    <button type="button" className="btn btn-danger" onClick={hidePop}>Go Back</button>
+  </div>
+
+</div>
+
+
+</div>
+
 </div>
     </>
   )
