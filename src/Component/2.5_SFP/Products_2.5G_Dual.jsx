@@ -181,10 +181,10 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Dual_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg2} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver

@@ -119,6 +119,7 @@ import SFP_BIDI_Products from "./Component/2.5_SFP/SFP_BIDI_Products";
 import SFP_DWDM_Products from './Component/2.5_SFP/SFP_DWDM_Products';
 import DWDM_80km from './Component/2.5_SFP/DWDM_80km';
 import DWDM_120km from './Component/2.5_SFP/DWDM_120km';
+import Dual_20D from './Component/2.5_SFP/Dual_20D';
 
 
 function App() {
@@ -233,6 +234,7 @@ function App() {
      <Route path="/Dual_X3D" element={<Dual_X3D/>}/>
      <Route path="/Dual_X3DM" element={<Dual_X3DM/>}/>
      <Route path="/Dual_02D" element={<Dual_02D/>}/>
+     <Route path="/Dual_20D" element={<Dual_20D/>}/>
      
      
      
