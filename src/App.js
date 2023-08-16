@@ -56,7 +56,6 @@ import BIDI_C31 from './Component/100G_QSFP28/BIDI_C31';
 import BIDI_L04 from './Component/100G_QSFP28/BIDI_L04';
 import BIDI_L09 from './Component/100G_QSFP28/BIDI_L09';
 import QSPF28_adaptor from './Component/100G_QSFP28/QSPF28_adaptor';
-
 import ER4_Single_rate_100G from './Component/100G_QSFP28/100G_ER4_Single-Rate';
 import ER4_VNTP_Media_100G from './Component/100G_QSFP28/100G_ER4_VNTP_Media';
 import ER4_40Di_100G from './Component/100G_QSFP28/100G_ER4_40Di';
@@ -78,7 +77,6 @@ import SFP28_BX10_33 from './Component/25G SFP28/SFP28_BX10_33';
 import SFP28_BX20_33 from './Component/25G SFP28/SFP28_BX20_33';
 import SFP28_25G_CWDM from './Component/25G SFP28/SFP28_25G_CWDM';
 import SFP28_LR_25G_Projects from './Component/25G SFP28/25G_SFP28_LR_Projects';
-
 import SFP28_25G_LR_2km from "./Component/25G SFP28/25G-LR_2km"
 import SFP28_25G_LR_10km from "./Component/25G SFP28/25G-LR_10km"
 import SFP28_25G_LR_DualRate from "./Component/25G SFP28/25G-LR_DualRate"
@@ -88,8 +86,23 @@ import SFP28_25G__LWDM_products from './Component/25G SFP28/SFP28_25G_LWDM_produ
 import LWDM_25G_40KM from './Component/25G SFP28/LWDM_25G_40KM';
 import LWDM_25G_40KM_DuelRate from './Component/25G SFP28/LWDM_25G_40KM_DuelRate';
 import SFP28_25G_SW from "./Component/25G SFP28/25G-SW";
-import SFP_100Tx from "./Component/RJ45 Copper Series/SFP-100Tx";
-import SFP_1000T from './Component/RJ45 Copper Series/SFP_1000T';
+import SFP_100Tx_Products from "./Component/RJ45 Copper Series/SFP-100Tx_Products";
+import SFP_100Tx_T01_X1 from './Component/RJ45 Copper Series/SFP_100Tx_X1';
+import SFP_100Tx_T01_X1i from './Component/RJ45 Copper Series/SFP_100Tx_X1i';
+import SFP_100Tx_T11_X1 from './Component/RJ45 Copper Series/SFP_100Tx_T11_X1';
+
+
+import SFP_1000T_Products from './Component/RJ45 Copper Series/SFP_1000T_Products';
+import SFP_1000T_T01_Xl from './Component/RJ45 Copper Series/SFP_1000T_T01_Xl';
+import SFP_1000T_T01_Xli from './Component/RJ45 Copper Series/SFP_1000T_T01_Xli';
+import SFP_1000T_T10_X1 from './Component/RJ45 Copper Series/SFP_1000T_T10_X1';
+import SFP_1000T_T10_X1i from './Component/RJ45 Copper Series/SFP_1000T_T10_X1i';
+import SFP_1000T_T11_X1i from './Component/RJ45 Copper Series/SFP_1000T_T11_X1i';
+import SFP_1000T_T11_X1 from './Component/RJ45 Copper Series/SFP_1000T_T11_X1';
+import SFP_1000T_T20_X1 from './Component/RJ45 Copper Series/SFP_1000T_T20_X1';
+import SFP_1000T_T20_X1i from './Component/RJ45 Copper Series/SFP_1000T_T20_X1i';
+import SFP_1000T_T22_X1 from './Component/RJ45 Copper Series/SFP_1000T_T22_X1';
+import SFP_1000T_T22_X1i from './Component/RJ45 Copper Series/SFP_1000T_T22_X1i';
 import X2_DUAL_Products from './Component/10G X2/X2_DUAL_Products';
 import X2_10G_SR from './Component/10G X2/X2_10G_SR';
 import X2_10G_LR from './Component/10G X2/X2_10G_LR';
@@ -98,6 +111,9 @@ import X2_10G_ZR from './Component/10G X2/X2_10G_ZR';
 import Dual_Bidi_LC from './Component/1.25G CSFP/Dual_Bidi_LC';
 import Projects_SFP_10G from "./Component/RJ45 Copper Series/Projects_SFP_10G_T";
 import SFP_10G_T_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T_Y3";
+import SFP_10G_T11_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T11_Y3";
+import SFP_10G_T12_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T12_Y3";
+import SFP_10G_T13_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T13_Y3";
 import SFP_10G_T_Y3i from "./Component/RJ45 Copper Series/SFP_10G_T_Y3i";
 import SFP_10G_T_Y38 from "./Component/RJ45 Copper Series/SFP_10G_T_Y38";
 // import Products_2point5_SFP_BIDI from "./Component/2.5_SFP/2.5_SFP_BIDI_Products";
@@ -124,6 +140,10 @@ import Dual_S13_40D from './Component/2.5_SFP/Dual_S13_40D';
 import Dual_S13_60D from './Component/2.5_SFP/Dual_S13_60D';
 import Dual_S15_40D from './Component/2.5_SFP/Dual_S15_40D';
 import Dual_S15_80D from './Component/2.5_SFP/Dual_S15_80D';
+import Dual_S15_A0D from './Component/2.5_SFP/Dual_S15_A0D';
+import Dual_S15_A0DM from './Component/2.5_SFP/Dual_S15_A0DM';
+import Dual_S15_A2D from './Component/2.5_SFP/Dual_S15_A2D';
+import Dual_S15_A2DM from './Component/2.5_SFP/Dual_S15_A2DM';
 
 
 function App() {
@@ -147,7 +167,6 @@ function App() {
      <Route path="/LR4_20KM_40G" element={<LR4_20KM_40G/>}/>
      <Route path="/Product_40G_SR4" element={<Product_40G_SR4/>}/>
      <Route path="/Product_40G_SRBD" element={<Product_40G_SRBD/>}/>
- 
      <Route path="/IR4_40G" element={<IR4_40G/>}/>
      <Route path="/PSM4_IR_40G" element={<PSM4_IR_40G/>}/>
      <Route path="/PSM4_LR_40G" element={<PSM4_LR_40G/>}/>
@@ -188,9 +207,6 @@ function App() {
      <Route path="/BIDI_L04" element={<BIDI_L04/>}/>
      <Route path="/BIDI_L09" element={<BIDI_L09/>}/>
      <Route path="/QSPF28_adaptor" element={<QSPF28_adaptor/>}/>
-     
-     
-
      <Route path="/SFP28_SR_Products" element={<SFP28_SR_Products/>}/>
      <Route path="/SFP28_25G_SR" element={<SFP28_25G_SR/>}/>
      <Route path="/SFP28_25G_eSR" element={<SFP28_25G_eSR/>}/>
@@ -211,8 +227,26 @@ function App() {
      <Route path="/LWDM_25G_40KM" element={<LWDM_25G_40KM/>}/>
      <Route path="/LWDM_25G_40KM_DuelRate" element={<LWDM_25G_40KM_DuelRate/>}/>
      <Route path="/SFP28_25G_SW" element={<SFP28_25G_SW/>}/>
-     <Route path="/SFP_100Tx" element={<SFP_100Tx/>}/>
-     <Route path="/SFP_1000T" element={<SFP_1000T/>}/>
+     <Route path="/SFP_100Tx_Products" element={<SFP_100Tx_Products/>}/>
+
+     <Route path="/SFP_100Tx_T01_X1" element={<SFP_100Tx_T01_X1/>}/>
+     <Route path="/SFP_100Tx_T01_X1i" element={<SFP_100Tx_T01_X1i/>}/>
+     <Route path="/SFP_100Tx_T11_X1" element={<SFP_100Tx_T11_X1/>}/>
+
+
+
+
+     <Route path="/SFP_1000T_Products" element={<SFP_1000T_Products/>}/>
+     <Route path="/SFP_1000T_T01_Xl" element={<SFP_1000T_T01_Xl/>}/>
+     <Route path="/SFP_1000T_T01_Xli" element={<SFP_1000T_T01_Xli/>}/>
+     <Route path="/SFP_1000T_T10_X1" element={<SFP_1000T_T10_X1/>}/>
+     <Route path="/SFP_1000T_T10_X1i" element={<SFP_1000T_T10_X1i/>}/>
+     <Route path="/SFP_1000T_T11_X1" element={<SFP_1000T_T11_X1/>}/>
+     <Route path="/SFP_1000T_T11_X1i" element={<SFP_1000T_T11_X1i/>}/>
+     <Route path="/SFP_1000T_T20_X1" element={<SFP_1000T_T20_X1/>}/>
+     <Route path="/SFP_1000T_T20_X1i" element={<SFP_1000T_T20_X1i/>}/>
+     <Route path="/SFP_1000T_T22_X1" element={<SFP_1000T_T22_X1/>}/>
+     <Route path="/SFP_1000T_T22_X1i" element={<SFP_1000T_T22_X1i/>}/>
      <Route path="/X2_DUAL_Products" element={<X2_DUAL_Products/>}/>
      <Route path="/X2_10G_SR" element={<X2_10G_SR/>}/>
      <Route path="/X2_10G_LR" element={<X2_10G_LR/>}/>
@@ -221,6 +255,9 @@ function App() {
      <Route path="/Dual_Bidi_LC" element={<Dual_Bidi_LC/>}/>
      <Route path="/Projects_SFP_10G" element={<Projects_SFP_10G/>}/>
      <Route path="/SFP_10G_T_Y3" element={<SFP_10G_T_Y3/>}/>
+     <Route path="/SFP_10G_T11_Y3" element={<SFP_10G_T11_Y3/>}/>
+     <Route path="/SFP_10G_T12_Y3" element={<SFP_10G_T12_Y3/>}/>
+     <Route path="/SFP_10G_T13_Y3" element={<SFP_10G_T13_Y3/>}/>
      <Route path="/SFP_10G_T_Y3i" element={<SFP_10G_T_Y3i/>}/>
      <Route path="/SFP_10G_T_Y38" element={<SFP_10G_T_Y38/>}/>
      {/* <Route path="/Products_2point5_SFP_BIDI" element={<Products_2point5_SFP_BIDI/>}/> */}
@@ -235,14 +272,18 @@ function App() {
      <Route path="/CWDM_b30DM" element={<CWDM_b30DM/>}/>
      <Route path="/CWDM_b26DM" element={<CWDM_b26DM/>}/>
      <Route path="/Products_2point5_Dual" element={<Products_2point5_Dual/>}/>
-     <Route path="/Dual_X3D" element={<Dual_X3D/>}/>
-     <Route path="/Dual_X3DM" element={<Dual_X3DM/>}/>
-     <Route path="/Dual_02D" element={<Dual_02D/>}/>
-     <Route path="/Dual_20D" element={<Dual_20D/>}/>
-     <Route path="/Dual_S13_40D" element={<Dual_S13_40D/>}/>
-     <Route path="/Dual_S13_60D" element={<Dual_S13_60D/>}/>
-     <Route path="/Dual_S15_40D" element={<Dual_S15_40D/>}/>
-     <Route path="/Dual_S15_80D" element={<Dual_S15_80D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_X3D" element={<Dual_X3D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_X3DM" element={<Dual_X3DM/>}/>
+     <Route path="/Products_2point5_Dual/Dual_02D" element={<Dual_02D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_20D" element={<Dual_20D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S13_40D" element={<Dual_S13_40D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S13_60D" element={<Dual_S13_60D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_40D" element={<Dual_S15_40D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_80D" element={<Dual_S15_80D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_A0D" element={<Dual_S15_A0D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_A0DM" element={<Dual_S15_A0DM/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_A2D" element={<Dual_S15_A2D/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_A2DM" element={<Dual_S15_A2DM/>}/>
      
      
      

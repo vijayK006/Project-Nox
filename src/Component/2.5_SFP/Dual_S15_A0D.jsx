@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/2.5_SFP/Dual_02D.jpg'
+import productImg1 from '../../img/products/2.5_SFP/Dual_3.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
@@ -26,10 +26,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_S15_80D = () => { 
+const Dual_S15_A0D = () => { 
 
-  let PartNumber = "NXO-E7-S15-80D";
-  let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM";
+  let PartNumber = "NXO-E7-S15-A0D";
+  let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM";
 
   const form = useRef();
   
@@ -174,7 +174,7 @@ STM-16 I-16
 <p className='listFeture'>Single +3.3V power supply
 
 </p>
-<p className='listFeture'>Link distance 80km over SM fiber
+<p className='listFeture'>Link distance 100km over SM fiber
 
 
 
@@ -233,7 +233,7 @@ STM-16 I-16
  <p>
 
 
-NXO-E7-S15-80D Small Form Factor Pluggable
+NXO-E7-S15-A0D Small Form Factor Pluggable
 SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity APD receiver provide superior
 performance for SONET OC-48 / SDH STM-16 applications up to SMF 80km optical links.
 
@@ -311,7 +311,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 80km optical lin
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-S15-80D)</td>
+          <td>Case Operating Temp. (NXO-E7-S15-A0D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -320,7 +320,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 80km optical lin
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-S15-80Di)</td>
+          <td>Case Operating Temp. (NXO-E7-S15-A0Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -338,20 +338,20 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 80km optical lin
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-S15-80D)</td>
+          <td>Supply Current (NXO-E7-S15-A0D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>270</td>
+          <td>290</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-S15-80Di)</td>
+          <td>Supply Current (NXO-E7-S15-A0Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>300</td>
+          <td>320</td>
           <td>mA</td>
         </tr>
 
@@ -505,4 +505,4 @@ Specification.
   )
 }
 
-export default Dual_S15_80D;
+export default Dual_S15_A0D;
