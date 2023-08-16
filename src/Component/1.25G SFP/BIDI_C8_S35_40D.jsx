@@ -26,10 +26,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const BIDI_C8_S35_20D = () => { 
+const BIDI_C8_S35_40D = () => { 
 
-  let PartNumber = "NXO-C8-S35-20D";
-  let productName ="1.25G SFP 1000BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM";
+  let PartNumber = "NXO-C8-S35-40D";
+  let productName ="1.25G SFP 1000BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -170,7 +170,7 @@ const BIDI_C8_S35_20D = () => {
 </p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 20km over SM fiber</p>
+<p className='listFeture'>Link distance 40km over SM fiber</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 
@@ -220,11 +220,12 @@ const BIDI_C8_S35_20D = () => {
   
  <p>
 
-NXO-C8-S35-20D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+
+NXO-C8-S35-40D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
-performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
-performance for Gigabit Ethernet 1000BASE-BX10 and Fiber Channel 1GFC applications up to SMF 20km
-optical links.
+performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
+performance for Gigabit Ethernet 1000BASE-BX and
+Fiber Channel 1GFC applications up to SMF 40km optical links.
 
 </p>
 </div>
@@ -300,7 +301,7 @@ optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C8-S35-20D)</td>
+          <td>Case Operating Temp. (NXO-C8-S35-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -309,7 +310,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C8-S35-20Di)</td>
+          <td>Case Operating Temp. (NXO-C8-S35-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -327,7 +328,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S35-20D)</td>
+          <td>Supply Current (NXO-C8-S35-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -336,7 +337,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S35-20Di)</td>
+          <td>Supply Current (NXO-C8-S35-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -494,4 +495,4 @@ Specification.
   )
 }
 
-export default BIDI_C8_S35_20D;
+export default BIDI_C8_S35_40D;

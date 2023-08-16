@@ -370,32 +370,27 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_2point5_Dual/Dual_S15_A0D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S35_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1_3} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
-
-
-
-
-
-
-
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 
 </h5>
 
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>1550nm DFB laser transmitter
+<p>1310nm DFB laser transmitter
+
 
 </p>
 
-<p>Duplex LC connector
+<p>Simplex LC connector
+
 
 </p>
 <p>RoHS Compliant
