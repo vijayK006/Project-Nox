@@ -60,7 +60,7 @@ const Products_SFP_CWDM = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>2.5 SFP BIDI</h2>
+<h2 className='pt-5'>2.5 SFP CWDM</h2>
 
       <div className='row pt-5  pb-5'>
 
