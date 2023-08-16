@@ -558,8 +558,8 @@ const Switchclose_menu8=()=>{
 <div className='col-lg-2 col-md-4'>
 
 <p className='menu-title '>1.25G SFP</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP CWDM</p></Link>
+<Link to="/SFP_1_25G_DWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DWDM</p></Link>
+<Link to="/SFP_CWDM_1_25G_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP CWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DUAL</p></Link>
 
@@ -1192,9 +1192,8 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series17'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu17}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP DWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP CWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP BIDI</p></Link>
+<Link to="/SFP_1_25G_DWDM_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP DWDM</p></Link>
+<Link to="/SFP_CWDM_1_25G_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP CWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP BIDI</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP DUAL</p></Link>
 
