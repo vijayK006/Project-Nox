@@ -4,15 +4,14 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/RJ45 Copper Series/SFP_100T.jpg';
+import loopbackImg1 from '../../img/products/RJ45 Copper Series/SFP_10-T_Y.jpg';
 
 
 import memorymapimg from '../../img/products/25G SFP28/memoryMap.png'
-import mchdimensionImg from '../../img/products/25G SFP28/mecDimenssion.jpg'
+import mchdimensionImg from '../../img/products/RJ45 Copper Series/SFP_10-T_Y_3.jpg'
 import powerSupply from '../../img/products/100G QSFP28/PowerSupply.jpg'
-import pinAssisment from '../../img/products/25G SFP28/pinAssisment.jpg'
-import transcerve from '../../img/products/100G QSFP28/transciverBlock_ER4_single.jpg'
-import {TiTickOutline} from 'react-icons/ti';
+import pinAssisment from '../../img/products/RJ45 Copper Series/SFP_10-T_Y_2.jpg'
+import transcerve from '../../img/products/RJ45 Copper Series/SFP_100Tx_2.jpg'
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -21,11 +20,12 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
+import {TiTickOutline} from 'react-icons/ti';
 
 
-const SFP_1000T = () => {
-  let PartNumber = "NXO-CJ-Txx-X1";
-  let productName = "1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP";
+const SFP_10G_T13_Y3 = () => {
+  let PartNumber = "NXO-HJ-T13-Y3";
+  let productName = "10GBASE-T SFP+ TransceiverHot Pluggable, RJ-45, Active Copper SFP+, 30M";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -166,21 +166,55 @@ const SFP_1000T = () => {
 </div>
 
 <h5>Features</h5>
-<p className='listFeture'> Compliant with IEEE802.3-2002 and 802.3ab</p>
-<p className='listFeture'> Compliant with SFP MSA</p>
-<p className='listFeture'> Hot Pluggable</p>
-<p className='listFeture'> Auto-detect MDI/MDI-X</p>
-<p className='listFeture'> Compatible with 1000BASE-X and 1000BASE-T auto-negotiation</p>
-<p className='listFeture'> 10/100/1000BASE-T operation in host system with SGMII interface</p>
-<p className='listFeture'> RJ-45 connector</p>
-<p className='listFeture'> Single +3.3V power supply</p>
-<p className='listFeture'> Link length up to 100m with four-pair Cat.5 UTP cable</p>
-<p className='listFeture'> RoHS Compliant</p>
+
+<p className='listFeture'>Compliant with IEEE 802.3an, 802.3ab and 802.3z
+
+
+</p>
+
+<p className='listFeture'>Compliant with SFF-8431, 8432 SFP+ MSA
+
+
+</p>
+<p className='listFeture'>
+Support 10GBASE-T/ 5GBASE-T/ 2.5GBASE-T/ 1000BASE-T/ 100BASE-TX
+
+</p>
+<p className='listFeture'>Hot Pluggable
+
+
+</p>
+<p className='listFeture'>Auto-negotiates with other 10GBASE-T PHYs</p>
+
+<p className='listFeture'>Auto-detect MDI/MDI-X on RJ-45 port
+
+</p>
+
+<p className='listFeture'>Support RX_LOS(Loss Of Signal) function
+</p>
+<p className='listFeture'>I2C 2-wire interface for serial ID
+
+</p>
+<p className='listFeture'>RJ-45 connector
+
+</p>
+
+<p className='listFeture'>Single +3.3V power supply</p>
+<p className='listFeture'>10G link length up to 30m with Cat.6a/7, 2.5G/5G link length up to 50m with Cat.5E, 100M/1G link length up to 100m with Cat.5E
+
+</p>
+
+<p className='listFeture'>RoHS Compliant</p>
 
 
 
 <h5 className='pt-5'>Applications</h5>
-<p className='listFeture'>Gigabit Ethernet 10/100/1000BASE-T</p>
+
+<p className='listFeture'>1G / 2.5G / 5G / 10GBASE-T Application
+
+</p>
+
+
 
 </div>
 
@@ -204,9 +238,9 @@ const SFP_1000T = () => {
     </li>
 
 
-    <li class="nav-item">
+    {/* <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic Functions</a>
-    </li>
+    </li> */}
 
   </ul> 
 </div>
@@ -218,8 +252,9 @@ const SFP_1000T = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-CJ-Txx-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 1.25Gbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the
-2-wire serial bus I2C protocol. The PHY IC can also be accessed via 2-wire serial bus at address ACh.
+The NXO-HJ-Txx-Y3 Small Form Factor Pluggable SFP+ Copper transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA)
+Specification. The High performance designed is integrated full duplex data link at 10Gbps over four pair Category 6a/7 cable up to 30m links. It is specifically
+designed for high speed communication links that require 10 Gigabit Ethernet over copper cable.
 
 </p>
 </div>
@@ -297,23 +332,14 @@ const SFP_1000T = () => {
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-CJ-Txx-X1)</td>
+          <td> Case Operating Temp.</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
         </tr>
-
-        <tr>
-          <td>Case Operating Temp. (NXO-CJ-Txx-X1i)</td>
-          <td>TOP</td>
-          <td>40</td>
-          <td>-</td>
-          <td>+85</td>
-          <td>°C</td>
-        </tr>
-
+        
       
         <tr>
           <td>Supply Voltage</td>
@@ -324,25 +350,57 @@ const SFP_1000T = () => {
           <td>V</td>
         </tr>
 
-
+        <tr>
+          <td>Maximum Voltage</td>
+          <td>Vmax</td>
+          <td></td>
+          <td></td>
+          <td>4</td>
+          <td>V</td>
+        </tr>
+        <tr>
+          <td>Data Rate</td>
+          <td>DR</td>
+          <td></td>
+          <td>10.3125</td>
+          <td></td>
+          <td>Gb/s</td>
+        </tr>
+        <tr>
+          <td>Bit Error Rate</td>
+          <td>BER</td>
+          <td></td>
+          <td></td>
+          <td>10^-12</td>
+          <td></td>
+        </tr>
         <tr>
           <td>Supply Current</td>
           <td>Icc</td>
           <td></td>
-          <td>320</td>
-          <td>375</td>
+          <td>700</td>
+          <td>750</td>
           <td>mA</td>
         </tr>
-       
-        
+        <tr>
+          <td>Surge Current</td>
+          <td>Isurge
+</td>
+          <td></td>
+          <td></td>
+          <td>30</td>
+          <td>mA</td>
+        </tr>
         <tr>
           <td>Power Consumption</td>
           <td>P</td>
           <td></td>
           <td></td>
-          <td>1.2</td>
+          <td>2.5</td>
           <td>W</td>
         </tr>
+        
+       
 
       </tbody>
     </table>
@@ -353,7 +411,7 @@ const SFP_1000T = () => {
  
 
 
- <div id="menu4" class="container tab-pane fade"><br/>
+ {/* <div id="menu4" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
   <p>As defined by the QSFP28 MSA(SFF-8472) , NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
@@ -373,21 +431,21 @@ The operating and diagnostics information is monitored and reported by a Digital
 <p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.
 </b></p>
 </div>
- </div>
+ </div> */}
 
   </div>
 </div>
 
 {/* Memory Map Section Start */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Digital Diagnostic Memory Map
-</h1>
+    {/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+    <h1 className='pb-4'>Digital Diagnostic Memory Map
+    </h1>
 
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={memorymapimg} className='sectionImg2_1' alt="memorymapImg"/>
-</div>
+    <div className='d-flex justify-content-center' style={{width:"100%"}}>
+    <img src={memorymapimg} className='sectionImg2_1' alt="memorymapImg"/>
+    </div>
 
-</div>
+    </div> */}
 {/* Memory Map Section End */}
 
 {/* Mechanical Dimensions section start */}
@@ -396,7 +454,7 @@ The operating and diagnostics information is monitored and reported by a Digital
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
+<img src={mchdimensionImg} className='sectionImg2' alt="memorymapImg"/>
 </div>
 
 </div>
@@ -517,4 +575,5 @@ The operating and diagnostics information is monitored and reported by a Digital
   )
 }
 
-export default SFP_1000T;
+export default SFP_10G_T13_Y3;
+

@@ -24,7 +24,7 @@ import {TiTickOutline} from 'react-icons/ti';
 
 
 const SFP_10G_T_Y3 = () => {
-  let PartNumber = "NXO-HJ-Txx-Y3";
+  let PartNumber = "NXO-HJ-T11-Y3";
   let productName = "10GBASE-T SFP+ TransceiverHot Pluggable, RJ-45, Active Copper SFP+, 30M";
 
   const [name, setName] = useState("");

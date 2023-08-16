@@ -4,14 +4,14 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/RJ45 Copper Series/SFP_100Tx_1.jpg';
+import loopbackImg1 from '../../img/products/RJ45 Copper Series/SFP_100T.jpg';
 
 
 import memorymapimg from '../../img/products/25G SFP28/memoryMap.png'
-import mchdimensionImg from '../../img/products/RJ45 Copper Series/SFP_100Tx_3.jpg'
+import mchdimensionImg from '../../img/products/25G SFP28/mecDimenssion.jpg'
 import powerSupply from '../../img/products/100G QSFP28/PowerSupply.jpg'
-import pinAssisment from '../../img/products/RJ45 Copper Series/SFP_100Tx_2.jpg'
-import transcerve from '../../img/products/RJ45 Copper Series/SFP_100Tx_2.jpg'
+import pinAssisment from '../../img/products/25G SFP28/pinAssisment.jpg'
+import transcerve from '../../img/products/100G QSFP28/transciverBlock_ER4_single.jpg'
 import {TiTickOutline} from 'react-icons/ti';
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
@@ -23,9 +23,9 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
-const SFP_100Tx = () => {
-  let PartNumber = "NXO-AJ-Tx1-X1";
-  let productName = "125M SFP-100TX Transceiver Hot Pluggable, RJ-45, Active Copper SFP";
+const SFP_1000T_T11_X1 = () => {
+  let PartNumber = "NXO-CJ-T11-X1";
+  let productName = "1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -166,39 +166,21 @@ const SFP_100Tx = () => {
 </div>
 
 <h5>Features</h5>
-
-<p className='listFeture'>Compatible with IEEE802.3u Standard
-
-</p>
-<p className='listFeture'>Compliant with SFP MSA
-
-</p>
-<p className='listFeture'>Hot Pluggable
-
-</p>
-<p className='listFeture'>Auto-detect MDI/MDI-X on RJ-45 port
-
-</p>
-<p className='listFeture'>Compatible with 10BASE-T and 100BASE-TX auto-negotiation on RJ-45 port
-</p>
-<p className='listFeture'>Support RX_LOS(Loss Of Signal) function
-</p>
-
-<p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link length up to 100m with four-pair Cat.5 UTP
-</p>
-
-<p className='listFeture'>RoHS Compliant</p>
+<p className='listFeture'> Compliant with IEEE802.3-2002 and 802.3ab</p>
+<p className='listFeture'> Compliant with SFP MSA</p>
+<p className='listFeture'> Hot Pluggable</p>
+<p className='listFeture'> Auto-detect MDI/MDI-X</p>
+<p className='listFeture'> Compatible with 1000BASE-X and 1000BASE-T auto-negotiation</p>
+<p className='listFeture'> 10/100/1000BASE-T operation in host system with SGMII interface</p>
+<p className='listFeture'> RJ-45 connector</p>
+<p className='listFeture'> Single +3.3V power supply</p>
+<p className='listFeture'> Link length up to 100m with four-pair Cat.5 UTP cable</p>
+<p className='listFeture'> RoHS Compliant</p>
 
 
 
 <h5 className='pt-5'>Applications</h5>
-
-<p className='listFeture'>10/100BASE-TX Application
-
-</p>
-
-
+<p className='listFeture'>Gigabit Ethernet 10/100/1000BASE-T</p>
 
 </div>
 
@@ -222,9 +204,9 @@ const SFP_100Tx = () => {
     </li>
 
 
-    {/* <li class="nav-item">
+    <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic Functions</a>
-    </li> */}
+    </li>
 
   </ul> 
 </div>
@@ -236,7 +218,9 @@ const SFP_100Tx = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 125Mbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the 2-wire serial bus I2C protocol. This 100Base-TX Copper SFP Transceiver supports the SFP based switch100Base-FX ports that accept standard 100Base-FX optics SFP.
+ NXO-CJ-Txx-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 1.25Gbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the
+2-wire serial bus I2C protocol. The PHY IC can also be accessed via 2-wire serial bus at address ACh.
+
 </p>
 </div>
 </div>
@@ -313,22 +297,23 @@ NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant 
       <tbody>
 
         <tr>
-          <td> Case Operating Temp. (NXO-AJ-Tx1-X1)</td>
+          <td>Case Operating Temp. (NXO-CJ-Txx-X1)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
         </tr>
-        
+
         <tr>
-          <td>Case Operating Temp. (NXO-AJ-Tx1-X1i)</td>
+          <td>Case Operating Temp. (NXO-CJ-Txx-X1i)</td>
           <td>TOP</td>
-          <td>-40</td>
+          <td>40</td>
           <td>-</td>
           <td>+85</td>
           <td>°C</td>
         </tr>
+
       
         <tr>
           <td>Supply Voltage</td>
@@ -344,13 +329,20 @@ NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant 
           <td>Supply Current</td>
           <td>Icc</td>
           <td></td>
-          <td></td>
-          <td>300</td>
+          <td>320</td>
+          <td>375</td>
           <td>mA</td>
         </tr>
        
         
-       
+        <tr>
+          <td>Power Consumption</td>
+          <td>P</td>
+          <td></td>
+          <td></td>
+          <td>1.2</td>
+          <td>W</td>
+        </tr>
 
       </tbody>
     </table>
@@ -361,7 +353,7 @@ NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant 
  
 
 
- {/* <div id="menu4" class="container tab-pane fade"><br/>
+ <div id="menu4" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
   <p>As defined by the QSFP28 MSA(SFF-8472) , NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
@@ -381,21 +373,21 @@ The operating and diagnostics information is monitored and reported by a Digital
 <p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.
 </b></p>
 </div>
- </div> */}
+ </div>
 
   </div>
 </div>
 
 {/* Memory Map Section Start */}
-    {/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-    <h1 className='pb-4'>Digital Diagnostic Memory Map
-    </h1>
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Digital Diagnostic Memory Map
+</h1>
 
-    <div className='d-flex justify-content-center' style={{width:"100%"}}>
-    <img src={memorymapimg} className='sectionImg2_1' alt="memorymapImg"/>
-    </div>
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={memorymapimg} className='sectionImg2_1' alt="memorymapImg"/>
+</div>
 
-    </div> */}
+</div>
 {/* Memory Map Section End */}
 
 {/* Mechanical Dimensions section start */}
@@ -525,5 +517,4 @@ The operating and diagnostics information is monitored and reported by a Digital
   )
 }
 
-export default SFP_100Tx;
-
+export default SFP_1000T_T11_X1;
