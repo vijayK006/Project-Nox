@@ -560,7 +560,7 @@ const Switchclose_menu8=()=>{
 <p className='menu-title '>1.25G SFP</p>
 <Link to="/SFP_1_25G_DWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DWDM</p></Link>
 <Link to="/SFP_CWDM_1_25G_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP CWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP BIDI</p></Link>
+<Link to="/Products_SFP_1_25G_BIDI"style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP BIDI</p></Link>
 <Link to="/SFP_Dual_1_25_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G SFP DUAL</p></Link>
 
 <p className='menu-title pt-2'>1.25G GBIC</p>
@@ -1192,7 +1192,7 @@ const Switchclose_menu8=()=>{
 
 <Link to="/SFP_1_25G_DWDM_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP DWDM</p></Link>
 <Link to="/SFP_CWDM_1_25G_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP CWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP BIDI</p></Link>
+<Link to="/Products_SFP_1_25G_BIDI" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP BIDI</p></Link>
 <Link to="/SFP_Dual_1_25_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G SFP DUAL</p></Link>
 
 
