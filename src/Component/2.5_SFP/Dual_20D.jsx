@@ -1,4 +1,4 @@
-import React, { useRef,useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/2.5_SFP/Dual_02D.jpg'
 
@@ -26,15 +26,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_02D = () => { 
+const Dual_20D = () => { 
 
-  let PartNumber = "NXO-E7-S13-02D";
-  let productName ="2.5G SFP OC-48 SR / STM-16 I-16 Transceiver Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM";
-
-  const [name, setName] = useState("");
-  const [mobNumber, setmobNumber] = useState("");
-  const [userEmail, setuserEmail] = useState("");
-  const [userMessage, setuserMessage] = useState("");
+  let PartNumber = "NXO-E7-S13-20D";
+  let productName ="2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM";
 
   const form = useRef();
   
@@ -45,12 +40,7 @@ const Dual_02D = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
-          document.getElementById('successMsg').style.top="0px";
-    
-          setName("");
-          setmobNumber("");
-          setuserEmail("");
-          setuserMessage("");
+          document.getElementById('successMsg').classList.add('popupvisiable');
 
       }, (error) => {
           console.log(error.text);
@@ -59,8 +49,9 @@ const Dual_02D = () => {
 
 
   const hidePop = ()=>{
-    document.getElementById("successMsg").style.top="-100%";
+    document.getElementById("successMsg").classList.add('popuphidden');
       }
+
   return (
 <>
     <Navbar/>
@@ -165,7 +156,6 @@ STM-16 I-16
 </p>
 
 
-
 <p className='listFeture'>Hot Pluggable
 </p>
 
@@ -182,7 +172,7 @@ STM-16 I-16
 <p className='listFeture'>Single +3.3V power supply
 
 </p>
-<p className='listFeture'>Link distance 2km over SM fiber
+<p className='listFeture'>Link distance 20km over SM fiber
 
 
 
@@ -240,10 +230,9 @@ STM-16 I-16
   
  <p>
 
-NXO-E7-S13-02D Small Form Factor Pluggable
-SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
-performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical links.
-
+ NXO-E7-S13-20D Small Form Factor Pluggable
+SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
+performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical links.
 </p>
 </div>
 </div>
@@ -318,7 +307,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-S13-02D)</td>
+          <td>Case Operating Temp. (NXO-E7-S13-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -327,7 +316,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-S13-02Di)</td>
+          <td>Case Operating Temp. (NXO-E7-S13-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -345,7 +334,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-S13-02D)</td>
+          <td>Supply Current (NXO-E7-S13-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -354,7 +343,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-S13-02Di)</td>
+          <td>Supply Current (NXO-E7-S13-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -457,7 +446,7 @@ Specification.
       <div className='row'>
 <div className='col-md-6 col-sm-12'>
 <label>Your Product Part Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-md-6 col-sm-12'>
 <label>Your Product Name</label>
@@ -466,18 +455,18 @@ Specification.
       </div>
     </div>
 
- <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
         <div className='row'>
 <div className='col-6'>
-<input type='number' className='form-control mt-2 mb-2' value={mobNumber}  onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required/>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
 </div>
 <div className='col-6'>
-<input type='email' className='form-control mt-2 mb-2' value={userEmail}  onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required/>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
 
       </div>
     </div>
       
-       <textarea rows="2" cols='2' className='form-control' value={userMessage}  onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>
@@ -512,4 +501,4 @@ Specification.
   )
 }
 
-export default Dual_02D;
+export default Dual_20D;

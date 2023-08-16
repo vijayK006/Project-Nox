@@ -17,6 +17,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/2.5_SFP/Dual_1.jpg'
 import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
+import productImg1_3 from '../../img/products/2.5_SFP/Dual_3.jpg'
 
 import productImg2 from '../../img/products/2.5_SFP/Dual_02D.jpg'
 import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
@@ -65,7 +66,7 @@ const Products_2point5_Dual = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Dual_X3D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_2point5_Dual/Dual_X3D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -106,7 +107,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Dual_X3DM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_2point5_Dual/Dual_X3DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -143,7 +144,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Dual_02D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_2point5_Dual/Dual_02D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg2} className='productImg3'/>
@@ -181,14 +182,15 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_2point5_Dual/Dual_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg2} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
+  <h5>2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
+
 
 
 </h5>
@@ -196,9 +198,12 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>Link budget 30dB over SM fiber at 2.5G
+<p>1310nm DFB laser transmitter
+
 </p>
-<p>Link distance 100km over SM fiber for 1470~1610nm
+
+<p>Duplex LC connector
+
 </p>
 <p>RoHS Compliant
 </p>
@@ -211,14 +216,15 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_2point5_Dual/Dual_S13_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg2} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
+  <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
+
 
 
 
@@ -227,9 +233,83 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>Link budget 30dB over SM fiber at 2.5G
+<p>1310nm DFB laser transmitter
+
 </p>
-<p>Link distance 100km over SM fiber for 1470~1610nm
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S13_60D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1310nm DFB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 40KM, DDM
+
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
 </p>
 <p>RoHS Compliant
 </p>
@@ -241,6 +321,188 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 
         </div>
 
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_80D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
+
+
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_A0D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
+
+
+
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_A0DM" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
+
+
+
+
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_A2D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_A2DM" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM, Multi-Rate
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
       </div>
 </div>
 
