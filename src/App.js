@@ -147,8 +147,23 @@ import SFP_1_25G_DWDM_A2D from './Component/1.25G SFP/SFP_1_25G_DWDM_A2D';
 
 import SFP_CWDM_1_25G_Products from './Component/1.25G SFP/SFP_CWDM_1.25G_Products';
 import CWDM_19D_1_25G from './Component/1.25G SFP/CWDM_19D_1.25G';
+import CWDM_24D_1_25G from './Component/1.25G SFP/CWDM_24D_1.25G';
+import CWDM_32D_1_25G from './Component/1.25G SFP/CWDM_32D_1.25G';
 
-
+import SFP_Dual_1_25_Products from './Component/1.25G SFP/SFP_Dual_1_25_Products';
+import Dual_02D_1_25G from './Component/1.25G SFP/Dual_02D_1.25G';
+import Dual_X5D_1_25G from './Component/1.25G SFP/Dual_X5D.1.25G';
+import Dual_10D_1_25G from './Component/1.25G SFP/Dual_10D_1.25G';
+import Dual_10DR_1_25G from './Component/1.25G SFP/Dual_10DR_1.25G';
+import Dual_20D_1_25G from './Component/1.25G SFP/Dual_20D_1.25G';
+import Dual_20DM_1_25G from './Component/1.25G SFP/Dual_20DM_1.25G';
+import Dual_20DR_1_25G from './Component/1.25G SFP/Dual_20DR_1.25G';
+import Dual_40D_1_25G from './Component/1.25G SFP/Dual_40D_1.25G';
+import Dual_60D_1_25G from './Component/1.25G SFP/Dual_60D_1.25G';
+import Dual_50D_1_25G from './Component/1.25G SFP/Dual_50D_1.25G';
+import Dual_80D_1_25G from './Component/1.25G SFP/Dual_80D_1.25G';
+import Dual_A0D_1_25G from './Component/1.25G SFP/Dual_A0D_1.25G';
+import Dual_A2D_1_25G from './Component/1.25G SFP/Dual_A2D_1.25G';
 
 function App() {
   return (
@@ -301,7 +316,25 @@ function App() {
      
      <Route path="/SFP_CWDM_1_25G_Products" element={<SFP_CWDM_1_25G_Products/>}/>
      <Route path="/SFP_CWDM_1_25G_Products/CWDM_19D_1_25G" element={<CWDM_19D_1_25G/>}/>
+     <Route path="/SFP_CWDM_1_25G_Products/CWDM_24D_1_25G" element={<CWDM_24D_1_25G/>}/>
+     <Route path="/SFP_CWDM_1_25G_Products/CWDM_32D_1_25G" element={<CWDM_32D_1_25G/>}/>
 
+     <Route path="/SFP_Dual_1_25_Products" element={<SFP_Dual_1_25_Products/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_02D_1_25G" element={<Dual_02D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_X5D_1_25G" element={<Dual_X5D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_10D_1_25G" element={<Dual_10D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_10DR_1_25G" element={<Dual_10DR_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_20D_1_25G" element={<Dual_20D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_20DM_1_25G" element={<Dual_20DM_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_20DR_1_25G" element={<Dual_20DR_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_40D_1_25G" element={<Dual_40D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_60D_1_25G" element={<Dual_60D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_50D_1_25G" element={<Dual_50D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_80D_1_25G" element={<Dual_80D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_A0D_1_25G" element={<Dual_A0D_1_25G/>}/>
+     <Route path="/SFP_Dual_1_25_Products/Dual_A2D_1_25G" element={<Dual_A2D_1_25G/>}/>
+     
+     
      
     </Routes>
     
