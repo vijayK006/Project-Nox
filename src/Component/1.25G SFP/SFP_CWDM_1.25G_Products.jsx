@@ -15,15 +15,20 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/RJ45 Copper Series/SFP_100Tx_1.jpg';
+import productImg1 from '../../img/products/2.5_SFP/CWDM_2.5G.jpg';
+// import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
+import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
+import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
+import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const SFP_100T_Products = () => {
+const SFP_CWDM_1_25G_Products = () => {
   return (
     <>
 <Navbar/>
+
 <div className='container leave-navbar'>
 <Swiper
         spaceBetween={30}
@@ -55,34 +60,30 @@ const SFP_100T_Products = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>RJ45 Copper Series SFP+ 10G-T</h2>
+<h2 className='pt-5'>1.25G SFP CWDM</h2>
 
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_100Tx_T01_X1" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_CWDM_1_25G_Products/CWDM_19D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+  <h5>
+
+  1.25G SFP CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
+
 </h5>
 
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-</p>
-<p>I2C 2-wire interface for serial ID
+<h4>Feature's</h4> 
+<p>Link budget 19dB over SM fiber</p>
+<p>18 CWDM Wavelength 1270~1610nm available</p>
+<p>Compliant with INF-8074i SFP MSA</p>
+<p>Single +3.3V power supply</p>
 
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
 
 </div>
 
@@ -92,75 +93,6 @@ const SFP_100T_Products = () => {
 
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_100Tx_T01_X1i" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_100Tx_T11_X1" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
 
       </div>
 </div>
@@ -172,4 +104,4 @@ const SFP_100T_Products = () => {
   )
 }
 
-export default SFP_100T_Products;
+export default SFP_CWDM_1_25G_Products;

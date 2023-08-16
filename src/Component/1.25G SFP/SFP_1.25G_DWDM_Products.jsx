@@ -15,15 +15,20 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/RJ45 Copper Series/SFP_100Tx_1.jpg';
+import productImg1 from '../../img/products/1.25G SFP/SFP_DWDM_Img.jpg'
+// import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
+import productImg2 from '../../img/products/100G CFP CFP2 CFP4/100G_ER4DuleRate.jpg'
+import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
+import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const SFP_100T_Products = () => {
+const SFP_1_25G_DWDM_Products = () => {
   return (
     <>
 <Navbar/>
+
 <div className='container leave-navbar'>
 <Swiper
         spaceBetween={30}
@@ -55,34 +60,29 @@ const SFP_100T_Products = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>RJ45 Copper Series SFP+ 10G-T</h2>
+<h2 className='pt-5'>1.25G SFP DWDM</h2>
 
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_100Tx_T01_X1" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+  <h5>
+
+  1.25G SFP DWDM Transceiver
+Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
 
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-</p>
-<p>I2C 2-wire interface for serial ID
+<h4>Feature's</h4> 
+<p>Single +3.3V power supply</p>
+<p>Maximum Power consumption 2.5W</p>
+<p>Link distance 80km over SM fiber </p>
+<p>Cooled DWDM DFB laser transmitter</p>
 
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
 
 </div>
 
@@ -93,66 +93,24 @@ const SFP_100T_Products = () => {
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_100Tx_T01_X1i" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_A2D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+  <h5>
+
+  1.25G SFP DWDM Transceiver
+Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
 
-<h4>Feature's</h4>
-<p>Support RX_LOS function
+<h4>Feature's</h4> 
+<p>Single +3.3V power supply</p>
+<p>Maximum Power consumption 2.5W</p>
+<p>Link distance 120km over SM fiber </p>
+<p>Cooled DWDM DFB laser transmitter</p>
 
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_100Tx_T11_X1" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
 
 </div>
 
@@ -172,4 +130,4 @@ const SFP_100T_Products = () => {
   )
 }
 
-export default SFP_100T_Products;
+export default SFP_1_25G_DWDM_Products;

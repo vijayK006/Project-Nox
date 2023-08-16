@@ -27,11 +27,9 @@ import IR4_40G from './Component/40G_QSFP+/40G_IR4';
 import PSM4_IR_40G from './Component/40G_QSFP+/40G_PSM4_IR';
 import PSM4_LR_40G from './Component/40G_QSFP+/40G_PSM4_LR';
 import SWDM4_40G from './Component/40G_QSFP+/40G_SWDM4';
-
 import Product_40G_SRBD from "./Component/40G_QSFP+/40G_SRBD_Products";
 import CFP2_Products_100G from './Component/100G_CFP-CFP2-CFP4/100G_CFP2_Products';
 import LR4_Eathernet_100G from './Component/100G_CFP-CFP2-CFP4/100G_LR4_Ethernet';
-
 import Product_CFP1 from "./Component/100G_CFP-CFP2-CFP4/100G_CFP1"
 import Product_CFP4 from "./Component/100G_CFP-CFP2-CFP4/100G_CFP4"
 import Product_100G_QSFP28 from "./Component/100G_CFP-CFP2-CFP4/100G_QSFP28"
@@ -90,8 +88,6 @@ import SFP_100Tx_Products from "./Component/RJ45 Copper Series/SFP-100Tx_Product
 import SFP_100Tx_T01_X1 from './Component/RJ45 Copper Series/SFP_100Tx_X1';
 import SFP_100Tx_T01_X1i from './Component/RJ45 Copper Series/SFP_100Tx_X1i';
 import SFP_100Tx_T11_X1 from './Component/RJ45 Copper Series/SFP_100Tx_T11_X1';
-
-
 import SFP_1000T_Products from './Component/RJ45 Copper Series/SFP_1000T_Products';
 import SFP_1000T_T01_Xl from './Component/RJ45 Copper Series/SFP_1000T_T01_Xl';
 import SFP_1000T_T01_Xli from './Component/RJ45 Copper Series/SFP_1000T_T01_Xli';
@@ -144,6 +140,14 @@ import Dual_S15_A0D from './Component/2.5_SFP/Dual_S15_A0D';
 import Dual_S15_A0DM from './Component/2.5_SFP/Dual_S15_A0DM';
 import Dual_S15_A2D from './Component/2.5_SFP/Dual_S15_A2D';
 import Dual_S15_A2DM from './Component/2.5_SFP/Dual_S15_A2DM';
+
+import SFP_1_25G_DWDM_Products from './Component/1.25G SFP/SFP_1.25G_DWDM_Products';
+import SFP_1_25G_DWDM_80D from './Component/1.25G SFP/SFP_1.25G_DWDM_80D';
+import SFP_1_25G_DWDM_A2D from './Component/1.25G SFP/SFP_1_25G_DWDM_A2D';
+
+import SFP_CWDM_1_25G_Products from './Component/1.25G SFP/SFP_CWDM_1.25G_Products';
+import CWDM_19D_1_25G from './Component/1.25G SFP/CWDM_19D_1.25G';
+
 
 
 function App() {
@@ -291,6 +295,13 @@ function App() {
      <Route path="/SFP_DWDM_Products" element={<SFP_DWDM_Products/>}/>
      <Route path="/DWDM_80km" element={<DWDM_80km/>}/>
      <Route path="/DWDM_120km" element={<DWDM_120km/>}/>
+     <Route path="/SFP_1_25G_DWDM_Products" element={<SFP_1_25G_DWDM_Products/>}/>
+     <Route path="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_80D" element={<SFP_1_25G_DWDM_80D/>}/>
+     <Route path="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_A2D" element={<SFP_1_25G_DWDM_A2D/>}/>
+     
+     <Route path="/SFP_CWDM_1_25G_Products" element={<SFP_CWDM_1_25G_Products/>}/>
+     <Route path="/SFP_CWDM_1_25G_Products/CWDM_19D_1_25G" element={<CWDM_19D_1_25G/>}/>
+
      
     </Routes>
     
