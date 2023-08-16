@@ -458,7 +458,7 @@ rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
 </div>
 {/* Memory Map Section Start */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assisment</h1>
+  <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>

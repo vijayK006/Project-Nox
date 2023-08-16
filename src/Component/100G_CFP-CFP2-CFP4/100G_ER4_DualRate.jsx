@@ -404,7 +404,7 @@ The transceiver incorporates a 4-channel laser driver circuit together with a 4-
 
 
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assisment</h1>
+  <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={pinassisment} className='sectionImg2' alt="Transceiver Block Diagram"/>
