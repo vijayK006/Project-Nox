@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/2.5_SFP/SFP_DWDM.jpg'
 
@@ -30,6 +30,11 @@ const DWDM_80km = () => {
   let PartNumber = "NXO-C7-Dxx-80D";
   let productName ="1.25G SFP DWDM Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM";
 
+    const [name, setName] = useState("");
+  const [mobNumber, setmobNumber] = useState("");
+  const [userEmail, setuserEmail] = useState("");
+  const [userMessage, setuserMessage] = useState("");
+
   const form = useRef();
   
   const sendEmail = (e) => {
@@ -39,7 +44,12 @@ const DWDM_80km = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
-          document.getElementById('successMsg').classList.add('popupvisiable');
+          document.getElementById('successMsg').style.top="0px";
+    
+          setName("");
+          setmobNumber("");
+          setuserEmail("");
+          setuserMessage("");
 
       }, (error) => {
           console.log(error.text);
@@ -48,7 +58,7 @@ const DWDM_80km = () => {
 
 
   const hidePop = ()=>{
-    document.getElementById("successMsg").classList.add('popuphidden');
+    document.getElementById("successMsg").style.top="-100%";
       }
 
   return (
@@ -361,7 +371,7 @@ Specification.
 
 {/* Memory Map Section Start */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assisment</h1>
+  <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={ pinassisment} className='sectionImg2' alt="memorymapImg"/>
@@ -411,7 +421,7 @@ Specification.
       <div className='row'>
 <div className='col-md-6 col-sm-12'>
 <label>Your Product Part Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
 </div>
 <div className='col-md-6 col-sm-12'>
 <label>Your Product Name</label>
@@ -420,18 +430,18 @@ Specification.
       </div>
     </div>
 
- <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+ <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
         <div className='row'>
 <div className='col-6'>
-<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+<input type='number' className='form-control mt-2 mb-2' value={mobNumber}  onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required/>
 </div>
 <div className='col-6'>
-<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+<input type='email' className='form-control mt-2 mb-2' value={userEmail}  onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required/>
 
       </div>
     </div>
       
-       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' value={userMessage}  onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>

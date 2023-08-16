@@ -816,15 +816,15 @@ transform: translateY(0px);
 .message-sent{
     background-color:rgba(0, 0, 0, 0.432);
 position: fixed;
-top: 0%;
-    height: 0vh;
-    width: 0%;
-    opacity: 0;
+/* top: 0%; */
+    height: 100vh;
+    width: 100%;
+    opacity: 1;
     transition: all 0.3s ease-in-out;
 z-index: 111111;
 }
 
-.popupvisiable{
+/* .popupvisiable{
     height: 100vh;
     top: 0%;
     width: 100%;
@@ -839,7 +839,7 @@ z-index: 111111;
     width: 0%;
     opacity: 0 !important;
     transition: all 0.3s ease-in-out;
-}
+} */
 
 
 

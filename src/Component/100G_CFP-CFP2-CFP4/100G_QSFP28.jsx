@@ -1,4 +1,5 @@
-import {React} from 'react'
+import React, {useRef, useState} from 'react';
+import emailjs from '@emailjs/browser';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
@@ -8,6 +9,7 @@ import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
 import mchdimensionImg from '../../img/products/40GQSFP+/p28_2.jpg'
 import Transceiverimg from "../../img/products/100G CFP CFP2 CFP4/adopterBlock.png"
 import powersupply from "../../img/products/100G CFP CFP2 CFP4/CFP2Assisment.png"
+import { TiTickOutline } from 'react-icons/ti';
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -18,7 +20,40 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_100G_QSFP28 = () => {
-   
+let productName = "100G CFP2 to QSFP28 Adapter Module, Dual-Rate";
+let PartNumber = "NXO-AS8-C2QP-Nx";
+
+  const [name, setName] = useState("");
+  const [mobNumber, setmobNumber] = useState("");
+  const [userEmail, setuserEmail] = useState("");
+  const [userMessage, setuserMessage] = useState("");
+
+  const form = useRef();
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_s6yscqg', 'template_nnkudli', form.current, 'ctLMl35oWO-hYo21q')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message Sent :)");
+          document.getElementById('successMsg').style.top="0px";
+    
+          setName("");
+          setmobNumber("");
+          setuserEmail("");
+          setuserMessage("");
+
+      }, (error) => {
+          console.log(error.text);
+      });
+  }; 
+
+
+  const hidePop = ()=>{
+    document.getElementById("successMsg").style.top="-100%";
+      }
+
   return (
 
     <>
@@ -97,12 +132,6 @@ const Product_100G_QSFP28 = () => {
 
 <div className='product-content'>
 <h4>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
-
-
-
-
-
-
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
@@ -414,6 +443,76 @@ modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS c
 </div>
 
 <Footer/>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      {/* <!-- Modal Header --> */}
+      <div class="modal-header">
+        <h4 class="modal-title">Enquire Now</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      {/* <!-- Modal body --> */}
+      <div class="modal-body">
+      <form ref={form} onSubmit={sendEmail}>
+
+      <div className='row'>
+<div className='col-md-6 col-sm-12'>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
+</div>
+<div className='col-md-6 col-sm-12'>
+<label>Your Product Name</label>
+<input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
+
+      </div>
+    </div>
+
+ <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
+        <div className='row'>
+<div className='col-6'>
+<input type='number' className='form-control mt-2 mb-2' value={mobNumber}  onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required/>
+</div>
+<div className='col-6'>
+<input type='email' className='form-control mt-2 mb-2' value={userEmail}  onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required/>
+
+      </div>
+    </div>
+      
+       <textarea rows="2" cols='2' className='form-control' value={userMessage}  onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
+<input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
+      </form>
+       </div>
+
+
+
+    </div>
+  </div>
+
+  <div className="message-sent" id="successMsg">
+
+<div className="card-message">
+
+  <div className="d-flex justify-content-center">
+<TiTickOutline className="messagetick-mark"/>
+</div>
+
+  <p className="successMsgTest">Thank you so much for taking the time to fill out the form! We truly appreciate your interest in our services. 
+  Your inquiry is valuable to us, and our team shall get back to you soon.</p>
+
+  <div className="d-flex justify-content-center pt-5 pb-1">
+    <button type="button" className="btn btn-danger" onClick={hidePop}>Go Back</button>
+  </div>
+
+</div>
+
+
+</div>
+
+</div>
+
     </>
   )
 }

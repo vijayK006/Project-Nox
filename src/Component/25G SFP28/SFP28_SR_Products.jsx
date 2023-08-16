@@ -17,6 +17,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/25G SFP28/SFP28Img.jpg';
 
+import { TiTickOutline } from 'react-icons/ti';
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 

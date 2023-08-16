@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -28,8 +28,13 @@ const BIDI_L04 = () => {
   let PartNumber = "NXO-K8-L04-30D "
   let productName = "100G QSFP28 Single Lambda ER1-30-BiDi Transceiver Hot Pluggable, Bidi LC, Tx1304nm EML / Rx1309nm, SMF 30KM, DDM"
 
-  const form = useRef();
+  const [name, setName] = useState("");
+  const [mobNumber, setmobNumber] = useState("");
+  const [userEmail, setuserEmail] = useState("");
+  const [userMessage, setuserMessage] = useState("");
 
+  const form = useRef();
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -37,14 +42,21 @@ const BIDI_L04 = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
+          document.getElementById('successMsg').style.top="0px";
+    
+          setName("");
+          setmobNumber("");
+          setuserEmail("");
+          setuserMessage("");
 
       }, (error) => {
           console.log(error.text);
       });
-  };
+  }; 
+
 
   const hidePop = ()=>{
-    document.getElementById("successMsg").classList.add('popuphidden');
+    document.getElementById("successMsg").style.top="-100%";
       }
 
   return (
@@ -541,29 +553,29 @@ the maximum address of the memory.
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>
-<div className='col-6'>
+<div className='col-md-6 col-sm-12'>
 <label>Your Product Part Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
 </div>
-<div className='col-6'>
+<div className='col-md-6 col-sm-12'>
 <label>Your Product Name</label>
 <input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
 
       </div>
     </div>
 
- <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+ <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
         <div className='row'>
 <div className='col-6'>
-<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+<input type='number' className='form-control mt-2 mb-2' value={mobNumber}  onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required/>
 </div>
 <div className='col-6'>
-<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+<input type='email' className='form-control mt-2 mb-2' value={userEmail}  onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required/>
 
       </div>
     </div>
       
-       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' value={userMessage}  onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>
@@ -592,6 +604,7 @@ the maximum address of the memory.
 
 
 </div>
+
 </div>
     </>
   )

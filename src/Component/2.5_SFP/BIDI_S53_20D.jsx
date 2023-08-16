@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
@@ -31,6 +31,11 @@ const BIDI_S53_20D = () => {
   let PartNumber = "NXO-E8-S53-20D";
   let productName ="2.5G SFP OC-48 IR-2 / STM-16 S16.2 Transceiver Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM";
 
+  const [name, setName] = useState("");
+  const [mobNumber, setmobNumber] = useState("");
+  const [userEmail, setuserEmail] = useState("");
+  const [userMessage, setuserMessage] = useState("");
+
   const form = useRef();
   
   const sendEmail = (e) => {
@@ -40,7 +45,12 @@ const BIDI_S53_20D = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
-          document.getElementById('successMsg').classList.add('popupvisiable');
+          document.getElementById('successMsg').style.top="0px";
+    
+          setName("");
+          setmobNumber("");
+          setuserEmail("");
+          setuserMessage("");
 
       }, (error) => {
           console.log(error.text);
@@ -49,7 +59,7 @@ const BIDI_S53_20D = () => {
 
 
   const hidePop = ()=>{
-    document.getElementById("successMsg").classList.add('popuphidden');
+    document.getElementById("successMsg").style.top="-100%";
       }
 
   return (

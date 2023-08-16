@@ -21,6 +21,7 @@ import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet
 import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
+import { TiTickOutline } from 'react-icons/ti';
 
 const X2_DUAL_Products = () => {
   return (

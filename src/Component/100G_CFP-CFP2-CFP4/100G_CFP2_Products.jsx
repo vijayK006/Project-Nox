@@ -8,6 +8,7 @@ import Navbar from '../../Navbar'
 import Footer from '../../Footer';
 import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
+import { TiTickOutline } from 'react-icons/ti';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';

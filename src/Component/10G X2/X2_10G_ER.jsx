@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/10G X2/10G_X2Img.jpg'
 
@@ -17,6 +17,7 @@ import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
 
 import { Link } from 'react-router-dom';
+import { TiTickOutline } from 'react-icons/ti';
 
 
 // photo swaping 
@@ -25,8 +26,13 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const X2_10G_ER = () => { 
 
-  let pathNumber = "NXO-H1-S15-40D";
+  let PartNumber = "NXO-H1-S15-40D";
   let productName ="10G X2-ER Transceiver Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 40KM, DDM";
+
+  const [name, setName] = useState("");
+  const [mobNumber, setmobNumber] = useState("");
+  const [userEmail, setuserEmail] = useState("");
+  const [userMessage, setuserMessage] = useState("");
 
   const form = useRef();
   
@@ -37,11 +43,22 @@ const X2_10G_ER = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
+          document.getElementById('successMsg').style.top="0px";
+    
+          setName("");
+          setmobNumber("");
+          setuserEmail("");
+          setuserMessage("");
 
       }, (error) => {
           console.log(error.text);
       });
   }; 
+
+
+  const hidePop = ()=>{
+    document.getElementById("successMsg").style.top="-100%";
+      }
   return (
 <>
     <Navbar/>
@@ -126,7 +143,7 @@ const X2_10G_ER = () => {
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>{pathNumber}</p>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
@@ -362,7 +379,7 @@ management functions are all integrated into the module. This transceiver uses a
 
 {/* Memory Map Section Start */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assisment</h1>
+  <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={ pinassisment} className='sectionImg2' alt="memorymapImg"/>
@@ -402,29 +419,29 @@ management functions are all integrated into the module. This transceiver uses a
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>
-<div className='col-6'>
-<label>Your Product Path Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={pathNumber} name='pathno' readOnly/>
+<div className='col-md-6 col-sm-12'>
+<label>Your Product Part Number</label>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
 </div>
-<div className='col-6'>
+<div className='col-md-6 col-sm-12'>
 <label>Your Product Name</label>
 <input type='text' className='form-control mt-2 mb-2' value={productName} name="productname" readOnly/>
 
       </div>
     </div>
 
- <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
+ <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
         <div className='row'>
 <div className='col-6'>
-<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
+<input type='number' className='form-control mt-2 mb-2' value={mobNumber}  onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required/>
 </div>
 <div className='col-6'>
-<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
+<input type='email' className='form-control mt-2 mb-2' value={userEmail}  onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required/>
 
       </div>
     </div>
       
-       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' value={userMessage}  onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>
@@ -433,6 +450,27 @@ management functions are all integrated into the module. This transceiver uses a
 
     </div>
   </div>
+
+  <div className="message-sent" id="successMsg">
+
+<div className="card-message">
+
+  <div className="d-flex justify-content-center">
+<TiTickOutline className="messagetick-mark"/>
+</div>
+
+  <p className="successMsgTest">Thank you so much for taking the time to fill out the form! We truly appreciate your interest in our services. 
+  Your inquiry is valuable to us, and our team shall get back to you soon.</p>
+
+  <div className="d-flex justify-content-center pt-5 pb-1">
+    <button type="button" className="btn btn-danger" onClick={hidePop}>Go Back</button>
+  </div>
+
+</div>
+
+
+</div>
+
 </div>
     </>
   )
