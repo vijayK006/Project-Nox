@@ -164,9 +164,7 @@ STM-16 I-16
 <p className='listFeture'>Compliant with INF-8074i SFP MSA
 </p>
 
-<p className='listFeture'>Support 125M, 155M, 622M, 1.0625G, 1.25G,
-2.125G and 2.5G Multi-Rate operations
-</p>
+
 
 <p className='listFeture'>Hot Pluggable
 </p>

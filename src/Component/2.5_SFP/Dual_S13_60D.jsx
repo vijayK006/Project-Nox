@@ -26,10 +26,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_20D = () => { 
+const Dual_S13_60D = () => { 
 
-  let PartNumber = "NXO-E7-S13-20D";
-  let productName ="2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM";
+  let PartNumber = "NXO-E7-S13-60D";
+  let productName ="2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM";
 
   const form = useRef();
   
@@ -163,6 +163,10 @@ STM-16 I-16
 
 
 </p>
+
+<p className='listFeture'>APD receiver
+
+</p>
 <p className='listFeture'>Duplex LC connector
 
 </p>
@@ -172,7 +176,7 @@ STM-16 I-16
 <p className='listFeture'>Single +3.3V power supply
 
 </p>
-<p className='listFeture'>Link distance 20km over SM fiber
+<p className='listFeture'>Link distance 60km over SM fiber
 
 
 
@@ -230,9 +234,9 @@ STM-16 I-16
   
  <p>
 
- NXO-E7-S13-20D Small Form Factor Pluggable
+ NXO-E7-S13-60D Small Form Factor Pluggable
 SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical links.
+performance for SONET OC-48 / SDH STM-16 applications up to SMF 60km optical links.
 </p>
 </div>
 </div>
@@ -307,7 +311,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-S13-20D)</td>
+          <td>Case Operating Temp. (NXO-E7-S13-60D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -316,7 +320,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-S13-20Di)</td>
+          <td>Case Operating Temp. (NXO-E7-S13-60Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -334,20 +338,20 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-S13-20D)</td>
+          <td>Supply Current (NXO-E7-S13-60D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>250</td>
+          <td>270</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-S13-20Di)</td>
+          <td>Supply Current (NXO-E7-S13-60Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>280</td>
+          <td>300</td>
           <td>mA</td>
         </tr>
 
@@ -501,4 +505,4 @@ Specification.
   )
 }
 
-export default Dual_20D;
+export default Dual_S13_60D;

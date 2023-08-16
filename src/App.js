@@ -120,6 +120,10 @@ import SFP_DWDM_Products from './Component/2.5_SFP/SFP_DWDM_Products';
 import DWDM_80km from './Component/2.5_SFP/DWDM_80km';
 import DWDM_120km from './Component/2.5_SFP/DWDM_120km';
 import Dual_20D from './Component/2.5_SFP/Dual_20D';
+import Dual_S13_40D from './Component/2.5_SFP/Dual_S13_40D';
+import Dual_S13_60D from './Component/2.5_SFP/Dual_S13_60D';
+import Dual_S15_40D from './Component/2.5_SFP/Dual_S15_40D';
+import Dual_S15_80D from './Component/2.5_SFP/Dual_S15_80D';
 
 
 function App() {
@@ -235,6 +239,10 @@ function App() {
      <Route path="/Dual_X3DM" element={<Dual_X3DM/>}/>
      <Route path="/Dual_02D" element={<Dual_02D/>}/>
      <Route path="/Dual_20D" element={<Dual_20D/>}/>
+     <Route path="/Dual_S13_40D" element={<Dual_S13_40D/>}/>
+     <Route path="/Dual_S13_60D" element={<Dual_S13_60D/>}/>
+     <Route path="/Dual_S15_40D" element={<Dual_S15_40D/>}/>
+     <Route path="/Dual_S15_80D" element={<Dual_S15_80D/>}/>
      
      
      
@@ -242,7 +250,7 @@ function App() {
      <Route path="/SFP_DWDM_Products" element={<SFP_DWDM_Products/>}/>
      <Route path="/DWDM_80km" element={<DWDM_80km/>}/>
      <Route path="/DWDM_120km" element={<DWDM_120km/>}/>
-    
+     
     </Routes>
     
      
