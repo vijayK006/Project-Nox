@@ -179,8 +179,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 </Link>
 
         </div>
-
-        
+    
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_2point5_Dual/Dual_20D" style={{textDecoration:"none", color:"black"}}>
 
@@ -249,6 +248,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
 </Link>
 
         </div>
+
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_2point5_Dual/Dual_S13_60D" style={{textDecoration:"none", color:"black"}}>
 
@@ -284,6 +284,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 </Link>
 
         </div>
+
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_2point5_Dual/Dual_S15_40D" style={{textDecoration:"none", color:"black"}}>
 
@@ -470,6 +471,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 </Link>
 
         </div>
+        
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_2point5_Dual/Dual_S15_A2DM" style={{textDecoration:"none", color:"black"}}>
 
