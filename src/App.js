@@ -171,6 +171,11 @@ import BIDI_C8_S53_40D from './Component/1.25G SFP/BIDI_C8_S53_40D';
 import BIDI_C8_S53_60D from './Component/1.25G SFP/BIDI_C8_S53_60D';
 import BIDI_C8_S53_80D from './Component/1.25G SFP/BIDI_C8_S54_80D';
 import BIDI_C8_S54_A0D from './Component/1.25G SFP/BIDI_C8_S54_A0D';
+import Dual_1X9_M85_X5P from './Component/1X9/1X9_Dual_M85_X5P';
+import CWDW_1X9_b31P from './Component/1X9/1X9_CWDW_b31P';
+import Ultra_row_1X9_DC from './Component/1X9/Ultra_row_1X9_DC';
+import Ultra_02B from './Component/1X9/Ultra_02B';
+import Ultra_05B from './Component/1X9/Ultra_05B';
 
 
 import SFP_Dual_1_25_Products from './Component/1.25G SFP/SFP_Dual_1_25_Products';
@@ -366,6 +371,11 @@ function App() {
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_60D" element={<BIDI_C8_S53_60D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S54_80D" element={<BIDI_C8_S53_80D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S54_A0D" element={<BIDI_C8_S54_A0D/>}/>
+     <Route path="/Dual_1X9_M85_X5P" element={<Dual_1X9_M85_X5P/>}/>
+     <Route path="/CWDW_1X9_b31P" element={<CWDW_1X9_b31P/>}/>
+     <Route path="/Ultra_row_1X9_DC" element={<Ultra_row_1X9_DC/>}/>
+     <Route path="/Ultra_row_1X9_DC/Ultra_02B" element={<Ultra_02B/>}/>
+     <Route path="/Ultra_row_1X9_DC/Ultra_05B" element={<Ultra_05B/>}/>
      
      
      
