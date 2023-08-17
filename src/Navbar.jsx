@@ -573,9 +573,9 @@ const Switchclose_menu8=()=>{
 
 <p className='menu-title '>PON SFP   SFP+</p>
 <Link to="/Products_10G_XG_XGS_PON" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XG/XGS PON</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G EPON</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G GPON SFP</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G EPON SFP</p></Link>
+<Link to="/EPON_10G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G EPON</p></Link>
+<Link to="/GPON_SFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G GPON SFP</p></Link>
+<Link to="/EPON_SFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G EPON SFP</p></Link>
 
 <p className='menu-title pt-2'>2X5 SFF</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/1.25G 2X5 SFF</p></Link>
@@ -1227,9 +1227,9 @@ const Switchclose_menu8=()=>{
 <TiBackspaceOutline className='close_icon' onClick={close_menu21}/>
 
 <Link to="/Products_10G_XG_XGS_PON" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XG/XGS PON</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G EPON</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G GPON SFP</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G EPON SFP</p></Link>
+<Link to="/EPON_10G_SFP" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G EPON</p></Link>
+<Link to="/GPON_SFP_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G GPON SFP</p></Link>
+<Link to="/EPON_SFP_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G EPON SFP</p></Link>
 
 
 
