@@ -586,10 +586,10 @@ const Switchclose_menu8=()=>{
 
 <p className='menu-title '>1X9</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 BIDI</p></Link>
-<Link to="/DualDuplex1X9" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 DUAL</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 CWDM</p></Link>
+<Link to="/Dual_1X9_M85_X5P" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 DUAL</p></Link>
+<Link to="/CWDW_1X9_b31P" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 CWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 BIDI</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps </p></Link>
+<Link to="/Ultra_row_1X9_DC" style={{textDecoration:"none"}}><p className='menu-inner-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps </p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 DUAL</p></Link>
 </div>
 
@@ -1239,10 +1239,10 @@ const Switchclose_menu8=()=>{
 <TiBackspaceOutline className='close_icon' onClick={close_menu22}/>
 
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G 1X9 BIDI</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G 1X9 DUAL</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 CWDM</p></Link>
+<Link to="/Dual_1X9_M85_X5P" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G 1X9 DUAL</p></Link>
+<Link to="/CWDW_1X9_b31P" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 CWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 BIDI</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps</p></Link>
+<Link to="/Ultra_row_1X9_DC" style={{textDecoration:"none"}}><p className='mob-nav-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 DUAL</p></Link>
 
 </div>
