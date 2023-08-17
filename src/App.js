@@ -201,6 +201,8 @@ import GPON_PG4_202 from './Component/PON SFP  SFP+/GPON_PG4_202';
 import GPON_PG4_203 from './Component/PON SFP  SFP+/GPON_PG4_203';
 
 import EPON_SFP_Products from './Component/PON SFP  SFP+/EPON_SFP_Products';
+import EPON_PE3_201 from './Component/PON SFP  SFP+/EPON_PE3_201';
+import EPON_PE4_201 from './Component/PON SFP  SFP+/EPON_PE4_201';
 
 function App() {
   return (
@@ -410,7 +412,9 @@ function App() {
      <Route path="/GPON_SFP_Products/GPON_PG4_203" element={<GPON_PG4_203/>}/>
      
      <Route path="/EPON_SFP_Products" element={<EPON_SFP_Products/>}/>
-
+     <Route path="/EPON_SFP_Products/EPON_PE3_201" element={<EPON_PE3_201/>}/>
+     <Route path="/EPON_SFP_Products/EPON_PE4_201" element={<EPON_PE4_201/>}/>
+     
      
     </Routes>
     

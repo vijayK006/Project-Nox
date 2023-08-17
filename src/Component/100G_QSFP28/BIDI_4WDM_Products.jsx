@@ -61,7 +61,7 @@ const BIDI_4WDM_Products = () => {
 
       <div className='row pt-5  pb-5'>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/L12_4WDM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -84,7 +84,7 @@ Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
 </div>
 </Link>
 
-        </div> */}
+        </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/L13_4WDM" style={{textDecoration:"none", color:"black"}}>

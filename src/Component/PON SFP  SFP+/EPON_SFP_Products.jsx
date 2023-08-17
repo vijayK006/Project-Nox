@@ -65,7 +65,7 @@ const EPON_SFP_Products = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/GPON_SFP_Products/GPON_PG3_20B" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/EPON_SFP_Products/EPON_PE3_201" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -74,8 +74,6 @@ const EPON_SFP_Products = () => {
   <h5>
   EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
 Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM
-
-
 </h5>
 
 <h4>Feature's</h4> 
@@ -83,6 +81,33 @@ Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM
 <p>Industrial temperature -40~85°C available</p>
 <p>Link distance 20km over SM fiber</p>
 <p>RoHS Compliant</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/EPON_SFP_Products/EPON_PE4_201" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  EPON OLT PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
+Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
+</h5>
+
+<h4>Feature's</h4> 
+<p>Compliant with SFP MSA</p>
+<p>Simplex SC/UPC connector</p>
+<p>Link distance 20km over SM fiber</p>
+<p>1.25 Gbps Burst mode receiver</p>
 
 
 </div>
