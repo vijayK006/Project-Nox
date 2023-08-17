@@ -440,7 +440,7 @@ optical links.
  <div id="menu4" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
-  <p>As defined by the QSFP28 MSA, Ficer’s QSFP28 transceivers provide digital diagnostic functions via a 2-wire
+  <p>As defined by the QSFP28 MSA, NOX QSFP28 transceivers provide digital diagnostic functions via a 2-wire
 serial interface, which allows real-time access to the following operating parameters:
 </p>
 

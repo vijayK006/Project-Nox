@@ -196,6 +196,16 @@ import Dual_A2D_1_25G from './Component/1.25G SFP/Dual_A2D_1.25G';
 import Products_10G_XG_XGS_PON from './Component/PON SFP  SFP+/Products_10G_XG_XGS_PON';
 import PX5_20X from './Component/PON SFP  SFP+/PX5_20X';
 import PX6_20X from './Component/PON SFP  SFP+/PX6_20X';
+import EPON_10G_SFP from './Component/PON SFP  SFP+/EPON_10G_SFP+';
+
+import GPON_SFP_Products from './Component/PON SFP  SFP+/GPON_SFP_Products';
+import GPON_PG3_20B from './Component/PON SFP  SFP+/GPON_PG3_20B';
+import GPON_PG4_20B from './Component/PON SFP  SFP+/GPON_PG4_20B';
+import GPON_PG4_201 from './Component/PON SFP  SFP+/GPON_PG4_201';
+import GPON_PG4_202 from './Component/PON SFP  SFP+/GPON_PG4_202';
+import GPON_PG4_203 from './Component/PON SFP  SFP+/GPON_PG4_203';
+
+import EPON_SFP_Products from './Component/PON SFP  SFP+/EPON_SFP_Products';
 
 function App() {
   return (
@@ -400,7 +410,17 @@ function App() {
      <Route path="/Products_10G_XG_XGS_PON" element={<Products_10G_XG_XGS_PON/>}/>
      <Route path="/Products_10G_XG_XGS_PON/PX5_20X" element={<PX5_20X/>}/>
      <Route path="/Products_10G_XG_XGS_PON/PX6_20X" element={<PX6_20X/>}/>
+     <Route path="/EPON_10G_SFP" element={<EPON_10G_SFP/>}/>
+
+     <Route path="/GPON_SFP_Products" element={<GPON_SFP_Products/>}/>
+     <Route path="/GPON_SFP_Products/GPON_PG3_20B" element={<GPON_PG3_20B/>}/>
+     <Route path="/GPON_SFP_Products/GPON_PG4_20B" element={<GPON_PG4_20B/>}/>
+     <Route path="/GPON_SFP_Products/GPON_PG4_201" element={<GPON_PG4_201/>}/>
+     <Route path="/GPON_SFP_Products/GPON_PG4_202" element={<GPON_PG4_202/>}/>
+     <Route path="/GPON_SFP_Products/GPON_PG4_203" element={<GPON_PG4_203/>}/>
      
+     <Route path="/EPON_SFP_Products" element={<EPON_SFP_Products/>}/>
+
      
     </Routes>
     

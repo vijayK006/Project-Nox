@@ -15,13 +15,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/100G QSFP28/4DWM_20.png';
-import productImg2 from '../../img/products/100G QSFP28/4DWM_20e.png';
+import productImg1 from '../../img/products/PON SFP  SFP+/GPON_PG3_20BImg.jpg';
+import productImg2 from '../../img/products/PON SFP  SFP+/GPON_PG4_20B.jpg';
+// import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
+import productImg3 from '../../img/products/1.25G SFP/SFP_Dual_50D.jpg'
+import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const BIDI_4WDM_Products = () => {
+const EPON_SFP_Products = () => {
   return (
     <>
 <Navbar/>
@@ -57,52 +60,31 @@ const BIDI_4WDM_Products = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>QSFP28-100G-BIDI-4WDM-20</h2>
+<h2 className='pt-5'>1.25G EPON SFP</h2>
 
       <div className='row pt-5  pb-5'>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/L12_4WDM" style={{textDecoration:"none", color:"black"}}>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/GPON_SFP_Products/GPON_PG3_20B" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G QSFP28 BIDI 4WDM-20 Transceiver
-Hot Pluggable, Bidi LC, LAN-WDM
-Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
+  <h5>
+  EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
+Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM
+
+
 </h5>
 
-<h4>Feature's</h4>
-<p>O-Band LWDM DFB transmitter</p>
-<p>Single 3.3V power supply</p>
-<p>Operating Temperature -20~85°C</p>
-<p>Maximum Power consumption 5.5W</p>
-</div>
+<h4>Feature's</h4> 
+<p>Compliant with SFP MSA</p>
+<p>Industrial temperature -40~85°C available</p>
+<p>Link distance 20km over SM fiber</p>
+<p>RoHS Compliant</p>
 
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
 
-        </div> */}
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/L13_4WDM" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>100G QSFP28 BIDI 4WDM-20 Transceiver
-Hot Pluggable, Bidi LC, LAN-WDM
-Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM
-</h5>
-
-<h4>Feature's</h4>
-<p>Compatible with 4WDM-20 MSA</p>
-<p>Simplex LC connector</p>
-<p>Operating Temperature -20~85°C</p>
-<p>Maximum Power consumption 5.5W</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -110,6 +92,7 @@ Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM
 </Link>
 
         </div>
+
 
       </div>
 </div>
@@ -121,4 +104,4 @@ Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM
   )
 }
 
-export default BIDI_4WDM_Products;
+export default EPON_SFP_Products;

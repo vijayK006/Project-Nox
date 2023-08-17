@@ -1,29 +1,39 @@
-import React, { useRef, useState } from 'react';
+
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
+import productImg1 from '../../img/products/PON SFP  SFP+/GPON_PG4_20B.jpg'
+
+import funcDiagram from '../../img/products/PON SFP  SFP+/FunctionDiagram_PG4_20B.png';
+import pinassisment from '../../img/products/PON SFP  SFP+/PinAssignment_GPON_PG4_20B.jpg';
+import machdimenssion from '../../img/products/PON SFP  SFP+/mechDimenssion_PG3_20B.png';
+import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
+import timingSeq from '../../img/products/PON SFP  SFP+/timingSeq_GPON_PG4_20B.png';
+import timingSeqRangemod from '../../img/products/PON SFP  SFP+/TimingSeqRangemode_GPON_PG4_20B.png';
+import timingSeqWorkmod from '../../img/products/PON SFP  SFP+/TimingSeqWorkingmode_GPON_PG4_20B.png';
+import applicationCiruit from '../../img/products/PON SFP  SFP+/applicationCircuit.png';
+
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
-import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/100G CFP CFP2 CFP4/CFP4_IMG.png'
-import memorymapimg from '../../img/products/40G_eSR4/eSR4_2.jpg'
-import mchdimensionImg from '../../img/products/100G CFP CFP2 CFP4/mchDimenssion_CFP4.png'
-import Transceiverimg from "../../img/products/100G CFP CFP2 CFP4/CFP4_TranservBlock.png"
-import pinassignment from "../../img/products/100G CFP CFP2 CFP4/PinAsssignment_CFP4.png"
+import {TiTickOutline} from 'react-icons/ti';
 
+
+import { BsCartCheck } from 'react-icons/bs';
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
-import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
-import { TiTickOutline } from 'react-icons/ti';
+
+import { Link } from 'react-router-dom';
+
 
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Product_CFP4 = () => {
-   
-  let PartNumber = "NXO-K7-L13-10DR";
-  let productName = "100G CFP4 LR4 Dual Rate Transceiver Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM";
-  
+const GPON_PG4_203 = () => { 
+
+  let PartNumber = "NXO-E2-PG4-203";
+  let productName ="GPON OLT C+++ 7dBm 2.5G-Tx / 1.25G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM";
+
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
   const [userEmail, setuserEmail] = useState("");
@@ -56,8 +66,7 @@ const Product_CFP4 = () => {
       }
 
   return (
-
-    <>
+<>
     <Navbar/>
 
 <div className='product-struct'>
@@ -66,7 +75,8 @@ const Product_CFP4 = () => {
 <div className='LightBox'>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={loopbackImg1} className='img-main' alt="product-40GLoobBack"/>
+<img src={productImg1} className='img-main' alt="product-40GLoobBack"/>
+
 </div>
 
 <p className='text-center' style={{color:"gray", fontWeight:"200", fontSize:"15px" , marginBottom:"0px"}}>Click to open expanded view</p>
@@ -76,46 +86,46 @@ const Product_CFP4 = () => {
 
 
     <Item
-      original={loopbackImg1}
-      thumbnail={loopbackImg1}
+      original={productImg1}
+      thumbnail={productImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={loopbackImg1}
-      thumbnail={loopbackImg1}
+      original={productImg1}
+      thumbnail={productImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={loopbackImg1}
-      thumbnail={loopbackImg1}
+      original={productImg1}
+      thumbnail={productImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={loopbackImg1}
-      thumbnail={loopbackImg1}
+      original={productImg1}
+      thumbnail={productImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
       )}
     </Item>
    
@@ -124,7 +134,7 @@ const Product_CFP4 = () => {
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
-<Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal" ><BsCartCheck style={{marginBottom:"5px"}}/>Request a Quote</Link>
+<Link className='btn-buy_now' data-bs-toggle="modal" data-bs-target="#myModal"><BsCartCheck style={{marginBottom:"5px"}}/> Request a Quote</Link>
 </div>
 
 </div>
@@ -132,50 +142,44 @@ const Product_CFP4 = () => {
 </div>
 
 <div className='product-content'>
-<h4>{productName}
-
-
-
-
-
+<h4>
+{productName}
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<div className='sell-text'>{PartNumber}
-
-
-</div>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
-<div className='sub-content'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> 54 In Global Warehouse</p>
+<div className='sub-content d-flex justify-content-start'>
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/>  In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant to IEEE802.3ba 100GBASE-LR4 and OTN OTU4 OTL4.4 standard</p>
-<p className='listFeture'> Compliant to CFP4 MSA</p>
-<p className='listFeture'> 4-CH LAN-WDM lanes Mux/DeMux design</p>
-<p className='listFeture'> Up to 28Gbps data rate per lane</p>
-<p className='listFeture'> Cooled LAN-WDM EML array transmitter</p>
-<p className='listFeture'> Duplex LC connector</p>
-<p className='listFeture'> MDIO management interface with digital diagnostic monitoring function</p>
-<p className='listFeture'>Built in quad TX CDR and RX CDR</p>
-<p className='listFeture'>Single 3.3V power supply</p>
-<p className='listFeture'> Link length up to 10km over single mode fiber</p>
-<p className='listFeture'> Maximum power consumption 8W</p>
-<p className='listFeture'> RoHS compliant</p>
+<p className='listFeture'>Compliant with ITU-T G.984.2 GPON OLT C++</p>
+<p className='listFeture'>Compliant with SFP MSA</p>
+<p className='listFeture'>Compliant with SFF8472 diagnostic monitoring interface</p>
+<p className='listFeture'>2488 Mbps Continuous mode transmission</p>
+<p className='listFeture'>1244 Mbps Burst mode receiver</p>
+<p className='listFeture'>Hot Pluggable</p>
+<p className='listFeture'>1490nm DFB laser transmitter</p>
+<p className='listFeture'>1310nm APD-TIA receiver</p>
+<p className='listFeture'>Simplex SC/UPC connector</p>
+<p className='listFeture'>Receiver RESET, Signal Detect, RSSI function indication (RESET, RX_SD, RSSI)</p>
+<p className='listFeture'>Operation case temperature 0~70°C</p>
+<p className='listFeture'>Single +3.3V power supply</p>
+<p className='listFeture'>Min Output Power +7dBm</p>
+<p className='listFeture'>Link distance 20km over SM fiber</p>
+<p className='listFeture'>RoHS Compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>100GBASE-LR4 Ethernet</p>
-<p className='listFeture'> OTN OTU4</p>
-<p className='listFeture'> Data Center</p>
-<p className='listFeture'> Datacom/ Telecom Switch & Router</p>
+<p className='listFeture'>GPON OLT for P2MP Application</p>
+<p className='listFeture'>FTTx Application</p>
 
 
 
@@ -184,8 +188,9 @@ const Product_CFP4 = () => {
 </div>
 
 <div className='container pt-lg-5  pb-lg-5'>
-<div className='d-flex felx-wrap justify-content-center'>
-       <ul class="nav nav-pills" role="tablist">
+<div className='resp-overflow'>
+    <div className='d-flex justify-content-center'>
+       <ul class="navs nav-pills" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
@@ -200,9 +205,14 @@ const Product_CFP4 = () => {
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
-  
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
+    </li>
+
   </ul> 
 </div>
+</div>
+
 
 
   <div class="tab-content">
@@ -211,19 +221,9 @@ const Product_CFP4 = () => {
   <h2>Overview</h2>
   
  <p>
-{PartNumber} is a parallel fiber optical transceiver
-module for 100Gbit/s data transmission applications at
-1300nm LAN WDM. It is ideally suited for 100GbE
-datacom, Storage Area Network (SAN) and OTN Telecom
-applications based on the IEEE 802.3ba 100GBASE-LR4
-Ethernet and OTN OTU4 standards.
-The transceiver incorporates a 4-channel laser driver
-circuit together with a 4-channel EML LAN-WDM array
-coupled with an optical multiplexer. On the receiver side,
-an optical de-multiplexer is coupled with a 4-channel
-photodiode array and a 4-channel TIA array resulting in a
-compact transceiver module for an aggregate bandwidth
-of 100G..
+ NXO-E2-PG4-203 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+Multi-Source Agreement (MSA) Specification. The high performance uncooled 1490nm DFB transmitter and high sensitivity 1310nm APD receiver provide superior performance for GPON OLT Class C++ applications.
+
 </p>
 </div>
 </div>
@@ -250,23 +250,24 @@ of 100G..
         <tr>
           <td>Storage Temperature</td>
           <td>TST</td>
-          <td>-20</td>
+          <td>-40</td>
           <td>+85</td>
           <td>°C</td>
         </tr>
+
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
-          <td>0</td>
-          <td>85</td>
+          <td>5</td>
+          <td>95</td>
           <td>%</td>
         </tr>
 
         <tr>
           <td>Supply Voltage</td>
-          <td>Vcc3</td>
+          <td>Vcc</td>
           <td>-0.5</td>
-          <td>+3.6</td>
+          <td>+4.0</td>
           <td>V</td>
         </tr>
 
@@ -276,7 +277,7 @@ of 100G..
 </div>
 </div>
 
-    <div id="menu2" class="container tab-pane fade"><br/>
+ <div id="menu2" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Recommended Operating Conditions</h2>
   
@@ -295,79 +296,155 @@ of 100G..
         </tr>
       </thead>
       <tbody>
+
       <tr>
-          <td>Operating Temperature</td>
-          <td>TOP</td>
+          <td>Case Operating Temperature</td>
+          <td>Top</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
-
         </tr>
-       
+
         <tr>
           <td>Supply Voltage</td>
           <td>Vcc</td>
-          <td>+3.2</td>
+          <td>+3.13</td>
           <td>+3.3</td>
-          <td>+3.4</td>
+          <td>+3.47</td>
           <td>V</td>
-
         </tr>
 
         <tr>
-          <td>Supply Current</td>
+          <td>Supply Current </td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>2000</td>
+          <td>600</td>
           <td>mA</td>
-
         </tr>
 
         <tr>
-          <td>Low Power Mode Dissipation </td>
-          <td>Plp</td>
+          <td>Damage Threshold for Receiver </td>
           <td></td>
           <td></td>
-          <td>2</td>
-          <td>W</td>
-
+          <td></td>
+          <td>+5</td>
+          <td>dBm</td>
         </tr>
 
-        <tr>
-          <td>Total Dissipation Power</td>
-          <td>P TOT</td>
-          <td></td>
-          <td></td>
-          <td>8</td>
-          <td>W</td>
-
-        </tr>
-        
-       
       </tbody>
     </table>
   </div>
 </div>
  </div>
 
+ <div id="menu3" class="container tab-pane fade"><br/>
+    <div class="container mt-3">
+  <h2>Digital Diagnostic Functions</h2>
+
+  <p>As defined by the SFP MSA (SFF-8472) NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters
+</p>
+ 
+  <ul>
+    <li>Transceiver temperature</li>
+    <li>Laser bias current</li>
+    <li>Transmitted optical power</li>
+    <li>Received optical power</li>
+    <li>Transceiver supply voltage</li>
+  </ul>
+
+  <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
+</p>
+
+<p>
+
+The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
+
+</p>
+
+<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.
+</b></p>
+
+</div>
+ </div>
+
   </div>
-  
 </div>
 
 
-{/* Memory Map Section Start */}
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Memory Map
-</h1>
+{/* Function Diagram*/}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Function Diagram</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={memorymapimg} className=' sectionImg2' alt="memorymapImg"/>
+<img src={funcDiagram} className='sectionImg2_2' alt="memorymapImg"/>
 </div>
 
-</div> */}
-{/* Memory Map Section End */}
+</div>
+
+
+{/* Timing Sequence */}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Timing Sequence for RSSI</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={timingSeq} className='sectionImg2_2' alt="memorymapImg"/>
+</div>
+
+</div>
+
+{/* Timing Sequence */}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Timing Sequence for Ranging Mode</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={timingSeqRangemod} className='sectionImg2_2' alt="memorymapImg"/>
+</div>
+
+</div>
+
+{/* Timing Sequence */}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Timing Sequence for Working Mode</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={timingSeqWorkmod} className='sectionImg2_2' alt="memorymapImg"/>
+</div>
+
+</div>
+
+{/* Pin Assigment*/}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Pin Assignment</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>
+</div>
+
+</div>
+
+{/* Application Circuit Start */}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Recommended Application Circuit</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ applicationCiruit} className='sectionImg2_1' alt="memorymapImg"/>
+</div>
+
+</div>
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
+</div>
+<br/>
+<br/>
+
+</div>
+
 
 {/* Mechanical Dimensions section start */}
 
@@ -375,46 +452,13 @@ of 100G..
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
+<img src={machdimenssion} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
 
 </div>
-
 {/* Mechanical Dimensions section end */}
 
 
-{/* {Transceiver Block Diagram} */}
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Transceiver Block Diagram </h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={Transceiverimg} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
-</div>
-
-</div>
-
-{/* {Transceiver Block Diagram} */}
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assignemnt </h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={pinassignment} className='sectionImg2' alt="Transceiver Block Diagram"/>
-</div>
-
-</div>
-
-{/* Recommended Power Supply Filter */}
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Recommended Power Supply Filter</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={powersupply} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
-
-</div>
-
-</div> */}
 
 <Footer/>
 {/* --------------------------------------------------------------------------------------------------------- */}
@@ -490,4 +534,4 @@ of 100G..
   )
 }
 
-export default Product_CFP4;
+export default GPON_PG4_203;
