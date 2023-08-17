@@ -18,7 +18,8 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/1.25G SFP/SFP_BIDI_Img.jpg'
 import productImg1_2 from '../../img/products/1.25G SFP/SFP_BIDI_2.jpg'
 import productImg1_3 from '../../img/products/1.25G SFP/SFP_BIDI_3.jpg'
-// import productImg1_4 from '../../img/products/2.5_SFP/'
+import productImg1_4 from '../../img/products/1.25G SFP/SFP_BIDI_4.jpg'
+import productImg1_5 from '../../img/products/1.25G SFP/SFP_BIDI_5.jpg'
 
 import productImg2 from '../../img/products/2.5_SFP/Dual_02D.jpg'
 import productImg3 from '../../img/products/100G CFP CFP2 CFP4/100G_L4_Eathernet.png'
@@ -404,33 +405,27 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_2point5_Dual/Dual_S15_A0DM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S35_60D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1_3} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
-
-
-
-
-
-
-
-
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 60KM, DDM
 
 </h5>
 
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>1550nm DFB laser transmitter
+<p>1310nm DFB laser transmitter
+
 
 </p>
 
-<p>Duplex LC connector
+<p>Simplex LC connector
+
 
 </p>
 <p>RoHS Compliant
@@ -444,14 +439,15 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_2point5_Dual/Dual_S15_A2D" style={{textDecoration:"none", color:"black"}}>
-
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_10D" style={{textDecoration:"none", color:"black"}}>
+        
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_4} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 10KM, DDM
+
 
 
 </h5>
@@ -459,11 +455,12 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>1550nm DFB laser transmitter
+<p>1490nm DFB laser transmitter
+
 
 </p>
 
-<p>Duplex LC connector
+<p>Simplex LC connector
 
 </p>
 <p>RoHS Compliant
@@ -477,14 +474,170 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
         </div>
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_2point5_Dual/Dual_S15_A2DM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1_3} className='productImg3'/>
+<img src={productImg1_4} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM, Multi-Rate
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 20KM, DDM
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1490nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 40KM, DDM
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1490nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_80D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 80KM, DDM
+
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1490nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_A0D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 100KM, DDM
+
+
+
+
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1490nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_02D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 2KM, DDM
+
+
+
+
+
 
 
 
@@ -497,7 +650,146 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM, Multi-Rate
 
 </p>
 
-<p>Duplex LC connector
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_60D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 60KM, DDM
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S54_80D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver  
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 80KM, DDM
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S54_A0D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 100KM, DDM
+        
+
+
+
+</h5>
+
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
 
 </p>
 <p>RoHS Compliant
