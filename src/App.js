@@ -188,6 +188,10 @@ import Dual_80D_1_25G from './Component/1.25G SFP/Dual_80D_1.25G';
 import Dual_A0D_1_25G from './Component/1.25G SFP/Dual_A0D_1.25G';
 import Dual_A2D_1_25G from './Component/1.25G SFP/Dual_A2D_1.25G';
 
+import Products_10G_XG_XGS_PON from './Component/PON SFP  SFP+/Products_10G_XG_XGS_PON';
+import PX5_20X from './Component/PON SFP  SFP+/PX5_20X';
+import PX6_20X from './Component/PON SFP  SFP+/PX6_20X';
+
 function App() {
   return (
 
@@ -382,6 +386,10 @@ function App() {
      <Route path="/SFP_Dual_1_25_Products/Dual_80D_1_25G" element={<Dual_80D_1_25G/>}/>
      <Route path="/SFP_Dual_1_25_Products/Dual_A0D_1_25G" element={<Dual_A0D_1_25G/>}/>
      <Route path="/SFP_Dual_1_25_Products/Dual_A2D_1_25G" element={<Dual_A2D_1_25G/>}/>
+
+     <Route path="/Products_10G_XG_XGS_PON" element={<Products_10G_XG_XGS_PON/>}/>
+     <Route path="/Products_10G_XG_XGS_PON/PX5_20X" element={<PX5_20X/>}/>
+     <Route path="/Products_10G_XG_XGS_PON/PX6_20X" element={<PX6_20X/>}/>
      
      
     </Routes>
