@@ -1,19 +1,19 @@
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/100G QSFP28/4DWM_20.png';
+import loopbackImg1 from '../../img/products/100G QSFP28/BIDI_C31.png';
 
 import {TiTickOutline} from 'react-icons/ti';
 
 
 import memorymapimg from '../../img/products/100G QSFP28/memoryMapER4_Single.jpg'
-import mchdimensionImg from '../../img/products/100G QSFP28/mechDiagram4DWM.png'
+import mchdimensionImg from '../../img/products/100G QSFP28/BIDI_27_mechDimenssion.png'
 import powerSupply from '../../img/products/100G QSFP28/PowerSupply.jpg'
 import pinAssisment from '../../img/products/100G QSFP28/pinAssisment_ER4_single.jpg'
-import transcerve from '../../img/products/100G QSFP28/transciverBlock_ER4_single.jpg'
+import transcerve from '../../img/products/100G QSFP28/BIDI_27_Transicivers.png'
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -24,9 +24,9 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
-const L13_4WDM = () => {
-  let PartNumber = "NXO-K8-L12-20De"
-  let productName = "100G QSFP28 BIDI 4WDM-20 Transceiver  Hot Pluggable, Bidi LC, LAN-WDM Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM"
+const BIDI_C33 = () => {
+  let PartNumber = "NXO-K8-C33-10D"
+  let productName = "100G QSFP28 Single Lambda LR1-BiDi Transceiver Hot Pluggable, Bidi LC, Tx1331nm EML / Rx1271nm, SMF 10KM, DDM"
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -73,7 +73,7 @@ const L13_4WDM = () => {
 <img src={loopbackImg1} className='img-main' alt="product-40GLoobBack"/>
 {/* <ReactImageMagnify {...{
                         smallImage: {
-                            alt: 'nox product image',
+                            alt: 'NXO product image',
                             isFluidWidth: true,
                             src: loopbackImg1,
                         },
@@ -163,39 +163,33 @@ const L13_4WDM = () => {
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p>
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compatible with 4WDM-20 MSA</p>
 <p className='listFeture'>Compliant with SFF-8665 QSFP28 MSA</p>
-<p className='listFeture'>Compliant with IEEE 802.3bm CAUI-4 Interface</p>
-<p className='listFeture'>8CH LWDM MUX / DEMUX design</p>
-<p className='listFeture'>Data Rate 25.78125Gbps per Lane</p>
-<p className='listFeture'>Built in quad TX CDR and RX CDR</p>
-<p className='listFeture'>Hot Pluggable QSFP28 footprint</p>
-<p className='listFeture'>O-Band LWDM DFB transmitter</p>
-<p className='listFeture'>Simplex LC connector</p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8636</p>
-<p className='listFeture'>Single 3.3V power supply</p>
-<p className='listFeture'>Operating Temperature -20~85°C</p>
-<p className='listFeture'>Link distance 20km over SM fiber with RS-528 FEC</p>
-<p className='listFeture'>Maximum Power consumption 5.5W</p>
-<p className='listFeture'>RoHS compliant</p>
+<p className='listFeture'> Compliant with IEEE 802.3bm CAUI-4 Interface</p>
+<p className='listFeture'> Compatible with IEEE 802.3cu 100GBASE-LR1</p>
+ <p className='listFeture'>Signal Conversion between 53.125GBd PAM4 optical signal and 25.78125Gbps NRZ electrical signal with DSP Gear Box.</p>
+ <p className='listFeture'>Built in TX CDR and RX CDR</p>
+<p className='listFeture'> Hot Pluggable QSFP28 footprint</p>
+ <p className='listFeture'>CWDM 1331nm EML transmitter</p>
+<p className='listFeture'> Simplex LC connector</p>
+<p className='listFeture'> 2-wire interface for management and diagnostic monitor compliant with SFF-8636</p>
+<p className='listFeture'> Single 3.3V power supply</p>
+<p className='listFeture'> Operating Temperature 0~70°C</p>
+<p className='listFeture'> Link distance 10km over SM fiber with FEC</p>
+<p className='listFeture'>Maximum Power consumption 4.5W</p>
+<p className='listFeture'> RoHS compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>4WDM-20</p>
-<p className='listFeture'>Server and Storage Area Network Interconnect</p>
-<p className='listFeture'>100GBASE-LR4 Ethernet</p>
+<p className='listFeture'>100GBASE Ethernet</p>
 <p className='listFeture'>Data Centers Switch Interconnect</p>
+<p className='listFeture'>Server and Storage Area Network Interconnect</p>
 
 </div>
 
@@ -232,16 +226,15 @@ const L13_4WDM = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K8-L12-20De is a 8-Channel LWDM QSFP28 Bidi
+ <p>{PartNumber}  is a QSFP28 Single Lambda BIDI
 transceiver for 100GbE applications especially in
-Datacom, Data Center & Storage networks. The
-transmitter converts 4-Channel 25G electrical input
-data to four LWDM optical signals and multiplex that into
-one 100G signal. The receiver de-multiplex the 100G
-signal reversely and converts that to 4-Channel 25G
-electrical output data. The techniques bring a compact
-transceiver module for an aggregate bandwidth of
-100Gbps up to SMF 20km optical links.
+Datacom, Data Center & Storage networks applications.
+It works based on the 100G Lambda MSA 100G-LR1
+Standard with the typical center wavelength 1331nm.
+The transceiver incorporates one channel optical signal
+of 100Gbps(PAM4) from four channels electrical
+signal of 25Gbps(NRZ) and vice versa up to SMF 10km
+optical links.
 </p>
 </div>
 </div>
@@ -270,8 +263,8 @@ transceiver module for an aggregate bandwidth of
         <tr>
           <td>Storage Temperature</td>
           <td>TST</td>
-          <td>-40</td>
-          <td>+85</td>
+          <td>0</td>
+          <td>+70</td>
           <td>°C</td>
         </tr>
 
@@ -286,7 +279,7 @@ transceiver module for an aggregate bandwidth of
         <tr>
           <td>Supply Voltage</td>
           <td>VCC3</td>
-          <td>-0.3</td>
+          <td>-0.5</td>
           <td>+3.6</td>
           <td>V</td>
         </tr>
@@ -320,9 +313,9 @@ transceiver module for an aggregate bandwidth of
         <tr>
           <td>Case Operating Temperature</td>
           <td>TOP</td>
-          <td>-20</td>
+          <td>0</td>
           <td>-</td>
-          <td>+85</td>
+          <td>+70</td>
           <td>°C</td>
         </tr>
 
@@ -336,12 +329,31 @@ transceiver module for an aggregate bandwidth of
         </tr>
 
         <tr>
-          <td>Data Rate, per Lane</td>
-          <td>DR</td>
+          <td>Supply Current</td>
+          <td>ICC</td>
+          <td></td>
+          <td></td>
+          <td>1360</td>
+          <td>mA</td>
+        </tr>
+
+        <tr>
+          <td>Electrical Data Rate, per Lane(NRZ)</td>
+          <td>DRele</td>
           <td></td>
           <td>25.78125</td>
           <td></td>
           <td>Gb/s</td>
+        </tr>
+
+        
+        <tr>
+          <td>Optical Data Rate (PAM4)</td>
+          <td>DRopt</td>
+          <td></td>
+          <td>53.125</td>
+          <td></td>
+          <td>Gbd</td>
         </tr>
 
         <tr>
@@ -354,21 +366,21 @@ transceiver module for an aggregate bandwidth of
         </tr>
 
         <tr>
-          <td>Bit Error Rate</td>
-          <td>BER</td>
+          <td>Pre-FEC Bit Error Rate</td>
+          <td>BERpre</td>
           <td></td>
           <td></td>
-          <td>5x10-5</td>
+          <td>2.4x10-4</td>
           <td></td>
         </tr>
 
         <tr>
-          <td>Supply Current</td>
-          <td>ICC</td>
+          <td>Post-FEC Bit Error Rate</td>
+          <td>BERpost</td>
           <td></td>
           <td></td>
-          <td>1650</td>
-          <td>mA</td>
+          <td>1x10-12</td>
+          <td></td>
         </tr>
 
         <tr>
@@ -376,16 +388,7 @@ transceiver module for an aggregate bandwidth of
           <td>P</td>
           <td></td>
           <td></td>
-          <td>5.5</td>
-          <td>W</td>
-        </tr>
-
-        <tr>
-          <td>Low Power Consumption (Low Power Mode) </td>
-          <td>PLP</td>
-          <td></td>
-          <td></td>
-          <td>1.5</td>
+          <td>4.5</td>
           <td>W</td>
         </tr>
 
@@ -403,36 +406,28 @@ transceiver module for an aggregate bandwidth of
           <td>ViH</td>
           <td>2.0</td>
           <td></td>
-          <td>Vcc+0.3</td>
+          <td>Vcc</td>
           <td>V</td>
         </tr>
 
         <tr>
           <td>Control Input Voltage Low</td>
           <td>ViL</td>
-          <td>-0.3</td>
+          <td>0</td>
           <td></td>
           <td>0.8</td>
           <td>V</td>
         </tr>
 
         <tr>
-          <td>Control Output Voltage High (IOH=100uA)</td>
-          <td>VOH</td>
-          <td>Vcc-0.5</td>
+          <td>Fiber Link Distance (G.652 SMF)</td>
+          <td>D</td>
           <td></td>
-          <td>Vcc+0.3</td>
-          <td>V</td>    
+          <td></td>
+          <td>10</td>
+          <td>km</td>
         </tr>
 
-        <tr>
-          <td>Control Output Voltage Low (IOH=100uA)</td>
-          <td>VOL</td>
-          <td>GND</td>
-          <td></td>
-          <td>0.4</td>
-          <td>V</td>
-        </tr>
 
       </tbody>
     </table>
@@ -445,7 +440,8 @@ transceiver module for an aggregate bandwidth of
  <div id="menu4" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
-  <p>As defined by the QSFP28 MSA, NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
+  <p>As defined by the QSFP28 MSA, NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire
+serial interface, which allows real-time access to the following operating parameters:
 </p>
 
 <ul>
@@ -457,7 +453,15 @@ transceiver module for an aggregate bandwidth of
 </ul>
 <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.</p>
 <p>
-The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the QSFP28 transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the QSFP28 transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially. The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed from 000h to the maximum address of the memory.
+The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC)
+inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
+activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the
+QSFP28 transceiver into those segments of its memory map that are not write-protected. The negative edge
+clocks data from the QSFP28 transceiver. The serial data signal (SDA pin) is bi-directional for serial data
+transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The
+memories are organized as a series of 8-bit data words that can be addressed individually or sequentially. The
+2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed from 000h to
+the maximum address of the memory. 
 </p>
 <p><b>For more detailed information including memory map definitions, please see the QSFP28 MSA Specification.
 </b></p>
@@ -605,4 +609,4 @@ The operating and diagnostics information is monitored and reported by a Digital
   )
 }
 
-export default L13_4WDM;
+export default BIDI_C33;

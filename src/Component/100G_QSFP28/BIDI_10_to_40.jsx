@@ -20,6 +20,8 @@ import productImg2 from '../../img/products/100G QSFP28/BIDI_C31.png';
 import productImg3 from '../../img/products/100G QSFP28/BIDI_L04.png';
 import productImg4 from '../../img/products/100G QSFP28/BIDI_L09.png';
 
+import productImg5 from  '../../img/products/100G QSFP28/BIDI_C31.png'
+
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -173,6 +175,30 @@ Hot Pluggable, Bidi LC, Tx1309nm EML / Rx1304nm, SMF 30KM, DDM
 <h4>Feature's</h4>
 <p>Built in TX CDR and RX CDR</p>
 <p>LWDM 1309nm EML transmitter</p>
+<p>Operating Temperature 0~70°C</p>
+<p>Maximum Power consumption 4.5W</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_C33" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>100G QSFP28 Single Lambda LR1-BiDi Transceiver
+Hot Pluggable, Bidi LC, Tx1331nm EML / Rx1271nm, SMF 10KM, DDM
+</h5>
+
+<h4>Feature's</h4>
+<p>Built in TX CDR and RX CDR</p>
+<p>CWDM 1331nm EML transmitter</p>
 <p>Operating Temperature 0~70°C</p>
 <p>Maximum Power consumption 4.5W</p>
 </div>

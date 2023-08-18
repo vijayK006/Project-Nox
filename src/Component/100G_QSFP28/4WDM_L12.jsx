@@ -4,7 +4,9 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/100G QSFP28/4DWM_20.png';
+
+import loopbackImg1 from '../../img/products/100G QSFP28/4DWM_20e.png';
+
 
 import {TiTickOutline} from 'react-icons/ti';
 

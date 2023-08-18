@@ -15,13 +15,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/100G QSFP28/4DWM_20.png';
+import productImg1 from '../../img/products/100G QSFP28/CWDM4_02D.png';
 import productImg2 from '../../img/products/100G QSFP28/4DWM_20e.png';
 
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const BIDI_4WDM_Products = () => {
+const CWDM4_Products = () => {
   return (
     <>
 <Navbar/>
@@ -62,22 +62,21 @@ const BIDI_4WDM_Products = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/L12_4WDM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/CWDM4_Products/CWDM4_02D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G QSFP28 BIDI 4WDM-20 Transceiver
-Hot Pluggable, Bidi LC, LAN-WDM
-Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
+  <h5>100G QSFP28 CWDM4 Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 2KM, DDM
 </h5>
 
 <h4>Feature's</h4>
-<p>O-Band LWDM DFB transmitter</p>
+<p>CWDM DFB transmitter</p>
 <p>Single 3.3V power supply</p>
-<p>Operating Temperature -20~85°C</p>
-<p>Maximum Power consumption 5.5W</p>
+<p>Built in quad TX CDR and RX CDR</p>
+<p>Maximum Power consumption 3.5W</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -87,22 +86,21 @@ Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/L13_4WDM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/CWDM4_Products/CWDM4_13D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G QSFP28 BIDI 4WDM-20 Transceiver
-Hot Pluggable, Bidi LC, LAN-WDM
-Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM
+  <h5>100G QSFP28 CWDM4 Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 </h5>
 
 <h4>Feature's</h4>
-<p>Compatible with 4WDM-20 MSA</p>
-<p>Simplex LC connector</p>
-<p>Operating Temperature -20~85°C</p>
-<p>Maximum Power consumption 5.5W</p>
+<p>Compliant with 100GBASE-CWDM4</p>
+<p>4CH CWDM MUX / DEMUX design</p>
+<p>CWDM DFB transmitter</p>
+<p>Hot Pluggable QSFP28 footprint</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -121,4 +119,4 @@ Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM
   )
 }
 
-export default BIDI_4WDM_Products;
+export default CWDM4_Products;

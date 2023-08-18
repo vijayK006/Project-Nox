@@ -1,16 +1,17 @@
 
 import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/PON SFP  SFP+/GPON_PG3_20BImg.jpg'
+import productImg1 from '../../img/products/PON SFP  SFP+/GPON_PG4_20B.jpg';
 
 import funcDiagram from '../../img/products/PON SFP  SFP+/FunctionDiagram_PG4_20B.png';
-import pinassisment from '../../img/products/PON SFP  SFP+/PinAssignment_EPON_PE3_201.jpg';
+import pinassisment from '../../img/products/PON SFP  SFP+/PinAssignment_GPON_PG4_20B.jpg';
 import machdimenssion from '../../img/products/PON SFP  SFP+/mechDimenssion_PG3_20B.png';
 import Memorymap from '../../img/products/PON SFP  SFP+/memoryMap.png';
-import timingSeq from '../../img/products/PON SFP  SFP+/TranmitterTiming_EPON_PE3.png';
-import timingSeqRangemod from '../../img/products/PON SFP  SFP+/TimingSeqRangemode_GPON_PG4_20B.png';
+import timingSeq from '../../img/products/PON SFP  SFP+/timingSeq_GPON_PG4_20B.png';
+import electroopt from '../../img/products/PON SFP  SFP+/reciverOpticalCharacterstic.png';
 import timingSeqWorkmod from '../../img/products/PON SFP  SFP+/TimingSeqWorkingmode_GPON_PG4_20B.png';
-import applicationCiruit from '../../img/products/PON SFP  SFP+/applicationCircuit.png';
+import applicationCiruit from '../../img/products/PON SFP  SFP+/ApplicationCircuitEPON_PE4_201.png';
+
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -29,10 +30,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const EPON_PE3_201 = () => { 
+const EPON_PE4_203 = () => { 
 
-  let PartNumber = "NXO-C2-PE3-201";
-  let productName ="EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM";
+  let PartNumber = "NXO-C2-PE4-203";
+  let productName ="EPON OLT PX20+++ 7dBm 1.25G-Tx / 1.25G-Rx SFP Transceiver  Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -160,15 +161,13 @@ const EPON_PE3_201 = () => {
 <h5>Features</h5>
 
 <p className='listFeture'>Compliant with SFP MSA</p>
-<p className='listFeture'>Compliant with SFF8472 diagnostic monitoring interface</p>
-<p className='listFeture'>1310nm FP laser transmitter</p>
-<p className='listFeture'>1490nm PIN-TIA receiver</p>
-<p className='listFeture'>1.25 Gbps Burst mode transmission</p>
-<p className='listFeture'>1.25 Gbps Continuous mode receiver</p>
+<p className='listFeture'>Digital diagnostics SFF-8472 Compliant</p>
+<p className='listFeture'>1490 nm DFB laser transmitter</p>
+<p className='listFeture'>1310 nm APD-TIA receiver</p>
+<p className='listFeture'>1.25 Gbps continuous mode transmission</p>
+<p className='listFeture'>1.25 Gbps Burst mode receiver</p>
 <p className='listFeture'>Simplex SC/UPC connector</p>
-<p className='listFeture'>Transmitter Burst On (optional high active or low active)</p>
-<p className='listFeture'>Transmitter state indication (TX_SD)</p>
-<p className='listFeture'>Industrial temperature -40~85°C available</p>
+<p className='listFeture'>Burst Digital Receiving Signal Strength Indication (RSSI)</p>
 <p className='listFeture'>Single +3.3V power supply</p>
 <p className='listFeture'>Link distance 20km over SM fiber</p>
 <p className='listFeture'>RoHS Compliant</p>
@@ -176,7 +175,7 @@ const EPON_PE3_201 = () => {
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>GEPON ONU IEEE802.3-ah 1000BASE-PX20+</p>
+<p className='listFeture'>GEPON OLT IEEE802.3ah 1000BASE-PX20+++</p>
 <p className='listFeture'>FTTx Application</p>
 
 
@@ -219,8 +218,8 @@ const EPON_PE3_201 = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-C2-PE3-201 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
-Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm FP transmitter and high sensitivity 1490nm PIN-TIA receiver provide superior performance for Giga EPON ONU applications.
+ NXO-C2-PE4-203 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+Multi-Source Agreement (MSA) Specification. The high performance uncooled 1490nm DFB transmitter and high sensitivity 1310nm APD receiver provide superior performance for Giga EPON OLT PX20+++ applications.
 
 </p>
 </div>
@@ -296,20 +295,11 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-C2-PE3-201)</td>
+          <td>Case Operating Temperature</td>
           <td>Top</td>
           <td>0</td>
-          <td>-</td>
+          <td></td>
           <td>+70</td>
-          <td>°C</td>
-        </tr>
-
-        <tr>
-          <td>Case Operating Temp.(NXO-C2-PE3-201i)</td>
-          <td>Top</td>
-          <td>-40</td>
-          <td>-</td>
-          <td>+85</td>
           <td>°C</td>
         </tr>
 
@@ -326,9 +316,18 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
           <td>Supply Current </td>
           <td>Icc</td>
           <td></td>
-          <td>200</td>
-          <td>350</td>
+          <td></td>
+          <td>300</td>
           <td>mA</td>
+        </tr>
+
+        <tr>
+          <td>Damage Threshold for Receiver </td>
+          <td></td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>dBm</td>
         </tr>
 
       </tbody>
@@ -384,30 +383,20 @@ The operating and diagnostics information is monitored and reported by a Digital
 
 {/* Burst Mode Transmitter Timing:*/}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Burst Mode Transmitter Timing:</h1>
+  <h1 className='pb-4'>Receiver Electro-optical Characteristics</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={electroopt} className='sectionImg2_2' alt="memorymapImg"/>
+</div>
+
+</div>
+
+{/* Timing Sequence */}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>RSSI Trigger Timing Sequence</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={timingSeq} className='sectionImg2_2' alt="memorymapImg"/>
-</div>
-
-</div>
-
-{/* Timing Sequence */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Timing Sequence for Ranging Mode</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={timingSeqRangemod} className='sectionImg2_2' alt="memorymapImg"/>
-</div>
-
-</div>
-
-{/* Timing Sequence */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Timing Sequence for Working Mode</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={timingSeqWorkmod} className='sectionImg2_2' alt="memorymapImg"/>
 </div>
 
 </div>
@@ -532,4 +521,4 @@ The operating and diagnostics information is monitored and reported by a Digital
   )
 }
 
-export default EPON_PE3_201;
+export default EPON_PE4_203;
