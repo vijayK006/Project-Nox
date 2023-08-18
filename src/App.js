@@ -237,6 +237,11 @@ import Dual_155M_Ax_30P from './Component/1X9/Dual_155M_S13_30P';
 import Dual_155M_Ax_60P from './Component/1X9/Dual_155M_Ax_60P';
 import Dual_155M_Ax_A0P from './Component/1X9/Dual_155M_Ax_A0P';
 import Dual_155M_Ax_A2P from './Component/1X9/Dual_155M_Ax_A2P';
+import DWDM_SFP_BOD from './Component/125M 155M  SFP/DWDM_SFP_155M';
+import CWDW_SFP_155M_Products from './Component/125M 155M  SFP/CWDW_SFP_155M_Products';
+import CWDW_SFP_b30D from './Component/125M 155M  SFP/CWDW_SFP_b30D';
+import CWDW_SFP_b34D from './Component/125M 155M  SFP/CWDW_SFP_b34D';
+import CWDW_SFP_b36D from './Component/125M 155M  SFP/CWDW_SFP_b36D';
 
 
 function App() {
@@ -432,8 +437,17 @@ function App() {
      <Route path="/Dual_125_155M_1X9/Dual_155M_Ax_60P" element={<Dual_155M_Ax_60P/>}/>
      <Route path="/Dual_125_155M_1X9/Dual_155M_Ax_A0P" element={<Dual_155M_Ax_A0P/>}/>
      <Route path="/Dual_125_155M_1X9/Dual_155M_Ax_A2P" element={<Dual_155M_Ax_A2P/>}/>
+
+
+     <Route path="/DWDM_SFP_BOD" element={<DWDM_SFP_BOD/>}/>
+     <Route path="/CWDW_SFP_155M_Products" element={<CWDW_SFP_155M_Products/>}/>
+     <Route path="/CWDW_SFP_155M_Products/CWDW_SFP_b30D" element={<CWDW_SFP_b30D/>}/>
+     <Route path="/CWDW_SFP_155M_Products/CWDW_SFP_b34D" element={<CWDW_SFP_b34D/>}/>
+     <Route path="/CWDW_SFP_155M_Products/CWDW_SFP_b36D" element={<CWDW_SFP_b36D/>}/>
      
      
+
+
      
      <Route path="/SFP_CWDM_1_25G_Products/CWDM_24D_1_25G" element={<CWDM_24D_1_25G/>}/>
      <Route path="/SFP_CWDM_1_25G_Products/CWDM_32D_1_25G" element={<CWDM_32D_1_25G/>}/>

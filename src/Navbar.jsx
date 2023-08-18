@@ -596,8 +596,8 @@ const Switchclose_menu8=()=>{
 <div className='col-lg-2 col-md-4'>
 
 <p className='menu-title '>125M 155M SFP</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
+<Link to="/DWDM_SFP_BOD" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
+<Link to="/CWDW_SFP_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
 <Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
 
@@ -1250,8 +1250,8 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series23'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu23}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP CWDM</p></Link>
+<Link to="/DWDM_SFP_BOD" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DWDM</p></Link>
+<Link to="/125M/155M SFP CWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP CWDM</p></Link>
 <Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP BIDI</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DUAL</p></Link>
 
