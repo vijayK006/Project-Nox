@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/2.5_SFP/SFP_DWDM.jpg'
+import productImg1 from '../../img/products/125M 155M  SFP/A8_S45_80D_Img.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/2.5_SFP/pinAssisment.jpg';
-import machdimenssion from '../../img/products/2.5_SFP/mechDimenssion.png';
-import Memorymap from '../../img/products/2.5_SFP/MemoryMap.png';
+import pinassisment from '../../img/products/125M 155M  SFP/A8_S45_80D_PinAssignment.jpg';
+import machdimenssion from '../../img/products/125M 155M  SFP/A8_S45_80D_mechDimenssion.png';
+import Memorymap from '../../img/products/125M 155M  SFP/memoryMap.png';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -25,12 +25,12 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const DWDM_120km = () => { 
+const BIDI_A8_45_80D = () => { 
 
-  let PartNumber = "NXO-E7-Dxx-A2D  ";
-  let productName ="1.25G SFP DWDM Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 120KM, DDM";
+  let PartNumber = "NXO-A8-S45-80D  ";
+  let productName ="125/155M SFP-100BX-U Transceiver Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 80KM, DDM";
 
-    const [name, setName] = useState("");
+  const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
   const [userEmail, setuserEmail] = useState("");
   const [userMessage, setuserMessage] = useState("");
@@ -149,30 +149,38 @@ const DWDM_120km = () => {
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className="listFeture"> Compatible with SONET OC-48 LR-2 and SDH STM-16 L16.2</p>
-<p className="listFeture"> Compliant with INF-8074i SFP MSA</p>
-<p className="listFeture"> Hot Pluggable</p>
-<p className="listFeture"> Cooled DWDM DFB laser transmitter</p>
-<p className="listFeture"> 45 channels ITU-T 100GHz C-Band DWDM wavelength CH17~CH61 available</p>
-<p className="listFeture"> APD receiver</p>
-<p className="listFeture"> Duplex LC connector</p>
-<p className="listFeture"> 2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
-<p className="listFeture"> Single +3.3V power supply</p>
-<p className="listFeture"> Maximum Power consumption 2.5W</p>
-<p className="listFeture"> Link distance 120km over SM fiber</p>
-<p className="listFeture"> RoHS Compliant</p>
+<p className="listFeture">Compatible with IEEE802.3ah 100Base-BX-U Standard</p>
+<p className="listFeture">Compliant with SFF8472 diagnostic monitoring interface</p>
+<p className="listFeture">Compliant with SFP MSA</p>
+<p className="listFeture">Up to 155Mb/s bi-directional data links</p>
+<p className="listFeture">Hot Pluggable</p>
+<p className="listFeture">1490nm DFB laser transmitter and 1550nm PIN receiver</p>
+<p className="listFeture">Simplex LC connector</p>
+<p className="listFeture">2-wire interface for management and diagnostic monitor</p>
+<p className="listFeture">Single +3.3V power supply</p>
+<p className="listFeture">Transmission distance of 80km over SM fiber</p>
+<p className="listFeture">RoHS Compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>SONET OC-48 / SDH STM-16 @2.5G</p>
-<p className='listFeture'>DWDM Networks</p>
+<p className='listFeture'>100Base-BX-U Ethernet</p>
+<p className='listFeture'>SDH STM-1 L1.3</p>
+<p className='listFeture'>SONET OC-3 LR-3</p>
+<p className='listFeture'>FTTx application</p>
+<p className='listFeture'>High speed I/O for file server</p>
+<p className='listFeture'>Mass storage system I/O</p>
+<p className='listFeture'>Bus extension application</p>
 
 </div>
 
@@ -211,8 +219,8 @@ const DWDM_120km = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-E7-Dxx-A2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH61) to 1563.86nm(CH17). The high performance Cooled
-DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G DWDM applications up to SMF 120km optical links.
+ <p>NXO-A8-S45-80D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 1490nm DFB transmitter and high sensitivity 1550nm PIN receiver provide superior performance for Fast Ethernet applications up to 80km optical links with a single strand of single mode fiber.
 
 </p>
 </div>
@@ -246,19 +254,19 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
         </tr>
 
         <tr>
-          <td>Storage Relative Humidity</td>
-          <td>RH</td>
-          <td>5</td>
-          <td>95</td>
-          <td>%</td>
-        </tr>
-
-        <tr>
           <td>Supply Voltage</td>
           <td>Vcc</td>
           <td>-0.5</td>
           <td>+4.0</td>
           <td>V</td>
+        </tr>
+
+        <tr>
+          <td>Storage Relative Humidity</td>
+          <td>RH</td>
+          <td>5</td>
+          <td>95</td>
+          <td>%</td>
         </tr>
 
       </tbody>
@@ -288,7 +296,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-Dxx-A2D)</td>
+          <td>Case Operating Temperature (NXO-A8-S45-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -297,7 +305,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-Dxx-A2Di)</td>
+          <td>Case Operating Temperature (NXO-A8-S45-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -315,20 +323,11 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Dxx-A2D)</td>
+          <td>Supply Current</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>600</td>
-          <td>mA</td>
-        </tr>
-
-        <tr>
-          <td>Supply Current (NXO-E7-Dxx-A2Di)</td>
-          <td>Icc</td>
-          <td></td>
-          <td></td>
-          <td>750</td>
+          <td>300</td>
           <td>mA</td>
         </tr>
 
@@ -342,7 +341,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO CSFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472) NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>
@@ -356,11 +355,13 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
 
 <p>
 The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
-activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
+activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP
+transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
+
+
 </p>
 
-<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472)
-Specification.
+<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.
 </b></p>
 
 </div>
@@ -374,18 +375,22 @@ Specification.
   <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ pinassisment} className='sectionImg2' alt="memorymapImg"/>
+<img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>
 </div>
 
 </div>
+
+{/* Memory Map section start */}
 
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
+  <h1 className='pb-4'>Memory Map</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
+<img src={Memorymap} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
+
 </div>
+{/* Memory Map section end */}
 
 
 {/* Mechanical Dimensions section start */}
@@ -476,4 +481,4 @@ Specification.
   )
 }
 
-export default DWDM_120km;
+export default BIDI_A8_45_80D;

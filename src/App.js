@@ -223,6 +223,9 @@ import BIDI_S35_100BX_U from './Component/125M 155M  SFP/BIDI_S35_100BX_U';
 import BIDI_S35_100BX_D from './Component/125M 155M  SFP/BIDI_S35_100BX_D';
 import BIDI_A8_35_20D from './Component/125M 155M  SFP/BIDI_A8_35_20D';
 import BIDI_A8_35_40D from './Component/125M 155M  SFP/BIDI_A8_35_40D';
+import BIDI_A8_35_60D from './Component/125M 155M  SFP/BIDI_A8_35_60D';
+import BIDI_A8_45_80D from './Component/125M 155M  SFP/BIDI_A8_S45_80D';
+import BIDI_A8_S45_A2D from './Component/125M 155M  SFP/BIDI_A8_S45_A2D';
 
 function App() {
   return (
@@ -458,9 +461,11 @@ function App() {
      <Route path="/BIDI_155M_Products/BIDI_S35_100BX_D" element={<BIDI_S35_100BX_D/>}/>
      <Route path="/BIDI_155M_Products/BIDI_A8_35_20D" element={<BIDI_A8_35_20D/>}/>
      <Route path="/BIDI_155M_Products/BIDI_A8_35_40D" element={<BIDI_A8_35_40D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_35_60D" element={<BIDI_A8_35_60D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_45_80D" element={<BIDI_A8_45_80D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_S45_A2D" element={<BIDI_A8_S45_A2D/>}/>
      
-
-
+     
      
     </Routes>
     

@@ -27,8 +27,8 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_80km = () => { 
 
-  let PartNumber = "NXO-C7-Dxx-80D";
-  let productName ="1.25G SFP DWDM Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM";
+  let PartNumber = "NXO-E7-Dxx-80D";
+  let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 DWDM Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM";
 
     const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -155,24 +155,22 @@ const DWDM_80km = () => {
 
 <h5>Features</h5>
 
-<p className="listFeture"> Compliant with IEEE802.3z Gigabit Ethernet</p>
-<p className="listFeture"> Compatible with Fiber Channel 100-SM-LC-L</p>
-<p className="listFeture"> Compliant with INF-8074i SFP MSA</p>
-<p className="listFeture"> Hot Pluggable</p>
-<p className="listFeture"> Cooled DWDM DFB laser transmitter</p>
-<p className="listFeture"> 45 channels ITU-T 100GHz C-Band DWDM wavelength CH17~CH61 available</p>
-<p className="listFeture"> Duplex LC connector</p>
-<p className="listFeture"> 2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
-<p className="listFeture"> Single +3.3V power supply</p>
-<p className="listFeture"> Maximum Power consumption 2.5W</p>
-<p className="listFeture"> Link distance 80km over SM fiber</p>
-<p className="listFeture"> RoHS Compliant</p>
+<p className="listFeture">Compatible with SONET OC-48 LR-2 and SDH  STM-16 L16.2</p>
+<p className="listFeture">Compliant with INF-8074i SFP MSA</p>
+<p className="listFeture">Hot Pluggable</p>
+<p className="listFeture">Cooled DWDM DFB laser transmitter</p>
+<p className="listFeture">45 channels ITU-T 100GHz C-Band DWDM wavelength CH17~CH61 available APD receiver</p>
+<p className="listFeture">Duplex LC connector</p>
+<p className="listFeture">2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
+<p className="listFeture">Single +3.3V power supply</p>
+<p className="listFeture">Maximum Power consumption 2.5W</p>
+<p className="listFeture">Link distance 80km over SM fiber</p>
+<p className="listFeture">RoHS Compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>Gigabit Ethernet @1.25G</p>
-<p className='listFeture'>Fiber Channel 1GFC @1.0625G</p>
+<p className='listFeture'>SONET OC-48 / SDH STM-16 @2.5G</p>
 <p className='listFeture'>DWDM Networks</p>
 
 </div>
@@ -212,8 +210,9 @@ const DWDM_80km = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-C7-Dxx-80D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH61) to 1563.86nm(CH17). The high performance Cooled
-DWDM DFB transmitter and high PIN receiver provide superior performance for 1.25G DWDM applications up to SMF 80km optical links.
+ <p>NXO-E7-Dxx-80D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH61) to 1563.86nm(CH17). The high performance Cooled
+DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G DWDM applications up to SMF 80km optical links.
+
 </p>
 </div>
 </div>
@@ -288,7 +287,7 @@ DWDM DFB transmitter and high PIN receiver provide superior performance for 1.25
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-Dxx-80D)</td>
+          <td>Case Operating Temp. (NXO-E7-Dxx-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -297,7 +296,7 @@ DWDM DFB transmitter and high PIN receiver provide superior performance for 1.25
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-Dxx-80Di)</td>
+          <td>Case Operating Temp. (NXO-E7-Dxx-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -315,7 +314,7 @@ DWDM DFB transmitter and high PIN receiver provide superior performance for 1.25
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-Dxx-80D)</td>
+          <td>Supply Current (NXO-E7-Dxx-80D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -324,7 +323,7 @@ DWDM DFB transmitter and high PIN receiver provide superior performance for 1.25
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-Dxx-80Di)</td>
+          <td>Supply Current (NXO-E7-Dxx-80Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

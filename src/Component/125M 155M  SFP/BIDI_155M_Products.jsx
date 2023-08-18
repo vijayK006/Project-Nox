@@ -18,6 +18,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/125M 155M  SFP/S35_100BX_U_Img.jpg';
 import productImg2 from '../../img/products/125M 155M  SFP/S35_100BX_D_Img.jpg';
 import productImg3 from '../../img/products/125M 155M  SFP/BIDI_A8_35_20D.jpg';
+import productImg4 from '../../img/products/125M 155M  SFP/A8_S45_80D_Img.jpg'
 // import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
 
@@ -160,6 +161,89 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 40KM, DDM
 <p>Simplex LC connector</p>
 <p>Link distance 40km over SM fiber</p>
 <p>Single +3.3V power supply</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_35_60D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 60KM, DDM
+
+
+</h5>
+
+<h4>Feature's</h4> 
+<p>Compliant with INF-8074i SFP MSA</p>
+<p>1310nm FP laser transmitter</p>
+<p>Simplex LC connector</p>
+<p>Link distance 60km over SM fiber</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_45_80D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125/155M SFP-100BX-U Transceiver
+Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 80KM, DDM
+
+</h5>
+
+<h4>Feature's</h4> 
+<p>Single +3.3V power supply</p>
+<p>Compliant with SFP MSA</p>
+<p>Hot Pluggable</p>
+<p>RoHS Compliant</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_S45_A2D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125/155M SFP-100BX-U Transceiver
+Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 120KM, DDM
+
+
+</h5>
+
+<h4>Feature's</h4> 
+<p>Compliant with SFP MSA</p>
+<p>Single +3.3V power supply</p>
+<p>Simplex LC connector</p>
+<p>RoHS Compliant</p>
 
 </div>
 
