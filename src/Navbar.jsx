@@ -492,7 +492,7 @@ const Switchclose_menu8=()=>{
     <div className='col-lg-6 '>
     <Link to="/ER4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ER4</p></Link>
 <Link to="/ZR4_100G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-ZR4</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-CWDM4</p></Link>
+<Link to="/CWDM4_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-CWDM4</p></Link>
 <Link to="/BIDI_4WDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-4WDM-20</p></Link>
 <Link to="/BIDI_10_to_40_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28-100G-BIDI-10/20/30/40</p></Link>
 <Link to="/QSPF28_adaptor" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP28 to SFP28 Adapter</p></Link>
@@ -578,7 +578,7 @@ const Switchclose_menu8=()=>{
 <Link to="/EPON_SFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G EPON SFP</p></Link>
 
 <p className='menu-title pt-2'>2X5 SFF</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/1.25G 2X5 SFF</p></Link>
+<Link to="/X5TR_2X5_SFF" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/1.25G 2X5 SFF</p></Link>
 
 </div>
 
@@ -598,7 +598,7 @@ const Switchclose_menu8=()=>{
 <p className='menu-title '>125M 155M SFP</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP BIDI</p></Link>
+<Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
 
 <p className='menu-title '>622M SFP</p>
@@ -1062,7 +1062,7 @@ const Switchclose_menu8=()=>{
 <Link to="/LR4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-LR4</p></Link>
 <Link to="/ER4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-ER4</p></Link>
 <Link to="/ZR4_100G" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-ZR4</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-CWDM4</p></Link>
+<Link to="/CWDM4_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-CWDM4</p></Link>
 <Link to="/BIDI_4WDM_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-BIDI-4WDM-20</p></Link>
 <Link to="/BIDI_10_to_40_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28-100G-BIDI-10 / 20 / 30 / 40</p></Link>
 <Link to="/QSPF28_adaptor" style={{textDecoration:"none"}}><p className='mob-nav-items'>QSFP28 to SFP28 Adapter</p></Link>
@@ -1217,7 +1217,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series20'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu20}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/1.25G 2X5 SFF</p></Link>
+<Link to="/X5TR_2X5_SFF" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/1.25G 2X5 SFF</p></Link>
 
 
 
@@ -1244,6 +1244,17 @@ const Switchclose_menu8=()=>{
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 BIDI</p></Link>
 <Link to="/Ultra_row_1X9_DC" style={{textDecoration:"none"}}><p className='mob-nav-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 DUAL</p></Link>
+
+</div>
+
+<div className='mobile-nav-all_product' id='series23'>
+<TiBackspaceOutline className='close_icon' onClick={close_menu23}/>
+
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DWDM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP CWDM</p></Link>
+<Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP BIDI</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DUAL</p></Link>
+
 
 </div>
 

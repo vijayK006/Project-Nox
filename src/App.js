@@ -208,6 +208,21 @@ import GPON_PG4_203 from './Component/PON SFP  SFP+/GPON_PG4_203';
 import EPON_SFP_Products from './Component/PON SFP  SFP+/EPON_SFP_Products';
 import EPON_PE3_201 from './Component/PON SFP  SFP+/EPON_PE3_201';
 import EPON_PE4_201 from './Component/PON SFP  SFP+/EPON_PE4_201';
+import EPON_PE4_202 from './Component/PON SFP  SFP+/EPON_PE4_202';
+
+import CWDM4_Products from './Component/100G_QSFP28/CWDM4_Products';
+import CWDM4_02D from './Component/100G_QSFP28/CWDM4_02D';
+import CWDM4_13D from './Component/100G_QSFP28/CWDM4_13D';
+import EPON_PE4_203 from './Component/PON SFP  SFP+/EPON_PE4_203';
+
+import BIDI_C33 from './Component/100G_QSFP28/BIDI_C33';
+import X5TR_2X5_SFF from './Component/2X5 SFF/X5TR_2X5_SFF';
+
+import BIDI_155M_Products from './Component/125M 155M  SFP/BIDI_155M_Products';
+import BIDI_S35_100BX_U from './Component/125M 155M  SFP/BIDI_S35_100BX_U';
+import BIDI_S35_100BX_D from './Component/125M 155M  SFP/BIDI_S35_100BX_D';
+import BIDI_A8_35_20D from './Component/125M 155M  SFP/BIDI_A8_35_20D';
+import BIDI_A8_35_40D from './Component/125M 155M  SFP/BIDI_A8_35_40D';
 
 function App() {
   return (
@@ -361,6 +376,11 @@ function App() {
      
      <Route path="/SFP_CWDM_1_25G_Products" element={<SFP_CWDM_1_25G_Products/>}/>
      <Route path="/SFP_CWDM_1_25G_Products/CWDM_19D_1_25G" element={<CWDM_19D_1_25G/>}/>
+    
+     
+     <Route path="/CWDM4_Products" element={<CWDM4_Products/>}/>
+     <Route path="/CWDM4_Products/CWDM4_02D" element={<CWDM4_02D/>}/>
+     <Route path="/CWDM4_Products/CWDM4_13D" element={<CWDM4_13D/>}/>
      
      <Route path="/Products_SFP_1_25G_BIDI" element={<Products_SFP_1_25G_BIDI/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_1_25_S35_20D" element={<BIDI_1_25_S35_20D/>}/>
@@ -424,7 +444,23 @@ function App() {
      <Route path="/EPON_SFP_Products" element={<EPON_SFP_Products/>}/>
      <Route path="/EPON_SFP_Products/EPON_PE3_201" element={<EPON_PE3_201/>}/>
      <Route path="/EPON_SFP_Products/EPON_PE4_201" element={<EPON_PE4_201/>}/>
+     <Route path="/EPON_SFP_Products/EPON_PE4_202" element={<EPON_PE4_202/>}/>
+     <Route path="/EPON_SFP_Products/EPON_PE4_203" element={<EPON_PE4_203/>}/>
      
+
+     <Route path="/X5TR_2X5_SFF" element={<X5TR_2X5_SFF/>}/>
+
+
+     <Route path="/BIDI_C33" element={<BIDI_C33/>}/>
+     
+     <Route path="/BIDI_155M_Products" element={<BIDI_155M_Products/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_S35_100BX_U" element={<BIDI_S35_100BX_U/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_S35_100BX_D" element={<BIDI_S35_100BX_D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_35_20D" element={<BIDI_A8_35_20D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_35_40D" element={<BIDI_A8_35_40D/>}/>
+     
+
+
      
     </Routes>
     

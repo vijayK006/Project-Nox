@@ -15,16 +15,15 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/PON SFP  SFP+/GPON_PG3_20BImg.jpg';
-import productImg2 from '../../img/products/PON SFP  SFP+/GPON_PG4_20B.jpg';
+import productImg1 from '../../img/products/125M 155M  SFP/S35_100BX_U_Img.jpg';
+import productImg2 from '../../img/products/125M 155M  SFP/S35_100BX_D_Img.jpg';
+import productImg3 from '../../img/products/125M 155M  SFP/BIDI_A8_35_20D.jpg';
 // import productImg1_2 from '../../img/products/2.5_SFP/S53_40D.jpg'
 
-import productImg3 from '../../img/products/1.25G SFP/SFP_Dual_50D.jpg'
-import productImg4 from '../../img/products/100G CFP CFP2 CFP4/100G_SR10DuleRate.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const EPON_SFP_Products = () => {
+const BIDI_155M_Products = () => {
   return (
     <>
 <Navbar/>
@@ -60,26 +59,26 @@ const EPON_SFP_Products = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>1.25G EPON SFP</h2>
+<h2 className='pt-5'>125M/155M SFP BIDI</h2>
 
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/EPON_SFP_Products/EPON_PE3_201" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_155M_Products/BIDI_S35_100BX_U" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
-Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM
+  125M / 155M SFP 100BX-U Transceiver
+Hot Pluggable, Bidi SC, 1310nm FP / Rx1550nm, SMF 20KM, DDM
 </h5>
 
 <h4>Feature's</h4> 
-<p>Compliant with SFP MSA</p>
-<p>Industrial temperature -40~85°C available</p>
+<p>Simplex SC connector</p>
 <p>Link distance 20km over SM fiber</p>
+<p>1310nm FP laser transmitter</p>
 <p>RoHS Compliant</p>
 
 
@@ -92,51 +91,22 @@ Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/EPON_SFP_Products/EPON_PE4_201" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_155M_Products/BIDI_S35_100BX_D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg2} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  EPON OLT PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
-Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
+  125M / 155M SFP 100BX-D Transceiver
+Hot Pluggable, Bidi SC, 1550nm FP / Rx1310nm, SMF 20KM, DDM
 </h5>
 
 <h4>Feature's</h4> 
-<p>Compliant with SFP MSA</p>
-<p>Simplex SC/UPC connector</p>
+<p>1550nm FP laser transmitter</p>
+<p>Simplex SC connector</p>
 <p>Link distance 20km over SM fiber</p>
-<p>1.25 Gbps Burst mode receiver</p>
-
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/EPON_SFP_Products/EPON_PE4_202" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>
-  EPON OLT PX20++ 1.25G-Tx / 1.25G-Rx SFP Transceiver
-Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
-
-</h5>
-
-<h4>Feature's</h4> 
-<p>Compliant with SFP MSA</p>
-<p>1490 nm DFB laser transmitter</p>
-<p>1.25 Gbps Burst mode receiver</p>
-<p>Simplex SC/UPC connector</p>
-
+<p>RoHS Compliant</p>
 
 </div>
 
@@ -147,25 +117,49 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/EPON_SFP_Products/EPON_PE4_203" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_155M_Products/BIDI_A8_35_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg2} className='productImg3'/>
+<img src={productImg3} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  EPON OLT PX20+++ 7dBm 1.25G-Tx / 1.25G-Rx SFP Transceiver
-Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
-
-
+  125M / 155M SFP 100BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
 </h5>
 
 <h4>Feature's</h4> 
-<p>Compliant with SFP MSA</p>
-<p>1490 nm DFB laser transmitter</p>
-<p>1.25 Gbps Burst mode receiver</p>
+<p>1310nm FP laser transmitter</p>
+<p>Simplex LC connector</p>
+<p>Link distance 20km over SM fiber</p>
 <p>Single +3.3V power supply</p>
 
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_35_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 40KM, DDM
+
+</h5>
+
+<h4>Feature's</h4> 
+<p>1310nm FP laser transmitter</p>
+<p>Simplex LC connector</p>
+<p>Link distance 40km over SM fiber</p>
+<p>Single +3.3V power supply</p>
 
 </div>
 
@@ -185,4 +179,4 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
   )
 }
 
-export default EPON_SFP_Products;
+export default BIDI_155M_Products;

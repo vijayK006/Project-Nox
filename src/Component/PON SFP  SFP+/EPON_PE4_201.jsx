@@ -6,7 +6,7 @@ import productImg1 from '../../img/products/PON SFP  SFP+/GPON_PG4_20B.jpg';
 import funcDiagram from '../../img/products/PON SFP  SFP+/FunctionDiagram_PG4_20B.png';
 import pinassisment from '../../img/products/PON SFP  SFP+/PinAssignment_GPON_PG4_20B.jpg';
 import machdimenssion from '../../img/products/PON SFP  SFP+/mechDimenssion_PG3_20B.png';
-import Memorymap from '../../img/products/PON SFP  SFP+/memorymap.png';
+import Memorymap from '../../img/products/PON SFP  SFP+/memoryMap.png';
 import timingSeq from '../../img/products/PON SFP  SFP+/timingSeq_GPON_PG4_20B.png';
 import electroopt from '../../img/products/PON SFP  SFP+/reciverOpticalCharacterstic.png';
 import timingSeqWorkmod from '../../img/products/PON SFP  SFP+/TimingSeqWorkingmode_GPON_PG4_20B.png';

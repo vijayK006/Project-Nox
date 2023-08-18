@@ -1,21 +1,18 @@
-
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/PON SFP  SFP+/GPON_PG3_20BImg.jpg'
+import productImg1 from '../../img/products/2X5 SFF/2X5_SFF_img.jpg'
 
-import funcDiagram from '../../img/products/PON SFP  SFP+/FunctionDiagram_PG4_20B.png';
-import pinassisment from '../../img/products/PON SFP  SFP+/PinAssignment_EPON_PE3_201.jpg';
-import machdimenssion from '../../img/products/PON SFP  SFP+/mechDimenssion_PG3_20B.png';
-import Memorymap from '../../img/products/PON SFP  SFP+/memoryMap.png';
-import timingSeq from '../../img/products/PON SFP  SFP+/TranmitterTiming_EPON_PE3.png';
-import timingSeqRangemod from '../../img/products/PON SFP  SFP+/TimingSeqRangemode_GPON_PG4_20B.png';
-import timingSeqWorkmod from '../../img/products/PON SFP  SFP+/TimingSeqWorkingmode_GPON_PG4_20B.png';
-import applicationCiruit from '../../img/products/PON SFP  SFP+/applicationCircuit.png';
+import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+import pinassisment from '../../img/products/2X5 SFF/pinAssignment.png';
+import machdimenssion from '../../img/products/2X5 SFF/mechDimenssion.jpg';
+import Memorymap from '../../img/products/1.25G CSFP/memoryMap1.png';
+import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 
 import {TiTickOutline} from 'react-icons/ti';
+
 
 
 import { BsCartCheck } from 'react-icons/bs';
@@ -29,10 +26,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const EPON_PE3_201 = () => { 
+const X5TR_2X5_SFF = () => { 
 
-  let PartNumber = "NXO-C2-PE3-201";
-  let productName ="EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM";
+  let PartNumber = "NXO-C7-M85-X5TR  ";
+  let productName ="125M / 1.25G 2x5 SFF 100BASE-SX /1000BASE-SX Dual-Rate Transceiver Duplex LC, 850nm VCSEL, MMF OM2 2KM(100SX) / 550M(1000SX)  ";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -153,33 +150,35 @@ const EPON_PE3_201 = () => {
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/>  In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with SFP MSA</p>
-<p className='listFeture'>Compliant with SFF8472 diagnostic monitoring interface</p>
-<p className='listFeture'>1310nm FP laser transmitter</p>
-<p className='listFeture'>1490nm PIN-TIA receiver</p>
-<p className='listFeture'>1.25 Gbps Burst mode transmission</p>
-<p className='listFeture'>1.25 Gbps Continuous mode receiver</p>
-<p className='listFeture'>Simplex SC/UPC connector</p>
-<p className='listFeture'>Transmitter Burst On (optional high active or low active)</p>
-<p className='listFeture'>Transmitter state indication (TX_SD)</p>
-<p className='listFeture'>Industrial temperature -40~85°C available</p>
-<p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 20km over SM fiber</p>
+<p className='listFeture'>Compatible with TIA/EIA-785 100BASE-SX</p>
+<p className='listFeture'>Compliant with IEEE802.3z Gigabit Ethernet</p>
+<p className='listFeture'>Compliant with Fiber Channel 100-M5-SN-I</p>
+<p className='listFeture'>Industry Standard 2x5 SFF Footprint</p>
+<p className='listFeture'>850nm VCSEL laser transmitter and PIN-TIA receiver</p>
+<p className='listFeture'>Duplex LC connector</p>
+<p className='listFeture'>Single 3.3V power supply</p>
+<p className='listFeture'>AC-coupled Differential LVPECL inputs and outputs</p>
+<p className='listFeture'>LVTTL Signal Detection Output</p>
+<p className='listFeture'>Wave Solderable and Aqueous Washable</p>
+<p className='listFeture'>Link distance 2km(100SX) and 550m(1000SX) over MM OM2 fiber</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>GEPON ONU IEEE802.3-ah 1000BASE-PX20+</p>
-<p className='listFeture'>FTTx Application</p>
-
-
+<p className='listFeture'>Fast Ethernet 100BASE-SX @125M</p>
+<p className='listFeture'>Gigabit Ethernet 1000BASE-SX @1.25G</p>
+<p className='listFeture'>Fiber Channel 1GFC @1.0625G</p>
 
 </div>
 
@@ -218,9 +217,11 @@ const EPON_PE3_201 = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>
- NXO-C2-PE3-201 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
-Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm FP transmitter and high sensitivity 1490nm PIN-TIA receiver provide superior performance for Giga EPON ONU applications.
+ <p>NXO-C7-M85-X5TR 2x5 SFF package style
+transceivers are compliant with the industrial standard specification. The high performance 850nm VCSEL
+transmitter and high sensitivity PIN-TIA receiver
+provide superior performance for Ethernet 100BASE- SX, Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications up to MMF OM2 550m optical links.
+
 
 </p>
 </div>
@@ -264,8 +265,8 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
         <tr>
           <td>Supply Voltage</td>
           <td>Vcc</td>
-          <td>-0.5</td>
-          <td>+4.0</td>
+          <td>0</td>
+          <td>+4.5</td>
           <td>V</td>
         </tr>
 
@@ -296,7 +297,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-C2-PE3-201)</td>
+          <td>Case Operating Temp. (NXO-C7-M85-X5TR)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -305,7 +306,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-C2-PE3-201i)</td>
+          <td>Case Operating Temp. (NXO-C7-M85-X5TRi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -323,12 +324,30 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
         </tr>
 
         <tr>
-          <td>Supply Current </td>
+          <td>Supply Current (NXO-C7-M85-X5TR)</td>
           <td>Icc</td>
           <td></td>
-          <td>200</td>
-          <td>350</td>
+          <td></td>
+          <td>270</td>
           <td>mA</td>
+        </tr>
+
+        <tr>
+          <td>Supply Current (NXO-C7-M85-X5TRi)</td>
+          <td>Icc</td>
+          <td></td>
+          <td></td>
+          <td>300</td>
+          <td>mA</td>
+        </tr>
+
+        <tr>
+          <td>Lead Soldering Limits</td>
+          <td>Tsold</td>
+          <td></td>
+          <td></td>
+          <td>260/10</td>
+          <td>°C/Sec</td>
         </tr>
 
       </tbody>
@@ -341,9 +360,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472) NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters
-</p>
- 
+  <p>As defined by the SFP MSA (SFF-8472)  NXO CSFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>
@@ -356,12 +373,12 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
 </p>
 
 <p>
-
-The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
-
+The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
+activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
 </p>
 
-<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.
+<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472)
+Specification.
 </b></p>
 
 </div>
@@ -370,78 +387,16 @@ The operating and diagnostics information is monitored and reported by a Digital
   </div>
 </div>
 
-
-{/* Function Diagram*/}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Function Diagram</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={funcDiagram} className='sectionImg2_2' alt="memorymapImg"/>
-</div>
-
-</div>
-
-
-{/* Burst Mode Transmitter Timing:*/}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Burst Mode Transmitter Timing:</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={timingSeq} className='sectionImg2_2' alt="memorymapImg"/>
-</div>
-
-</div>
-
-{/* Timing Sequence */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Timing Sequence for Ranging Mode</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={timingSeqRangemod} className='sectionImg2_2' alt="memorymapImg"/>
-</div>
-
-</div>
-
-{/* Timing Sequence */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Timing Sequence for Working Mode</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={timingSeqWorkmod} className='sectionImg2_2' alt="memorymapImg"/>
-</div>
-
-</div>
-
-{/* Pin Assigment*/}
+{/* Memory Map Section Start */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>
+<img src={ pinassisment} className='sectionImg2_2' alt="memorymapImg"/>
 </div>
 
 </div>
 
-{/* Application Circuit Start */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Recommended Application Circuit</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ applicationCiruit} className='sectionImg2_1' alt="memorymapImg"/>
-</div>
-
-</div>
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
-</div>
-<br/>
-<br/>
-
-</div>
 
 
 {/* Mechanical Dimensions section start */}
@@ -450,7 +405,7 @@ The operating and diagnostics information is monitored and reported by a Digital
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={machdimenssion} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
+<img src={machdimenssion} className='sectionImg2_2' alt="Transceiver Block Diagram"/>
 </div>
 
 </div>
@@ -532,4 +487,4 @@ The operating and diagnostics information is monitored and reported by a Digital
   )
 }
 
-export default EPON_PE3_201;
+export default X5TR_2X5_SFF;
