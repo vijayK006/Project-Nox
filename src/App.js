@@ -193,6 +193,7 @@ import Dual_80D_1_25G from './Component/1.25G SFP/Dual_80D_1.25G';
 import Dual_A0D_1_25G from './Component/1.25G SFP/Dual_A0D_1.25G';
 import Dual_A2D_1_25G from './Component/1.25G SFP/Dual_A2D_1.25G';
 
+
 import Products_10G_XG_XGS_PON from './Component/PON SFP  SFP+/Products_10G_XG_XGS_PON';
 import PX5_20X from './Component/PON SFP  SFP+/PX5_20X';
 import PX6_20X from './Component/PON SFP  SFP+/PX6_20X';
@@ -208,6 +209,17 @@ import GPON_PG4_203 from './Component/PON SFP  SFP+/GPON_PG4_203';
 import EPON_SFP_Products from './Component/PON SFP  SFP+/EPON_SFP_Products';
 import EPON_PE3_201 from './Component/PON SFP  SFP+/EPON_PE3_201';
 import EPON_PE4_201 from './Component/PON SFP  SFP+/EPON_PE4_201';
+
+import Dual_125_155M_1X9 from './Component/1X9/125_155M_1X9_DUAL';
+import Dual_155M_M13_02P from './Component/1X9/Dual_155M_M13_02P';
+import Dual_155M_M85_02P from './Component/1X9/Dual_155M_M85_02P';
+import Dual_155M_AM_M13 from './Component/1X9/Dual_155M_AM_M13';
+import Dual_155M_Ax_M13 from './Component/1X9/Dual_155M_Ax_M13';
+import Dual_155M_Ax_30P from './Component/1X9/Dual_155M_S13_30P';
+import Dual_155M_Ax_60P from './Component/1X9/Dual_155M_Ax_60P';
+import Dual_155M_Ax_A0P from './Component/1X9/Dual_155M_Ax_A0P';
+import Dual_155M_Ax_A2P from './Component/1X9/Dual_155M_Ax_A2P';
+
 
 function App() {
   return (
@@ -388,6 +400,15 @@ function App() {
      <Route path="/Ultra_row_1X9_DC" element={<Ultra_row_1X9_DC/>}/>
      <Route path="/Ultra_row_1X9_DC/Ultra_02B" element={<Ultra_02B/>}/>
      <Route path="/Ultra_row_1X9_DC/Ultra_05B" element={<Ultra_05B/>}/>
+     <Route path="/Dual_125_155M_1X9" element={<Dual_125_155M_1X9/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_155M_M13_02P" element={<Dual_155M_M13_02P/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_155M_M85_02P" element={<Dual_155M_M85_02P/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_155M_AM_M13" element={<Dual_155M_AM_M13/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_155M_Ax_M13" element={<Dual_155M_Ax_M13/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_155M_Ax_30P" element={<Dual_155M_Ax_30P/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_155M_Ax_60P" element={<Dual_155M_Ax_60P/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_155M_Ax_A0P" element={<Dual_155M_Ax_A0P/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_155M_Ax_A2P" element={<Dual_155M_Ax_A2P/>}/>
      
      
      
