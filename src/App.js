@@ -237,7 +237,11 @@ import Dual_155M_Ax_30P from './Component/1X9/Dual_155M_S13_30P';
 import Dual_155M_Ax_60P from './Component/1X9/Dual_155M_Ax_60P';
 import Dual_155M_Ax_A0P from './Component/1X9/Dual_155M_Ax_A0P';
 import Dual_155M_Ax_A2P from './Component/1X9/Dual_155M_Ax_A2P';
-
+import BIDI_A8_S53_20D from './Component/125M 155M  SFP/BIDI_A8_S53_20D';
+import BIDI_A8_S53_40D from './Component/125M 155M  SFP/BIDI_A8_S53_40D';
+import BIDI_A8_S53_60D from './Component/125M 155M  SFP/BIDI_A8_S53_60D';
+import BIDI_A8_S54_80D from './Component/125M 155M  SFP/BIDI_A8_S54_80D';
+import BIDI_A8_S54_A2D from './Component/125M 155M  SFP/BIDI_A8_S54_A2D';
 
 function App() {
   return (
@@ -485,6 +489,14 @@ function App() {
      <Route path="/BIDI_155M_Products/BIDI_A8_35_60D" element={<BIDI_A8_35_60D/>}/>
      <Route path="/BIDI_155M_Products/BIDI_A8_45_80D" element={<BIDI_A8_45_80D/>}/>
      <Route path="/BIDI_155M_Products/BIDI_A8_S45_A2D" element={<BIDI_A8_S45_A2D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_S53_20D" element={<BIDI_A8_S53_20D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_S53_40D" element={<BIDI_A8_S53_40D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_S53_60D" element={<BIDI_A8_S53_60D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_S54_80D" element={<BIDI_A8_S54_80D/>}/>
+     <Route path="/BIDI_155M_Products/BIDI_A8_S54_A2D" element={<BIDI_A8_S54_A2D/>}/>
+     
+     
+     
      
      
      
