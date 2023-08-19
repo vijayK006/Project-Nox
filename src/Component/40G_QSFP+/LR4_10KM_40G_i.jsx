@@ -1,18 +1,14 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/2.5_SFP/CWDM_2.5G.jpg'
-
-import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
-import machdimenssion from '../../img/products/2.5_SFP/cwdm_26d.jpeg';
-import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
-import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
+import productImg1 from '../../img/products/40GLR41.jpg'
+import memorymapimg from '../../img/products/40G-ER4/40G_ER4(3).jpg'
+import mchdimensionImg from '../../img/products/40G-ER4/40G_ER4(2).jpg'
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
-
-import {TiTickOutline} from 'react-icons/ti';
-
+import Transceiverimg from "../../img/products/40G-ER4/40G_ER4(1).jpg"
+import powersupply from "../../img/products/40G-ER4/40G_ER4(4).jpg"
+import { TiTickOutline } from 'react-icons/ti';
 
 
 import { BsCartCheck } from 'react-icons/bs';
@@ -26,10 +22,9 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const CWDM_b30DM = () => { 
-
-  let PartNumber = "NXO-E7-Cxx-b30DM";
-  let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate";
+const LR4_10KM_40G_i = () => {
+  let productName ="40G QSFP+ LR4 Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM";
+  let PartNumber = "NXO-I7-C13-10D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -139,9 +134,7 @@ const CWDM_b30DM = () => {
 </div>
 
 <div className='product-content'>
-<h4>
-{productName}
-</h4>
+<h4>{productName}</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
@@ -150,77 +143,34 @@ const CWDM_b30DM = () => {
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/>  In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compatible with SONET OC-48 LR-2 and SDH
-STM-16 L16.2
-</p>
-<p className='listFeture'>Compatible with SONET OC-12 LR-2 and SDH STM-4 L4.2
-
-</p><p className='listFeture'>Compatible with SONET OC-3 LR2 and SDH STM-1 L1.2
-
-
-</p>
-<p className='listFeture'>Compatible with IEEE802.3z Gigabit Ethernet
-</p>
-
-
-<p className='listFeture'>Compliant with INF-8074i SFP MSA
-</p>
-<p className='listFeture'>Hot Pluggable
-</p>
-<p className='listFeture'>Uncooled CWDM DFB laser transmitter
-
-</p>
-<p className='listFeture'>APD receiver
-</p>
-<p className='listFeture'>S-TIA receiver
-</p>
-<p className='listFeture'>18 CWDM Wavelength 1270~1610nm available
-</p>
-<p className='listFeture'>Duplex LC connector
-
-</p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472
-</p>
-<p className='listFeture'>
-Single +3.3V power supply
-
-</p>
-<p className='listFeture'>
-Link budget 30dB over SM fiber at 2.5Gbps
-
-</p>
-<p className='listFeture'>
-Link distance 100km over SM fiber for 1470~1610nm
-
-
-</p>
-<p className='listFeture'>
-RoHS Compliant
-
-</p>
+<p className='listFeture'>Compliant with IEEE802.3ba 40GBASE-LR4</p>
+<p className='listFeture'>Compliant to SFF-8436 QSFP+ MSA</p>
+<p className='listFeture'>Supports QDR / DDR InfiniBand</p>
+<p className='listFeture'>4CH CWDM MUX / DEMUX design</p>
+<p className='listFeture'>Up to 11.2Gbps data rate per CWDM channel</p>
+<p className='listFeture'>Hot Pluggable</p>
+<p className='listFeture'>CWDM DFB array transmitter</p>
+<p className='listFeture'>Duplex LC connector</p>
+<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant 
+with SFF-8436, SFF-8636</p>
+<p className='listFeture'>Single 3.3V power supply</p>
+<p className='listFeture'>Link distance 10km over SM fiber</p>
+<p className='listFeture'>Maximum Power consumption 3.5W</p>
+<p className='listFeture'>RoHS compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>SONET OC-48 / SDH STM-16 @2.5G
-</p>
-<p className='listFeture'>SONET OC-12 / SDH STM-4 @622M
-
-</p>
-<p className='listFeture'>SONET OC-3 / SDH STM-1 @155M
-
-</p>
-<p className='listFeture'>Gigabit Ethernet @1.25G
-
-</p>
-<p className='listFeture'>CWDM Networks
-</p>
+<p className='listFeture'>40GBASE-LR4 Ethernet</p>
+<p className='listFeture'>OTN OTU3 @43.01G, OTU3e2 @44.58G</p>
+<p className='listFeture'>Data Centers Switch Interconnect</p>
+<p className='listFeture'>Server and Storage Area Network Interconnect</p>
 
 </div>
 
@@ -244,8 +194,11 @@ RoHS Compliant
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
+
+
+
     <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
+      <a class="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic</a>
     </li>
 
   </ul> 
@@ -259,13 +212,15 @@ RoHS Compliant
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>
-
-NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity APD receiver provide superior performance for 2.5G Multi-Rate CWDM applications up to SMF 30dB budget optical links.
+ <p>NXO-I7-C13-10D is a 4-Channel CWDM 1300nm
+QSFP+ transceiver for 40GbE and InfiniBand DDR, QDR applications especially in Data Center & Storage networks. The transmitter converts 4-Channel 10G electrical input data to four CWDM optical signals and multiplex that into one 40G signal. The receiver
+de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 40Gbps up to SMF 10km optical links.
 
 </p>
 </div>
 </div>
+
+
 
 <div id="menu1" class="container tab-pane fade"><br/>
     <div class="container mt-3">
@@ -298,15 +253,15 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
           <td>Storage Relative Humidity</td>
           <td>RH</td>
           <td>5</td>
-          <td>95</td>
+          <td>85</td>
           <td>%</td>
         </tr>
 
         <tr>
           <td>Supply Voltage</td>
-          <td>Vcc</td>
+          <td>VCC</td>
           <td>-0.5</td>
-          <td>+4.0</td>
+          <td>+3.6</td>
           <td>V</td>
         </tr>
 
@@ -336,9 +291,9 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
       </thead>
       <tbody>
 
-      <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b30DM)</td>
-          <td>Top</td>
+        <tr>
+          <td>Case Operating Temp. (NXO-I7-C13-10D)</td>
+          <td>TOP</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
@@ -346,8 +301,8 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b30DMi)</td>
-          <td>Top</td>
+          <td>Case Operating Temp. (NXO-I7-C13-10Di)</td>
+          <td>TOP</td>
           <td>-40</td>
           <td>-</td>
           <td>+85</td>
@@ -356,30 +311,103 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
 
         <tr>
           <td>Supply Voltage</td>
-          <td>Vcc</td>
-          <td>+3.13</td>
+          <td>VCC</td>
+          <td>+3.00</td>
           <td>+3.3</td>
           <td>+3.47</td>
           <td>V</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b30DM)</td>
-          <td>Icc</td>
+          <td>Data Rate, per Lane</td>
+          <td>DR</td>
+          <td></td>
+          <td>10.3125</td>
+          <td>11.2</td>
+          <td>Gb/s</td>
+        </tr>
+
+        <tr>
+          <td>Data Rate Accuracy</td>
+          <td>ΔDR</td>
+          <td>-100</td>
+          <td></td>
+          <td>+100</td>
+          <td>ppm</td>
+        </tr>
+
+        <tr>
+          <td>Bit Error Rate</td>
+          <td>BER</td>
           <td></td>
           <td></td>
-          <td>270</td>
+          <td>10-12</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Supply Current</td>
+          <td>ICC</td>
+          <td></td>
+          <td></td>
+          <td>1000</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b30DMi)</td>
-          <td>Icc</td>
+          <td>Power Consumption</td>
+          <td>P</td>
           <td></td>
-          <td></td>
-          <td>280</td>
-          <td>mA</td>
+          <td>2.5</td>
+          <td>3.5</td>
+          <td>W</td>
         </tr>
+
+        <tr>
+          <td>Transceiver Power-on Initialization Time</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>2000</td>
+          <td>ms</td>
+        </tr>
+
+        <tr>
+          <td>Control Input Voltage High</td>
+          <td>VHI</td>
+          <td>2.0</td>
+          <td></td>
+          <td>Vcc</td>
+          <td>V</td>
+        </tr>
+
+        <tr>
+          <td>Control Input Voltage Low</td>
+          <td>VIL</td>
+          <td>GND</td>
+          <td></td>
+          <td>0.7</td>
+          <td>V</td>
+        </tr>
+
+        <tr>
+          <td>Control Output Voltage High</td>
+          <td>Voh</td>
+          <td>2.0</td>
+          <td></td>
+          <td>Vcc</td>
+          <td>V</td>
+        </tr>
+
+        <tr>
+          <td>Control Output Voltage Low</td>
+          <td>Vol</td>
+          <td>GND</td>
+          <td></td>
+          <td>0.7</td>
+          <td>V</td>
+        </tr>
+
 
       </tbody>
     </table>
@@ -387,29 +415,31 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
 </div>
  </div>
 
- <div id="menu3" class="container tab-pane fade"><br/>
+
+
+ <div id="menu4" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
-
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the QSFP+ MSA, NXO QSFP+ transceivers provide digital diagnostic 
+  functions via a 2-wire serial interface, which allows real-time access 
+  to the following operating parameters</p>
   <ul>
-    <li>Transceiver temperature</li>
-    <li>Laser bias current</li>
-    <li>Transmitted optical power</li>
-    <li>Received optical power</li>
-    <li>Transceiver supply voltage</li>
+    <li className='pt-1 pb-1'>Transceiver temperature</li>
+    <li className='pt-1 pb-1'>Laser bias current (4-Channel)</li>
+    <li className='pt-1 pb-1'>Transmitted optical power (4-Channel)</li>
+    <li className='pt-1 pb-1'>Received optical power (4-Channel)</li>
+    <li className='pt-1 pb-1'>Transceiver supply voltage</li>
   </ul>
 
-  <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
+  <p>It also provides a sophisticated system of alarm and warning flags, 
+  which may be used to alert end-users when particular operating parameters 
+  are outside of a factory-set normal range.
 </p>
 
-<p>
-The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
-activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
+<p>The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the QSFP+ transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the QSFP+ transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The  memories are organized as a series of 8-bit data words that can be addressed individually or sequentially. The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed from 000h to  the maximum address of the memory.
 </p>
 
-<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472)
-Specification.
+<p><b>For more detailed information including memory map definitions, please see the QSFP+ MSA Specification.
 </b></p>
 
 </div>
@@ -420,28 +450,14 @@ Specification.
 
 {/* Memory Map Section Start */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assignment</h1>
+  <h1 className='pb-4'>Memory Map</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>
+<img src={memorymapimg} className='sectionImg2' alt="memorymapImg"/>
 </div>
 
 </div>
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
-</div>
-<br/>
-<br/>
-{/* <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap2 } className='sectionImg2_1' alt="memorymapImg"/>
-</div> */}
-
-</div>
-
+{/* Memory Map Section End */}
 
 {/* Mechanical Dimensions section start */}
 
@@ -449,15 +465,40 @@ Specification.
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={machdimenssion} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
+<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
 </div>
 
 </div>
+
 {/* Mechanical Dimensions section end */}
 
+{/* Transivers Block Diagram Section Start */}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Transceiver Block Diagram </h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={Transceiverimg} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
+</div>
+
+</div>
+
+
+{/* Transivers Block Diagram Section End */}
+
+{/* Recommended Power Supply Filter */}
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Recommended Power Supply Filter </h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={powersupply} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
+
+</div>
+
+</div>
 
 
 <Footer/>
+
 {/* --------------------------------------------------------------------------------------------------------- */}
 <div class="modal fade" id="myModal">
   <div class="modal-dialog modal-dialog-centered">
@@ -531,4 +572,4 @@ Specification.
   )
 }
 
-export default CWDM_b30DM;
+export default LR4_10KM_40G_i;

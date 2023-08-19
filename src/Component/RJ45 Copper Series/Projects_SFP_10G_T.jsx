@@ -55,7 +55,7 @@ const Projects_SFP_10G = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>RJ45 Copper Series SFP+ 10G-T</h2>
+<h2 className='pt-5'>SFP+ 10G-T</h2>
 
       <div className='row pt-5  pb-5'>
 

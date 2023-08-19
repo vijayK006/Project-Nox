@@ -8,7 +8,6 @@ import Navbar from '../../Navbar'
 import Footer from '../../Footer';
 import EnquireForm from '../EnquireForm';
 import { Link } from 'react-router-dom';
-import { TiTickOutline } from 'react-icons/ti';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -16,11 +15,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/40GLR41.jpg'
+import productImg1 from '../../img/products/10G SFP+/c27_20D.jpg'
+
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const Products_40G_LR4 = () => {
+const SFP_PLUS_BIDI_Products = () => {
   return (
     <>
 <Navbar/>
@@ -56,25 +56,36 @@ const Products_40G_LR4 = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>QSFP+ 40G-LR4</h2>
+<h2 className='pt-5'>10G SFP+ BIDI</h2>
 
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_10KM_40G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>40G QSFP+ LR4 Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
+  <h5>
+ 
+  10G SFP+ BX(BR)-U Transceiver
+Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
+
+
 </h5>
-<p>Part Number : NXO-I7-C13-10D</p>
-<h4>Feature's</h4>
-<p>Supports QDR / DDR InfiniBand</p>
-<p>Hot Pluggable</p>
-<p>Duplex LC connector</p>
+
+<h4>Feature's</h4> 
+<p>Compliant with CPRI Option 7, 8
+</p>
+<p>1270nm DFB laser transmitter
+</p>
+
+<p>Simplex LC connector
+</p>
+<p>Link distance 20km over SM fiber
+</p>
+
 
 </div>
 
@@ -85,20 +96,32 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_10KM_40G_i" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_20DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>40G QSFP+ LR4 Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
+  <h5>
+ 
+  1G~10G Multi-Rate SFP+ BX(BR)-U Transceiver
+Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
+
+
+
 </h5>
-<p>Part Number : NXO-I7-C13-10Di</p>
-<h4>Feature's</h4>
-<p>Supports QDR / DDR InfiniBand</p>
-<p>Hot Pluggable</p>
-<p>Duplex LC connector</p>
+
+<h4>Feature's</h4> 
+<p>Compliant with SFF-8431 SFP+ MSA
+</p>
+<p>1270nm DFB laser transmitter
+</p>
+
+<p>Simplex LC connector
+</p>
+<p>Link distance 20km over SM fiber
+</p>
+
 
 </div>
 
@@ -109,48 +132,42 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_20KM_40G" style={{textDecoration:"none", color:"black"}}>
-        <div className='product-card position-relative'>
+        <Link to="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>40G QSFP+ LR4 Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
+  <h5>
+ 
+  10G SFP+ BX(BR)-U Transceiver
+Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
+
+
+
+
 </h5>
-<p>Part Number : NXO-I7-C13-20D</p>
-<h4>Feature's</h4>
-<p>Supports QDR / DDR InfiniBand</p>
-<p>Single 3.3V power supply</p>
-<p>Duplex LC connector</p>
+
+<h4>Feature's</h4> 
+<p>Compliant with CPRI Option 7, 8
+</p>
+<p>1270nm DFB laser transmitter
+</p>
+
+<p>Simplex LC connector
+</p>
+<p>Link distance 40km over SM fiber
+</p>
+
 
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
 </div>
-        </Link>
+</Link>
+
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_20KM_40G_i" style={{textDecoration:"none", color:"black"}}>
-        <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>40G QSFP+ LR4 Transceiver
-Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
-</h5>
-<p>Part Number : NXO-I7-C13-20Di</p>
-<h4>Feature's</h4>
-<p>Supports QDR / DDR InfiniBand</p>
-<p>Single 3.3V power supply</p>
-<p>Duplex LC connector</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-        </Link>
-        </div>
       </div>
 </div>
 
@@ -161,4 +178,4 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
   )
 }
 
-export default Products_40G_LR4
+export default SFP_PLUS_BIDI_Products;

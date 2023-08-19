@@ -1,12 +1,13 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products/2.5_SFP/CWDM_2.5G.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
-import machdimenssion from '../../img/products/2.5_SFP/cwdm_26d.jpeg';
-import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
-import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
+import pinassisment from '../../img/products/125M 155M  SFP/pinAssignment.jpg';
+import machdimenssion from '../../img/products/125M 155M  SFP/CWDM_Dimension.jpg';
+import Memorymap from '../../img/products/125M 155M  SFP/memoryMap.png';
+// import Memorymap2 from '../../img/products/1X9/Dual_155M_dimension_ST_S15.jpg';
+// import Memorymap3 from '../../img/products/1X9/Dual_155M_dimension_FC_S15.jpg';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -26,10 +27,12 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const CWDM_b30DM = () => { 
+const CWDW_SFP_b36D = () => { 
 
-  let PartNumber = "NXO-E7-Cxx-b30DM";
-  let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate";
+  let PartNumber = "NXO-A7-Cxx-b36D";
+  let productName ="125M / 155M SFP CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 36dB(100~120KM), DDM";
+
+
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -156,72 +159,34 @@ const CWDM_b30DM = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compatible with SONET OC-48 LR-2 and SDH
-STM-16 L16.2
-</p>
-<p className='listFeture'>Compatible with SONET OC-12 LR-2 and SDH STM-4 L4.2
 
-</p><p className='listFeture'>Compatible with SONET OC-3 LR2 and SDH STM-1 L1.2
-
-
-</p>
-<p className='listFeture'>Compatible with IEEE802.3z Gigabit Ethernet
-</p>
-
-
-<p className='listFeture'>Compliant with INF-8074i SFP MSA
-</p>
-<p className='listFeture'>Hot Pluggable
-</p>
-<p className='listFeture'>Uncooled CWDM DFB laser transmitter
-
-</p>
-<p className='listFeture'>APD receiver
-</p>
-<p className='listFeture'>S-TIA receiver
-</p>
-<p className='listFeture'>18 CWDM Wavelength 1270~1610nm available
-</p>
-<p className='listFeture'>Duplex LC connector
-
-</p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472
-</p>
-<p className='listFeture'>
-Single +3.3V power supply
-
-</p>
-<p className='listFeture'>
-Link budget 30dB over SM fiber at 2.5Gbps
-
-</p>
-<p className='listFeture'>
-Link distance 100km over SM fiber for 1470~1610nm
-
-
-</p>
-<p className='listFeture'>
-RoHS Compliant
-
-</p>
-
+  <p className='listFeture'>  Compatible with IEEE802.3 100BASE Ethernet </p>
+   <p className='listFeture'> Compatible with SONET OC-3 LR-2 and SDH STM-1 L1.2</p>
+  <p className='listFeture'>  Compliant with INF-8074i SFP MSA </p>
+   <p className='listFeture'> Hot Pluggable </p>
+   <p className='listFeture'> Uncooled CWDM DFB laser transmitter and PIN receiver </p>
+  <p className='listFeture'>  18 CWDM Wavelength 1270~1610nm available </p>
+  <p className='listFeture'>  Duplex LC connector </p>
+   <p className='listFeture'> 2-wire interface for management and diagnostic monitor compliant with SFF-8472 </p>
+   <p className='listFeture'> Single +3.3V power supply </p>
+   <p className='listFeture'> Link budget 36dB over SM fiber </p>
+   <p className='listFeture'> Link distance 120~140km over SM fiber for 1470~1610nm </p>
+   <p className='listFeture'> RoHS Compliant </p>
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>SONET OC-48 / SDH STM-16 @2.5G
-</p>
-<p className='listFeture'>SONET OC-12 / SDH STM-4 @622M
+<p className='listFeture'>Fast Ethernet 100BASE-ZX @125M
 
 </p>
-<p className='listFeture'>SONET OC-3 / SDH STM-1 @155M
+   <p className='listFeture'>SONET OC-3 / SDH STM-1 @155M
 
 </p>
-<p className='listFeture'>Gigabit Ethernet @1.25G
-
+ 
+ <p className='listFeture'>
+CWDM Networks
+     
 </p>
-<p className='listFeture'>CWDM Networks
-</p>
-
+ 
 </div>
 
 </div>
@@ -244,9 +209,9 @@ RoHS Compliant
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
-    <li class="nav-item">
+    {/* <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
-    </li>
+    </li> */}
 
   </ul> 
 </div>
@@ -261,7 +226,9 @@ RoHS Compliant
   
  <p>
 
-NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity APD receiver provide superior performance for 2.5G Multi-Rate CWDM applications up to SMF 30dB budget optical links.
+NXO-A7-Cxx-b36D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+Multi-Source Agreement (MSA) Specification. There
+are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to SMF 36dB budget optical links.
 
 </p>
 </div>
@@ -280,7 +247,8 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
           <th>Min.</th>
           <th>Max.</th>
           <th>Unit</th>
-
+          
+      
 
         </tr>
       </thead>
@@ -293,7 +261,6 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
           <td>+85</td>
           <td>°C</td>
         </tr>
-
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
@@ -301,15 +268,25 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
           <td>95</td>
           <td>%</td>
         </tr>
+       
 
         <tr>
-          <td>Supply Voltage</td>
+          <td>Supply Voltage </td>
           <td>Vcc</td>
           <td>-0.5</td>
           <td>+4.0</td>
           <td>V</td>
-        </tr>
+   
 
+        </tr>
+{/*         
+        <tr>
+          <td>Supply Voltage(NXO-A7-Cxx-b36D5) </td>
+          <td>Vcc</td>
+          <td>0</td>
+          <td>+6.0</td>
+          <td>V</td>
+        </tr> */}
       </tbody>
     </table>
   </div>
@@ -321,7 +298,7 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
   <h2>Recommended Operating Conditions</h2>
   
   <div class="table-responsive">
-    <table class="table table-hover">
+  <table class="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -337,7 +314,7 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b30DM)</td>
+          <td>Case Operating Temp. (NXO-A7-Cxx-b36D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -346,7 +323,7 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b30DMi)</td>
+          <td>Case Operating Temp. (NXO-A7-Cxx-b36Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -355,38 +332,38 @@ NXO-E7-Cxx-b30DM Small Form Factor Pluggable SFP transceivers are compliant with
         </tr>
 
         <tr>
-          <td>Supply Voltage</td>
+          <td>Supply Voltage </td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
           <td>+3.47</td>
           <td>V</td>
         </tr>
-
+      
+       
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b30DM)</td>
+          <td>Supply Current(NXO-A7-Cxx-b36D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
           <td>270</td>
           <td>mA</td>
         </tr>
-
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b30DMi)</td>
+          <td>Supply Current(NXO-A7-Cxx-b36Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>280</td>
+          <td>300</td>
           <td>mA</td>
         </tr>
-
+       
       </tbody>
     </table>
   </div>
 </div>
  </div>
-
+{/* 
  <div id="menu3" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
@@ -413,7 +390,7 @@ Specification.
 </b></p>
 
 </div>
- </div>
+ </div> */}
 
   </div>
 </div>
@@ -429,17 +406,27 @@ Specification.
 </div>
 
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
+  <h1 className='pb-4'>Digital Diagnostic Memory Map
+</h1>
+  {/* <h3 className='pb-4'>SC Connector Type </h3> */}
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
+<img src={ Memorymap} className='sectionImg3' alt="memorymapImg"/>
 </div>
 <br/>
 <br/>
-{/* <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap2 } className='sectionImg2_1' alt="memorymapImg"/>
-</div> */}
+{/* <h3 className='pb-4'>ST connector Type   </h3>
 
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ Memorymap2 } className='sectionImg3' alt="memorymapImg"/>
+</div>
+<br/>
+<br/>
+<h3 className='pb-4'>FC Connector Type  </h3>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ Memorymap3 } className='sectionImg3' alt="memorymapImg"/>
+</div> */}
 </div>
 
 
@@ -449,7 +436,7 @@ Specification.
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={machdimenssion} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
+<img src={machdimenssion} className='sectionImg2' alt="Transceiver Block Diagram"/>
 </div>
 
 </div>
@@ -531,4 +518,4 @@ Specification.
   )
 }
 
-export default CWDM_b30DM;
+export default CWDW_SFP_b36D;

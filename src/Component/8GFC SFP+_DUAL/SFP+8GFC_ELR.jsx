@@ -133,11 +133,6 @@ const SFP_8GFC_ELR = () => {
 
 <div className='product-content'>
 <h4>{productName}
-
-
-
-
-
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>

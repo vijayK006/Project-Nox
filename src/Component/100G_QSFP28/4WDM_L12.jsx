@@ -27,8 +27,8 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const L12_4WDM = () => {
-  let PartNumber = "NXO-K7-L13-40DI"
-  let productName = "100G QSFP28 ER4 Transceiver Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM"
+  let PartNumber = "NXO-K8-L13-20De"
+  let productName = "100G QSFP28 BIDI 4WDM-20 Transceiver Hot Pluggable, Bidi LC, LAN-WDM  Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM"
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -171,25 +171,26 @@ const L12_4WDM = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with IEEE802.3ba 100GBASE-ER4</p>
+<p className='listFeture'>Compatible with 4WDM-20 MSA</p>
 <p className='listFeture'>Compliant with SFF-8665 QSFP28 MSA</p>
 <p className='listFeture'>Compliant with IEEE 802.3bm CAUI-4 Interface</p>
-<p className='listFeture'>4CH LWDM MUX / DEMUX design</p>
+<p className='listFeture'>8CH LWDM MUX / DEMUX design</p>
 <p className='listFeture'>Data Rate 25.78125Gbps per Lane</p>
 <p className='listFeture'>Built in quad TX CDR and RX CDR</p>
 <p className='listFeture'>Hot Pluggable QSFP28 footprint</p>
 <p className='listFeture'>O-Band LWDM DFB transmitter</p>
-<p className='listFeture'>APD receiver</p>
-<p className='listFeture'>Duplex LC connector</p>
+<p className='listFeture'>Simplex LC connector</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8636</p>
 <p className='listFeture'>Single 3.3V power supply</p>
-<p className='listFeture'>Link distance 40km over SM fiber</p>
-<p className='listFeture'>Maximum Power consumption 4.5W</p>
+<p className='listFeture'>Operating Temperature -20~85°C</p>
+<p className='listFeture'>Link distance 20km over SM fiber with RS-528 FEC</p>
+<p className='listFeture'>Maximum Power consumption 5.5W</p>
 <p className='listFeture'>RoHS compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
+<p className='listFeture'>4WDM-20</p>
 <p className='listFeture'>100GBASE-ER4 Ethernet</p>
 <p className='listFeture'>Data Centers Switch Interconnect</p>
 <p className='listFeture'>Server and Storage Area Network Interconnect</p>
@@ -229,16 +230,9 @@ const L12_4WDM = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K7-L13-40Di is a 4-Channel LWDM 1300nm
-QSFP28 transceiver for 100GbE applications
-especially in Datacom, Data Center & Storage networks.
-The transmitter converts 4-Channel 25G electrical input
-data to four LWDM optical signals and multiplex that into
-one 100G signal. The receiver de-multiplex the 100G
-signal reversely and converts that to 4-Channel 25G
-electrical output data. The techniques bring a compact
-transceiver module for an aggregate bandwidth of
-100Gbps up to SMF 40km optical links.
+ <p>NXO-K8-L13-20De is a 8-Channel LWDM QSFP28 Bidi transceiver for 100GbE applications especially in Datacom, Data Center & Storage networks. The transmitter converts 4-Channel 25G electrical input
+data to four LWDM optical signals and multiplex that into one 100G signal. The receiver de-multiplex the 100G signal reversely and converts that to 4-Channel 25G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 100Gbps up to SMF 20km optical links.
+
 </p>
 </div>
 </div>
@@ -275,8 +269,8 @@ transceiver module for an aggregate bandwidth of
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
-          <td>0</td>
-          <td>85</td>
+          <td>5</td>
+          <td>95</td>
           <td>%</td>
         </tr>
 
@@ -315,22 +309,14 @@ transceiver module for an aggregate bandwidth of
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-K7-L13-40D)</td>
+          <td>Case Operating Temperature</td>
           <td>TOP</td>
-          <td>0</td>
-          <td>-</td>
-          <td>+70</td>
-          <td>°C</td>
-        </tr>
-
-        <tr>
-          <td>Case Operating Temp. (NXO-K7-L13-40Di)</td>
-          <td>TOP</td>
-          <td>-40</td>
+          <td>-20</td>
           <td>-</td>
           <td>+85</td>
           <td>°C</td>
         </tr>
+
 
         <tr>
           <td>Supply Voltage</td>
@@ -373,7 +359,7 @@ transceiver module for an aggregate bandwidth of
           <td>ICC</td>
           <td></td>
           <td></td>
-          <td>1360</td>
+          <td>1650</td>
           <td>mA</td>
         </tr>
 
@@ -382,7 +368,7 @@ transceiver module for an aggregate bandwidth of
           <td>P</td>
           <td></td>
           <td></td>
-          <td>4.5</td>
+          <td>5.5</td>
           <td>W</td>
         </tr>
 
@@ -400,7 +386,7 @@ transceiver module for an aggregate bandwidth of
           <td>ViH</td>
           <td>2.0</td>
           <td></td>
-          <td>Vcc</td>
+          <td>Vcc+0.3</td>
           <td>V</td>
         </tr>
 
@@ -414,20 +400,20 @@ transceiver module for an aggregate bandwidth of
         </tr>
 
         <tr>
-          <td>Control Output Voltage High</td>
+          <td>Control Output Voltage High (IOH=100uA)</td>
           <td>VOH</td>
-          <td>2.0</td>
+          <td>Vcc-0.5</td>
           <td></td>
-          <td>Vcc</td>
+          <td>Vcc-0.3</td>
           <td>V</td>
         </tr>
 
         <tr>
-          <td>Control Output Voltage Low</td>
+          <td>Control Output Voltage Low (IOH=100uA)</td>
           <td>VOL</td>
           <td>GND</td>
           <td></td>
-          <td>0.8</td>
+          <td>0.4</td>
           <td>V</td>
         </tr>
 

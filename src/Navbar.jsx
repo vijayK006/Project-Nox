@@ -440,7 +440,7 @@ const Switchclose_menu8=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XENPAK DWDM</p></Link>
 
 <p className='menu-title pt-2'>8GFC SFP+</p>
-<Link to="/SFP_8GFC_ELR" style={{textDecoration:"none"}}><p className='menu-inner-items'>8GFC SFP+ DUAL</p></Link>
+<Link to="/SFP_PLUS_DUAL_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>8GFC SFP+ DUAL</p></Link>
 
 </div>
 
@@ -459,7 +459,7 @@ const Switchclose_menu8=()=>{
 <p className='menu-title text-center'>40G QSFP+</p>
 <div className='row'>
     <div className='col-lg-6'>
-    <Link to="/Product_40G_SR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SR4</p></Link>
+    <Link to="/SR4_40G_Products" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SR4</p></Link>
 <Link to="/Product_40G_eSR4" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-eSR4</p></Link>
 <Link to="/Product_40G_SRBD" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-SRBD</p></Link>
 <Link to="/IR4_40G" style={{textDecoration:"none"}}><p className='menu-inner-items text-center'>QSFP+ 40G-IR4</p></Link>
@@ -596,8 +596,8 @@ const Switchclose_menu8=()=>{
 <div className='col-lg-2 col-md-4'>
 
 <p className='menu-title '>125M 155M SFP</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
+<Link to="/DWDM_SFP_BOD" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
+<Link to="/CWDW_SFP_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
 <Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
 
@@ -614,7 +614,7 @@ const Switchclose_menu8=()=>{
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ DWDM Tunable</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ CWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ BIDI</p></Link>
+<Link to="/SFP_PLUS_BIDI_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DUAL</p></Link>
 
 
@@ -1153,7 +1153,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series13'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu13}/>
 
-<Link to="/SFP_8GFC_ELR" style={{textDecoration:"none"}}><p className='mob-nav-items'>8GFC SFP+ DUAL</p></Link>
+<Link to="/SFP_PLUS_DUAL_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>8GFC SFP+ DUAL</p></Link>
 
 
 
@@ -1250,8 +1250,8 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series23'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu23}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP CWDM</p></Link>
+<Link to="/DWDM_SFP_BOD" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DWDM</p></Link>
+<Link to="/125M/155M SFP CWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP CWDM</p></Link>
 <Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP BIDI</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DUAL</p></Link>
 
@@ -1264,10 +1264,9 @@ const Switchclose_menu8=()=>{
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ DWDM Tunable</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ DWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ CWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ BIDI</p></Link>
+<Link to="/SFP_PLUS_BIDI_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ BIDI</p></Link>
 
 </div>
-
 
 
 <div className='mobile-nav-all_product' id='series25'>
