@@ -599,7 +599,7 @@ const Switchclose_menu8=()=>{
 <Link to="/DWDM_SFP_BOD" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
 <Link to="/CWDW_SFP_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
 <Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP BIDI</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
+<Link to="/Products_Dual_SFP_155M" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
 
 <p className='menu-title '>622M SFP</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP BIDI</p></Link>
@@ -1253,7 +1253,7 @@ const Switchclose_menu8=()=>{
 <Link to="/DWDM_SFP_BOD" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DWDM</p></Link>
 <Link to="/125M/155M SFP CWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP CWDM</p></Link>
 <Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP BIDI</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DUAL</p></Link>
+<Link to="/Products_Dual_SFP_155M" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DUAL</p></Link>
 
 
 </div>

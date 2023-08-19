@@ -244,6 +244,26 @@ import CWDW_SFP_b34D from './Component/125M 155M  SFP/CWDW_SFP_b34D';
 import CWDW_SFP_b36D from './Component/125M 155M  SFP/CWDW_SFP_b36D';
 
 
+import Products_Dual_SFP_155M from './Component/125M 155M  SFP/Products_Dual_SFP_155M';
+import Dual_155M_02D from './Component/125M 155M  SFP/Dual_155M_02D';
+import Dual_155M_05D from './Component/125M 155M  SFP/Dual_155M_05D';
+import Dual_155M_M85_02D from './Component/125M 155M  SFP/Dual_155M_M85_02D';
+import Dual_155M_S13_20D from './Component/125M 155M  SFP/Dual_155M_S13_20D';
+import Dual_155M_S13_30D from './Component/125M 155M  SFP/Dual_155M_S13_30D';
+import Dual_155M_S13_40D from './Component/125M 155M  SFP/Dual_155M_S13_40D';
+import Dual_155M_S13_60D from './Component/125M 155M  SFP/Dual_155M_S13_60D';
+import Dual_155M_S15_80D from './Component/125M 155M  SFP/Dual_155M_S15_80D';
+import Dual_155M_S15_A0D from './Component/125M 155M  SFP/Dual_155M_S15_A0D';
+import Dual_155M_S15_A2D from './Component/125M 155M  SFP/Dual_155M_S15_A2D';
+import Dual_155M_S15_A4D from './Component/125M 155M  SFP/Dual_155M_S15_A4D';
+import Dual_155M_S15_A4Di from './Component/125M 155M  SFP/Dual_155M_S15_A4Di';
+import Dual_155M_S15_A6D from './Component/125M 155M  SFP/Dual_155M_S15_A6D';
+import Dual_155M_S15_A6Di from './Component/125M 155M  SFP/Dual_155M_S15_A6Di';
+import Dual_155M_S15_B0D from './Component/125M 155M  SFP/Dual_155M_S15_B0D';
+import Dual_155M_S15_B0Di from './Component/125M 155M  SFP/Dual_155M_S15_B0Di';
+import Dual_155M_S15_B2D from './Component/125M 155M  SFP/Dual_155M_S15_B2D';
+
+
 function App() {
   return (
 
@@ -445,7 +465,6 @@ function App() {
      <Route path="/CWDW_SFP_155M_Products/CWDW_SFP_b34D" element={<CWDW_SFP_b34D/>}/>
      <Route path="/CWDW_SFP_155M_Products/CWDW_SFP_b36D" element={<CWDW_SFP_b36D/>}/>
      
-     
 
 
      
@@ -499,6 +518,27 @@ function App() {
      <Route path="/BIDI_155M_Products/BIDI_A8_35_60D" element={<BIDI_A8_35_60D/>}/>
      <Route path="/BIDI_155M_Products/BIDI_A8_45_80D" element={<BIDI_A8_45_80D/>}/>
      <Route path="/BIDI_155M_Products/BIDI_A8_S45_A2D" element={<BIDI_A8_S45_A2D/>}/>
+
+
+     <Route path="/Products_Dual_SFP_155M" element={<Products_Dual_SFP_155M/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_02D" element={<Dual_155M_02D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_05D" element={<Dual_155M_05D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_M85_02D" element={<Dual_155M_M85_02D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_20D" element={<Dual_155M_S13_20D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_30D" element={<Dual_155M_S13_30D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_40D" element={<Dual_155M_S13_40D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_60D" element={<Dual_155M_S13_60D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_80D" element={<Dual_155M_S15_80D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A0D" element={<Dual_155M_S15_A0D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A2D" element={<Dual_155M_S15_A2D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A4D" element={<Dual_155M_S15_A4D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A4Di" element={<Dual_155M_S15_A4Di/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A6D" element={<Dual_155M_S15_A6D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A6Di" element={<Dual_155M_S15_A6Di/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_B0D" element={<Dual_155M_S15_B0D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_B0Di" element={<Dual_155M_S15_B0Di/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_B2D" element={<Dual_155M_S15_B2D/>}/>
+     
      
      
      
