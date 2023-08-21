@@ -223,7 +223,7 @@ const SFP28_BX20_27_i = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N8-C27-20DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 1270nm DFB
+ <p>NXO-N8-C27-20DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 1270nm DFB
 transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE
 Ethernet and CPRI Option #10 applications up to SMF 20km optical links.
 

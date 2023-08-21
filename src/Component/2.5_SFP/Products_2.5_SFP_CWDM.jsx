@@ -65,7 +65,7 @@ const Products_SFP_CWDM = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/CWDM_b20D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_CWDM/CWDM_b20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -75,15 +75,10 @@ const Products_SFP_CWDM = () => {
 
   2.5G SFP OC-48 / STM-16 CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 20dB(40KM), DDM
-
-
-
-
 </h5>
-
+<p>Part Number : NXO-E7-Cxx-b20D</p>
 <h4>Feature's</h4> 
-<p>Single +3.3V power supply
-</p>
+
 <p>Link budget 30dB over SM fiber at 2.5G
 </p>
 <p>Link distance 100km over SM fiber for 1470~1610nm
@@ -101,7 +96,38 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20dB(40KM), DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/CWDM_b26D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_CWDM/CWDM_b20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+
+  2.5G SFP OC-48 / STM-16 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 20dB(40KM), DDM
+</h5>
+<p>Part Number : NXO-E7-Cxx-b20Di</p>
+<h4>Feature's</h4> 
+
+<p>Link budget 30dB over SM fiber at 2.5G
+</p>
+<p>Link distance 100km over SM fiber for 1470~1610nm
+</p>
+<p>RoHS Compliant
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_CWDM/CWDM_b26D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -113,10 +139,9 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-Cxx-b26D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>Link budget 30dB over SM fiber at 2.5G
 </p>
 <p>Link distance 100km over SM fiber for 1470~1610nm
@@ -133,7 +158,38 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/CWDM_b30D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_CWDM/CWDM_b26Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM
+
+
+
+</h5>
+<p>Part Number : NXO-E7-Cxx-b26Di</p>
+<h4>Feature's</h4>
+
+<p>Link budget 30dB over SM fiber at 2.5G
+</p>
+<p>Link distance 100km over SM fiber for 1470~1610nm
+</p>
+<p>RoHS Compliant
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_CWDM/CWDM_b30D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -146,10 +202,9 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-Cxx-b30D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>Link budget 30dB over SM fiber at 2.5G
 </p>
 <p>Link distance 100km over SM fiber for 1470~1610nm
@@ -165,9 +220,40 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM
 
         </div>
 
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_CWDM/CWDM_b30Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM
+
+
+
+
+</h5>
+<p>Part Number : NXO-E7-Cxx-b30Di</p>
+<h4>Feature's</h4>
+
+<p>Link budget 30dB over SM fiber at 2.5G
+</p>
+<p>Link distance 100km over SM fiber for 1470~1610nm
+</p>
+<p>RoHS Compliant
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/CWDM_b30DM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_CWDM/CWDM_b30DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -178,10 +264,9 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
 
 
 </h5>
-
+<p>Part Number : NXO-E7-Cxx-b30D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>Link budget 30dB over SM fiber at 2.5G
 </p>
 <p>Link distance 100km over SM fiber for 1470~1610nm
@@ -197,7 +282,36 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/CWDM_b26DM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_CWDM/CWDM_b30DMi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
+
+
+</h5>
+<p>Part Number : NXO-E7-Cxx-b30Di</p>
+<h4>Feature's</h4>
+
+<p>Link budget 30dB over SM fiber at 2.5G
+</p>
+<p>Link distance 100km over SM fiber for 1470~1610nm
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_CWDM/CWDM_b26DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -209,10 +323,39 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 
 
 </h5>
-
+<p>Part Number : NXO-E7-Cxx-b26DM</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
+
+<p>Link budget 30dB over SM fiber at 2.5G
 </p>
+<p>Link distance 100km over SM fiber for 1470~1610nm
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_CWDM/CWDM_b26DMi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
+
+
+
+</h5>
+<p>Part Number : NXO-E7-Cxx-b26DMi</p>
+<h4>Feature's</h4>
+
 <p>Link budget 30dB over SM fiber at 2.5G
 </p>
 <p>Link distance 100km over SM fiber for 1470~1610nm
