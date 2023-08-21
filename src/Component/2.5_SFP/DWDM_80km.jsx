@@ -159,8 +159,9 @@ const DWDM_80km = () => {
 <p className="listFeture">Compliant with INF-8074i SFP MSA</p>
 <p className="listFeture">Hot Pluggable</p>
 <p className="listFeture">Cooled DWDM DFB laser transmitter</p>
-<p className="listFeture">45 channels ITU-T 100GHz C-Band DWDM wavelength CH17~CH61 available APD receiver</p>
+<p className="listFeture">45 channels ITU-T 100GHz C-Band DWDM wavelength CH17~CH61 available</p>
 <p className="listFeture">Duplex LC connector</p>
+<p className="listFeture">APD receiver</p>
 <p className="listFeture">2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className="listFeture">Single +3.3V power supply</p>
 <p className="listFeture">Maximum Power consumption 2.5W</p>

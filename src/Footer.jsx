@@ -55,7 +55,7 @@ India.
 </div>
 </div>
 
-    <div className='col-lg-2 col-md-4 col-sm-12'>
+    <div className='col-lg-2 col-md-4 col-6'>
     <p className='footer-headline'>Company</p>
 
     <Link to="" style={{textDecoration:"none"}}><p className='footer-items'>About Us</p></Link>
@@ -66,7 +66,7 @@ India.
     <Link to="" style={{textDecoration:"none"}}><p className='footer-items'>Contact Us</p></Link>
     </div>
 
-    <div className='col-lg-2 col-md-4 col-sm-12'>
+    <div className='col-lg-2 col-md-4 col-6'>
     <p className='footer-headline'>User Center</p>
       
     <Link to="" style={{textDecoration:"none"}}><p className='footer-items'>My Account</p></Link>
@@ -78,7 +78,7 @@ India.
 
       </div>
 
-      <div className='col-lg-2 col-md-4 col-sm-12'>
+      <div className='col-lg-2 col-md-4 col-6'>
     <p className='footer-headline'>Services</p>
       
     <Link to="" style={{textDecoration:"none"}}><p className='footer-items'>Service Center</p></Link>
@@ -90,7 +90,7 @@ India.
 
       </div>
 
-      <div className='col-lg-2 col-md-4 col-sm-12'>
+      <div className='col-lg-2 col-md-4 col-6'>
     <p className='footer-headline'>Support</p>
       
     <Link to="" style={{textDecoration:"none"}}><p className='footer-items'>Help Center</p></Link>

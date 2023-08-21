@@ -400,7 +400,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_Dual_1_25_Products/Dual_A0D_1_25G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_Dual_1_25_Products/Dual_A2D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg3} className='productImg3'/>

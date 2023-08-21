@@ -66,7 +66,7 @@ const BIDI_10_to_40_Products = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_C27" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_10_to_40_Products/BIDI_C27" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -75,11 +75,10 @@ const BIDI_10_to_40_Products = () => {
   <h5>100G QSFP28 Single Lambda LR1-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1271nm EML / Rx1331nm, SMF 10KM, DDM
 </h5>
-
+<p>Part Number : NXO-K8-C27-10D</p>
 <h4>Feature's</h4>
 <p>Compliant with SFF-8665 QSFP28 MSA</p>
 <p>Built in TX CDR and RX CDR</p>
-<p>Hot Pluggable QSFP28 footprint</p>
 <p>Operating Temperature 0~70°C</p>
 </div>
 
@@ -90,7 +89,7 @@ Hot Pluggable, Bidi LC, Tx1271nm EML / Rx1331nm, SMF 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_C29" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_10_to_40_Products/BIDI_C29" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -99,10 +98,9 @@ Hot Pluggable, Bidi LC, Tx1271nm EML / Rx1331nm, SMF 10KM, DDM
   <h5>100G QSFP28 Single Lambda LR1-20-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1291nm EML / Rx1311nm, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-K8-C29-20D</p>
 <h4>Feature's</h4>
 <p>Single 3.3V power supply</p>
-<p>Link distance 20km over SM fiber with FEC</p>
 <p>Hot Pluggable QSFP28 footprint</p>
 <p>CWDM 1291nm EML transmitter</p>
 </div>
@@ -114,7 +112,7 @@ Hot Pluggable, Bidi LC, Tx1291nm EML / Rx1311nm, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_C31" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_10_to_40_Products/BIDI_C31" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg2} className='productImg3'/>
@@ -123,10 +121,9 @@ Hot Pluggable, Bidi LC, Tx1291nm EML / Rx1311nm, SMF 20KM, DDM
   <h5>100G QSFP28 Single Lambda LR1-20-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1311nm EML / Rx1291nm, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-K8-C31-20D</p>
 <h4>Feature's</h4>
 <p>CWDM 1311nm EML transmitter</p>
-<p>Link distance 20km over SM fiber with FEC</p>
 <p>Operating Temperature 0~70°C</p>
 <p>Maximum Power consumption 4.5W</p>
 </div>
@@ -138,7 +135,7 @@ Hot Pluggable, Bidi LC, Tx1311nm EML / Rx1291nm, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_L04" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_10_to_40_Products/BIDI_L04" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg3} className='productImg3'/>
@@ -147,11 +144,10 @@ Hot Pluggable, Bidi LC, Tx1311nm EML / Rx1291nm, SMF 20KM, DDM
   <h5>100G QSFP28 Single Lambda ER1-30-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1304nm EML / Rx1309nm, SMF 30KM, DDM
 </h5>
-
+<p>Part Number : NXO-K8-L04-30D</p>
 <h4>Feature's</h4>
 <p>APD receiver</p>
 <p>Compatible with 100GBASE-ER1-30</p>
-<p>Single 3.3V power supply</p>
 <p>Maximum Power consumption 4.5W</p>
 </div>
 
@@ -162,7 +158,7 @@ Hot Pluggable, Bidi LC, Tx1304nm EML / Rx1309nm, SMF 30KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_L09" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_10_to_40_Products/BIDI_L09" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg4} className='productImg3'/>
@@ -171,12 +167,11 @@ Hot Pluggable, Bidi LC, Tx1304nm EML / Rx1309nm, SMF 30KM, DDM
   <h5>100G QSFP28 Single Lambda ER1-30-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1309nm EML / Rx1304nm, SMF 30KM, DDM
 </h5>
-
+<p>Part Number : NXO-K8-L09-30D</p>
 <h4>Feature's</h4>
 <p>Built in TX CDR and RX CDR</p>
 <p>LWDM 1309nm EML transmitter</p>
 <p>Operating Temperature 0~70°C</p>
-<p>Maximum Power consumption 4.5W</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -186,7 +181,7 @@ Hot Pluggable, Bidi LC, Tx1309nm EML / Rx1304nm, SMF 30KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_C33" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_10_to_40_Products/BIDI_C33" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg5} className='productImg3'/>
@@ -195,12 +190,11 @@ Hot Pluggable, Bidi LC, Tx1309nm EML / Rx1304nm, SMF 30KM, DDM
   <h5>100G QSFP28 Single Lambda LR1-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1331nm EML / Rx1271nm, SMF 10KM, DDM
 </h5>
-
+<p>Part Number : NXO-K8-C33-10D</p>
 <h4>Feature's</h4>
 <p>Built in TX CDR and RX CDR</p>
 <p>CWDM 1331nm EML transmitter</p>
 <p>Operating Temperature 0~70°C</p>
-<p>Maximum Power consumption 4.5W</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>

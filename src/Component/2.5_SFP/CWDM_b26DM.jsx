@@ -195,11 +195,10 @@ Single +3.3V power supply
 
 </p>
 <p className='listFeture'>
-Link budget 30dB over SM fiber at 2.5Gbps
-
+Link budget 26dB over SM fiber at 2.5Gbps
 </p>
 <p className='listFeture'>
-Link distance 100km over SM fiber for 1470~1610nm
+Link distance 80km over SM fiber for 1470~1610nm
 
 
 </p>

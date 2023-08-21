@@ -61,7 +61,7 @@ const Products_40G_LR4 = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_10KM_40G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_40G_LR4/LR4_10KM_40G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -70,12 +70,12 @@ const Products_40G_LR4 = () => {
   <h5>40G QSFP+ LR4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 </h5>
-
+<p>Part Number : NXO-I7-C13-10D</p>
 <h4>Feature's</h4>
 <p>Supports QDR / DDR InfiniBand</p>
 <p>Hot Pluggable</p>
 <p>Duplex LC connector</p>
-<p>RoHS compliant</p>
+
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -84,9 +84,32 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 
         </div>
 
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_40G_LR4/LR4_10KM_40G_i" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>40G QSFP+ LR4 Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
+</h5>
+<p>Part Number : NXO-I7-C13-10Di</p>
+<h4>Feature's</h4>
+<p>Supports QDR / DDR InfiniBand</p>
+<p>Hot Pluggable</p>
+<p>Duplex LC connector</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_20KM_40G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_40G_LR4/LR4_20KM_40G" style={{textDecoration:"none", color:"black"}}>
         <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
@@ -94,12 +117,34 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
   <h5>40G QSFP+ LR4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-I7-C13-20D</p>
 <h4>Feature's</h4>
 <p>Supports QDR / DDR InfiniBand</p>
 <p>Single 3.3V power supply</p>
 <p>Duplex LC connector</p>
-<p>RoHS compliant</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+        </Link>
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_40G_LR4/LR4_20KM_40G_i" style={{textDecoration:"none", color:"black"}}>
+        <div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>40G QSFP+ LR4 Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
+</h5>
+<p>Part Number : NXO-I7-C13-20Di</p>
+<h4>Feature's</h4>
+<p>Supports QDR / DDR InfiniBand</p>
+<p>Single 3.3V power supply</p>
+<p>Duplex LC connector</p>
+
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>

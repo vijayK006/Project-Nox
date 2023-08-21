@@ -4,7 +4,7 @@ import productImg1 from '../../img/products/2.5_SFP/CWDM_2.5G.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
-import machdimenssion from '../../img/products/2.5_SFP//BIDI_Machanical.jpg';
+import machdimenssion from '../../img/products/2.5_SFP/cwdm_26d.jpeg';
 import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
 import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 
@@ -244,8 +244,14 @@ RoHS Compliant
   
  <p>
 
-NXO-E7-Cxx-b26D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity APD receiver provide superior performance for 2.5G CWDM applications up to SMF 26dB budget optical links.
-
+NXO-E7-Cxx-b26D Small Form Factor Pluggable
+SFP transceivers are compliant with the current SFP
+Multi-Source Agreement (MSA) Specification. There
+are 18 wavelengths available from 1270nm to 1610nm
+The high performance uncooled CWDM DFB
+transmitter and high sensitivity APD receiver provide
+superior performance for 2.5G CWDM applications up
+to SMF 26dB budget optical links.
 </p>
 </div>
 </div>

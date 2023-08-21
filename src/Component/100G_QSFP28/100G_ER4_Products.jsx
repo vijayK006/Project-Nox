@@ -20,7 +20,7 @@ import productImg1 from '../../img/products/100G QSFP28/100G_ER4.jpg';
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const ER4_100G = () => {
+const ER4_100G_Products = () => {
   return (
     <>
 <Navbar/>
@@ -61,7 +61,7 @@ const ER4_100G = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/ER4_Single_rate_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/ER4_100G_Products/ER4_Single_rate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -70,11 +70,10 @@ const ER4_100G = () => {
   <h5>100G QSFP28 ER4 Transceiver
 Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
 </h5>
-
+<p>Part Number : NXO-K7-L13-40D</p>
 <h4>Feature's</h4>
 <p>APD receiver</p>
 <p>Duplex LC connector</p>
-<p>RoHS compliant</p>
 <p>O-Band LWDM DFB transmitter</p>
 </div>
 
@@ -85,7 +84,7 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/ER4_VNTP_Media_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/ER4_100G_Products/ER4_VNTP_Media_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -94,10 +93,9 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
   <h5>100G QSFP28 ER4 Transceiver
 Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
 </h5>
-
+<p>Part Number : NXO-K7-L13-40D</p>
 <h4>Feature's</h4>
 <p>Data Rate 25.78125Gbps per Lane</p>
-<p>LAN-WDM DFB transmitter</p>
 <p>Built-in digital diagnostic function</p>
 <p>Link distance 40km over SM fiber</p>
 </div>
@@ -109,7 +107,7 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/ER4_40Di_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/ER4_100G_Products/ER4_40Di_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -118,11 +116,10 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
   <h5>100G QSFP28 ER4 Transceiver
 Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
 </h5>
-
+<p>Part Number : NXO-K7-L13-40DI</p>
 <h4>Feature's</h4>
 <p>Data Rate 25.78125Gbps per Lane</p>
 <p>LAN-WDM DFB transmitter</p>
-<p>Maximum Power consumption 4.5W</p>
 <p>Compliant with SFF-8665 QSFP28 MSA</p>
 </div>
 
@@ -142,4 +139,4 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
   )
 }
 
-export default ER4_100G;
+export default ER4_100G_Products;

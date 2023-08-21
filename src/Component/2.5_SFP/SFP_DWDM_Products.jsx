@@ -87,6 +87,54 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/DWDM_80km" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP DWDM Transceiver
+Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
+</h5>
+
+<h4>Feature's</h4>
+<p>Cooled DWDM DFB laser transmitter</p>
+<p>Single +3.3V power supply</p>
+<p>Link distance 80km over SM fiber</p>
+<p>RoHS compliant</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/DWDM_120km" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP DWDM Transceiver
+Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
+</h5>
+
+<h4>Feature's</h4>
+<p>Cooled DWDM DFB laser transmitter</p>
+<p>APD receiver</p>
+<p>Link distance 120km over SM fiber</p>
+<p>RoHS compliant</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/DWDM_120km" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>

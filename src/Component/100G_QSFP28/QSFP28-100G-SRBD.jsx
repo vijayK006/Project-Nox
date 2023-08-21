@@ -62,7 +62,7 @@ const Product_QSFP28_100G_SRBD = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Product_100G_SRBD" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Product_QSFP28_100G_SRBD/Product_100G_SRBD" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -73,7 +73,7 @@ Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-KC-C85-X1D-T10</p>
 <h4>Feature's</h4>
 <p>Compliant with 100GBASE-SR2 BiDi
 
@@ -84,9 +84,7 @@ Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM
 <p>Compliant with IEEE 802.3bm CAUI-4 Interface
 
 </p>
-<p>Dual wavelength 850/908nm VCSEL Bi-Directional optical interface
 
-</p>
 
 </div>
 
@@ -97,7 +95,7 @@ Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Product_100G_SRBD_DualRate" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Product_QSFP28_100G_SRBD/Product_100G_SRBD_DualRate" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg2} className='productImg3'/>
@@ -107,6 +105,7 @@ Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM
 Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate
 
 </h5>
+<p>Part Number : NXO-KC-C85-X1DR</p>
 
 <h4>Feature's</h4>
 <p>Compliant with 100GBASE-SR2 BiDi and
@@ -118,8 +117,7 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate
 <p>Compliant with SFF-8665 QSFP28 MSA
 
 </p>
-<p>Compliant with IEEE 802.3bm CAUI-4 Interface
-</p>
+
 <p>
 Hot Pluggable QSFP28 footprint
 

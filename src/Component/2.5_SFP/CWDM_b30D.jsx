@@ -4,7 +4,7 @@ import productImg1 from '../../img/products/2.5_SFP/CWDM_2.5G.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
-import machdimenssion from '../../img/products/2.5_SFP//BIDI_Machanical.jpg';
+import machdimenssion from '../../img/products/2.5_SFP/cwdm_26d.jpeg';
 import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
 import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 

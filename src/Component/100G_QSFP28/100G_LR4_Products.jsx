@@ -20,7 +20,7 @@ import productImg1 from '../../img/products/100G QSFP28/PDSM4_100G.jpg';
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const LR4_100G = () => {
+const LR4_100G_Products   = () => {
   return (
     <>
 <Navbar/>
@@ -61,7 +61,7 @@ const LR4_100G = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_Ethernet_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/LR4_100G_Products/LR4_Ethernet_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -70,7 +70,7 @@ const LR4_100G = () => {
   <h5>100G QSFP28 LR4 Transceiver
 Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
 </h5>
-
+<p>Part Number : NXO-K7-L13-10D</p>
 <h4>Feature's</h4>
 <p>Hot Pluggable QSFP28 footprint</p>
 <p>Duplex LC connector</p>
@@ -85,7 +85,7 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_Ethernet_OTU4_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/LR4_100G_Products/LR4_Ethernet_OTU4_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -95,9 +95,8 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
 Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-K7-L13-10DR</p>
 <h4>Feature's</h4>
-<p>Data Rate up to 27.9525Gbps per Lane</p>
 <p>Single 3.3V power supply</p>
 <p>Built in quad TX CDR and RX CDR</p>
 <p>Link distance 10km over SM fiber</p>
@@ -119,4 +118,4 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
   )
 }
 
-export default LR4_100G;
+export default LR4_100G_Products;

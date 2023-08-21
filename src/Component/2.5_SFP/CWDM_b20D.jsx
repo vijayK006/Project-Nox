@@ -28,8 +28,8 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_b20D = () => { 
 
-  let PartNumber = "NXO-E8-S35-40D";
-  let productName ="2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM";
+  let PartNumber = "NXO-E7-Cxx-b20D";
+  let productName ="2.5G SFP OC-48 / STM-16 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 20dB(40KM), DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -241,11 +241,14 @@ RoHS Compliant
   
  <p>
 
-NXO-E8-S35-40D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
-Multi-Source Agreement (MSA) Specification. The high
-performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical links.
-
+{PartNumber} Small Form Factor Pluggable
+SFP transceivers are compliant with the current SFP
+Multi-Source Agreement (MSA) Specification. There
+are 18 wavelengths available from 1270nm to 1610nm
+The high performance uncooled CWDM DFB
+transmitter and high sensitivity S-TIA receiver provide
+superior performance for 2.5G CWDM applications up
+to SMF 20dB budget optical links
 </p>
 </div>
 </div>

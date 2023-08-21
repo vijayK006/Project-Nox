@@ -55,7 +55,7 @@ const SFP_1000T_Products = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>RJ45 Copper Series SFP+ 10G-T</h2>
+<h2 className='pt-5'>SFP 1000T</h2>
 
       <div className='row pt-5  pb-5'>
 
@@ -173,7 +173,6 @@ const SFP_1000T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
-
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 
