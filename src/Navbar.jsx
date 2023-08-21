@@ -611,8 +611,8 @@ const Switchclose_menu8=()=>{
 <div className='col-lg-2 col-md-4'>
 
 <p className='menu-title '>10G SFP+</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ DWDM Tunable</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DWDM</p></Link>
+<Link to="/Tunable_10G_SFP_DWDM" style={{textDecoration:"none"}}><p className='menu-inner-items'>SFP+ DWDM Tunable</p></Link>
+<Link to="/Products_DWDM_10G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ CWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DUAL</p></Link>
@@ -1141,7 +1141,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series12'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu12}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DWDM Tunable</p></Link>
+<Link to="/Tunable_10G_SFP_DWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DWDM Tunable</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP CWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP BIDI</p></Link>
@@ -1261,8 +1261,8 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series24'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu24}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ DWDM Tunable</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ DWDM</p></Link>
+<Link to="/Tunable_10G_SFP_DWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>SFP+ DWDM Tunable</p></Link>
+<Link to="/Products_DWDM_10G_SFP" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ DWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ CWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ BIDI</p></Link>
 
