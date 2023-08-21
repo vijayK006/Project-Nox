@@ -61,7 +61,7 @@ const Product_QSFP28_100G_SR4 = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Product_100G_SR4" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Product_QSFP28_100G_SR4/Product_100G_SR4" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -71,13 +71,12 @@ const Product_QSFP28_100G_SR4 = () => {
 Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
 
 </h5>
+<p>Part Number : NXOQ28-K9-M85-X1D</p>
 
 <h4>Feature's</h4>
 <p>Compliant with IEEE802.3bm 100GBASE-SR4
 </p>
 <p>Compliant with SFF-8665 QSFP28 MSA
-</p>
-<p>Compliant with IEEE 802.3bm CAUI-4 Interface
 </p>
 <p>4 independent full-duplex channels
 </p>
@@ -91,7 +90,7 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Product_100G_SR4_DualRate" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Product_QSFP28_100G_SR4/Product_100G_SR4_DualRate" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -101,14 +100,14 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
 Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate
 
 </h5>
+<p>Part Number : NXOQ28-K9-M85-X1DR</p>
 
 <h4>Feature's</h4>
 <p>Compliant with IEEE802.3bm 100GBASE-SR4
 </p>
 <p>Compliant with SFF-8665 QSFP28 MSA
 </p>
-<p>Compliant with IEEE 802.3bm CAUI-4 Interface
-</p>
+
 <p>4 independent full-duplex channels</p>
 </div>
 

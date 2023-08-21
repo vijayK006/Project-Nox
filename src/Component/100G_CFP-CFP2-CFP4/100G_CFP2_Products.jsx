@@ -64,7 +64,7 @@ const CFP2_Products_100G = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Product_100G_QSFP28" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/CFP2_Products_100G/Product_100G_QSFP28" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -72,10 +72,9 @@ const CFP2_Products_100G = () => {
 <div className='product-dec'>
   <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
 </h5>
-
+<p>Part Number : NXO-AS8-C2QP-Nx</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply</p>
-<p>Hot Pluggable</p>
 <p>1 port QSFP28 TX&RX</p>
 <p>RoHS compliant</p>
 </div>
@@ -87,7 +86,7 @@ const CFP2_Products_100G = () => {
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/ER4_DuleRate_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/CFP2_Products_100G/ER4_DuleRate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg2} className='productImg3'/>
@@ -96,12 +95,12 @@ const CFP2_Products_100G = () => {
   <h5>100G CFP2 ER4 Dual Rate Transceiver
 Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
 </h5>
+<p>Part Number : NXO-K7-L13-40DR</p>
 
 <h4>Feature's</h4>
 <p>APD receiver</p>
 <p>Duplex LC connector</p>
 <p>Low power consumption, {'<'}12W</p>
-<p>Single 3.3V power supply</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -111,7 +110,7 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_Eathernet_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/CFP2_Products_100G/LR4_Eathernet_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg3} className='productImg3'/>
@@ -121,10 +120,11 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
 Hot Pluggable, Duplex LC, DML LAN-WDM, Single Mode, 10KM, DDM
 
 </h5>
+<p>Part Number : NXO-K7-L13-10D</p>
+
 
 <h4>Feature's</h4>
 <p>Compliant to CFP2 MSA</p>
-<p>Duplex LC connector</p>
 <p>Built in quad TX CDR and RX CDR</p>
 <p>Single 3.3V power supply</p>
 </div>
@@ -136,7 +136,7 @@ Hot Pluggable, Duplex LC, DML LAN-WDM, Single Mode, 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_DualRate_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/CFP2_Products_100G/LR4_DualRate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg3} className='productImg3'/>
@@ -145,11 +145,11 @@ Hot Pluggable, Duplex LC, DML LAN-WDM, Single Mode, 10KM, DDM
   <h5>100G CFP2 LR4 Dual Rate Transceiver
 Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM
 </h5>
+<p>Part Number : NXO-K7-L13-10DR</p>
 
 <h4>Feature's</h4>
 <p>Compliant to CFP2 MSA</p>
 <p>4-CH optical Mux/DeMux design</p>
-<p>Support up to 111.8Gb/s aggregate bit rate</p>
 <p>Built in quad TX CDR and RX CDR</p>
 </div>
 
@@ -161,7 +161,7 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM
 
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SR10_DuleRate_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/CFP2_Products_100G/SR10_DuleRate_100G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg4} className='productImg3'/>
@@ -170,12 +170,12 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM
   <h5>100G CFP2 SR10 Dual Rate Transceiver
 Hot Pluggable, MPO / MTP-24, 850nm VCSEL, MMF, 100M, DDM
 </h5>
+<p>Part Number : NXO-K9-M85-X1DR</p>
 
 <h4>Feature's</h4>
 <p>Compliant to CFP2 MSA</p>
 <p>Compliant to ITU G.709 OTU4</p>
 <p>Single 3.3V power supply</p>
-<p>RoHS compliant</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>

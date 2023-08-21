@@ -61,7 +61,7 @@ const Products_40G_LR4 = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_10KM_40G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_40G_LR4/LR4_10KM_40G" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -85,7 +85,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_10KM_40G_i" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_40G_LR4/LR4_10KM_40G_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -109,7 +109,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_20KM_40G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_40G_LR4/LR4_20KM_40G" style={{textDecoration:"none", color:"black"}}>
         <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
@@ -131,7 +131,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/LR4_20KM_40G_i" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_40G_LR4/LR4_20KM_40G_i" style={{textDecoration:"none", color:"black"}}>
         <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 

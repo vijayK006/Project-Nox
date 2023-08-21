@@ -62,7 +62,7 @@ const BIDI_4WDM_Products = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/L12_4WDM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_4WDM_Products/L12_4WDM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg2} className='productImg3'/>
@@ -72,12 +72,11 @@ const BIDI_4WDM_Products = () => {
 Hot Pluggable, Bidi LC, LAN-WDM
 Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-K8-L13-20De</p>
 <h4>Feature's</h4>
 <p>O-Band LWDM DFB transmitter</p>
 <p>Single 3.3V power supply</p>
 <p>Operating Temperature -20~85°C</p>
-<p>Maximum Power consumption 5.5W</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -87,7 +86,7 @@ Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/L13_4WDM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/BIDI_4WDM_Products/L13_4WDM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -97,12 +96,11 @@ Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
 Hot Pluggable, Bidi LC, LAN-WDM
 Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-K8-L12-20De</p>
 <h4>Feature's</h4>
 <p>Compatible with 4WDM-20 MSA</p>
 <p>Simplex LC connector</p>
 <p>Operating Temperature -20~85°C</p>
-<p>Maximum Power consumption 5.5W</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>

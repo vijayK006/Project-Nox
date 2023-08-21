@@ -15,16 +15,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../img/products/100G QSFP28/100G_ER4.jpg';
+import productImg1 from '../../img/products/25G SFP28/SFP28_CWDM.jpg';
+import productImg2 from '../../img/products/25G SFP28/SFP_BX10_33Img.jpg';
 
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const ER4_100G_Products = () => {
+const SFP28_25G_CWDM_Products = () => {
   return (
     <>
 <Navbar/>
-
 <div className='container leave-navbar'>
 <Swiper
         spaceBetween={30}
@@ -56,25 +56,27 @@ const ER4_100G_Products = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>QSFP28-100G-ER4</h2>
+<h2 className='pt-5'>25G SFP28 CWDM</h2>
 
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/ER4_100G_Products/ER4_Single_rate_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP28_25G_CWDM_Products/CWDM_10DQ" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G QSFP28 ER4 Transceiver
-Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
+  <h5>25G SFP28 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
+
+
 </h5>
-<p>Part Number : NXO-K7-L13-40D</p>
+<p>Part Number : NXO-N7-Cxx-10DQ</p>
+
 <h4>Feature's</h4>
-<p>APD receiver</p>
+<p>Maximum Power consumption 1.4W</p>
+<p>Data Rate up to 25.78Gbps</p>
 <p>Duplex LC connector</p>
-<p>O-Band LWDM DFB transmitter</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -84,43 +86,22 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/ER4_100G_Products/ER4_VNTP_Media_100G" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP28_25G_CWDM_Products/CWDM_10DQ_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>100G QSFP28 ER4 Transceiver
-Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
+  <h5>25G SFP28 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
+
+
 </h5>
-<p>Part Number : NXO-K7-L13-40D</p>
+<p>Part Number : NXO-N7-Cxx-10DQi</p>
+
 <h4>Feature's</h4>
-<p>Data Rate 25.78125Gbps per Lane</p>
-<p>Built-in digital diagnostic function</p>
-<p>Link distance 40km over SM fiber</p>
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/ER4_100G_Products/ER4_40Di_100G" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>100G QSFP28 ER4 Transceiver
-Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
-</h5>
-<p>Part Number : NXO-K7-L13-40DI</p>
-<h4>Feature's</h4>
-<p>Data Rate 25.78125Gbps per Lane</p>
-<p>LAN-WDM DFB transmitter</p>
-<p>Compliant with SFF-8665 QSFP28 MSA</p>
+<p>Maximum Power consumption 1.4W</p>
+<p>Data Rate up to 25.78Gbps</p>
+<p>Duplex LC connector</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -139,4 +120,4 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
   )
 }
 
-export default ER4_100G_Products;
+export default SFP28_25G_CWDM_Products;

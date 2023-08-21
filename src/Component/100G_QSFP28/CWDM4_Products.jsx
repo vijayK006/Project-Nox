@@ -71,11 +71,10 @@ const CWDM4_Products = () => {
   <h5>100G QSFP28 CWDM4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 2KM, DDM
 </h5>
-
+<p>Part Number : NXO-K7-C13-02D</p>
 <h4>Feature's</h4>
 <p>CWDM DFB transmitter</p>
 <p>Single 3.3V power supply</p>
-<p>Built in quad TX CDR and RX CDR</p>
 <p>Maximum Power consumption 3.5W</p>
 </div>
 
@@ -95,12 +94,11 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 2KM, DDM
   <h5>100G QSFP28 CWDM4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 </h5>
-
+<p>Part Number : NXO-K7-C13-10D</p>
 <h4>Feature's</h4>
 <p>Compliant with 100GBASE-CWDM4</p>
 <p>4CH CWDM MUX / DEMUX design</p>
 <p>CWDM DFB transmitter</p>
-<p>Hot Pluggable QSFP28 footprint</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
