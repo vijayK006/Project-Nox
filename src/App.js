@@ -318,15 +318,25 @@ import BIDI_H8_C27_40D from './Component/10G SFP+/BIDI_H8_C27_40D';
 
 import Products_Dual_SFP_155M from './Component/125M 155M  SFP/Products_Dual_SFP_155M';
 import Dual_155M_02D from './Component/125M 155M  SFP/Dual_155M_02D';
+import Dual_155M_02Di from './Component/125M 155M  SFP/Dual_155M_02Di';
 import Dual_155M_05D from './Component/125M 155M  SFP/Dual_155M_05D';
+import Dual_155M_05Di from './Component/125M 155M  SFP/Dual_155M_05Di';
 import Dual_155M_M85_02D from './Component/125M 155M  SFP/Dual_155M_M85_02D';
+import Dual_155M_M85_02Di from './Component/125M 155M  SFP/Dual_155M_M85_02Di';
 import Dual_155M_S13_20D from './Component/125M 155M  SFP/Dual_155M_S13_20D';
+import Dual_155M_S13_20Di from './Component/125M 155M  SFP/Dual_155M_S13_20Di';
 import Dual_155M_S13_30D from './Component/125M 155M  SFP/Dual_155M_S13_30D';
+import Dual_155M_S13_30Di from './Component/125M 155M  SFP/Dual_155M_S13_30Di';
 import Dual_155M_S13_40D from './Component/125M 155M  SFP/Dual_155M_S13_40D';
+import Dual_155M_S13_40Di from './Component/125M 155M  SFP/Dual_155M_S13_40Di';
 import Dual_155M_S13_60D from './Component/125M 155M  SFP/Dual_155M_S13_60D';
+import Dual_155M_S13_60Di from './Component/125M 155M  SFP/Dual_155M_S13_60Di';
 import Dual_155M_S15_80D from './Component/125M 155M  SFP/Dual_155M_S15_80D';
+import Dual_155M_S15_80Di from './Component/125M 155M  SFP/Dual_155M_S15_80Di';
 import Dual_155M_S15_A0D from './Component/125M 155M  SFP/Dual_155M_S15_A0D';
+import Dual_155M_S15_A0Di from './Component/125M 155M  SFP/Dual_155M_S15_A0Di';
 import Dual_155M_S15_A2D from './Component/125M 155M  SFP/Dual_155M_S15_A2D';
+import Dual_155M_S15_A2Di from './Component/125M 155M  SFP/Dual_155M_S15_A2Di';
 import Dual_155M_S15_A4D from './Component/125M 155M  SFP/Dual_155M_S15_A4D';
 import Dual_155M_S15_A4Di from './Component/125M 155M  SFP/Dual_155M_S15_A4Di';
 import Dual_155M_S15_A6D from './Component/125M 155M  SFP/Dual_155M_S15_A6D';
@@ -334,6 +344,17 @@ import Dual_155M_S15_A6Di from './Component/125M 155M  SFP/Dual_155M_S15_A6Di';
 import Dual_155M_S15_B0D from './Component/125M 155M  SFP/Dual_155M_S15_B0D';
 import Dual_155M_S15_B0Di from './Component/125M 155M  SFP/Dual_155M_S15_B0Di';
 import Dual_155M_S15_B2D from './Component/125M 155M  SFP/Dual_155M_S15_B2D';
+import Tunable_10G_SFP_DWDM from './Component/10G_SFP+/Tunable_10G_SFP_DWDM';
+import Products_DWDM_10G_SFP from './Component/10G_SFP+/Products_DWDM_10G_SFP';
+import DWDM_10G_40D from './Component/10G_SFP+/DWDM_10G_40D';
+import DWDM_10G_40Di from './Component/10G_SFP+/DWDM_10G_40Di';
+import DWDM_10G_80D from './Component/10G_SFP+/DWDM_10G_80D';
+import DWDM_10G_80Di from './Component/10G_SFP+/DWDM_10G_80Di';
+import DWDM_10G_A0D from './Component/10G_SFP+/DWDM_10G_A0D';
+import DWDM_H7_40D from './Component/10G_SFP+/DWDM_H7_40D';
+import DWDM_H7_40Di from './Component/10G_SFP+/DWDM_H7_40Di';
+import DWDM_H7_80D from './Component/10G_SFP+/DWDM_H7_80D';
+import DWDM_H7_80Di from './Component/10G_SFP+/DWDM_H7_80Di';
 
 
 function App() {
@@ -677,15 +698,25 @@ function App() {
 
      <Route path="/Products_Dual_SFP_155M" element={<Products_Dual_SFP_155M/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_02D" element={<Dual_155M_02D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_02Di" element={<Dual_155M_02Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_05D" element={<Dual_155M_05D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_05Di" element={<Dual_155M_05Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_M85_02D" element={<Dual_155M_M85_02D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_M85_02Di" element={<Dual_155M_M85_02Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_20D" element={<Dual_155M_S13_20D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_20Di" element={<Dual_155M_S13_20Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_30D" element={<Dual_155M_S13_30D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_30Di" element={<Dual_155M_S13_30Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_40D" element={<Dual_155M_S13_40D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_40Di" element={<Dual_155M_S13_40Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_60D" element={<Dual_155M_S13_60D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S13_60Di" element={<Dual_155M_S13_60Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_80D" element={<Dual_155M_S15_80D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_80Di" element={<Dual_155M_S15_80Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A0D" element={<Dual_155M_S15_A0D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A0Di" element={<Dual_155M_S15_A0Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A2D" element={<Dual_155M_S15_A2D/>}/>
+     <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A2Di" element={<Dual_155M_S15_A2Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A4D" element={<Dual_155M_S15_A4D/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A4Di" element={<Dual_155M_S15_A4Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_A6D" element={<Dual_155M_S15_A6D/>}/>
@@ -693,8 +724,18 @@ function App() {
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_B0D" element={<Dual_155M_S15_B0D/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_B0Di" element={<Dual_155M_S15_B0Di/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_S15_B2D" element={<Dual_155M_S15_B2D/>}/>
-     
-     
+     <Route path="/Tunable_10G_SFP_DWDM" element={<Tunable_10G_SFP_DWDM/>}/>
+     <Route path="/Products_DWDM_10G_SFP" element={<Products_DWDM_10G_SFP/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_10G_40D" element={<DWDM_10G_40D/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_10G_40Di" element={<DWDM_10G_40Di/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_10G_80D" element={<DWDM_10G_80D/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_10G_80Di" element={<DWDM_10G_80Di/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_10G_A0D" element={<DWDM_10G_A0D/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_H7_40D" element={<DWDM_H7_40D/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_H7_40Di" element={<DWDM_H7_40Di/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_H7_80D" element={<DWDM_H7_80D/>}/>
+     <Route path="/Products_DWDM_10G_SFP/DWDM_H7_80Di" element={<DWDM_H7_80Di/>}/>
+    
      
      
     </Routes>
