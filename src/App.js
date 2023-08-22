@@ -326,7 +326,35 @@ import DWDM_H7_40D from './Component/10G_SFP+/DWDM_H7_40D';
 import DWDM_H7_40Di from './Component/10G_SFP+/DWDM_H7_40Di';
 import DWDM_H7_80D from './Component/10G_SFP+/DWDM_H7_80D';
 import DWDM_H7_80Di from './Component/10G_SFP+/DWDM_H7_80Di';
+import Products_CWDM_10G_SFP from './Component/10G_SFP+/Products_CWDM_10G_SFP';
 
+import CWDM_H7_08D from './Component/10G_SFP+/CWDM_H7_08D';
+import CWDM_H7_08Di from './Component/10G_SFP+/CWDM_H7_08Di';
+import CWDM_H7_40D from './Component/10G_SFP+/CWDM_H7_40D';
+import CWDM_H7_40Di from './Component/10G_SFP+/CWDM_H7_40Di';
+import CWDM_H7_80D from './Component/10G_SFP+/CWDM_H7_80D';
+import CWDM_H7_80Di from './Component/10G_SFP+/CWDM_H7_80Di';
+import CWDM_H7_b12D from './Component/10G_SFP+/CWDM_H7_b12D';
+import CWDM_H7_b12Di from './Component/10G_SFP+/CWDM_H7_b12Di';
+import CWDM_H7_b26D from './Component/10G_SFP+/CWDM_H7_b26D';
+import CWDM_H7_b26Di from './Component/10G_SFP+/CWDM_H7_b26Di';
+import Products_Dual_10G_SFP from './Component/10G_SFP+/Products_Dual_10G_SFP';
+import Dual_M13_X2D from './Component/10G_SFP+/Dual_M13_X2D';
+import Dual_M13_X2Di from './Component/10G_SFP+/Dual_M13_X2Di';
+import Dual_M85_X3D from './Component/10G_SFP+/Dual_M85_X3D';
+import Dual_M85_X3Di from './Component/10G_SFP+/Dual_M85_X3Di';
+import Dual_M85_X3DM from './Component/10G_SFP+/Dual_M85_X3DM';
+import Dual_M85_X3DMi from './Component/10G_SFP+/Dual_M85_X3DMi';
+import Dual_H7_02D from './Component/10G_SFP+/Dual_H7_02D';
+import Dual_H7_02Di from './Component/10G_SFP+/Dual_H7_02Di';
+import Dual_H7_02DM from './Component/10G_SFP+/Dual_H7_02DM';
+import Dual_H7_02DMi from './Component/10G_SFP+/Dual_H7_02DMi';
+import Dual_H7_10DQ from './Component/10G_SFP+/Dual_H7_10DQ';
+import Dual_H7_10DQi from './Component/10G_SFP+/Dual_H7_10DQi';
+import Dual_H7_20DM from './Component/10G_SFP+/Dual_H7_20DM';
+import Dual_H7_20DMi from './Component/10G_SFP+/Dual_H7_20DMi';
+import Dual_H7_40DM from './Component/10G_SFP+/Dual_H7_40DM';
+import Dual_H7_40DMi from './Component/10G_SFP+/Dual_H7_40DMi';
 
 function App() {
   return (
@@ -682,7 +710,36 @@ function App() {
      <Route path="/Products_DWDM_10G_SFP/DWDM_H7_40Di" element={<DWDM_H7_40Di/>}/>
      <Route path="/Products_DWDM_10G_SFP/DWDM_H7_80D" element={<DWDM_H7_80D/>}/>
      <Route path="/Products_DWDM_10G_SFP/DWDM_H7_80Di" element={<DWDM_H7_80Di/>}/>
-    
+     <Route path="/Products_CWDM_10G_SFP" element={<Products_CWDM_10G_SFP/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_08D" element={<CWDM_H7_08D/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_08Di" element={<CWDM_H7_08Di/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_40D" element={<CWDM_H7_40D/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_40Di" element={<CWDM_H7_40Di/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_80D" element={<CWDM_H7_80D/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_80Di" element={<CWDM_H7_80Di/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_b12D" element={<CWDM_H7_b12D/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_b12Di" element={<CWDM_H7_b12Di/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_b26D" element={<CWDM_H7_b26D/>}/>
+     <Route path="/Products_CWDM_10G_SFP/CWDM_H7_b26Di" element={<CWDM_H7_b26Di/>}/>
+     <Route path="/Products_Dual_10G_SFP" element={<Products_Dual_10G_SFP/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_M13_X2D" element={<Dual_M13_X2D/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_M13_X2Di" element={<Dual_M13_X2Di/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_M85_X3D" element={<Dual_M85_X3D/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_M85_X3Di" element={<Dual_M85_X3Di/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_M85_X3DM" element={<Dual_M85_X3DM/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_M85_X3DMi" element={<Dual_M85_X3DMi/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_02D" element={<Dual_H7_02D/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_02Di" element={<Dual_H7_02Di/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_02DM" element={<Dual_H7_02DM/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_02DMi" element={<Dual_H7_02DMi/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_10DQ" element={<Dual_H7_10DQ/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_10DQi" element={<Dual_H7_10DQi/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_20DM" element={<Dual_H7_20DM/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_20DMi" element={<Dual_H7_20DMi/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_40DM" element={<Dual_H7_40DM/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_40DMi" element={<Dual_H7_40DMi/>}/>
+     
+     
      
      
     </Routes>
