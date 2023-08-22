@@ -1,13 +1,17 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/10G SFP+/c27_20D.jpg'
+import productImg1 from '../../img/products/2.5_SFP/Dual_3.jpg'
 
-import pinassisment from '../../img/products/10G SFP+/pinAssignment.jpg';
-import machdimenssion from '../../img/products/10G SFP+/mechDimenssion.jpg';
-import Memorymap from '../../img/products/10G SFP+/memoryMap.png';
+import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
+import machdimenssion from '../../img/products/2.5_SFP//BIDI_Machanical.jpg';
+import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
+import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
+
+import {TiTickOutline} from 'react-icons/ti';
 
 
 
@@ -16,22 +20,16 @@ import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
 
 import { Link } from 'react-router-dom';
-import { TiTickOutline } from 'react-icons/ti';
 
 
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const BIDI_H8_C27_20D = () => { 
+const Dual_S15_A0Di = () => { 
 
-  let PartNumber = "NXO-H8-C27-20D";
-  let productName ="10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM";
-
-  const [name, setName] = useState("");
-  const [mobNumber, setmobNumber] = useState("");
-  const [userEmail, setuserEmail] = useState("");
-  const [userMessage, setuserMessage] = useState("");
+  let PartNumber = "NXO-E7-S15-A0Di";
+  let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM";
 
   const form = useRef();
   
@@ -42,12 +40,7 @@ const BIDI_H8_C27_20D = () => {
       .then((result) => {
           console.log(result.text);
           console.log("Message Sent :)");
-          document.getElementById('successMsg').style.top="0px";
-    
-          setName("");
-          setmobNumber("");
-          setuserEmail("");
-          setuserMessage("");
+          document.getElementById('successMsg').classList.add('popupvisiable');
 
       }, (error) => {
           console.log(error.text);
@@ -56,8 +49,9 @@ const BIDI_H8_C27_20D = () => {
 
 
   const hidePop = ()=>{
-    document.getElementById("successMsg").style.top="-100%";
+    document.getElementById("successMsg").classList.add('popuphidden');
       }
+
   return (
 <>
     <Navbar/>
@@ -146,35 +140,58 @@ const BIDI_H8_C27_20D = () => {
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/>  In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compatible with IEEE802.3ae 10GBASE-BX(BR)</p>
-<p className='listFeture'>Compliant with CPRI Option 7, 8</p>
-<p className='listFeture'>Compliant with SFF-8431 SFP+ MSA</p>
-<p className='listFeture'>Support 8.5Gb/s to 11.32Gb/s Multi-Rate</p>
-<p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>1270nm DFB laser transmitter</p>
-<p className='listFeture'>Simplex LC connector</p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
-<p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 20km over SM fiber</p>
-<p className='listFeture'>RoHS Compliant</p>
+<p className='listFeture'>Compatible with SONET OC-48 SR and SDH
+STM-16 I-16
+
+</p>
+
+
+<p className='listFeture'>Compliant with INF-8074i SFP MSA
+</p>
+
+
+<p className='listFeture'>Hot Pluggable
+</p>
+
+<p className='listFeture'>1550nm VCSEL laser transmitter
+
+
+</p>
+<p className='listFeture'>APD receiver</p>
+
+<p className='listFeture'>Duplex LC connector
+
+</p>
+<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472
+
+</p>
+<p className='listFeture'>Single +3.3V power supply
+
+</p>
+<p className='listFeture'>Link distance 100km over SM fiber
 
 
 
+</p>
+<p className='listFeture'>RoHS Compliant
+
+</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>10GBASE-BX(BR) Ethernet @10.3125G</p>
-<p className='listFeture'>Fiber Channel 800-SM-LC-L 8GFC @8.5G, 1200-SM-LL-L 10GFC @10.51875G</p>
-<p className='listFeture'>SONET OC-192 & SDH STM-64 @9.953G</p>
-<p className='listFeture'>CPRI Option #7 @9.83G, #8 @10.1376G</p>
-<p className='listFeture'>OTN OTU2 @10.7G, OTU2e @11.09G, OTU2f @11.32G</p>
+<p className='listFeture'>SONET OC-48 / SDH STM-16 @2.5G
+
+
+
+</p>
+
 
 </div>
 
@@ -213,8 +230,12 @@ const BIDI_H8_C27_20D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-H8-C27-20D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1270nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for 10GBASE Ethernet applications up to SMF 20km optical links.
+ <p>
+
+
+{PartNumber} Small Form Factor Pluggable
+SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity APD receiver provide superior
+performance for SONET OC-48 / SDH STM-16 applications up to SMF 80km optical links.
 
 </p>
 </div>
@@ -257,7 +278,7 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
 
         <tr>
           <td>Supply Voltage</td>
-          <td>Vcc5</td>
+          <td>Vcc</td>
           <td>-0.5</td>
           <td>+4.0</td>
           <td>V</td>
@@ -290,7 +311,7 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-20D)</td>
+          <td>Case Operating Temp. (NXO-E7-S15-A0D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -299,7 +320,7 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-20Di)</td>
+          <td>Case Operating Temp. (NXO-E7-S15-A0Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -317,24 +338,23 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-20D)</td>
+          <td>Supply Current (NXO-E7-S15-A0D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>300</td>
+          <td>290</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-20Di)</td>
+          <td>Supply Current (NXO-E7-S15-A0Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>350</td>
+          <td>320</td>
           <td>mA</td>
         </tr>
 
-        
       </tbody>
     </table>
   </div>
@@ -342,24 +362,32 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
  </div>
 
  <div id="menu3" class="container tab-pane fade"><br/>
-  <p>As defined by the SFP MSA (SFF-8472) NXO SFP+ transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
- <ul>
+    <div class="container mt-3">
+  <h2>Digital Diagnostic Functions</h2>
+
+  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>
     <li>Transmitted optical power</li>
     <li>Received optical power</li>
     <li>Transceiver supply voltage</li>
- </ul>
- <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
+  </ul>
+
+  <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
 </p>
 
-<p>The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
-activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP+ transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data
-from the SFP+ transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host
-uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
-<br/><br/><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.</b>
+<p>
+The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
+activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
 </p>
-  </div>
+
+<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472)
+Specification.
+</b></p>
+
+</div>
+ </div>
 
   </div>
 </div>
@@ -371,6 +399,20 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>
 </div>
+
+</div>
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
+</div>
+<br/>
+<br/>
+{/* <div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ Memorymap2 } className='sectionImg2_1' alt="memorymapImg"/>
+</div> */}
 
 </div>
 
@@ -386,18 +428,6 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
 
 </div>
 {/* Mechanical Dimensions section end */}
-
-{/* Digital Diagnostic Memory Map section start */}
-
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={Memorymap} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
-</div>
-
-</div>
-{/* Digital Diagnostic Memory Map section end */}
 
 
 
@@ -420,7 +450,7 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
       <div className='row'>
 <div className='col-md-6 col-sm-12'>
 <label>Your Product Part Number</label>
-<input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
+<input type='text' className='form-control mt-2 mb-2' value={PartNumber} name='Partno' readOnly/>
 </div>
 <div className='col-md-6 col-sm-12'>
 <label>Your Product Name</label>
@@ -429,18 +459,18 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
       </div>
     </div>
 
- <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
+ <input type='text' className='form-control mt-2 mb-2' placeholder='Enter Your Name' name="user_name" required/>
         <div className='row'>
 <div className='col-6'>
-<input type='number' className='form-control mt-2 mb-2' value={mobNumber}  onChange={(e) => setmobNumber(e.target.value)} placeholder='Enter Your Mobile Number' name="mobileno" required/>
+<input type='number' className='form-control mt-2 mb-2' placeholder='Enter Your Mobile Number' name="mobileno" required/>
 </div>
 <div className='col-6'>
-<input type='email' className='form-control mt-2 mb-2' value={userEmail}  onChange={(e) => setuserEmail(e.target.value)} placeholder='Enter Your Email' name="email" required/>
+<input type='email' className='form-control mt-2 mb-2' placeholder='Enter Your Email' name="email" required/>
 
       </div>
     </div>
       
-       <textarea rows="2" cols='2' className='form-control' value={userMessage}  onChange={(e) => setuserMessage(e.target.value)} placeholder='Enter Your Message' name='message' required></textarea>
+       <textarea rows="2" cols='2' className='form-control' placeholder='Enter Your Message' name='message' required></textarea>
 <input type='submit' className='btn btn-danger mt-2' value="Send" style={{width:"200px"}}/>
       </form>
        </div>
@@ -475,4 +505,4 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
   )
 }
 
-export default BIDI_H8_C27_20D;
+export default Dual_S15_A0Di;

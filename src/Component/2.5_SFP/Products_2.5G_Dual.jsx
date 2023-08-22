@@ -72,24 +72,47 @@ const Products_2point5_Dual = () => {
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
-  <h5>
-
- 
+  <h5> 
 2.5G SFP OC-48 / STM-16 Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
-
-
-
-
-
 </h5>
-
+<p>Part Number : NXO-E7-M85-X3D</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply
 </p>
-<p>850nm VCSEL laser transmitter
+
+
+<p>Duplex LC connector
 
 </p>
+<p>RoHS Compliant
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_X3Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5> 
+2.5G SFP OC-48 / STM-16 Transceiver
+Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
+</h5>
+<p>Part Number : NXO-E7-M85-X3Di</p>
+<h4>Feature's</h4> 
+<p>Single +3.3V power supply
+</p>
+
 
 <p>Duplex LC connector
 
@@ -120,13 +143,46 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-M85-X3DM</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>850nm VCSEL laser transmitter
+
+
+<p>Duplex LC connector
 
 </p>
+<p>RoHS Compliant
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_X3DMi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 / STM-16 Multi-Rate Transceiver
+Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
+
+
+
+
+</h5>
+<p>Part Number : NXO-E7-M85-X3DMi</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+
 
 <p>Duplex LC connector
 
@@ -158,12 +214,43 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S13-02D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>1310nm FP laser transmitter
+<p>Duplex LC connector
 
+</p>
+
+<p>RoHS Compliant
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_02Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 SR / STM-16 I-16 Transceiver
+Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-E7-S13-02Di</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
 </p>
 <p>Duplex LC connector
 
@@ -193,12 +280,40 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S13-20D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>1310nm DFB laser transmitter
 
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
+
+
+
+</h5>
+<p>Part Number : NXO-E7-S13-20Di</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
 </p>
 
 <p>Duplex LC connector
@@ -228,12 +343,41 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S13-40D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>1310nm DFB laser transmitter
 
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S13_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
+
+
+
+
+</h5>
+<p>Part Number : NXO-E7-S13-40Di</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
 </p>
 
 <p>Duplex LC connector
@@ -264,10 +408,42 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S13-60D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
+<p>1310nm DFB laser transmitter
+
 </p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S13_60Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-E7-S13-60Di</p>
+<h4>Feature's</h4>
 <p>1310nm DFB laser transmitter
 
 </p>
@@ -301,15 +477,44 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 40KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S15-40D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
 <p>1550nm DFB laser transmitter
 
 </p>
+<p>RoHS Compliant
+</p>
+</div>
 
-<p>Duplex LC connector
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 40KM, DDM
+
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-E7-S15-40Di</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
 
 </p>
 <p>RoHS Compliant
@@ -339,10 +544,46 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S15-80D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
+
+<p>1550nm DFB laser transmitter
+
 </p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_80Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
+
+
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-E7-S15-80Di</p>
+<h4>Feature's</h4>
+
 <p>1550nm DFB laser transmitter
 
 </p>
@@ -378,10 +619,45 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S15-A0D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
+<p>1550nm DFB laser transmitter
+
 </p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_A0Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
+
+
+
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-E7-S15-A0Di</p>
+<h4>Feature's</h4>
 <p>1550nm DFB laser transmitter
 
 </p>
@@ -418,7 +694,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S15-A0DM</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -429,8 +705,37 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
 <p>Duplex LC connector
 
 </p>
-<p>RoHS Compliant
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_A0DMi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
+</h5>
+<p>Part Number : NXO-E7-S15-A0DMi</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
 </p>
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -451,7 +756,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S15-A2D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -459,9 +764,36 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 </p>
 
-<p>Duplex LC connector
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_A2Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-E7-S15-A2Di</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1550nm DFB laser transmitter
 
 </p>
+
 <p>RoHS Compliant
 </p>
 </div>
@@ -485,10 +817,42 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM, Multi-Rate
 
 
 </h5>
-
+<p>Part Number : NXO-E7-S15-A2DM</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
+
+<p>1550nm DFB laser transmitter
+
 </p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_2point5_Dual/Dual_S15_A2DMi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM, Multi-Rate
+
+
+
+</h5>
+<p>Part Number : NXO-E7-S15-A2DMi</p>
+<h4>Feature's</h4>
+
 <p>1550nm DFB laser transmitter
 
 </p>

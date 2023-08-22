@@ -79,11 +79,8 @@ const Products_SFP_1_25G_BIDI = () => {
 Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-C2-S35-20D</p>
 <h4>Feature's</h4> 
-<p>Hot Pluggable
-
-</p>
 <p>1310nm FP laser transmitter
 
 </p>
@@ -119,14 +116,12 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C2-S53-20D</p>
 <h4>Feature's</h4>
 <p>Hot Pluggable
 
 </p>
-<p>1550nm DFP laser transmitter
 
-</p>
 
 <p>Simplex SC connector
 
@@ -161,14 +156,12 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, MMF 500M, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-M35_X5D</p>
 <h4>Feature's</h4>
 <p>Hot Pluggable
 
 </p>
-<p>1310nm DFP laser transmitter
 
-</p>
 
 <p>Simplex LC connector
 
@@ -201,10 +194,9 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 10KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S34-10D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1310nm FB laser transmitter
 
 </p>
@@ -238,10 +230,9 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S34-20D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1310nm FB laser transmitter
 
 </p>
@@ -268,7 +259,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 <div className='product-dec'>
   <h5>1.25G SFP 1000BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 40KM, DDM
 </h5>
-
+<p>Part Number : NXO-C8-S34-40D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -279,8 +270,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 <p>Simplex LC connector
 
 </p>
-<p>RoHS Compliant
-</p>
+
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -298,15 +288,8 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 <div className='product-dec'>
   <h5>1.25G SFP 1000BX-U Transceiver
 Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 2KM, DDM
-
-
-
-
-
-
-
 </h5>
-
+<p>Part Number : NXO-C8-S35-02D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -319,8 +302,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 2KM, DDM
 
 
 </p>
-<p>RoHS Compliant
-</p>
+
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
@@ -340,17 +322,10 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 2KM, DDM
 Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
 
 
-
-
-
-
-
-
 </h5>
-
+<p>Part Number : NXO-C8-S35-20D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1310nm FP laser transmitter
 
 
@@ -381,14 +356,11 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
 Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-C8-S35-40D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>1310nm DFB laser transmitter
 
-
-</p>
 
 <p>Simplex LC connector
 
@@ -415,14 +387,11 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 60KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-C8-S35-60D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
-<p>1310nm DFB laser transmitter
 
-
-</p>
 
 <p>Simplex LC connector
 
@@ -451,10 +420,9 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 10KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S43-10D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1490nm DFB laser transmitter
 
 
@@ -487,10 +455,9 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 20KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S43-20D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1490nm DFB laser transmitter
 
 </p>
@@ -525,10 +492,9 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 40KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S43-40D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1490nm DFB laser transmitter
 
 </p>
@@ -548,7 +514,7 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_80D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S45_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1_4} className='productImg3'/>
@@ -563,10 +529,9 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 80KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S45-80D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1490nm DFB laser transmitter
 
 </p>
@@ -586,7 +551,7 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 80KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_A0D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S45_A0D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1_4} className='productImg3'/>
@@ -602,10 +567,9 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 100KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S45-A0D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1490nm DFB laser transmitter
 
 </p>
@@ -642,10 +606,9 @@ Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 2KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S53-02D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1550nm DFB laser transmitter
 
 </p>
@@ -675,10 +638,9 @@ Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 2KM, DDM
 Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-C8-S53-40D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1550nm DFB laser transmitter
 
 </p>
@@ -709,10 +671,9 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 60KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S53-60D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1550nm DFB laser transmitter
 
 </p>
@@ -744,10 +705,9 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 80KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S54-80D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1550nm DFB laser transmitter
 
 </p>
@@ -780,10 +740,9 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 100KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C8-S54-A0D</p>
 <h4>Feature's</h4>
-<p>Single +3.3V power supply
-</p>
+
 <p>1550nm DFB laser transmitter
 
 </p>

@@ -65,7 +65,7 @@ const SFP_BIDI_Products = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_S35_20D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_BIDI_Products/BIDI_S35_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -75,15 +75,11 @@ const SFP_BIDI_Products = () => {
 2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
 Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
 
-
-
-
 </h5>
-
+<p>Part Number : NXO-E8-S35-20D</p>
 <h4>Feature's</h4>
 <p>1310nm DFB transmitter</p>
 <p>Duplex SC connector</p>
-<p>Support DDM function</p>
 <p>Compliant to X2 MSA</p>
 
 
@@ -96,7 +92,34 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_S53_20D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_BIDI_Products/BIDI_S35_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+2.5G SFP OC-48 IR-1 / STM-16 S16.1 Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
+
+</h5>
+<p>Part Number : NXO-E8-S35-20Di</p>
+<h4>Feature's</h4>
+<p>1310nm DFB transmitter</p>
+<p>Duplex SC connector</p>
+<p>Compliant to X2 MSA</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_BIDI_Products/BIDI_S53_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1_2} className='productImg3'/>
@@ -106,12 +129,11 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
 Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
 
 </h5>
-
+<p>Part Number : NXO-E8-S53-20D</p>
 <h4>Feature's</h4>
 <p>Compliant with INF-8074i SFP MSA
 </p>
-<p>Hot Pluggable
-</p>
+
 <p>1550nm DFB laser transmitter
 </p>
 <p>Simplex LC connector
@@ -126,7 +148,36 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_S35_40D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_BIDI_Products/BIDI_S53_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 IR-2 / STM-16 S16.2 Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
+
+</h5>
+<p>Part Number : NXO-E8-S53-20Di</p>
+<h4>Feature's</h4>
+<p>Compliant with INF-8074i SFP MSA
+</p>
+
+<p>1550nm DFB laser transmitter
+</p>
+<p>Simplex LC connector
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_BIDI_Products/BIDI_S35_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -135,12 +186,11 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
 Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 </h5>
-
+<p>Part Number : NXO-E8-S35-40D</p>
 <h4>Feature's</h4>
 <p>Compliant with INF-8074i SFP MSA
 </p>
-<p>Hot Pluggable
-</p>
+
 <p>1310nm DFB laser transmitter
 
 </p>
@@ -155,9 +205,37 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 
         </div>
 
-        
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/BIDI_S53_40D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_BIDI_Products/BIDI_S35_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
+</h5>
+<p>Part Number : NXO-E8-S35-40Di</p>
+<h4>Feature's</h4>
+<p>Compliant with INF-8074i SFP MSA
+</p>
+
+<p>1310nm DFB laser transmitter
+
+</p>
+<p>Simplex LC connector
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_BIDI_Products/BIDI_S53_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1_2} className='productImg3'/>
@@ -167,10 +245,9 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-E8-S53-40D</p>
 <h4>Feature's</h4>
-<p>Compliant with INF-8074i SFP MSA
-</p>
+
 <p>Hot Pluggable
 </p>
 <p>1550nm DFB laser transmitter
@@ -186,6 +263,34 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
 
         </div>
 
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_BIDI_Products/BIDI_S53_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
+
+</h5>
+<p>Part Number : NXO-E8-S53-40Di</p>
+<h4>Feature's</h4>
+
+<p>Hot Pluggable
+</p>
+<p>1550nm DFB laser transmitter
+
+</p>
+<p>Simplex LC connector
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
       </div>
 </div>
 
