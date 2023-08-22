@@ -60,7 +60,7 @@ const SFP_1000T_Products = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T01_Xl" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T01_Xl" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -68,7 +68,69 @@ const SFP_1000T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
+<p>Part Number : NXO-CJ-T01-X1</p>
+<h4>Feature's</h4>
+<p>Support RX_LOS function
 
+
+</p>
+<p>Auto-detect MDI/MDI-X
+
+</p>
+<p>RJ-45 connector
+
+
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T01_Xli" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+</h5>
+<p>Part Number : NXO-CJ-T01-X1i</p>
+<h4>Feature's</h4>
+<p>Support RX_LOS function
+
+
+</p>
+<p>Auto-detect MDI/MDI-X
+
+</p>
+<p>RJ-45 connector
+
+
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T10_X1" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+</h5>
+<p>Part Number : NXO-CJ-T10-X1</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 
@@ -95,7 +157,7 @@ const SFP_1000T_Products = () => {
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T01_Xli" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T10_X1i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -103,7 +165,132 @@ const SFP_1000T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
+<p>Part Number : NXO-CJ-T10-X1i</p>
+<h4>Feature's</h4>
+<p>Support RX_LOS function
 
+
+</p>
+
+<p>Auto-detect MDI/MDI-X
+
+</p>
+<p>RJ-45 connector
+
+
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T11_X1" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+</h5>
+<p>Part Number : NXO-CJ-T11-X1</p>
+<h4>Feature's</h4>
+<p>Support RX_LOS function
+
+
+</p>
+<p>Auto-detect MDI/MDI-X
+
+</p>
+<p>RJ-45 connector
+
+
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T11_X1i" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+</h5>
+<p>Part Number : NXO-CJ-T11-X1i</p>
+<h4>Feature's</h4>
+<p>Support RX_LOS function
+
+
+</p>
+<p>Auto-detect MDI/MDI-X
+
+</p>
+<p>RJ-45 connector
+
+
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T20_X1" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+</h5>
+<p>Part Number : NXO-CJ-T20-X1</p>
+<h4>Feature's</h4>
+<p>Support RX_LOS function
+
+
+</p>
+<p>Auto-detect MDI/MDI-X
+
+</p>
+<p>RJ-45 connector
+
+
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T20_X1i" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
+</h5>
+<p>Part Number : NXO-CJ-T20-X1i</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 
@@ -130,7 +317,7 @@ const SFP_1000T_Products = () => {
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T10_X1" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T22_X1" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -138,13 +325,9 @@ const SFP_1000T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
-
+<p>Part Number : NXO-CJ-T22-X1</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
 
 
 </p>
@@ -165,7 +348,7 @@ const SFP_1000T_Products = () => {
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T10_X1i" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_1000T_Products/SFP_1000T_T22_X1i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -173,6 +356,7 @@ const SFP_1000T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
+<p>Part Number : NXO-CJ-T22-X1i</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 
@@ -183,220 +367,6 @@ const SFP_1000T_Products = () => {
 
 </p>
 <p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T11_X1" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T11_X1i" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T20_X1" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T20_X1i" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T22_X1" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
-
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP_1000T_T22_X1i" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
-</h5>
-
-<h4>Feature's</h4>
-<p>Support RX_LOS function
-
-
-</p>
-<p>I2C 2-wire interface for serial ID
-
-
-</p>
-<p>Auto-detect MDI/MDI-X
-
-</p>
-<p>RJ-45 connector
-
 
 </p>
 

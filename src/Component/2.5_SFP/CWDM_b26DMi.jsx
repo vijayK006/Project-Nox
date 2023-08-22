@@ -1,31 +1,35 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
+import productImg1 from '../../img/products/2.5_SFP/CWDM_2.5G.jpg'
+
+import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
+import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
+import machdimenssion from '../../img/products/2.5_SFP//BIDI_Machanical.jpg';
+import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
+import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
+
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
-import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/25G SFP28/SFP_BX10_27Img.jpg';
-import { TiTickOutline } from 'react-icons/ti';
+import {TiTickOutline} from 'react-icons/ti';
 
 
-import memorymapimg from '../../img/products/25G SFP28/memoryMap.png'
-import mchdimensionImg from '../../img/products/25G SFP28/SFP_BX_10_mecDimenssion.jpg'
-import powerSupply from '../../img/products/100G QSFP28/PowerSupply.jpg'
-import pinAssisment from '../../img/products/25G SFP28/SFP_BX10_PinAssisment.jpg'
-// import transcerve from '../../img/products/100G QSFP28/transciverBlock_ER4_single.jpg'
 
+import { BsCartCheck } from 'react-icons/bs';
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
-import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
+
+import { Link } from 'react-router-dom';
+
 
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
+const CWDM_b26DMi = () => { 
 
-const SFP28_BX10_27_i = () => {
-  let PartNumber = "NXO-N8-C27-10DQi";
-  let productName = "25G SFP28 BX-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 10KM, DDM";
+  let PartNumber = "NXO-E7-Cxx-b26DMi";
+  let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -59,8 +63,7 @@ const SFP28_BX10_27_i = () => {
       }
 
   return (
-
-    <>
+<>
     <Navbar/>
 
 <div className='product-struct'>
@@ -69,25 +72,8 @@ const SFP28_BX10_27_i = () => {
 <div className='LightBox'>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={loopbackImg1} className='img-main' alt="product-40GLoobBack"/>
-{/* <ReactImageMagnify {...{
-                        smallImage: {
-                            alt: 'nox product image',
-                            isFluidWidth: true,
-                            src: loopbackImg1,
-                        },
-                        largeImage: {
-                            src: loopbackImg1,
-                            width: 1200,
-                            height: 1800,
-                            // opacity:1
-                          
-                        },
-                        enlargedImageContainerDimensions: {
-                          width: '150%',
-                          height: '100%'
-                      }
-                    }} className='img-main'/> */}
+<img src={productImg1} className='img-main' alt="product-40GLoobBack"/>
+
 </div>
 
 <p className='text-center' style={{color:"gray", fontWeight:"200", fontSize:"15px" , marginBottom:"0px"}}>Click to open expanded view</p>
@@ -97,46 +83,46 @@ const SFP28_BX10_27_i = () => {
 
 
     <Item
-      original={loopbackImg1}
-      thumbnail={loopbackImg1}
+      original={productImg1}
+      thumbnail={productImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={loopbackImg1}
-      thumbnail={loopbackImg1}
+      original={productImg1}
+      thumbnail={productImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={loopbackImg1}
-      thumbnail={loopbackImg1}
+      original={productImg1}
+      thumbnail={productImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
       )}
     </Item>
 
     <Item
-      original={loopbackImg1}
-      thumbnail={loopbackImg1}
+      original={productImg1}
+      thumbnail={productImg1}
       width="1024"
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={loopbackImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
       )}
     </Item>
    
@@ -153,48 +139,99 @@ const SFP28_BX10_27_i = () => {
 </div>
 
 <div className='product-content'>
-<h4>{productName}</h4>
+<h4>
+{productName}
+</h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<div className='sell-text'>{PartNumber}</div>
+<p className='sell-text'>{PartNumber}</p>
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/>  In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compatible with IEEE802.3cc 25GBASE Ethernet</p>
-<p className='listFeture'>Compliant with CPRI option10</p>
-<p className='listFeture'>Compliant with SFF-8402 SFP28 MSA</p>
-<p className='listFeture'>Data Rate up to 25.78Gbps</p>
-<p className='listFeture'>Built-in CDR on both Transmitter and Receiver</p>
-<p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>1270nm DFB laser transmitter</p>
-<p className='listFeture'>Simplex LC connector</p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
-<p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 10km over SM fiber</p>
-<p className='listFeture'>RoHS Compliant</p>
+<p className='listFeture'>Compatible with SONET OC-48 LR-2 and SDH
+STM-16 L16.2
+</p>
+<p className='listFeture'>Compatible with SONET OC-12 LR-2 and SDH STM-4 L4.2
+
+</p><p className='listFeture'>Compatible with SONET OC-3 LR2 and SDH STM-1 L1.2
+
+
+</p>
+<p className='listFeture'>Compatible with IEEE802.3z Gigabit Ethernet
+</p>
+
+
+<p className='listFeture'>Compliant with INF-8074i SFP MSA
+</p>
+
+<p className='listFeture'>Multi-Rate 2.5G / 1.25G / 622M / 155M
+</p>
+<p className='listFeture'>Hot Pluggable
+</p>
+<p className='listFeture'>Uncooled CWDM DFB laser transmitter
+
+</p>
+<p className='listFeture'>APD receiver
+</p>
+<p className='listFeture'>S-TIA receiver
+</p>
+<p className='listFeture'>18 CWDM Wavelength 1270~1610nm available
+</p>
+<p className='listFeture'>Duplex LC connector
+
+</p>
+<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472
+</p>
+<p className='listFeture'>
+Single +3.3V power supply
+
+</p>
+<p className='listFeture'>
+Link budget 26dB over SM fiber at 2.5Gbps
+</p>
+<p className='listFeture'>
+Link distance 80km over SM fiber for 1470~1610nm
+
+
+</p>
+<p className='listFeture'>
+RoHS Compliant
+
+</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>25GBASE Ethernet @25.78G</p>
-<p className='listFeture'>CPRI Option #10 @24.33G</p>
-<p className='listFeture'>eCPRI 5G Mobile Networks</p>
+<p className='listFeture'>SONET OC-48 / SDH STM-16 @2.5G
+</p>
+<p className='listFeture'>SONET OC-12 / SDH STM-4 @622M
+
+</p>
+<p className='listFeture'>SONET OC-3 / SDH STM-1 @155M
+
+</p>
+<p className='listFeture'>Gigabit Ethernet @1.25G
+
+</p>
+<p className='listFeture'>CWDM Networks
+</p>
 
 </div>
 
 </div>
 
 <div className='container pt-lg-5  pb-lg-5'>
-<div className='d-flex felx-wrap justify-content-center'>
-       <ul class="nav nav-pills" role="tablist">
+<div className='resp-overflow'>
+    <div className='d-flex justify-content-center'>
+       <ul class="navs nav-pills" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-bs-toggle="pill" href="#home">Overview</a>
     </li>
@@ -209,13 +246,14 @@ const SFP28_BX10_27_i = () => {
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
-
     <li class="nav-item">
-      <a class="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic Functions</a>
+      <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
     </li>
 
   </ul> 
 </div>
+</div>
+
 
 
   <div class="tab-content">
@@ -223,15 +261,13 @@ const SFP28_BX10_27_i = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N8-C27-10DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 1270nm DFB
-transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE
-Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
+ <p>
+
+{PartNumber} Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity APD receiver provide superior performance for 2.5G Multi-Rate CWDM applications up to SMF 30dB budget optical links.
 
 </p>
 </div>
 </div>
-
-
 
 <div id="menu1" class="container tab-pane fade"><br/>
     <div class="container mt-3">
@@ -282,7 +318,7 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
 </div>
 </div>
 
-    <div id="menu2" class="container tab-pane fade"><br/>
+ <div id="menu2" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Recommended Operating Conditions</h2>
   
@@ -302,9 +338,9 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
       </thead>
       <tbody>
 
-        <tr>
-          <td>Case Operating Temp. (NXO-N8-C27-10DQ)</td>
-          <td>TOP</td>
+      <tr>
+          <td>Case Operating Temp. (NXO-E7-Cxx-b26DM)</td>
+          <td>Top</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
@@ -312,8 +348,8 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N8-C27-10DQi)</td>
-          <td>TOP</td>
+          <td>Case Operating Temp. (NXO-E7-Cxx-b26DMi)</td>
+          <td>Top</td>
           <td>-40</td>
           <td>-</td>
           <td>+85</td>
@@ -329,33 +365,22 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
           <td>V</td>
         </tr>
 
+        <tr>
+          <td>Supply Current (NXO-E7-Cxx-b26DM)</td>
+          <td>Icc</td>
+          <td></td>
+          <td></td>
+          <td>270</td>
+          <td>mA</td>
+        </tr>
 
         <tr>
-          <td>Supply Current (NXO-N7-M85-10DQ)</td>
+          <td>Supply Current (NXO-E7-Cxx-b26DMi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>360</td>
+          <td>300</td>
           <td>mA</td>
-        </tr>
-       
-       
-        <tr>
-          <td>Supply Current (NXO-N7-M85-10DQi)</td>
-          <td>Icc</td>
-          <td></td>
-          <td></td>
-          <td>400</td>
-          <td>mA</td>
-        </tr>
-        
-        <tr>
-          <td>Power Consumption</td>
-          <td>P</td>
-          <td></td>
-          <td></td>
-          <td>1.4</td>
-          <td>W</td>
         </tr>
 
       </tbody>
@@ -364,37 +389,31 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
 </div>
  </div>
 
- 
-
-
- <div id="menu4" class="container tab-pane fade"><br/>
+ <div id="menu3" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
-  <p>As defined by the SFP MSA (SFF-8472) NXO SFP+ transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
 
-</p>
-
-<ul>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <ul>
     <li>Transceiver temperature</li>
-    <li>Laser bias current </li>
-    <li>Transmitted optical power </li>
-    <li>Received optical power </li>
+    <li>Laser bias current</li>
+    <li>Transmitted optical power</li>
+    <li>Received optical power</li>
     <li>Transceiver supply voltage</li>
-</ul>
-<p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
+  </ul>
 
+  <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
 </p>
 
 <p>
 The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
-activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP+ transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data
-from the SFP+ transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host
-uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
-
-
+activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
 </p>
-<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.
+
+<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472)
+Specification.
 </b></p>
+
 </div>
  </div>
 
@@ -403,15 +422,28 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
 
 {/* Memory Map Section Start */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Digital Diagnostic Memory Map
-</h1>
+  <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={memorymapimg} className='sectionImg2_1' alt="memorymapImg"/>
+<img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>
 </div>
 
 </div>
-{/* Memory Map Section End */}
+
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
+</div>
+<br/>
+<br/>
+{/* <div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ Memorymap2 } className='sectionImg2_1' alt="memorymapImg"/>
+</div> */}
+
+</div>
+
 
 {/* Mechanical Dimensions section start */}
 
@@ -419,28 +451,15 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
+<img src={machdimenssion} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
 
 </div>
-
 {/* Mechanical Dimensions section end */}
 
-{/* Pin Assisment section start */}
 
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Pin Assignment</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={pinAssisment} className='sectionImg3' alt="memorymapImg"/>
-</div>
-
-</div>
-
-{/* Pin Assisment section end */}
 
 <Footer/>
-
 {/* --------------------------------------------------------------------------------------------------------- */}
 <div class="modal fade" id="myModal">
   <div class="modal-dialog modal-dialog-centered">
@@ -514,4 +533,4 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
   )
 }
 
-export default SFP28_BX10_27_i;
+export default CWDM_b26DMi;

@@ -56,7 +56,7 @@ const SR4_40G_Products = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>8GFC SFP+ DUAL</h2>
+<h2 className='pt-5'>QSFP+ 40G-SR4</h2>
 
       <div className='row pt-5  pb-5'>
 

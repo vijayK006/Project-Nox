@@ -4,15 +4,14 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import { Link } from 'react-router-dom';
 
-import loopbackImg1 from '../../img/products/25G SFP28/SFP_BX10_27Img.jpg';
-import { TiTickOutline } from 'react-icons/ti';
+import loopbackImg1 from '../../img/products/RJ45 Copper Series/SFP_10-T_Y.jpg';
 
 
 import memorymapimg from '../../img/products/25G SFP28/memoryMap.png'
-import mchdimensionImg from '../../img/products/25G SFP28/SFP_BX_10_mecDimenssion.jpg'
+import mchdimensionImg from '../../img/products/RJ45 Copper Series/SFP_10-T_Y_3.jpg'
 import powerSupply from '../../img/products/100G QSFP28/PowerSupply.jpg'
-import pinAssisment from '../../img/products/25G SFP28/SFP_BX10_PinAssisment.jpg'
-// import transcerve from '../../img/products/100G QSFP28/transciverBlock_ER4_single.jpg'
+import pinAssisment from '../../img/products/RJ45 Copper Series/SFP_10-T_Y_2.jpg'
+import transcerve from '../../img/products/RJ45 Copper Series/SFP_100Tx_2.jpg'
 
 import { LiaWarehouseSolid } from 'react-icons/lia';
 import { MdSecurity } from 'react-icons/md';
@@ -21,22 +20,23 @@ import { BsCartCheck,BsCartPlus } from 'react-icons/bs';
 // photo swaping 
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
+import {TiTickOutline} from 'react-icons/ti';
 
 
-const SFP28_BX10_27_i = () => {
-  let PartNumber = "NXO-N8-C27-10DQi";
-  let productName = "25G SFP28 BX-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 10KM, DDM";
+const T22_Y3_10G_T = () => {
+  let PartNumber = "NXO-HJ-T22-Y3  ";
+  let productName = "10GBASE-T SFP+ Transceiver Hot Pluggable, RJ-45, Active Copper SFP+, 30M";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
   const [userEmail, setuserEmail] = useState("");
   const [userMessage, setuserMessage] = useState("");
-
+  
   const form = useRef();
   
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs.sendForm('service_s6yscqg', 'template_nnkudli', form.current, 'ctLMl35oWO-hYo21q')
       .then((result) => {
           console.log(result.text);
@@ -47,17 +47,16 @@ const SFP28_BX10_27_i = () => {
           setmobNumber("");
           setuserEmail("");
           setuserMessage("");
-
+  
       }, (error) => {
           console.log(error.text);
       });
   }; 
-
-
+  
+  
   const hidePop = ()=>{
     document.getElementById("successMsg").style.top="-100%";
       }
-
   return (
 
     <>
@@ -168,25 +167,54 @@ const SFP28_BX10_27_i = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compatible with IEEE802.3cc 25GBASE Ethernet</p>
-<p className='listFeture'>Compliant with CPRI option10</p>
-<p className='listFeture'>Compliant with SFF-8402 SFP28 MSA</p>
-<p className='listFeture'>Data Rate up to 25.78Gbps</p>
-<p className='listFeture'>Built-in CDR on both Transmitter and Receiver</p>
-<p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>1270nm DFB laser transmitter</p>
-<p className='listFeture'>Simplex LC connector</p>
-<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
+<p className='listFeture'>Compliant with IEEE 802.3an, 802.3ab and 802.3z
+
+
+</p>
+
+<p className='listFeture'>Compliant with SFF-8431, 8432 SFP+ MSA
+
+
+</p>
+<p className='listFeture'>
+Support 10GBASE-T/ 5GBASE-T/ 2.5GBASE-T/ 1000BASE-T/ 100BASE-TX
+
+</p>
+<p className='listFeture'>Hot Pluggable
+
+
+</p>
+<p className='listFeture'>Auto-negotiates with other 10GBASE-T PHYs</p>
+
+<p className='listFeture'>Auto-detect MDI/MDI-X on RJ-45 port
+
+</p>
+
+<p className='listFeture'>Support RX_LOS(Loss Of Signal) function
+</p>
+<p className='listFeture'>I2C 2-wire interface for serial ID
+
+</p>
+<p className='listFeture'>RJ-45 connector
+
+</p>
+
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 10km over SM fiber</p>
+<p className='listFeture'>10G link length up to 30m with Cat.6a/7, 2.5G/5G link length up to 50m with Cat.5E, 100M/1G link length up to 100m with Cat.5E
+
+</p>
+
 <p className='listFeture'>RoHS Compliant</p>
+
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>25GBASE Ethernet @25.78G</p>
-<p className='listFeture'>CPRI Option #10 @24.33G</p>
-<p className='listFeture'>eCPRI 5G Mobile Networks</p>
+<p className='listFeture'>1G / 2.5G / 5G / 10GBASE-T Application
+
+</p>
+
+
 
 </div>
 
@@ -210,9 +238,9 @@ const SFP28_BX10_27_i = () => {
     </li>
 
 
-    <li class="nav-item">
+    {/* <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu4">Digital Diagnostic Functions</a>
-    </li>
+    </li> */}
 
   </ul> 
 </div>
@@ -223,9 +251,14 @@ const SFP28_BX10_27_i = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N8-C27-10DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 1270nm DFB
-transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE
-Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
+ <p>{PartNumber} Small Form Factor Pluggable
+SFP+ Copper transceivers are compliant with the
+current SFP+ Multi-Source Agreement (MSA)
+Specification. The High performance designed is
+integrated full duplex data link at 10Gbps over four pair
+Category 6a/7 cable up to 30m links. It is specifically
+designed for high speed communication links that
+require 10 Gigabit Ethernet over copper cable.
 
 </p>
 </div>
@@ -270,7 +303,7 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
 
         <tr>
           <td>Supply Voltage</td>
-          <td>Vcc</td>
+          <td>VCC</td>
           <td>-0.5</td>
           <td>+4.0</td>
           <td>V</td>
@@ -303,60 +336,75 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N8-C27-10DQ)</td>
+          <td> Case Operating Temp.</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
         </tr>
-
-        <tr>
-          <td>Case Operating Temp. (NXO-N8-C27-10DQi)</td>
-          <td>TOP</td>
-          <td>-40</td>
-          <td>-</td>
-          <td>+85</td>
-          <td>°C</td>
-        </tr>
-
+        
+      
         <tr>
           <td>Supply Voltage</td>
-          <td>Vcc</td>
+          <td>VCC</td>
           <td>+3.13</td>
           <td>+3.3</td>
           <td>+3.47</td>
           <td>V</td>
         </tr>
 
-
         <tr>
-          <td>Supply Current (NXO-N7-M85-10DQ)</td>
+          <td>Maximum Voltage</td>
+          <td>Vmax</td>
+          <td></td>
+          <td></td>
+          <td>4</td>
+          <td>V</td>
+        </tr>
+        <tr>
+          <td>Data Rate</td>
+          <td>DR</td>
+          <td></td>
+          <td>10.3125</td>
+          <td></td>
+          <td>Gb/s</td>
+        </tr>
+        <tr>
+          <td>Bit Error Rate</td>
+          <td>BER</td>
+          <td></td>
+          <td></td>
+          <td>10-12</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Supply Current</td>
           <td>Icc</td>
           <td></td>
-          <td></td>
-          <td>360</td>
+          <td>700</td>
+          <td>750</td>
           <td>mA</td>
         </tr>
-       
-       
         <tr>
-          <td>Supply Current (NXO-N7-M85-10DQi)</td>
-          <td>Icc</td>
+          <td>Surge Current</td>
+          <td>Isurge
+</td>
           <td></td>
           <td></td>
-          <td>400</td>
+          <td>30</td>
           <td>mA</td>
         </tr>
-        
         <tr>
           <td>Power Consumption</td>
           <td>P</td>
           <td></td>
           <td></td>
-          <td>1.4</td>
+          <td>2.5</td>
           <td>W</td>
         </tr>
+        
+       
 
       </tbody>
     </table>
@@ -367,11 +415,10 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
  
 
 
- <div id="menu4" class="container tab-pane fade"><br/>
+ {/* <div id="menu4" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
-  <p>As defined by the SFP MSA (SFF-8472) NXO SFP+ transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
-
+  <p>As defined by the QSFP28 MSA(SFF-8472) , NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
 </p>
 
 <ul>
@@ -381,36 +428,28 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
     <li>Received optical power </li>
     <li>Transceiver supply voltage</li>
 </ul>
-<p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
-
-</p>
-
+<p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.</p>
 <p>
-The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
-activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP+ transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data
-from the SFP+ transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host
-uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
-
-
+The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the QSFP28 transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the QSFP28 transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially. The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed from 000h to the maximum address of the memory.
 </p>
 <p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.
 </b></p>
 </div>
- </div>
+ </div> */}
 
   </div>
 </div>
 
 {/* Memory Map Section Start */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Digital Diagnostic Memory Map
-</h1>
+    {/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+    <h1 className='pb-4'>Digital Diagnostic Memory Map
+    </h1>
 
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={memorymapimg} className='sectionImg2_1' alt="memorymapImg"/>
-</div>
+    <div className='d-flex justify-content-center' style={{width:"100%"}}>
+    <img src={memorymapimg} className='sectionImg2_1' alt="memorymapImg"/>
+    </div>
 
-</div>
+    </div> */}
 {/* Memory Map Section End */}
 
 {/* Mechanical Dimensions section start */}
@@ -419,12 +458,25 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={mchdimensionImg} className='sectionImg3' alt="memorymapImg"/>
+<img src={mchdimensionImg} className='sectionImg2' alt="memorymapImg"/>
 </div>
 
 </div>
 
 {/* Mechanical Dimensions section end */}
+
+{/* Power Supply section start */}
+
+{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Recommended Power Supply Filter</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={powerSupply} className='sectionImg3' alt="memorymapImg"/>
+</div>
+
+</div> */}
+
+{/* Power Supply section end */}
 
 {/* Pin Assisment section start */}
 
@@ -438,6 +490,19 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
 </div>
 
 {/* Pin Assisment section end */}
+
+{/* Transcrve Block section start */}
+
+{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2 mb-4'>
+  <h1 className='pb-4'>Transceiver Block Diagram:</h1>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={transcerve} className='sectionImg2_2' alt="memorymapImg"/>
+</div>
+
+</div> */}
+
+{/* Transcrve Block section end */}
 
 <Footer/>
 
@@ -514,4 +579,5 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
   )
 }
 
-export default SFP28_BX10_27_i;
+export default T22_Y3_10G_T;
+

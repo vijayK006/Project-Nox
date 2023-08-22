@@ -333,7 +333,7 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
           <td></td>
           <td></td>
           <td>270</td>
-          <td>V</td>
+          <td>mA</td>
         </tr>
        
        
@@ -343,7 +343,7 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
           <td></td>
           <td></td>
           <td>300</td>
-          <td>V</td>
+          <td>mA</td>
         </tr>
         
         <tr>

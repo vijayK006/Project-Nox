@@ -63,31 +63,10 @@ const X2_DUAL_Products = () => {
 
       <div className='row pt-5  pb-5'>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/X2_10G_SR" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
-</h5>
-
-<h4>Feature's</h4>
-<p>Single +3.3V power supply</p>
-<p>Hot Pluggable</p>
-<p>1 port QSFP28 TX&RX</p>
-<p>RoHS compliant</p>
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
+       
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/X2_10G_LR" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/X2_DUAL_Products/X2_10G_LR" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -96,9 +75,8 @@ const X2_DUAL_Products = () => {
   <h5>10G X2-LR Transceiver
 Hot Pluggable, Duplex SC, 1310nm DFB, Single Mode, 10KM, DDM
 </h5>
-
+<p>Part Number : NXO-H1-S13-10D</p>
 <h4>Feature's</h4>
-<p>1310nm DFB transmitter</p>
 <p>Duplex SC connector</p>
 <p>Support DDM function</p>
 <p>Compliant to X2 MSA</p>
@@ -111,7 +89,7 @@ Hot Pluggable, Duplex SC, 1310nm DFB, Single Mode, 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/X2_10G_ER" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/X2_DUAL_Products/X2_10G_ER" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -120,9 +98,8 @@ Hot Pluggable, Duplex SC, 1310nm DFB, Single Mode, 10KM, DDM
   <h5>10G X2-ER Transceiver
 Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 40KM, DDM
 </h5>
-
+<p>Part Number : NXO-H1-S15-40D</p>
 <h4>Feature's</h4>
-<p>Cooled 1550nm EA-DFB transmitter</p>
 <p>Duplex SC connector</p>
 <p>Support DDM function</p>
 <p>Compliant to X2 MSA</p>
@@ -136,7 +113,7 @@ Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 40KM, DDM
 
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/X2_10G_ZR" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/X2_DUAL_Products/X2_10G_ZR" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -145,12 +122,33 @@ Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 40KM, DDM
   <h5>10G X2-ZR Transceiver
 Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 80KM, DDM
 </h5>
-
+<p>Part Number : NXO-H1-S15-80D</p>
 <h4>Feature's</h4>
 <p>Cooled 1550nm EA-DFB transmitter</p>
-<p>Duplex SC connector</p>
 <p>Support DDM function</p>
 <p>Compliant to X2 MSA</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/X2_DUAL_Products/X2_10G_SR" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
+</h5>
+<p>Part Number : NXO-H1-M85-X3D</p>
+<h4>Feature's</h4>
+<p>Hot Pluggable</p>
+<p>1 port QSFP28 TX&RX</p>
+<p>RoHS compliant</p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>

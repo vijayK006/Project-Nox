@@ -63,7 +63,7 @@ const SFP_DWDM_Products = () => {
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/DWDM_80km" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_DWDM_Products/DWDM_80km" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -72,9 +72,8 @@ const SFP_DWDM_Products = () => {
   <h5>1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-
+<p>Part Number : NXO-E7-Dxx-80D</p>
 <h4>Feature's</h4>
-<p>Cooled DWDM DFB laser transmitter</p>
 <p>Single +3.3V power supply</p>
 <p>Link distance 80km over SM fiber</p>
 <p>RoHS compliant</p>
@@ -87,7 +86,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/DWDM_80km" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_DWDM_Products/DWDM_80km_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -96,10 +95,10 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   <h5>1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
+<p>Part Number : NXO-E7-Dxx-80Di</p>
 
 <h4>Feature's</h4>
 <p>Cooled DWDM DFB laser transmitter</p>
-<p>Single +3.3V power supply</p>
 <p>Link distance 80km over SM fiber</p>
 <p>RoHS compliant</p>
 </div>
@@ -111,7 +110,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/DWDM_120km" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_DWDM_Products/DWDM_120km" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -120,10 +119,10 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   <h5>1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
+<p>Part Number : NXO-E7-Dxx-A2D</p>
 
 <h4>Feature's</h4>
 <p>Cooled DWDM DFB laser transmitter</p>
-<p>APD receiver</p>
 <p>Link distance 120km over SM fiber</p>
 <p>RoHS compliant</p>
 </div>
@@ -135,7 +134,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/DWDM_120km" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP_DWDM_Products/DWDM_120km_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -144,11 +143,11 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   <h5>1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
+<p>Part Number : NXO-E7-Dxx-A2Di</p>
 
 <h4>Feature's</h4>
 <p>Cooled DWDM DFB laser transmitter</p>
 <p>APD receiver</p>
-<p>Link distance 120km over SM fiber</p>
 <p>RoHS compliant</p>
 </div>
 

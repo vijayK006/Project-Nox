@@ -143,7 +143,7 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<div className='sell-text'>NXO-I9-M85-X1D
+<div className='sell-text'>NXO-I9-M85-X1Di
 
 </div>
 </div>
