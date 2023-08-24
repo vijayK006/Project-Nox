@@ -21,7 +21,8 @@ import productImg1 from '../../img/products/10SFP+/Dual_1.jpg';
 import productImg2 from '../../img/products/10SFP+/Dual_2.jpg'
 import productImg3 from '../../img/products/1.25G SFP/SFP_Dual_50D.jpg'
 import productImg4 from '../../img/products/10SFP+/Dual_3.jpg'
-import productImg5 from '../../img/products/125M 155M  SFP/Dual_S15_155M.jpg'
+import productImg5 from '../../img/products/10SFP+/Dual_4.jpg'
+import productImg6 from '../../img/products/10SFP+/Dual_5.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -543,24 +544,24 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A0D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_40DQ" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg5} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  125M / 155M SFP 100BASE-ZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
+  10G SFP+ ER Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, CDR
 
 </h5>
-<p>Part Number : NXO-A7-S13-A0D</p>
+<p>Part Number : NXO-H7-S15-40DQ</p>
 
 <h4>Feature's</h4> 
-{/* <p>Compliant with INF-8074i SFP MSA</p> */}
-<p>Single +3.3V power supply</p>
-<p>Link distance 100km over SM fiber</p>
 <p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
 
 
 </div>
@@ -572,24 +573,24 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A0Di" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_40DQi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg5} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  125M / 155M SFP 100BASE-ZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
+  10G SFP+ ER Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, CDR
 
 </h5>
-<p>Part Number : NXO-A7-S13-A0Di</p>
+<p>Part Number : NXO-H7-S15-40DQi</p>
 
 <h4>Feature's</h4> 
-{/* <p>Compliant with INF-8074i SFP MSA</p> */}
-<p>Single +3.3V power supply</p>
-<p>Link distance 100km over SM fiber</p>
 <p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
 
 
 </div>
@@ -604,7 +605,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
         <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A2D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg6} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>

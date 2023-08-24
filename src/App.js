@@ -384,6 +384,8 @@ import Dual_H7_20DM from './Component/10G_SFP+/Dual_H7_20DM';
 import Dual_H7_20DMi from './Component/10G_SFP+/Dual_H7_20DMi';
 import Dual_H7_40DM from './Component/10G_SFP+/Dual_H7_40DM';
 import Dual_H7_40DMi from './Component/10G_SFP+/Dual_H7_40DMi';
+import Dual_H7_40DQ from './Component/10G_SFP+/Dual_H7_40DQ';
+import Dual_H7_40DQi from './Component/10G_SFP+/Dual_H7_40DQi';
 
 function App() {
   return (
@@ -791,6 +793,8 @@ function App() {
      <Route path="/Products_Dual_10G_SFP/Dual_H7_20DMi" element={<Dual_H7_20DMi/>}/>
      <Route path="/Products_Dual_10G_SFP/Dual_H7_40DM" element={<Dual_H7_40DM/>}/>
      <Route path="/Products_Dual_10G_SFP/Dual_H7_40DMi" element={<Dual_H7_40DMi/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_40DQ" element={<Dual_H7_40DQ/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_40DQi" element={<Dual_H7_40DQi/>}/>
      
      
      
