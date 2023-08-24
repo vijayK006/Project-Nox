@@ -264,7 +264,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b30D</p>
+<p>Part Number : NXO-E7-Cxx-b30DM</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -293,7 +293,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b30Di</p>
+<p>Part Number : NXO-E7-Cxx-b30DMi</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -371,7 +371,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_CWDM/Dual_X3DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -431,7 +431,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 </div>
 </Link>
 
-        </div>
+        </div> */}
       </div>
 </div>
 

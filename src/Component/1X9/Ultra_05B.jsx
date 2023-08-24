@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Ultra_05B = () => { 
 
-  let PartNumber = "NXO-05-M85-05B";
+  let PartNumber = "NXO-05-M85-05";
   let productName ="Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection";
 
 
@@ -223,7 +223,7 @@ const Ultra_05B = () => {
   
  <p>
 
-NXO-05-M85-05B 1X9 SIP package style transceivers are compliant with the industrial standard specification.
+{PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification.
 The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver provide superior
 performance for Ultra-Low Data-Rate applications such as RS232 / RS422 / RS485 and IEEE C37.94 /
 IEC 62843 up to MMF 2km optical links.

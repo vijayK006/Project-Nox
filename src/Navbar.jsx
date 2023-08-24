@@ -573,7 +573,7 @@ const Switchclose_menu8=()=>{
 
 <p className='menu-title '>PON SFP   SFP+</p>
 <Link to="/Products_10G_XG_XGS_PON" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XG/XGS PON</p></Link>
-<Link to="/EPON_10G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G EPON</p></Link>
+<Link to="/EPON_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G EPON</p></Link>
 <Link to="/GPON_SFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G GPON SFP</p></Link>
 <Link to="/EPON_SFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G EPON SFP</p></Link>
 
@@ -586,9 +586,9 @@ const Switchclose_menu8=()=>{
 
 <p className='menu-title '>1X9</p>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 BIDI</p></Link>
-<Link to="/Dual_1X9_M85_X5P" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 DUAL</p></Link>
-<Link to="/CWDW_1X9_b31P" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 CWDM</p></Link>
-<Link to="/Dual_125_155M_1X9/Dual_155M_M13_02P" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 BIDI</p></Link>
+<Link to="/Dual_1X9_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G 1X9 DUAL</p></Link>
+<Link to="/CWDM_1X9_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 CWDM</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 BIDI</p></Link>
 <Link to="/Ultra_row_1X9_DC" style={{textDecoration:"none"}}><p className='menu-inner-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps </p></Link>
 <Link to="/Dual_125_155M_1X9" style={{textDecoration:"none"}}><p className='menu-inner-items'>125/155M 1X9 DUAL</p></Link>
 </div>
@@ -596,7 +596,7 @@ const Switchclose_menu8=()=>{
 <div className='col-lg-2 col-md-4'>
 
 <p className='menu-title '>125M 155M SFP</p>
-<Link to="/DWDM_SFP_BOD" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
+<Link to="/DWDM_SFP_115M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DWDM</p></Link>
 <Link to="/CWDW_SFP_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP CWDM</p></Link>
 <Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP BIDI</p></Link>
 <Link to="/Products_Dual_SFP_155M" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
@@ -624,9 +624,9 @@ const Switchclose_menu8=()=>{
 <div className='col-lg-2'>
     <p className='menu-title '>10G XFP </p>
 <Link to="/XFP_DWDM_Tunable" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM Tunable</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP CWDM</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP BIDI</p></Link>
+<Link to="/XFP_DWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM</p></Link>
+<Link to="/XFP_CWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP CWDM</p></Link>
+<Link to='/XFP_BIDI_Products' style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP BIDI</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DUAL</p></Link>
 
 
@@ -1141,10 +1141,10 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series12'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu12}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DWDM Tunable</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP CWDM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP BIDI</p></Link>
+<Link to="/XFP_DWDM_Tunable" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DWDM Tunable</p></Link>
+<Link to="/10G XFP DWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DWDM</p></Link>
+<Link to="/XFP_CWDM_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP CWDM</p></Link>
+<Link to="/XFP_BIDI_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP BIDI</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DUAL</p></Link>
 
 
@@ -1227,7 +1227,7 @@ const Switchclose_menu8=()=>{
 <TiBackspaceOutline className='close_icon' onClick={close_menu21}/>
 
 <Link to="/Products_10G_XG_XGS_PON" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XG/XGS PON</p></Link>
-<Link to="/EPON_10G_SFP" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G EPON</p></Link>
+<Link to="/EPON_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G EPON</p></Link>
 <Link to="/GPON_SFP_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>2.5G GPON SFP</p></Link>
 <Link to="/EPON_SFP_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G EPON SFP</p></Link>
 
@@ -1239,8 +1239,8 @@ const Switchclose_menu8=()=>{
 <TiBackspaceOutline className='close_icon' onClick={close_menu22}/>
 
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G 1X9 BIDI</p></Link>
-<Link to="/Dual_1X9_M85_X5P" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G 1X9 DUAL</p></Link>
-<Link to="/CWDW_1X9_b31P" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 CWDM</p></Link>
+<Link to="/Dual_1X9_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G 1X9 DUAL</p></Link>
+<Link to="/CWDM_1X9_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 CWDM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 BIDI</p></Link>
 <Link to="/Ultra_row_1X9_DC" style={{textDecoration:"none"}}><p className='mob-nav-items'>Ultra-Low Data-Rate 1X9 DC~10Mbps</p></Link>
 <Link to="/Dual_125_155M_1X9" style={{textDecoration:"none"}}><p className='mob-nav-items'>125/155M 1X9 DUAL</p></Link>
@@ -1250,7 +1250,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series23'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu23}/>
 
-<Link to="/DWDM_SFP_BOD" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DWDM</p></Link>
+<Link to="/DWDM_SFP_115M_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DWDM</p></Link>
 <Link to="/125M/155M SFP CWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP CWDM</p></Link>
 <Link to="/BIDI_155M_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP BIDI</p></Link>
 <Link to="/Products_Dual_SFP_155M" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/155M SFP DUAL</p></Link>

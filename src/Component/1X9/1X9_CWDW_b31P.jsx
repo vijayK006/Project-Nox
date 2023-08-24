@@ -8,6 +8,8 @@ import machdimenssion from '../../img/products/1X9/1X9_MachanicalDimension.jpg';
 import Memorymap from '../../img/products/1X9/CWDW_dimension.jpg';
 import Memorymap2 from '../../img/products/1X9/CWDW_dimension_2.jpg';
 
+import connector2 from '../../img/products/1X9/ST_connector.png';
+
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 
@@ -441,6 +443,14 @@ Specification.
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={ Memorymap2 } className='sectionImg3' alt="memorymapImg"/>
+</div>
+
+<br/>
+<br/>
+<h3 className='pb-4'>ST Connector Type  </h3>
+
+<div className='d-flex justify-content-center' style={{width:"100%"}}>
+<img src={ connector2 } className='sectionImg3' alt="memorymapImg"/>
 </div>
 
 </div>

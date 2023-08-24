@@ -365,7 +365,7 @@ const Dual_155M_Ax_30P = () => {
 
         </tr>
         <tr>
-          <td>Lead Soldering Limits</td>
+          <td>Data Rate</td>
           <td>DR</td>
           <td></td>
           <td>125/155</td>

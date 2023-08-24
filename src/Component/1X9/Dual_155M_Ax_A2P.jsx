@@ -218,7 +218,7 @@ const Dual_155M_Ax_A2P = () => {
   
  <p>
 
-NXO-Ax-S15-A2P 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity PIN receiver provide superior
+{PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to SMF 120km optical links.
 
 </p>

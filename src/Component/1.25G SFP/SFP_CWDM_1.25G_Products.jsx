@@ -77,10 +77,9 @@ const SFP_CWDM_1_25G_Products = () => {
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
 
 </h5>
-
+<p>Part Number : NXO-C7-Cxx-b19D</p>
 <h4>Feature's</h4> 
 <p>Link budget 19dB over SM fiber</p>
-<p>18 CWDM Wavelength 1270~1610nm available</p>
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Single +3.3V power supply</p>
 
@@ -93,7 +92,34 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
 
         </div>
 
-        
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_CWDM_1_25G_Products/CWDM_19D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+
+  1.25G SFP CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
+
+</h5>
+<p>Part Number : NXO-C7-Cxx-b19Di</p>
+<h4>Feature's</h4> 
+<p>Link budget 19dB over SM fiber</p>
+<p>Compliant with INF-8074i SFP MSA</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/SFP_CWDM_1_25G_Products/CWDM_24D_1_25G" style={{textDecoration:"none", color:"black"}}>
 
@@ -105,10 +131,35 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
   1.25G SFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
 </h5>
-
+<p>Part Number : NXO-C7-Cxx-b24D</p>
 <h4>Feature's</h4> 
 <p>Link budget 24dB over SM fiber</p>
-<p>Compliant with INF-8074i SFP MSA</p>
+<p>Hot Pluggable</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_CWDM_1_25G_Products/CWDM_24D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  1.25G SFP CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
+</h5>
+<p>Part Number : NXO-C7-Cxx-b24Di</p>
+<h4>Feature's</h4> 
+<p>Link budget 24dB over SM fiber</p>
 <p>Hot Pluggable</p>
 <p>Single +3.3V power supply</p>
 
@@ -132,10 +183,9 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
   1.25G SFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
 </h5>
-
+<p>Part Number : NXO-C7-Cxx-b32D</p>
 <h4>Feature's</h4> 
 <p>Link budget 32dB over SM fiber</p>
-<p>Compliant with INF-8074i SFP MSA</p>
 <p>Hot Pluggable</p>
 <p>Compliant with IEEE802.3z Gigabit Ethernet</p>
 
@@ -148,6 +198,31 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
 
         </div>
 
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_CWDM_1_25G_Products/CWDM_32D_1_25Gi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  1.25G SFP CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
+</h5>
+<p>Part Number : NXO-C7-Cxx-b32Di</p>
+<h4>Feature's</h4> 
+<p>Link budget 32dB over SM fiber</p>
+<p>Compliant with INF-8074i SFP MSA</p>
+<p>Hot Pluggable</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
 
       </div>
 </div>

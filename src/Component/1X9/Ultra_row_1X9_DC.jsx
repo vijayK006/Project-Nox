@@ -73,11 +73,36 @@ const Ultra_row_1X9_DC = () => {
 Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVTTL / TTL Signal Detection
 
 </h5>
-
+<p>Part Number : NXO-05-M85-02B</p>
 <h4>Feature's</h4>
 
 <p>Industry Standard 1x9 Footprint</p>
-<p>850nm VCSEL laser transmitter</p>
+<p>Duplex Plastic ST connector</p>
+<p>Single 3.3V or 5V Power Supply</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Ultra_row_1X9_DC/Ultra_02Bi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver
+Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVTTL / TTL Signal Detection
+
+</h5>
+<p>Part Number : NXO-05-M85-02Bi</p>
+<h4>Feature's</h4>
+
+<p>Industry Standard 1x9 Footprint</p>
 <p>Duplex Plastic ST connector</p>
 <p>Single 3.3V or 5V Power Supply</p>
 
@@ -101,11 +126,37 @@ Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection
 
 
 </h5>
-
+<p>Part Number : NXO-05-M85-05</p>
 <h4>Feature's</h4>
 
 <p>Industry Standard 1x9 Footprint</p>
-<p>1310nm VCSEL laser transmitter</p>
+<p>Duplex Plastic ST connector</p>
+<p>Single 3.3V or 5V Power Supply
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Ultra_row_1X9_DC/Ultra_05Bi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver
+Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection
+
+
+</h5>
+<p>Part Number : NXO-05-M85-05i</p>
+<h4>Feature's</h4>
+
+<p>Industry Standard 1x9 Footprint</p>
 <p>Duplex Plastic ST connector</p>
 <p>Single 3.3V or 5V Power Supply
 </p>

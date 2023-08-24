@@ -76,10 +76,36 @@ const GPON_SFP_Products = () => {
 Hot Pluggable, Bidi SC, Tx1310nm DFB / Rx1490nm APD, SMF 20KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-Cx-PG3-20B</p>
 <h4>Feature's</h4> 
 <p>Transmitter state indication (TX_SD)</p>
-<p>Industrial temperature -40~85°C available</p>
+<p>Link distance 20km over SM fiber</p>
+<p>RoHS Compliant</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/GPON_SFP_Products/GPON_PG3_20Bi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  GPON ONU B+ 1.244G-Tx / 2.488G-Rx SFP Transceiver
+Hot Pluggable, Bidi SC, Tx1310nm DFB / Rx1490nm APD, SMF 20KM, DDM
+
+</h5>
+<p>Part Number : NXO-Cx-PG3-20Bi</p>
+<h4>Feature's</h4> 
+<p>Transmitter state indication (TX_SD)</p>
 <p>Link distance 20km over SM fiber</p>
 <p>RoHS Compliant</p>
 
@@ -105,12 +131,39 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-E2-PG4-20B</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>1244 Mbps Burst mode receiver</p>
 <p>1490nm DFB laser transmitter</p>
-<p>RoHS Compliant</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/GPON_SFP_Products/GPON_PG4_20Bi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  GPON OLT B+ 2.5G-Tx / 1.25G-Rx SFP Transceiver
+Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-E2-PG4-20Bi</p>
+<h4>Feature's</h4> 
+<p>Single +3.3V power supply</p>
+<p>1244 Mbps Burst mode receiver</p>
+<p>1490nm DFB laser transmitter</p>
 
 
 </div>
@@ -132,11 +185,36 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
   GPON OLT C+ 2.5G-Tx / 1.25G-Rx SFP Transceiver
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-E2-PG4-201</p>
 <h4>Feature's</h4> 
 <p>1310nm APD-TIA receiver</p>
 <p>1244 Mbps Burst mode receiver</p>
-<p>1490nm DFB laser transmitter</p>
+<p>Link distance 20km over SM fiber</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/GPON_SFP_Products/GPON_PG4_201i" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  GPON OLT C+ 2.5G-Tx / 1.25G-Rx SFP Transceiver
+Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
+</h5>
+<p>Part Number : NXO-E2-PG4-201i</p>
+<h4>Feature's</h4> 
+<p>1310nm APD-TIA receiver</p>
+<p>1244 Mbps Burst mode receiver</p>
 <p>Link distance 20km over SM fiber</p>
 
 
@@ -160,12 +238,11 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-E2-PG4-202</p>
 <h4>Feature's</h4> 
 <p>1310nm APD-TIA receiver</p>
 <p>1244 Mbps Burst mode receiver</p>
 <p>Link distance 20km over SM fiber</p>
-<p>Operation case temperature 0~70°C</p>
 
 
 </div>
@@ -187,10 +264,9 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
   GPON OLT C+++ 7dBm 2.5G-Tx / 1.25G-Rx SFP Transceiver
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-E2-PG4-203</p>
 <h4>Feature's</h4> 
 <p>1310nm APD-TIA receiver</p>
-<p>Operation case temperature 0~70°C</p>
 <p>Link distance 20km over SM fiber</p>
 <p>Min Output Power +7dBm</p>
 

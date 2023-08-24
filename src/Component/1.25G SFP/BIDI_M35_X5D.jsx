@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_M35_X5D = () => { 
 
-  let PartNumber = "NXO-C8-M35_X5D";
+  let PartNumber = "NXO-C8-M35-X5D";
   let productName ="1.25G SFP 1000BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, MMF 500M, DDM";
 
   const [name, setName] = useState("");
