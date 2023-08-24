@@ -62,7 +62,7 @@ const Products_4G_SFP = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>10G SFP+ DUAL</h2>
+<h2 className='pt-5'>4G SFP+ DUAL</h2>
 
       <div className='row pt-5  pb-5'>
 
