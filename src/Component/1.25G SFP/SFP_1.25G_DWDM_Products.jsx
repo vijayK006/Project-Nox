@@ -76,11 +76,38 @@ const SFP_1_25G_DWDM_Products = () => {
   1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
+<p>Part Number : NXO-C7-Dxx-80Di</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Maximum Power consumption 2.5W</p>
-<p>Link distance 80km over SM fiber </p>
+<p>Cooled DWDM DFB laser transmitter</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_80Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+
+  1.25G SFP DWDM Transceiver
+Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
+</h5>
+<p>Part Number : NXO-C7-Dxx-80Di</p>
+<h4>Feature's</h4> 
+<p>Single +3.3V power supply</p>
+<p>Maximum Power consumption 2.5W</p>
 <p>Cooled DWDM DFB laser transmitter</p>
 
 
@@ -104,14 +131,39 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
+<p>Part Number : NXO-C7-Dxx-A2Di</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
-<p>Maximum Power consumption 2.5W</p>
 <p>Link distance 120km over SM fiber </p>
 <p>Cooled DWDM DFB laser transmitter</p>
 
 
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/SFP_1_25G_DWDM_Products/SFP_1_25G_DWDM_A2Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+
+  1.25G SFP DWDM Transceiver
+Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
+</h5>
+<p>Part Number : NXO-C7-Dxx-A2Di</p>
+<h4>Feature's</h4> 
+<p>Single +3.3V power supply</p>
+<p>Maximum Power consumption 2.5W</p>
+<p>Link distance 120km over SM fiber </p>
 </div>
 
 <TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>

@@ -56,7 +56,7 @@ const Product_40G_ER4 = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>QSFP+ 40G-LR4</h2>
+<h2 className='pt-5'>QSFP+ 40G-ER4</h2>
 
       <div className='row pt-5  pb-5'>
 

@@ -78,10 +78,35 @@ const BIDI_155M_Products = () => {
   125M / 155M SFP 100BX-U Transceiver
 Hot Pluggable, Bidi SC, 1310nm FP / Rx1550nm, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-A2-S35-20D</p>
 <h4>Feature's</h4> 
 <p>Simplex SC connector</p>
-<p>Link distance 20km over SM fiber</p>
+<p>1310nm FP laser transmitter</p>
+<p>RoHS Compliant</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_S35_100BX_Ui" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-U Transceiver
+Hot Pluggable, Bidi SC, 1310nm FP / Rx1550nm, SMF 20KM, DDM
+</h5>
+<p>Part Number : NXO-A2-S35-20Di</p>
+<h4>Feature's</h4> 
+<p>Simplex SC connector</p>
 <p>1310nm FP laser transmitter</p>
 <p>RoHS Compliant</p>
 
@@ -105,12 +130,36 @@ Hot Pluggable, Bidi SC, 1310nm FP / Rx1550nm, SMF 20KM, DDM
   125M / 155M SFP 100BX-D Transceiver
 Hot Pluggable, Bidi SC, 1550nm FP / Rx1310nm, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-A2-S53-20D</p>
 <h4>Feature's</h4> 
 <p>1550nm FP laser transmitter</p>
 <p>Simplex SC connector</p>
 <p>Link distance 20km over SM fiber</p>
-<p>RoHS Compliant</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_S35_100BX_Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-D Transceiver
+Hot Pluggable, Bidi SC, 1550nm FP / Rx1310nm, SMF 20KM, DDM
+</h5>
+<p>Part Number : NXO-A2-S53-20Di</p>
+<h4>Feature's</h4> 
+<p>1550nm FP laser transmitter</p>
+<p>Simplex SC connector</p>
+<p>Link distance 20km over SM fiber</p>
 
 </div>
 
@@ -131,12 +180,36 @@ Hot Pluggable, Bidi SC, 1550nm FP / Rx1310nm, SMF 20KM, DDM
   125M / 155M SFP 100BX-U Transceiver
 Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-A8-S35-20D</p>
 <h4>Feature's</h4> 
 <p>1310nm FP laser transmitter</p>
 <p>Simplex LC connector</p>
 <p>Link distance 20km over SM fiber</p>
-<p>Single +3.3V power supply</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_35_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
+</h5>
+<p>Part Number : NXO-A8-S35-20Di</p>
+<h4>Feature's</h4> 
+<p>1310nm FP laser transmitter</p>
+<p>Simplex LC connector</p>
+<p>Link distance 20km over SM fiber</p>
 
 </div>
 
@@ -158,10 +231,35 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
 Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 40KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-A8-S35-40D</p>
 <h4>Feature's</h4> 
 <p>1310nm FP laser transmitter</p>
-<p>Simplex LC connector</p>
+<p>Link distance 40km over SM fiber</p>
+<p>Single +3.3V power supply</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_35_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 40KM, DDM
+
+</h5>
+<p>Part Number : NXO-A8-S35-40Di</p>
+<h4>Feature's</h4> 
+<p>1310nm FP laser transmitter</p>
 <p>Link distance 40km over SM fiber</p>
 <p>Single +3.3V power supply</p>
 
@@ -186,9 +284,36 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 60KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-A8-S35-60D</p>
 <h4>Feature's</h4> 
-<p>Compliant with INF-8074i SFP MSA</p>
+<p>1310nm FP laser transmitter</p>
+<p>Simplex LC connector</p>
+<p>Link distance 60km over SM fiber</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_35_60Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 60KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-A8-S35-60Di</p>
+<h4>Feature's</h4> 
 <p>1310nm FP laser transmitter</p>
 <p>Simplex LC connector</p>
 <p>Link distance 60km over SM fiber</p>
@@ -213,9 +338,34 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 60KM, DDM
 Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 80KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-A8-S45-80D</p>
 <h4>Feature's</h4> 
-<p>Single +3.3V power supply</p>
+<p>Compliant with SFP MSA</p>
+<p>Hot Pluggable</p>
+<p>RoHS Compliant</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_45_80Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125/155M SFP-100BX-U Transceiver
+Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 80KM, DDM
+
+</h5>
+<p>Part Number : NXO-A8-S45-80Di</p>
+<h4>Feature's</h4> 
 <p>Compliant with SFP MSA</p>
 <p>Hot Pluggable</p>
 <p>RoHS Compliant</p>
@@ -241,10 +391,36 @@ Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 120KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-A8-S45-A2D</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFP MSA</p>
-<p>Single +3.3V power supply</p>
+<p>Simplex LC connector</p>
+<p>RoHS Compliant</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_S45_A2Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125/155M SFP-100BX-U Transceiver
+Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 120KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-A8-S45-A2Di</p>
+<h4>Feature's</h4> 
+<p>Compliant with SFP MSA</p>
 <p>Simplex LC connector</p>
 <p>RoHS Compliant</p>
 
@@ -270,9 +446,36 @@ Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 20KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-A8-S53-20D</p>
 <h4>Feature's</h4> 
-<p>1550nm FP laser transmitter</p>
+<p>Single +3.3V power supply</p>
+<p>Simplex LC connector</p>
+<p>Link distance 20km over SM fiber</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_S53_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 20KM, DDM
+
+
+
+</h5>
+<p>Part Number : NXO-A8-S53-20Di</p>
+<h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Simplex LC connector</p>
 <p>Link distance 20km over SM fiber</p>
@@ -297,9 +500,34 @@ Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 20KM, DDM
 Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-A8-S53-40D</p>
 <h4>Feature's</h4> 
-<p>1550nm DFB laser transmitter</p>
+<p>Single +3.3V power supply</p>
+<p>Simplex LC connector</p>
+<p>Link distance 40km over SM fiber</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+        
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_S53_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
+
+</h5>
+<p>Part Number : NXO-A8-S53-40Di</p>
+<h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Simplex LC connector</p>
 <p>Link distance 40km over SM fiber</p>
@@ -325,12 +553,38 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 60KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-A8-S53-60D</p>
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
 <p>Single +3.3V power supply</p>
 <p>Simplex LC connector</p>
-<p>Link distance 60km over SM fiber</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_S53_60Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125M / 155M SFP 100BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 60KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-A8-S53-60Di</p>
+<h4>Feature's</h4> 
+<p>1550nm DFB laser transmitter</p>
+<p>Single +3.3V power supply</p>
+<p>Simplex LC connector</p>
 
 </div>
 
@@ -354,9 +608,36 @@ Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 80KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-A8-S54-80D</p>
 <h4>Feature's</h4> 
-<p>Compliant with SFP MSA</p>
+<p>Single +3.3V power supply</p>
+<p>Simplex LC connector</p>
+<p>Link distance 80km over SM fiber</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_S54_80Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg6} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125/155M SFP-100BX-D Transceiver
+Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 80KM, DDM
+
+
+
+</h5>
+<p>Part Number : NXO-A8-S54-80Di</p>
+<h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Simplex LC connector</p>
 <p>Link distance 80km over SM fiber</p>
@@ -381,9 +662,34 @@ Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 80KM, DDM
 Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 120KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-A8-S54-A2D</p>
 <h4>Feature's</h4> 
-<p>Compliant with SFP MSA</p>
+<p>Single +3.3V power supply</p>
+<p>Simplex LC connector</p>
+<p>RoHS Compliant</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/BIDI_155M_Products/BIDI_A8_S54_A2Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg6} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  125/155M SFP-100BX-D Transceiver
+Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 120KM, DDM
+
+</h5>
+<p>Part Number : NXO-A8-S54-A2Di</p>
+<h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Simplex LC connector</p>
 <p>RoHS Compliant</p>

@@ -171,7 +171,7 @@ const BIDI_C8_S45_80D = () => {
 
 <p className='listFeture'>Compliant with INF-8074i SFP MSA</p>
 <p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>1490nm FP laser transmitter
+<p className='listFeture'>1490nm DFB laser transmitter
 </p>
 <p className='listFeture'>Simplex LC connector
 </p>
@@ -234,7 +234,6 @@ Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1490nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for Gigabit Ethernet 1000BASE-BX and
 Fiber Channel 1GFC applications up to SMF 80km optical links.
-
 
 </p>
 </div>

@@ -103,6 +103,41 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_1_25_S35_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
+
+</h5>
+<p>Part Number : NXO-C2-S35-20Di</p>
+<h4>Feature's</h4> 
+<p>1310nm FP laser transmitter
+
+</p>
+
+<p>Simplex SC connector
+
+</p>
+
+
+<p>RoHS Compliant
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_1_25_S53_20D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -117,6 +152,44 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
 
 </h5>
 <p>Part Number : NXO-C2-S53-20D</p>
+<h4>Feature's</h4>
+<p>Hot Pluggable
+
+</p>
+
+
+<p>Simplex SC connector
+
+</p>
+
+
+<p>RoHS Compliant
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_1_25_S53_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 / STM-16 Multi-Rate Transceiver
+Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
+
+
+
+
+</h5>
+<p>Part Number : NXO-C2-S53-20Di</p>
 <h4>Feature's</h4>
 <p>Hot Pluggable
 
@@ -179,6 +252,110 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, MMF 500M, DDM
 </Link>
 
         </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_M35_X5Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, MMF 500M, DDM
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-C8-M35_X5Di</p>
+<h4>Feature's</h4>
+<p>Hot Pluggable
+
+</p>
+
+
+<p>Simplex LC connector
+
+</p>
+
+
+<p>RoHS Compliant
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_1_25_M53_X5D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  1.25G SFP 1000BX-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, MMF 500M, DDM
+</h5>
+<p>Part Number : NXO-C8-M53-X5D</p>
+<h4>Feature's</h4>
+<p>1550nm FP laser transmitter
+</p>
+
+
+<p>Single +3.3V power supply
+</p>
+
+
+<p>Link distance 500m over MM fiber
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_1_25_M53_X5Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  1.25G SFP 1000BX-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, MMF 500M, DDM
+</h5>
+<p>Part Number : NXO-C8-M53-X5Di</p>
+<h4>Feature's</h4>
+<p>1550nm FP laser transmitter
+</p>
+
+
+<p>Single +3.3V power supply
+</p>
+
+
+<p>Link distance 500m over MM fiber
+</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
     
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_S34_10D" style={{textDecoration:"none", color:"black"}}>
@@ -195,6 +372,41 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 10KM, DDM
 
 </h5>
 <p>Part Number : NXO-C8-S34-10D</p>
+<h4>Feature's</h4>
+
+<p>1310nm FB laser transmitter
+
+</p>
+
+<p>Hot Pluggable
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_S34_10Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 10KM, DDM
+
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S34-10Di</p>
 <h4>Feature's</h4>
 
 <p>1310nm FB laser transmitter
@@ -251,6 +463,41 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_S34_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S34-20Di</p>
+<h4>Feature's</h4>
+
+<p>1310nm FB laser transmitter
+
+</p>
+
+<p>Duplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S34_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -260,6 +507,35 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
   <h5>1.25G SFP 1000BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 40KM, DDM
 </h5>
 <p>Part Number : NXO-C8-S34-40D</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1310nm FB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S34_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 40KM, DDM
+</h5>
+<p>Part Number : NXO-C8-S34-40Di</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -290,6 +566,38 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 2KM, DDM
 </h5>
 <p>Part Number : NXO-C8-S35-02D</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+<p>1310nm FP laser transmitter
+
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S35_02Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 2KM, DDM
+</h5>
+<p>Part Number : NXO-C8-S35-02Di</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -346,6 +654,40 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S35_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-C8-S35-20Di</p>
+<h4>Feature's</h4>
+
+<p>1310nm FP laser transmitter
+
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S35_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -377,6 +719,37 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S35_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
+
+</h5>
+<p>Part Number : NXO-C8-S35-40Di</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S35_60D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -388,6 +761,37 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 60KM, DDM
 
 </h5>
 <p>Part Number : NXO-C8-S35-60D</p>
+<h4>Feature's</h4>
+<p>Single +3.3V power supply
+</p>
+
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S35_60Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 60KM, DDM
+
+</h5>
+<p>Part Number : NXO-C8-S35-60Di</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -440,6 +844,41 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 10KM, DDM
 </Link>
 
         </div>
+
+        
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_10Di" style={{textDecoration:"none", color:"black"}}>
+        
+<div className='product-card position-relative'>
+<img src={productImg1_4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 10KM, DDM
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S43-10Di</p>
+<h4>Feature's</h4>
+
+<p>1490nm DFB laser transmitter
+
+
+</p>
+
+<p>Simplex LC connector
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_20D" style={{textDecoration:"none", color:"black"}}>
@@ -456,6 +895,41 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 20KM, DDM
 
 </h5>
 <p>Part Number : NXO-C8-S43-20D</p>
+<h4>Feature's</h4>
+
+<p>1490nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 20KM, DDM
+
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S43-20Di</p>
 <h4>Feature's</h4>
 
 <p>1490nm DFB laser transmitter
@@ -514,6 +988,42 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 40KM, DDM
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S43-40Di</p>
+<h4>Feature's</h4>
+
+<p>1490nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S45_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -530,6 +1040,43 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 80KM, DDM
 
 </h5>
 <p>Part Number : NXO-C8-S45-80D</p>
+<h4>Feature's</h4>
+
+<p>1490nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S45_80Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 80KM, DDM
+
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S45-80Di</p>
 <h4>Feature's</h4>
 
 <p>1490nm DFB laser transmitter
@@ -568,6 +1115,44 @@ Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 100KM, DDM
 
 </h5>
 <p>Part Number : NXO-C8-S45-A0D</p>
+<h4>Feature's</h4>
+
+<p>1490nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S45_A0Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-U Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 100KM, DDM
+
+
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S45-A0Di</p>
 <h4>Feature's</h4>
 
 <p>1490nm DFB laser transmitter
@@ -628,6 +1213,45 @@ Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 2KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_02Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 2KM, DDM
+
+
+
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S53-02Di</p>
+<h4>Feature's</h4>
+
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -639,6 +1263,38 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
 
 </h5>
 <p>Part Number : NXO-C8-S53-40D</p>
+<h4>Feature's</h4>
+
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
+
+</h5>
+<p>Part Number : NXO-C8-S53-40Di</p>
 <h4>Feature's</h4>
 
 <p>1550nm DFB laser transmitter
@@ -672,6 +1328,39 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 60KM, DDM
 
 </h5>
 <p>Part Number : NXO-C8-S53-60D</p>
+<h4>Feature's</h4>
+
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_60Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 60KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-C8-S53-60Di</p>
 <h4>Feature's</h4>
 
 <p>1550nm DFB laser transmitter
@@ -727,6 +1416,40 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 80KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S54_80Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver  
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 80KM, DDM
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S54-80Di</p>
+<h4>Feature's</h4>
+
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S54_A0D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -741,6 +1464,41 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 100KM, DDM
 
 </h5>
 <p>Part Number : NXO-C8-S54-A0D</p>
+<h4>Feature's</h4>
+
+<p>1550nm DFB laser transmitter
+
+</p>
+
+<p>Simplex LC connector
+
+
+</p>
+<p>RoHS Compliant
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_1_25G_BIDI/BIDI_C8_S54_A0Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>1.25G SFP 1000BX-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 100KM, DDM
+        
+
+
+
+</h5>
+<p>Part Number : NXO-C8-S54-A0Di</p>
 <h4>Feature's</h4>
 
 <p>1550nm DFB laser transmitter

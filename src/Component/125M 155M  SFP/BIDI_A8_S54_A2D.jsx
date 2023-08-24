@@ -27,8 +27,8 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_A8_S54_A2D = () => { 
 
-  let PartNumber = "NXO-A8-S54-80D";
-  let productName ="125/155M SFP-100BX-D Transceiver  Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 80KM, DDM";
+  let PartNumber = "NXO-A8-S54-A2D  ";
+  let productName ="125/155M SFP-100BX-D Transceiver Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 120KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -175,8 +175,8 @@ const BIDI_A8_S54_A2D = () => {
 <h5 className='pt-5'>Applications</h5>
 
 <p className='listFeture'>100Base-BX-D Ethernet</p>
-<p className='listFeture'>SDH STM-1 L1.3</p>
-<p className='listFeture'>SONET OC-3 LR-3</p>
+<p className='listFeture'>SDH STM-1 L1.4</p>
+<p className='listFeture'>SONET OC-3 VR1</p>
 <p className='listFeture'>FTTx application</p>
 <p className='listFeture'>High speed I/O for file server</p>
 <p className='listFeture'>Mass storage system I/O</p>
@@ -219,8 +219,8 @@ const BIDI_A8_S54_A2D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-A8-S54-80D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
-Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 1550nm DFB transmitter and high sensitivity 1490nm PIN receiver provide superior performance for Fast Ethernet applications up to 80km optical links with a single strand of single mode fiber.
+ <p>{PartNumber} Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 1550nm DFB transmitter and high sensitivity 1490nm PIN receiver provide superior performance for Fast Ethernet applications up to 120km optical links with a single strand of single mode fiber.
 
 </p>
 </div>
@@ -324,15 +324,6 @@ Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 155
 
         <tr>
           <td>Supply Current </td>
-          <td>Icc</td>
-          <td></td>
-          <td></td>
-          <td>300</td>
-          <td>mA</td>
-        </tr>
-
-        <tr>
-          <td>Supply Current  (NXO-A8-S53-60Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

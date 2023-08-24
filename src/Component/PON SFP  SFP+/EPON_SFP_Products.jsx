@@ -75,10 +75,35 @@ const EPON_SFP_Products = () => {
   EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
 Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-C2-PE3-201</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFP MSA</p>
-<p>Industrial temperature -40~85°C available</p>
+<p>Link distance 20km over SM fiber</p>
+<p>RoHS Compliant</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/EPON_SFP_Products/EPON_PE3_201i" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
+Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM
+</h5>
+<p>Part Number : NXO-C2-PE3-201i</p>
+<h4>Feature's</h4> 
+<p>Compliant with SFP MSA</p>
 <p>Link distance 20km over SM fiber</p>
 <p>RoHS Compliant</p>
 
@@ -102,11 +127,37 @@ Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM
   EPON OLT PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 </h5>
-
+<p>Part Number : NXO-C2-PE4-201</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFP MSA</p>
 <p>Simplex SC/UPC connector</p>
-<p>Link distance 20km over SM fiber</p>
+<p>1.25 Gbps Burst mode receiver</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/EPON_SFP_Products/EPON_PE4_201i" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  EPON OLT PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver
+Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
+</h5>
+<p>Part Number : NXO-C2-PE4-201i</p>
+<h4>Feature's</h4> 
+<p>Compliant with SFP MSA</p>
+<p>Simplex SC/UPC connector</p>
 <p>1.25 Gbps Burst mode receiver</p>
 
 
@@ -130,11 +181,10 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-C2-PE4-202</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFP MSA</p>
 <p>1490 nm DFB laser transmitter</p>
-<p>1.25 Gbps Burst mode receiver</p>
 <p>Simplex SC/UPC connector</p>
 
 
@@ -159,10 +209,9 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-C2-PE4-203</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFP MSA</p>
-<p>1490 nm DFB laser transmitter</p>
 <p>1.25 Gbps Burst mode receiver</p>
 <p>Single +3.3V power supply</p>
 

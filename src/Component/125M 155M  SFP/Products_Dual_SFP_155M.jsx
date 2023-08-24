@@ -61,7 +61,7 @@ const Products_Dual_SFP_155M = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>125M 155M SFP DUAL</h2>
+<h2 className='pt-5'>125M/155M SFP DUAL</h2>
 
       <div className='row pt-5  pb-5'>
 

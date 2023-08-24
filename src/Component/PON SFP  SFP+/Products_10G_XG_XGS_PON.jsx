@@ -76,11 +76,37 @@ const Products_10G_XG_XGS_PON = () => {
 Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM
 
 </h5>
-
+<p>Part Number : NXO-H2-PX5-20x</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFF-8431 SFP+ MSA</p>
 <p>Simplex SC/UPC connector</p>
-<p>Single +3.3V power supply</p>
+<p>Link distance 20km over SM fiber</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_10G_XG_XGS_PON/PX5_20Xi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  XGPON Asymmetric OLT SFP+ Transceiver
+Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM
+
+</h5>
+<p>Part Number : NXO-H2-PX5-20xi</p>
+<h4>Feature's</h4> 
+<p>Compliant with SFF-8431 SFP+ MSA</p>
+<p>Simplex SC/UPC connector</p>
 <p>Link distance 20km over SM fiber</p>
 
 
@@ -105,11 +131,38 @@ Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM
 
 
 </h5>
-
+<p>Part Number : NXO-H2-PX6-20x</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Simplex SC/UPC connector</p>
-<p>Single +3.3V power supply</p>
+<p>Link distance 20km over SM fiber</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_10G_XG_XGS_PON/PX6_20Xi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  XGSPON Symmetric OLT SFP+ Transceiver
+Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H2-PX6-20xi</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Simplex SC/UPC connector</p>
 <p>Link distance 20km over SM fiber</p>
 
 
