@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_40DQ = () => { 
 
-  let PartNumber = "NXO-H7-S13-40DQ";
+  let PartNumber = "NXO-H7-S15-40DQ";
   let productName ="10G SFP+ ER Transceiver Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, CDR";
 
   const [name, setName] = useState("");
@@ -310,7 +310,7 @@ performance for 10GBASE-ER/EW applications up to SMF 40km optical links. And it 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-40DQ)</td>
+          <td>Case Operating Temp. (NXO-H7-S15-40DQ)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -319,7 +319,7 @@ performance for 10GBASE-ER/EW applications up to SMF 40km optical links. And it 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-40DQ)</td>
+          <td>Case Operating Temp. (NXO-H7-S15-40DQ)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -337,7 +337,7 @@ performance for 10GBASE-ER/EW applications up to SMF 40km optical links. And it 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-40DQ)</td>
+          <td>Supply Current (NXO-H7-S15-40DQ)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -346,7 +346,7 @@ performance for 10GBASE-ER/EW applications up to SMF 40km optical links. And it 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-40DQ)</td>
+          <td>Supply Current (NXO-H7-S15-40DQ)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

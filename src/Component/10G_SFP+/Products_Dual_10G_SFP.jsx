@@ -544,6 +544,135 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ LR ( ER-1310 ) Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
+
+
+
+
+</h5>
+<p>Part Number : NXO-H7-S15-40D
+</p>
+
+<h4>Feature's</h4> 
+
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+ <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ LR ( ER-1310 ) Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
+
+
+
+
+</h5>
+<p>Part Number : NXO-H7-S15-40Di
+</p>
+
+<h4>Feature's</h4> 
+
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_40DM" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ ER Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, Multi-Rate
+
+</h5>
+<p>Part Number : NXO-H7-S15-40DM
+</p>
+
+<h4>Feature's</h4> 
+
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+        
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_40DMi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ ER Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, Multi-Rate
+
+</h5>
+<p>Part Number : NXO-H7-S15-40DMi
+</p>
+
+<h4>Feature's</h4> 
+
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_10G_SFP/Dual_H7_40DQ" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -602,25 +731,27 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, CDR
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A2D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg6} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
+  10G SFP+ ZR Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM
+
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-A2D</p>
+<p>Part Number : NXO-H7-S15-80D</p>
 
 <h4>Feature's</h4> 
-{/* <p>Compliant with INF-8074i SFP MSA</p> */}
-<p>Single +3.3V power supply</p>
-<p>Link distance 120km over SM fiber</p>
 <p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
 
 
 </div>
@@ -631,28 +762,28 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
         </div>
 
-       
-
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A2Di" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_80Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg6} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
+  10G SFP+ ZR Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM
+
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-A2Di</p>
+<p>Part Number : NXO-H7-S15-80Di</p>
 
 <h4>Feature's</h4> 
-{/* <p>Compliant with INF-8074i SFP MSA</p> */}
-<p>Single +3.3V power supply</p>
-<p>Link distance 120km over SM fiber</p>
 <p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
 
 
 </div>
@@ -663,22 +794,30 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
         </div>
 
+
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A4D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_80DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg6} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM, DDM
+  10G SFP+ ZR Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, Multi-Rate
+
+
+
 </h5>
-<p>Part Number : NXO-A7-S15-A4D</p>
+<p>Part Number : NXO-H7-S15-80DM</p>
+
 <h4>Feature's</h4> 
-<p>Single +3.3V power supply</p>
-<p>Link distance 140km over SM fiber</p>
 <p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
 
 
 </div>
@@ -690,164 +829,24 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A4Di" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_80DMi" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg3} className='productImg3'/>
+<img src={productImg6} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM, DDM
+  10G SFP+ ZR Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, Multi-Rate
+
+
+
 </h5>
-<p>Part Number : NXO-A7-S15-A4Di</p>
+<p>Part Number : NXO-H7-S15-80DMi</p>
+
 <h4>Feature's</h4> 
-<p>Single +3.3V power supply</p>
-<p>Link distance 140km over SM fiber</p>
 <p>RoHS Compliant</p>
-
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>      
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A6D" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 160KM, DDM
-
-</h5>
-<p>Part Number : NXO-A7-S15-A6D</p>
-
-<h4>Feature's</h4> 
-<p>1550nm DFB laser transmitter</p>
-<p>Link distance 160km over SM fiber</p>
-<p>Single +3.3V power supply</p>
-
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_A6Di" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 160KM, DDM
-
-</h5>
-<p>Part Number : NXO-A7-S15-A6Di</p>
-
-<h4>Feature's</h4> 
-<p>1550nm DFB laser transmitter</p>
-<p>Link distance 160km over SM fiber</p>
-<p>Single +3.3V power supply</p>
-
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_B0D" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 200KM(46dB), DDM
-
-
-</h5>
-<p>Part Number : NXO-A7-S15-B0D</p>
-
-<h4>Feature's</h4> 
-<p>1550nm DFB laser transmitter</p>
-<p>Link distance 200km over SM fiber</p>
-<p>Single +3.3V power supply</p>
-
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_B0Di" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 200KM(46dB), DDM
-
-
-</h5>
-<p>Part Number : NXO-A7-S15-B0Di</p>
-
-<h4>Feature's</h4> 
-<p>1550nm DFB laser transmitter</p>
-<p>Link distance 200km over SM fiber</p>
-<p>Single +3.3V power supply</p>
-
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_Dual_10G_SFP/Dual_155M_S15_B2D" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg5} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>
-  125M / 155M SFP 100BASE-EZX Transceiver
-Hot Pluggable, Duplex LC, 1550nm DFB, SMF 220KM(50dB), DDM
-
-
-
-</h5>
-<p>Part Number : NXO-A7-S15-B2D</p>
-
-<h4>Feature's</h4> 
-<p>1550nm DFB laser transmitter</p>
-<p>Link distance 220km(50dB) over SM fiber
+<p>Hot Pluggable
 </p>
 <p>Single +3.3V power supply</p>
 
@@ -860,7 +859,115 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 220KM(50dB), DDM
 
         </div>
 
-        
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_80DQ" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg6} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ ZR Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, CDR
+</h5>
+<p>Part Number : NXO-H7-S15-80DQ</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_80DQi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg6} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ ZR Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, CDR
+</h5>
+<p>Part Number : NXO-H7-S15-80DQi</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>      
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_A0D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg6} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ ZR Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
+
+</h5>
+<p>Part Number : NXO-H7-S15-A0D</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_S15_A0Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg6} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ ZR Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
+
+</h5>
+<p>Part Number : NXO-H7-S15-A0Di</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
       </div>
 </div>
 

@@ -433,12 +433,26 @@ import Dual_H7_20DM from './Component/10G_SFP+/Dual_H7_20DM';
 import Dual_H7_20DMi from './Component/10G_SFP+/Dual_H7_20DMi';
 import Dual_H7_40DM from './Component/10G_SFP+/Dual_H7_40DM';
 import Dual_H7_40DMi from './Component/10G_SFP+/Dual_H7_40DMi';
+import Dual_H7_S15_40D from './Component/10G_SFP+/Dual_H7_S15_40D';
+import Dual_H7_S15_40Di from './Component/10G_SFP+/Dual_H7_S15_40Di';
+import Dual_H7_S15_40DM from './Component/10G_SFP+/Dual_H7_S15_40DM';
+import Dual_H7_S15_40DMi from './Component/10G_SFP+/Dual_H7_S15_40DMi';
 import Dual_H7_40DQ from './Component/10G_SFP+/Dual_H7_40DQ';
 import Dual_H7_40DQi from './Component/10G_SFP+/Dual_H7_40DQi';
+import Dual_H7_S15_80D from './Component/10G_SFP+/Dual_H7_S15_80D';
+import Dual_H7_S15_80Di from './Component/10G_SFP+/Dual_H7_S15_80Di';
+import Dual_H7_S15_80DM from './Component/10G_SFP+/Dual_H7_S15_80DM';
+import Dual_H7_S15_80DMi from './Component/10G_SFP+/Dual_H7_S15_80DMi';
+import Dual_H7_S15_80DQ from './Component/10G_SFP+/Dual_H7_S15_80DQ';
+import Dual_H7_S15_80DQi from './Component/10G_SFP+/Dual_H7_S15_80DQi';
+import Dual_H7_S15_A0D from './Component/10G_SFP+/Dual_H7_S15_A0D';
+import Dual_H7_S15_A0Di from './Component/10G_SFP+/Dual_H7_S15_A0Di';
+import Products_4G_SFP from './Component/4G_SFP/Products_4G_SFP';
+import Dual_SFP_X1DM from './Component/4G_SFP/Dual_SFP_X1DM';
+import Dual_SFP_X1DMi from './Component/4G_SFP/Dual_SFP_X1DMi';
 
 function App() {
   return (
-
     <BrowserRouter>
     <Routes>
      <Route path="/" element={<Index/>}/>
@@ -892,9 +906,23 @@ function App() {
      <Route path="/Products_Dual_10G_SFP/Dual_H7_20DMi" element={<Dual_H7_20DMi/>}/>
      <Route path="/Products_Dual_10G_SFP/Dual_H7_40DM" element={<Dual_H7_40DM/>}/>
      <Route path="/Products_Dual_10G_SFP/Dual_H7_40DMi" element={<Dual_H7_40DMi/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_40D" element={<Dual_H7_S15_40D/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_40Di" element={<Dual_H7_S15_40Di/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_40DM" element={<Dual_H7_S15_40DM/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_40DMi" element={<Dual_H7_S15_40DMi/>}/>
      <Route path="/Products_Dual_10G_SFP/Dual_H7_40DQ" element={<Dual_H7_40DQ/>}/>
      <Route path="/Products_Dual_10G_SFP/Dual_H7_40DQi" element={<Dual_H7_40DQi/>}/>
-     
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_80D" element={<Dual_H7_S15_80D/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_80Di" element={<Dual_H7_S15_80Di/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_80DM" element={<Dual_H7_S15_80DM/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_80DMi" element={<Dual_H7_S15_80DMi/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_80DQ" element={<Dual_H7_S15_80DQ/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_80DQi" element={<Dual_H7_S15_80DQi/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_A0D" element={<Dual_H7_S15_A0D/>}/>
+     <Route path="/Products_Dual_10G_SFP/Dual_H7_S15_A0Di" element={<Dual_H7_S15_A0Di/>}/>
+     <Route path="/Products_4G_SFP" element={<Products_4G_SFP/>}/>
+     <Route path="/Products_4G_SFP/Dual_SFP_X1DM" element={<Dual_SFP_X1DM/>}/>
+     <Route path="/Products_4G_SFP/Dual_SFP_X1DMi" element={<Dual_SFP_X1DMi/>}/>
      
      
      

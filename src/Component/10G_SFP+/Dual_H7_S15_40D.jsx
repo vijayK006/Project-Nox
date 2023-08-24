@@ -25,10 +25,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_H7_40DQi = () => { 
+const Dual_H7_S15_40D = () => { 
 
-  let PartNumber = "NXO-H7-S15-40DQi";
-  let productName ="10G SFP+ ER Transceiver Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, CDR";
+  let PartNumber = "NXO-H7-S15-40D";
+  let productName ="10G SFP+ ER Transceiver Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -154,27 +154,46 @@ const Dual_H7_40DQi = () => {
 </div>
 
 <h5>Features</h5>
+{/*  
+
+   <p className='listFeture'>Compatible with IEEE802.3ae 10GBASE-LR/LW
+ </p>
+
+   <p className='listFeture'> Compliant with OBSAI 1536~6144Mbps, CPRI Option 2~8
+
+</p>
+   <p className='listFeture'>     Compliant with SFF-8431 SFP+ MSA </p>
+   <p className='listFeture'>     Support 1.0625Gb/s to 11.32Gb/s Multi-Rate   </p>
+   <p className='listFeture'>     Built-in TX CDR and RX CDR </p>
+
+   <p className='listFeture'>     Hot Pluggable </p>
+   <p className='listFeture'>   1310nm FP laser transmitter
+</p>
+   <p className='listFeture'>     Duplex LC connector </p>
+   <p className='listFeture'>     2-wire interface for management and diagnostic monitor compliant with SFF-8472 </p>
+   <p className='listFeture'>     Single +3.3V power supply </p>
+   <p className='listFeture'>     Link distance 40km over SM fiber </p>
+   <p className='listFeture'>     RoHS Compliant </p> */}
 
 
-     <p className='listFeture'>   Compliant with IEEE802.3ae 10GBASE-ER/EW </p>
-     <p className='listFeture'>   Compliant with CPRI Option 8 </p>
-     <p className='listFeture'>   Support 9.953Gb/s to 11.1Gb/s Multi-Rate </p>
-      <p className='listFeture'>  Built-in TX CDR and RX CDR </p>
-     <p className='listFeture'>   Hot Pluggable </p>
-     <p className='listFeture'>   1550nm EML laser transmitter </p>
-     <p className='listFeture'>   Duplex LC connector </p>
-      <p className='listFeture'>  2-wire interface for management and diagnostic monitor compliant with SFF-8472 </p>
-     <p className='listFeture'>   Single +3.3V power supply </p>
-    <p className='listFeture'>    Link distance 40km over SM fiber </p>
-     <p className='listFeture'>   RoHS Compliant </p>
-
+      <p className='listFeture'>   Compliant with IEEE802.3ae 10GBASE-ER/EW</p>
+      <p className='listFeture'>   Compliant with CPRI Option 7, 8</p>
+      <p className='listFeture'>   Compliant with SFF-8431 SFP+ MSA</p>
+      <p className='listFeture'>   Support 8.5Gb/s to 11.32Gb/s Multi-Rate</p>
+      <p className='listFeture'>   Hot Pluggable</p>
+      <p className='listFeture'>   1550nm EML laser transmitter</p>
+      <p className='listFeture'>   Duplex LC connector</p>
+      <p className='listFeture'>   2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
+      <p className='listFeture'>   Single +3.3V power supply</p>
+      <p className='listFeture'>   Link distance 40km over SM fiber</p>
+      <p className='listFeture'>   RoHS Compliant</p>
 
 <h5 className='pt-5'>Applications</h5>
 
-     <p className='listFeture'>    10GBASE-LR/LW Ethernet @10.3125G </p>
+     <p className='listFeture'>    10GBASE-ER/EW Ethernet @10.3125G </p>
      <p className='listFeture'>    Fiber Channel 1200-SM-LL-L 10GFC @10.51875G </p>
      <p className='listFeture'>    SONET OC-192 & SDH STM-64 @9.953G </p>
-     <p className='listFeture'>    CPRI Option #8 @10.1376G </p>
+     <p className='listFeture'>    CPRI Option #7 @9.83G, #8  @10.1376G </p>
       <p className='listFeture'>   OTN OTU2 @10.7G, OTU2e @11.09G </p>
         
 
@@ -231,10 +250,11 @@ const Dual_H7_40DQi = () => {
   
  <p>
 
-NXO-H7-S15-40DQi Small Form Factor Pluggable
+ {PartNumber} Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled 1550nm EML transmitter and
 high sensitivity PIN receiver provide superior
-performance for 10GBASE-ER/EW applications up to SMF 40km optical links. And it is equipped with internal TX and RX retime units (Clock and Data Recover, CDR) to comply SONET/SDH jitter requirements and to enhance host card’s high-speed data signal integrity.
+performance for 10GBASE-ER/EW applications up to SMF 40km optical links.
+
 
 </p>
 </div>
@@ -310,7 +330,7 @@ performance for 10GBASE-ER/EW applications up to SMF 40km optical links. And it 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-S15-40DQ)</td>
+          <td>Case Operating Temp. (NXO-H7-S15-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -319,7 +339,7 @@ performance for 10GBASE-ER/EW applications up to SMF 40km optical links. And it 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-S15-40DQ)</td>
+          <td>Case Operating Temp. (NXO-H7-S15-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -337,20 +357,20 @@ performance for 10GBASE-ER/EW applications up to SMF 40km optical links. And it 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S15-40DQ)</td>
+          <td>Supply Current (NXO-H7-S15-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>350</td>
+          <td>400</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S15-40DQ)</td>
+          <td>Supply Current (NXO-H7-S15-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>380</td>
+          <td>450</td>
           <td>mA</td>
         </tr>
 
@@ -391,14 +411,14 @@ Specification.
   </div>
 </div>
 
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Transceiver Block Diagram </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={TransceiverBlock} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
 
-</div>
+</div> */}
 
 {/* Memory Map Section Start */}
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
@@ -513,4 +533,4 @@ Specification.
   )
 }
 
-export default Dual_H7_40DQi;
+export default Dual_H7_S15_40D;
