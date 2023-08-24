@@ -23,10 +23,10 @@ import { TiTickOutline } from 'react-icons/ti';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const BIDI_H8_C27_20D = () => { 
+const BIDI_H8_C27_60Di = () => { 
 
-  let PartNumber = "NXO-H8-C27-20D";
-  let productName ="10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM";
+  let PartNumber = "NXO-H8-C27-60Di";
+  let productName ="10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -161,7 +161,7 @@ const BIDI_H8_C27_20D = () => {
 <p className='listFeture'>Simplex LC connector</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 20km over SM fiber</p>
+<p className='listFeture'>Link distance 60km over SM fiber</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 
@@ -213,8 +213,8 @@ const BIDI_H8_C27_20D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-H8-C27-20D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1270nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for 10GBASE Ethernet applications up to SMF 20km optical links.
+ <p>{PartNumber} Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1270nm DFB transmitter and high sensitivity PIN receiver provide superior
+performance for 10GBASE Ethernet applications up to SMF 40km optical links.
 
 </p>
 </div>
@@ -290,7 +290,7 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-20D)</td>
+          <td>Case Operating Temp. (NXO-H8-C27-60D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -299,7 +299,7 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-20Di)</td>
+          <td>Case Operating Temp. (NXO-H8-C27-60Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -317,20 +317,20 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-20D)</td>
+          <td>Supply Current (NXO-H8-C27-60D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>300</td>
+          <td>400</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-20Di)</td>
+          <td>Supply Current (NXO-H8-C27-60Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>350</td>
+          <td>450</td>
           <td>mA</td>
         </tr>
 
@@ -360,7 +360,6 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
 <br/><br/><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472) Specification.</b>
 </p>
   </div>
-
   </div>
 </div>
 
@@ -475,4 +474,4 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
   )
 }
 
-export default BIDI_H8_C27_20D;
+export default BIDI_H8_C27_60Di;

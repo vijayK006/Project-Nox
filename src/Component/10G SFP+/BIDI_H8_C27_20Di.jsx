@@ -23,9 +23,9 @@ import { TiTickOutline } from 'react-icons/ti';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const BIDI_H8_C27_20D = () => { 
+const BIDI_H8_C27_20Di = () => { 
 
-  let PartNumber = "NXO-H8-C27-20D";
+  let PartNumber = "NXO-H8-C27-20Di";
   let productName ="10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -213,7 +213,7 @@ const BIDI_H8_C27_20D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-H8-C27-20D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1270nm DFB transmitter and high sensitivity PIN receiver provide superior
+ <p>{PartNumber} Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1270nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for 10GBASE Ethernet applications up to SMF 20km optical links.
 
 </p>
@@ -475,4 +475,4 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
   )
 }
 
-export default BIDI_H8_C27_20D;
+export default BIDI_H8_C27_20Di;

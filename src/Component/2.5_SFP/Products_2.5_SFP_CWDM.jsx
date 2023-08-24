@@ -361,6 +361,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 <p>Link distance 100km over SM fiber for 1470~1610nm
 </p>
 <p>RoHS Compliant
+
 </p>
 </div>
 
@@ -370,6 +371,67 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 
         </div>
 
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_CWDM/Dual_X3DM" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
+
+
+
+</h5>
+<p>Part Number : NXO-E7-M85-X3DM</p>
+<h4>Feature's</h4>
+
+<p>850nm VCSEL laser transmitter
+</p>
+<p>Duplex LC connector
+</p>
+<p>850nm VCSEL laser transmitter
+
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_SFP_CWDM/Dual_X3DMi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
+
+
+
+</h5>
+<p>Part Number : NXO-E7-M85-X3DMi</p>
+<h4>Feature's</h4>
+
+<p>850nm VCSEL laser transmitter
+</p>
+<p>Duplex LC connector
+</p>
+<p>850nm VCSEL laser transmitter
+
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
       </div>
 </div>
 

@@ -23,10 +23,10 @@ import { TiTickOutline } from 'react-icons/ti';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const BIDI_H8_C27_20D = () => { 
+const BIDI_H8_C27_40DM = () => { 
 
-  let PartNumber = "NXO-H8-C27-20D";
-  let productName ="10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM";
+  let PartNumber = "NXO-H8-C27-40DM";
+  let productName ="1G~10G Multi-Rate SFP+ BX(BR)-U Transceiver  Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -153,27 +153,27 @@ const BIDI_H8_C27_20D = () => {
 <h5>Features</h5>
 
 <p className='listFeture'>Compatible with IEEE802.3ae 10GBASE-BX(BR)</p>
-<p className='listFeture'>Compliant with CPRI Option 7, 8</p>
+<p className='listFeture'>Compliant with OBSAI 1536~6144Mbps, CPRI Option 2~8</p>
 <p className='listFeture'>Compliant with SFF-8431 SFP+ MSA</p>
-<p className='listFeture'>Support 8.5Gb/s to 11.32Gb/s Multi-Rate</p>
+<p className='listFeture'>Support 1.0625Gb/s to 11.32Gb/s Multi-Rate</p>
 <p className='listFeture'>Hot Pluggable</p>
 <p className='listFeture'>1270nm DFB laser transmitter</p>
 <p className='listFeture'>Simplex LC connector</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 20km over SM fiber</p>
+<p className='listFeture'>Link distance 40km over SM fiber</p>
 <p className='listFeture'>RoHS Compliant</p>
-
-
-
 
 
 <h5 className='pt-5'>Applications</h5>
 
 <p className='listFeture'>10GBASE-BX(BR) Ethernet @10.3125G</p>
-<p className='listFeture'>Fiber Channel 800-SM-LC-L 8GFC @8.5G, 1200-SM-LL-L 10GFC @10.51875G</p>
+<p className='listFeture'>Gigabit Ethernet @1.25G</p>
+<p className='listFeture'>Fiber Channel 1GFC @1.0625G, 2GFC @2.125G, 4GFC @4.25G, 8GFC @8.5G, 10GFC @10.51875G</p>
 <p className='listFeture'>SONET OC-192 & SDH STM-64 @9.953G</p>
-<p className='listFeture'>CPRI Option #7 @9.83G, #8 @10.1376G</p>
+<p className='listFeture'>SONET OC-48 & SDH STM-16 @2.488G</p>
+<p className='listFeture'>OBSAI @6.144G / 3.072G / 1.536G</p>
+<p className='listFeture'>CPRI @10.1376G / 9.8304G / 6.144G / 4.9152G / 3.072G / 2.4576G / 1.2288G</p>
 <p className='listFeture'>OTN OTU2 @10.7G, OTU2e @11.09G, OTU2f @11.32G</p>
 
 </div>
@@ -201,7 +201,7 @@ const BIDI_H8_C27_20D = () => {
     <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
     </li>
-
+  
   </ul> 
 </div>
 </div>
@@ -213,8 +213,9 @@ const BIDI_H8_C27_20D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-H8-C27-20D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1270nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for 10GBASE Ethernet applications up to SMF 20km optical links.
+ <p>{PartNumber} Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1270nm DFB transmitter and high sensitivity PIN receiver provide superior
+performance at Multi-Rate applications up to SMF 40km optical links.
+
 
 </p>
 </div>
@@ -290,7 +291,7 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-20D)</td>
+          <td>Case Operating Temp. (NXO-H8-C27-40DM)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -299,7 +300,7 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-20Di)</td>
+          <td>Case Operating Temp. (NXO-H8-C27-40DMi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -317,16 +318,16 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-20D)</td>
+          <td>Supply Current (NXO-H8-C27-40DM)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>300</td>
+          <td>320</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-20Di)</td>
+          <td>Supply Current (NXO-H8-C27-40DMi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -341,7 +342,8 @@ performance for 10GBASE Ethernet applications up to SMF 20km optical links.
 </div>
  </div>
 
- <div id="menu3" class="container tab-pane fade"><br/>
+
+<div id="menu3" class="container tab-pane fade"><br/>
   <p>As defined by the SFP MSA (SFF-8472) NXO SFP+ transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
  <ul>
     <li>Transceiver temperature</li>
@@ -475,4 +477,4 @@ uses SDA in conjunction with SCL to mark the start and end of serial protocol ac
   )
 }
 
-export default BIDI_H8_C27_20D;
+export default BIDI_H8_C27_40DM;

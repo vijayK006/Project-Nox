@@ -551,7 +551,7 @@ const Switchclose_menu8=()=>{
 {/* <Link to="/SFP_BIDI_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>2.5G SFP BIDI</p></Link> */}
 
 <p className='menu-title pt-2'>1.25G CSFP</p>
-<Link to="/Dual_Bidi_LC" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G CSFP Dual Bidi LC</p></Link>
+<Link to="/Dual_Bidi_LC_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G CSFP Dual Bidi LC</p></Link>
 
 </div>
 
@@ -578,7 +578,7 @@ const Switchclose_menu8=()=>{
 <Link to="/EPON_SFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>1.25G EPON SFP</p></Link>
 
 <p className='menu-title pt-2'>2X5 SFF</p>
-<Link to="/X5TR_2X5_SFF" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/1.25G 2X5 SFF</p></Link>
+<Link to="/SFF_2X5_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/1.25G 2X5 SFF</p></Link>
 
 </div>
 
@@ -623,7 +623,7 @@ const Switchclose_menu8=()=>{
 
 <div className='col-lg-2'>
     <p className='menu-title '>10G XFP </p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM Tunable</p></Link>
+<Link to="/XFP_DWDM_Tunable" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM Tunable</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP CWDM</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP BIDI</p></Link>
@@ -1202,7 +1202,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series18'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu18}/>
 
-<Link to="/Dual_Bidi_LC" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G CSFP Dual Bidi LC</p></Link>
+<Link to="/Dual_Bidi_LC_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>1.25G CSFP Dual Bidi LC</p></Link>
 </div>
 
 <div className='mobile-nav-all_product' id='series19'>
@@ -1217,7 +1217,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series20'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu20}/>
 
-<Link to="/X5TR_2X5_SFF" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/1.25G 2X5 SFF</p></Link>
+<Link to="/SFF_2X5_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>125M/1.25G 2X5 SFF</p></Link>
 
 
 

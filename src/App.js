@@ -152,7 +152,14 @@ import X2_10G_SR from './Component/10G X2/X2_10G_SR';
 import X2_10G_LR from './Component/10G X2/X2_10G_LR';
 import X2_10G_ER from './Component/10G X2/X2_10G_ER';
 import X2_10G_ZR from './Component/10G X2/X2_10G_ZR';
-import Dual_Bidi_LC from './Component/1.25G CSFP/Dual_Bidi_LC';
+
+import Dual_Bidi_LC_Products from './Component/1.25G CSFP/Dual_Bidi_LC_Products';
+import CSFP_S34_20D from './Component/1.25G CSFP/CSFP_S34_20D';
+import CSFP_S34_20Di from './Component/1.25G CSFP/CSFP_S34_20Di';
+import CSFP_S43_20D from './Component/1.25G CSFP/CSFP_S43_20D';
+import CSFP_S43_20Di from './Component/1.25G CSFP/CSFP_S43_20Di';
+import CSFP_S53_20D from './Component/1.25G CSFP/CSFP_S53_20D';
+import CSFP_S53_20Di from './Component/1.25G CSFP/CSFP_S53_20Di';
 
 import Projects_SFP_10G from "./Component/RJ45 Copper Series/Projects_SFP_10G_T";
 import SFP_10G_T_Y3 from "./Component/RJ45 Copper Series/SFP_10G_T_Y3";
@@ -164,11 +171,15 @@ import SFP_10G_T_Y38 from "./Component/RJ45 Copper Series/SFP_10G_T_Y38";
 import T22_Y3_10G_T from './Component/RJ45 Copper Series/T22_Y3_10G_T';
 import T11_Y8_10G_T from './Component/RJ45 Copper Series/T11_Y8_10G_T';
 
-// import Products_2point5_SFP_BIDI from "./Component/2.5_SFP/2.5_SFP_BIDI_Products";
+import SFP_BIDI_Products from "./Component/2.5_SFP/SFP_BIDI_Products";
 import BIDI_S35_20D from "./Component/2.5_SFP/SFP_BIDI_2.5G_S35_20D";
 import BIDI_S53_20D from "./Component/2.5_SFP/BIDI_S53_20D";
 import BIDI_S35_40D from "./Component/2.5_SFP/BIDI_S35_40D";
 import BIDI_S53_40D from "./Component/2.5_SFP/BIDI_S53_40D";
+import BIDI_S35_20Di from "./Component/2.5_SFP/SFP_BIDI_2.5G_S35_20Di";
+import BIDI_S53_20Di from "./Component/2.5_SFP/BIDI_S53_20Di";
+import BIDI_S35_40Di from "./Component/2.5_SFP/BIDI_S35_40Di";
+import BIDI_S53_40Di from "./Component/2.5_SFP/BIDI_S53_40Di";
 
 import Products_SFP_CWDM from "./Component/2.5_SFP/Products_2.5_SFP_CWDM";
 import CWDM_b20D from "./Component/2.5_SFP/CWDM_b20D";
@@ -184,9 +195,29 @@ import CWDM_b26DMi from "./Component/2.5_SFP/CWDM_b26DMi";
 
 import Products_2point5_Dual from "./Component/2.5_SFP/Products_2.5G_Dual";
 import Dual_X3D from "./Component/2.5_SFP/Dual_X3D";
+import Dual_X3Di from "./Component/2.5_SFP/Dual_X3Di";
 import Dual_X3DM from "./Component/2.5_SFP/Dual_X3DM";
+import Dual_X3DMi from "./Component/2.5_SFP/Dual_X3DMi";
 import Dual_02D from "./Component/2.5_SFP/Dual_02D";
-import SFP_BIDI_Products from "./Component/2.5_SFP/SFP_BIDI_Products";
+import Dual_02Di from "./Component/2.5_SFP/Dual_02Di";
+import Dual_20D from './Component/2.5_SFP/Dual_20D';
+import Dual_20Di from './Component/2.5_SFP/Dual_20Di';
+import Dual_S13_40D from './Component/2.5_SFP/Dual_S13_40D';
+import Dual_S13_40Di from './Component/2.5_SFP/Dual_S13_40Di';
+import Dual_S13_60D from './Component/2.5_SFP/Dual_S13_60D';
+import Dual_S13_60Di from './Component/2.5_SFP/Dual_S13_60Di';
+import Dual_S15_40D from './Component/2.5_SFP/Dual_S15_40D';
+import Dual_S15_40Di from './Component/2.5_SFP/Dual_S15_40Di';
+import Dual_S15_80D from './Component/2.5_SFP/Dual_S15_80D';
+import Dual_S15_80Di from './Component/2.5_SFP/Dual_S15_80Di';
+import Dual_S15_A0D from './Component/2.5_SFP/Dual_S15_A0D';
+import Dual_S15_A0Di from './Component/2.5_SFP/Dual_S15_A0Di';
+import Dual_S15_A0DM from './Component/2.5_SFP/Dual_S15_A0DM';
+import Dual_S15_A0DMi from './Component/2.5_SFP/Dual_S15_A0DMi';
+import Dual_S15_A2D from './Component/2.5_SFP/Dual_S15_A2D';
+import Dual_S15_A2Di from './Component/2.5_SFP/Dual_S15_A2Di';
+import Dual_S15_A2DM from './Component/2.5_SFP/Dual_S15_A2DM';
+import Dual_S15_A2DMi from './Component/2.5_SFP/Dual_S15_A2DMi';
 
 import SFP_DWDM_Products from './Component/2.5_SFP/SFP_DWDM_Products';
 import DWDM_80km from './Component/2.5_SFP/DWDM_80km';
@@ -194,15 +225,7 @@ import DWDM_120km from './Component/2.5_SFP/DWDM_120km';
 import DWDM_80km_i from './Component/2.5_SFP/DWDM_80km_i';
 import DWDM_120km_i from './Component/2.5_SFP/DWDM_120km_i';
 
-import Dual_20D from './Component/2.5_SFP/Dual_20D';
-import Dual_S13_40D from './Component/2.5_SFP/Dual_S13_40D';
-import Dual_S13_60D from './Component/2.5_SFP/Dual_S13_60D';
-import Dual_S15_40D from './Component/2.5_SFP/Dual_S15_40D';
-import Dual_S15_80D from './Component/2.5_SFP/Dual_S15_80D';
-import Dual_S15_A0D from './Component/2.5_SFP/Dual_S15_A0D';
-import Dual_S15_A0DM from './Component/2.5_SFP/Dual_S15_A0DM';
-import Dual_S15_A2D from './Component/2.5_SFP/Dual_S15_A2D';
-import Dual_S15_A2DM from './Component/2.5_SFP/Dual_S15_A2DM';
+
 
 import SFP_1_25G_DWDM_Products from './Component/1.25G SFP/SFP_1.25G_DWDM_Products';
 import SFP_1_25G_DWDM_80D from './Component/1.25G SFP/SFP_1.25G_DWDM_80D';
@@ -227,8 +250,8 @@ import BIDI_C8_S35_60D from './Component/1.25G SFP/BIDI_C8_S35_60D';
 import BIDI_C8_S43_10D from './Component/1.25G SFP/BIDI_C8_S43_10D';
 import BIDI_C8_S43_20D from './Component/1.25G SFP/BIDI_C8_S43_20D';
 import BIDI_C8_S43_40D from './Component/1.25G SFP/BIDI_C8_S43_40D';
-import BIDI_C8_S43_80D from './Component/1.25G SFP/BIDI_C8_S43_80D';
-import BIDI_C8_S43_A0D from './Component/1.25G SFP/BIDI_C8_S43_A0D';
+import BIDI_C8_S45_80D from './Component/1.25G SFP/BIDI_C8_S45_80D';
+import BIDI_C8_S45_A0D from './Component/1.25G SFP/BIDI_C8_S45_A0D';
 import BIDI_C8_S53_02D from './Component/1.25G SFP/BIDI_C8_S53_02D';
 import BIDI_C8_S53_40D from './Component/1.25G SFP/BIDI_C8_S53_40D';
 import BIDI_C8_S53_60D from './Component/1.25G SFP/BIDI_C8_S53_60D';
@@ -280,7 +303,10 @@ import CWDM4_13D from './Component/100G_QSFP28/CWDM4_13D';
 import EPON_PE4_203 from './Component/PON SFP  SFP+/EPON_PE4_203';
 
 import BIDI_C33 from './Component/100G_QSFP28/BIDI_C33';
+
+import SFF_2X5_Products from './Component/2X5 SFF/SFF_2X5_Products';
 import X5TR_2X5_SFF from './Component/2X5 SFF/X5TR_2X5_SFF';
+import X5TR_2X5_SFFi from './Component/2X5 SFF/X5TR_2X5_SFFi';
 
 import BIDI_155M_Products from './Component/125M 155M  SFP/BIDI_155M_Products';
 import BIDI_S35_100BX_U from './Component/125M 155M  SFP/BIDI_S35_100BX_U';
@@ -313,8 +339,29 @@ import CWDW_SFP_b36D from './Component/125M 155M  SFP/CWDW_SFP_b36D';
 
 import SFP_PLUS_BIDI_Products from './Component/10G SFP+/SFP+_BIDI_Products';
 import BIDI_H8_C27_20D from './Component/10G SFP+/BIDI_H8_C27_20D';
+import BIDI_H8_C27_20Di from './Component/10G SFP+/BIDI_H8_C27_20Di';
 import BIDI_H8_C27_20DM from './Component/10G SFP+/BIDI_H8_C27_20DM';
+import BIDI_H8_C27_20DMi from './Component/10G SFP+/BIDI_H8_C27_20DMi';
 import BIDI_H8_C27_40D from './Component/10G SFP+/BIDI_H8_C27_40D';
+import BIDI_H8_C27_40Di from './Component/10G SFP+/BIDI_H8_C27_40Di';
+import BIDI_H8_C27_40DM from './Component/10G SFP+/BIDI_H8_C27_40DM';
+import BIDI_H8_C27_40DMi from './Component/10G SFP+/BIDI_H8_C27_40DMi';
+import BIDI_H8_C27_60D from './Component/10G SFP+/BIDI_H8_C27_60D';
+import BIDI_H8_C27_60Di from './Component/10G SFP+/BIDI_H8_C27_60Di';
+import BIDI_H8_C33_20D from './Component/10G SFP+/BIDI_H8_C33_20D';
+import BIDI_H8_C33_20Di from './Component/10G SFP+/BIDI_H8_C33_20Di';
+import BIDI_H8_C33_20DM from './Component/10G SFP+/BIDI_H8_C33_20DM';
+import BIDI_H8_C33_20DMi from './Component/10G SFP+/BIDI_H8_C33_20DMi';
+import BIDI_H8_C33_40D from './Component/10G SFP+/BIDI_H8_C33_40D';
+import BIDI_H8_C33_40Di from './Component/10G SFP+/BIDI_H8_C33_40Di';
+import BIDI_H8_C33_40DM from './Component/10G SFP+/BIDI_H8_C33_40DM';
+import BIDI_H8_C33_40DMi from './Component/10G SFP+/BIDI_H8_C33_40DMi';
+import BIDI_H8_C33_60D from './Component/10G SFP+/BIDI_H8_C33_60D';
+import BIDI_H8_C33_60Di from './Component/10G SFP+/BIDI_H8_C33_60Di';
+import BIDI_H8_C49_80D from './Component/10G SFP+/BIDI_H8_C49_80D';
+import BIDI_H8_C49_80Di from './Component/10G SFP+/BIDI_H8_C49_80Di';
+import BIDI_H8_C55_80D from './Component/10G SFP+/BIDI_H8_C55_80D';
+import BIDI_H8_C55_80Di from './Component/10G SFP+/BIDI_H8_C55_80Di';
 
 import Products_Dual_SFP_155M from './Component/125M 155M  SFP/Products_Dual_SFP_155M';
 import Dual_155M_02D from './Component/125M 155M  SFP/Dual_155M_02D';
@@ -356,6 +403,8 @@ import DWDM_H7_40Di from './Component/10G_SFP+/DWDM_H7_40Di';
 import DWDM_H7_80D from './Component/10G_SFP+/DWDM_H7_80D';
 import DWDM_H7_80Di from './Component/10G_SFP+/DWDM_H7_80Di';
 import Products_CWDM_10G_SFP from './Component/10G_SFP+/Products_CWDM_10G_SFP';
+
+import XFP_DWDM_Tunable from './Component/10G XFP/XFP_DWDM_Tunable';
 
 import CWDM_H7_08D from './Component/10G_SFP+/CWDM_H7_08D';
 import CWDM_H7_08Di from './Component/10G_SFP+/CWDM_H7_08Di';
@@ -549,7 +598,19 @@ function App() {
      <Route path="X2_DUAL_Products/X2_10G_LR" element={<X2_10G_LR/>}/>
      <Route path="X2_DUAL_Products/X2_10G_ER" element={<X2_10G_ER/>}/>
      <Route path="X2_DUAL_Products/X2_10G_ZR" element={<X2_10G_ZR/>}/>
-     <Route path="/Dual_Bidi_LC" element={<Dual_Bidi_LC/>}/>
+
+     <Route path="/Dual_Bidi_LC_Products" element={<Dual_Bidi_LC_Products/>}/>
+     <Route path="/Dual_Bidi_LC_Products/CSFP_S34_20D" element={<CSFP_S34_20D/>}/>
+     <Route path="/Dual_Bidi_LC_Products/CSFP_S34_20Di" element={<CSFP_S34_20Di/>}/>
+     <Route path="/Dual_Bidi_LC_Products/CSFP_S43_20D" element={<CSFP_S43_20D/>}/>
+     <Route path="/Dual_Bidi_LC_Products/CSFP_S43_20Di" element={<CSFP_S43_20Di/>}/>
+     <Route path="/Dual_Bidi_LC_Products/CSFP_S53_20D" element={<CSFP_S53_20D/>}/>
+     <Route path="/Dual_Bidi_LC_Products/CSFP_S53_20Di" element={<CSFP_S53_20Di/>}/>
+
+
+   
+     
+
 
      <Route path="/Projects_SFP_10G" element={<Projects_SFP_10G/>}/>
      <Route path="/Projects_SFP_10G/SFP_10G_T_Y3" element={<SFP_10G_T_Y3/>}/>
@@ -561,11 +622,15 @@ function App() {
      <Route path="/Projects_SFP_10G/T22_Y3_10G_T" element={<T22_Y3_10G_T/>}/>
      <Route path="/Projects_SFP_10G/T11_Y8_10G_T" element={<T11_Y8_10G_T/>}/>
 
-     {/* <Route path="/Products_2point5_SFP_BIDI" element={<Products_2point5_SFP_BIDI/>}/> */}
-     <Route path="/BIDI_S35_20D" element={<BIDI_S35_20D/>}/>
-     <Route path="/BIDI_S53_20D" element={<BIDI_S53_20D/>}/>
-     <Route path="/BIDI_S35_40D" element={<BIDI_S35_40D/>}/>
-     <Route path="/BIDI_S53_40D" element={<BIDI_S53_40D/>}/>
+     <Route path="/SFP_BIDI_Products" element={<SFP_BIDI_Products/>}/>
+     <Route path="/SFP_BIDI_Products/BIDI_S35_20D" element={<BIDI_S35_20D/>}/>
+     <Route path="/SFP_BIDI_Products/BIDI_S53_20D" element={<BIDI_S53_20D/>}/>
+     <Route path="/SFP_BIDI_Products/BIDI_S35_40D" element={<BIDI_S35_40D/>}/>
+     <Route path="/SFP_BIDI_Products/BIDI_S53_40D" element={<BIDI_S53_40D/>}/>
+     <Route path="/SFP_BIDI_Products/BIDI_S35_20Di" element={<BIDI_S35_20Di/>}/>
+     <Route path="/SFP_BIDI_Products/BIDI_S53_20Di" element={<BIDI_S53_20Di/>}/>
+     <Route path="/SFP_BIDI_Products/BIDI_S35_40Di" element={<BIDI_S35_40Di/>}/>
+     <Route path="/SFP_BIDI_Products/BIDI_S53_40Di" element={<BIDI_S53_40Di/>}/>
 
      <Route path="/Products_SFP_CWDM" element={<Products_SFP_CWDM/>}/>
      <Route path="/Products_SFP_CWDM/CWDM_b20D" element={<CWDM_b20D/>}/>
@@ -581,22 +646,33 @@ function App() {
 
      <Route path="/Products_2point5_Dual" element={<Products_2point5_Dual/>}/>
      <Route path="/Products_2point5_Dual/Dual_X3D" element={<Dual_X3D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_X3DM" element={<Dual_X3DM/>}/>
-     <Route path="/Products_2point5_Dual/Dual_02D" element={<Dual_02D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_20D" element={<Dual_20D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S13_40D" element={<Dual_S13_40D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S13_60D" element={<Dual_S13_60D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S15_40D" element={<Dual_S15_40D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S15_80D" element={<Dual_S15_80D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S15_A0D" element={<Dual_S15_A0D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S15_A0DM" element={<Dual_S15_A0DM/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S15_A2D" element={<Dual_S15_A2D/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S15_A2DM" element={<Dual_S15_A2DM/>}/>
-     <Route path="/Products_2point5_Dual/Dual_S15_A2DM" element={<Dual_S15_A2DM/>}/>
+     <Route path="/Products_2point5_Dual/Dual_X3Di" element={<Dual_X3Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_X3DM" element={<Dual_X3DM/>}/>     
+     <Route path="/Products_2point5_Dual/Dual_X3DMi" element={<Dual_X3DMi/>}/>
+     <Route path="/Products_2point5_Dual/Dual_02D" element={<Dual_02D/>}/>     
+     <Route path="/Products_2point5_Dual/Dual_02Di" element={<Dual_02Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_20D" element={<Dual_20D/>}/>    
+      <Route path="/Products_2point5_Dual/Dual_20Di" element={<Dual_20Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S13_40D" element={<Dual_S13_40D/>}/>    
+      <Route path="/Products_2point5_Dual/Dual_S13_40Di" element={<Dual_S13_40Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S13_60D" element={<Dual_S13_60D/>}/>    
+      <Route path="/Products_2point5_Dual/Dual_S13_60Di" element={<Dual_S13_60Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_40D" element={<Dual_S15_40D/>}/>    
+      <Route path="/Products_2point5_Dual/Dual_S15_40Di" element={<Dual_S15_40Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_80D" element={<Dual_S15_80D/>}/>    
+      <Route path="/Products_2point5_Dual/Dual_S15_80Di" element={<Dual_S15_80Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_A0D" element={<Dual_S15_A0D/>}/>    
+      <Route path="/Products_2point5_Dual/Dual_S15_A0Di" element={<Dual_S15_A0Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_A0DM" element={<Dual_S15_A0DM/>}/>  
+        <Route path="/Products_2point5_Dual/Dual_S15_A0DMi" element={<Dual_S15_A0DMi/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_A2D" element={<Dual_S15_A2D/>}/>    
+      <Route path="/Products_2point5_Dual/Dual_S15_A2Di" element={<Dual_S15_A2Di/>}/>
+     <Route path="/Products_2point5_Dual/Dual_S15_A2DM" element={<Dual_S15_A2DM/>}/>   
+       <Route path="/Products_2point5_Dual/Dual_S15_A2DMi" element={<Dual_S15_A2DMi/>}/>
+
      
      
      
-     <Route path="/SFP_BIDI_Products" element={<SFP_BIDI_Products/>}/>
 
      <Route path="/SFP_DWDM_Products" element={<SFP_DWDM_Products/>}/>
      <Route path="/SFP_DWDM_Products/DWDM_80km" element={<DWDM_80km/>}/>
@@ -630,8 +706,8 @@ function App() {
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_10D" element={<BIDI_C8_S43_10D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_20D" element={<BIDI_C8_S43_20D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_40D" element={<BIDI_C8_S43_40D/>}/>
-     <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_80D" element={<BIDI_C8_S43_80D/>}/>
-     <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S43_A0D" element={<BIDI_C8_S43_A0D/>}/>
+     <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S45_80D" element={<BIDI_C8_S45_80D/>}/>
+     <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S45_A0D" element={<BIDI_C8_S45_A0D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_02D" element={<BIDI_C8_S53_02D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_40D" element={<BIDI_C8_S53_40D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_60D" element={<BIDI_C8_S53_60D/>}/>
@@ -698,8 +774,10 @@ function App() {
      <Route path="/EPON_SFP_Products/EPON_PE4_202" element={<EPON_PE4_202/>}/>
      <Route path="/EPON_SFP_Products/EPON_PE4_203" element={<EPON_PE4_203/>}/>
      
-
-     <Route path="/X5TR_2X5_SFF" element={<X5TR_2X5_SFF/>}/>
+     
+     <Route path="/SFF_2X5_Products" element={<SFF_2X5_Products/>}/>
+     <Route path="/SFF_2X5_Products/X5TR_2X5_SFF" element={<X5TR_2X5_SFF/>}/>
+     <Route path="/SFF_2X5_Products/X5TR_2X5_SFFi" element={<X5TR_2X5_SFFi/>}/>
 
      
      <Route path="/BIDI_155M_Products" element={<BIDI_155M_Products/>}/>
@@ -718,14 +796,32 @@ function App() {
 
      <Route path="/SFP_PLUS_BIDI_Products" element={<SFP_PLUS_BIDI_Products/>}/>
      <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_20D" element={<BIDI_H8_C27_20D/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_20Di" element={<BIDI_H8_C27_20Di/>}/>
      <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_20DM" element={<BIDI_H8_C27_20DM/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_20DMi" element={<BIDI_H8_C27_20DMi/>}/>
      <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_40D" element={<BIDI_H8_C27_40D/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_40Di" element={<BIDI_H8_C27_40Di/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_40DM" element={<BIDI_H8_C27_40DM/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_40DMi" element={<BIDI_H8_C27_40DMi/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_60D" element={<BIDI_H8_C27_60D/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C27_60Di" element={<BIDI_H8_C27_60Di/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_20D" element={<BIDI_H8_C33_20D/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_20Di" element={<BIDI_H8_C33_20Di/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_20DM" element={<BIDI_H8_C33_20DM/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_20DMi" element={<BIDI_H8_C33_20DMi/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_40D" element={<BIDI_H8_C33_40D/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_40Di" element={<BIDI_H8_C33_40Di/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_40DM" element={<BIDI_H8_C33_40DM/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_40DMi" element={<BIDI_H8_C33_40DMi/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_60D" element={<BIDI_H8_C33_60D/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C33_60Di" element={<BIDI_H8_C33_60Di/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C49_80D" element={<BIDI_H8_C49_80D/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C49_80Di" element={<BIDI_H8_C49_80Di/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C55_80D" element={<BIDI_H8_C55_80D/>}/>
+     <Route path="/SFP_PLUS_BIDI_Products/BIDI_H8_C55_80Di" element={<BIDI_H8_C55_80Di/>}/>
      
      
      
-     
-
-
      <Route path="/Products_Dual_SFP_155M" element={<Products_Dual_SFP_155M/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_02D" element={<Dual_155M_02D/>}/>
      <Route path="/Products_Dual_SFP_155M/Dual_155M_02Di" element={<Dual_155M_02Di/>}/>
@@ -765,6 +861,9 @@ function App() {
      <Route path="/Products_DWDM_10G_SFP/DWDM_H7_40Di" element={<DWDM_H7_40Di/>}/>
      <Route path="/Products_DWDM_10G_SFP/DWDM_H7_80D" element={<DWDM_H7_80D/>}/>
      <Route path="/Products_DWDM_10G_SFP/DWDM_H7_80Di" element={<DWDM_H7_80Di/>}/>
+    
+     <Route path="/XFP_DWDM_Tunable" element={<XFP_DWDM_Tunable/>}/>
+     
      <Route path="/Products_CWDM_10G_SFP" element={<Products_CWDM_10G_SFP/>}/>
      <Route path="/Products_CWDM_10G_SFP/CWDM_H7_08D" element={<CWDM_H7_08D/>}/>
      <Route path="/Products_CWDM_10G_SFP/CWDM_H7_08Di" element={<CWDM_H7_08Di/>}/>

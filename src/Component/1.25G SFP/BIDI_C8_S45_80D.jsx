@@ -1,11 +1,11 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/1.25G CSFP/dualBX_img.jpg'
+import productImg1 from '../../img/products/1.25G SFP/SFP_BIDI_4.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/1.25G CSFP/pinAssisment.jpg';
-import machdimenssion from '../../img/products/1.25G CSFP/mchDimenssion.jpg';
-import Memorymap from '../../img/products/1.25G CSFP/memoryMap1.png';
+import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
+import machdimenssion from '../../img/products/1.25G SFP/SFP_BIDI_machanicaldimension.jpg';
+import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
 import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 
 import Navbar from '../../Navbar';
@@ -26,10 +26,12 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_Bidi_LC = () => { 
+const BIDI_C8_S45_80D = () => { 
 
-  let PartNumber = "NXO-CC-S43-20D";
-  let productName ="1.25G SFP 1000BX-D Compact 2CH Bidi Transceiver Hot Pluggable, Dual Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 20KM, DDM";
+  let PartNumber = "NXO-C8-S45-80D";
+  let productName ="1.25G SFP 1000BX-U Transceiver Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 80KM, DDM";
+
+
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -150,31 +152,41 @@ const Dual_Bidi_LC = () => {
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p>
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/>  In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with Fiber Channel 100-SM-LZ-L</p>
-<p className='listFeture'>Compliant with CSFP MSA Option 2</p>
+
+
+<p className='listFeture'>Compatible with IEEE802.3ah 1000BASE-BX-U
+
+
+</p>
+<p className='listFeture'>Compliant with Fiber Channel 100-SM-LC-L
+
+
+</p>
+
+<p className='listFeture'>Compliant with INF-8074i SFP MSA</p>
 <p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>2CH Bidi unit with 1490nm DFB laser transmitter and 1310nm PIN receiver</p>
-<p className='listFeture'>Dual Bidi LC connector</p>
+<p className='listFeture'>1490nm FP laser transmitter
+</p>
+<p className='listFeture'>Simplex LC connector
+</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 20km over SM fiber for each channel</p>
+<p className='listFeture'>Link distance 80km over SM fiber</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>Gigabit Ethernet 1000BASE-BX10 @1.25G</p>
-<p className='listFeture'>Fiber Channel 1GFC @1.0625G</p>
+<p className='listFeture'>Gigabit Ethernet 1000BASE-BX @1.25G
+</p>
+<p className='listFeture'>Fiber Channel 1GFC @1.0625G
+</p>
 
 </div>
 
@@ -213,12 +225,16 @@ const Dual_Bidi_LC = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-CC-S43-20D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
-Multi-Source Agreement (MSA) Specification. It
-achieve operational compatibility with conventional SFP and no damage to CSFP/ host board if CSFP transceiver is plugged into a conventional SFP socket. The high
+ <p>
+
+
+
+{PartNumber} Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1490nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for Gigabit Ethernet 1000BASE-BX10 and Fiber Channel 1GFC applications up to SMF 20km
-optical links.
+performance for Gigabit Ethernet 1000BASE-BX and
+Fiber Channel 1GFC applications up to SMF 80km optical links.
+
 
 </p>
 </div>
@@ -294,7 +310,7 @@ optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-CC-S43-20D)</td>
+          <td>Case Operating Temp. (NXO-C8-45-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -303,7 +319,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-CC-S43-20Di)</td>
+          <td>Case Operating Temp. (NXO-C8-45-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,20 +337,20 @@ optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S43-20D)</td>
+          <td>Supply Current (NXO-C8-S45-80D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>450</td>
+          <td>270</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S43-20Di)</td>
+          <td>Supply Current (NXO-C8-S45-80Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>500</td>
+          <td>300</td>
           <td>mA</td>
         </tr>
 
@@ -348,7 +364,7 @@ optical links.
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO CSFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>
@@ -380,7 +396,7 @@ Specification.
   <h1 className='pb-4'>Pin Assignment</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ pinassisment} className='sectionImg2' alt="memorymapImg"/>
+<img src={ pinassisment} className='sectionImg2_1' alt="memorymapImg"/>
 </div>
 
 </div>
@@ -393,9 +409,9 @@ Specification.
 </div>
 <br/>
 <br/>
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
+{/* <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={ Memorymap2 } className='sectionImg2_1' alt="memorymapImg"/>
-</div>
+</div> */}
 
 </div>
 
@@ -488,4 +504,4 @@ Specification.
   )
 }
 
-export default Dual_Bidi_LC;
+export default BIDI_C8_S45_80D;

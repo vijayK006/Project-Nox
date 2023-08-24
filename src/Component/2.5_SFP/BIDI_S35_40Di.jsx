@@ -1,11 +1,11 @@
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/1.25G SFP/SFP_BIDI_4.jpg'
+import productImg1 from '../../img/products/2.5_SFP/BIDI_S53_20D.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/2.5_SFP/CWDM_PinAssignment.jpg';
-import machdimenssion from '../../img/products/1.25G SFP/SFP_BIDI_machanicaldimension.jpg';
-import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
+import pinassisment from '../../img/products/1.25G CSFP/pinAssisment.jpg';
+import machdimenssion from '../../img/products/2.5_SFP/BIDI_Machanical.jpg';
+import Memorymap from '../../img/products/1.25G CSFP/memoryMap1.png';
 import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 
 import Navbar from '../../Navbar';
@@ -26,12 +26,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const BIDI_C8_S43_80D = () => { 
+const BIDI_S35_40Di = () => { 
 
-  let PartNumber = "NXO-C8-S43-80D";
-  let productName ="1.25G SFP 1000BX-U Transceiver Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1550nm, SMF 80KM, DDM";
-
-
+  let PartNumber = "NXO-E8-S35-40Di";
+  let productName ="2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -158,35 +156,25 @@ const BIDI_C8_S43_80D = () => {
 
 <h5>Features</h5>
 
-
-
-<p className='listFeture'>Compatible with IEEE802.3ah 1000BASE-BX-U
-
-
-</p>
-<p className='listFeture'>Compliant with Fiber Channel 100-SM-LC-L
-
-
+<p className='listFeture'>Compatible with SONET OC-48 IR-1 and SDH STM-16 S16.1
 </p>
 
-<p className='listFeture'>Compliant with INF-8074i SFP MSA</p>
-<p className='listFeture'>Hot Pluggable</p>
-<p className='listFeture'>1490nm FP laser transmitter
+<p className='listFeture'>Compliant with INF-8074i SFP MSA
 </p>
-{/* <p className='listFeture'>Simplex LC connector
-</p> */}
+<p className='listFeture'>Hot Pluggable
+</p>
+<p className='listFeture'>1310nm DFB laser transmitter
+</p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 80km over SM fiber</p>
+<p className='listFeture'>Link distance 20km over SM fiber
+</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>Gigabit Ethernet 1000BASE-BX10 @1.25G
-</p>
-<p className='listFeture'>Fiber Channel 1GFC @1.0625G
-</p>
+<p className='listFeture'>SONET OC-48 / SDH STM-16 @2.5G</p>
 
 </div>
 
@@ -227,13 +215,10 @@ const BIDI_C8_S43_80D = () => {
   
  <p>
 
-
-
-NXO-C8-S43-80D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+{PartNumber} Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
-performance uncooled 1490nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for Gigabit Ethernet 1000BASE-BX and
-Fiber Channel 1GFC applications up to SMF 40km optical links.
+performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
+performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical links.
 
 </p>
 </div>
@@ -309,7 +294,7 @@ Fiber Channel 1GFC applications up to SMF 40km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C8-S43-80D)</td>
+          <td>Case Operating Temp. (NXO-CC-S35-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -318,7 +303,7 @@ Fiber Channel 1GFC applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C8-S43-80Di)</td>
+          <td>Case Operating Temp. (NXO-CC-S35-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -336,20 +321,20 @@ Fiber Channel 1GFC applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S43-80D)</td>
+          <td>Supply Current (NXO-CC-S35-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>270</td>
+          <td>250</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S43-80Di)</td>
+          <td>Supply Current (NXO-CC-S35-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>300</td>
+          <td>280</td>
           <td>mA</td>
         </tr>
 
@@ -363,7 +348,7 @@ Fiber Channel 1GFC applications up to SMF 40km optical links.
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO CSFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>
@@ -503,4 +488,4 @@ Specification.
   )
 }
 
-export default BIDI_C8_S43_80D;
+export default BIDI_S35_40Di;

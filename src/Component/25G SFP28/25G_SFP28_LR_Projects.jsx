@@ -175,64 +175,6 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_DualRate" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>10G / 25G SFP28 LR Transceiver
-Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM, Dual-Rate
-
-</h5>
-<p>Part Number : NXO-N7-S13-10DR</p>
-<h4>Feature's</h4>
-
-<p>Compatible with IEEE802.3ae 10GBASE-LR/LW
-</p>
-<p>Compliant with CPRI option10
-</p>
-<p>Compliant with SFF-8402 SFP28 MSA
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_DualRate_i" style={{textDecoration:"none", color:"black"}}>
-
-<div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
-
-<div className='product-dec'>
-  <h5>10G / 25G SFP28 LR Transceiver
-Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM, Dual-Rate
-
-</h5>
-<p>Part Number : NXO-N7-S13-10DRi</p>
-<h4>Feature's</h4>
-
-<p>Compatible with IEEE802.3ae 10GBASE-LR/LW
-</p>
-<p>Compliant with CPRI option10
-</p>
-<p>Compliant with SFF-8402 SFP28 MSA
-</p>
-
-</div>
-
-<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
-</div>
-</Link>
-
-        </div>
-
-        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_Transceiver" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
