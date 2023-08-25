@@ -89,7 +89,7 @@ const CSFP_S34_20D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt="lightBox-img"/>
       )}
     </Item>
 
@@ -100,7 +100,7 @@ const CSFP_S34_20D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt="lightBox-img"/>
       )}
     </Item>
 
@@ -111,7 +111,7 @@ const CSFP_S34_20D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="lightBox-img" />
       )}
     </Item>
 
@@ -122,7 +122,7 @@ const CSFP_S34_20D = () => {
       height="768"
     >
       {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="lightBox-img" />
       )}
     </Item>
    
