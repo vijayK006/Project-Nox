@@ -627,7 +627,7 @@ const Switchclose_menu8=()=>{
 <Link to="/XFP_DWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DWDM</p></Link>
 <Link to="/XFP_CWDM_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP CWDM</p></Link>
 <Link to='/XFP_BIDI_Products' style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP BIDI</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DUAL</p></Link>
+<Link to='/XFP_DUAL_Products' style={{textDecoration:"none"}}><p className='menu-inner-items'>10G XFP DUAL</p></Link>
 
 
 
@@ -1145,7 +1145,7 @@ const Switchclose_menu8=()=>{
 <Link to="/10G XFP DWDM" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DWDM</p></Link>
 <Link to="/XFP_CWDM_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP CWDM</p></Link>
 <Link to="/XFP_BIDI_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP BIDI</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DUAL</p></Link>
+<Link to="/XFP_DUAL_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G XFP DUAL</p></Link>
 
 
 </div>

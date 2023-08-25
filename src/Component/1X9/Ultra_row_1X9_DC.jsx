@@ -126,7 +126,7 @@ Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection
 
 
 </h5>
-<p>Part Number : NXO-05-M85-05B</p>
+<p>Part Number : NXO-05-M13-05B</p>
 <h4>Feature's</h4>
 
 <p>Industry Standard 1x9 Footprint</p>
@@ -153,7 +153,7 @@ Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection
 
 
 </h5>
-<p>Part Number : NXO-05-M85-05Bi</p>
+<p>Part Number : NXO-05-M13-05Bi</p>
 <h4>Feature's</h4>
 
 <p>Industry Standard 1x9 Footprint</p>
