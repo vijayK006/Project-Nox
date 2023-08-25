@@ -612,6 +612,12 @@ import Dual_H7_S15_A0Di from './Component/10G_SFP+/Dual_H7_S15_A0Di';
 import Products_4G_SFP from './Component/4G_SFP/Products_4G_SFP';
 import Dual_SFP_X1DM from './Component/4G_SFP/Dual_SFP_X1DM';
 import Dual_SFP_X1DMi from './Component/4G_SFP/Dual_SFP_X1DMi';
+import Products_6G_SFP from './Component/6G_SFP+/Products_6G_SFP';
+import Dual_67_X3D from './Component/6G_SFP+/Dual_67_X3D';
+import Dual_67_X3Di from './Component/6G_SFP+/Dual_67_X3Di';
+import Dual_67_02D from './Component/6G_SFP+/Dual_67_02D';
+import Dual_67_02Di from './Component/6G_SFP+/Dual_67_02Di';
+
 
 function App() {
   return (
@@ -1253,8 +1259,12 @@ function App() {
      <Route path="/Products_4G_SFP" element={<Products_4G_SFP/>}/>
      <Route path="/Products_4G_SFP/Dual_SFP_X1DM" element={<Dual_SFP_X1DM/>}/>
      <Route path="/Products_4G_SFP/Dual_SFP_X1DMi" element={<Dual_SFP_X1DMi/>}/>
-     
-     
+     <Route path="/Products_6G_SFP" element={<Products_6G_SFP/>}/>
+     <Route path="/Products_6G_SFP" element={<Products_6G_SFP/>}/>
+     <Route path="/Products_6G_SFP/Dual_67_X3D" element={<Dual_67_X3D/>}/>
+     <Route path="/Products_6G_SFP/Dual_67_X3Di" element={<Dual_67_X3Di/>}/>
+     <Route path="/Products_6G_SFP/Dual_67_02D" element={<Dual_67_02D/>}/>
+     <Route path="/Products_6G_SFP/Dual_67_02Di" element={<Dual_67_02Di/>}/>
      
     </Routes>
     

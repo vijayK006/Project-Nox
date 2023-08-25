@@ -293,7 +293,7 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
                                     <tbody>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-H7-S15-A0D)</td>
+                                            <td>Case Operating Temp. (NXO-F7-M85-X1DM)</td>
                                             <td>Top</td>
                                             <td>0</td>
                                             <td>-</td>
@@ -302,7 +302,7 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
                                         </tr>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-H7-S15-A0Di)</td>
+                                            <td>Case Operating Temp. (NXO-F7-M85-X1DMi)</td>
                                             <td>Top</td>
                                             <td>-40</td>
                                             <td>-</td>
@@ -320,7 +320,7 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-H7-S15-A0D)</td>
+                                            <td>Supply Current (NXO-F7-M85-X1DM)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>
@@ -329,7 +329,7 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-H7-S15-A0Di)</td>
+                                            <td>Supply Current (NXO-F7-M85-X1DMi)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>

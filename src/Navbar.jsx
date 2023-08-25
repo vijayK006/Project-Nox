@@ -638,7 +638,7 @@ const Switchclose_menu8=()=>{
 <Link to="/Products_4G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>4.25G SFP DUAL</p></Link>
 
 <p className='menu-title pt-2'>6G SFP+ </p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>6G SFP+ DUAL</p></Link>
+<Link to="/Products_6G_SFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>6G SFP+ DUAL</p></Link>
 </div>
 
 
@@ -1162,7 +1162,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series14'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu14}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>6G SFP+ DUAL</p></Link>
+<Link to="/Products_6G_SFP" style={{textDecoration:"none"}}><p className='mob-nav-items'>6G SFP+ DUAL</p></Link>
 
 
 
