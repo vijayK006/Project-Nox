@@ -665,9 +665,9 @@ const Switchclose_menu8=()=>{
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>DAC (Direct-Attach Cable)</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DAC</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 DAC</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ DAC</p></Link>
+<Link to="/DAC_10G_SFPS" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DAC</p></Link>
+<Link to="/DAC_25G_SFP28" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 DAC</p></Link>
+<Link to="/DAC_40G_QSFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ DAC</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 DAC</p></Link>
 
 </div>
@@ -1293,9 +1293,9 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series27'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu27}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ DAC</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 DAC</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>40G QSFP+ DAC</p></Link>
+<Link to="/DAC_10G_SFPS" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ DAC</p></Link>
+<Link to="/DAC_25G_SFP28" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 DAC</p></Link>
+<Link to="/DAC_40G_QSFP_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>40G QSFP+ DAC</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G QSFP28 DAC</p></Link>
 
 

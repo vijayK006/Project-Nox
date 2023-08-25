@@ -617,8 +617,14 @@ import Dual_67_X3D from './Component/6G_SFP+/Dual_67_X3D';
 import Dual_67_X3Di from './Component/6G_SFP+/Dual_67_X3Di';
 import Dual_67_02D from './Component/6G_SFP+/Dual_67_02D';
 import Dual_67_02Di from './Component/6G_SFP+/Dual_67_02Di';
+
 import AOC_SPSP from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/AOC_SPSP';
 
+import DAC_10G_SFPS from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/DAC_10G_SFPS';
+import DAC_25G_SFP28 from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/DAC_25G_SFP28';
+
+import DAC_40G_QSFP_Products from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/DAC_40G_QSFP_Products';
+import QSFP_40G_QPQP from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/QSFP_40G_QPQP';
 
 function App() {
   return (
@@ -1266,7 +1272,16 @@ function App() {
      <Route path="/Products_6G_SFP/Dual_67_X3Di" element={<Dual_67_X3Di/>}/>
      <Route path="/Products_6G_SFP/Dual_67_02D" element={<Dual_67_02D/>}/>
      <Route path="/Products_6G_SFP/Dual_67_02Di" element={<Dual_67_02Di/>}/>
+
+     {/* FIBER OPTICAL CABLE */}
      <Route path="/AOC_SPSP" element={<AOC_SPSP/>}/>
+
+     <Route path="/DAC_10G_SFPS" element={<DAC_10G_SFPS/>}/>
+     <Route path="/DAC_25G_SFP28" element={<DAC_25G_SFP28/>}/>
+
+     <Route path="/DAC_40G_QSFP_Products" element={<DAC_40G_QSFP_Products/>}/>
+     <Route path="/DAC_40G_QSFP_Products/QSFP_40G_QPQP" element={<QSFP_40G_QPQP/>}/>
+     
      
     </Routes>
     
