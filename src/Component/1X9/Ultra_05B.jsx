@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Ultra_05B = () => { 
 
-  let PartNumber = "NXO-05-M85-05";
+  let PartNumber = "NXO-05-M85-05B";
   let productName ="Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection";
 
 

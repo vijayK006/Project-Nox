@@ -25,9 +25,9 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const DWDM_SFP_BODi = () => { 
+const DWDM_SFP_M13_05Bi = () => { 
 
-  let PartNumber = "NXO-A7-Dxx-B0Di";
+  let PartNumber = "NXO-05-M13-05Bi";
   let productName ="125M / 155M DWDM SFP Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 200KM(46dB), DDM";
 
   const [name, setName] = useState("");
@@ -497,4 +497,4 @@ Specification.
   )
 }
 
-export default DWDM_SFP_BODi;
+export default DWDM_SFP_M13_05Bi;

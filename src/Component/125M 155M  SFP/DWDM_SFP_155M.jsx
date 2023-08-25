@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_SFP_BOD = () => { 
 
-  let PartNumber = "NXO-A7-Dxx-B0D";
+  let PartNumber = "NXO-05-M13-05B";
   let productName ="125M / 155M DWDM SFP Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 200KM(46dB), DDM";
 
   const [name, setName] = useState("");
@@ -220,7 +220,7 @@ const DWDM_SFP_BOD = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-A7-Dxx-B0D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+{PartNumber} Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. There
 are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH61) to 1563.86nm(CH17). The high performance Cooled DWDM DFB transmitter and high sensitivity APD receiver provide superior performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 200km optical links.
 

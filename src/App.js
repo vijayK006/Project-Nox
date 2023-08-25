@@ -463,7 +463,7 @@ import Dual_AM_S15_A2Pi from './Component/1X9/Dual_AM_S15_A2Pi';
 
 import DWDM_SFP_115M_Products from './Component/125M 155M  SFP/DWDM_SFP_115M_Products';
 import DWDM_SFP_BOD from './Component/125M 155M  SFP/DWDM_SFP_155M';
-import DWDM_SFP_BODi from './Component/125M 155M  SFP/DWDM_SFP_BODi';
+import DWDM_SFP_M13_05Bi from './Component/125M 155M  SFP/DWDM_SFP_M13_05Bi';
 
 import CWDW_SFP_155M_Products from './Component/125M 155M  SFP/CWDW_SFP_155M_Products';
 import CWDW_SFP_b30D from './Component/125M 155M  SFP/CWDW_SFP_b30D';
@@ -997,7 +997,7 @@ function App() {
 
      <Route path="/DWDM_SFP_115M_Products" element={<DWDM_SFP_115M_Products/>}/>
      <Route path="/DWDM_SFP_115M_Products/DWDM_SFP_BOD" element={<DWDM_SFP_BOD/>}/>
-     <Route path="/DWDM_SFP_115M_Products/DWDM_SFP_BODi" element={<DWDM_SFP_BODi/>}/>
+     <Route path="/DWDM_SFP_115M_Products/DWDM_SFP_M13_05Bi" element={<DWDM_SFP_M13_05Bi/>}/>
      
 
 
