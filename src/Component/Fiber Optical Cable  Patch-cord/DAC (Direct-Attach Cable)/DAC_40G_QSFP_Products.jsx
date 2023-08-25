@@ -20,7 +20,7 @@ import productImg2 from '../../../img/products/Fiber Optical Cable/DAC/40G_QPQP.
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const Products_40G_QSFP = () => {
+const DAC_40G_QSFP_Products = () => {
   return (
     <>
 <Navbar/>
@@ -102,4 +102,4 @@ Hot Pluggable, Twinax Copper Cables, Passive 0.5~7M
   )
 }
 
-export default Products_40G_QSFP;
+export default DAC_40G_QSFP_Products;
