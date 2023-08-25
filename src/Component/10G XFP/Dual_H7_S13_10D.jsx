@@ -1,12 +1,11 @@
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/1X9/ultra.jpg'
+import productImg1 from '../../img/products/10G XFP/C27_20D.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/1X9/1X9_ultra_pinAssignment.jpg';
-import machdimenssion from '../../img/products/1X9/ultra_dimension.jpg';
-import Memorymap from '../../img/products/1X9/CWDW_dimension.jpg';
-import Memorymap2 from '../../img/products/1X9/CWDW_dimension_2.jpg';
+import pinassisment from '../../img/products/10G XFP/DTU-80D_PinAssignment.jpg.png';
+import machdimenssion from '../../img/products/10G XFP/H7_M85_X3D_mechDimenssion.jpg';
+import Memorymap from '../../img/products/10G XFP/DTU-80D_memoryMap.png';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -26,12 +25,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Ultra_05Bi = () => { 
+const Dual_H7_S13_10D = () => { 
 
-  let PartNumber = "NXO-05-M13-05Bi";
-  let productName ="Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection";
-
-
+  let PartNumber = "NXO-H7-S13-10D";
+  let productName ="10G XFP-LR Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -152,43 +149,44 @@ const Ultra_05Bi = () => {
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/>  In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-  <p className='listFeture'>  Industry Standard 1x9 Footprint</p>
-   <p className='listFeture'> 1310nm VCSEL laser transmitter</p>
-  <p className='listFeture'>  Duplex Plastic ST connector</p>
-   <p className='listFeture'> Single 3.3V or 5V Power Supply</p>
-   <p className='listFeture'> DC-coupled Differential TTL inputs and outputs</p>
-  <p className='listFeture'>  LVTTL / TTL Signal Detection Output</p>
- <p className='listFeture'>   Wave Solderable and Aqueous Washable</p>
-   <p className='listFeture'> Link distance 5km over MM fiber</p>
-   <p className='listFeture'> RoHS Compliant</p>
+<p className='listFeture'>Compliant with IEEE802.3ae 10GBase-LR/LW standard</p>
+<p className='listFeture'>Compliant with SONET OC192 SR standard</p>
+<p className='listFeture'>Compliant with SDH STM64 I64 standard</p>
+<p className='listFeture'>Compliant with 10G 1200-SM-LL-L Fiber Channel</p>
+<p className='listFeture'>Compliant with XFP MSA INF-8077i</p>
+<p className='listFeture'>Support 9.95Gb/s to 11.3Gb/s multi-rates</p>
+<p className='listFeture'>Hot-pluggable XFP footprint</p>
+<p className='listFeture'>Uncooled 1310nm DFB Laser</p>
+<p className='listFeture'>Duplex LC connector</p>
+<p className='listFeture'>No Reference Clock required</p>
+<p className='listFeture'>Single +3.3V power supply</p>
+<p className='listFeture'>Built-in digital diagnostic function</p>
+<p className='listFeture'>Link length for 10km over SM fiber</p>
+<p className='listFeture'>Power consumption less than 1.5W</p>
+<p className='listFeture'>RoHS Compliant</p>
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>
-100BASE-ZX Ethernet
-
-
-</p>
-
-  <p className='listFeture'>  Ultra-Low Data-Rate DC~10Mbps </p>
-  <p className='listFeture'>  RS232 / RS422 / RS485 </p>
-   <p className='listFeture'> IEEE C37.94 / IEC 62843 </p>
- <p className='listFeture'>   Fiber Monitor System </p>
-   <p className='listFeture'> Industrial Control System </p>
-   <p className='listFeture'> V.35(RS449)/X.21/G.703(E1) </p>
-
-
+<p className='listFeture'>10GBASE-LR/LW Ethernet</p>
+<p className='listFeture'>1200-SM-LL-L 10G Fiber Channel</p> 
+<p className='listFeture'>SONET OC-192 & SDH STM-64 @9.953Gbps</p>
+<p className='listFeture'>OC192 over FEC @10.709Gbps</p>
+<p className='listFeture'>10GbE over G.709 @11.09Gbps</p>
 </div>
 
 </div>
 
-<div className='container pt-lg-5  pb-lg-5'>
+<div className='container pt-lg-5 pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
        <ul class="navs nav-pills" role="tablist">
@@ -206,9 +204,9 @@ const Ultra_05Bi = () => {
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
-    {/* <li class="nav-item">
+    <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
-    </li> */}
+    </li>
 
   </ul> 
 </div>
@@ -221,13 +219,8 @@ const Ultra_05Bi = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>
-
-{PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification.
-The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver provide superior
-performance for Ultra-Low Data-Rate applications such as RS232 / RS422 / RS485 and IEEE C37.94 /
-IEC 62843 up to MMF 2km optical links.
-
+ <p>{PartNumber} Small Form Factor 10Gb/s XFP transceivers are compliant with the current XFP
+Multi-Source Agreement ( MSA ) Specification. The high performance uncooled 1310nm DFB transmitter & high sensitivity PIN receiver provide superior performance for 10GBase-LR/LW and 10GFiber Channel 1200-SM-LL-L. applications up to 10km optical links.
 </p>
 </div>
 </div>
@@ -268,19 +261,13 @@ IEC 62843 up to MMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Supply Voltage(NXO-05-M85-05B) </td>
+          <td>Supply Voltage</td>
           <td>Vcc</td>
-          <td>0</td>
-          <td>+4.5</td>
+          <td>-0.5</td>
+          <td>+4.0</td>
           <td>V</td>
         </tr>
-        <tr>
-          <td>Supply Voltage(NXO-05-M85-05B5) </td>
-          <td>Vcc</td>
-          <td>0</td>
-          <td>+6.0</td>
-          <td>V</td>
-        </tr>
+
       </tbody>
     </table>
   </div>
@@ -308,7 +295,7 @@ IEC 62843 up to MMF 2km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-05-M85-05B)</td>
+          <td>Case Operating Temperature (NXO-H8-S13-10D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -317,95 +304,40 @@ IEC 62843 up to MMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-05-M85-05Bi)</td>
+          <td>Case Operating Temperature (NXO-H8-S13-10Di)</td>
           <td>Top</td>
-          <td>-40</td>
+          <td>0</td>
           <td>-</td>
           <td>+85</td>
           <td>°C</td>
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-05-M85-05B)</td>
+          <td>Supply Voltage </td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
           <td>+3.47</td>
           <td>V</td>
         </tr>
-        <tr>
-          <td>Supply Voltage (NXO-05-M85-05B5)</td>
-          <td>Vcc</td>
-          <td>+4.75</td>
-          <td>+5.0</td>
-          <td>+5.25</td>
-          <td>V</td>
-        </tr>
-        <tr>
-          <td>Data Rate</td>
-          <td>DR</td>
-          <td>DC</td>
-          <td></td>
-          <td>10</td>
-          <td>mb/s</td>
-        </tr>
+
+
         <tr>
           <td>Supply Current</td>
           <td>Icc</td>
           <td></td>
-          <td>40</td>
-          <td>60</td>
+          <td></td>
+          <td>400</td>
           <td>mA</td>
         </tr>
 
-       
         <tr>
-          <td>Power Consumption</td>
+          <td>Module Total Power</td>
           <td>P</td>
           <td></td>
           <td></td>
-          <td>400</td>
-          <td>mW</td>
-        </tr>
-        <tr>
-          <td>Lead Soldering Limits</td>
-          <td>Tsold</td>
-          <td></td>
-          <td></td>
-          <td>240/10</td>
-          <td>°C/Sec</td>
-        </tr>
-        <tr>
-          <td>Control Input Voltage High</td>
-          <td>VIH</td>
-          <td>2.0</td>
-          <td></td>
-          <td>Vcc</td>
-          <td>V</td>
-        </tr>
-        <tr>
-          <td>Control Input Voltage Low</td>
-          <td>VIL</td>
-          <td>GND</td>
-          <td></td>
-          <td>0.8</td>
-          <td>V</td>
-        </tr>
-        <tr>
-          <td>Control Output Voltage High</td>
-          <td>VoH</td>
-          <td>2.4</td>
-          <td></td>
-          <td>Vcc</td>
-          <td>V</td>
-        </tr>
-        <tr>
-          <td>Control Output Voltage Low</td>
-          <td>VoL</td>
-          <td>GND</td>
-          <td></td>
-          <td>0.8</td>
-          <td>V</td>
+          <td>1.5</td>
+          <td>W</td>
         </tr>
 
       </tbody>
@@ -413,12 +345,12 @@ IEC 62843 up to MMF 2km optical links.
   </div>
 </div>
  </div>
-{/* 
+
  <div id="menu3" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the XFP MSA, NXO XFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>
@@ -427,20 +359,22 @@ IEC 62843 up to MMF 2km optical links.
     <li>Transceiver supply voltage</li>
   </ul>
 
-  <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
+  <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range
 </p>
 
 <p>
 The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
-activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
+activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the XFP
+transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the XFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
+
 </p>
 
-<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472)
-Specification.
+<p><b>For more detailed information including memory map definitions, please see the XFP MSA Specification.
+
 </b></p>
 
 </div>
- </div> */}
+ </div>
 
   </div>
 </div>
@@ -455,22 +389,14 @@ Specification.
 
 </div>
 
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Mechanical Dimensions </h1>
-  <h3 className='pb-4'>SC Connector Type </h3>
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap} className='sectionImg3' alt="memorymapImg"/>
-</div>
-<br/>
-<br/>
-<h3 className='pb-4'>FC Connector Type  </h3>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap2 } className='sectionImg3' alt="memorymapImg"/>
+<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
 </div>
 
-</div> */}
+</div>
 
 
 {/* Mechanical Dimensions section start */}
@@ -479,7 +405,7 @@ Specification.
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={machdimenssion} className='sectionImg3' alt="Transceiver Block Diagram"/>
+<img src={machdimenssion} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
 
 </div>
@@ -561,4 +487,4 @@ Specification.
   )
 }
 
-export default Ultra_05Bi;
+export default Dual_H7_S13_10D;
