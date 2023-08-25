@@ -625,6 +625,7 @@ import DAC_25G_SFP28 from './Component/Fiber Optical Cable  Patch-cord/DAC (Dire
 
 import DAC_40G_QSFP_Products from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/DAC_40G_QSFP_Products';
 import QSFP_40G_QPQP from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/QSFP_40G_QPQP';
+import QSFP_40G_QPSP from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/QSFP_40G_QPSP';
 
 function App() {
   return (
@@ -1281,6 +1282,7 @@ function App() {
 
      <Route path="/DAC_40G_QSFP_Products" element={<DAC_40G_QSFP_Products/>}/>
      <Route path="/DAC_40G_QSFP_Products/QSFP_40G_QPQP" element={<QSFP_40G_QPQP/>}/>
+     <Route path="/DAC_40G_QSFP_Products/QSFP_40G_QPSP" element={<QSFP_40G_QPSP/>}/>
      
      
     </Routes>
