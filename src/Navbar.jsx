@@ -655,7 +655,7 @@ const Switchclose_menu8=()=>{
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>AOC (Active Optical Cable)</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ AOC</p></Link>
+<Link to="/AOC_SPSP" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ AOC</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 AOC</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ AOC</p></Link>
 <Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 AOC</p></Link>
@@ -1282,7 +1282,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series26'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu26}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ AOC</p></Link>
+<Link to="/AOC_SPSP" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ AOC</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 AOC</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>40G QSFP+ AOC</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G QSFP28 AOC</p></Link>

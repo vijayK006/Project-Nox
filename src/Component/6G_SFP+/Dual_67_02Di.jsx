@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products//4G_SFP/Dual_4G.jpg'
+import productImg1 from '../../img/products/10SFP+/Dual_3.jpg'
 
 import TransceiverBlock from '../../img/products/10SFP+/Transciever.jpg';
 import pinassisment from '../../img/products/6G_SFP/PinAssignment.jpg';

@@ -136,7 +136,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
         <Link to="/Products_6G_SFP/Dual_67_02D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg4} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
@@ -171,7 +171,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
         <Link to="/Products_6G_SFP/Dual_67_02Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
-<img src={productImg1} className='productImg3'/>
+<img src={productImg4} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
