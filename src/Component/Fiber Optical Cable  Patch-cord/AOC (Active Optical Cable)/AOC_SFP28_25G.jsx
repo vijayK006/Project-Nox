@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/10G_SPSP.jpg'
 
 // import TransceiverBlock from '../../img/products/10SFP+/Transciever.jpg';
-import pinassisment from '../../../img/products/Fiber Optical Cable/AOC/pinAssignment.jpg';
+import pinassisment from '../../../img/products/Fiber Optical Cable/AOC/pinAssignment2.jpg';
 import machdimenssion from '../../../img/products/Fiber Optical Cable/AOC/dimension.jpg';
 import Memorymap from '../../../img/products/Fiber Optical Cable/AOC/Memory.jpg';
 import handling from '../../../img/products/Fiber Optical Cable/AOC/handling.jpg';
@@ -26,10 +26,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const AOC_SPSP = () => {
+const AOC_SFP28_25G = () => {
 
-    let PartNumber = "NXOAOC-10G-SPSP-xxx-xx";
-    let productName = "10G SFP+ Active Optical Cable (AOC) Hot Pluggable, 850nm VCSEL, MMF 1~150M, DDM";
+    let PartNumber = "NXOAOC-25G-SPSP-xxx-xx";
+    let productName = "25G SFP28 Active Optical Cable (AOC)Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM";
 
     const [name, setName] = useState("");
     const [mobNumber, setmobNumber] = useState("");
@@ -155,26 +155,24 @@ const AOC_SPSP = () => {
                     </div>
 
                     <h5>Features</h5>
-
-
-                  <p className='listFeture'>  Compatible with IEEE802.3ae 10GBASE-SR </p>
-                   <p className='listFeture'> Compliant with SFF-8431 SFP+ MSA </p>
-                  <p className='listFeture'>  Support InfiniBand SDR, DDR, QDR & FDR-10 </p>
-                 <p className='listFeture'>   Up to 11.2Gbps data rate </p>
-                 <p className='listFeture'>   Hot Pluggable </p>
+                  <p className='listFeture'>  Compatible with IEEE802.3by 25GBASE-SR </p>
+                  <p className='listFeture'>  Compliant with SFF-8402 SFP28 MSA </p>
+                   <p className='listFeture'> Support InfiniBand EDR, FDR-10 </p>
+                   <p className='listFeture'> Up to 25.78125Gbps data rate</p>
+                  <p className='listFeture'>  Hot Pluggable </p>
                   <p className='listFeture'>  850nm VCSEL transmitter and PIN receiver </p>
                   <p className='listFeture'>  2-wire interface for management and diagnostic monitor compliant with SFF-8472 </p>
                   <p className='listFeture'>  Single 3.3V power supply </p>
-                  <p className='listFeture'>  Link distance up to 150m over MM OM3 fiber </p>
-                  <p className='listFeture'>  Low power consumption  {'<1.0W'} </p>
+                   <p className='listFeture'> Link distance 100m over MM OM4 fiber and 70m over MM OM3 fiber </p>
+                  <p className='listFeture'>  Low power consumption {'<1.0W'} </p>
                   <p className='listFeture'>  RoHS Compliant </p>
 
                     <h5 className='pt-5'>Applications</h5>
 
-                       <p className='listFeture'> 10GBASE-SR Ethernet Link</p>
-                      <p className='listFeture'>  InfiniBand SDR, DDR, QDR, FDR-10</p>
-                       <p className='listFeture'> Data Center & Storage</p>
-                       <p className='listFeture'> Datacom / Telecom Switch & Router</p>
+                    <p className='listFeture'> 25GBASE-SR Ethernet Link </p>
+                    <p className='listFeture'>  InfiniBand EDR, FDR-10</p>
+                    <p className='listFeture'> Data Center & Storage</p>
+                    <p className='listFeture'> Datacom / Telecom Switch & Router</p>
 
 
                 </div>
@@ -215,9 +213,8 @@ const AOC_SPSP = () => {
                             <h2>Overview</h2>
 
                             <p>
-                                {PartNumber} Small Form Factor Pluggable
-                                SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
-                                performance for OBSAI & CPRI Option #6 applications up to SMF 2km optical links.
+                                {PartNumber} 25G SFP+ Active Optical Cables (AOC) are direct-attach fiber assemblies with SFP28 form factor. The AOC utilize multi-mode fiber with 850nm VCSEL and PIN PD. It could be used as an alternative solution to SFP28 passive and active copper cables, while providing improved signal integrity, longer distances, superior electro-magnetic immunity & better bit error rate performance. They are suitable for 1~100 meters distances and offer a cost-effective way for very high port density connections.
+
 
 
 
@@ -314,7 +311,7 @@ const AOC_SPSP = () => {
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current,per SFP+ </td>
+                                            <td>Supply Current,per SFP28 </td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>
@@ -322,7 +319,7 @@ const AOC_SPSP = () => {
                                             <td>mA</td>
                                         </tr>
                                         <tr>
-                                            <td>Power Consumption, per SFP+ </td>
+                                            <td>Power Consumption, per SFP28 </td>
                                             <td>P</td>
                                             <td></td>
                                             <td></td>
@@ -332,13 +329,21 @@ const AOC_SPSP = () => {
                                         <tr>
                                             <td>Operating Data Rate </td>
                                             <td>DR</td>
-                                            <td>1.0625 </td>
-                                            <td>10.3125</td>
+                                            <td>10.3125 </td>
+                                            <td>25.78125</td>
                                             <td></td>
-                                            <td>Gb/s    </td>
+                                            <td>Gb/s</td>
                                         </tr>
                                         <tr>
-                                            <td>Bit Error Rate </td>
+                                            <td>Bit Error Rate( Pre-FEC ) </td>
+                                            <td>BER</td>
+                                            <td> </td>
+                                            <td></td>
+                                            <td>5X10^-5</td>
+                                            <td></td>   
+                                        </tr>
+                                        <tr>
+                                            <td>Bit Error Rate( Post-FEC ) </td>
                                             <td>BER</td>
                                             <td> </td>
                                             <td></td>
@@ -522,4 +527,4 @@ const AOC_SPSP = () => {
     )
 }
 
-export default AOC_SPSP;
+export default AOC_SFP28_25G;
