@@ -26,7 +26,7 @@ import productImg6 from '../../img/products/10SFP+/Dual_5.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
-const Products_4G_SFP = () => {
+const Products_6G_SFP = () => {
   return (
     <>
 <Navbar/>
@@ -62,25 +62,26 @@ const Products_4G_SFP = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>4G SFP+ DUAL</h2>
+<h2 className='pt-5'>6G SFP+ DUAL</h2>
 
       <div className='row pt-5  pb-5'>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_4G_SFP/Dual_SFP_X1DM" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_6G_SFP/Dual_67_X3D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  4GFC SFP SW Transceiver
-Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate
+  6.144G SFP+ SR Transceiver
+Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
+
 
 
 
 </h5>
-<p>Part Number : NXO-F7-M85-X1DM
+<p>Part Number : NXO-67-M85-X3D
 </p>
 
 <h4>Feature's</h4> 
@@ -99,20 +100,57 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/Products_4G_SFP/Dual_SFP_X1DMi" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/Products_6G_SFP/Dual_67_X3Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
 
 <div className='product-dec'>
   <h5>
-  4GFC SFP SW Transceiver
-Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate
+  6.144G SFP+ SR Transceiver
+Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
+
 
 
 
 </h5>
-<p>Part Number : NXO-F7-M85-X1DMi</p>
+<p>Part Number : NXO-67-M85-X3Di
+</p>
+
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_6G_SFP/Dual_67_02D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  6.144G SFP+ LR-Lite Transceiver
+Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
+
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-67-S13-02D
+</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -129,6 +167,40 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate
 
         </div>
     
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_6G_SFP/Dual_67_02Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  6.144G SFP+ LR-Lite Transceiver
+Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
+
+
+
+
+
+
+</h5>
+<p>Part Number : NXO-67-S13-02Di
+</p>
+
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
       </div>
 </div>
 
@@ -139,4 +211,4 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate
   )
 }
 
-export default Products_4G_SFP;
+export default Products_6G_SFP;

@@ -3,8 +3,8 @@ import emailjs from '@emailjs/browser';
 import productImg1 from '../../img/products//4G_SFP/Dual_4G.jpg'
 
 import TransceiverBlock from '../../img/products/10SFP+/Transciever.jpg';
-import pinassisment from '../../img/products/4G_SFP/PinAssignment.jpg';
-import machdimenssion from '../../img/products/4G_SFP/Dimension.jpg';
+import pinassisment from '../../img/products/6G_SFP/PinAssignment.jpg';
+import machdimenssion from '../../img/products/6G_SFP/dimension.jpg';
 import Memorymap from '../../img/products/2.5_SFP/CWDM_MemoryMap.jpg';
 import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 
@@ -25,10 +25,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_SFP_X1DM = () => {
+const Dual_67_X3D = () => {
 
-    let PartNumber = "NXO-F7-M85-X1DM";
-    let productName = "4GFC SFP SW Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate";
+    let PartNumber = "NXO-67-M85-X3D";
+    let productName = "6.144G SFP+ SR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM";
 
     const [name, setName] = useState("");
     const [mobNumber, setmobNumber] = useState("");
@@ -154,29 +154,25 @@ const Dual_SFP_X1DM = () => {
                     </div>
 
                     <h5>Features</h5>
-                 <p className='listFeture'>   Compliant with Fiber Channel 400- M6 / M5 / </p>
-                 <p className='listFeture'>   M5E / M5F-SN-I </p>
-                  <p className='listFeture'>  Compliant with INF-8074i SFP MSA </p>
-                  <p className='listFeture'>  Support 4x/2x/1x Fiber Channel </p>
-                 <p className='listFeture'>   Support 4.25G / 2.125G / 1.0625G Multi-Rate </p>
-                  <p className='listFeture'>  Hot Pluggable </p>
-                 <p className='listFeture'>   850nm VCSEL laser transmitter </p>
-                 <p className='listFeture'>   Duplex LC connector </p>
-                 <p className='listFeture'>   2-wire interface for management and diagnostic monitor compliant with SFF-8472 </p>
-                 <p className='listFeture'>   Single +3.3V power supply </p>
-                 <p className='listFeture'>   Link distance @4GFC: OM1 70m / OM2 150m / OM3 380m / OM4 400m </p>
-                  <p className='listFeture'>  Link distance @2GFC: OM1 150m / OM2 300m / OM3 500m </p>
-                   <p className='listFeture'> Link distance @1GFC: OM1 300m / OM2 500m / </p>
-                  <p className='listFeture'>  OM3 860m </p>
-                 <p className='listFeture'>   RoHS Compliant </p>
+          
+
+               <p className='listFeture'>   Compliant with OBSAI @6144Mbps</p>
+              <p className='listFeture'>   CPRI Option #6 @6.144G</p>
+              <p className='listFeture'>   Compliant with SFF-8431 SFP+ MSA</p>
+              <p className='listFeture'>   Hot Pluggable</p>
+              <p className='listFeture'>   850nm VCSEL laser transmitter</p>
+              <p className='listFeture'>   Duplex LC connector</p>
+              <p className='listFeture'>   2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
+               <p className='listFeture'>  Single +3.3V power supply</p>
+               <p className='listFeture'>  Link distance 300m over MM OM3 fiber</p>
+              <p className='listFeture'>   RoHS Compliant</p>
 
                     <h5 className='pt-5'>Applications</h5>
-                 <p className='listFeture'> Fiber Channel
-                    400-M6 / M5 / M5E / M5F 4GFC @4.25G,
-                    200-M6 / M5 / M5E 2GFC @2.125G,
-                    100-M6 / M5 / M5E 1GFC @1.0625G </p>
+                
 
-                    
+                 <p className='listFeture'>   OBSAI @6.144G</p>
+                  <p className='listFeture'>  CPRI Option #6 @6.144G  4G LTE Mobile Base Station</p>
+
 
                 </div>
 
@@ -216,8 +212,10 @@ const Dual_SFP_X1DM = () => {
                             <h2>Overview</h2>
 
                             <p>
-{PartNumber} is a Small Form Factor Pluggable SFP transceivers compliant with the current SFP Multi-Source Agreement (MSA) standard. The High performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver provide superior
-performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150m optical links.
+{PartNumber} Small Form Factor Pluggable
+SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver provide superior
+performance for OBSAI & CPRI Option #6 applications up to MMF OM3 300m optical links.
+
 
               </p>
                         </div>
@@ -293,7 +291,7 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
                                     <tbody>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-F7-M85-X1DM)</td>
+                                            <td>Case Operating Temp. (NXO-67-M85-X3D)</td>
                                             <td>Top</td>
                                             <td>0</td>
                                             <td>-</td>
@@ -302,7 +300,7 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
                                         </tr>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-F7-M85-X1DMi)</td>
+                                            <td>Case Operating Temp. (NXO-67-M85-X3Di)</td>
                                             <td>Top</td>
                                             <td>-40</td>
                                             <td>-</td>
@@ -320,7 +318,7 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-F7-M85-X1DM)</td>
+                                            <td>Supply Current (NXO-67-M85-X3D)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>
@@ -329,7 +327,7 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-F7-M85-X1DMi)</td>
+                                            <td>Supply Current (NXO-67-M85-X3Di)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>
@@ -496,4 +494,4 @@ performance for 4x/2x/1x Fiber Channel Multi-Rate applications up to MMF OM2 150
     )
 }
 
-export default Dual_SFP_X1DM;
+export default Dual_67_X3D;
