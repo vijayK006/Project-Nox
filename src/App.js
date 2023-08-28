@@ -629,6 +629,19 @@ import DAC_40G_QSFP_Products from './Component/Fiber Optical Cable  Patch-cord/D
 import QSFP_40G_QPQP from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/QSFP_40G_QPQP';
 import QSFP_40G_QPSP from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/QSFP_40G_QPSP';
 
+import DAC_100G_QSFP_Products from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/DAC_100G_QSFP_Products';
+import QSFP28_100G_QPQP from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/QSFP28_100G_QPQP';
+import QSFP28_100G_QPSP from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/QSFP28_100G_QPSP';
+
+// Armored_Breakout_Cable
+import Armored_Breakout_Cable from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/Armored_Breakout_Cable';
+
+// Breakout_Cable
+import Breakout_Cable from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/Breakout_Cable';
+
+// Energy_Chain_Cable
+import Energy_Chain_Cable from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/Energy_Chain_Cable';
+
 function App() {
   return (
     <BrowserRouter>
@@ -1288,7 +1301,20 @@ function App() {
      <Route path="/DAC_40G_QSFP_Products/QSFP_40G_QPQP" element={<QSFP_40G_QPQP/>}/>
      <Route path="/DAC_40G_QSFP_Products/QSFP_40G_QPSP" element={<QSFP_40G_QPSP/>}/>
      
+     <Route path="/DAC_100G_QSFP_Products" element={<DAC_100G_QSFP_Products/>}/>
+     <Route path="/DAC_100G_QSFP_Products/QSFP28_100G_QPQP" element={<QSFP28_100G_QPQP/>}/>
+     <Route path="/DAC_100G_QSFP_Products/QSFP28_100G_QPSP" element={<QSFP28_100G_QPSP/>}/>
      
+     {/* Armored_Breakout_Cable */}
+     <Route path="/Armored_Breakout_Cable" element={<Armored_Breakout_Cable/>}/>
+
+     {/* Breakout_Cable */}
+     <Route path="/Breakout_Cable" element={<Breakout_Cable/>}/>
+
+     {/* Energy_Chain_Cable */}
+     <Route path="/Energy_Chain_Cable" element={<Energy_Chain_Cable/>}/>
+
+
     </Routes>
     
      
