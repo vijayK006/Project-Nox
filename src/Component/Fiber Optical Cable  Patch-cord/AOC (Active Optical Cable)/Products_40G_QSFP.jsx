@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../../img/products/Fiber Optical Cable/DAC/40G_QPQP.jpg';
+import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/QPDP.jpg';
 import productImg2 from '../../../img/products/Fiber Optical Cable/DAC/40G_QPQP.jpg';
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
@@ -68,19 +68,22 @@ const Products_40G_QSFP = () => {
 
 <div className='product-dec'>
   <h5>
-  40G QSFP+ Direct Attach Cable (DAC)
-Hot Pluggable, Twinax Copper Cables, Passive 0.5~7M
+  40G QSFP+ to 4xDLC Breakout Active Optical Cable ( AOC ) Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM
+
 </h5>
-<p>Part Number : NXODAC-40G-QPQP-Pxx-xx</p>
+<p>Part Number : NXOAOC-40G-QPDP-xxx-xx
+</p>
 
 <h4>Feature's</h4> 
 
-<p>Link distance up to 7m
+<p>Hot Pluggable
+
 </p>
 
-<p>Enhanced EMI / EMC performance
+<p>Single 3.3V power supply
+
 </p>
-<p>4 Independent Duplex Lanes
+<p>RoHS Compliant
 </p>
 
 
