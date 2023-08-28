@@ -647,6 +647,18 @@ import Breakout_Cable from './Component/Fiber Optical Cable  Patch-cord/Indoor P
 // Energy_Chain_Cable
 import Energy_Chain_Cable from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/Energy_Chain_Cable';
 
+// General_Patch_Cord
+import General_Patch_Cord from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/General_Patch_Cord';
+
+// High_Strength_And_Suppleness
+import High_Strength_And_Suppleness from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/High_Strength_&_Suppleness';
+
+// Mini_Distribution_Cable
+import Mini_Distribution_Cable from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/Mini_Distribution_Cable';
+
+// MPO_PatchCord
+import MPO_PatchCord from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/MPO_PatchCord';
+
 function App() {
   return (
     <BrowserRouter>
@@ -1324,7 +1336,23 @@ function App() {
 
      {/* Energy_Chain_Cable */}
      <Route path="/Energy_Chain_Cable" element={<Energy_Chain_Cable/>}/>
+<<<<<<< HEAD
      
+=======
+
+     {/* General_Patch_Cord */}
+     <Route path="/General_Patch_Cord" element={<General_Patch_Cord/>}/>
+
+     {/* High_Strength_And_Suppleness */}
+     <Route path="/High_Strength_And_Suppleness" element={<High_Strength_And_Suppleness/>}/>
+
+     {/* Mini_Distribution_Cable */}     
+     <Route path="/Mini_Distribution_Cable" element={<Mini_Distribution_Cable/>}/>
+
+     {/* MPO_PatchCord */}
+     
+     <Route path="/MPO_PatchCord" element={<MPO_PatchCord/>}/>
+>>>>>>> edc9132db0de74404b78ea3bb0393f9e661a601b
 
     </Routes>
     

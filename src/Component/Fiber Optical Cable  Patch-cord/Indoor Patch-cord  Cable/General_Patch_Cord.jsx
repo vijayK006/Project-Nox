@@ -1,11 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/energy_Cable1.jpg'
-import productImg2 from '../../../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/energy_Cable2.jpg'
-import productImg3 from '../../../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/energy_Cable3.jpg'
+import productImg1 from '../../../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/general_path_cord.jpg'
 
-import orderInfo from '../../../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/energyChainOrderInfo.jpeg';
-import cablestrut from '../../../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/cable.jpg';
+import orderInfo from '../../../img/products/Fiber Optical Cable/Indoor Patch-cord  Cable/GeneralPathCord_OrderInfo.jpeg';
 
 // import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
 
@@ -25,10 +22,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Energy_Chain_Cable = () => {
+const General_Patch_Cord = () => {
 
-    let PartNumber = "NXOPCD-3D5L-xxxx-xxx-EC ";
-    let productName = "Fiber Optical OM3 5.0mm Round Duplex Energy Chain Cable Patch-cord";
+    let PartNumber = "NXOPCD-xxxx-xxxx-xxx-xxx";
+    let productName = "Fiber Optical Patch-cord";
 
     const [name, setName] = useState("");
     const [mobNumber, setmobNumber] = useState("");
@@ -82,24 +79,13 @@ const Energy_Chain_Cable = () => {
 
 
                                 <Item
-                                    original={productImg2}
-                                    thumbnail={productImg2}
+                                    original={productImg1}
+                                    thumbnail={productImg1}
                                     width="1024"
                                     height="768"
                                 >
                                     {({ ref, open }) => (
-                                        <img ref={ref} onClick={open} src={productImg2} className='lightbox-img' />
-                                    )}
-                                </Item>
-
-                                <Item
-                                    original={productImg3}
-                                    thumbnail={productImg3}
-                                    width="1024"
-                                    height="768"
-                                >
-                                    {({ ref, open }) => (
-                                        <img ref={ref} onClick={open} src={productImg3} className='lightbox-img' />
+                                        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
                                     )}
                                 </Item>
 
@@ -115,13 +101,24 @@ const Energy_Chain_Cable = () => {
                                 </Item>
 
                                 <Item
-                                    original={productImg2}
-                                    thumbnail={productImg2}
+                                    original={productImg1}
+                                    thumbnail={productImg1}
                                     width="1024"
                                     height="768"
                                 >
                                     {({ ref, open }) => (
-                                        <img ref={ref} onClick={open} src={productImg2} className='lightbox-img' />
+                                        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
+                                    )}
+                                </Item>
+
+                                <Item
+                                    original={productImg1}
+                                    thumbnail={productImg1}
+                                    width="1024"
+                                    height="768"
+                                >
+                                    {({ ref, open }) => (
+                                        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' />
                                     )}
                                 </Item>
 
@@ -156,15 +153,21 @@ const Energy_Chain_Cable = () => {
                     <h5>Features</h5>
 
 <p className='listFeture'>Low Insertion Loss & Return Loss</p>
-<p className='listFeture'>High compressive, Light weight</p>
-<p className='listFeture'>Small Diameter, Multi Fiber Cores</p>
+<p className='listFeture'>Single Mode & Multi-Mode</p>
+<p className='listFeture'>Standard & Customized configurations</p>
+<p className='listFeture'>Physical contact polishing mode</p>
 <p className='listFeture'>High Reliability & Stability</p>
+<p className='listFeture'>Compliant with Bellcore GR-326-CORE</p>
 
                     <h5 className='pt-5'>Applications</h5>
 
-                       <p className='listFeture'>Energy Chain system</p>
-                       <p className='listFeture'>Robotic Assembly system</p>
-                       <p className='listFeture'>Industrial data communication</p>
+                       <p className='listFeture'>NXOTTH /  NXOTTB</p>
+                       <p className='listFeture'>Telecommunicationt</p>
+                       <p className='listFeture'>Testing instruments</p>
+                       <p className='listFeture'>LAN / WAN</p>
+                       <p className='listFeture'>CATV</p>
+
+
                 </div>
 
             </div>
@@ -193,7 +196,7 @@ const Energy_Chain_Cable = () => {
                             <h2>Overview</h2>
 
                             <p>
-                                {PartNumber} TNXO Patch-cord provides sundry and cost effective solution for connection between Fiber Optical equipment and components. It has the benefits including easy installation, environmentally stable and excellent loading performance. The EC cable series have advantages of mechanical bending performance which are specifically designed for Energy Chain and Robotic Assembly system used in automatic production factory and various industrial application.
+                                {PartNumber} NXOPatch-cord provides sundry and cost effective solution for connection between Fiber Optical equipment and components. It has the benefits including easy installation, environmentally stable and excellent loading performance. NXO Patch-cord is fully terminated and tested in the factory line and comply with GR-326 standard.
 
                             </p>
                         </div>
@@ -201,197 +204,93 @@ const Energy_Chain_Cable = () => {
 
                     <div id="menu2" class="container tab-pane fade"><br />
                         <div class="container mt-3">
-                            <h2>Optical Parameters</h2>
+                            <h2>Specification</h2>
 
                             <div class="table-responsive">
                                 <table class="table table-hover">
                                     <thead>
                                         <tr>
-                                            <th>Parameters</th>
+                                            <th>Fiber Type</th>
                                             <th></th>
-                                            <th>Min.</th>
-                                            <th>Typ.</th>
-                                            <th>Max</th>
-                                            <th>Unit</th>
+                                            <th>Single-mode</th>
+                                            <th>Multi-mode</th>
                                         </tr>
                                     </thead>
                                     <tbody>
 
                                         <tr>
-                                            <td>Fiber Type</td>
-                                            <td>MMF 50μm OM3</td>
+                                            <td>Nominal Fiber OD</td>
                                             <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td>125.3 ~126.5μm</td>
+                                            <td>126 ~ 127.5μm</td>
                                         </tr>
 
-                                        <tr>
-                                            <td>Fiber Attenuation @850nm</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>3.0</td>
-                                            <td></td>
-                                            <td>dB/KM+</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Fiber Attenuation @1300nm</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>1.2</td>
-                                            <td></td>
-                                            <td>dB/KM+</td>
-                                        </tr>
-
-                                        
-                                        <tr>
-                                            <td>Tight Buffer</td>
-                                            <td>0.6mm x 2</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Cable Outer Diameter</td>
-                                            <td></td>
-                                            <td>2.8</td>
-                                            <td>3.0</td>
-                                            <td>3.2</td>
-                                            <td>mm</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Cable Weight</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>8.0</td>
-                                            <td></td>
-                                            <td>Kg/Km</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Cable Fiber Resistance</td>
-                                            <td>IEC60332-1</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-
-                                            <tr>
-                                            <td>Cable Tensile Long Term</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>60</td>
-                                            <td>N</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Cable Tensile Short Term</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>100</td>
-                                            <td>N</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Cable Crush Long Term</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>60</td>
-                                            <td>N/10cm</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Cable Crush Short Term</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>100</td>
-                                            <td>N/10cm</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>Cable Bending Radius </td>
-
-                                            <td>Static <hr/> Dynamic</td>
-
-                                            <td>50 <hr/> 100</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>mm<hr/>mm</td>
-                                        </tr>
 
                                         <tr>
                                             <td>Connector Type</td>
-                                            <td>LC/PC</td>
                                             <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td>SC, FC, ST, E2000, LC, MU, CS | MTRJ</td>
+                                            <td>SC, FC, ST, E2000, LC, MU | MTRJ</td>
                                         </tr>
 
                                         <tr>
-                                            <td>Insertion Loss</td>
+                                            <td>Insertion Loss ( Typical )( dB )</td>
                                             <td></td>
-                                            <td></td>
-                                            <td>0.3</td>
-                                            <td>0.5</td>
-                                            <td>dB</td>
+                                            <td>0.2 | 0.5</td>
+                                            <td>0.3 | 0.45</td>
                                         </tr>
 
-                                       
+                                        <tr>
+                                            <td>Insertion Loss ( Max. )( dB )</td>
+                                            <td></td>
+                                            <td>0.3 | 0.8</td>
+                                            <td>0.5 | 0.7</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Return Loss ( dB ) </td>
+
+                                            <td>PC <hr/> UPC <hr/> APC </td>
+
+                                            <td>≦-40 <hr/> ≦-50 <hr/> ≦-60</td>
+                                            <td>-<hr/>- <hr/>-</td>
+                                        </tr>
 
                                         <tr>
                                             <td>Mating Durability (500 cycles)</td>
+                                            <td>≦ 0.2dB</td>
                                             <td></td>
                                             <td></td>
-                                            <td></td>
-                                            <td>0.2</td>
-                                            <td>dB</td>
                                         </tr>
 
                                         
                                         <tr>
                                             <td>Temperature Stability</td>
+                                            <td>≦ 0.3dB</td>
                                             <td></td>
                                             <td></td>
-                                            <td></td>
-                                            <td>0.3</td>
-                                            <td>dB</td>
                                         </tr>
 
                                         
                                         <tr>
                                             <td>Operating Temperature °C</td>
+                                            <td>-40°C ~ 70°C</td>
                                             <td></td>
-                                            <td>-20</td>
                                             <td></td>
-                                            <td>70</td>
-                                            <td>°C</td>
                                         </tr>
 
                                         
                                         <tr>
                                             <td>Storage Temperature °C</td>
+                                            <td>-40°C ~ 85°C</td>
                                             <td></td>
-                                            <td>-20</td>
                                             <td></td>
-                                            <td>70</td>
-                                            <td>°C</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -403,18 +302,6 @@ const Energy_Chain_Cable = () => {
 </div>
 
 </div> */}
-
-            {/* Memory Map Section Start */}
-            <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                <h1 className='pb-4'>Cable Structure</h1>
-
-                <div className='d-flex justify-content-center' style={{ width: "100%" }}>
-                    <img src={cablestrut} className='sectionImg2_5' alt="memorymapImg" />
-                </div>
-
-            </div>
-
-
 
             {/* Mechanical Dimensions section start */}
 
@@ -504,4 +391,4 @@ const Energy_Chain_Cable = () => {
     )
 }
 
-export default Energy_Chain_Cable;
+export default General_Patch_Cord;
