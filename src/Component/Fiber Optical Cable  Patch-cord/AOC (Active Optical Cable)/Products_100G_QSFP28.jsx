@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/QPDP.jpg';
+import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/QSFP28.jpg'
 import productImg2 from '../../../img/products/Fiber Optical Cable/AOC/10G_SPSP.jpg';
 import productImg3 from '../../../img/products/Fiber Optical Cable/AOC/QPSP.jpg';
 
@@ -69,10 +69,12 @@ const Products_100G_QSFP28 = () => {
 
 <div className='product-dec'>
   <h5>
-  40G QSFP+ to 4xDLC Breakout Active Optical Cable ( AOC ) Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM
+  100G QSFP28 Active Optical Cable ( AOC )
+Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM
+
 
 </h5>
-<p>Part Number : NXOAOC-40G-QPDP-xxx-xx
+<p>Part Number : NXOAOC-A0G-QPQP-xxx-xx
 </p>
 
 <h4>Feature's</h4> 

@@ -1336,9 +1336,7 @@ function App() {
 
      {/* Energy_Chain_Cable */}
      <Route path="/Energy_Chain_Cable" element={<Energy_Chain_Cable/>}/>
-<<<<<<< HEAD
      
-=======
 
      {/* General_Patch_Cord */}
      <Route path="/General_Patch_Cord" element={<General_Patch_Cord/>}/>
@@ -1352,7 +1350,6 @@ function App() {
      {/* MPO_PatchCord */}
      
      <Route path="/MPO_PatchCord" element={<MPO_PatchCord/>}/>
->>>>>>> edc9132db0de74404b78ea3bb0393f9e661a601b
 
     </Routes>
     
