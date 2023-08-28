@@ -668,18 +668,18 @@ const Switchclose_menu8=()=>{
 <Link to="/DAC_10G_SFPS" style={{textDecoration:"none"}}><p className='menu-inner-items'>10G SFP+ DAC</p></Link>
 <Link to="/DAC_25G_SFP28" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 DAC</p></Link>
 <Link to="/DAC_40G_QSFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ DAC</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 DAC</p></Link>
+<Link to="/DAC_100G_QSFP_Products" style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 DAC</p></Link>
 
 </div>
 
 <div className='col-lg-3 col-md-4'>
 <p className='menu-title '>Indoor Patch-cord   Cable</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Armored Breakout Cable</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Breakout Cable</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Mini Distribution Cable</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>General Patch-cord</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>Energy Chain Cable</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>High Strength and Suppleness Patch-cord</p></Link>
+<Link to='/Armored_Breakout_Cable' style={{textDecoration:"none"}}><p className='menu-inner-items'>Armored Breakout Cable</p></Link>
+<Link to="/Breakout_Cable" style={{textDecoration:"none"}}><p className='menu-inner-items'>Breakout Cable</p></Link>
+<Link to='' style={{textDecoration:"none"}}><p className='menu-inner-items'>Mini Distribution Cable</p></Link>
+<Link to='' style={{textDecoration:"none"}}><p className='menu-inner-items'>General Patch-cord</p></Link>
+<Link to='/Energy_Chain_Cable' style={{textDecoration:"none"}}><p className='menu-inner-items'>Energy Chain Cable</p></Link>
+<Link to='' style={{textDecoration:"none"}}><p className='menu-inner-items'>High Strength and Suppleness Patch-cord</p></Link>
 
 </div>
 
@@ -1296,7 +1296,7 @@ const Switchclose_menu8=()=>{
 <Link to="/DAC_10G_SFPS" style={{textDecoration:"none"}}><p className='mob-nav-items'>10G SFP+ DAC</p></Link>
 <Link to="/DAC_25G_SFP28" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 DAC</p></Link>
 <Link to="/DAC_40G_QSFP_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>40G QSFP+ DAC</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G QSFP28 DAC</p></Link>
+<Link to="/DAC_100G_QSFP_Products" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G QSFP28 DAC</p></Link>
 
 
 </div>
@@ -1304,11 +1304,11 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series28'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu28}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Armored Breakout Cable</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Breakout Cable</p></Link>
+<Link to="/Armored_Breakout_Cable" style={{textDecoration:"none"}}><p className='mob-nav-items'>Armored Breakout Cable</p></Link>
+<Link to="/Breakout_Cable" style={{textDecoration:"none"}}><p className='mob-nav-items'>Breakout Cable</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Mini Distribution Cable</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>General Patch-cord</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Energy Chain Cable</p></Link>
+<Link to="/Energy_Chain_Cable" style={{textDecoration:"none"}}><p className='mob-nav-items'>Energy Chain Cable</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>High Strength and Suppleness Patch-cord</p></Link>
 
 </div>
