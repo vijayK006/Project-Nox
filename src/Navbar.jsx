@@ -727,10 +727,10 @@ const Switchclose_menu8=()=>{
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>10G Ethernet Switches</p>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH-AA</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-GS24044X & NXO-G24044X & NXO-G4804X</p></Link>
+<Link to="/NOX_G24S4X_G24S2X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
+<Link to="/NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
+<Link to="/NXO_G24044X_24PH_AA" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH-AA</p></Link>
+<Link to="/NXO_GS24044X_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-GS24044X & NXO-G24044X & NXO-G4804X</p></Link>
 </div>
 
 <div className='col-lg-2 col-md-4'>
@@ -934,10 +934,10 @@ const Switchclose_menu8=()=>{
 {/* Switchs menu inner menu */}
 <div className='mobile-nav-all_product' id='Switchseries1'>
 <TiBackspaceOutline className='close_icon' onClick={Switchclose_menu1}/>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH-AA</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-GS24044X & NXO-G24044X & NXO-G4804X</p></Link>
+<Link to="/NOX_G24S4X_G24S2X" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
+<Link to="/NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH</p></Link>
+<Link to="/NXO_G24044X_24PH_AA" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH-AA</p></Link>
+<Link to="/NXO_GS24044X_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-GS24044X & NXO-G24044X & NXO-G4804X</p></Link>
 
 </div>
 

@@ -659,6 +659,14 @@ import Mini_Distribution_Cable from './Component/Fiber Optical Cable  Patch-cord
 // MPO_PatchCord
 import MPO_PatchCord from './Component/Fiber Optical Cable  Patch-cord/Indoor Patch-cord  Cable/MPO_PatchCord';
 
+
+// Switches
+import NOX_G24S4X_G24S2X from './Component/Switches/10G Ethernet Switches/NOX_G24S4X_G24S2X';
+import NXO_G24044X_24PH from './Component/Switches/10G Ethernet Switches/NXO_G24044X_24PH';
+import NXO_G24044X_24PH_AA from './Component/Switches/10G Ethernet Switches/NXO_G24044X_24PH_AA';
+
+import NXO_GS24044X_NXO_G24044X_NXO_G4804X from './Component/Switches/10G Ethernet Switches/NXO_GS24044X_NXO_G24044X_NXO_G4804X';
+
 function App() {
   return (
     <BrowserRouter>
@@ -1348,8 +1356,15 @@ function App() {
      <Route path="/Mini_Distribution_Cable" element={<Mini_Distribution_Cable/>}/>
 
      {/* MPO_PatchCord */}
-     
      <Route path="/MPO_PatchCord" element={<MPO_PatchCord/>}/>
+
+{/* Switches */}
+<Route path="/NOX_G24S4X_G24S2X" element={<NOX_G24S4X_G24S2X/>}/>
+<Route path="/NXO_G24044X_24PH" element={<NXO_G24044X_24PH/>}/>
+<Route path="/NXO_G24044X_24PH_AA" element={<NXO_G24044X_24PH_AA/>}/>
+<Route path="/NXO_GS24044X_NXO_G24044X_NXO_G4804X" element={<NXO_GS24044X_NXO_G24044X_NXO_G4804X/>}/>
+
+
 
     </Routes>
     
