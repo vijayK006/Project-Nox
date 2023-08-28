@@ -621,6 +621,11 @@ import Dual_67_02Di from './Component/6G_SFP+/Dual_67_02Di';
 import AOC_SPSP from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/AOC_SPSP';
 import AOC_SFP28_25G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/AOC_SFP28_25G';
 import Products_40G_QSFP from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/Products_40G_QSFP';
+import QSFP_40G_QPDP from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP_40G_QPDP';
+import QSFP_QPQP_40G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP_QPQP_40G';
+import QSFP_QPSP_40G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP_QPSP_40G';
+import Products_100G_QSFP28 from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/Products_100G_QSFP28';
+
 
 import DAC_10G_SFPS from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/DAC_10G_SFPS';
 import DAC_25G_SFP28 from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/DAC_25G_SFP28';
@@ -1313,6 +1318,11 @@ function App() {
      <Route path="/AOC_SPSP" element={<AOC_SPSP/>}/>
      <Route path="/AOC_SFP28_25G" element={<AOC_SFP28_25G/>}/>
      <Route path="/Products_40G_QSFP" element={<Products_40G_QSFP/>}/>
+     <Route path="/Products_40G_QSFP/QSFP_40G_QPDP" element={<QSFP_40G_QPDP/>}/>
+     <Route path="/Products_40G_QSFP/QSFP_QPQP_40G" element={<QSFP_QPQP_40G/>}/>
+     <Route path="/Products_40G_QSFP/QSFP_QPSP_40G" element={<QSFP_QPSP_40G/>}/>
+     <Route path="/Products_100G_QSFP28" element={<Products_100G_QSFP28/>}/>
+
 
      <Route path="/DAC_10G_SFPS" element={<DAC_10G_SFPS/>}/>
      <Route path="/DAC_25G_SFP28" element={<DAC_25G_SFP28/>}/>
@@ -1321,6 +1331,7 @@ function App() {
      <Route path="/DAC_40G_QSFP_Products/QSFP_40G_QPQP" element={<QSFP_40G_QPQP/>}/>
      <Route path="/DAC_40G_QSFP_Products/QSFP_40G_QPSP" element={<QSFP_40G_QPSP/>}/>
      
+
      <Route path="/DAC_100G_QSFP_Products" element={<DAC_100G_QSFP_Products/>}/>
      <Route path="/DAC_100G_QSFP_Products/QSFP28_100G_QPQP" element={<QSFP28_100G_QPQP/>}/>
      <Route path="/DAC_100G_QSFP_Products/QSFP28_100G_QPSP" element={<QSFP28_100G_QPSP/>}/>
@@ -1333,6 +1344,9 @@ function App() {
 
      {/* Energy_Chain_Cable */}
      <Route path="/Energy_Chain_Cable" element={<Energy_Chain_Cable/>}/>
+<<<<<<< HEAD
+     
+=======
 
      {/* General_Patch_Cord */}
      <Route path="/General_Patch_Cord" element={<General_Patch_Cord/>}/>
@@ -1345,6 +1359,7 @@ function App() {
 
      {/* MPO_PatchCord */}
      <Route path="/MPO_PatchCord" element={<MPO_PatchCord/>}/>
+>>>>>>> edc9132db0de74404b78ea3bb0393f9e661a601b
 
 {/* Switches */}
 <Route path="/NOX_G24S4X_G24S2X" element={<NOX_G24S4X_G24S2X/>}/>
