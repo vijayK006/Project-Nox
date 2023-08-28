@@ -1,10 +1,11 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/QPDP.jpg'
+import productImg1 from '../../../img/products/Fiber Optical Cable/AOC/QPSP.jpg'
 
 // import TransceiverBlock from '../../img/products/10SFP+/Transciever.jpg';
 import pinassisment from '../../../img/products/Fiber Optical Cable/AOC/pinAssignment2_3.jpg';
-import machdimenssion from '../../../img/products/Fiber Optical Cable/AOC/dimension2.jpg';
+import pinassisment2 from '../../../img/products/Fiber Optical Cable/AOC/pinAssignment2_4.jpg';
+import machdimenssion from '../../../img/products/Fiber Optical Cable/AOC/dimension4.jpg';
 import Memorymap from '../../../img/products/Fiber Optical Cable/AOC/Memory2.jpg';
 import handling from '../../../img/products/Fiber Optical Cable/AOC/handling.jpg';
 // import Memorymap2 from '../../img/products/1.25G CSFP/memoryMap2.png';
@@ -26,10 +27,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const QSFP_40G_QPDP = () => {
+const QSFP_QPSP_40G = () => {
 
-    let PartNumber = "NXOAOC-40G-QPDP-xxx-xx";
-    let productName = "25G SFP28 Active Optical Cable (AOC)Hot Pluggable, 850nm VCSEL, MMF 1~100M, DDM";
+    let PartNumber = "NXOAOC-40G-QPSP-xxx-xx";
+    let productName = "40G QSFP+ to 4xSFP+ Breakout Active Optical Cable ( AOC ) Hot Pluggable, 850nm VCSEL, MMF 1~150M, DDM";
 
     const [name, setName] = useState("");
     const [mobNumber, setmobNumber] = useState("");
@@ -155,25 +156,32 @@ const QSFP_40G_QPDP = () => {
                     </div>
 
                     <h5>Features</h5>
-                 
-                   <p className='listFeture'>  Compatible with IEEE802.3ba 40GBASE-SR4 </p>
-                   <p className='listFeture'>  Compliant with SFF-8436 QSFP+ MSA </p>
-                  <p className='listFeture'>   4 independent full-duplex channels </p>
-                  <p className='listFeture'>   1x40GBASE-SR4 to 4x10GBASE-SR </p>
-                  <p className='listFeture'>   Up to 10.3125Gbps data rate per channel </p>
-                  <p className='listFeture'>   Hot Pluggable </p>
-                  <p className='listFeture'>   850nm VCSEL array transmitter </p>
-                  <p className='listFeture'>   Duplex LC connector </p>
-                  <p className='listFeture'>   2-wire interface for management and diagnostic monitor compliant with SFF-8436, SFF-8636 </p>
+
+             
+
+                 <p className='listFeture'>    Compatible with IEEE802.3ba 40GBASE-SR4 </p>
+                 <p className='listFeture'>    Compatible with IEEE802.3ae 10GBASE-SR </p>
+                 <p className='listFeture'>    Compliant with SFF-8436 QSFP+ MSA </p>
+                 <p className='listFeture'>    Compliant with SFF-8431 SFP+ MSA </p>
+                 <p className='listFeture'>    Support InfiniBand QDR, FDR10</p>
+                 <p className='listFeture'>    4 independent full-duplex channels </p>
+                 <p className='listFeture'>    Up to 10.3125Gbps data rate per channel </p>
+                 <p className='listFeture'>    Hot Pluggable </p>
+                 <p className='listFeture'>    850nm VCSEL array transmitter </p>
+                 <p className='listFeture'>    1x40GBASE-SR4 to 4x10GBASE-SR </p>
+                 <p className='listFeture'>    2-wire interface for management and diagnostic monitor compliant with SFF-8436, SFF-8636 ( for 40G ) and SFF-8472 ( for 10G ) </p>
                  <p className='listFeture'>    Single 3.3V power supply </p>
-                 <p className='listFeture'>    Link distance up to 100m over MM OM3 fiber </p>
-                 <p className='listFeture'>    Low power consumption {"<1.5W"} </p>
+                 <p className='listFeture'>    Link distance up to 150m over MM OM3 fiber </p>
+                 <p className='listFeture'>    Low power consumption {"<1.5W"} ( QSFP+ ) </p>
+                 <p className='listFeture'>    Low power consumption {"<1.0W"} ( SFP+ ) </p>
                  <p className='listFeture'>    RoHS Compliant </p>
 
                     <h5 className='pt-5'>Applications</h5>
 
                     <p className='listFeture'> 40GBASE-SR4 Ethernet to 4x10G BASE-SR
- Ethernet Link </p>
+                        Ethernet Link </p>
+                        
+                     <p className='listFeture'>InfiniBand QDR, FDR10</p>
                     <p className='listFeture'> Data Center & Storage</p>
                     <p className='listFeture'> Datacom / Telecom Switch & Router</p>
 
@@ -216,7 +224,7 @@ const QSFP_40G_QPDP = () => {
                             <h2>Overview</h2>
 
                             <p>
-                                 {PartNumber} 40G QSFP+ to 4xDLC+ Active Optical Cables (AOC) are direct-attach fiber assemblies with QSFP+ and Duplex LC form factor. The AOC utilize multi-mode fiber with 850nm VCSEL and PIN PD. It is used for 1x40GBASE-SR4 to 4x10GBASE-SR application. They are suitable for 1~100 meters distances and offer a cost-effective way for very high port density connections.
+                                {PartNumber} 40G QSFP+ to 4xSFP+ Active Optical Cables (AOC) are direct-attach fiber assemblies with QSFP+ and SFP+ form factor. The AOC utilize multi-mode fiber with 850nm VCSEL and PIN PD. It could be used as an alternative solution to QSFP+ to 4xSFP+ passive and active copper breakout cables, while providing improved signal integrity, longer distances, superior electro-magnetic immunity & better bit error rate performance. They are suitable for 1~150 meters distances and offer a cost-effective way for very high port density connections.
 
 
 
@@ -247,8 +255,8 @@ const QSFP_40G_QPDP = () => {
                                         <tr>
                                             <td>Storage Temperature</td>
                                             <td>TST</td>
-                                            <td>-5</td>
-                                            <td>+75</td>
+                                            <td>-20</td>
+                                            <td>+85</td>
                                             <td>°C</td>
                                         </tr>
 
@@ -267,7 +275,7 @@ const QSFP_40G_QPDP = () => {
                                             <td>+3.6</td>
                                             <td>V</td>
                                         </tr>
-                                       
+
                                     </tbody>
                                 </table>
                             </div>
@@ -290,7 +298,7 @@ const QSFP_40G_QPDP = () => {
                                             <th>Max.</th>
                                             <th>Unit</th>
                                             <th>Note</th>
- 
+
 
                                         </tr>
                                     </thead>
@@ -325,7 +333,7 @@ const QSFP_40G_QPDP = () => {
                                             <td>Data Rate, per Lane </td>
                                             <td></td>
                                             <td>DR</td>
-                                            <td> </td>
+                                            <td></td>
                                             <td>10.3125</td>
                                             <td></td>
                                             <td>GB/s</td>
@@ -357,6 +365,18 @@ const QSFP_40G_QPDP = () => {
 
                                         </tr>
                                         <tr>
+                                            <td>Supply Current, per SFP+</td>
+                                            <td></td>
+
+                                            <td>Icc</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>300</td>
+                                            <td>mA</td>
+                                            <td></td>
+
+                                        </tr>
+                                        <tr>
                                             <td>Power Consumption, per QSFP+ </td>
                                             <td></td>
 
@@ -364,7 +384,17 @@ const QSFP_40G_QPDP = () => {
                                             <td> </td>
                                             <td></td>
                                             <td>1.5</td>
-                                            <td>W</td>   
+                                            <td>W</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Power Consumption, per SFP+ </td>
+                                            <td></td>
+
+                                            <td>P</td>
+                                            <td> </td>
+                                            <td></td>
+                                            <td>1.0</td>
+                                            <td>W</td>
                                         </tr>
                                         <tr>
                                             <td>Power-On Initialization Time </td>
@@ -392,59 +422,59 @@ const QSFP_40G_QPDP = () => {
                                         </tr>
                                         <tr>
                                             <td>ModSelL </td>
-                                            <td>ModSelL<hr/> Module Unselect  </td>
-                                            <td>Vol <hr/> Voh </td>
-                                            <td>VEE-0.3<hr/>2.0 </td>
+                                            <td>Module Select<hr /> Module Unselect  </td>
+                                            <td>Vol <hr /> VoH </td>
+                                            <td>GND<hr />2.5 </td>
                                             <td></td>
-                                            <td>0.4<hr/>Vcc+0.3</td>
-                                            <td>V<hr/>V </td>
+                                            <td>0.8<hr />Vcc</td>
+                                            <td>V<hr />V </td>
                                             <td></td>
-                                            
+
                                         </tr>
                                         <tr>
                                             <td>LPMode</td>
-                                            <td>Low Power Mode<hr/> Normal Operation </td>
-                                            <td>VIL <hr/> VIH </td>
-                                            <td>VEE-0.3<hr/>2.0 </td>
+                                            <td>Low Power Mode<hr /> Normal Operation </td>
+                                            <td>VIL <hr /> VIH </td>
+                                            <td>GND<hr />2.5</td>
                                             <td></td>
-                                            <td>0.8<hr/>Vcc+0.3</td>
-                                            <td>V<hr/>V </td>
+                                            <td>0.8<hr />Vcc+0.3</td>
+                                            <td>V<hr />V </td>
                                             <td></td>
-                                            
-                                        </tr>   
+
+                                        </tr>
                                         <tr>
                                             <td>ResetL</td>
-                                            <td>Reset<hr/> Normal Operation </td>
-                                            <td>VIL <hr/> VIH </td>
-                                            <td>VEE-0.3<hr/>2.0 </td>
+                                            <td>Reset<hr /> Normal Operation </td>
+                                            <td>VIL <hr /> VIH </td>
+                                            <td>GND<hr />2.5    </td>
                                             <td></td>
-                                            <td>0.8<hr/>Vcc+0.3</td>
-                                            <td>V<hr/>V </td>
+                                            <td>0.8<hr />Vcc+0.3</td>
+                                            <td>V<hr />V </td>
                                             <td></td>
-                                            
-                                        </tr>   
+
+                                        </tr>
                                         <tr>
                                             <td>ModPrsL</td>
                                             <td>Normal Operation </td>
                                             <td>VoL </td>
-                                            <td>2.0 </td>
+                                            <td>GND</td>
                                             <td></td>
                                             <td>0.4</td>
                                             <td>V </td>
                                             <td></td>
-                                            
-                                        </tr>  
+
+                                        </tr>
                                         <tr>
                                             <td>IntL</td>
-                                            <td>Interrupt<hr/> Normal Operation </td>
-                                            <td>VoL <hr/> VoH </td>
-                                            <td>VEE-0.3<hr/>2.0 </td>
+                                            <td>Interrupt<hr /> Normal Operation </td>
+                                            <td>VoL <hr /> VoH </td>
+                                            <td>GND<hr />2.4 </td>
                                             <td></td>
-                                            <td>0.4<hr/>Vcc+0.3</td>
-                                            <td>V<hr/>V </td>
+                                            <td>0.4<hr />Vcc+</td>
+                                            <td>V<hr />V </td>
                                             <td></td>
-                                            
-                                        </tr>   
+
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -456,7 +486,7 @@ const QSFP_40G_QPDP = () => {
                             <h2>QSFP+ Digital Diagnostic Functions</h2>
 
                             <p>
-                            As defined by the SFP MSA (SFF-8472) NXO SFP+ transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+                                As defined by the SFP MSA (SFF-8472) NXO SFP+ transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
                             <ul>
                                 <li>Transceiver temperature</li>
                                 <li>Laser bias current</li>
@@ -469,8 +499,8 @@ const QSFP_40G_QPDP = () => {
                             </p>
 
                             <p>
-                                
-The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the QSFP+ transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the QSFP+ transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The  memories are organized as a series of 8-bit data words that can be addressed individually or sequentially. The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed from 000h to  the maximum address of the memory.
+
+                                The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the QSFP+ transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the QSFP+ transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The  memories are organized as a series of 8-bit data words that can be addressed individually or sequentially. The 2-wire serial interface provides sequential or random access to the 8 bit parameters, addressed from 000h to  the maximum address of the memory.
 
                             </p>
 
@@ -494,10 +524,19 @@ The operating and diagnostics information is monitored and reported by a Digital
 
             {/* Memory Map Section Start */}
             <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-                <h1 className='pb-4'>Pin Assignment</h1>
+                <h1 className='pb-4'>QSFP+ Pin Assignment</h1>
 
                 <div className='d-flex justify-content-center' style={{ width: "100%" }}>
                     <img src={pinassisment} className='sectionImg2_1' alt="memorymapImg" />
+                </div>
+
+            </div>
+            {/* Memory Map Section Start */}
+            <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+                <h1 className='pb-4'>SFP+ Pin Assignment</h1>
+
+                <div className='d-flex justify-content-center' style={{ width: "100%" }}>
+                    <img src={pinassisment2} className='sectionImg2_1' alt="memorymapImg" />
                 </div>
 
             </div>
@@ -615,4 +654,4 @@ The operating and diagnostics information is monitored and reported by a Digital
     )
 }
 
-export default QSFP_40G_QPDP;
+export default QSFP_QPSP_40G;
