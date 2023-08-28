@@ -676,10 +676,10 @@ const Switchclose_menu8=()=>{
 <p className='menu-title '>Indoor Patch-cord   Cable</p>
 <Link to='/Armored_Breakout_Cable' style={{textDecoration:"none"}}><p className='menu-inner-items'>Armored Breakout Cable</p></Link>
 <Link to="/Breakout_Cable" style={{textDecoration:"none"}}><p className='menu-inner-items'>Breakout Cable</p></Link>
-<Link to='' style={{textDecoration:"none"}}><p className='menu-inner-items'>Mini Distribution Cable</p></Link>
-<Link to='' style={{textDecoration:"none"}}><p className='menu-inner-items'>General Patch-cord</p></Link>
+<Link to='/Mini_Distribution_Cable' style={{textDecoration:"none"}}><p className='menu-inner-items'>Mini Distribution Cable</p></Link>
+<Link to='/General_Patch_Cord' style={{textDecoration:"none"}}><p className='menu-inner-items'>General Patch-cord</p></Link>
 <Link to='/Energy_Chain_Cable' style={{textDecoration:"none"}}><p className='menu-inner-items'>Energy Chain Cable</p></Link>
-<Link to='' style={{textDecoration:"none"}}><p className='menu-inner-items'>High Strength and Suppleness Patch-cord</p></Link>
+<Link to='/High_Strength_And_Suppleness' style={{textDecoration:"none"}}><p className='menu-inner-items'>High Strength and Suppleness Patch-cord</p></Link>
 
 </div>
 
@@ -693,7 +693,7 @@ const Switchclose_menu8=()=>{
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>MPO Patch-cord   Cassette</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>MPO PatchCord</p></Link>
+<Link to='/MPO_PatchCord' style={{textDecoration:"none"}}><p className='menu-inner-items'>MPO PatchCord</p></Link>
 
 </div>
 
@@ -1306,10 +1306,10 @@ const Switchclose_menu8=()=>{
 
 <Link to="/Armored_Breakout_Cable" style={{textDecoration:"none"}}><p className='mob-nav-items'>Armored Breakout Cable</p></Link>
 <Link to="/Breakout_Cable" style={{textDecoration:"none"}}><p className='mob-nav-items'>Breakout Cable</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>Mini Distribution Cable</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>General Patch-cord</p></Link>
+<Link to="/Mini_Distribution_Cable" style={{textDecoration:"none"}}><p className='mob-nav-items'>Mini Distribution Cable</p></Link>
+<Link to="/General_Patch_Cord" style={{textDecoration:"none"}}><p className='mob-nav-items'>General Patch-cord</p></Link>
 <Link to="/Energy_Chain_Cable" style={{textDecoration:"none"}}><p className='mob-nav-items'>Energy Chain Cable</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>High Strength and Suppleness Patch-cord</p></Link>
+<Link to="/High_Strength_And_Suppleness" style={{textDecoration:"none"}}><p className='mob-nav-items'>High Strength and Suppleness Patch-cord</p></Link>
 
 </div>
 
@@ -1326,7 +1326,7 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series30'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu30}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>MPO PatchCord</p></Link>
+<Link to="/MPO_PatchCord" style={{textDecoration:"none"}}><p className='mob-nav-items'>MPO PatchCord</p></Link>
 
 
 
