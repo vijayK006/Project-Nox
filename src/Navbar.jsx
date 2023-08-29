@@ -797,14 +797,14 @@ const Switchclose_menu8=()=>{
 <p className='menu-title '>Unmanaged Media Converters</p>
 <div className='row'>
     <div className='col-6'>
-    <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100C</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100-PH12</p></Link>
+    <Link to="/NXO_100" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100</p></Link>
+<Link to="/NXO_100C" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100C</p></Link>
+<Link to="/NXO_100_PH12" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-100-PH12</p></Link>
     </div>
     <div className='col-6'>
-    <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000S-PB</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1001C & NXO-1001CS</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1001S-PH</p></Link>
+    <Link to="/NXO_1000S_PB" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000S-PB</p></Link>
+<Link to="/NXO_1001C_NXO_1001CS" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1001C & NXO-1001CS</p></Link>
+<Link to="/NXO_1001S_PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1001S-PH</p></Link>
     </div>
 </div>
 </div>
@@ -1002,12 +1002,12 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='Switchseries8'>
 <TiBackspaceOutline className='close_icon' onClick={Switchclose_menu8}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100C</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100-PH12</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1000S-PB</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1001C & NXO-1001CS</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1001S-PH</p></Link>
+<Link to="/NXO_100" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100</p></Link>
+<Link to="/NXO_100C" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100C</p></Link>
+<Link to="/NXO_100_PH12" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-100-PH12</p></Link>
+<Link to="/NXO_1000S_PB" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1000S-PB</p></Link>
+<Link to="/NXO_1001C_NXO_1001CS" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1001C & NXO-1001CS</p></Link>
+<Link to="/NXO_1001S_PH" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1001S-PH</p></Link>
 
 </div>
 

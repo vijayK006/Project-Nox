@@ -689,6 +689,14 @@ import NXO_402GSM_NXO_803GSM_NXO_1604GSM from './Component/Switches/Managed Ethe
 import NXO_812SM_NXO_1604SM from './Component/Switches/Managed Ethernet Switches/NXO_812SM_NXO_1604SM';
 import NXO_1604XSM from './Component/Switches/Managed Ethernet Switches/NXO_1604XSM';
 
+
+import NXO_100 from './Component/Switches/UnManaged Converters/NXO_100';
+import NXO_100C from './Component/Switches/UnManaged Converters/NXO_100C';
+import NXO_100_PH12 from './Component/Switches/UnManaged Converters/NXO_100_PH12';
+import NXO_1000S_PB from './Component/Switches/UnManaged Converters/NXO_1000S_PB';
+import NXO_1001C_NXO_1001CS from './Component/Switches/UnManaged Converters/NXO_1001C_NXO_1001CS';
+import NXO_1001S_PH from './Component/Switches/UnManaged Converters/NXO_1001S_PH';
+
 function App() {
   return (
     <BrowserRouter>
@@ -1412,6 +1420,13 @@ function App() {
 <Route path="/NXO_1604XSM" element={<NXO_1604XSM/>}/>
 
 
+
+<Route path="/NXO_100" element={<NXO_100/>}/>
+<Route path="/NXO_100C" element={<NXO_100C/>}/>
+<Route path="/NXO_100_PH12" element={<NXO_100_PH12/>}/>
+<Route path="/NXO_1000S_PB" element={<NXO_1000S_PB/>}/>
+<Route path="/NXO_1001C_NXO_1001CS" element={<NXO_1001C_NXO_1001CS/>}/>
+<Route path="/NXO_1001S_PH" element={<NXO_1001S_PH/>}/>
 
 
 
