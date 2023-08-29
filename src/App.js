@@ -661,11 +661,27 @@ import MPO_PatchCord from './Component/Fiber Optical Cable  Patch-cord/Indoor Pa
 
 
 // Switches
-import NOX_G24S4X_G24S2X from './Component/Switches/10G Ethernet Switches/NOX_G24S4X_G24S2X';
+import NXO_G24S4X_G24S2X from './Component/Switches/10G Ethernet Switches/NOX_G24S4X_G24S2X';
 import NXO_G24044X_24PH from './Component/Switches/10G Ethernet Switches/NXO_G24044X_24PH';
 import NXO_G24044X_24PH_AA from './Component/Switches/10G Ethernet Switches/NXO_G24044X_24PH_AA';
-
 import NXO_GS24044X_NXO_G24044X_NXO_G4804X from './Component/Switches/10G Ethernet Switches/NXO_GS24044X_NXO_G24044X_NXO_G4804X';
+
+import NXO_2408SM_24PH from './Component/Switches/Gigabit Ethernet Switches/NXO_2408SM_24PH';
+import NXO_2408SM_24PH_AA from './Component/Switches/Gigabit Ethernet Switches/NXO_2408SM_24PH_AA';
+import NXO_S2408GTM_NXO_2408SM_NXO_4804SM from './Component/Switches/Gigabit Ethernet Switches/NXO_S2408GTM_NXO_2408SM_NXO_4804SM';
+import NXO_S2804TM from './Component/Switches/Gigabit Ethernet Switches/NXO_S2804TM';
+import NXO_2408SM_NXO_4804SM from './Component/Switches/Layer 3 Ethernet Switches/NXO_2408SM_NXO_4804SM';
+import Layer3_NXO_2408SM_24PH from './Component/Switches/Layer 3 Ethernet Switches/Layer3_NXO_2408SM_24PH';
+import Layer3_NXO_G24044X_24PH from './Component/Switches/Layer 3 Ethernet Switches/Layer3_NXO_G24044X_24PH';
+import Layer3_NXO_G24044X_NXO_G4804X from './Component/Switches/Layer 3 Ethernet Switches/Layer3_NXO_G24044X_NXO_G4804X';
+
+import NXO_402CGSW from './Component/Switches/Managed Ethernet Switches/NXO_402CGSW';
+import NXO_402CSW from './Component/Switches/Managed Ethernet Switches/NXO_402CSW';
+import NXO_402XSM from './Component/Switches/Managed Ethernet Switches/NXO_402XSM';
+import NXO_803SM from './Component/Switches/Managed Ethernet Switches/NXO_803SM';
+import NXO_402GSM_NXO_803GSM_NXO_1604GSM from './Component/Switches/Managed Ethernet Switches/NXO_402GSM_NXO_803GSM_NXO_1604GSM';
+import NXO_812SM_NXO_1604SM from './Component/Switches/Managed Ethernet Switches/NXO_812SM_NXO_1604SM';
+import NXO_1604XSM from './Component/Switches/Managed Ethernet Switches/NXO_1604XSM';
 
 function App() {
   return (
@@ -1344,9 +1360,7 @@ function App() {
 
      {/* Energy_Chain_Cable */}
      <Route path="/Energy_Chain_Cable" element={<Energy_Chain_Cable/>}/>
-<<<<<<< HEAD
      
-=======
 
      {/* General_Patch_Cord */}
      <Route path="/General_Patch_Cord" element={<General_Patch_Cord/>}/>
@@ -1359,13 +1373,35 @@ function App() {
 
      {/* MPO_PatchCord */}
      <Route path="/MPO_PatchCord" element={<MPO_PatchCord/>}/>
->>>>>>> edc9132db0de74404b78ea3bb0393f9e661a601b
 
 {/* Switches */}
-<Route path="/NOX_G24S4X_G24S2X" element={<NOX_G24S4X_G24S2X/>}/>
+<Route path="/NXO_G24S4X_G24S2X" element={<NXO_G24S4X_G24S2X/>}/>
 <Route path="/NXO_G24044X_24PH" element={<NXO_G24044X_24PH/>}/>
 <Route path="/NXO_G24044X_24PH_AA" element={<NXO_G24044X_24PH_AA/>}/>
 <Route path="/NXO_GS24044X_NXO_G24044X_NXO_G4804X" element={<NXO_GS24044X_NXO_G24044X_NXO_G4804X/>}/>
+
+
+<Route path="/NXO_2408SM_24PH" element={<NXO_2408SM_24PH/>}/>
+<Route path="/NXO_2408SM_24PH_AA" element={<NXO_2408SM_24PH_AA/>}/>
+<Route path="/NXO_S2408GTM_NXO_2408SM_NXO_4804SM" element={<NXO_S2408GTM_NXO_2408SM_NXO_4804SM/>}/>
+<Route path="/NXO_S2804TM" element={<NXO_S2804TM/>}/>
+<Route path="/NXO_2408SM_NXO_4804SM" element={<NXO_2408SM_NXO_4804SM/>}/>
+<Route path="/Layer3_NXO_2408SM_24PH" element={<Layer3_NXO_2408SM_24PH/>}/>
+<Route path="/Layer3_NXO_G24044X_24PH" element={<Layer3_NXO_G24044X_24PH/>}/>
+<Route path="/Layer3_NXO_G24044X_NXO_G4804X" element={<Layer3_NXO_G24044X_NXO_G4804X/>}/>
+
+
+<Route path="/NXO_402CGSW" element={<NXO_402CGSW/>}/> 
+<Route path="/NXO_402CSW" element={<NXO_402CSW/>}/>
+<Route path="/NXO_402XSM" element={<NXO_402XSM/>}/>
+<Route path="/NXO_803SM" element={<NXO_803SM/>}/>
+<Route path="/NXO_402GSM_NXO_803GSM_NXO_1604GSM" element={<NXO_402GSM_NXO_803GSM_NXO_1604GSM/>}/>
+<Route path="/NXO_812SM_NXO_1604SM" element={<NXO_812SM_NXO_1604SM/>}/>
+<Route path="/NXO_1604XSM" element={<NXO_1604XSM/>}/>
+
+
+
+
 
 
 

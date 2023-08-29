@@ -1,13 +1,13 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../../img/products/Switches/NXO-G24S4X & NXO-G24S2X.png'
+import productImg1 from '../../../img/products/Switches/NOX_402XSM.png'
 
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/Switches/NXO-G24S4X & NXO-G24S2X_Appli.jpeg'
-import dime1 from '../../../img/products/Switches/NXO-G24S4X & NXO-G24S2X_Dimenssions.jpeg'
-import dime2 from '../../../img/products/Switches/NXO-G24S4X & NXO-G24S2X_Dimenssion2.jpeg'
+import Application from '../../../img/products/Switches/Layer3_NOX-G24044X_Application.png';
+import dime1 from '../../../img/products/Switches/NOX_402XSM_Dimenssions.png';
+
 
 import {TiTickOutline} from 'react-icons/ti';
 
@@ -19,16 +19,10 @@ import { MdSecurity } from 'react-icons/md';
 
 import { Link } from 'react-router-dom';
 
+const NXO_402XSM = () => { 
 
-// photo swaping 
-import 'photoswipe/dist/photoswipe.css'
-import { Gallery, Item } from 'react-photoswipe-gallery'
-
-const NXO_G24S4X_G24S2X = () => { 
-
-  let PartNumber = "NXO-G24S4X & NXO-G24S2X";
-  let productName ="24x 100/1000Base SFP with 4x Combo (RJ45/SFP) + 4x 1G/10G SFP+";
-  let productName2 ="24x 100/1000Base SFP with 4x Combo (RJ45/SFP) + 2x 1G/10G SFP+";
+  let PartNumber = "NXO-402XSM";
+  let productName ="4x 2.5G N-Base-TX + 2x 10G Base-X SFP+ Compact Size";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -71,62 +65,10 @@ const NXO_G24S4X_G24S2X = () => {
 <div className='LightBox'>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={productImg1} className='img-main' alt="product-40GLoobBack"/>
+<img src={productImg1} className='img-main2' alt="product-40GLoobBack"/>
 
 </div>
 
-<p className='text-center' style={{color:"gray", fontWeight:"200", fontSize:"15px" , marginBottom:"0px"}}>Click to open expanded view</p>
-
-  <div className="d-flex justify-content-center">
-        <Gallery>
-
-
-    <Item
-      original={productImg1}
-      thumbnail={productImg1}
-      width="1024"
-      height="768"
-    >
-      {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt="lightBox-img"/>
-      )}
-    </Item>
-
-    <Item
-      original={productImg1}
-      thumbnail={productImg1}
-      width="1024"
-      height="768"
-    >
-      {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img'  alt="lightBox-img"/>
-      )}
-    </Item>
-
-    <Item
-      original={productImg1}
-      thumbnail={productImg1}
-      width="1024"
-      height="768"
-    >
-      {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="lightBox-img" />
-      )}
-    </Item>
-
-    <Item
-      original={productImg1}
-      thumbnail={productImg1}
-      width="1024"
-      height="768"
-    >
-      {({ ref, open }) => (
-        <img ref={ref} onClick={open} src={productImg1} className='lightbox-img' alt="lightBox-img" />
-      )}
-    </Item>
-   
-  </Gallery>
-</div>
 
 
 <div className="d-flex justify-content-center flex-wrap cart-btn">
@@ -140,10 +82,6 @@ const NXO_G24S4X_G24S2X = () => {
 <div className='product-content'>
 <h4>
 {productName}
-</h4>
-
-<h4>
-{productName2}
 </h4>
 
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
@@ -163,23 +101,26 @@ const NXO_G24S4X_G24S2X = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Redundancy isolated low voltage 24/48/-48VDC, or/and isolated High voltage (110/220VAC) power inputs</p>
-<p className='listFeture'>STP, RSTP, MSTP, ITU-T G.8032 Ethernet Ring Protection Switching (ERPS) for redundant cabling</p>
-<p className='listFeture'>Provides 14 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses. Supports up to 14 rings in one device 
-(Please 	see  NXO μ-Ring white paper for more details and more topology application)</p>
-<p className='listFeture'>µ-Ring for Redundant Cabling, recovery time {'<50ms'} in 250 devices</p>
-<p className='listFeture'>Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, 
-Peer to Peer Transparent Clock, End to End 	Transparent Clock, Master, Slave mode by each port</p>
-<p className='listFeture'>Supports SmartView™ for Centralized Management</p>
+<p className='listFeture'>4x 10M/100M/1G/2.5GBase-T RJ-45+ 2x 1G/2.5G/10GBase-X SFP</p>
+<p className='listFeture'>Provides 3 ring instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses.</p>
+<p className='listFeture'>Supports up to 3 rings in one device (Please see CTC μ-Ring white paper for more details and more topology application)</p>
+<p className='listFeture'>DHCP Server/Client/Relay/Snooping/Snooping option 82/Relay option 82</p>
+<p className='listFeture'>QoS, Traffic classification QoS, CoS, bandwidth control for Ingress and Egress, Storm Control, DiffServ</p>
+<p className='listFeture'>IEEE802.1q VLAN, MAC based VLAN, IP subnet based VLAN, Protocol based VLAN, VLAN translation, GVRP, MVR</p>
+<p className='listFeture'>Dynamic IEEE 802.3ad LACP Link Aggregation, Static Link Aggregation</p>
+<p className='listFeture'>IGMP snooping V1/V2/V3, IGMP Filtering/ Throttling, IGMP query, IGMP proxy reporting, MLD snooping V1/V2</p>
+<p className='listFeture'>Flexibility security: Port based and MAC based IEEE802.1X, RADIUS, ACL, TACACS+, HTTP/HTTPS, SSL/SSH v2</p>
+<p className='listFeture'>Software upgrade via TFTP and HTTP, redundant firmware to avoid upgrade failure</p>
+<p className='listFeture'>RMON, MIB II, Port mirroring, Event syslog, DNS, NTP, SNTP, IEEE802.1ab LLDP</p>
+<p className='listFeture'>Supports IPv6 Telnet server /ICMP v6</p>
+<p className='listFeture'>CLI, Web based management, SNMP v1/v2c/v3, Telnet server for management</p>
+
 
 <h5 className='pt-5'>Applications</h5>
-<p className='listFeture'>Supports IEEE1588 PTP v2</p>
-<p className='listFeture'>Supports u-Ring, ERPS, EPS, MSTP, RSTP, STP for redundant cabling</p> 
-<p className='listFeture'>Supports maximum up to 14 u-rings in one device</p> 
-<p className='listFeture'>CE, FCC, EN62368-1 certified</p> 
-<p className='listFeture'>Supports negative voltage power input</p> 
-
+<p className='listFeture'>Redundant 12/24/48VDC power input</p>
+<p className='listFeture'>Supports μ-Ring, ERPS, EPS, MSTP, RSTP, STP for redundant cabling</p> 
 </div>
+
 
 </div>
 
@@ -202,9 +143,10 @@ Peer to Peer Transparent Clock, End to End 	Transparent Clock, Master, Slave mod
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>{PartNumber} are industrial grade, hardened design, managed L2+ switches, equipped with 20 GbE SFP ports
-plus 4 combo GbE ports and 2 or 4 10GbE SFP+ uplink ports. NXO series models are all fan-less designs with redundant, isolated power supplies (2 AC, 2 DC, AC + DC) and can be mounted in 19-inch EIA standard rack. NXO Series are certified with many industrial-grade standards and are ideal for deployments in harsh environments to deliver mission-critical network services. Additionally, with high port density and GbE or 10 GbE high-speed uplink, NXO-G24S4X & NXO-G24S2X are a reliable and scalable solution for core layer or backbone applications (See figure 1 & 2).
-
+ <p>{PartNumber} NXO-402XSM is an 1G/2.5G/10G managed Layer 2 Ethernet switch. It provides 4 port of electrical 10M/100M/1G/2.5GBase-T via  RJ-45s plus 2 ports SFP slots of 100M/1G/2.5G/10GBase-X which provide stable and reliable long-distance Ethernet transmission over  optical fiber. Built to Industrial grade standards, the FANLESS design provides high MTBF in indoor environments of operating  temperature from -10 to 60°C (14 to 160°F), and incorporates redundant 12/24/48VDC power input. With Din-Rail or wall mounting  metal housings, these switches are perfect choices for heavy duty use in harsh environments, such as Industrial Factory  Automation, Data Center Networking, Intelligent Transportation Systems (ITS) and are also suitable for many military and utility  market applications where environmental conditions exceed commercial product specifications.
+<br/>
+<br/>
+These managed switches also support a wide variety of Ethernet Layer 2 functions, including NXO proprietary μ-Ring, ERPS,  MSTP, RSTP and STP. They also support Layer 2 IGMP, VLAN, QoS, ACL, Security, IPv6, bandwidth control, and port mirroring. Additionally,  these switches can also be managed by NXO SmartView™ Element Management System, which offers a user-friendly and  centralized device management platform and provides administrators the ability to monitor and configure these connected switches  remotely.
 
 </p>
 </div>
@@ -212,17 +154,6 @@ plus 4 combo GbE ports and 2 or 4 10GbE SFP+ uplink ports. NXO series models are
 
   </div>
 </div>
-
-{/* Memory Map Section Start */}
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Application</h1>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={Application} className='sectionImg2' alt="memorymapImg"/>
-</div>
-
-</div>
-
 
 {/* Mechanical Dimensions section start */}
 
@@ -233,10 +164,6 @@ plus 4 combo GbE ports and 2 or 4 10GbE SFP+ uplink ports. NXO series models are
 <img src={dime1} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
 </div>
 <br/>
-<br/>
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={dime2} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
-</div>
 
 </div>
 {/* Mechanical Dimensions section end */}
@@ -260,7 +187,7 @@ plus 4 combo GbE ports and 2 or 4 10GbE SFP+ uplink ports. NXO series models are
       <form ref={form} onSubmit={sendEmail}>
 
       <div className='row'>
-<div className='col-md-12 col-sm-12'>
+<div className='col-md-6 col-sm-12'>
 <label>Your Product Part Number</label>
 <input type='text' className='form-control mt-2 mb-2' value={PartNumber} id='setName' name='Partno' readOnly/>
 </div>
@@ -270,11 +197,6 @@ plus 4 combo GbE ports and 2 or 4 10GbE SFP+ uplink ports. NXO series models are
 
       </div>
 
-      <div className='col-md-6 col-sm-12'>
-<label>Your Product Name</label>
-<input type='text' className='form-control mt-2 mb-2' value={productName2}  name="productname" readOnly/>
-
-      </div>
     </div>
 
  <input type='text' className='form-control mt-2 mb-2'  value={name}  onChange={(e) => setName(e.target.value)} placeholder='Enter Your Name' name="user_name" required/>
@@ -323,4 +245,4 @@ plus 4 combo GbE ports and 2 or 4 10GbE SFP+ uplink ports. NXO series models are
   )
 }
 
-export default NXO_G24S4X_G24S2X;
+export default NXO_402XSM;

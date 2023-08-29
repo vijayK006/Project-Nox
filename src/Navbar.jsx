@@ -708,7 +708,7 @@ const Switchclose_menu8=()=>{
     </div>
     </li>
 
-    <li className='n-items hover-item'>Switchs
+    <li className='n-items hover-item'>Switches
 
 <div className='inner-menu'>
 {/* <h4>Fiber Optical Transceiver</h4> */}
@@ -727,7 +727,7 @@ const Switchclose_menu8=()=>{
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>10G Ethernet Switches</p>
-<Link to="/NOX_G24S4X_G24S2X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
+<Link to="/NXO_G24S4X_G24S2X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
 <Link to="/NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
 <Link to="/NXO_G24044X_24PH_AA" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH-AA</p></Link>
 <Link to="/NXO_GS24044X_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-GS24044X & NXO-G24044X & NXO-G4804X</p></Link>
@@ -735,19 +735,19 @@ const Switchclose_menu8=()=>{
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>Gigabit Ethernet Switches</p>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH-AA</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2408GTM & NXO-2408SM & NXO-4804SM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2804TM</p></Link>
+<Link to="/NXO_2408SM_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH</p></Link>
+<Link to="/NXO_2408SM_24PH_AA" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH-AA</p></Link>
+<Link to="/NXO_S2408GTM_NXO_2408SM_NXO_4804SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2408GTM & NXO-2408SM & NXO-4804SM</p></Link>
+<Link to="/NXO_S2804TM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2804TM</p></Link>
 </div>
 
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>Layer 3 Ethernet Switches</p>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM - NXO-4804SM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO2408SM-24PH</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-NXO-G4804X</p></Link>
+<Link to="/NXO_2408SM_NXO_4804SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM - NXO-4804SM</p></Link>
+<Link to="/Layer3_NXO_2408SM_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH</p></Link>
+<Link to="/Layer3_NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
+<Link to="/Layer3_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X & NXO-G4804X</p></Link>
 </div>
 
 
@@ -762,15 +762,16 @@ const Switchclose_menu8=()=>{
 <p className='menu-title'>Managed Ethernet Switches</p>
 <div className='row'>
     <div className='col-6'>
-    <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CGSW</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CSW</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-803SM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402GSM & NXO-803GSM & NXO-1604GSM</p></Link>
+    <Link to="/NXO_402CGSW" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CGSW</p></Link>
+<Link to="/NXO_402CSW" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CSW</p></Link>
+<Link to="/NXO_402XSM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402XSM</p></Link>
+<Link to="/NXO_803SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-803SM</p></Link>
+<Link to="/NXO_402GSM_NXO_803GSM_NXO_1604GSM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402GSM & NXO-803GSM & NXO-1604GSM</p></Link>
     </div>
 
     <div className='col-6'>
-    <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-812SM & NXO-1604SM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1604XSM</p></Link>
+    <Link to="/NXO_812SM_NXO_1604SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-812SM & NXO-1604SM</p></Link>
+<Link to="/NXO_1604XSM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1604XSM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO+404SM & NXO+803SM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO+402GSM & NXO+803GSM</p></Link>
     </div>
@@ -943,19 +944,19 @@ const Switchclose_menu8=()=>{
 
 <div className='mobile-nav-all_product' id='Switchseries2'>
 <TiBackspaceOutline className='close_icon' onClick={Switchclose_menu2}/>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM-24PH</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM-24PH-AA</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-S2408GTM & NXO-2408SM & NXO-4804SM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-S2804TM</p></Link>
+<Link to="/NXO_2408SM_24PH" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM-24PH</p></Link>
+<Link to="/NXO_2408SM_24PH_AA" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM-24PH-AA</p></Link>
+<Link to="/NXO_S2408GTM_NXO_2408SM_NXO_4804SM" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-S2408GTM & NXO-2408SM & NXO-4804SM</p></Link>
+<Link to="/NXO_S2804TM" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-S2804TM</p></Link>
 
 </div>
 
 <div className='mobile-nav-all_product' id='Switchseries3'>
 <TiBackspaceOutline className='close_icon' onClick={Switchclose_menu3}/>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM - NXO-4804SM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO2408SM-24PH</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-NXO-G4804X</p></Link>
+<Link to="/NXO_2408SM_NXO_4804SM" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM - NXO-4804SM</p></Link>
+<Link to="/Layer3_NXO_2408SM_24PH" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-2408SM-24PH</p></Link>
+<Link to="/Layer3_NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X-24PH</p></Link>
+<Link to="/Layer3_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-G24044X & NXO-G4804X</p></Link>
 
 </div>
 
@@ -971,12 +972,13 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='Switchseries5'>
 <TiBackspaceOutline className='close_icon' onClick={Switchclose_menu5}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402CGSW</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402CSW</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-803SM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402GSM & NXO-803GSM & NXO-1604GSM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-812SM & NXO-1604SM</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1604XSM</p></Link>
+<Link to="/NXO_402CGSW" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402CGSW</p></Link>
+<Link to="/NXO_402CSW" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402CSW</p></Link>
+<Link to="/NXO_402XSM" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402XSM</p></Link>
+<Link to="/NXO_803SM" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-803SM</p></Link>
+<Link to="/NXO_402GSM_NXO_803GSM_NXO_1604GSM" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-402GSM & NXO-803GSM & NXO-1604GSM</p></Link>
+<Link to="/NXO_812SM_NXO_1604SM" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-812SM & NXO-1604SM</p></Link>
+<Link to="/NXO_1604XSM" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO-1604XSM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO+404SM & NXO+803SM</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>NXO+402GSM & NXO+803GSM</p></Link>
 
