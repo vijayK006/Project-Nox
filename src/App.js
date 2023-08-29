@@ -1440,7 +1440,6 @@ function App() {
 {/* Optical Fiber Bypass Switch */}
 <Route path="/NXO_202" element={<NXO_202/>}/>
 
-<<<<<<< HEAD
 <Route path="/NXO_100" element={<NXO_100/>}/>
 <Route path="/NXO_100C" element={<NXO_100C/>}/>
 <Route path="/NXO_100_PH12" element={<NXO_100_PH12/>}/>
@@ -1448,11 +1447,9 @@ function App() {
 <Route path="/NXO_1001C_NXO_1001CS" element={<NXO_1001C_NXO_1001CS/>}/>
 <Route path="/NXO_1001S_PH" element={<NXO_1001S_PH/>}/>
 
-=======
 <Route path="/NXO_402CS" element={<NXO_402CS/>}/>
 <Route path="/NXO_402S_NXO_402F" element={<NXO_402S_NXO_402F/>}/>
 <Route path="/NXO_500_NXO_800" element={<NXO_500_NXO_800/>}/>
->>>>>>> 4fa34f71c39e67dc282c905739533f7ce18fddf9
 
 
 
