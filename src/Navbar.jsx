@@ -659,7 +659,7 @@ const Switchclose_menu8=()=>{
 <Link to="/AOC_SFP28_25G" style={{textDecoration:"none"}}><p className='menu-inner-items'>25G SFP28 AOC</p></Link>
 <Link to="/Products_40G_QSFP" style={{textDecoration:"none"}}><p className='menu-inner-items'>40G QSFP+ AOC</p></Link>
 <Link to="/Products_100G_QSFP28" style={{textDecoration:"none"}}><p className='menu-inner-items'>100G QSFP28 AOC</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP56 AOC</p></Link>
+<Link to="/Products_200G_QSFP56" style={{textDecoration:"none"}}><p className='menu-inner-items'>200G QSFP56 AOC</p></Link>
 
 </div>
 
@@ -1288,7 +1288,7 @@ const Switchclose_menu8=()=>{
 <Link to="/AOC_SFP28_25G" style={{textDecoration:"none"}}><p className='mob-nav-items'>25G SFP28 AOC</p></Link>
 <Link to="/Products_40G_QSFP" style={{textDecoration:"none"}}><p className='mob-nav-items'>40G QSFP+ AOC</p></Link>
 <Link to="/Products_100G_QSFP28" style={{textDecoration:"none"}}><p className='mob-nav-items'>100G QSFP28 AOC</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>200G QSFP56 AOC</p></Link>
+<Link to="/Products_200G_QSFP56" style={{textDecoration:"none"}}><p className='mob-nav-items'>200G QSFP56 AOC</p></Link>
 
 </div>
 

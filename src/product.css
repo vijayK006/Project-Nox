@@ -348,16 +348,19 @@ background-color: #ff5416;
     margin-bottom: 30px;
     }
 
-    .sectionImg2{
-        height: 500px;
+.sectionImg2{
+    height: 500px;
+width: 100%;
+}
+
+.sectionImg3{
+    height: 250px;
     width: 100%;
-    }
-
-    .sectionImg3{
-        height: 250px;
-        width: 100%;
-    }
-
+}
+.sectionImg4{
+    width: 300px;
+    height: auto;
+ }
 
 }
 
@@ -480,6 +483,10 @@ background-color: #ff5416;
         height: 400px;
         width: auto;
     }
+    .sectionImg4{
+        width: 400px;
+        height: auto;
+     }
 
 }
 
@@ -578,6 +585,10 @@ background-color: #ff5416;
         height: 300px;
         width: auto;
     }
+    .sectionImg4{
+        width: 700px;
+        height: auto;
+     }
 
     .pricing-section{
 
@@ -705,6 +716,10 @@ width: 60%;
 .sectionImg3{
     height: 400px;
     width: auto;
+}
+.sectionImg4{
+   width: 800px;
+   height: auto;
 }
 
 }

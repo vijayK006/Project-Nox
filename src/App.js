@@ -625,6 +625,12 @@ import QSFP_40G_QPDP from './Component/Fiber Optical Cable  Patch-cord/AOC (Acti
 import QSFP_QPQP_40G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP_QPQP_40G';
 import QSFP_QPSP_40G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP_QPSP_40G';
 import Products_100G_QSFP28 from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/Products_100G_QSFP28';
+import QSFP28_QPQP_100G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP28_QPQP_100G';
+import QSFP28_QPSP_100G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP28_QPSP_100G';
+import Products_200G_QSFP56 from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/Products_200G_QSFP56';
+import QSFP56_Q5Q5_200G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP56_Q5Q5_200G';
+import QSFP56_Q6Q5_200G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP56_Q6Q5_200G';
+import QSFP56_Q6Q6_200G from './Component/Fiber Optical Cable  Patch-cord/AOC (Active Optical Cable)/QSFP56_Q6Q6_200G';
 
 
 import DAC_10G_SFPS from './Component/Fiber Optical Cable  Patch-cord/DAC (Direct-Attach Cable)/DAC_10G_SFPS';
@@ -1338,7 +1344,13 @@ function App() {
      <Route path="/Products_40G_QSFP/QSFP_QPQP_40G" element={<QSFP_QPQP_40G/>}/>
      <Route path="/Products_40G_QSFP/QSFP_QPSP_40G" element={<QSFP_QPSP_40G/>}/>
      <Route path="/Products_100G_QSFP28" element={<Products_100G_QSFP28/>}/>
-
+     <Route path="/Products_100G_QSFP28/QSFP28_QPQP_100G" element={<QSFP28_QPQP_100G/>}/>
+     <Route path="/Products_100G_QSFP28/QSFP28_QPSP_100G" element={<QSFP28_QPSP_100G/>}/>
+     <Route path="/Products_200G_QSFP56" element={<Products_200G_QSFP56/>}/>
+     <Route path="/Products_200G_QSFP56/QSFP56_Q5Q5_200G" element={<QSFP56_Q5Q5_200G/>}/>
+     <Route path="/Products_200G_QSFP56/QSFP56_Q6Q5_200G" element={<QSFP56_Q6Q5_200G/>}/>
+     <Route path="/Products_200G_QSFP56/QSFP56_Q6Q6_200G" element={<QSFP56_Q6Q6_200G/>}/>
+     
 
      <Route path="/DAC_10G_SFPS" element={<DAC_10G_SFPS/>}/>
      <Route path="/DAC_25G_SFP28" element={<DAC_25G_SFP28/>}/>
