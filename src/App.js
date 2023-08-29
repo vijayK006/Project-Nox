@@ -688,6 +688,19 @@ import NXO_803SM from './Component/Switches/Managed Ethernet Switches/NXO_803SM'
 import NXO_402GSM_NXO_803GSM_NXO_1604GSM from './Component/Switches/Managed Ethernet Switches/NXO_402GSM_NXO_803GSM_NXO_1604GSM';
 import NXO_812SM_NXO_1604SM from './Component/Switches/Managed Ethernet Switches/NXO_812SM_NXO_1604SM';
 import NXO_1604XSM from './Component/Switches/Managed Ethernet Switches/NXO_1604XSM';
+import NXO_404SM_NXO_803SM from './Component/Switches/Managed Ethernet Switches/NXO_404SM_NXO_803SM';
+import NXO_402GSM_NXO_803GSM from './Component/Switches/Managed Ethernet Switches/NXO_402GSM_NXO_803GSM';
+
+import NXO_1000MS from './Component/Switches/Managed Media Converters/NXO_1000MS';
+import NXO_1000MS_PH12 from './Component/Switches/Managed Media Converters/NXO_1000MS_PH12';
+import NXO_1000WS_PB from './Component/Switches/Managed Media Converters/NXO_1000WS_PB';
+
+// Optical Fiber Bypass Switch
+import NXO_202 from './Component/Switches/Optical Fiber Bypass Switch/NXO_202';
+
+import NXO_402CS from './Component/Switches/Unmanaged Ethernet Switches/NXO_402CS';
+import NXO_402S_NXO_402F from './Component/Switches/Unmanaged Ethernet Switches/NXO_402S_NXO_402F';
+import NXO_500_NXO_800 from './Component/Switches/Unmanaged Ethernet Switches/NXO_500_NXO_800';
 
 function App() {
   return (
@@ -1402,7 +1415,6 @@ function App() {
 <Route path="/Layer3_NXO_G24044X_24PH" element={<Layer3_NXO_G24044X_24PH/>}/>
 <Route path="/Layer3_NXO_G24044X_NXO_G4804X" element={<Layer3_NXO_G24044X_NXO_G4804X/>}/>
 
-
 <Route path="/NXO_402CGSW" element={<NXO_402CGSW/>}/> 
 <Route path="/NXO_402CSW" element={<NXO_402CSW/>}/>
 <Route path="/NXO_402XSM" element={<NXO_402XSM/>}/>
@@ -1410,9 +1422,19 @@ function App() {
 <Route path="/NXO_402GSM_NXO_803GSM_NXO_1604GSM" element={<NXO_402GSM_NXO_803GSM_NXO_1604GSM/>}/>
 <Route path="/NXO_812SM_NXO_1604SM" element={<NXO_812SM_NXO_1604SM/>}/>
 <Route path="/NXO_1604XSM" element={<NXO_1604XSM/>}/>
+<Route path="/NXO_404SM_NXO_803SM" element={<NXO_404SM_NXO_803SM/>}/>
+<Route path="/NXO_402GSM_NXO_803GSM" element={<NXO_402GSM_NXO_803GSM/>}/>
 
+<Route path="/NXO_1000MS" element={<NXO_1000MS/>}/>
+<Route path="/NXO_1000MS_PH12" element={<NXO_1000MS_PH12/>}/>
+<Route path="/NXO_1000WS_PB" element={<NXO_1000WS_PB/>}/>
 
+{/* Optical Fiber Bypass Switch */}
+<Route path="/NXO_202" element={<NXO_202/>}/>
 
+<Route path="/NXO_402CS" element={<NXO_402CS/>}/>
+<Route path="/NXO_402S_NXO_402F" element={<NXO_402S_NXO_402F/>}/>
+<Route path="/NXO_500_NXO_800" element={<NXO_500_NXO_800/>}/>
 
 
 
