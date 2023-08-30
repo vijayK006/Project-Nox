@@ -710,6 +710,24 @@ import NXO_1000S_PB from './Component/Switches/UnManaged Converters/NXO_1000S_PB
 import NXO_1001C_NXO_1001CS from './Component/Switches/UnManaged Converters/NXO_1001C_NXO_1001CS';
 import NXO_1001S_PH from './Component/Switches/UnManaged Converters/NXO_1001S_PH';
 
+
+import Products_622M_SFP_BIDI from './Component/622 SFP/Products_622M_SFP_BIDI';
+import BIDI_622M_S35 from './Component/622 SFP/BIDI_622M_S35';
+import BIDI_622M_S35i from './Component/622 SFP/BIDI_622M_S35i';
+import BIDI_622M_S53 from './Component/622 SFP/BIDI_622M_S53';
+import BIDI_622M_S53i from './Component/622 SFP/BIDI_622M_S53i';
+
+import Products_622M_SFP_Dual from './Component/622 SFP/Products_622M_SFP_Dual';
+import Dual_622M_X5D from './Component/622 SFP/Dual_622M_X5D';
+import Dual_622M_X5Di from './Component/622 SFP/Dual_622M_X5Di';
+import Dual_622M_20D from './Component/622 SFP/Dual_622M_20D';
+import Dual_622M_20Di from './Component/622 SFP/Dual_622M_20Di';
+import Dual_622M_60D from './Component/622 SFP/Dual_622M_60D';
+import Dual_622M_60Di from './Component/622 SFP/Dual_622M_60Di';
+import Dual_622M_80D from './Component/622 SFP/Dual_622M_80D';
+import Dual_622M_80Di from './Component/622 SFP/Dual_622M_80Di';
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -1451,6 +1469,22 @@ function App() {
 <Route path="/NXO_402S_NXO_402F" element={<NXO_402S_NXO_402F/>}/>
 <Route path="/NXO_500_NXO_800" element={<NXO_500_NXO_800/>}/>
 
+
+<Route path="/Products_622M_SFP_BIDI" element={<Products_622M_SFP_BIDI/>}/>
+<Route path="/Products_622M_SFP_BIDI/BIDI_622M_S35" element={<BIDI_622M_S35/>}/>
+<Route path="/Products_622M_SFP_BIDI/BIDI_622M_S35i" element={<BIDI_622M_S35i/>}/>
+<Route path="/Products_622M_SFP_BIDI/BIDI_622M_S53" element={<BIDI_622M_S53/>}/>
+<Route path="/Products_622M_SFP_BIDI/BIDI_622M_S53i" element={<BIDI_622M_S53i/>}/>
+
+<Route path="/Products_622M_SFP_Dual" element={<Products_622M_SFP_Dual/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_X5D" element={<Dual_622M_X5D/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_X5Di" element={<Dual_622M_X5Di/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_20D" element={<Dual_622M_20D/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_20Di" element={<Dual_622M_20Di/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_60D" element={<Dual_622M_60D/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_60Di" element={<Dual_622M_60Di/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_80D" element={<Dual_622M_80D/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_80Di" element={<Dual_622M_80Di/>}/>
 
 
 

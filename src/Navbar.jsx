@@ -602,8 +602,8 @@ const Switchclose_menu8=()=>{
 <Link to="/Products_Dual_SFP_155M" style={{textDecoration:"none"}}><p className='menu-inner-items'>125M/155M SFP DUAL</p></Link>
 
 <p className='menu-title '>622M SFP</p>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP BIDI</p></Link>
-<Link style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP DUAL</p></Link>
+<Link to="/Products_622M_SFP_BIDI" style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP BIDI</p></Link>
+<Link to="/Products_622M_SFP_Dual" style={{textDecoration:"none"}}><p className='menu-inner-items'>622M SFP DUAL</p></Link>
 
 
 </div>
@@ -1275,8 +1275,8 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='series25'>
 <TiBackspaceOutline className='close_icon' onClick={close_menu25}/>
 
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>622M SFP BIDI</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items'>622M SFP DUAL</p></Link>
+<Link to="/Products_622M_SFP_BIDI" style={{textDecoration:"none"}}><p className='mob-nav-items'>622M SFP BIDI</p></Link>
+<Link to="/Products_622M_SFP_Dual" style={{textDecoration:"none"}}><p className='mob-nav-items'>622M SFP DUAL</p></Link>
 
 
 </div>
