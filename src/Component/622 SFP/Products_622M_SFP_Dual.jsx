@@ -21,7 +21,7 @@ import productImg1 from '../../img/products/622M_SFP/622_BIDI.jpg';
 import productImg2 from '../../img/products/622M_SFP/622_Dual.jpg'
 import productImg3 from '../../img/products/622M_SFP/622M_20D.jpg'
 import productImg4 from '../../img/products/622M_SFP/622M_80D.jpg'
-import productImg5 from '../../img/products/125M 155M  SFP/Dual_S15_155M.jpg'
+import productImg5 from '../../img/products/622M_SFP/622M_A4D.jpg'
 
 import { TfiHeadphoneAlt } from 'react-icons/tfi';
 
@@ -303,6 +303,133 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 </h5>
 <p>Part Number : NXO-B7-S15-80Di</p>
+
+<h4>Feature's</h4> 
+<p>Hot Pluggable
+</p>
+<p>RoHS Compliant</p>
+
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_622M_SFP_Dual/Dual_622M_A0D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  622M SFP OC-12 LR-2 / STM-4 L4.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-B7-S15-A2D</p>
+
+<h4>Feature's</h4> 
+<p>Hot Pluggable
+</p>
+<p>RoHS Compliant</p>
+
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_622M_SFP_Dual/Dual_622M_A0Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  622M SFP OC-12 LR-2 / STM-4 L4.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-B7-S15-A2Di</p>
+
+<h4>Feature's</h4> 
+<p>Hot Pluggable
+</p>
+<p>RoHS Compliant</p>
+
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_622M_SFP_Dual/Dual_622M_A4D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  622M SFP Extended OC12 LR-2 / STM4 L4.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM(36dB), DDM
+
+
+</h5>
+<p>Part Number : NXO-B7-S15-A4D</p>
+
+<h4>Feature's</h4> 
+<p>Hot Pluggable
+</p>
+<p>RoHS Compliant</p>
+
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_622M_SFP_Dual/Dual_622M_A6D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg5} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  622M SFP Extended OC12 LR-2 / STM4 L4.2 Transceiver
+Hot Pluggable, Duplex LC, 1550nm DFB, SMF 160KM(40dB), DDM
+
+</h5>
+<p>Part Number : NXO-B7-S15-A6D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable

@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/622M_SFP/622M_80D.jpg'
+import productImg1 from '../../img/products/622M_SFP/622M_A4D.jpg'
 import memorymapimg from '../../img/products/622M_SFP/memory.jpg'
-import mchdimensionImg from '../../img/products/622M_SFP/dimension2.jpg'
+import mchdimensionImg from '../../img/products/622M_SFP/dimension3.jpg'
 import { TiTickOutline } from 'react-icons/ti';
 
 import Navbar from '../../Navbar';
@@ -22,9 +22,9 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_622M_80D = () => {
-  let productName = "622M SFP OC-12 LR-2 / STM-4 L4.2 Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM";
-  let PartNumber = "NXO-B7-S15-80D";
+const Dual_622M_A4D = () => {
+  let productName = "622M SFP Extended OC12 LR-2 / STM4 L4.2 Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM(36dB), DDM";
+  let PartNumber = "NXO-B7-S15-A4D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -150,10 +150,11 @@ const Dual_622M_80D = () => {
           <h5>Features</h5>
 
 
-         <p className='listFeture'>   Compliant with SONET OC-12 LR-2 and SDH  STM-4 L4.2 </p>
+         <p className='listFeture'>   Compliant with SONET OC-12 LR-2 and SDH  STM4 L4.2 </p>
         <p className='listFeture'>    Compliant with INF-8074i SFP MSA </p>
          <p className='listFeture'>   Hot Pluggable </p>
          <p className='listFeture'>   1550nm DFB laser transmitter </p>
+         <p className='listFeture'>   APD receiver</p>
          <p className='listFeture'>   Duplex LC connector </p>
           <p className='listFeture'>  2-wire interface for management and diagnostic monitor compliant with SFF-8472 </p>
          <p className='listFeture'>   Single +3.3V power supply </p>
@@ -201,10 +202,10 @@ const Dual_622M_80D = () => {
             <div class="container mt-3">
               <h2>Overview</h2>
 
-              <p>NXO-B7-S15-80D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+              <p>NXO-B7-S15-A4D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
                 Multi-Source Agreement (MSA) Specification. The high
-                performance uncooled 1550nm DFB transmitter and high sensitivity S-TIA receiver provide superior
-                performance for SONET OC-12 / SDH STM-4 applications up to SMF 80km optical links.
+                performance uncooled 1550nm DFB transmitter and high sensitivity APD receiver provide superior
+                performance for SONET/SDH applications up to SMF 140km(36dB) optical Links.
 
 
 
@@ -285,7 +286,7 @@ const Dual_622M_80D = () => {
                   <tbody>
 
                     <tr>
-                      <td>Case Operating Temp. (NXO-B7-S15-80D)</td>
+                      <td>Case Operating Temperature</td>
                       <td>TOP</td>
                       <td>0</td>
                       <td>-</td>
@@ -293,14 +294,6 @@ const Dual_622M_80D = () => {
                       <td>°C</td>
                     </tr>
 
-                    <tr>
-                      <td>Case Operating Temp. (NXO-B7-S15-80Di)</td>
-                      <td>TOP</td>
-                      <td>-40</td>
-                      <td>-</td>
-                      <td>+85</td>
-                      <td>°C</td>
-                    </tr>
                     <tr>
                       <td>Supply Voltage</td>
                       <td>VCC</td>
@@ -312,22 +305,14 @@ const Dual_622M_80D = () => {
 
 
                     <tr>
-                      <td>Supply Current(NXO-B7-S15-80D)</td>
+                      <td>Supply Current</td>
                       <td>ICC</td>
                       <td></td>
-                      <td></td>
-                      <td>290</td>
+                      <td>200</td>
+                      <td>300</td>
                       <td>mA</td>
                     </tr>
 
-                    <tr>
-                      <td>Supply Current(NXO-B7-S15-80Di)</td>
-                      <td>ICC</td>
-                      <td></td>
-                      <td></td>
-                      <td>320</td>
-                      <td>mA</td>
-                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -395,7 +380,7 @@ const Dual_622M_80D = () => {
         <h1 className='pb-4'>Mechanical Dimensions </h1>
 
         <div className='d-flex justify-content-center' style={{ width: "100%" }}>
-          <img src={mchdimensionImg} className='sectionImg2' alt="memorymapImg" />
+          <img src={mchdimensionImg} className='sectionImg2_1' alt="memorymapImg" />
         </div>
 
       </div>
@@ -492,4 +477,4 @@ const Dual_622M_80D = () => {
   )
 }
 
-export default Dual_622M_80D;
+export default Dual_622M_A4D;

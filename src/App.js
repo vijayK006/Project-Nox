@@ -726,6 +726,11 @@ import Dual_622M_60D from './Component/622 SFP/Dual_622M_60D';
 import Dual_622M_60Di from './Component/622 SFP/Dual_622M_60Di';
 import Dual_622M_80D from './Component/622 SFP/Dual_622M_80D';
 import Dual_622M_80Di from './Component/622 SFP/Dual_622M_80Di';
+import Dual_622M_A0D from './Component/622 SFP/Dual_622M_A0D';
+import Dual_622M_A0Di from './Component/622 SFP/Dual_622M_A0Di';
+import Dual_622M_A4D from './Component/622 SFP/Dual_622M_A4D';
+import Dual_622M_A6D from './Component/622 SFP/Dual_622M_A6D';
+
 
 
 function App() {
@@ -1485,6 +1490,10 @@ function App() {
 <Route path="/Products_622M_SFP_Dual/Dual_622M_60Di" element={<Dual_622M_60Di/>}/>
 <Route path="/Products_622M_SFP_Dual/Dual_622M_80D" element={<Dual_622M_80D/>}/>
 <Route path="/Products_622M_SFP_Dual/Dual_622M_80Di" element={<Dual_622M_80Di/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_A0D" element={<Dual_622M_A0D/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_A0Di" element={<Dual_622M_A0Di/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_A4D" element={<Dual_622M_A4D/>}/>
+<Route path="/Products_622M_SFP_Dual/Dual_622M_A6D" element={<Dual_622M_A6D/>}/>
 
 
 

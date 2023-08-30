@@ -150,8 +150,7 @@ const Dual_622M_80Di = () => {
           <h5>Features</h5>
 
 
-         <p className='listFeture'>   Compliant with SONET OC-12 LR-2 and SDH </p>
-         <p className='listFeture'>   STM-4 L4.2 </p>
+         <p className='listFeture'>   Compliant with SONET OC-12 LR-2 and SDH    STM-4 L4.2 </p>
         <p className='listFeture'>    Compliant with INF-8074i SFP MSA </p>
          <p className='listFeture'>   Hot Pluggable </p>
          <p className='listFeture'>   1550nm DFB laser transmitter </p>
