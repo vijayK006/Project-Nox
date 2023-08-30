@@ -61,7 +61,7 @@ const Products_622M_SFP_Dual = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>622M SFP BIDI</h2>
+<h2 className='pt-5'>622M SFP Dual</h2>
 
       <div className='row pt-5  pb-5'>
 

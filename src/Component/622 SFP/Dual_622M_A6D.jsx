@@ -179,7 +179,7 @@ const Dual_622M_A6D = () => {
               </li>
 
 
-
+                
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="pill" href="#menu1">Absolute Maximum Ratings</a>
               </li>
