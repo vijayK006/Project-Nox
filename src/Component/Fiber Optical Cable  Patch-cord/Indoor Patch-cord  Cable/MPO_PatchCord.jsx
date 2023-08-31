@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const MPO_PatchCord = () => {
 
-    let PartNumber = "NXOPMD-xxxx-xxxx-xxxxxx";
+    let PartNumber = "NXOPCD-xxxx-xxxx-xxx";
     let productName = "Fiber Optical Mini Distribution Cable";
 
     const [name, setName] = useState("");

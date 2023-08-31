@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const QSFP28_100G_QPSP = () => {
 
-    let PartNumber = "NXODAC-A0G-QPSP-xxx-yy";
+    let PartNumber = "NXODAC-A0G-QPSP-Pxx-yy";
     let productName = "100G QSFP28 to 4x25G SFP28 Direct Attach Cable (DAC) Hot Pluggable, Twinax Copper Cable, 1~5M    ";
 
     const [name, setName] = useState("");

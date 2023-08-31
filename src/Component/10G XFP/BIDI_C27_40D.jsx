@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/10G XFP/H7_M85_X3D.jgp.jpg'
+import productImg1 from '../../img/products/10G XFP/C27_20D.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/10G XFP/DTU-80D_PinAssignment.jpg.png';
-import machdimenssion from '../../img/products/10G XFP/H7_M85_X3D_mechDimenssion.jpg';
+import machdimenssion from '../../img/products/10G XFP/dimension40D_3.jpg';
 import Memorymap from '../../img/products/10G XFP/DTU-80D_memoryMap.png';
 
 import Navbar from '../../Navbar';
@@ -25,10 +25,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_H7_M85_X3D = () => { 
+const BIDI_C27_40D = () => { 
 
-  let PartNumber = "NXO-H7-M85-XX3D";
-  let productName ="10G XFP-SR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, Multi-Mode, 300M, DDM";
+  let PartNumber = "NXO-H8-C27-40D";
+  let productName ="10G XFP BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -159,27 +159,26 @@ const Dual_H7_M85_X3D = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with IEEE802.3ae 10GBase-SR/SW standard</p>
-<p className='listFeture'>Compliant with 10G 1200-Mxx-SN-I Fiber Channel</p>
-<p className='listFeture'>Compliant with XFP MSA INF-8077i</p>
-<p className='listFeture'>Support 9.95Gb/s to 11.3Gb/s multi-rates</p>
-<p className='listFeture'>Hot-pluggable XFP footprint</p>
-<p className='listFeture'>850nm VCSEL Laser</p>
-<p className='listFeture'>Duplex LC connector</p>
+<p className='listFeture'>Compatible with IEEE802.3ae 10GBASE-BX(BR)</p>
+<p className='listFeture'>Compliant with CPRI Option 8</p>
+<p className='listFeture'>Compliant with INF-8077i XFP MSA</p>
+<p className='listFeture'>Support 9.953Gb/s to 11.32Gb/s Multi-Rate</p>
+<p className='listFeture'>Hot Pluggable XFP footprint</p>
+<p className='listFeture'>1270nm DFB laser transmitter</p>
+<p className='listFeture'>Simplex LC connector</p>
 <p className='listFeture'>No Reference Clock required</p>
-<p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Built-in digital diagnostic function</p>
-<p className='listFeture'>Link length up to 300m over MM OM3 fiber</p>
-<p className='listFeture'>Power consumption less than 1.5W</p>
+<p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
+<p className='listFeture'>Dual +3.3V power supply</p>
+<p className='listFeture'>Link distance 40km over SM fiber</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>10GBASE-SR/SW Ethernet</p>
-<p className='listFeture'>1200-Mxx-SN-I 10G Fiber Channel</p> 
-<p className='listFeture'>SONET OC-192 & SDH STM-64 @9.953Gbps</p>
-<p className='listFeture'>OC192 over FEC @10.709Gbps</p>
-<p className='listFeture'>10GbE over G.709 @11.09Gbps</p>
+<p className='listFeture'>10GBASE-BX(BR) Ethernet @10.3125G</p>
+<p className='listFeture'>Fiber Channel 1200-SM-LL-L 10GFC @10.51875G</p> 
+<p className='listFeture'>SONET OC-192 & SDH STM-64 @9.953G</p>
+<p className='listFeture'>CPRI Option #8 @10.1376G</p>
+<p className='listFeture'>OTN OTU2 @10.7G, OTU2e @11.09G, OTU2f @11.32G</p>
 </div>
 
 </div>
@@ -217,8 +216,10 @@ const Dual_H7_M85_X3D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>{PartNumber} Small Form Factor 10Gb/s XFP transceivers are compliant with the current XFP
-Multi-Source Agreement ( MSA ) Specification. The high performance 850nm VCSEL transmitter & high sensitivity PIN receiver provide superior performance for 10GBase SR/SW & 10GFiber Channel 1200-Mxx-SN-I applications up to 300m (MMF OM3) optical links.
+ <p>{PartNumber} Small Form Factor Pluggable XFP transceivers are compliant with the current XFP
+Multi-Source Agreement (MSA) Specification. The high performance uncooled 1270nm DFB transmitter and high sensitivity PIN receiver provide superior
+performance for 10GBASE Ethernet applications up to 40km optical links.
+
 
 </p>
 </div>
@@ -294,11 +295,20 @@ Multi-Source Agreement ( MSA ) Specification. The high performance 850nm VCSEL t
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature</td>
+          <td>Case Operating Temp. (NXO-H8-C27-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
+          <td>°C</td>
+        </tr>
+
+        <tr>
+          <td>Case Operating Temp. (NXO-H8-C27-40Di)</td>
+          <td>Top</td>
+          <td>0</td>
+          <td>-</td>
+          <td>+85</td>
           <td>°C</td>
         </tr>
 
@@ -312,20 +322,37 @@ Multi-Source Agreement ( MSA ) Specification. The high performance 850nm VCSEL t
         </tr>
 
         <tr>
-          <td>Supply Current</td>
+          <td>Supply Current (NXO-H8-C27-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>490</td>
+          <td>480</td>
+          <td>mA</td>
+        </tr>
+        <tr>
+          <td>Supply Current (NXO-H8-C27-40Di)</td>
+          <td>Icc</td>
+          <td></td>
+          <td></td>
+          <td>560</td>
           <td>mA</td>
         </tr>
 
         <tr>
-          <td>Module Total Power</td>
+          <td>Power Consumption (NXO-H8-C27-40D)</td>
           <td>P</td>
           <td></td>
           <td></td>
-          <td>1.5</td>
+          <td>1.7</td>
+          <td>W</td>
+        </tr>
+
+        <tr>
+          <td>Power Consumption (NXO-H8-C27-40Di)</td>
+          <td>P</td>
+          <td></td>
+          <td></td>
+          <td>2.0</td>
           <td>W</td>
         </tr>
 
@@ -394,7 +421,7 @@ transceiver into those segments of its memory map that are not write-protected. 
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={machdimenssion} className='sectionImg2_1' alt="Transceiver Block Diagram"/>
+<img src={machdimenssion} className='sectionImg2' alt="Transceiver Block Diagram"/>
 </div>
 
 </div>
@@ -476,4 +503,4 @@ transceiver into those segments of its memory map that are not write-protected. 
   )
 }
 
-export default Dual_H7_M85_X3D;
+export default BIDI_C27_40D;

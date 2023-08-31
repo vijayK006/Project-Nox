@@ -116,7 +116,7 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
   <h5>100G QSFP28 ER4 Transceiver
 Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM
 </h5>
-<p>Part Number : NXO-K7-L13-40DI</p>
+<p>Part Number : NXO-K7-L13-40Di</p>
 <h4>Feature's</h4>
 <p>Data Rate 25.78125Gbps per Lane</p>
 <p>LAN-WDM DFB transmitter</p>

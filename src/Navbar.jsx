@@ -726,6 +726,14 @@ const Switchclose_menu8=()=>{
 <div className='row'>
 
 <div className='col-lg-2 col-md-4'>
+<p className='menu-title '>Layer 3 Ethernet Switches</p>
+<Link to="/NXO_2408SM_NXO_4804SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM - NXO-4804SM</p></Link>
+<Link to="/Layer3_NXO_2408SM_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH</p></Link>
+<Link to="/Layer3_NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
+<Link to="/Layer3_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X & NXO-G4804X</p></Link>
+</div>
+
+<div className='col-lg-2 col-md-4'>
 <p className='menu-title '>10G Ethernet Switches</p>
 <Link to="/NXO_G24S4X_G24S2X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24S4X & NXO-G24S2X</p></Link>
 <Link to="/NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
@@ -741,22 +749,6 @@ const Switchclose_menu8=()=>{
 <Link to="/NXO_S2804TM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-S2804TM</p></Link>
 </div>
 
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Layer 3 Ethernet Switches</p>
-<Link to="/NXO_2408SM_NXO_4804SM" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM - NXO-4804SM</p></Link>
-<Link to="/Layer3_NXO_2408SM_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-2408SM-24PH</p></Link>
-<Link to="/Layer3_NXO_G24044X_24PH" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X-24PH</p></Link>
-<Link to="/Layer3_NXO_G24044X_NXO_G4804X" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-G24044X & NXO-G4804X</p></Link>
-</div>
-
-
-<div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Managed Media Converters</p>
-<Link to="/NXO_1000MS" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000MS</p></Link>
-<Link to="/NXO_1000MS_PH12" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000MS-PH12</p></Link>
-<Link to="/NXO_1000WS_PB" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000WS-PB</p></Link>
-</div>
 
 <div className='col-lg-4 col-md-4'>
 <p className='menu-title'>Managed Ethernet Switches</p>
@@ -780,6 +772,12 @@ const Switchclose_menu8=()=>{
 
 </div>
 
+<div className='col-lg-2 col-md-4'>
+<p className='menu-title '>Unmanaged Ethernet Switches</p>
+<Link to="/NXO_402CS" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CS</p></Link>
+<Link to="/NXO_402S_NXO_402F" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402S & NXO-402F</p></Link>
+<Link to="/NXO_500_NXO_800" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-500 & NXO-800</p></Link>
+</div>
 
 <div className='col-lg-2 col-md-4'>
 <p className='menu-title '>Optical Fiber Bypass Switch</p>
@@ -787,11 +785,12 @@ const Switchclose_menu8=()=>{
 </div>
 
 <div className='col-lg-2 col-md-4'>
-<p className='menu-title '>Unmanaged Ethernet Switches</p>
-<Link to="/NXO_402CS" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402CS</p></Link>
-<Link to="/NXO_402S_NXO_402F" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-402S & NXO-402F</p></Link>
-<Link to="/NXO_500_NXO_800" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-500 & NXO-800</p></Link>
+<p className='menu-title '>Managed Media Converters</p>
+<Link to="/NXO_1000MS" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000MS</p></Link>
+<Link to="/NXO_1000MS_PH12" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000MS-PH12</p></Link>
+<Link to="/NXO_1000WS_PB" style={{textDecoration:"none"}}><p className='menu-inner-items'>NXO-1000WS-PB</p></Link>
 </div>
+
 
 <div className='col-lg-4 col-md-4'>
 <p className='menu-title '>Unmanaged Media Converters</p>
@@ -922,13 +921,13 @@ const Switchclose_menu8=()=>{
 <div className='mobile-nav-all_product' id='mobile_Setting_Switchs'>
 <TiBackspaceOutline className='close_icon' onClick={Switchclose}/>
 
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries3btn}>Layer 3 Ethernet Switches</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries1btn}>10G Ethernet Switches</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries2btn}>Gigabit Ethernet Switches</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries3btn}>Layer 3 Ethernet Switches</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries4btn}>Managed Media Converters</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries5btn}>Managed Ethernet Switches</p></Link>
-<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries6btn}>Optical Fiber Bypass Switch</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries7btn}>Unmanaged Ethernet Switches</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries6btn}>Optical Fiber Bypass Switch</p></Link>
+<Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries4btn}>Managed Media Converters</p></Link>
 <Link to="" style={{textDecoration:"none"}}><p className='mob-nav-items' onClick={Switchsseries8btn}>Unmanaged Media Converters</p></Link>
 </div>
 

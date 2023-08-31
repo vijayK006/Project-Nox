@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_S15_A0Di_SFP = () => { 
 
-  let PartNumber = "NXO-H7-S15-A0Di";
+  let PartNumber = "NXO-H7-S15-XA0Di";
   let productName ="10G XFP-ZR Transceiver Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM";
 
   const [name, setName] = useState("");

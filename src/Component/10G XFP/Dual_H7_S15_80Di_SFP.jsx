@@ -28,7 +28,7 @@ import Dual_H7_S15_80Di from '../10G_SFP+/Dual_H7_S15_80Di';
 
 const Dual_H7_S15_80Di_SFP = () => { 
 
-  let PartNumber = "NXO-H7-S15-80Di";
+  let PartNumber = "NXO-H7-S15-X80Di";
   let productName ="10G XFP-ZR Transceiver Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM";
 
   const [name, setName] = useState("");

@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const ER4_40Di_100G = () => {
-  let PartNumber = "NXO-K7-L13-40DI"
+  let PartNumber = "NXO-K7-L13-40Di"
   let productName = "100G QSFP28 ER4 Transceiver Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM"
 
   const [name, setName] = useState("");

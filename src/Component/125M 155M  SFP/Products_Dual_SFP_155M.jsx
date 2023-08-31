@@ -464,7 +464,6 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 60KM, DDM
 
 <p>Single +3.3V power supply
 </p>
-{/* <p>1310nm FP laser transmitter</p> */}
 <p>Link distance 60km over SM fiber</p>
 <p>Duplex LC connector</p>
 
@@ -477,7 +476,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 60KM, DDM
 
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -496,7 +495,6 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Single +3.3V power supply</p>
-{/* <p>Link distance 80km over SM fiber</p> */}
 <p>RoHS Compliant</p>
 
 
@@ -527,7 +525,6 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Single +3.3V power supply</p>
-{/* <p>Link distance 80km over SM fiber</p> */}
 <p>RoHS Compliant</p>
 
 
@@ -537,9 +534,9 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 </div>
 </Link>
 
-        </div>
+        </div> */}
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_A0D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -554,7 +551,6 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 <p>Part Number : NXO-A7-S13-A0D</p>
 
 <h4>Feature's</h4> 
-{/* <p>Compliant with INF-8074i SFP MSA</p> */}
 <p>Single +3.3V power supply</p>
 <p>Link distance 100km over SM fiber</p>
 <p>RoHS Compliant</p>
@@ -583,7 +579,6 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 <p>Part Number : NXO-A7-S13-A0Di</p>
 
 <h4>Feature's</h4> 
-{/* <p>Compliant with INF-8074i SFP MSA</p> */}
 <p>Single +3.3V power supply</p>
 <p>Link distance 100km over SM fiber</p>
 <p>RoHS Compliant</p>
@@ -595,9 +590,9 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 </div>
 </Link>
 
-        </div>
+        </div> */}
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_A2D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -613,7 +608,6 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 <p>Part Number : NXO-A7-S13-A2D</p>
 
 <h4>Feature's</h4> 
-{/* <p>Compliant with INF-8074i SFP MSA</p> */}
 <p>Single +3.3V power supply</p>
 <p>Link distance 120km over SM fiber</p>
 <p>RoHS Compliant</p>
@@ -645,7 +639,6 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 <p>Part Number : NXO-A7-S13-A2Di</p>
 
 <h4>Feature's</h4> 
-{/* <p>Compliant with INF-8074i SFP MSA</p> */}
 <p>Single +3.3V power supply</p>
 <p>Link distance 120km over SM fiber</p>
 <p>RoHS Compliant</p>
@@ -657,7 +650,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 </div>
 </Link>
 
-        </div>
+        </div> */}
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_A4D" style={{textDecoration:"none", color:"black"}}>

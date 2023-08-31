@@ -16,7 +16,7 @@ import 'swiper/css/pagination';
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/10G XFP/C27_20D.jpg'
-import productImg2 from '../../img/products/10G XFP/DTU_80D.jpg'
+import productImg2 from '../../img/products/10G XFP/Dxx_40D.jpg'
 
 
 
@@ -71,7 +71,7 @@ const XFP_BIDI_Products = () => {
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
-<p>Part Number : NXO-H8-C27-20D</p>
+<p>Part Number : NXO-H8-C27-X20D</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 20km over SM fiber</p>
@@ -95,7 +95,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
-<p>Part Number : NXO-H8-C27-20Di</p>
+<p>Part Number : NXO-H8-C27-X20Di</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 20km over SM fiber</p>
@@ -110,6 +110,263 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 
         </div>
 
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C27_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
+<p>Part Number : NXO-H8-C27-X40D</p>
+<h4>Feature's</h4> 
+<p>1270nm DFB laser transmitter</p>
+<p>Link distance 40km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C27_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP CWDM Transceiver
+Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
+<p>Part Number : NXO-H8-C27-X40Di</p>
+<h4>Feature's</h4> 
+<p>1270nm DFB laser transmitter</p>
+<p>Link distance 40km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C27_60D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-U Transceiver
+Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
+</h5>
+<p>Part Number : NXO-H8-C27-X60D</p>
+<h4>Feature's</h4> 
+<p>1270nm DFB laser transmitter</p>
+<p>Link distance 60km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C27_60Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-U Transceiver
+Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
+</h5>
+<p>Part Number : NXO-H8-C27-X60Di</p>
+<h4>Feature's</h4> 
+<p>1270nm DFB laser transmitter</p>
+<p>Link distance 60km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C33_20D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-D Transceiver
+Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 20KM, DDM
+
+</h5>
+<p>Part Number : NXO-H8-C33-X20D</p>
+<h4>Feature's</h4> 
+<p>1270nm DFB laser transmitter</p>
+<p>Link distance 60km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C33_20Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-D Transceiver
+Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 20KM, DDM
+
+</h5>
+<p>Part Number : NXO-H8-C33-X20Di</p>
+<h4>Feature's</h4> 
+<p>1270nm DFB laser transmitter</p>
+<p>Link distance 20km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C33_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-D Transceiver
+Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H8-C33-X40D</p>
+<h4>Feature's</h4> 
+<p>1330nm DFB laser transmitter</p>
+<p>Link distance 40km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C33_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-D Transceiver
+Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H8-C33-X40Di</p>
+<h4>Feature's</h4> 
+<p>1330nm DFB laser transmitter</p>
+<p>Link distance 40km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C33_60D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-D Transceiver
+Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H8-C33-X60D</p>
+<h4>Feature's</h4> 
+<p>1330nm DFB laser transmitter</p>
+<p>Link distance 60km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C33_60Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-D Transceiver
+Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H8-C33-X60Di</p>
+<h4>Feature's</h4> 
+<p>1330nm DFB laser transmitter</p>
+<p>Link distance 60km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
       </div>
 </div>
 

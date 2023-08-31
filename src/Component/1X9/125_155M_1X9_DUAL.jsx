@@ -237,7 +237,7 @@ Duplex Metal ST, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
 
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_155M_Ax_M13" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -533,7 +533,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </div>
 </Link>
 
-        </div>
+        </div> */}
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_A1_S13_20P" style={{textDecoration:"none", color:"black"}}>
@@ -777,7 +777,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_A1_S15_A2P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -825,7 +825,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </div>
 </Link>
 
-        </div>
+        </div> */}
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_A3_S13_30P" style={{textDecoration:"none", color:"black"}}>

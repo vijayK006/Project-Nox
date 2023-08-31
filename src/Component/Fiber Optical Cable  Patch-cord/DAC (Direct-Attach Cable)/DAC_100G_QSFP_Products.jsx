@@ -100,7 +100,7 @@ Hot Pluggable, Twinax Copper Cables, Passive 0.5~5M
   <h5>
   100G QSFP28 to 4x25G SFP28 Direct Attach Cable (DAC) Hot Pluggable, Twinax Copper Cable, 1~5M
 </h5>
-<p>Part Number : NXODAC-A0G-QPSP-xxx-yy</p>
+<p>Part Number : NXODAC-A0G-QPSP-Pxx-yy</p>
 
 <h4>Feature's</h4> 
 

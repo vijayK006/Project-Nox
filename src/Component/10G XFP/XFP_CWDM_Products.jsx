@@ -71,7 +71,7 @@ const XFP_CWDM_Products = () => {
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
-<p>Part Number : NXO-H7-Cxx-40D</p>
+<p>Part Number : NXO-H7-Cxx-X40D</p>
 <h4>Feature's</h4> 
 <p>No Reference Clock required</p>
 <p>Link distance 40km over SM fiber</p>
@@ -95,7 +95,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
-<p>Part Number : NXO-H7-Cxx-40Di</p>
+<p>Part Number : NXO-H7-Cxx-X40Di</p>
 <h4>Feature's</h4> 
 <p>No Reference Clock required</p>
 <p>Link distance 40km over SM fiber</p>
@@ -119,7 +119,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM</h5>
-<p>Part Number : NXO-H7-Cxx-80D</p>
+<p>Part Number : NXO-H7-Cxx-X80D</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Link distance 80km over SM fiber</p>
@@ -143,7 +143,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM</h5>
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM</h5>
-<p>Part Number : NXO-H7-Cxx-80Di</p>
+<p>Part Number : NXO-H7-Cxx-X80Di</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Link distance 80km over SM fiber</p>

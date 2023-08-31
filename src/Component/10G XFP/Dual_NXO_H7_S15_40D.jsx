@@ -1,18 +1,16 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/10G XFP/H7_M85_X3D.jgp.jpg'
+import productImg1 from '../../img/products/10G XFP/Dxx_40D.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
 import pinassisment from '../../img/products/10G XFP/DTU-80D_PinAssignment.jpg.png';
-import machdimenssion from '../../img/products/10G XFP/H7_M85_X3D_mechDimenssion.jpg';
+import machdimenssion from '../../img/products/10G XFP/dimension40D.jpg';
 import Memorymap from '../../img/products/10G XFP/DTU-80D_memoryMap.png';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 
 import {TiTickOutline} from 'react-icons/ti';
-
-
 
 import { BsCartCheck } from 'react-icons/bs';
 import { LiaWarehouseSolid } from 'react-icons/lia';
@@ -25,10 +23,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_H7_M85_X3D = () => { 
+const Dual_NXO_H7_S15_40D = () => { 
 
-  let PartNumber = "NXO-H7-M85-XX3D";
-  let productName ="10G XFP-SR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, Multi-Mode, 300M, DDM";
+  let PartNumber = "NXO-H7-S15-X40D";
+  let productName ="10G XFP-ZR Transceiver Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -159,24 +157,28 @@ const Dual_H7_M85_X3D = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Compliant with IEEE802.3ae 10GBase-SR/SW standard</p>
-<p className='listFeture'>Compliant with 10G 1200-Mxx-SN-I Fiber Channel</p>
+<p className='listFeture'>Compliant with IEEE802.3ae 10GBase-ER/EW
+standard</p>
+<p className='listFeture'>Compliant with SONET OC192 IR2/ IR3 standard</p>
+<p className='listFeture'>Compliant with SDH STM64 S64.2b/ S64.3b standard</p>
+<p className='listFeture'>Compliant with 10G Fiber Channel</p>
 <p className='listFeture'>Compliant with XFP MSA INF-8077i</p>
 <p className='listFeture'>Support 9.95Gb/s to 11.3Gb/s multi-rates</p>
 <p className='listFeture'>Hot-pluggable XFP footprint</p>
-<p className='listFeture'>850nm VCSEL Laser</p>
+<p className='listFeture'>Cooled 1550nm EML Laser and APD receiver</p>
 <p className='listFeture'>Duplex LC connector</p>
 <p className='listFeture'>No Reference Clock required</p>
 <p className='listFeture'>Single +3.3V power supply</p>
 <p className='listFeture'>Built-in digital diagnostic function</p>
-<p className='listFeture'>Link length up to 300m over MM OM3 fiber</p>
-<p className='listFeture'>Power consumption less than 1.5W</p>
-<p className='listFeture'>RoHS Compliant</p>
+<p className='listFeture'>Link length for 40km over SM fiber</p>
+<p className='listFeture'>Low power consumption {'(<1.8W)'}</p>
+<p className='listFeture'>RoHS compliant</p>
+
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>10GBASE-SR/SW Ethernet</p>
-<p className='listFeture'>1200-Mxx-SN-I 10G Fiber Channel</p> 
+<p className='listFeture'>10GBASE-ER/EW Ethernet</p>
+<p className='listFeture'>10G Fiber Channel</p> 
 <p className='listFeture'>SONET OC-192 & SDH STM-64 @9.953Gbps</p>
 <p className='listFeture'>OC192 over FEC @10.709Gbps</p>
 <p className='listFeture'>10GbE over G.709 @11.09Gbps</p>
@@ -184,7 +186,7 @@ const Dual_H7_M85_X3D = () => {
 
 </div>
 
-<div className='container pt-lg-5  pb-lg-5'>
+<div className='container pt-lg-5 pb-lg-5'>
 <div className='resp-overflow'>
     <div className='d-flex justify-content-center'>
        <ul class="navs nav-pills" role="tablist">
@@ -218,7 +220,8 @@ const Dual_H7_M85_X3D = () => {
   <h2>Overview</h2>
   
  <p>{PartNumber} Small Form Factor 10Gb/s XFP transceivers are compliant with the current XFP
-Multi-Source Agreement ( MSA ) Specification. The high performance 850nm VCSEL transmitter & high sensitivity PIN receiver provide superior performance for 10GBase SR/SW & 10GFiber Channel 1200-Mxx-SN-I applications up to 300m (MMF OM3) optical links.
+Multi-Source Agreement ( MSA ) Specification. The high performance cooled 1550nm EML transmitter & high sensitivity PIN receiver provide superior performance for 10GBase-ER/EW, SONET OC192/ SDH STM64 and
+10GFiber Channel applications up to 40km optical links.
 
 </p>
 </div>
@@ -294,11 +297,20 @@ Multi-Source Agreement ( MSA ) Specification. The high performance 850nm VCSEL t
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature</td>
+          <td>Case Operating Temperature (NXO-H7-S15-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
+          <td>°C</td>
+        </tr>
+
+        <tr>
+          <td>Case Operating Temperature (NXO-H7-S15-40Di)</td>
+          <td>Top</td>
+          <td>0</td>
+          <td>-</td>
+          <td>+85</td>
           <td>°C</td>
         </tr>
 
@@ -311,12 +323,13 @@ Multi-Source Agreement ( MSA ) Specification. The high performance 850nm VCSEL t
           <td>V</td>
         </tr>
 
+
         <tr>
           <td>Supply Current</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>490</td>
+          <td>540</td>
           <td>mA</td>
         </tr>
 
@@ -325,7 +338,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance 850nm VCSEL t
           <td>P</td>
           <td></td>
           <td></td>
-          <td>1.5</td>
+          <td>1.8</td>
           <td>W</td>
         </tr>
 
@@ -476,4 +489,4 @@ transceiver into those segments of its memory map that are not write-protected. 
   )
 }
 
-export default Dual_H7_M85_X3D;
+export default Dual_NXO_H7_S15_40D;

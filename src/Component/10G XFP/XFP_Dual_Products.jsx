@@ -18,6 +18,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import productImg1 from '../../img/products/10G XFP/H7_M85_X3D.jgp.jpg';
 import productImg2 from '../../img/products/10G XFP/C27_20D.jpg';
 import productImg3 from '../../img/products/10G XFP/DTU_80D.jpg';
+import productImg4 from '../../img/products/10G XFP/Dxx_40D.jpg';
 
 
 
@@ -73,7 +74,7 @@ const XFP_DUAL_Products = () => {
   <h5>10G XFP-SR Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, Multi-Mode, 300M, DDM
 </h5>
-<p>Part Number : NXO-H7-M85-X3D</p>
+<p>Part Number : NXO-H7-M85-XX3D</p>
 <h4>Feature's</h4> 
 <p>850nm VCSEL Laser</p>
 <p>Built-in digital diagnostic function</p>
@@ -98,7 +99,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, Multi-Mode, 300M, DDM
   <h5>10G XFP-LR Transceiver
 Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM
 </h5>
-<p>Part Number : NXO-H7-S13-10D</p>
+<p>Part Number : NXO-H7-S13-X10D</p>
 <h4>Feature's</h4> 
 <p>Compliant with XFP MSA INF-8077i</p>
 <p>Hot-pluggable XFP footprint</p>
@@ -123,7 +124,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM
   <h5>10G XFP-LR Transceiver
 Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM
 </h5>
-<p>Part Number : NXO-H7-S13-10Di</p>
+<p>Part Number : NXO-H7-S13-X10Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with XFP MSA INF-8077i</p>
 <p>Hot-pluggable XFP footprint</p>
@@ -149,11 +150,92 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM
   <h5>10G XFP-LR Transceiver
 Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM Low Power Consumption
 </h5>
-<p>Part Number : NXO-H7-S13-10D-L</p>
+<p>Part Number : NXO-H7-S13-X10D-L</p>
 <h4>Feature's</h4> 
 <p>No Reference Clock required</p>
 <p>Link length for 10km over SM fiber</p>
 <p>Low power consumption {'(<1.3W)'}</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP-ER Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H7-S15-X40D</p>
+<h4>Feature's</h4> 
+<p>Compliant with 10G Fiber Channel</p>
+<p>Compliant with XFP MSA INF-8077i</p>
+<p>Low power consumption {'(<1.8W)'}</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP-ER Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H7-S15-X40Di</p>
+<h4>Feature's</h4> 
+<p>Compliant with 10G Fiber Channel</p>
+<p>Compliant with XFP MSA INF-8077i</p>
+<p>Low power consumption {'(<1.8W)'}</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40D_L" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP-ER Transceiver
+Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H7-S15-X40D-L</p>
+<h4>Feature's</h4> 
+<p>Compliant with 10G Fiber Channel</p>
+<p>Compliant with XFP MSA INF-8077i</p>
+<p>Low power consumption {'(<1.8W)'}</p>
 
 
 </div>
@@ -175,7 +257,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM Low Power Consumpti
 Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-S15-80D</p>
+<p>Part Number : NXO-H7-S15-X80D</p>
 <h4>Feature's</h4> 
 <p>Compliant with 10G Fiber Channel</p>
 <p>Compliant with XFP MSA INF-8077i</p>
@@ -201,7 +283,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM
 Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-S15-80Di</p>
+<p>Part Number : NXO-H7-S15-X80Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with 10G Fiber Channel</p>
 <p>Compliant with XFP MSA INF-8077i</p>
@@ -227,7 +309,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM
 Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM Low Power Consumption, Rx Protection
 
 </h5>
-<p>Part Number : NXO-H7-S15-80D-L</p>
+<p>Part Number : NXO-H7-S15-X80D-L</p>
 <h4>Feature's</h4> 
 <p>Compliant with 10G Fiber Channel</p>
 <p>Compliant with XFP MSA INF-8077i</p>
@@ -254,7 +336,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-S15-A0D</p>
+<p>Part Number : NXO-H7-S15-XA0D</p>
 <h4>Feature's</h4> 
 <p>Dual +3.3V and 5.0V power supply</p>
 <p>Link distance 100km over SM fiber</p>
@@ -282,7 +364,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-S15-A0Di</p>
+<p>Part Number : NXO-H7-S15-XA0Di</p>
 <h4>Feature's</h4> 
 <p>Dual +3.3V and 5.0V power supply</p>
 <p>Link distance 100km over SM fiber</p>
@@ -308,7 +390,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
 Hot Pluggable, Duplex LC, 1550nm CML, SMF 120KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-S15-A2D</p>
+<p>Part Number : NXO-H7-S15-XA2D</p>
 <h4>Feature's</h4> 
 <p>Dispersion Tolerance {'>2400ps/nm'}</p>
 <p>Dual +3.3V and 5.0V power supply</p>

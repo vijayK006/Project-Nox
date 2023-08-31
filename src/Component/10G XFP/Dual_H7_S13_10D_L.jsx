@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_S13_10D_L = () => { 
 
-  let PartNumber = "NXO-H7-S13-10D-L";
+  let PartNumber = "NXO-H7-S13-X10D-L";
   let productName ="10G XFP-LR Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM Low Power Consumption  ";
 
   const [name, setName] = useState("");

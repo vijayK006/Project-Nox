@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const XFP_DWDM_Tunable = () => { 
 
-  let PartNumber = "NXO-H7-DTU-80D";
+  let PartNumber = "NXO-H7-DTU-X80D";
   let productName ="10G XFP DWDM Tunable Transceiver Hot Pluggable, Duplex LC, 50GHz DWDM ILMZ, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
