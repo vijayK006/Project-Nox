@@ -26,10 +26,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const BIDI_C8_S53_02D = () => { 
+const BIDI_C8_S53_20D = () => { 
 
-  let PartNumber = "NXO-C8-S53-02D";
-  let productName ="1.25G SFP 1000BX-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 2KM, DDM";
+  let PartNumber = "NXO-C8-S53-20D";
+  let productName ="1.25G SFP 1000BX-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM";
 
 
 
@@ -165,7 +165,8 @@ const BIDI_C8_S53_02D = () => {
 
 
 </p>
-<p className='listFeture'>Compliant with Fiber Channel 100-SM-LL-V
+<p className='listFeture'>Compliant with Fiber Channel 100-SM-LC-L
+
 
 
 </p>
@@ -179,7 +180,7 @@ const BIDI_C8_S53_02D = () => {
 </p>
 <p className='listFeture'>2-wire interface for management and diagnostic monitor compliant with SFF-8472</p>
 <p className='listFeture'>Single +3.3V power supply</p>
-<p className='listFeture'>Link distance 2km over SM fiber</p>
+<p className='listFeture'>Link distance 20  km over SM fiber</p>
 <p className='listFeture'>RoHS Compliant</p>
 
 
@@ -309,7 +310,7 @@ Fiber Channel 1GFC applications up to SMF 100km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C8-S53-02D)</td>
+          <td>Case Operating Temp. (NXO-C8-S53-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -318,7 +319,7 @@ Fiber Channel 1GFC applications up to SMF 100km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C8-S53-02Di)</td>
+          <td>Case Operating Temp. (NXO-C8-S53-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -336,7 +337,7 @@ Fiber Channel 1GFC applications up to SMF 100km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S53-02D)</td>
+          <td>Supply Current (NXO-C8-S53-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -345,7 +346,7 @@ Fiber Channel 1GFC applications up to SMF 100km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S53-02Di)</td>
+          <td>Supply Current (NXO-C8-S53-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -503,4 +504,4 @@ Specification.
   )
 }
 
-export default BIDI_C8_S53_02D;
+export default BIDI_C8_S53_20D;

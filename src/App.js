@@ -314,6 +314,8 @@ import BIDI_C8_S45_A0D from './Component/1.25G SFP/BIDI_C8_S45_A0D';
 import BIDI_C8_S45_A0Di from './Component/1.25G SFP/BIDI_C8_S45_A0Di';
 import BIDI_C8_S53_02D from './Component/1.25G SFP/BIDI_C8_S53_02D';
 import BIDI_C8_S53_02Di from './Component/1.25G SFP/BIDI_C8_S53_02Di';
+import BIDI_C8_S53_20D from './Component/1.25G SFP/BIDI_C8_S53_20D';
+import BIDI_C8_S53_20Di from './Component/1.25G SFP/BIDI_C8_S53_20Di';
 import BIDI_C8_S53_40D from './Component/1.25G SFP/BIDI_C8_S53_40D';
 import BIDI_C8_S53_40Di from './Component/1.25G SFP/BIDI_C8_S53_40Di';
 import BIDI_C8_S53_60D from './Component/1.25G SFP/BIDI_C8_S53_60D';
@@ -1092,6 +1094,8 @@ function App() {
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S45_A0Di" element={<BIDI_C8_S45_A0Di/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_02D" element={<BIDI_C8_S53_02D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_02Di" element={<BIDI_C8_S53_02Di/>}/>
+     <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_20D" element={<BIDI_C8_S53_20D/>}/>
+     <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_20Di" element={<BIDI_C8_S53_20Di/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_40D" element={<BIDI_C8_S53_40D/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_40Di" element={<BIDI_C8_S53_40Di/>}/>
      <Route path="/Products_SFP_1_25G_BIDI/BIDI_C8_S53_60D" element={<BIDI_C8_S53_60D/>}/>
