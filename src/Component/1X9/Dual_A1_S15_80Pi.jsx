@@ -1,13 +1,12 @@
 import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/1X9/155M_dual_5.jpg'
+import productImg1 from '../../img/products/1X9/ultra.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/1X9/CWDW_pinAssignment.jpg';
-import machdimenssion from '../../img/products/1X9/Dual_125M.jpg';
-import Memorymap from '../../img/products/1X9/Dual_155M_dimension_SC_S15.jpg';
-import Memorymap2 from '../../img/products/1X9/Dual_155M_dimension_ST_S15.jpg';
-import Memorymap3 from '../../img/products/1X9/Dual_155M_dimension_FC_S15.jpg';
+import pinassisment from '../../img/products/1X9/1X9_Pinassignment.jpg';
+import machdimenssion from '../../img/products/1X9/S15_80P_mechDimenssion.png';
+import Memorymap from '../../img/products/1X9/CWDW_dimension.jpg';
+import Memorymap2 from '../../img/products/1X9/CWDW_dimension_2.jpg';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -27,12 +26,12 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_A1_S15_A2Pi = () => { 
+const Dual_A1_S15_80Pi = () => { 
 
-  let PartNumber = "NXO-A1-S15-A2Pi";
-  let productName ="125M / 155M 1X9-100EZX Transceiver Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection";
+  let PartNumber = "NXO-A1-S15-80Pi";
+  let productName ="25M / 155M 1X9 100BASE-ZX Transceiver Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection";
 
-  
+
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -159,25 +158,33 @@ const Dual_A1_S15_A2Pi = () => {
 
 <h5>Features</h5>
 
-  <p className='listFeture'>  Compatible with 100BASE-ZX </p>
-  <p className='listFeture'>  Compatible with SDH STM1 L1.2 and SONET OC3</p>
- <p className='listFeture'>   Industry Standard 1x9 Footprint </p>
-  <p className='listFeture'>  1550nm DFB laser transmitter </p>
-  <p className='listFeture'>  Duplex SC/ST/FC optical connector </p>
-  <p className='listFeture'>  Single 3.3V, Single 5V or 3.3/5V Universal Power Supply </p>
-  <p className='listFeture'>  DC-coupled Differential LVPECL inputs and outputs </p>
-  <p className='listFeture'>  LVPECL / PECL Signal Detection Output </p>
-  <p className='listFeture'>  Wave Solderable and Aqueous Washable </p>
-  <p className='listFeture'>  Link distance 120km over SM fiber </p>
- <p className='listFeture'>   RoHS Compliant </p> 
+
+    <p className='listFeture'>Compatible with TIA/EIA-785 100BASE-ZX
+</p>
+     <p className='listFeture'>Compliant with SONET OC-3 LR-2 and SDH STM-1 L1.2</p>
+    <p className='listFeture'>  Industry Standard 1x9 Footprint
+</p>
+     <p className='listFeture'> 1550nm DFB laser transmitter
+</p>
+    <p className='listFeture'> Duplex Plastic ST connector</p>
+    <p className='listFeture'>Single 3.3V or 5V Power Supply</p>
+     <p className='listFeture'>   DC-coupled Differential LVPECL inputs and outputs</p>
+     <p className='listFeture'>   LVPECL / PECL Signal Detection Output</p>
+      <p className='listFeture'>  Wave Solderable and Aqueous Washable</p>
+    <p className='listFeture'>    Link distance 80km over SM fiber</p>
+     <p className='listFeture'>   RoHS Compliant</p>
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>100BASE-EZX Ethernet
+<p className='listFeture'>
+Fast Ethernet 100BASE-ZX @125M
 </p>
-   <p className='listFeture'>SDH STM1 / SONET OC3
-</p>
- 
+  <p className='listFeture'>
+  SONET OC-3 / SDH STM-1 @155M
+
+
+  </p>
+
 
 </div>
 
@@ -219,7 +226,9 @@ const Dual_A1_S15_A2Pi = () => {
  <p>
 
 {PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to SMF 120km optical links.
+performance for Fast Ethernet and SONET OC-3 /
+SDH STM-1 applications up to SMF 80km optical links.
+
 
 </p>
 </div>
@@ -238,8 +247,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <th>Min.</th>
           <th>Max.</th>
           <th>Unit</th>
-          
-      
+
 
         </tr>
       </thead>
@@ -252,6 +260,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>+85</td>
           <td>°C</td>
         </tr>
+
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
@@ -259,20 +268,16 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>95</td>
           <td>%</td>
         </tr>
-       
 
         <tr>
-          <td>Supply Voltage(NXO-Ax-S15-A2P) </td>
+          <td>Supply Voltage(NXO-A1-S15-80P) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
           <td>V</td>
-   
-
         </tr>
-        
         <tr>
-          <td>Supply Voltage(NXO-Ax-S15-A2P5) </td>
+          <td>Supply Voltage(NXO-A1-S15-80P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -289,7 +294,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
   <h2>Recommended Operating Conditions</h2>
   
   <div class="table-responsive">
-  <table class="table table-hover">
+    <table class="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -305,7 +310,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-Ax-S15-A2P)</td>
+          <td>Case Operating Temp. (NXO-A1-S15-80P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -314,7 +319,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-Ax-S15-A2Pi)</td>
+          <td>Case Operating Temp. (NXO-A1-S15-80Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -323,7 +328,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-Ax-S15-A2P)</td>
+          <td>Supply Voltage (NXO-A1-S15-80P)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -331,7 +336,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-Ax-S15-A2P5)</td>
+          <td>Supply Voltage (NXO-A1-S15-80P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -340,21 +345,23 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
        
         <tr>
-          <td>Supply Current(NXO-Ax-S15-A2P)</td>
-          <td>Icc</td>
-          <td></td>
-          <td></td>
-          <td>270</td>
-          <td>mA</td>
-        </tr>
-        <tr>
-          <td>Supply Current(NXO-Ax-S15-A2Pi)</td>
+          <td>Supply Current</td>
           <td>Icc</td>
           <td></td>
           <td></td>
           <td>300</td>
           <td>mA</td>
         </tr>
+
+        <tr>
+          <td>Power Consumption</td>
+          <td>P</td>
+          <td></td>
+          <td></td>
+          <td>1000</td>
+          <td>mW</td>
+        </tr>
+        
         <tr>
           <td>Lead Soldering Limits</td>
           <td>Tsold</td>
@@ -362,14 +369,6 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td></td>
           <td>260/10</td>
           <td>°C/Sec</td>
-        </tr>
-        <tr>
-          <td>Data Rate</td>
-          <td>DR</td>
-          <td></td>
-          <td>125</td>
-          <td>155</td>
-          <td>Mbps</td>
         </tr>
       </tbody>
     </table>
@@ -418,7 +417,7 @@ Specification.
 
 </div>
 
-<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Mechanical Dimensions </h1>
   <h3 className='pb-4'>SC Connector Type </h3>
 
@@ -427,31 +426,25 @@ Specification.
 </div>
 <br/>
 <br/>
-<h3 className='pb-4'>ST connector Type   </h3>
+<h3 className='pb-4'>FC Connector Type  </h3>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={ Memorymap2 } className='sectionImg3' alt="memorymapImg"/>
 </div>
-<br/>
-<br/>
-<h3 className='pb-4'>FC Connector Type  </h3>
 
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap3 } className='sectionImg3' alt="memorymapImg"/>
-</div>
-</div>
+</div> */}
 
 
 {/* Mechanical Dimensions section start */}
 
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={machdimenssion} className='sectionImg2' alt="Transceiver Block Diagram"/>
+<img src={machdimenssion} className='sectionImg3' alt="Transceiver Block Diagram"/>
 </div>
 
-</div> */}
+</div>
 {/* Mechanical Dimensions section end */}
 
 
@@ -530,4 +523,4 @@ Specification.
   )
 }
 
-export default Dual_A1_S15_A2Pi;
+export default Dual_A1_S15_80Pi;

@@ -60,7 +60,7 @@ const XFP_DUAL_Products = () => {
       </Swiper>
 
 
-<h2 className='pt-5'>10G XFP BIDI</h2>
+<h2 className='pt-5'>10G XFP Dual</h2>
 
       <div className='row pt-5  pb-5'>
 

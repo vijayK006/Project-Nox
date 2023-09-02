@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 const MPO_PatchCord = () => {
 
     let PartNumber = "NXOPCD-xxxx-xxxx-xxx";
-    let productName = "Fiber Optical Mini Distribution Cable";
+    let productName = "Fiber Optical Patch-cord";
 
     const [name, setName] = useState("");
     const [mobNumber, setmobNumber] = useState("");
@@ -157,7 +157,7 @@ const MPO_PatchCord = () => {
 <p className='listFeture'>Standard & Customized configurations</p>
 <p className='listFeture'>Physical contact polishing mode</p>
 <p className='listFeture'>High Reliability & Stability</p>
-<p className='listFeture'>Very Compact Size of Cable Diameter</p>
+<p className='listFeture'>Compliant with Bellcore GR-326-CORE</p>
 
                     <h5 className='pt-5'>Applications</h5>
 
@@ -196,7 +196,7 @@ const MPO_PatchCord = () => {
                             <h2>Overview</h2>
 
                             <p>
-                                {PartNumber} NXO Mini Distribution Cable provides sundry and cost effective solution for connection between Fiber Optical equipment and components. It has the benefits including easy installation, very compact size and excellent loading performance. It reduce the cable diameter significantly. It is the most convenient and flexible answer for system cable deploying.
+                            NXO Patch-cord provides sundry and cost effective solution for connection between Fiber Optical equipment and components. It has the benefits including easy installation, environmentally stable and excellent loading performance. NXO Patch-cord is fully terminated and tested in the factory line and comply with GR-326 standard.
 
                             </p>
                         </div>

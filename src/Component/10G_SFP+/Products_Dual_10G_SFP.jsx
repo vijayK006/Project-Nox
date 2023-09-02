@@ -478,6 +478,66 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM, Multi-Rate
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_40D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ LR ( ER-1310 ) Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
+
+</h5>
+<p>Part Number : NXO-H7-S13-40D</p>
+
+<h4>Feature's</h4> 
+
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Products_Dual_10G_SFP/Dual_H7_40Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>
+  10G SFP+ LR ( ER-1310 ) Transceiver
+Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
+
+</h5>
+<p>Part Number : NXO-H7-S13-40Di</p>
+
+<h4>Feature's</h4> 
+
+<p>RoHS Compliant</p>
+<p>Hot Pluggable
+</p>
+<p>Single +3.3V power supply</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_10G_SFP/Dual_H7_40DM" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>

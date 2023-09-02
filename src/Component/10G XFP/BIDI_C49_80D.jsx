@@ -1,13 +1,11 @@
-import React, { useRef,useState } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/1X9/155M_dual_5.jpg'
+import productImg1 from '../../img/products/10G XFP/C43_80D.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/1X9/CWDW_pinAssignment.jpg';
-import machdimenssion from '../../img/products/1X9/Dual_125M.jpg';
-import Memorymap from '../../img/products/1X9/Dual_155M_dimension_SC_S15.jpg';
-import Memorymap2 from '../../img/products/1X9/Dual_155M_dimension_ST_S15.jpg';
-import Memorymap3 from '../../img/products/1X9/Dual_155M_dimension_FC_S15.jpg';
+import pinassisment from '../../img/products/10G XFP/DTU-80D_PinAssignment.jpg.png';
+import machdimenssion from '../../img/products/10G XFP/dimension80D.jpg';
+import Memorymap from '../../img/products/10G XFP/DTU-80D_memoryMap.png';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -27,12 +25,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const Dual_A1_S15_A2Pi = () => { 
+const BIDI_C49_80D = () => { 
 
-  let PartNumber = "NXO-A1-S15-A2Pi";
-  let productName ="125M / 155M 1X9-100EZX Transceiver Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection";
-
-  
+  let PartNumber = "NXO-H8-C49-X80D";
+  let productName ="10G XFP BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -153,32 +149,37 @@ const Dual_A1_S15_A2Pi = () => {
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
-<p style={{fontWeight:"500"}}><LiaWarehouseSolid/>  In Stock</p> &nbsp;&nbsp;&nbsp;&nbsp;
+<p style={{fontWeight:"500"}}><LiaWarehouseSolid/> In Stock</p>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 <p style={{fontWeight:"500"}}><MdSecurity/> Test Support</p>
 </div>
 
 <h5>Features</h5>
 
-  <p className='listFeture'>  Compatible with 100BASE-ZX </p>
-  <p className='listFeture'>  Compatible with SDH STM1 L1.2 and SONET OC3</p>
- <p className='listFeture'>   Industry Standard 1x9 Footprint </p>
-  <p className='listFeture'>  1550nm DFB laser transmitter </p>
-  <p className='listFeture'>  Duplex SC/ST/FC optical connector </p>
-  <p className='listFeture'>  Single 3.3V, Single 5V or 3.3/5V Universal Power Supply </p>
-  <p className='listFeture'>  DC-coupled Differential LVPECL inputs and outputs </p>
-  <p className='listFeture'>  LVPECL / PECL Signal Detection Output </p>
-  <p className='listFeture'>  Wave Solderable and Aqueous Washable </p>
-  <p className='listFeture'>  Link distance 120km over SM fiber </p>
- <p className='listFeture'>   RoHS Compliant </p> 
+        <p className='listFeture'>    Compatible with IEEE802.3ae 10GBASE-BX(BR) </p>
+      <p className='listFeture'>      Compliant with CPRI Option 8 </p>
+        <p className='listFeture'>    Compliant with INF-8077i XFP MSA </p>
+        <p className='listFeture'>    Support 9.953Gb/s to 11.32Gb/s Multi-Rate </p>
+        <p className='listFeture'>    Built-in CDR on both Transmitter and Receiver </p>
+    <p className='listFeture'>        Hot Pluggable XFP footprint </p>
+       <p className='listFeture'>     Cooled 1490nm EML laser transmitter </p>
+      <p className='listFeture'>      APD receiver </p>
+         <p className='listFeture'>   Simplex LC connector </p>
+         <p className='listFeture'>   2-wire interface for management and diagnostic monitor compliant with SFF-8472 </p>
+        <p className='listFeture'>    Single +3.3V power supply </p>
+       <p className='listFeture'>     Link distance 80km over SM fiber </p>
+         <p className='listFeture'>   RoHS Compliant </p>
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>100BASE-EZX Ethernet
-</p>
-   <p className='listFeture'>SDH STM1 / SONET OC3
-</p>
- 
-
+<p className='listFeture'>10GBASE-BX(BR) Ethernet @10.3125G</p>
+<p className='listFeture'>Fiber Channel 1200-SM-LL-L 10GFC @10.51875G</p> 
+<p className='listFeture'>SONET OC-192 & SDH STM-64 @9.953G</p>
+<p className='listFeture'>CPRI Option #8 @10.1376G</p>
+<p className='listFeture'>OTN OTU2 @10.7G, OTU2e @11.09G, OTU2f @11.32G</p>
 </div>
 
 </div>
@@ -201,9 +202,9 @@ const Dual_A1_S15_A2Pi = () => {
       <a class="nav-link" data-bs-toggle="pill" href="#menu2">Recommended Operating Conditions</a>
     </li>
 
-    {/* <li class="nav-item">
+    <li class="nav-item">
       <a class="nav-link" data-bs-toggle="pill" href="#menu3">Digital Diagnostic Functions</a>
-    </li> */}
+    </li>
 
   </ul> 
 </div>
@@ -216,10 +217,14 @@ const Dual_A1_S15_A2Pi = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>
+ <p>{PartNumber}Small Form Factor Pluggable XFP transceivers are compliant with the current XFP
+Multi-Source Agreement (MSA) Specification. The high performance cooled 1490nm EML transmitter and high sensitivity APD receiver provide superior performance for 10GBASE Ethernet applications up to 80km optical links.
 
-{PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity PIN receiver provide superior
-performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to SMF 120km optical links.
+
+
+
+
+
 
 </p>
 </div>
@@ -238,8 +243,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <th>Min.</th>
           <th>Max.</th>
           <th>Unit</th>
-          
-      
+
 
         </tr>
       </thead>
@@ -252,6 +256,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>+85</td>
           <td>°C</td>
         </tr>
+
         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
@@ -259,25 +264,15 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>95</td>
           <td>%</td>
         </tr>
-       
 
         <tr>
-          <td>Supply Voltage(NXO-Ax-S15-A2P) </td>
+          <td>Supply Voltage</td>
           <td>Vcc</td>
-          <td>0</td>
-          <td>+4.5</td>
+          <td>-0.5</td>
+          <td>+4.0</td>
           <td>V</td>
-   
+        </tr>
 
-        </tr>
-        
-        <tr>
-          <td>Supply Voltage(NXO-Ax-S15-A2P5) </td>
-          <td>Vcc</td>
-          <td>0</td>
-          <td>+6.0</td>
-          <td>V</td>
-        </tr>
       </tbody>
     </table>
   </div>
@@ -289,7 +284,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
   <h2>Recommended Operating Conditions</h2>
   
   <div class="table-responsive">
-  <table class="table table-hover">
+    <table class="table table-hover">
       <thead>
         <tr>
           <th>Parameters</th>
@@ -305,7 +300,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-Ax-S15-A2P)</td>
+          <td>Case Operating Temp. (NXO-H8-C49-X80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -314,74 +309,69 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-Ax-S15-A2Pi)</td>
+          <td>Case Operating Temp. (NXO-H8-C49-X80Di)</td>
           <td>Top</td>
-          <td>-40</td>
+          <td>0</td>
           <td>-</td>
           <td>+85</td>
           <td>°C</td>
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-Ax-S15-A2P)</td>
+          <td>Supply Voltage </td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
           <td>+3.47</td>
           <td>V</td>
         </tr>
+
         <tr>
-          <td>Supply Voltage (NXO-Ax-S15-A2P5)</td>
-          <td>Vcc</td>
-          <td>+4.75</td>
-          <td>+5.0</td>
-          <td>+5.25</td>
-          <td>V</td>
-        </tr>
-       
-        <tr>
-          <td>Supply Current(NXO-Ax-S15-A2P)</td>
+          <td>Supply Current (NXO-H8-C49-X80D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>270</td>
+          <td>750</td>
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current(NXO-Ax-S15-A2Pi)</td>
+          <td>Supply Current (NXO-H8-C49-X80Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>300</td>
+          <td>900</td>
           <td>mA</td>
         </tr>
+
         <tr>
-          <td>Lead Soldering Limits</td>
-          <td>Tsold</td>
+          <td>Power Consumption (NXO-H8-C49-X80D)</td>
+          <td>P</td>
           <td></td>
           <td></td>
-          <td>260/10</td>
-          <td>°C/Sec</td>
+          <td>2.6</td>
+          <td>W</td>
         </tr>
+
         <tr>
-          <td>Data Rate</td>
-          <td>DR</td>
+          <td>Power Consumption (NXO-H8-C49-X80Di)</td>
+          <td>P</td>
           <td></td>
-          <td>125</td>
-          <td>155</td>
-          <td>Mbps</td>
+          <td></td>
+          <td>3.2</td>
+          <td>W</td>
         </tr>
+
       </tbody>
     </table>
   </div>
 </div>
  </div>
-{/* 
+
  <div id="menu3" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the XFP MSA, NXO XFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>
@@ -390,20 +380,22 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
     <li>Transceiver supply voltage</li>
   </ul>
 
-  <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range.
+  <p>It also provides a sophisticated system of alarm and warning flags, which may be used to alert end-users when particular operating parameters are outside of a factory-set normal range
 </p>
 
 <p>
 The operating and diagnostics information is monitored and reported by a Digital Diagnostics Controller (DDC) inside the transceiver, which is accessed through the 2-wire serial interface. When the serial protocol is
-activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the SFP transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the SFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
+activated, the serial clock signal (SCL pin) is generated by the host. The positive edge clocks data into the XFP
+transceiver into those segments of its memory map that are not write-protected. The negative edge clocks data from the XFP transceiver. The serial data signal (SDA pin) is bi-directional for serial data transfer. The host uses SDA in conjunction with SCL to mark the start and end of serial protocol activation. The memories are organized as a series of 8-bit data words that can be addressed individually or sequentially.
+
 </p>
 
-<p><b>For more detailed information including memory map definitions, please see the SFP MSA (SFF-8472)
-Specification.
+<p><b>For more detailed information including memory map definitions, please see the XFP MSA Specification.
+
 </b></p>
 
 </div>
- </div> */}
+ </div>
 
   </div>
 </div>
@@ -419,39 +411,25 @@ Specification.
 </div>
 
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
-  <h1 className='pb-4'>Mechanical Dimensions </h1>
-  <h3 className='pb-4'>SC Connector Type </h3>
+  <h1 className='pb-4'>Digital Diagnostic Memory Map</h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap} className='sectionImg3' alt="memorymapImg"/>
+<img src={ Memorymap} className='sectionImg2_1' alt="memorymapImg"/>
 </div>
-<br/>
-<br/>
-<h3 className='pb-4'>ST connector Type   </h3>
 
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap2 } className='sectionImg3' alt="memorymapImg"/>
-</div>
-<br/>
-<br/>
-<h3 className='pb-4'>FC Connector Type  </h3>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap3 } className='sectionImg3' alt="memorymapImg"/>
-</div>
 </div>
 
 
 {/* Mechanical Dimensions section start */}
 
-{/* <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
+<div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
 <img src={machdimenssion} className='sectionImg2' alt="Transceiver Block Diagram"/>
 </div>
 
-</div> */}
+</div>
 {/* Mechanical Dimensions section end */}
 
 
@@ -530,4 +508,4 @@ Specification.
   )
 }
 
-export default Dual_A1_S15_A2Pi;
+export default BIDI_C49_80D; 

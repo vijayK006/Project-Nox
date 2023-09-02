@@ -476,7 +476,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 60KM, DDM
 
         </div>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_80D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -490,7 +490,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-80D</p>
+<p>Part Number : NXO-A7-S15-80D</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -520,7 +520,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-80Di</p>
+<p>Part Number : NXO-A7-S15-80Di</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -534,9 +534,9 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 </div>
 </Link>
 
-        </div> */}
+        </div>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_A0D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -548,7 +548,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-S13-A0D</p>
+<p>Part Number : NXO-A7-S15-A0D</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -576,7 +576,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-S13-A0Di</p>
+<p>Part Number : NXO-A7-S15-A0Di</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -590,9 +590,9 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 </div>
 </Link>
 
-        </div> */}
+        </div>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_A2D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -605,7 +605,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-A2D</p>
+<p>Part Number : NXO-A7-S15-A2D</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -636,7 +636,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-A2Di</p>
+<p>Part Number : NXO-A7-S15-A2Di</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -650,7 +650,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 </div>
 </Link>
 
-        </div> */}
+        </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_A4D" style={{textDecoration:"none", color:"black"}}>

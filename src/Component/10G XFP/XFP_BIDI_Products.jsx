@@ -17,6 +17,8 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 import productImg1 from '../../img/products/10G XFP/C27_20D.jpg'
 import productImg2 from '../../img/products/10G XFP/Dxx_40D.jpg'
+import productImg3 from '../../img/products/10G XFP/C43_80D.jpg'
+import productImg4 from '../../img/products/10G XFP/C55_80D.jpg'
 
 
 
@@ -357,6 +359,112 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 <h4>Feature's</h4> 
 <p>1330nm DFB laser transmitter</p>
 <p>Link distance 60km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C49_80D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-U Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM
+
+</h5>
+<p>Part Number : NXO-H8-C49-X80D</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Link distance 80km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C49_80Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg3} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-U Transceiver
+Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM
+
+</h5>
+<p>Part Number : NXO-H8-C49-X80Di</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Link distance 80km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C55_80D" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H8-C55-X80D</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Link distance 80km over SM fiber</p>
+<p>Hot Pluggable XFP footprint</p>
+
+
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/XFP_BIDI_Products/BIDI_C55_80Di" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg4} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>10G XFP BX(BR)-D Transceiver
+Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
+
+
+</h5>
+<p>Part Number : NXO-H8-C55-X80Di</p>
+<h4>Feature's</h4> 
+<p>RoHS Compliant</p>
+<p>Link distance 80km over SM fiber</p>
 <p>Hot Pluggable XFP footprint</p>
 
 

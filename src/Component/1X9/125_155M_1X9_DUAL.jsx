@@ -235,6 +235,7 @@ Duplex Metal ST, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
 </div>
 </Link>
 
+
         </div>
 
         {/* <div className='col-lg-4 col-md-6 col-sm-12'>
@@ -535,6 +536,9 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 
         </div> */}
 
+
+
+
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_A1_S13_20P" style={{textDecoration:"none", color:"black"}}>
 
@@ -689,7 +693,7 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
   <h5>125M / 155M 1X9 100BASE-ZX Transceiver
 Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-A5-S15-80P</p>
+<p>Part Number : NXO-A1-S15-80P</p>
 <h4>Feature's</h4>
 
 <p>Industry Standard 1x9 Footprint</p>
@@ -713,7 +717,7 @@ Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
   <h5>125M / 155M 1X9 100BASE-ZX Transceiver
 Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-A5-S15-80Pi</p>
+<p>Part Number : NXO-A1-S15-80Pi</p>
 <h4>Feature's</h4>
 
 <p>Industry Standard 1x9 Footprint</p>
@@ -777,7 +781,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 
         </div>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_A1_S15_A2P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -788,7 +792,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection
 Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 
 </h5>
-<p>Part Number : NXO-Ax-S15-A2P</p>
+<p>Part Number : NXO-A1-S15-A2P</p>
 <h4>Feature's</h4>
 
 <p>LVPECL / PECL Signal Detection Output</p>
@@ -813,7 +817,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 
 </h5>
-<p>Part Number : NXO-Ax-S15-A2Pi</p>
+<p>Part Number : NXO-A1-S15-A2Pi</p>
 <h4>Feature's</h4>
 
 <p>LVPECL / PECL Signal Detection Output</p>
@@ -825,7 +829,7 @@ Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection
 </div>
 </Link>
 
-        </div> */}
+        </div>
         
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_A3_S13_30P" style={{textDecoration:"none", color:"black"}}>

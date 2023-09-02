@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_A1_S15_A2P = () => { 
 
-  let PartNumber = "NXO-Ax-S15-A2P";
+  let PartNumber = "NXO-A1-S15-A2P";
   let productName ="125M / 155M 1X9-100EZX Transceiver Duplex SC/FC/ST, 1550nm DFB, SMF 120KM, LVPECL / PECL Signal Detection";
 
 
