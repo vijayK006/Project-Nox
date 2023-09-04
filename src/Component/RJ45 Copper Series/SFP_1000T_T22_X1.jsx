@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP_1000T_T22_X1 = () => {
-  let PartNumber = "NXO-CJ-T22-X1";
+  let PartNumber = "NXOSFP-CJ-T22-X1";
   let productName = "1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP";
 
   const [name, setName] = useState("");
@@ -218,7 +218,7 @@ const SFP_1000T_T22_X1 = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-CJ-Txx-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 1.25Gbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the
+ NXOSFP-CJ-Txx-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 1.25Gbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the
 2-wire serial bus I2C protocol. The PHY IC can also be accessed via 2-wire serial bus at address ACh.
 
 </p>
@@ -297,7 +297,7 @@ const SFP_1000T_T22_X1 = () => {
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-CJ-Txx-X1)</td>
+          <td>Case Operating Temp. (NXOSFP-CJ-Txx-X1)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -306,7 +306,7 @@ const SFP_1000T_T22_X1 = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-CJ-Txx-X1i)</td>
+          <td>Case Operating Temp. (NXOSFP-CJ-Txx-X1i)</td>
           <td>TOP</td>
           <td>40</td>
           <td>-</td>

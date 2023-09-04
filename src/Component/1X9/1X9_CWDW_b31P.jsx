@@ -30,7 +30,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDW_1X9_b31P = () => { 
 
-  let PartNumber = "NXO-Ax-Cxx-b31P";
+  let PartNumber = "NXO1X9-Ax-Cxx-b31P";
   let productName ="125M / 155M 1X9-100ZX80 Transceiver Duplex SC/FC/ST, CWDM DFB, SMF 31dB, LVPECL / PECL Signal Detection";
 
 
@@ -226,7 +226,7 @@ const CWDW_1X9_b31P = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 31dB budget optical links.
+NXO1X9-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 31dB budget optical links.
 
 </p>
 </div>
@@ -268,14 +268,14 @@ NXO-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industr
         </tr>
 
         <tr>
-          <td>Supply Voltage(NXO-Ax-Cxx-b31P) </td>
+          <td>Supply Voltage(NXO1X9-Ax-Cxx-b31P) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage(NXO-Ax-Cxx-b31P5) </td>
+          <td>Supply Voltage(NXO1X9-Ax-Cxx-b31P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -308,7 +308,7 @@ NXO-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industr
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-Ax-Cxx-b31P)</td>
+          <td>Case Operating Temp. (NXO1X9-Ax-Cxx-b31P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -317,7 +317,7 @@ NXO-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industr
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-Ax-Cxx-b31Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-Ax-Cxx-b31Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -326,7 +326,7 @@ NXO-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industr
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-Ax-Cxx-b31P)</td>
+          <td>Supply Voltage (NXO1X9-Ax-Cxx-b31P)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -334,7 +334,7 @@ NXO-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industr
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-Ax-Cxx-b31P5)</td>
+          <td>Supply Voltage (NXO1X9-Ax-Cxx-b31P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -343,7 +343,7 @@ NXO-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industr
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-Ax-Cxx-b31P)</td>
+          <td>Supply Current (NXO1X9-Ax-Cxx-b31P)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -352,7 +352,7 @@ NXO-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industr
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-Ax-Cxx-b31P5)</td>
+          <td>Supply Current (NXO1X9-Ax-Cxx-b31P5)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const LR4_Ethernet_OTU4_100G = () => {
-  let PartNumber = "NXO-K7-L13-10DR"
+  let PartNumber = "NXOQ28-K7-L13-10DR"
   let productName = "100G QSFP28 LR4 Dual Rate Transceiver  Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM"
 
   const [name, setName] = useState("");
@@ -227,7 +227,7 @@ const LR4_Ethernet_OTU4_100G = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K7-L13-10DR is a 4-Channel LWDM 1300nm
+ <p>NXOQ28-K7-L13-10DR is a 4-Channel LWDM 1300nm
 QSFP28 transceiver for 100GbE and OTU4 applications especially in Datacom, Data Center & Storage networks. The transmitter converts 4-Channel 28G electrical input data to four LWDM optical signals and multiplex that into one 112G signal. The receiver de-multiplex the 112G signal reversely and converts that to 4-Channel 28G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 112Gbps up to SMF 10km optical links.
 
 </p>

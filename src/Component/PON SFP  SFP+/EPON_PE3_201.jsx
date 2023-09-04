@@ -31,7 +31,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const EPON_PE3_201 = () => { 
 
-  let PartNumber = "NXO-C2-PE3-201";
+  let PartNumber = "NXOSFP-C2-PE3-201";
   let productName ="EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -219,7 +219,7 @@ const EPON_PE3_201 = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-C2-PE3-201 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ NXOSFP-C2-PE3-201 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm FP transmitter and high sensitivity 1490nm PIN-TIA receiver provide superior performance for Giga EPON ONU applications.
 
 </p>
@@ -296,7 +296,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-C2-PE3-201)</td>
+          <td>Case Operating Temp.(NXOSFP-C2-PE3-201)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -305,7 +305,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-C2-PE3-201i)</td>
+          <td>Case Operating Temp.(NXOSFP-C2-PE3-201i)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

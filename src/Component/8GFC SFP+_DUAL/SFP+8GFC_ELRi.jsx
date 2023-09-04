@@ -22,7 +22,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const SFP_8GFC_ELRi = () => {
    
-  let PartNumber = "NXO-87-S13-30DMi";
+  let PartNumber = "NXOSPP-87-S13-30DMi";
   let productName = "8GFC / 4GFC / 2GFC SFP+ ELR Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, SMF 30KM, DDM, Multi-Rate";
   
   const [name, setName] = useState("");
@@ -222,7 +222,7 @@ const SFP_8GFC_ELRi = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-87-S13-30DMi Small Form Factor Pluggable
+ NXOSPP-87-S13-30DMi Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for 2x/4x/8x Multi-Rate Fiber Channel applications up to SMF 30km optical links.
 
@@ -298,7 +298,7 @@ performance for 2x/4x/8x Multi-Rate Fiber Channel applications up to SMF 30km op
       </thead>
       <tbody>
       <tr>
-          <td>Case Operating Temp. (NXO-87-S13-30DM)</td>
+          <td>Case Operating Temp. (NXOSPP-87-S13-30DM)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -308,7 +308,7 @@ performance for 2x/4x/8x Multi-Rate Fiber Channel applications up to SMF 30km op
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-87-S13-30DMi)</td>
+          <td>Case Operating Temp. (NXOSPP-87-S13-30DMi)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>
@@ -328,7 +328,7 @@ performance for 2x/4x/8x Multi-Rate Fiber Channel applications up to SMF 30km op
         </tr>
 
         <tr>
-          <td>Supply Current  (NXO-87-S13-30DM)</td>
+          <td>Supply Current  (NXOSPP-87-S13-30DM)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -338,7 +338,7 @@ performance for 2x/4x/8x Multi-Rate Fiber Channel applications up to SMF 30km op
         </tr>
 
         <tr>
-          <td>Supply Current  (NXO-87-S13-30DMi)</td>
+          <td>Supply Current  (NXOSPP-87-S13-30DMi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

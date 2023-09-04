@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_C27_40D = () => { 
 
-  let PartNumber = "NXO-H8-C27-40D";
+  let PartNumber = "NXO-H8-C27-X40D";
   let productName ="10G XFP BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");

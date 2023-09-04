@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_25G_eSR = () => {
-  let PartNumber = "NXO-N7-M85-X3DQ";
+  let PartNumber = "NXOSPP-N7-M85-X3DQ";
   let productName = "25G SFP28 eSR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM";
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");

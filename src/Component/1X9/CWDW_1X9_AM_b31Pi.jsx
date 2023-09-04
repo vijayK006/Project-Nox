@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDW_1X9_AM_b31Pi = () => { 
 
-  let PartNumber = "NXO-A3-Cxx-b31Pi";
+  let PartNumber = "NXO1X9-A3-Cxx-b31Pi";
   let productName ="125M / 155M 1X9-100ZX80 Transceiver Duplex SC/FC/ST, CWDM DFB, SMF 31dB, LVPECL / PECL Signal Detection";
 
 
@@ -267,14 +267,14 @@ const CWDW_1X9_AM_b31Pi = () => {
         </tr>
 
         <tr>
-          <td>Supply Voltage(NXO-Ax-Cxx-b31P) </td>
+          <td>Supply Voltage(NXO1X9-Ax-Cxx-b31P) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage(NXO-Ax-Cxx-b31P5) </td>
+          <td>Supply Voltage(NXO1X9-Ax-Cxx-b31P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -307,7 +307,7 @@ const CWDW_1X9_AM_b31Pi = () => {
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-Ax-Cxx-b31P)</td>
+          <td>Case Operating Temp. (NXO1X9-Ax-Cxx-b31P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -316,7 +316,7 @@ const CWDW_1X9_AM_b31Pi = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-Ax-Cxx-b31Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-Ax-Cxx-b31Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -325,7 +325,7 @@ const CWDW_1X9_AM_b31Pi = () => {
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-Ax-Cxx-b31P)</td>
+          <td>Supply Voltage (NXO1X9-Ax-Cxx-b31P)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -333,7 +333,7 @@ const CWDW_1X9_AM_b31Pi = () => {
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-Ax-Cxx-b31P5)</td>
+          <td>Supply Voltage (NXO1X9-Ax-Cxx-b31P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -342,7 +342,7 @@ const CWDW_1X9_AM_b31Pi = () => {
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-Ax-Cxx-b31P)</td>
+          <td>Supply Current (NXO1X9-Ax-Cxx-b31P)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -351,7 +351,7 @@ const CWDW_1X9_AM_b31Pi = () => {
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-Ax-Cxx-b31P5)</td>
+          <td>Supply Current (NXO1X9-Ax-Cxx-b31P5)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -392,7 +392,7 @@ const CWDW_1X9_AM_b31Pi = () => {
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

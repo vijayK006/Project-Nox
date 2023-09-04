@@ -70,7 +70,7 @@ const Products_40G_LR4 = () => {
   <h5>40G QSFP+ LR4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 </h5>
-<p>Part Number : NXO-I7-C13-10D</p>
+<p>Part Number : NXOQFP-I7-C13-10D</p>
 <h4>Feature's</h4>
 <p>Supports QDR / DDR InfiniBand</p>
 <p>Hot Pluggable</p>
@@ -94,7 +94,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
   <h5>40G QSFP+ LR4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 </h5>
-<p>Part Number : NXO-I7-C13-10Di</p>
+<p>Part Number : NXOQFP-I7-C13-10Di</p>
 <h4>Feature's</h4>
 <p>Supports QDR / DDR InfiniBand</p>
 <p>Hot Pluggable</p>
@@ -117,7 +117,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
   <h5>40G QSFP+ LR4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-I7-C13-20D</p>
+<p>Part Number : NXOQFP-I7-C13-20D</p>
 <h4>Feature's</h4>
 <p>Supports QDR / DDR InfiniBand</p>
 <p>Single 3.3V power supply</p>
@@ -139,7 +139,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
   <h5>40G QSFP+ LR4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-I7-C13-20Di</p>
+<p>Part Number : NXOQFP-I7-C13-20Di</p>
 <h4>Feature's</h4>
 <p>Supports QDR / DDR InfiniBand</p>
 <p>Single 3.3V power supply</p>

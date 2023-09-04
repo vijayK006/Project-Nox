@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const PX6_20X = () => { 
 
-  let PartNumber = "NXO-H2-PX6-20x";
+  let PartNumber = "NXOSPP-H2-PX6-20x";
   let productName ="XGSPON Symmetric OLT SFP+ Transceiver Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");

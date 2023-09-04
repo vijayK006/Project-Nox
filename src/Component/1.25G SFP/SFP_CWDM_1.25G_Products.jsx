@@ -77,7 +77,7 @@ const SFP_CWDM_1_25G_Products = () => {
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
 
 </h5>
-<p>Part Number : NXO-C7-Cxx-b19D</p>
+<p>Part Number : NXOSFP-C7-Cxx-b19D</p>
 <h4>Feature's</h4> 
 <p>Link budget 19dB over SM fiber</p>
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -105,7 +105,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
 
 </h5>
-<p>Part Number : NXO-C7-Cxx-b19Di</p>
+<p>Part Number : NXOSFP-C7-Cxx-b19Di</p>
 <h4>Feature's</h4> 
 <p>Link budget 19dB over SM fiber</p>
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -131,7 +131,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM
   1.25G SFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
 </h5>
-<p>Part Number : NXO-C7-Cxx-b24D</p>
+<p>Part Number : NXOSFP-C7-Cxx-b24D</p>
 <h4>Feature's</h4> 
 <p>Link budget 24dB over SM fiber</p>
 <p>Hot Pluggable</p>
@@ -157,7 +157,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
   1.25G SFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
 </h5>
-<p>Part Number : NXO-C7-Cxx-b24Di</p>
+<p>Part Number : NXOSFP-C7-Cxx-b24Di</p>
 <h4>Feature's</h4> 
 <p>Link budget 24dB over SM fiber</p>
 <p>Hot Pluggable</p>
@@ -183,7 +183,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 24dB(80KM), DDM
   1.25G SFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
 </h5>
-<p>Part Number : NXO-C7-Cxx-b32D</p>
+<p>Part Number : NXOSFP-C7-Cxx-b32D</p>
 <h4>Feature's</h4> 
 <p>Link budget 32dB over SM fiber</p>
 <p>Hot Pluggable</p>
@@ -209,7 +209,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
   1.25G SFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 32dB(120KM), DDM
 </h5>
-<p>Part Number : NXO-C7-Cxx-b32Di</p>
+<p>Part Number : NXOSFP-C7-Cxx-b32Di</p>
 <h4>Feature's</h4> 
 <p>Link budget 32dB over SM fiber</p>
 <p>Compliant with INF-8074i SFP MSA</p>

@@ -22,7 +22,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_CFP1 = () => {
    
-  let PartNumber = "NXO-K7-DCO-12KD";
+  let PartNumber = "NXOCFP-K7-DCO-12KD";
   let productName ="100G CFP-DCO coherent Dual Rate Transceiver Hot Pluggable, Duplex LC, Micro-ITLA LD, NDSF reach 1200KM, DDM";
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -243,7 +243,7 @@ Interoperability with G.709 FEC
   <h2>Overview</h2>
   
  <p>
- NXO-K7-DCO-12KD supports 100 Gbps transmission speeds in an industry-standard, pluggable CFP form factor, which is optimized for power sensitive applications. With a rich feature set, it enables cost effective system architectures. The integration of power saving DSP technology and silicon photonic integrated circuit (PIC) technologies optimize the balance of power and performance. Widely adopted in metro carrier and Cloud/DCI applications, NXOCFP-K7-DCO-12KD support a range of applications from up to 1200km DWDM links without Dispersion compensation. ( with Optical Amplifier ). Various features can also be configured to optimize the power dissipation for any given application.
+ NXOCFP-K7-DCO-12KD supports 100 Gbps transmission speeds in an industry-standard, pluggable CFP form factor, which is optimized for power sensitive applications. With a rich feature set, it enables cost effective system architectures. The integration of power saving DSP technology and silicon photonic integrated circuit (PIC) technologies optimize the balance of power and performance. Widely adopted in metro carrier and Cloud/DCI applications, NXOCFP-K7-DCO-12KD support a range of applications from up to 1200km DWDM links without Dispersion compensation. ( with Optical Amplifier ). Various features can also be configured to optimize the power dissipation for any given application.
 
 </p>
 </div>

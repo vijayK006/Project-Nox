@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_40G_eSR4 = () => {
   let productName ="40G QSFP+ eSR4 Transceiver Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM";
-  let PartNumber = "NXO-I9-M85-X3D";
+  let PartNumber = "NXOQFP-I9-M85-X3D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -230,7 +230,7 @@ RoHS Compliant
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I9-M85-X3D is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
+ <p>NXOQFP-I9-M85-X3D is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
 </p>
 </div>
 </div>

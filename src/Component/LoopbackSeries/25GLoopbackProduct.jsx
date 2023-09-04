@@ -18,7 +18,7 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const TwentyFiveGLoopbackProduct = () => {
-  let PartNumber = "NXO-NX-XLB-xx-xx"
+  let PartNumber = "NXOSPP-NX-XLB-XX-XX"
   let productName = "25G SFP28 Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 0~2.5W Power Consumption"
      
 
@@ -193,7 +193,7 @@ const TwentyFiveGLoopbackProduct = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-NX-XLB SFP28 Loopback modules are compliant with the current SFP28 Multi-Source Agreement ( MSA ) specification. The Loopback modules provide an effective way of testing the SFP28 port in the host system by looping back the electrical signal (optics are excluded).
+ <p>NXOSPP-NX-XLB-XX-XX SFP28 Loopback modules are compliant with the current SFP28 Multi-Source Agreement ( MSA ) specification. The Loopback modules provide an effective way of testing the SFP28 port in the host system by looping back the electrical signal (optics are excluded).
 It provides an economical way to mimic 25G Ethernet and CPRI Option #10 on SFP28 ports in simulation
 testing environments.
 </p>

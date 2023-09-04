@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const LR4_Eathernet_100G = () => { 
 
-  let PartNumber = "NXO-K7-L13-10D";
+  let PartNumber = "NXOCFP2-K7-L13-10D";
   let productName ="100G CFP2 LR4 Transceiver Pluggable, Duplex LC, DML LAN-WDM, Single Mode, 10KM, DDM";
 
   const [name, setName] = useState("");
@@ -210,7 +210,7 @@ const LR4_Eathernet_100G = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K7-L13-10D is a parallel fiber optical transceiver  module for 100Gbit/s 
+ <p>NXOCFP2-K7-L13-10D is a parallel fiber optical transceiver  module for 100Gbit/s 
  data transmission applications at  1300nm LAN-WDM. It is ideally suited for 100GbE  
  Datacom and Storage Area Network (SAN) applications  based on IEEE 802.3ba 100GBase 
  Ethernet standard.  The transceiver incorporates a 4-channel laser driver  circuit 

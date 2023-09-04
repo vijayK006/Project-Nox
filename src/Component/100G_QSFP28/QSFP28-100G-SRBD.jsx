@@ -73,7 +73,7 @@ Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM
 
 
 </h5>
-<p>Part Number : NXO-KC-C85-X1D-T10</p>
+<p>Part Number : NXOQ28-KC-C85-X1D-T10</p>
 <h4>Feature's</h4>
 <p>Compliant with 100GBASE-SR2 BiDi
 
@@ -103,9 +103,8 @@ Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM
 <div className='product-dec'>
   <h5>100G QSFP28 SR4 Transceiver
 Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate
-
 </h5>
-<p>Part Number : NXO-KC-C85-X1DR</p>
+<p>Part Number : NXOQ28-KC-C85-X1DR   s</p>
 
 <h4>Feature's</h4>
 <p>Compliant with 100GBASE-SR2 BiDi and

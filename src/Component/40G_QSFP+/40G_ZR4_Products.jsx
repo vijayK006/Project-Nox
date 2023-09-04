@@ -22,7 +22,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 const Product_40G_ZR4 = () => {
 
   let productName = "40G QSFP+ ZR4 Transceiver Hot Pluggable, Duplex LC, LAN-WDM EML, SMF 80KM, DDM";
-  let PartNumber = "NXO-I7-L13-80D";
+  let PartNumber = "NXOQFP-I7-L13-80D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -142,7 +142,7 @@ Hot Pluggable, Duplex LC, LAN-WDM EML, SMF 80KM, DDM
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<div className='sell-text'>NXO-I7-L13-80D
+<div className='sell-text'>NXOQFP-I7-L13-80D
 
 </div>
 </div>
@@ -255,7 +255,7 @@ RoHS compliant
   <h2>Overview</h2>
   
  <p>
- NXO-I7-L13-80D is a 4-Channel LWDM 1300nm QSFP+ transceiver for 40GbE and InfiniBand DDR,QDR applications especially in Data Center & Storage
+ NXOQFP-I7-L13-80D is a 4-Channel LWDM 1300nm QSFP+ transceiver for 40GbE and InfiniBand DDR,QDR applications especially in Data Center & Storage
  networks. The transmitter converts 4-Channel 10G electrical input data to four LWDM optical signals and multiplex that into one 40G signal. The receiver
 de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 40Gbps up to SMF 80km optical links.
 

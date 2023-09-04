@@ -31,7 +31,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const GPON_PG4_201i = () => { 
 
-  let PartNumber = "NXO-E2-PG4-201i";
+  let PartNumber = "NXOSPP-E2-PG4-201i";
   let productName ="GPON OLT C+ 2.5G-Tx / 1.25G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -295,7 +295,7 @@ const GPON_PG4_201i = () => {
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-E2-PG4-201)</td>
+          <td>Case Operating Temp.(NXOSPP-E2-PG4-201)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -304,7 +304,7 @@ const GPON_PG4_201i = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-E2-PG4-201i)</td>
+          <td>Case Operating Temp.(NXOSPP-E2-PG4-201i)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_100G_SR4_DualRate = () => { 
 
-  let PartNumber = "NXOQ28-K9-M85-X1DR";
+  let PartNumber = "NXOQ28-K9-M85-X1DRi";
   let productName ="100G QSFP28 SR4 Transceiver Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate";
 
   const [name, setName] = useState("");
@@ -288,7 +288,7 @@ ITU-T OTN OTU4 @111.8G
   <h2>Overview</h2>
   
  <p>
-NXOQ28-K9-M85-X1DR is a parallel fiber optical transceiver module for 103.1Gbps and 111.8Gbps data transmission applications at 850nm. It is ideally suited for datacom & storage area network (SAN/NAS) applications based on IEEE 802.3ba 100GBASE-SR4 and OTN OTU4
+NXOQ28-K9-M85-X1DRi is a parallel fiber optical transceiver module for 103.1Gbps and 111.8Gbps data transmission applications at 850nm. It is ideally suited for datacom & storage area network (SAN/NAS) applications based on IEEE 802.3ba 100GBASE-SR4 and OTN OTU4
 standard. Designed for short range multi-lane data communication, The QSFP28 full-duplex optical module with MPO-12 receptacle integrates four independent transmitter and receiver channels. Each capable 25.78125 or 27.952Gbps operation for an aggregate data
 rate of MAX 111.8Gbps up to MMF OM4 100m optical links.
 

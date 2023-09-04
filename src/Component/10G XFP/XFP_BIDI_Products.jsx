@@ -289,7 +289,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/XFP_BIDI_Products/BIDI_C33_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -314,7 +314,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 </div>
 </Link>
 
-        </div>
+        </div> */}
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/XFP_BIDI_Products/BIDI_C33_60D" style={{textDecoration:"none", color:"black"}}>

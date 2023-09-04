@@ -76,7 +76,7 @@ const SFP_1_25G_DWDM_Products = () => {
   1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-C7-Dxx-80Di</p>
+<p>Part Number : NXOSFP-C7-Dxx-80Di</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -104,7 +104,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-C7-Dxx-80Di</p>
+<p>Part Number : NXOSFP-C7-Dxx-80Di</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Maximum Power consumption 2.5W</p>
@@ -131,7 +131,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-C7-Dxx-A2Di</p>
+<p>Part Number : NXOSFP-C7-Dxx-A2Di</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -159,7 +159,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-C7-Dxx-A2Di</p>
+<p>Part Number : NXOSFP-C7-Dxx-A2Di</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Maximum Power consumption 2.5W</p>

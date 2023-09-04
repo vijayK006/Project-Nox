@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const ER4_Single_rate_100G = () => {
-  let PartNumber = "NXO-K7-L13-40D"
+  let PartNumber = "NXOQ28-K7-L13-40D"
   let productName = "100G QSFP28 ER4 Transceiver Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM"
 
   const [name, setName] = useState("");
@@ -226,7 +226,7 @@ const ER4_Single_rate_100G = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K7-L13-40D is a 4-Channel LWDM 1300nm
+ <p>NXOQ28-K7-L13-40D is a 4-Channel LWDM 1300nm
 QSFP28 transceiver for 100GbE applications
 especially in Datacom, Data Center & Storage networks. The transmitter converts 4-Channel 25G electrical input data to four LWDM optical signals and multiplex that into one 100G signal. The receiver de-multiplex the 100G signal reversely and converts that to 4-Channel 25G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 100Gbps up to SMF 40km optical links.
 
@@ -306,7 +306,7 @@ especially in Datacom, Data Center & Storage networks. The transmitter converts 
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-K7-L13-40D)</td>
+          <td>Case Operating Temp. (NXOQ28-K7-L13-40D)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -315,7 +315,7 @@ especially in Datacom, Data Center & Storage networks. The transmitter converts 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-K7-L13-40Di)</td>
+          <td>Case Operating Temp. (NXOQ28-K7-L13-40Di)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>

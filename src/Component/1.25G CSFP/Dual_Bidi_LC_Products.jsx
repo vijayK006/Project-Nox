@@ -73,7 +73,7 @@ const Dual_Bidi_LC_Products = () => {
   1.25G CSFP 1000BX-U Compact 2CH Bidi Transceiver
 Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-CC-S34-20D</p>
+<p>Part Number : NXOSFP-CC-S34-20D</p>
 
 <h4>Feature's</h4> 
 
@@ -105,7 +105,7 @@ Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
   1.25G CSFP 1000BX-U Compact 2CH Bidi Transceiver
 Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-CC-S34-20Di</p>
+<p>Part Number : NXOSFP-CC-S34-20Di</p>
 
 <h4>Feature's</h4> 
 
@@ -136,7 +136,7 @@ Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
   <h5>
   1.25G CSFP 1000BX-U Compact 2CH Bidi Transceiver  Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-CC-S43-20D</p>
+<p>Part Number : NXOSFP-CC-S43-20D</p>
 
 <h4>Feature's</h4> 
 
@@ -167,7 +167,7 @@ Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
   <h5>
   1.25G CSFP 1000BX-U Compact 2CH Bidi Transceiver  Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-CC-S43-20Di</p>
+<p>Part Number : NXOSFP-CC-S43-20Di</p>
 
 <h4>Feature's</h4> 
 
@@ -200,7 +200,7 @@ Hot Pluggable, Dual Bidi LC, Tx1310nm FP / Rx1490nm, SMF 20KM, DDM
 Hot Pluggable, Dual Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-CC-S53-20D</p>
+<p>Part Number : NXOSFP-CC-S53-20D</p>
 
 <h4>Feature's</h4> 
 
@@ -233,7 +233,7 @@ Hot Pluggable, Dual Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
 Hot Pluggable, Dual Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-CC-S53-20Di</p>
+<p>Part Number : NXOSFP-CC-S53-20Di</p>
 
 <h4>Feature's</h4> 
 

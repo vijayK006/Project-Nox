@@ -32,7 +32,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const EPON_PE4_201 = () => { 
 
-  let PartNumber = "NXO-C2-PE4-201";
+  let PartNumber = "NXOSFP-C2-PE4-201";
   let productName ="EPON OLT PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -219,7 +219,7 @@ const EPON_PE4_201 = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-C2-PE4-201 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ NXOSFP-C2-PE4-201 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The High performance uncooled 1490nm DFB transmitter and high sensitivity 1310nm APD receiver provide superior performance for Giga EPON OLT PX20+ applications.
 
 </p>
@@ -296,7 +296,7 @@ Multi-Source Agreement (MSA) Specification. The High performance uncooled 1490nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-C2-PE4-201)</td>
+          <td>Case Operating Temp.(NXOSFP-C2-PE4-201)</td>
           <td>Top</td>
           <td>0</td>
           <td></td>
@@ -305,7 +305,7 @@ Multi-Source Agreement (MSA) Specification. The High performance uncooled 1490nm
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-C2-PE4-201i)</td>
+          <td>Case Operating Temp.(NXOSFP-C2-PE4-201i)</td>
           <td>Top</td>
           <td>-40</td>
           <td></td>

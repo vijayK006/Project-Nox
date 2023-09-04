@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const LR_S13_20DQ = () => {
-  let PartNumber = "NXO-N7-S13-20DQ";
+  let PartNumber = "NXOSPP-N7-S13-20DQ";
   let productName = "25G SFP28 LR Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -224,7 +224,7 @@ const LR_S13_20DQ = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-N7-S13-20DQ is a Small Form Factor Pluggable
+NXOSPP-N7-S13-20DQ is a Small Form Factor Pluggable
 SFP28 transceiver compliant with SFF-8402 SFP28 MSA
 standard. The high performance uncooled 1310nm DFB
 transmitter and high sensitivity PIN receiver with built-in
@@ -308,7 +308,7 @@ Ethernet and CPRI Option #10 applications up to SMF
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N7-S13-20DQ)</td>
+          <td>Case Operating Temp. (NXOSPP-N7-S13-20DQ)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -317,7 +317,7 @@ Ethernet and CPRI Option #10 applications up to SMF
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N7-S13-20DQi)</td>
+          <td>Case Operating Temp. (NXOSPP-N7-S13-20DQi)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>
@@ -336,7 +336,7 @@ Ethernet and CPRI Option #10 applications up to SMF
 
 
         <tr>
-          <td>Supply Current (NXO-N7-S13-20DQ)</td>
+          <td>Supply Current (NXOSPP-N7-S13-20DQ)</td>
           <td>Icc</td>
           <td>-</td>
           <td>-</td>
@@ -346,7 +346,7 @@ Ethernet and CPRI Option #10 applications up to SMF
        
        
         <tr>
-          <td>Supply Current (NXO-N7-S13-20DQi)</td>
+          <td>Supply Current (NXOSPP-N7-S13-20DQi)</td>
           <td>Icc</td>
           <td>-</td>
           <td>-</td>

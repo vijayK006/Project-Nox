@@ -30,7 +30,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_AM_M85_02Pi = () => { 
 
-  let PartNumber = "NXO-AM-M85-02Pi";
+  let PartNumber = "NXO1X9-AM-M85-02Pi";
   let productName ="125M / 155M 1X9-100SX Transceiver Duplex Metal ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection";
 
   const [name, setName] = useState("");
@@ -257,7 +257,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
      </tr>
 
           <tr>
-          <td>Supply Voltage (NXO-AM-M85-02P)</td>
+          <td>Supply Voltage (NXO1X9-AM-M85-02P)</td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
@@ -265,7 +265,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
         
 </tr>
         <tr>
-          <td>Supply Voltage (NXO-AM-M85-02P5)</td>
+          <td>Supply Voltage (NXO1X9-AM-M85-02P5)</td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -274,7 +274,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
 
         
         {/* <tr>
-          <td>Supply Voltage(NXO-Ax-M13-02P5) </td>
+          <td>Supply Voltage(NXO1X9-Ax-M13-02P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -306,7 +306,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-AM-M85-02P)</td>
+          <td>Case Operating Temp. (NXO1X9-AM-M85-02P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -314,7 +314,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
           <td>°C</td>
         </tr>
         <tr>
-          <td>Case Operating Temp. (NXO-AM-M85-02Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-AM-M85-02Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -326,7 +326,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
       
 
         <tr>
-          <td>Supply Voltage (NXO-AM-M85-02P)</td>
+          <td>Supply Voltage (NXO1X9-AM-M85-02P)</td>
           <td>Vcc</td>
           <td>+3.15</td>
           <td>+3.3</td>
@@ -335,7 +335,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
 
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-AM-M85-02P5)</td>
+          <td>Supply Voltage (NXO1X9-AM-M85-02P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -346,7 +346,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
        
        
         <tr>
-          <td>Supply Current (NXO-AM-M85-02P)</td>
+          <td>Supply Current (NXO1X9-AM-M85-02P)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -356,7 +356,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-AM-M85-02Pi)</td>
+          <td>Supply Current (NXO1X9-AM-M85-02Pi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -384,7 +384,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const ER4_VNTP_Media_100G = () => {
-  let PartNumber = "NXO-K7-L13-40D"
+  let PartNumber = "NXOQ28-K7-L13-40D(Media corporation)"
   let productName = "100G QSFP28 ER4 Transceiver Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM"
 
   const [name, setName] = useState("");
@@ -225,7 +225,7 @@ const ER4_VNTP_Media_100G = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K7-L13-40D is a parallel fiber optical transceiver module for 103.1Gbit/s data transmission applications at 1300nm LAN WDM. It is ideally suited for 100GbE datacom & Storage area network (SAN) applications based on the IEEE 802.3ba 100GBASE-ER4 Ethernet standard. The transceiver incorporates a 4-channel laser driver circuit together with a 4-channel LAN-WDM DFB array coupled with an optical multiplexer. On the receiver side, an optical de-multiplexer is coupled with a 4- channel photodiode array & a 4-channel APD array resulting in a compact transceiver module for an aggregate bandwidth of 103.1G.
+ <p>NXOQ28-K7-L13-40D(Media corporation) is a parallel fiber optical transceiver module for 103.1Gbit/s data transmission applications at 1300nm LAN WDM. It is ideally suited for 100GbE datacom & Storage area network (SAN) applications based on the IEEE 802.3ba 100GBASE-ER4 Ethernet standard. The transceiver incorporates a 4-channel laser driver circuit together with a 4-channel LAN-WDM DFB array coupled with an optical multiplexer. On the receiver side, an optical de-multiplexer is coupled with a 4- channel photodiode array & a 4-channel APD array resulting in a compact transceiver module for an aggregate bandwidth of 103.1G.
 
 </p>
 </div>

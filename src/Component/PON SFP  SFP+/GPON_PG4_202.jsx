@@ -31,7 +31,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const GPON_PG4_202 = () => { 
 
-  let PartNumber = "NXO-E2-PG4-202";
+  let PartNumber = "NXOSPP-E2-PG4-202";
   let productName ="GPON OLT C++ 2.5G-Tx / 1.25G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -219,7 +219,7 @@ const GPON_PG4_202 = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-E2-PG4-202 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ NXOSPP-E2-PG4-202 Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high performance uncooled 1490nm DFB transmitter and high sensitivity 1310nm APD receiver provide superior performance for GPON OLT Class C++ applications.
 </p>
 </div>
@@ -295,7 +295,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1490nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-E2-PG4-201)</td>
+          <td>Case Operating Temp.(NXOSPP-E2-PG4-201)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -304,7 +304,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1490nm
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-E2-PG4-201i)</td>
+          <td>Case Operating Temp.(NXOSPP-E2-PG4-201i)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

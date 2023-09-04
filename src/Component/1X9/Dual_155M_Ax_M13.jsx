@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_155M_Ax_M13 = () => { 
 
-  let PartNumber = "NXO-Ax-M13-02P";
+  let PartNumber = "NXO1X9-Ax-M13-02P";
   let productName ="125/155Mbps 1x9-100FX Transceiver Duplex SC/ST/FC, 1310nm FP, Multi Mode, 2KM";
 
 
@@ -219,7 +219,7 @@ const Dual_155M_Ax_M13 = () => {
   
  <p>
 
-NXO-A1-M13-02P 1x9 SIP package style transceivers are compliant with the industrial standard specification.
+NXO1X9-A1-M13-02P 1x9 SIP package style transceivers are compliant with the industrial standard specification.
  The high performance uncooled 1310nm FP transmitter and high sensitivity PIN-TIA receiver provide superior 
  performance for SONET OC3/ SDH STM1 and Ethernet applications up to 2km optical links with multi mode fiber.
 
@@ -278,7 +278,7 @@ NXO-A1-M13-02P 1x9 SIP package style transceivers are compliant with the industr
 
         </tr>
         {/* <tr>
-          <td>Supply Voltage(NXO-Ax-M13-02P5) </td>
+          <td>Supply Voltage(NXO1X9-Ax-M13-02P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -317,7 +317,7 @@ NXO-A1-M13-02P 1x9 SIP package style transceivers are compliant with the industr
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
-          <td>NXO-Ax-M13-02P</td>
+          <td>NXO1X9-Ax-M13-02P</td>
         </tr>
         <tr>
           <td>Operating Temperature</td>
@@ -326,7 +326,7 @@ NXO-A1-M13-02P 1x9 SIP package style transceivers are compliant with the industr
           <td>-</td>
           <td>+85</td>
           <td>°C</td>
-          <td>NXO-Ax-M13-02Pi</td>
+          <td>NXO1X9-Ax-M13-02Pi</td>
 
         </tr>
       
@@ -383,7 +383,7 @@ NXO-A1-M13-02P 1x9 SIP package style transceivers are compliant with the industr
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

@@ -76,7 +76,7 @@ const Dual_1X9_Products = () => {
 <div className='product-dec'>
   <h5>1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-C1-M85-X5P</p>
+<p>Part Number : NXO1X9-C1-M85-X5P</p>
 <h4>Feature's</h4>
 <p>Industry Standard 1x9 Footprint</p>
 <p>1310nm FP laser transmitter</p>
@@ -100,7 +100,7 @@ const Dual_1X9_Products = () => {
 <div className='product-dec'>
   <h5>1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-C1-M85-X5Pi</p>
+<p>Part Number : NXO1X9-C1-M85-X5Pi</p>
 <h4>Feature's</h4>
 <p>Industry Standard 1x9 Footprint</p>
 <p>1310nm FP laser transmitter</p>

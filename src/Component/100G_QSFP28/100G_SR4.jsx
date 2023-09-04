@@ -263,7 +263,7 @@ RoHS compliant
   <h2>Overview</h2>
   
  <p>
-NXOQ28-K9-M85-X1D is a parallel fiber optical transceiver module for 103.1Gbps data transmission applications at 850nm. It is ideally suited for datacom & storage area network (SAN/NAS) applications based on IEEE 802.3ba 100GBASE-SR4 standard. Designed for short range multi-lane data communication, the QSFP28 full-duplex optical module with MPO-12 receptacle integrates four independent transmitter and receiver channels each capable 25.78125Gbps operation for an aggregate data rate of 103.1Gbps up to MMF OM4 100m optical links.
+ NXOQ28-K9-M85-X1D  is a parallel fiber optical transceiver module for 103.1Gbps data transmission applications at 850nm. It is ideally suited for datacom & storage area network (SAN/NAS) applications based on IEEE 802.3ba 100GBASE-SR4 standard. Designed for short range multi-lane data communication, the QSFP28 full-duplex optical module with MPO-12 receptacle integrates four independent transmitter and receiver channels each capable 25.78125Gbps operation for an aggregate data rate of 103.1Gbps up to MMF OM4 100m optical links.
 
 </p>
 </div>

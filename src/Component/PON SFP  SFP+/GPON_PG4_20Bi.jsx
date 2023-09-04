@@ -31,7 +31,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const GPON_PG4_20Bi = () => { 
 
-  let PartNumber = "NXO-E2-PG4-20Bi";
+  let PartNumber = "NXOSPP-E2-PG4-20Bi";
   let productName ="GPON OLT B+ 2.5G-Tx / 1.25G-Rx SFP Transceiver  Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -296,7 +296,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1490nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-E2-PG4-20B)</td>
+          <td>Case Operating Temp.(NXOSPP-E2-PG4-20B)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -305,7 +305,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1490nm
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-E2-PG4-20Bi)</td>
+          <td>Case Operating Temp.(NXOSPP-E2-PG4-20Bi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

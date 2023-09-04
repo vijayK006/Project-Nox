@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_S35_20Di = () => { 
 
-  let PartNumber = "NXO-E8-S35-20Di";
+  let PartNumber = "NXOSFP-E8-S35-20Di";
   let productName ="2.5G SFP OC-48 IR-1 / STM-16 S16.1 TransceiverHot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM";
 
     const [name, setName] = useState("");
@@ -294,7 +294,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-CC-S35-20D)</td>
+          <td>Case Operating Temp. (NXOSFP-CC-S35-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -303,7 +303,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-CC-S35-20Di)</td>
+          <td>Case Operating Temp. (NXOSFP-CC-S35-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,7 +321,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S35-20D)</td>
+          <td>Supply Current (NXOSFP-CC-S35-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -330,7 +330,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S35-20Di)</td>
+          <td>Supply Current (NXOSFP-CC-S35-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -348,7 +348,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO CSFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXOSFP CSFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_02D_1_25Gi = () => { 
 
-  let PartNumber = "NXO-C7-M13-02Di";
+  let PartNumber = "NXOSFP-C7-M13-02Di";
   let productName ="1.25G SFP 1000BASE-SX2 Transceiver Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM";
 
   const [name, setName] = useState("");
@@ -291,7 +291,7 @@ performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver pro
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-M13-02D)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-M13-02D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver pro
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-M13-02Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-M13-02Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -318,7 +318,7 @@ performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver pro
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-M13-02D)</td>
+          <td>Supply Current (NXOSFP-C7-M13-02D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -327,7 +327,7 @@ performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver pro
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-M13-02Di)</td>
+          <td>Supply Current (NXOSFP-C7-M13-02Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

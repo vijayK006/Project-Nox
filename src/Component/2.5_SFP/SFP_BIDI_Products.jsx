@@ -76,7 +76,7 @@ const SFP_BIDI_Products = () => {
 Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
 
 </h5>
-<p>Part Number : NXO-E8-S35-20D</p>
+<p>Part Number : NXOSFP-E8-S35-20D</p>
 <h4>Feature's</h4>
 <p>1310nm DFB transmitter</p>
 <p>Duplex SC connector</p>
@@ -103,7 +103,7 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
 Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
 
 </h5>
-<p>Part Number : NXO-E8-S35-20Di</p>
+<p>Part Number : NXOSFP-E8-S35-20Di</p>
 <h4>Feature's</h4>
 <p>1310nm DFB transmitter</p>
 <p>Duplex SC connector</p>
@@ -129,7 +129,7 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 20km, DDM
 Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
 
 </h5>
-<p>Part Number : NXO-E8-S53-20D</p>
+<p>Part Number : NXOSFP-E8-S53-20D</p>
 <h4>Feature's</h4>
 <p>Compliant with INF-8074i SFP MSA
 </p>
@@ -158,7 +158,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
 Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
 
 </h5>
-<p>Part Number : NXO-E8-S53-20Di</p>
+<p>Part Number : NXOSFP-E8-S53-20Di</p>
 <h4>Feature's</h4>
 <p>Compliant with INF-8074i SFP MSA
 </p>
@@ -186,7 +186,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
 Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 </h5>
-<p>Part Number : NXO-E8-S35-40D</p>
+<p>Part Number : NXOSFP-E8-S35-40D</p>
 <h4>Feature's</h4>
 <p>Compliant with INF-8074i SFP MSA
 </p>
@@ -215,7 +215,7 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
   <h5>2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver
 Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 </h5>
-<p>Part Number : NXO-E8-S35-40Di</p>
+<p>Part Number : NXOSFP-E8-S35-40Di</p>
 <h4>Feature's</h4>
 <p>Compliant with INF-8074i SFP MSA
 </p>
@@ -245,7 +245,7 @@ Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM
 Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
 
 </h5>
-<p>Part Number : NXO-E8-S53-40D</p>
+<p>Part Number : NXOSFP-E8-S53-40D</p>
 <h4>Feature's</h4>
 
 <p>Hot Pluggable
@@ -274,7 +274,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
 Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 40KM, DDM
 
 </h5>
-<p>Part Number : NXO-E8-S53-40Di</p>
+<p>Part Number : NXOSFP-E8-S53-40Di</p>
 <h4>Feature's</h4>
 
 <p>Hot Pluggable

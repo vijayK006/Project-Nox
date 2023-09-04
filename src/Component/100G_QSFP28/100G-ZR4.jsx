@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const ZR4_100G = () => {
-  let PartNumber = "NXO-K7-L13-80D";
+  let PartNumber = "NXOQ28-K7-L13-80D";
   let productName = "100G QSFP28 ZR4 Transceiver Hot Pluggable, Duplex LC, LAN-WDM EML, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -227,7 +227,7 @@ const ZR4_100G = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K7-L13-80D is a 4-Channel LWDM 1300nm
+ <p>NXOQ28-K7-L13-80D is a 4-Channel LWDM 1300nm
 QSFP28 transceiver for 100GbE applications
 especially in Datacom, Data Center & Storage networks. The transmitter converts 4-Channel 25G electrical input data to four LWDM optical signals and multiplex that into one 100G signal. The receiver de-multiplex the 100G signal reversely and converts that to 4-Channel 25G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 100Gbps up to SMF 80km optical links.
 

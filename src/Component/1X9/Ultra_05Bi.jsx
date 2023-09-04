@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Ultra_05Bi = () => { 
 
-  let PartNumber = "NXO-05-M13-05Bi";
+  let PartNumber = "NXO1X9-05-M13-05Bi";
   let productName ="Ultra-Low Data-Rate 1X9 DC~10Mbps Transceiver Duplex Plastic ST, 1310nm FP, MMF 5KM, LVTTL / TTL Signal Detection";
 
 
@@ -268,14 +268,14 @@ IEC 62843 up to MMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Supply Voltage(NXO-05-M85-05B) </td>
+          <td>Supply Voltage(NXO1X9-05-M85-05B) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage(NXO-05-M85-05B5) </td>
+          <td>Supply Voltage(NXO1X9-05-M85-05B5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -308,7 +308,7 @@ IEC 62843 up to MMF 2km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-05-M85-05B)</td>
+          <td>Case Operating Temp. (NXO1X9-05-M85-05B)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -317,7 +317,7 @@ IEC 62843 up to MMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-05-M85-05Bi)</td>
+          <td>Case Operating Temp. (NXO1X9-05-M85-05Bi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -326,7 +326,7 @@ IEC 62843 up to MMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-05-M85-05B)</td>
+          <td>Supply Voltage (NXO1X9-05-M85-05B)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -334,7 +334,7 @@ IEC 62843 up to MMF 2km optical links.
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-05-M85-05B5)</td>
+          <td>Supply Voltage (NXO1X9-05-M85-05B5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -418,7 +418,7 @@ IEC 62843 up to MMF 2km optical links.
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

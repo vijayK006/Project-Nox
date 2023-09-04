@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_BX20_27_i = () => {
-  let PartNumber = "NXO-N8-C27-20DQi";
+  let PartNumber = "NXOSPP-N8-C27-20DQi";
   let productName = "25G SFP28 BX-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -223,7 +223,7 @@ const SFP28_BX20_27_i = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N8-C27-20DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 1270nm DFB
+ <p>NXOSPP-N8-C27-20DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 1270nm DFB
 transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE
 Ethernet and CPRI Option #10 applications up to SMF 20km optical links.
 
@@ -304,7 +304,7 @@ Ethernet and CPRI Option #10 applications up to SMF 20km optical links.
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N8-C27-20DQ)</td>
+          <td>Case Operating Temp. (NXOSPP-N8-C27-20DQ)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -313,7 +313,7 @@ Ethernet and CPRI Option #10 applications up to SMF 20km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N8-C27-20DQi)</td>
+          <td>Case Operating Temp. (NXOSPP-N8-C27-20DQi)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>
@@ -332,7 +332,7 @@ Ethernet and CPRI Option #10 applications up to SMF 20km optical links.
 
 
         <tr>
-          <td>Supply Current (NXO-N8-C27-20DQ)</td>
+          <td>Supply Current (NXOSPP-N8-C27-20DQ)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -342,7 +342,7 @@ Ethernet and CPRI Option #10 applications up to SMF 20km optical links.
        
        
         <tr>
-          <td>Supply Current (NXO-N8-C27-20DQi)</td>
+          <td>Supply Current (NXOSPP-N8-C27-20DQi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

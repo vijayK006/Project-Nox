@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_1_25_M53_X5Di = () => { 
 
-  let PartNumber = "NXO-C8-M53-X5Di  ";
+  let PartNumber = "NXOSFP-C8-M53-X5Di  ";
   let productName ="1.25G SFP 1000BX-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, MMF 500M, DDM";
 
   const [name, setName] = useState("");
@@ -299,7 +299,7 @@ Fiber Channel 1GFC applications up to MMF 500m optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C8-M53-X5D)</td>
+          <td>Case Operating Temp. (NXOSFP-C8-M53-X5D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -308,7 +308,7 @@ Fiber Channel 1GFC applications up to MMF 500m optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C8-M53-X5Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C8-M53-X5Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -326,7 +326,7 @@ Fiber Channel 1GFC applications up to MMF 500m optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-M53-X5D)</td>
+          <td>Supply Current (NXOSFP-C8-M53-X5D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -335,7 +335,7 @@ Fiber Channel 1GFC applications up to MMF 500m optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-M53-X5Di)</td>
+          <td>Supply Current (NXOSFP-C8-M53-X5Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

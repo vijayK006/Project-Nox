@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_100G_SRBD = () => { 
 
-  let PartNumber = "NXO-KC-C85-X1D-T10";
+  let PartNumber = "NXOQ28-KC-C85-X1D-T10";
   let productName ="100G QSFP28 SR2-BiDi Transceiver Hot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM";
 
   const [name, setName] = useState("");
@@ -243,7 +243,7 @@ RoHS compliant
   <h2>Overview</h2>
   
  <p>
- NXO-KC-C85-X1D-T10 is a pluggable optical transceiver witha Dual Bidi LC connector for short-reach 100G data communication and interconnect applications using
+ NXOQ28-KC-C85-X1D-T10 is a pluggable optical transceiver witha Dual Bidi LC connector for short-reach 100G data communication and interconnect applications using
 multi-mode fiber. It allows reuse existing 25G duplex MMF cabling infrastructure for easy migration to 100 Gigabit Ethernet connectivity. The transceiver internally
 multiplexes XLPPI 4x25G interface into 2x50G electrical
 channels, then converting to PAM4 2x50G optical channels for an aggregated data rate of 100G up to MMF OM4 100m optical link.

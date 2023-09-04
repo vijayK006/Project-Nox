@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_40G_SRBD = () => {
   let productName = "40G QSFP+ SR2-BiDi Transceiver Hot Pluggable, Dual Bidi LC, 850 / 910nm VCSEL, MMF 100M, DDM";
-  let PartNumber = "NXO-IC-C85-X1D";
+  let PartNumber = "NXOQFP-IC-C85-X1D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -142,7 +142,7 @@ Hot Pluggable, Dual Bidi LC, 850 / 910nm VCSEL, MMF 100M, DDM
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<div className='sell-text'>NXO-IC-C85-X1D
+<div className='sell-text'>NXOQFP-IC-C85-X1D
 
 
 </div>
@@ -251,7 +251,7 @@ RoHS compliant
   <h2>Overview</h2>
   
  <p>
- NXO-IC-C85-X1D is a pluggable optical transceiver with a Dual Bidi LC connector for short-reach 40G data communication and interconnect applications using
+ NXOQFP-IC-C85-X1D is a pluggable optical transceiver with a Dual Bidi LC connector for short-reach 40G data communication and interconnect applications using
 multi-mode fiber. It allows reuse existing 10G duplex
 MMF cabling infrastructure for easy migration to 40 Gigabit Ethernet connectivity. The transceiver internally multiplexes XLPPI 4x10G interface into 2x20G electrical channels, then converting to 2x20G optical channels for an aggregated data rate of 40G up to MMF OM3 100m optical link.
 

@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_10DR_1_25G = () => { 
 
-  let PartNumber = "NXO-C7-S13-10DR";
+  let PartNumber = "NXOSFP-C7-S13-10DR";
   let productName ="125M / 1.25G SFP 100BASE-LX10 / 1000BASE-LX Transceiver Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM";
 
   const [name, setName] = useState("");
@@ -211,7 +211,7 @@ const Dual_10DR_1_25G = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-C7-S13-10DR Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ NXOSFP-C7-S13-10DR Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
 performance for Fast Ethernet 100BASE-LX, Gigabit
@@ -292,7 +292,7 @@ Ethernet 1000BASE-LX and Fiber Channel 1GFC applications up to SMF 10km optical 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-S13-10DR)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-S13-10DR)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -301,7 +301,7 @@ Ethernet 1000BASE-LX and Fiber Channel 1GFC applications up to SMF 10km optical 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-S13-10DRi)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-S13-10DRi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -319,7 +319,7 @@ Ethernet 1000BASE-LX and Fiber Channel 1GFC applications up to SMF 10km optical 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-S13-10DR)</td>
+          <td>Supply Current (NXOSFP-C7-S13-10DR)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -328,7 +328,7 @@ Ethernet 1000BASE-LX and Fiber Channel 1GFC applications up to SMF 10km optical 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-S13-10DRi)</td>
+          <td>Supply Current (NXOSFP-C7-S13-10DRi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

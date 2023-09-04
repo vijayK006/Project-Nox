@@ -26,7 +26,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_16GFC_SFP = () => { 
 
-  let PartNumber = "NXO-M7-M85-X1D";
+  let PartNumber = "NXOSPP-M7-M85-X1D";
   let productName ="16GFC SFP+ SW TransceiverHot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 100M, DDM";
 
   const [name, setName] = useState("");
@@ -222,7 +222,7 @@ const Product_16GFC_SFP = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-M7-M85-X1D Small Form Factor Pluggable
+ <p>NXOSPP-M7-M85-X1D Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver provide superior
 performance for 4x/8x/10x/16x Fiber Channel applications up to MMF OM3 100m optical links.
 

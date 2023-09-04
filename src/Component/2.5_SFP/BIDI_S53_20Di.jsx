@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_S53_20Di = () => { 
 
-  let PartNumber = "NXO-E8-S53-20Di";
+  let PartNumber = "NXOSFP-E8-S53-20Di";
   let productName ="2.5G SFP OC-48 IR-2 / STM-16 S16.2 Transceiver Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20km, DDM";
 
   const [name, setName] = useState("");
@@ -293,7 +293,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-CC-S53-20D)</td>
+          <td>Case Operating Temp. (NXOSFP-CC-S53-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -302,7 +302,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-CC-S53-20Di)</td>
+          <td>Case Operating Temp. (NXOSFP-CC-S53-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -320,7 +320,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S53-20D)</td>
+          <td>Supply Current (NXOSFP-CC-S53-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -329,7 +329,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 20km optical lin
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S53-20Di)</td>
+          <td>Supply Current (NXOSFP-CC-S53-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

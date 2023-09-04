@@ -70,7 +70,7 @@ const LR4_100G_Products   = () => {
   <h5>100G QSFP28 LR4 Transceiver
 Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
 </h5>
-<p>Part Number : NXO-K7-L13-10D</p>
+<p>Part Number : NXOQ28-K7-L13-10D   </p>
 <h4>Feature's</h4>
 <p>Hot Pluggable QSFP28 footprint</p>
 <p>Duplex LC connector</p>
@@ -95,7 +95,7 @@ Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
 Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 10KM, DDM
 
 </h5>
-<p>Part Number : NXO-K7-L13-10DR</p>
+<p>Part Number : NXOQ28-K7-L13-10DR</p>
 <h4>Feature's</h4>
 <p>Single 3.3V power supply</p>
 <p>Built in quad TX CDR and RX CDR</p>

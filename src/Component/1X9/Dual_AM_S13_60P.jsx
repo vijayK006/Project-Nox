@@ -32,7 +32,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_AM_S13_60P = () => { 
 
-  let PartNumber = "NXO-AM-S13-60P";
+  let PartNumber = "NXO1X9-AM-S13-60P";
   let productName ="125/155Mbps 1x9-100LX Transceiver Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM";
 
 
@@ -302,7 +302,7 @@ const Dual_AM_S13_60P = () => {
       <tbody>
 
       <tr>
-          <td>Operating Temp. (NXO-Ax-S13-60P)</td>
+          <td>Operating Temp. (NXO1X9-Ax-S13-60P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -311,7 +311,7 @@ const Dual_AM_S13_60P = () => {
         </tr>
 
         <tr>
-          <td>Operating Temp. (NXO-Ax-S13-60Pi)</td>
+          <td>Operating Temp. (NXO1X9-Ax-S13-60Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -366,7 +366,7 @@ const Dual_AM_S13_60P = () => {
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_b30D = () => { 
 
-  let PartNumber = "NXO-E7-Cxx-b30D";
+  let PartNumber = "NXOSFP-E7-Cxx-b30D";
   let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM TransceiverHot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM";
 
   
@@ -239,7 +239,7 @@ RoHS Compliant
   
  <p>
 
-NXO-E7-Cxx-b26D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity APD receiver provide superior performance for 2.5G CWDM applications up to SMF 26dB budget optical links.
+NXOSFP-E7-Cxx-b26D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity APD receiver provide superior performance for 2.5G CWDM applications up to SMF 26dB budget optical links.
 
 </p>
 </div>
@@ -315,7 +315,7 @@ NXO-E7-Cxx-b26D Small Form Factor Pluggable SFP transceivers are compliant with 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b30D)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-Cxx-b30D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -324,7 +324,7 @@ NXO-E7-Cxx-b26D Small Form Factor Pluggable SFP transceivers are compliant with 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b30Di)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-Cxx-b30Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -342,7 +342,7 @@ NXO-E7-Cxx-b26D Small Form Factor Pluggable SFP transceivers are compliant with 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b30D)</td>
+          <td>Supply Current (NXOSFP-E7-Cxx-b30D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -351,7 +351,7 @@ NXO-E7-Cxx-b26D Small Form Factor Pluggable SFP transceivers are compliant with 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b30Di)</td>
+          <td>Supply Current (NXOSFP-E7-Cxx-b30Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

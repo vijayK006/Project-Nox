@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 const SWDM4_40G = () => {  
 
   let productName = "40G QSFP+ SWDM4 Transceiver Hot Pluggable, Duplex LC, SWDM VCSEL, MMF OM3 300M, DDM";
-  let PartNumber = "NXO-I7-S85-X3D";
+  let PartNumber = "NXOQFP-I7-S85-X3D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -143,7 +143,7 @@ Hot Pluggable, Duplex LC, SWDM VCSEL, MMF OM3 300M, DDM
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>NXO-I7-S85-X3D</p>
+<p className='sell-text'>NXOQFP-I7-S85-X3D</p>
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
@@ -213,7 +213,7 @@ with SFF-8436, SFF-8636</p>
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NNXO-I7-S85-X3D is a 4-Channel SWDM QSFP+
+ <p>NXOQFP-I7-S85-X3D is a 4-Channel SWDM QSFP+
 transceiver for 40GbE links over in duplex MMF. The transmitter 
 converts 4-Channel 10G electrical input data to four short wavelength optical 
 signals and multiplex that into one 40G signal. The receiver de-multiplex the 

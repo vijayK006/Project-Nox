@@ -71,7 +71,7 @@ const Product_QSFP28_100G_SR4 = () => {
 Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
 
 </h5>
-<p>Part Number : NXOQ28-K9-M85-X1D</p>
+<p>Part Number : NXOQ28-K9-M85-X1D  </p>
 
 <h4>Feature's</h4>
 <p>Compliant with IEEE802.3bm 100GBASE-SR4
@@ -100,7 +100,7 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
 Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM, Dual-Rate
 
 </h5>
-<p>Part Number : NXOQ28-K9-M85-X1DR</p>
+<p>Part Number : NXOQ28-K9-M85-X1DRi</p>
 
 <h4>Feature's</h4>
 <p>Compliant with IEEE802.3bm 100GBASE-SR4

@@ -31,7 +31,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const EPON_PE3_201i = () => { 
 
-  let PartNumber = "NXO-C2-PE3-201i";
+  let PartNumber = "NXOSFP-C2-PE3-201i";
   let productName ="EPON ONU PX20+ 1.25G-Tx / 1.25G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1310nm FP / Rx1490nm PIN-TIA, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -296,7 +296,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-C2-PE3-201)</td>
+          <td>Case Operating Temp.(NXOSFP-C2-PE3-201)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -305,7 +305,7 @@ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-C2-PE3-201i)</td>
+          <td>Case Operating Temp.(NXOSFP-C2-PE3-201i)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

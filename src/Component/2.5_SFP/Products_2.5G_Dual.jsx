@@ -76,7 +76,7 @@ const Products_2point5_Dual = () => {
 2.5G SFP OC-48 / STM-16 Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
 </h5>
-<p>Part Number : NXO-E7-M85-X3D</p>
+<p>Part Number : NXOSFP-E7-M85-X3D</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply
 </p>
@@ -108,7 +108,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
 2.5G SFP OC-48 / STM-16 Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
 </h5>
-<p>Part Number : NXO-E7-M85-X3Di</p>
+<p>Part Number : NXOSFP-E7-M85-X3Di</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply
 </p>
@@ -143,7 +143,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-M85-X3DM</p>
+<p>Part Number : NXOSFP-E7-M85-X3DM</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -178,7 +178,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-M85-X3DMi</p>
+<p>Part Number : NXOSFP-E7-M85-X3DMi</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -214,7 +214,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S13-02D</p>
+<p>Part Number : NXOSFP-E7-S13-02D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -248,7 +248,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S13-02Di</p>
+<p>Part Number : NXOSFP-E7-S13-02Di</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -280,7 +280,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S13-20D</p>
+<p>Part Number : NXOSFP-E7-S13-20D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -311,7 +311,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S13-20Di</p>
+<p>Part Number : NXOSFP-E7-S13-20Di</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -343,7 +343,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S13-40D</p>
+<p>Part Number : NXOSFP-E7-S13-40D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -375,7 +375,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S13-40Di</p>
+<p>Part Number : NXOSFP-E7-S13-40Di</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -408,7 +408,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S13-60D</p>
+<p>Part Number : NXOSFP-E7-S13-60D</p>
 <h4>Feature's</h4>
 <p>1310nm DFB laser transmitter
 
@@ -442,7 +442,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S13-60Di</p>
+<p>Part Number : NXOSFP-E7-S13-60Di</p>
 <h4>Feature's</h4>
 <p>1310nm DFB laser transmitter
 
@@ -477,7 +477,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-40D</p>
+<p>Part Number : NXOSFP-E7-S15-40D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -510,7 +510,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-40Di</p>
+<p>Part Number : NXOSFP-E7-S15-40Di</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -544,7 +544,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-80D</p>
+<p>Part Number : NXOSFP-E7-S15-80D</p>
 <h4>Feature's</h4>
 
 <p>1550nm DFB laser transmitter
@@ -581,7 +581,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-80Di</p>
+<p>Part Number : NXOSFP-E7-S15-80Di</p>
 <h4>Feature's</h4>
 
 <p>1550nm DFB laser transmitter
@@ -619,7 +619,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-A0D</p>
+<p>Part Number : NXOSFP-E7-S15-A0D</p>
 <h4>Feature's</h4>
 <p>1550nm DFB laser transmitter
 
@@ -656,7 +656,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-A0Di</p>
+<p>Part Number : NXOSFP-E7-S15-A0Di</p>
 <h4>Feature's</h4>
 <p>1550nm DFB laser transmitter
 
@@ -694,7 +694,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-A0DM</p>
+<p>Part Number : NXOSFP-E7-S15-A0DM</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -724,7 +724,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
   <h5>2.5G SFP OC-48 LR-2 / STM-16 L16.2 Transceiver
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM, Multi-Rate
 </h5>
-<p>Part Number : NXO-E7-S15-A0DMi</p>
+<p>Part Number : NXOSFP-E7-S15-A0DMi</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -756,7 +756,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-A2D</p>
+<p>Part Number : NXOSFP-E7-S15-A2D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -786,7 +786,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-A2Di</p>
+<p>Part Number : NXOSFP-E7-S15-A2Di</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply
 </p>
@@ -817,7 +817,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-A2DM</p>
+<p>Part Number : NXOSFP-E7-S15-A2DM</p>
 <h4>Feature's</h4>
 
 <p>1550nm DFB laser transmitter
@@ -850,7 +850,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-S15-A2DMi</p>
+<p>Part Number : NXOSFP-E7-S15-A2DMi</p>
 <h4>Feature's</h4>
 
 <p>1550nm DFB laser transmitter

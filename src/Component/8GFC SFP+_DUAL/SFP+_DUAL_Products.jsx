@@ -75,7 +75,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
 
 </h5>
 
-<p>Part Number : NXO-87-S13-30DM</p>
+<p>Part Number : NXOSPP-87-S13-30DM</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with SFF-8431 SFP+ MSA 
@@ -111,7 +111,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
 
 </h5>
 
-<p>Part Number : NXO-87-S13-30DMi</p>
+<p>Part Number : NXOSPP-87-S13-30DMi</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with SFF-8431 SFP+ MSA 

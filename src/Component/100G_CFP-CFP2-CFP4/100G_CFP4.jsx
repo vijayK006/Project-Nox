@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_CFP4 = () => {
    
-  let PartNumber = "NXO-K7-L13-10DR";
+  let PartNumber = "NXOCFP4-K7-L13-10DR";
   let productName = "100G CFP4 LR4 Dual Rate Transceiver Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM";
   
   const [name, setName] = useState("");

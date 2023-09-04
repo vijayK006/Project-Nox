@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const LWDM_25G_40KM_DuelRate = () => {
-  let PartNumber = "NXO-N7-Lxx-40DR";
+  let PartNumber = "NXOSPP-N7-Lxx-40DR";
   let productName = "10G / 25G SFP28 LWDM Transceiver Hot Pluggable, Duplex LC, 800GHz LWDM EML, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -208,7 +208,7 @@ const LWDM_25G_40KM_DuelRate = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N7-Lxx-40DR is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance cooled LWDM EML transmitter and high sensitivity APD receiver with built-in CDR provide superior performance for 10GBASE-ER / 25GBASE-ER Ethernet and CRPI Option #10 applications up to SMF 40km optical links.
+ <p>NXOSPP-N7-Lxx-40DR is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance cooled LWDM EML transmitter and high sensitivity APD receiver with built-in CDR provide superior performance for 10GBASE-ER / 25GBASE-ER Ethernet and CRPI Option #10 applications up to SMF 40km optical links.
 
 </p>
 </div>
@@ -286,7 +286,7 @@ const LWDM_25G_40KM_DuelRate = () => {
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N7-M85-X1DQ)</td>
+          <td>Case Operating Temp. (NXOSPP-N7-M85-X1DQ)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -295,7 +295,7 @@ const LWDM_25G_40KM_DuelRate = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N7-M85-X1DQi)</td>
+          <td>Case Operating Temp. (NXOSPP-N7-M85-X1DQi)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>
@@ -314,7 +314,7 @@ const LWDM_25G_40KM_DuelRate = () => {
 
 
         <tr>
-          <td>Supply Current (NXO-N7-M85-X1DQ)</td>
+          <td>Supply Current (NXOSPP-N7-M85-X1DQ)</td>
           <td>Icc</td>
           <td>-</td>
           <td>-</td>

@@ -80,7 +80,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-F7-M85-X1DM
+<p>Part Number : NXOSFP-F7-M85-X1DM
 </p>
 
 <h4>Feature's</h4> 
@@ -112,7 +112,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-F7-M85-X1DMi</p>
+<p>Part Number : NXOSFP-F7-M85-X1DMi</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>

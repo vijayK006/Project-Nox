@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 const LR4_20KM_40G = () => {
 
   let productName ="40G QSFP+ LR4 Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 20KM, DDM";
-  let PartNumber = "NXO-I7-C13-20D";
+  let PartNumber = "NXOQFP-I7-C13-20D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -212,7 +212,7 @@ with SFF-8436, SFF-8636</p>
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I7-C13-20D is a 4-Channel CWDM 1300nm
+ <p>NXOQFP-I7-C13-20D is a 4-Channel CWDM 1300nm
 QSFP+ transceiver for 40GbE and InfiniBand DDR, QDR applications especially in Data Center & Storage networks. The transmitter converts 4-Channel 10G electrical input data to four CWDM optical signals and multiplex that into one 40G signal. The receiver
 de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electrical output data. The techniques bring a compact transceiver module for an aggregate bandwidth of 40Gbps up to SMF 20km optical links.
 
@@ -292,7 +292,7 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-I7-C13-20D)</td>
+          <td>Case Operating Temp. (NXOQFP-I7-C13-20D)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -301,7 +301,7 @@ de-multiplex the 40G signal reversely and converts that to 4-Channel 10G electri
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-I7-C13-20Di)</td>
+          <td>Case Operating Temp. (NXOQFP-I7-C13-20Di)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>

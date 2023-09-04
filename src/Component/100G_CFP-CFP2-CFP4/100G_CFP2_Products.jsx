@@ -72,7 +72,7 @@ const CFP2_Products_100G = () => {
 <div className='product-dec'>
   <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
 </h5>
-<p>Part Number : NXO-AS8-C2QP-Nx</p>
+<p>Part Number : NXOCFP2-AS8-C2QP-NX</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply</p>
 <p>1 port QSFP28 TX&RX</p>
@@ -95,7 +95,7 @@ const CFP2_Products_100G = () => {
   <h5>100G CFP2 ER4 Dual Rate Transceiver
 Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
 </h5>
-<p>Part Number : NXO-K7-L13-40DR</p>
+<p>Part Number : NXOCFP2-K7-L13-40DR</p>
 
 <h4>Feature's</h4>
 <p>APD receiver</p>
@@ -120,7 +120,7 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 40KM, DDM
 Hot Pluggable, Duplex LC, DML LAN-WDM, Single Mode, 10KM, DDM
 
 </h5>
-<p>Part Number : NXO-K7-L13-10D</p>
+<p>Part Number : NXOCFP2-K7-L13-10D</p>
 
 
 <h4>Feature's</h4>
@@ -170,7 +170,7 @@ Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM
   <h5>100G CFP2 SR10 Dual Rate Transceiver
 Hot Pluggable, MPO / MTP-24, 850nm VCSEL, MMF, 100M, DDM
 </h5>
-<p>Part Number : NXO-K9-M85-X1DR</p>
+<p>Part Number : NXOCFP2-K9-M85-X1DR</p>
 
 <h4>Feature's</h4>
 <p>Compliant to CFP2 MSA</p>

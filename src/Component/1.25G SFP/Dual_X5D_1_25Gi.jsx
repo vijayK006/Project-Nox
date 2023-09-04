@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_X5D_1_25Gi = () => { 
 
-  let PartNumber = "NXO-C7-M85-X5Di";
+  let PartNumber = "NXOSFP-C7-M85-X5Di";
   let productName ="1.25G SFP 1000BASE-SX Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM";
 
   const [name, setName] = useState("");
@@ -291,7 +291,7 @@ sensitivity PIN receiver provide superior performance for Gigabit Ethernet 1000B
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-M85-X5D)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-M85-X5D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ sensitivity PIN receiver provide superior performance for Gigabit Ethernet 1000B
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-M85-X5Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-M85-X5Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -318,7 +318,7 @@ sensitivity PIN receiver provide superior performance for Gigabit Ethernet 1000B
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-M85-X5D)</td>
+          <td>Supply Current (NXOSFP-C7-M85-X5D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -327,7 +327,7 @@ sensitivity PIN receiver provide superior performance for Gigabit Ethernet 1000B
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-M85-X5Di)</td>
+          <td>Supply Current (NXOSFP-C7-M85-X5Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

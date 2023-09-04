@@ -76,7 +76,7 @@ const CWDM_1X9_Products = () => {
 <div className='product-dec'>
   <h5>1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-Ax-Cxx-b31P</p>
+<p>Part Number : NXO1X9-Ax-Cxx-b31P</p>
 <h4>Feature's</h4>
 <p>Compatible with 100BASE-ZX</p>
 <p>CWDM DFB laser transmitter</p>
@@ -100,7 +100,7 @@ const CWDM_1X9_Products = () => {
 <div className='product-dec'>
   <h5>1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-Ax-Cxx-b31Pi</p>
+<p>Part Number : NXO1X9-Ax-Cxx-b31Pi</p>
 <h4>Feature's</h4>
 <p>Compatible with 100BASE-ZX</p>
 <p>CWDM DFB laser transmitter</p>
@@ -124,7 +124,7 @@ const CWDM_1X9_Products = () => {
 <div className='product-dec'>
   <h5>1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-A3-Cxx-b31P </p>
+<p>Part Number : NXO1X9-A3-Cxx-b31P </p>
 <h4>Feature's</h4>
 <p>Compatible with 100BASE-ZX</p>
 <p>CWDM DFB laser transmitter</p>
@@ -148,7 +148,7 @@ const CWDM_1X9_Products = () => {
 <div className='product-dec'>
   <h5>1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-A3-Cxx-b31Pi</p>
+<p>Part Number : NXO1X9-A3-Cxx-b31Pi</p>
 <h4>Feature's</h4>
 <p>Compatible with 100BASE-ZX</p>
 <p>CWDM DFB laser transmitter</p>
@@ -173,7 +173,7 @@ const CWDM_1X9_Products = () => {
 <div className='product-dec'>
   <h5>1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-AM-Cxx-b31P </p>
+<p>Part Number : NXO1X9-AM-Cxx-b31P </p>
 <h4>Feature's</h4>
 <p>Compatible with 100BASE-ZX</p>
 <p>CWDM DFB laser transmitter</p>
@@ -197,7 +197,7 @@ const CWDM_1X9_Products = () => {
 <div className='product-dec'>
   <h5>1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection
 </h5>
-<p>Part Number : NXO-AM-Cxx-b31Pi </p>
+<p>Part Number : NXO1X9-AM-Cxx-b31Pi </p>
 <h4>Feature's</h4>
 <p>Compatible with 100BASE-ZX</p>
 <p>CWDM DFB laser transmitter</p>

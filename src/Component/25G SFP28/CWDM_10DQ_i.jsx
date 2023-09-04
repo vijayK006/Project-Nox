@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const CWDM_10DQ_i = () => {
-  let PartNumber = "NXO-N7-Cxx-10DQi";
+  let PartNumber = "NXOSPP-N7-Cxx-10DQi";
   let productName = "25G SFP28 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM";
 
   const [name, setName] = useState("");
@@ -225,7 +225,7 @@ const CWDM_10DQ_i = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N7-Cxx-10DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for CWDM Networks, 25GBASE-LR Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
+ <p>NXOSPP-N7-Cxx-10DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for CWDM Networks, 25GBASE-LR Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
 
 
 </p>
@@ -304,7 +304,7 @@ const CWDM_10DQ_i = () => {
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N8-Cxx-10DQ)</td>
+          <td>Case Operating Temp. (NXOSPP-N8-Cxx-10DQ)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -313,7 +313,7 @@ const CWDM_10DQ_i = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N8-Cxx-10DQi)</td>
+          <td>Case Operating Temp. (NXOSPP-N8-Cxx-10DQi)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>
@@ -332,7 +332,7 @@ const CWDM_10DQ_i = () => {
 
 
         <tr>
-          <td>Supply Current (NXO-N8-Cxx-10DQ)</td>
+          <td>Supply Current (NXOSPP-N8-Cxx-10DQ)</td>
           <td>Icc</td>
           <td>-</td>
           <td>-</td>
@@ -342,7 +342,7 @@ const CWDM_10DQ_i = () => {
        
        
         <tr>
-          <td>Supply Current (NXO-N8-Cxx-10DQi)</td>
+          <td>Supply Current (NXOSPP-N8-Cxx-10DQi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

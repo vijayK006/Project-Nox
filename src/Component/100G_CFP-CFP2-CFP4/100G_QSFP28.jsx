@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_100G_QSFP28 = () => {
 let productName = "100G CFP2 to QSFP28 Adapter Module, Dual-Rate";
-let PartNumber = "NXO-AS8-C2QP-Nx";
+let PartNumber = "NXOCFP2-AS8-C2QP-NX";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -137,7 +137,7 @@ let PartNumber = "NXO-AS8-C2QP-Nx";
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<div className='sell-text'>NXO-AS8-C2QP-Nx
+<div className='sell-text'>NXOCFP2-AS8-C2QP-NX
 
 
 
@@ -256,8 +256,8 @@ RoHS compliant
   
  <p>
  The 100G CFP2 to QSFP28 Adapter module,
-NXO-AS8-C2QP, is a four-channel, high performance, hot pluggable and ideal interconnect solution supporting 100G Ethernet and OTN OTU4. It converts CFP MSA interface to 1-port 100GE QSFP28 and integrates four data lanes in each direction with operating data rate up to 28Gbps per lane. NXO-AS8-C2QP has no FEC function itself but it could support 100G QSFP28 LR4 / ER4 modules without FEC. When the 100GE host equipment has FEC function on CFP2 port, it could support 100G QSFP28 SR4 / PSM4 / CWDM4 / CLR4
-modules. NXO-AS8-C2QP work with Low power consumption less than 2W and is RoHS compliant.
+NXOCFP2-AS8-C2QP-NX, is a four-channel, high performance, hot pluggable and ideal interconnect solution supporting 100G Ethernet and OTN OTU4. It converts CFP MSA interface to 1-port 100GE QSFP28 and integrates four data lanes in each direction with operating data rate up to 28Gbps per lane. NXOCFP2-AS8-C2QP-NX has no FEC function itself but it could support 100G QSFP28 LR4 / ER4 modules without FEC. When the 100GE host equipment has FEC function on CFP2 port, it could support 100G QSFP28 SR4 / PSM4 / CWDM4 / CLR4
+modules. NXOCFP2-AS8-C2QP-NX work with Low power consumption less than 2W and is RoHS compliant.
 
 </p>
 </div>

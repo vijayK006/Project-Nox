@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const L13_4WDM = () => {
-  let PartNumber = "NXO-K8-L12-20De"
+  let PartNumber = "NXOQ28-K8-L12-20De"
   let productName = "100G QSFP28 BIDI 4WDM-20 Transceiver  Hot Pluggable, Bidi LC, LAN-WDM Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM"
 
   const [name, setName] = useState("");
@@ -232,7 +232,7 @@ const L13_4WDM = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K8-L12-20De is a 8-Channel LWDM QSFP28 Bidi
+ <p>NXOQ28-K8-L12-20De is a 8-Channel LWDM QSFP28 Bidi
 transceiver for 100GbE applications especially in
 Datacom, Data Center & Storage networks. The
 transmitter converts 4-Channel 25G electrical input

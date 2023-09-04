@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const PSM4_IR_40G = () => {  
   let productName = "40G QSFP+ PSM4 IR Transceiver Hot Pluggable, MPO / MTP, 1310nm DFB, SMF 2KM, DDM";
-  let PartNumber = "NXO-I9-S13-02D";
+  let PartNumber = "NXOQFP-I9-S13-02D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -213,7 +213,7 @@ with SFF-8436, SFF-8636</p>
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I9-S13-02D is a Four-Channel Parallel SM Fibers QSFP+ transceiver for 40GbE and
+ <p>NXOQFP-I9-S13-02D is a Four-Channel Parallel SM Fibers QSFP+ transceiver for 40GbE and
 InfiniBand DDR, QDR, SDR application especially in
 Data Center & Storage networks. The QSFP full- duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3Gbps operation for an aggregate data rate of 41.2Gbps up to SMF 2km optical links.
 

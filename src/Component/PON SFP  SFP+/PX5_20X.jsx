@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const PX5_20X = () => { 
 
-  let PartNumber = "NXO-H2-PX5-20x";
+  let PartNumber = "NXOSPP-H2-PX5-20x";
   let productName ="XGPON Asymmetric OLT SFP+ Transceiver Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -216,7 +216,7 @@ const PX5_20X = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-H2-PX5-20x Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1577nm DFB transmitter and high sensitivity APD-TIA receiver provides superior performance for XGPON applications up to 20km optical links in FTTx projects.
+ NXOSPP-H2-PX5-20x Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1577nm DFB transmitter and high sensitivity APD-TIA receiver provides superior performance for XGPON applications up to 20km optical links in FTTx projects.
 
 
 </p>

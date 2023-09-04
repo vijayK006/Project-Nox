@@ -18,7 +18,7 @@ import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const FourtyGLoopbackProduct = () => {
-  let PartNumber = "NXO-IX-XLB-xx-xx"
+  let PartNumber = "NXOQFP-IX-XLB-XX-XX"
   let productName = "40G QSFP+ Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation,  0~3.5W Power Consumption"
 
   const [name, setName] = useState("");
@@ -192,7 +192,7 @@ const FourtyGLoopbackProduct = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-IX-XLB QSFP+ Loopback modules are compliant with the current QSFP+ Multi-Source Agreement
+ <p>NXOQFP-IX-XLB-XX-XX QSFP+ Loopback modules are compliant with the current QSFP+ Multi-Source Agreement
 ( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP+ port in the host
 system by looping back the electrical signal (optics are excluded). It provides an economical way to mimic 40G Ethernet in simulation testing environments</p>
 </div>

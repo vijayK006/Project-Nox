@@ -70,7 +70,7 @@ const SFP28_25G__LWDM_products = () => {
   <h5>25G SFP28 LWDM Transceiver
 Hot Pluggable, Duplex LC, 800GHz LWDM EML, SMF 40KM, DDM
 </h5>
-<p>Part Number : NXO-N7-Lxx-40DQ</p>
+<p>Part Number : NXOSPP-N7-Lxx-40DQ</p>
 <h4>Feature's</h4>
 <p>Maximum Power consumption 2.3W</p>
 <p>APD Receiver</p>
@@ -93,7 +93,7 @@ Hot Pluggable, Duplex LC, 800GHz LWDM EML, SMF 40KM, DDM
   <h5>10G / 25G SFP28 LWDM Transceiver
 Hot Pluggable, Duplex LC, 800GHz LWDM EML, SMF 40KM, DDM
 </h5>
-<p>Part Number : NXO-N7-Lxx-40DR</p>
+<p>Part Number : NXOSPP-N7-Lxx-40DR</p>
 <h4>Feature's</h4>
 <p>Maximum Power consumption 2.3W</p>
 <p>Duplex LC connector</p>

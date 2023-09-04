@@ -68,7 +68,7 @@ const SFP_100T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
-<p>Part Number : NXO-AJ-T01-X1</p>
+<p>Part Number : NXOSFP-AJ-T01-X1</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function</p>
 
@@ -93,7 +93,7 @@ const SFP_100T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
-<p>Part Number : NXO-AJ-T01-X1i</p>
+<p>Part Number : NXOSFP-AJ-T01-X1i</p>
 <h4>Feature's</h4>
 
 <p>I2C 2-wire interface for serial ID
@@ -125,7 +125,7 @@ const SFP_100T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
-<p>Part Number : NXO-AJ-T11-X1</p>
+<p>Part Number : NXOSFP-AJ-T11-X1</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 
@@ -157,7 +157,7 @@ const SFP_100T_Products = () => {
 <div className='product-dec'>
   <h5>1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP
 </h5>
-<p>Part Number : NXO-AJ-T11-X1i</p>
+<p>Part Number : NXOSFP-AJ-T11-X1i</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 

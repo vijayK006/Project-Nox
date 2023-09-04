@@ -23,7 +23,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 const SR4_X1Di = () => {
 
   let productName = "40G QSFP+ SR4 Transceiver Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM";
-  let PartNumber = "NXO-I9-M85-X1Di";
+  let PartNumber = "NXOQFP-I9-M85-X1Di";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -143,7 +143,7 @@ Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<div className='sell-text'>NXO-I9-M85-X1Di
+<div className='sell-text'>NXOQFP-I9-M85-X1Di
 
 </div>
 </div>
@@ -238,7 +238,7 @@ RoHS Compliant
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I9-M85-X1Di is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
+ <p>NXOQFP-I9-M85-X1Di is a Four-Channel Parallel Fibers QSFP+ transceiver for 40GbE and InfiniBand QDR, application especially in Data Center & Storage networks. The QSFP full-duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3125Gbps operation for an aggregate data rate of 41.25Gbps up to MMF OM3 300m optical links.
 </p>
 </div>
 </div>

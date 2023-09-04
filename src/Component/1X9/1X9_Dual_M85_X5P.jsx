@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_1X9_M85_X5P = () => { 
 
-  let PartNumber = "NXO-C1-M85-X5P";
+  let PartNumber = "NXO1X9-C1-M85-X5P";
   let productName ="1.25G 1X9 1000BASE-SX Transceiver Duplex SC, 850nm VCSEL, MMF 550M, LVPECL / PECL Signal Detection";
 
 
@@ -220,7 +220,7 @@ Gigabit Ethernet 1000BASE-SX @1.25G
   
  <p>
 
-NXO-C1-M85-X5P 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 850nm VCEL transmitter and high sensitivity PIN receiver provide superior
+NXO1X9-C1-M85-X5P 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 850nm VCEL transmitter and high sensitivity PIN receiver provide superior
 performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications up to MMF OM2 550m optical links.
 
 </p>
@@ -263,14 +263,14 @@ performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications
         </tr>
 
         <tr>
-          <td>Supply Voltage(NXO-C1-M85-X5P) </td>
+          <td>Supply Voltage(NXO1X9-C1-M85-X5P) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage(NXO-C1-M85-X5P5) </td>
+          <td>Supply Voltage(NXO1X9-C1-M85-X5P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -303,7 +303,7 @@ performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C1-M85-X5P)</td>
+          <td>Case Operating Temp. (NXO1X9-C1-M85-X5P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -312,7 +312,7 @@ performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C1-M85-X5Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-C1-M85-X5Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,7 +321,7 @@ performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-A1-M85-X5P)</td>
+          <td>Supply Voltage (NXO1X9-A1-M85-X5P)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -329,7 +329,7 @@ performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-A1-M85-X5P5)</td>
+          <td>Supply Voltage (NXO1X9-A1-M85-X5P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -338,7 +338,7 @@ performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C1-M85-X5P)</td>
+          <td>Supply Current (NXO1X9-C1-M85-X5P)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -347,7 +347,7 @@ performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C1-M85-X5P5)</td>
+          <td>Supply Current (NXO1X9-C1-M85-X5P5)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -380,7 +380,7 @@ performance for Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

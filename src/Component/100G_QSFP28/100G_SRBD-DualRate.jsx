@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Product_100G_SRBD_DualRate = () => { 
 
-  let PartNumber = "NXO-KC-C85-X1DR";
+  let PartNumber = "NXOQ28-KC-C85-X1DR   ";
   let productName ="40G / 100G QSFP28 SR2-BiDi TransceiverHot Pluggable, Dual Bidi LC, 850 / 908nm VCSEL, MMF 100M, DDM, Dual-Rate";
 
   const [name, setName] = useState("");
@@ -246,7 +246,7 @@ Maximum power consumption 4W
   <h2>Overview</h2>
   
  <p>
-NXO-KC-C85-X1DR is a pluggable optical transceiver with a Dual Bidi LC connector for short-reach 40G/100G Dual-Rate communication and interconnect applications using multi-mode fiber. It allows reuse existing 10G/25G duplex MMF cabling infrastructure for easy migration to 40G/100G Gigabit Ethernet connectivity. The transceiver internally multiplexes XLPPI 4x10G/25G interface into 2x20G/50G electrical channels, then converting to PAM4 2x20G/50G optical channels for an aggregated data rate of 40G/100G up to MMF OM4 100m optical link.
+NXOQ28-KC-C85-X1DR    is a pluggable optical transceiver with a Dual Bidi LC connector for short-reach 40G/100G Dual-Rate communication and interconnect applications using multi-mode fiber. It allows reuse existing 10G/25G duplex MMF cabling infrastructure for easy migration to 40G/100G Gigabit Ethernet connectivity. The transceiver internally multiplexes XLPPI 4x10G/25G interface into 2x20G/50G electrical channels, then converting to PAM4 2x20G/50G optical channels for an aggregated data rate of 40G/100G up to MMF OM4 100m optical link.
 
 
 </p>

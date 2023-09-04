@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_A1_S15_80Pi = () => { 
 
-  let PartNumber = "NXO-A1-S15-80Pi";
+  let PartNumber = "NXO1X9-A1-S15-80Pi";
   let productName ="25M / 155M 1X9 100BASE-ZX Transceiver Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection";
 
 
@@ -270,14 +270,14 @@ SDH STM-1 applications up to SMF 80km optical links.
         </tr>
 
         <tr>
-          <td>Supply Voltage(NXO-A1-S15-80P) </td>
+          <td>Supply Voltage(NXO1X9-A1-S15-80P) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage(NXO-A1-S15-80P5) </td>
+          <td>Supply Voltage(NXO1X9-A1-S15-80P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -310,7 +310,7 @@ SDH STM-1 applications up to SMF 80km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A1-S15-80P)</td>
+          <td>Case Operating Temp. (NXO1X9-A1-S15-80P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -319,7 +319,7 @@ SDH STM-1 applications up to SMF 80km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A1-S15-80Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-A1-S15-80Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -328,7 +328,7 @@ SDH STM-1 applications up to SMF 80km optical links.
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-A1-S15-80P)</td>
+          <td>Supply Voltage (NXO1X9-A1-S15-80P)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -336,7 +336,7 @@ SDH STM-1 applications up to SMF 80km optical links.
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-A1-S15-80P5)</td>
+          <td>Supply Voltage (NXO1X9-A1-S15-80P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>

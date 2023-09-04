@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_X3DM = () => { 
 
-  let PartNumber = "NXO-E7-M85-X3DM";
+  let PartNumber = "NXOSFP-E7-M85-X3DM";
   let productName ="2.5G SFP OC-48 / STM-16 Multi-Rate Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM";
 
     const [name, setName] = useState("");
@@ -253,7 +253,7 @@ STM-16 I-16
  <p>
 
 
-NXO-E7-M85-X3DM Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. The high performance 850nm VCSEL transmitter and
+NXOSFP-E7-M85-X3DM Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. The high performance 850nm VCSEL transmitter and
 high sensitivity PIN receiver provide superior
 performance for SONET OC-48 / SDH STM-16 Multi- Rate applications up to MMF 300m optical links.
 
@@ -331,7 +331,7 @@ performance for SONET OC-48 / SDH STM-16 Multi- Rate applications up to MMF 300m
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-M85-X3DM)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-M85-X3DM)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -340,7 +340,7 @@ performance for SONET OC-48 / SDH STM-16 Multi- Rate applications up to MMF 300m
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-M85-X3DMi)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-M85-X3DMi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -358,7 +358,7 @@ performance for SONET OC-48 / SDH STM-16 Multi- Rate applications up to MMF 300m
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-M85-X3DM)</td>
+          <td>Supply Current (NXOSFP-E7-M85-X3DM)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -367,7 +367,7 @@ performance for SONET OC-48 / SDH STM-16 Multi- Rate applications up to MMF 300m
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-M85-X3DMi)</td>
+          <td>Supply Current (NXOSFP-E7-M85-X3DMi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

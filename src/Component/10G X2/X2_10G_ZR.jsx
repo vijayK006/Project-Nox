@@ -26,7 +26,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const X2_10G_ZR = () => { 
 
-  let PartNumber = "NXO-H1-S15-80D";
+  let PartNumber = "NXOXF2-H1-S15-80D";
   let productName ="110G X2-ZR Transceiver Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -204,7 +204,7 @@ const X2_10G_ZR = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-H1-S15-80D is a highly integrated serial optical transponder module for 10Gbit/s data transmission that is usable in typical router line card applications, Storage, IP network and LAN and compliant to X2 MSA. The MUX/DEMUX with clock and data
+ <p>NXOXF2-H1-S15-80D is a highly integrated serial optical transponder module for 10Gbit/s data transmission that is usable in typical router line card applications, Storage, IP network and LAN and compliant to X2 MSA. The MUX/DEMUX with clock and data
 recovery (CDR), XAUI interface and MDIO
 management functions are all integrated into the module. This transceiver uses a 1550nm EA-DFB Laser Diode to achieve 80km over single mode fiber as 10GBASE-ZR of the IEEE 802.3ae.
 

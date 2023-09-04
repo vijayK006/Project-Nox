@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const TenGLoopbackProduct = () => {
-let PartNumber = "NXO-HX-XLB-xx-xx"
+let PartNumber = "NXOSPP-HX-XLB-XX-XX"
 let productName = "10G SFP+ Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 0~2.5W Power Consumption "
 
 const [name, setName] = useState("");
@@ -196,7 +196,7 @@ const hidePop = ()=>{
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-HX-XLB SFP+ Loopback modules are compliant with the current SFP+ Multi-Source Agreement ( MSA ) specification. The Loopback modules provide an effective way of testing the SFP+ port in the host system by looping back the electrical signal (optics are excluded).
+ <p>{PartNumber} SFP+ Loopback modules are compliant with the current SFP+ Multi-Source Agreement ( MSA ) specification. The Loopback modules provide an effective way of testing the SFP+ port in the host system by looping back the electrical signal (optics are excluded).
 It provides an economical way to mimic Fast Ethernet, Gigabit Ethernet, 10G Ethernet, SONET OC3~OC192, SDH STM-1~STM-64, 1x/2x/4x/8x/10x Fiber Channel, and CPRI Option #7, #8 on SFP/SFP+ ports in simulation testing environments.
 </p>
 </div>

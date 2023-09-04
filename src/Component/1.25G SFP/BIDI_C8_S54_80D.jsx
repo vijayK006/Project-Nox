@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_C8_S54_80D = () => { 
 
-  let PartNumber = "NXO-C8-S54-80D";
+  let PartNumber = "NXOSFP-C8-S54-80D";
   let productName ="1.25G SFP 1000BX-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1490nm, SMF 80KM, DDM";
 
 
@@ -230,7 +230,7 @@ Compatible with IEEE802.3ah 1000BASE-BX-D
   <h2>Overview</h2>
   
  <p>
- NXO-C8-S54-80D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ NXOSFP-C8-S54-80D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1550nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for Gigabit Ethernet 1000BASE-BX and
@@ -309,7 +309,7 @@ Fiber Channel 1GFC applications up to SMF 80km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C8-S54-80D)</td>
+          <td>Case Operating Temp. (NXOSFP-C8-S54-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -318,7 +318,7 @@ Fiber Channel 1GFC applications up to SMF 80km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C8-S54-80Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C8-S54-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -336,7 +336,7 @@ Fiber Channel 1GFC applications up to SMF 80km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S54-80D)</td>
+          <td>Supply Current (NXOSFP-C8-S54-80D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -345,7 +345,7 @@ Fiber Channel 1GFC applications up to SMF 80km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S54-80Di)</td>
+          <td>Supply Current (NXOSFP-C8-S54-80Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

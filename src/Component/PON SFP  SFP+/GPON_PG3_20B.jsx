@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const GPON_PG3_20B = () => { 
 
-  let PartNumber = "NXO-Cx-PG3-20B";
+  let PartNumber = "NXOSFP-Cx-PG3-20B";
   let productName ="GPON ONU B+ 1.244G-Tx / 2.488G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1310nm DFB / Rx1490nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -219,7 +219,7 @@ const GPON_PG3_20B = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-Cx-PG3-20B Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ NXOSFP-Cx-PG3-20B Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm DFB transmitter and high sensitivity 1490nm APD receiver provide
 superior performance for GPON ONU Class B+ applications.
 </p>
@@ -296,7 +296,7 @@ superior performance for GPON ONU Class B+ applications.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-Cx-PG3-20B)</td>
+          <td>Case Operating Temp.(NXOSFP-Cx-PG3-20B)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -305,7 +305,7 @@ superior performance for GPON ONU Class B+ applications.
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-Cx-PG3-20Bi)</td>
+          <td>Case Operating Temp.(NXOSFP-Cx-PG3-20Bi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

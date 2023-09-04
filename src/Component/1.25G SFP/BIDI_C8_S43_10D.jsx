@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_C8_S43_10D = () => { 
 
-  let PartNumber = "NXO-C8-S43-10D";
+  let PartNumber = "NXOSFP-C8-S43-10D";
   let productName ="1.25G SFP 1000BX-D Transceiver Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 10KM, DDM";
 
 
@@ -223,7 +223,7 @@ const BIDI_C8_S43_10D = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-C8-S43-10D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+NXOSFP-C8-S43-10D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1490nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for Gigabit Ethernet 1000BASE-BX10 and Fiber Channel 1GFC applications up to SMF 10km
@@ -303,7 +303,7 @@ optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C8-S43-10D)</td>
+          <td>Case Operating Temp. (NXOSFP-C8-S43-10D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -312,7 +312,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C8-S43-10Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C8-S43-10Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -330,7 +330,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S43-10D)</td>
+          <td>Supply Current (NXOSFP-C8-S43-10D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -339,7 +339,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S43-10Di)</td>
+          <td>Supply Current (NXOSFP-C8-S43-10Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

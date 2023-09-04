@@ -71,7 +71,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-N7-S13-02DQ</p>
+<p>Part Number : NXOSPP-N7-S13-02DQ</p>
 <h4>Feature's</h4>
 
 <p>Compliant with CPRI option10
@@ -99,7 +99,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-N7-S13-02DQi</p>
+<p>Part Number : NXOSPP-N7-S13-02DQi</p>
 <h4>Feature's</h4>
 
 <p>Compliant with CPRI option10
@@ -127,7 +127,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 2KM, DDM
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM
 
 </h5>
-<p>Part Number : NXO-N7-S13-10DQ</p>
+<p>Part Number : NXOSPP-N7-S13-10DQ</p>
 <h4>Feature's</h4>
 
 <p>Compliant with CPRI option10
@@ -156,7 +156,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM
 
 </h5>
-<p>Part Number : NXO-N7-S13-10DQi</p>
+<p>Part Number : NXOSPP-N7-S13-10DQi</p>
 <h4>Feature's</h4>
 
 <p>Compliant with CPRI option10
@@ -184,7 +184,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM
   <h5>25G SFP28 LR Transceiver
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-N7-S13-10DR</p>
+<p>Part Number : NXOSPP-N7-S13-10DR</p>
 <h4>Feature's</h4>
 
 
@@ -215,7 +215,7 @@ Data Rate up to 25.78Gbps
   <h5>25G SFP28 LR Transceiver
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-N7-S13-10DRi</p>
+<p>Part Number : NXOSPP-N7-S13-10DRi</p>
 <h4>Feature's</h4>
 
 
@@ -247,7 +247,7 @@ Data Rate up to 25.78Gbps
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-N7-S13-20DQ</p>
+<p>Part Number : NXOSPP-N7-S13-20DQ</p>
 <h4>Feature's</h4>
 
 
@@ -279,7 +279,7 @@ Data Rate up to 25.78Gbps
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-N7-S13-20DQi</p>
+<p>Part Number : NXOSPP-N7-S13-20DQi</p>
 <h4>Feature's</h4>
 
 

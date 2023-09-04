@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_A1_S13_20Pi = () => { 
 
-  let PartNumber = "NXO-A1-S13-20Pi";
+  let PartNumber = "NXO1X9-A1-S13-20Pi";
   let productName ="125M / 155M 1X9-100LX20 Transceiver Duplex SC, 1310nm FP, SMF 20KM, LVPECL / PECL Signal Detection";
 
 
@@ -264,14 +264,14 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
         </tr>
 
         <tr>
-          <td>Supply Voltage(NXO-A1-S13-20P) </td>
+          <td>Supply Voltage(NXO1X9-A1-S13-20P) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage(NXO-A1-S13-20P5) </td>
+          <td>Supply Voltage(NXO1X9-A1-S13-20P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -304,7 +304,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A1-S13-20P)</td>
+          <td>Case Operating Temp. (NXO1X9-A1-S13-20P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -313,7 +313,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A1-S13-20Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-A1-S13-20Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -322,7 +322,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-A1-S13-20P)</td>
+          <td>Supply Voltage (NXO1X9-A1-S13-20P)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -330,7 +330,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-A1-S13-20P5)</td>
+          <td>Supply Voltage (NXO1X9-A1-S13-20P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -339,7 +339,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
         </tr>
        
         <tr>
-          <td>Supply Current(NXO-A1-S13-20P)</td>
+          <td>Supply Current(NXO1X9-A1-S13-20P)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -347,7 +347,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current(NXO-A1-S13-20Pi)</td>
+          <td>Supply Current(NXO1X9-A1-S13-20Pi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -372,7 +372,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

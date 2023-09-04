@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const X5TR_2X5_SFF = () => { 
 
-  let PartNumber = "NXO-C7-M85-X5TR  ";
+  let PartNumber = "NXOSF1-C7-M85-X5TR  ";
   let productName ="125M / 1.25G 2x5 SFF 100BASE-SX /1000BASE-SX Dual-Rate Transceiver Duplex LC, 850nm VCSEL, MMF OM2 2KM(100SX) / 550M(1000SX)  ";
 
   const [name, setName] = useState("");
@@ -217,7 +217,7 @@ const X5TR_2X5_SFF = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-C7-M85-X5TR 2x5 SFF package style
+ <p>NXOSF1-C7-M85-X5TR 2x5 SFF package style
 transceivers are compliant with the industrial standard specification. The high performance 850nm VCSEL
 transmitter and high sensitivity PIN-TIA receiver
 provide superior performance for Ethernet 100BASE- SX, Gigabit Ethernet 1000BASE-SX and Fiber Channel 1GFC applications up to MMF OM2 550m optical links.
@@ -297,7 +297,7 @@ provide superior performance for Ethernet 100BASE- SX, Gigabit Ethernet 1000BASE
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-M85-X5TR)</td>
+          <td>Case Operating Temp. (NXOSF1-C7-M85-X5TR)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -306,7 +306,7 @@ provide superior performance for Ethernet 100BASE- SX, Gigabit Ethernet 1000BASE
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-M85-X5TRi)</td>
+          <td>Case Operating Temp. (NXOSF1-C7-M85-X5TRi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -324,7 +324,7 @@ provide superior performance for Ethernet 100BASE- SX, Gigabit Ethernet 1000BASE
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-M85-X5TR)</td>
+          <td>Supply Current (NXOSF1-C7-M85-X5TR)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -333,7 +333,7 @@ provide superior performance for Ethernet 100BASE- SX, Gigabit Ethernet 1000BASE
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-M85-X5TRi)</td>
+          <td>Supply Current (NXOSF1-C7-M85-X5TRi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

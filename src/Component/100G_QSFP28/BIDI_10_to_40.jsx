@@ -75,7 +75,7 @@ const BIDI_10_to_40_Products = () => {
   <h5>100G QSFP28 Single Lambda LR1-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1271nm EML / Rx1331nm, SMF 10KM, DDM
 </h5>
-<p>Part Number : NXO-K8-C27-10D</p>
+<p>Part Number : NXOQ2S-K8-C27-10D</p>
 <h4>Feature's</h4>
 <p>Compliant with SFF-8665 QSFP28 MSA</p>
 <p>Built in TX CDR and RX CDR</p>
@@ -98,7 +98,7 @@ Hot Pluggable, Bidi LC, Tx1271nm EML / Rx1331nm, SMF 10KM, DDM
   <h5>100G QSFP28 Single Lambda LR1-20-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1291nm EML / Rx1311nm, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-K8-C29-20D</p>
+<p>Part Number : NXOQ2S-K8-C29-20D</p>
 <h4>Feature's</h4>
 <p>Single 3.3V power supply</p>
 <p>Hot Pluggable QSFP28 footprint</p>
@@ -121,7 +121,7 @@ Hot Pluggable, Bidi LC, Tx1291nm EML / Rx1311nm, SMF 20KM, DDM
   <h5>100G QSFP28 Single Lambda LR1-20-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1311nm EML / Rx1291nm, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-K8-C31-20D</p>
+<p>Part Number : NXOQ2S-K8-C31-20D</p>
 <h4>Feature's</h4>
 <p>CWDM 1311nm EML transmitter</p>
 <p>Operating Temperature 0~70°C</p>
@@ -144,7 +144,7 @@ Hot Pluggable, Bidi LC, Tx1311nm EML / Rx1291nm, SMF 20KM, DDM
   <h5>100G QSFP28 Single Lambda ER1-30-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1304nm EML / Rx1309nm, SMF 30KM, DDM
 </h5>
-<p>Part Number : NXO-K8-L04-30D</p>
+<p>Part Number : NXOQ2S-K8-L04-30D</p>
 <h4>Feature's</h4>
 <p>APD receiver</p>
 <p>Compatible with 100GBASE-ER1-30</p>
@@ -167,7 +167,7 @@ Hot Pluggable, Bidi LC, Tx1304nm EML / Rx1309nm, SMF 30KM, DDM
   <h5>100G QSFP28 Single Lambda ER1-30-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1309nm EML / Rx1304nm, SMF 30KM, DDM
 </h5>
-<p>Part Number : NXO-K8-L09-30D</p>
+<p>Part Number : NXOQ2S-K8-L09-30D</p>
 <h4>Feature's</h4>
 <p>Built in TX CDR and RX CDR</p>
 <p>LWDM 1309nm EML transmitter</p>
@@ -190,7 +190,7 @@ Hot Pluggable, Bidi LC, Tx1309nm EML / Rx1304nm, SMF 30KM, DDM
   <h5>100G QSFP28 Single Lambda LR1-BiDi Transceiver
 Hot Pluggable, Bidi LC, Tx1331nm EML / Rx1271nm, SMF 10KM, DDM
 </h5>
-<p>Part Number : NXO-K8-C33-10D</p>
+<p>Part Number : NXOQ2S-K8-C33-10D</p>
 <h4>Feature's</h4>
 <p>Built in TX CDR and RX CDR</p>
 <p>CWDM 1331nm EML transmitter</p>

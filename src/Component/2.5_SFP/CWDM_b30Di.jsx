@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_b30Di = () => { 
 
-  let PartNumber = "NXO-E7-Cxx-b30Di";
+  let PartNumber = "NXOSFP-E7-Cxx-b30Di";
   let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM TransceiverHot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM";
 
   
@@ -315,7 +315,7 @@ RoHS Compliant
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b30D)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-Cxx-b30D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -324,7 +324,7 @@ RoHS Compliant
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b30Di)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-Cxx-b30Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -342,7 +342,7 @@ RoHS Compliant
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b30D)</td>
+          <td>Supply Current (NXOSFP-E7-Cxx-b30D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -351,7 +351,7 @@ RoHS Compliant
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b30Di)</td>
+          <td>Supply Current (NXOSFP-E7-Cxx-b30Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

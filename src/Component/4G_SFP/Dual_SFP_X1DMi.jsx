@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_SFP_X1DM = () => {
 
-    let PartNumber = "NXO-F7-M85-X1DMi";
+    let PartNumber = "NXOSFP-F7-M85-X1DMi";
     let productName = "4GFC SFP SW Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM2 150M, DDM, Multi-Rate";
 
     const [name, setName] = useState("");

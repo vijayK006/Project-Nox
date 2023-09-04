@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_25G_SW = () => {
-  let PartNumber = "NXO-P7-M85-X1DQ";
+  let PartNumber = "NXOSPP-P7-M85-X1DQ";
   let productName = "32GFC SFP28 SW Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM";
 
   const [name, setName] = useState("");
@@ -238,7 +238,7 @@ const SFP28_25G_SW = () => {
   
  <p>
 
-NXO-P7-M85-X1DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 4x/8x/10x/16x/32x Fiber Channel applications up to MMF OM4 100m optical links.
+NXOSPP-P7-M85-X1DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 4x/8x/10x/16x/32x Fiber Channel applications up to MMF OM4 100m optical links.
 
 </p>
 </div>

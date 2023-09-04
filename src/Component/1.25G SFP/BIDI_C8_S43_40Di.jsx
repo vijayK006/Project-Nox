@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_C8_S43_40Di = () => { 
 
-  let PartNumber = "NXO-C8-S43-40Di";
+  let PartNumber = "NXOSFP-C8-S43-40Di";
   let productName ="1.25G SFP 1000BX-D Transceiver Hot Pluggable, Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 40KM, DDM";
 
 
@@ -307,7 +307,7 @@ Fiber Channel 1GFC applications up to SMF 40km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C8-S43-40D)</td>
+          <td>Case Operating Temp. (NXOSFP-C8-S43-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -316,7 +316,7 @@ Fiber Channel 1GFC applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C8-S43-40Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C8-S43-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -334,7 +334,7 @@ Fiber Channel 1GFC applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S43-40D)</td>
+          <td>Supply Current (NXOSFP-C8-S43-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -343,7 +343,7 @@ Fiber Channel 1GFC applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C8-S43-40Di)</td>
+          <td>Supply Current (NXOSFP-C8-S43-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

@@ -20,7 +20,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 // import ReactImageMagnify from 'react-image-magnify';
 
 const FourHGLoopbackProduct = () => {
-  let PartNumber = "NXO-TX-XLB-xx-xx"
+  let PartNumber = "NXOQDD-TX-XLB-XX-XX"
   let productName = "400G QSFP-DD Electrical Passive LoopbackHot Pluggable, 0~5dB Internal Attenuation, 0~5W Power Consumption"
 
   const [name, setName] = useState("");
@@ -211,7 +211,7 @@ const FourHGLoopbackProduct = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-TX-XLB QSFP-DD Loopback modules are compliant with the current QSFP-DD Multi-Source Agreement ( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP-DD port in the host system by looping back the electrical signal
+ <p>NXOQDD-TX-XLB-XX-XX QSFP-DD Loopback modules are compliant with the current QSFP-DD Multi-Source Agreement ( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP-DD port in the host system by looping back the electrical signal
 (optics are excluded). It could be downgraded for 200G application and provides an economical way to mimic 400G/200G Ethernet in simulation testing environments.
 </p>
 </div>

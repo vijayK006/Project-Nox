@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_67_02Di = () => {
 
-    let PartNumber = "NXO-67-S13-02Di";
+    let PartNumber = "NXOSPP-67-S13-02Di";
     let productName = "6.144G SFP+ LR-Lite Transceiver Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM";
 
     const [name, setName] = useState("");
@@ -293,7 +293,7 @@ performance for OBSAI & CPRI Option #6 applications up to SMF 2km optical links.
                                     <tbody>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-67-S13-02D)</td>
+                                            <td>Case Operating Temp. (NXOSPP-67-S13-02D)</td>
                                             <td>Top</td>
                                             <td>0</td>
                                             <td>-</td>
@@ -302,7 +302,7 @@ performance for OBSAI & CPRI Option #6 applications up to SMF 2km optical links.
                                         </tr>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-67-S13-02Di)</td>
+                                            <td>Case Operating Temp. (NXOSPP-67-S13-02Di)</td>
                                             <td>Top</td>
                                             <td>-40</td>
                                             <td>-</td>
@@ -320,7 +320,7 @@ performance for OBSAI & CPRI Option #6 applications up to SMF 2km optical links.
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-67-S13-02D)</td>
+                                            <td>Supply Current (NXOSPP-67-S13-02D)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>
@@ -329,7 +329,7 @@ performance for OBSAI & CPRI Option #6 applications up to SMF 2km optical links.
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-67-S13-02Di)</td>
+                                            <td>Supply Current (NXOSPP-67-S13-02Di)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>

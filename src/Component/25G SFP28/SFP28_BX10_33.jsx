@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_BX10_33 = () => {
-  let PartNumber = "NXO-N8-C33-10DQ";
+  let PartNumber = "NXOSPP-N8-C33-10DQ";
   let productName = "25G SFP28 BX-D Transceiver Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 10KM, DDM";
 
   const [name, setName] = useState("");
@@ -223,7 +223,7 @@ const SFP28_BX10_33 = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N8-C33-10DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 1330nm DFB
+ <p>NXOSPP-N8-C33-10DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 1330nm DFB
 transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE
 Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
 </p>
@@ -302,7 +302,7 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N8-C33-10DQ)</td>
+          <td>Case Operating Temp. (NXOSPP-N8-C33-10DQ)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -311,7 +311,7 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N8-C33-10DQi)</td>
+          <td>Case Operating Temp. (NXOSPP-N8-C33-10DQi)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>
@@ -330,7 +330,7 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
 
 
         <tr>
-          <td>Supply Current (NXO-N8-C33-10DQ)</td>
+          <td>Supply Current (NXOSPP-N8-C33-10DQ)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -340,7 +340,7 @@ Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
        
        
         <tr>
-          <td>Supply Current (NXO-N8-C33-10DQi)</td>
+          <td>Supply Current (NXOSPP-N8-C33-10DQi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

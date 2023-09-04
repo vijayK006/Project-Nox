@@ -26,7 +26,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const X2_10G_SR = () => { 
 
-  let PartNumber = "NXO-H1-M85-X3D";
+  let PartNumber = "NXOXF2-H1-M85-X3D";
   let productName ="10G X2-SR Transceiver Hot Pluggable, Duplex SC, 850nm VCSEL, Multi-Mode, 300M, DDM";
 
   const [name, setName] = useState("");
@@ -203,7 +203,7 @@ const X2_10G_SR = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-H1-M85-X3D is a highly integrated serial optical transponder module for 10Gbit/s data transmission that is usable in typical router line card applications, Storage, IP network and LAN and compliant to X2 MSA. The MUX/DEMUX with clock and data
+ <p>NXOXF2-H1-M85-X3D is a highly integrated serial optical transponder module for 10Gbit/s data transmission that is usable in typical router line card applications, Storage, IP network and LAN and compliant to X2 MSA. The MUX/DEMUX with clock and data
 recovery (CDR), XAUI interface and MDIO
 management functions are all integrated into the module. This transceiver uses a 850nm VCSEL Laser Diode to achieve 300m over multi-mode fiber as 10GBASE-SR of the IEEE 802.3ae.
 

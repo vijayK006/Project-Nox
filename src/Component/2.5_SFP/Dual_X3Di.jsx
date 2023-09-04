@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_X3Di = () => { 
 
-  let PartNumber = "NXO-E7-M85-X3Di";
+  let PartNumber = "NXOSFP-E7-M85-X3Di";
   let productName ="2.5G SFP OC-48 / STM-16 Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 300M, DDM";
 
   const [name, setName] = useState("");
@@ -314,7 +314,7 @@ applications up to MMF 300m optical links
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-M85-X3D)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-M85-X3D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -323,7 +323,7 @@ applications up to MMF 300m optical links
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-M85-X3Di)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-M85-X3Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -341,7 +341,7 @@ applications up to MMF 300m optical links
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-M85-X3D)</td>
+          <td>Supply Current (NXOSFP-E7-M85-X3D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -350,7 +350,7 @@ applications up to MMF 300m optical links
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-M85-X3Di)</td>
+          <td>Supply Current (NXOSFP-E7-M85-X3Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

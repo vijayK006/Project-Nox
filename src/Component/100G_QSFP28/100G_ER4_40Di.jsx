@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const ER4_40Di_100G = () => {
-  let PartNumber = "NXO-K7-L13-40Di"
+  let PartNumber = "NXOQ28-K7-L13-40Di"
   let productName = "100G QSFP28 ER4 Transceiver Hot Pluggable, Duplex LC, LAN-WDM DFB, SMF 40KM, DDM"
 
   const [name, setName] = useState("");
@@ -227,7 +227,7 @@ const ER4_40Di_100G = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K7-L13-40Di is a 4-Channel LWDM 1300nm
+ <p>NXOQ28-K7-L13-40Di is a 4-Channel LWDM 1300nm
 QSFP28 transceiver for 100GbE applications
 especially in Datacom, Data Center & Storage networks.
 The transmitter converts 4-Channel 25G electrical input
@@ -322,7 +322,7 @@ transceiver module for an aggregate bandwidth of
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-K7-L13-40Di)</td>
+          <td>Case Operating Temp. (NXOQ28-K7-L13-40Di)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>

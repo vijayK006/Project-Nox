@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP_100Tx_T01_X1i = () => {
-  let PartNumber = "NXO-AJ-T01-X1i";
+  let PartNumber = "NXOSFP-AJ-T01-X1i";
   let productName = "125M SFP-100TX Transceiver Hot Pluggable, RJ-45, Active Copper SFP";
 
   const [name, setName] = useState("");
@@ -236,7 +236,7 @@ const SFP_100Tx_T01_X1i = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 125Mbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the 2-wire serial bus I2C protocol. This 100Base-TX Copper SFP Transceiver supports the SFP based switch100Base-FX ports that accept standard 100Base-FX optics SFP.
+NXOSFP-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant with the current SFP Multi-Source Agreement ( MSA ) Specification. The high performance designed is integrated full duplex data link at 125Mbps over four pair Category 5 UTP cable up to 100m links. User can be accessed SFP serial ID information with address of A0h via the 2-wire serial bus I2C protocol. This 100Base-TX Copper SFP Transceiver supports the SFP based switch100Base-FX ports that accept standard 100Base-FX optics SFP.
 </p>
 </div>
 </div>
@@ -313,7 +313,7 @@ NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant 
       <tbody>
 
         <tr>
-          <td> Case Operating Temp. (NXO-AJ-Tx1-X1)</td>
+          <td> Case Operating Temp. (NXOSFP-AJ-Tx1-X1)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -322,7 +322,7 @@ NXO-AJ-Tx1-X1 Small Form Factor Pluggable SFP Copper transceivers are compliant 
         </tr>
         
         <tr>
-          <td>Case Operating Temp. (NXO-AJ-Tx1-X1i)</td>
+          <td>Case Operating Temp. (NXOSFP-AJ-Tx1-X1i)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>

@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const PSM4_LR_40G = () => {
   let productName = "40G QSFP+ PSM4 LR Transceiver Hot Pluggable, MPO / MTP, 1310nm DFB, SMF 10KM, DDM";
-  let PartNumber = "NXO-I9-S13-10D";
+  let PartNumber = "NXOQFP-I9-S13-10D";
   
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -142,7 +142,7 @@ Hot Pluggable, MPO / MTP, 1310nm DFB, SMF 10KM, DDM
 <div className='pricing-section d-flex flex-wrap align-items-center justify-content-between mt-4 mb-2'>
 <p>Part Number</p>
 
-<p className='sell-text'>NXO-I9-S13-10D</p>
+<p className='sell-text'>NXOQFP-I9-S13-10D</p>
 </div>
 
 <div className='sub-content d-flex justify-content-start'>
@@ -214,7 +214,7 @@ with SFF-8436, SFF-8636</p>
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-I9-S13-10D is a Four-Channel Parallel SM Fibers QSFP+ transceiver for 40GbE and
+ <p>NXOQFP-I9-S13-10D is a Four-Channel Parallel SM Fibers QSFP+ transceiver for 40GbE and
 InfiniBand DDR, QDR, SDR application especially in
 Data Center & Storage networks. The QSFP full- duplex optical module with MPO-12 receptacle offers 4 independent transmitter and receiver channels each capable of 10.3Gbps operation for an aggregate data rate of 41.2Gbps up to SMF 10km optical links.
 

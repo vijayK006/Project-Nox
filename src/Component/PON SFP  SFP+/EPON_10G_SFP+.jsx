@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const EPON_10G_SFP = () => { 
 
-  let PartNumber = "NXO-H2-PE2-20P";
+  let PartNumber = "NXOSPP-H2-PE2-20P";
   let productName ="10G EPON SFP+ Symmetric ONU Transceiver  Hot Pluggable, SC, Tx1270nm DFB / Rx1577nm, Single-Fiber, 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -215,7 +215,7 @@ const EPON_10G_SFP = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-H2-PE2-20P Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance un-cooled 1270nm DFB transmitter and high sensitivity 1577nm APD-TIA receiver provide superior performance for 10G EPON ONU PR30 applications.
+ NXOSPP-H2-PE2-20P Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance un-cooled 1270nm DFB transmitter and high sensitivity 1577nm APD-TIA receiver provide superior performance for 10G EPON ONU PR30 applications.
 
 </p>
 </div>
@@ -291,7 +291,7 @@ const EPON_10G_SFP = () => {
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-H2-PE2-20Px)</td>
+          <td>Case Operating Temp.(NXOSPP-H2-PE2-20Px)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ const EPON_10G_SFP = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-H2-PE2-20Pxi)</td>
+          <td>Case Operating Temp.(NXOSPP-H2-PE2-20Pxi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

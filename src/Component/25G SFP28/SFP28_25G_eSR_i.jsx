@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_25G_eSR_i = () => {
-  let PartNumber = "NXO-N7-M85-X3DQi";
+  let PartNumber = "NXOSPP-N7-M85-X3DQi";
   let productName = "25G SFP28 eSR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM";
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -221,7 +221,7 @@ const SFP28_25G_eSR_i = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N7-M85-X3DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE-SR
+ <p>NXOSPP-N7-M85-X3DQi is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 25GBASE-SR
 Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
 
 </p>
@@ -300,7 +300,7 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N7-M85-X1DQ)</td>
+          <td>Case Operating Temp. (NXOSPP-N7-M85-X1DQ)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -309,7 +309,7 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N7-M85-X1DQi)</td>
+          <td>Case Operating Temp. (NXOSPP-N7-M85-X1DQi)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>
@@ -328,7 +328,7 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
 
 
         <tr>
-          <td>Supply Current (NXO-N7-M85-X1DQ)</td>
+          <td>Supply Current (NXOSPP-N7-M85-X1DQ)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -338,7 +338,7 @@ Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
        
        
         <tr>
-          <td>Supply Current (NXO-N7-M85-X1DQi)</td>
+          <td>Supply Current (NXOSPP-N7-M85-X1DQi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

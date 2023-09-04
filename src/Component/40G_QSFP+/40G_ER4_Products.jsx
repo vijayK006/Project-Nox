@@ -70,7 +70,7 @@ const Product_40G_ER4 = () => {
   <h5>40G QSFP+ LR4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 </h5>
-<p>Part Number : NXO-I7-C13-40D</p>
+<p>Part Number : NXOQFP-I7-C13-40D</p>
 <h4>Feature's</h4>
 <p>Supports QDR / DDR InfiniBand</p>
 <p>CWDM DFB array transmitter </p>
@@ -94,7 +94,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
   <h5>40G QSFP+ LR4 Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 10KM, DDM
 </h5>
-<p>Part Number : NXO-I7-C13-40Di</p>
+<p>Part Number : NXOQFP-I7-C13-40Di</p>
 <h4>Feature's</h4>
 <p>Supports QDR / DDR InfiniBand</p>
 <p>CWDM DFB array transmitter </p>

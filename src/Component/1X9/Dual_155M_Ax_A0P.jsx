@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_155M_Ax_A0P = () => { 
 
-  let PartNumber = "NXO-Ax-S15-A0P";
+  let PartNumber = "NXO1X9-Ax-S15-A0P";
   let productName ="125M / 155M 1X9-100ZX100 TransceiverDuplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection";
 
 
@@ -217,7 +217,7 @@ const Dual_155M_Ax_A0P = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-Ax-S15-A0P 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity PIN receiver provide superior
+NXO1X9-Ax-S15-A0P 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to SMF 100km optical links.
 
 </p>
@@ -261,7 +261,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
        
 
         <tr>
-          <td>Supply Voltage(NXO-Ax-S15-A0P) </td>
+          <td>Supply Voltage(NXO1X9-Ax-S15-A0P) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
@@ -271,7 +271,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
         
         <tr>
-          <td>Supply Voltage(NXO-Ax-S15-A0P5) </td>
+          <td>Supply Voltage(NXO1X9-Ax-S15-A0P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -304,7 +304,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-Ax-S15-A0P)</td>
+          <td>Case Operating Temp. (NXO1X9-Ax-S15-A0P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -313,7 +313,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-Ax-S15-A0Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-Ax-S15-A0Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -322,7 +322,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-Ax-S15-A0P)</td>
+          <td>Supply Voltage (NXO1X9-Ax-S15-A0P)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -330,7 +330,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-Ax-S15-A0P5)</td>
+          <td>Supply Voltage (NXO1X9-Ax-S15-A0P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -339,7 +339,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
        
         <tr>
-          <td>Supply Current(NXO-Ax-S15-A0P)</td>
+          <td>Supply Current(NXO1X9-Ax-S15-A0P)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -347,7 +347,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current(NXO-Ax-S15-A0Pi)</td>
+          <td>Supply Current(NXO1X9-Ax-S15-A0Pi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -380,7 +380,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

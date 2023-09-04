@@ -26,7 +26,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_02Di = () => { 
 
-  let PartNumber = "NXO-E7-S13-02Di";
+  let PartNumber = "NXOSFP-E7-S13-02Di";
   let productName ="2.5G SFP OC-48 SR / STM-16 I-16 Transceiver Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM";
 
   const [name, setName] = useState("");
@@ -316,7 +316,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-S13-02D)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-S13-02D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -325,7 +325,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-S13-02Di)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-S13-02Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -343,7 +343,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-S13-02D)</td>
+          <td>Supply Current (NXOSFP-E7-S13-02D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -352,7 +352,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 2km optical link
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-S13-02Di)</td>
+          <td>Supply Current (NXOSFP-E7-S13-02Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

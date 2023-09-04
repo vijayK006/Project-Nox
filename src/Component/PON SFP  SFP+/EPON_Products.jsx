@@ -76,7 +76,7 @@ const EPON_Products = () => {
 Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-H2-PE2-20P</p>
+<p>Part Number : NXOSPP-H2-PE2-20P</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFP MSA</p>
 <p>Simplex SC/UPC connector</p>
@@ -103,7 +103,7 @@ Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM
 Hot Pluggable, Bidi SC, Tx1577nm EML / Rx1270nm APD, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-H2-PE2-20Pi</p>
+<p>Part Number : NXOSPP-H2-PE2-20Pi</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFP MSA</p>
 <p>Simplex SC/UPC connector</p>

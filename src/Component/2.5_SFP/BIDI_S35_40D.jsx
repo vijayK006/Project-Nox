@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_S35_40D = () => { 
 
-  let PartNumber = "NXO-E8-S35-40D";
+  let PartNumber = "NXOSFP-E8-S35-40D";
   let productName ="2.5G SFP OC-48 LR-1 / STM-16 L16.1 Transceiver Hot Pluggable, Bidi LC, Tx1310nm DFB / Rx1550nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -215,7 +215,7 @@ const BIDI_S35_40D = () => {
   
  <p>
 
-NXO-E8-S35-40D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+NXOSFP-E8-S35-40D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical links.
@@ -294,7 +294,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical lin
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-CC-S35-40D)</td>
+          <td>Case Operating Temp. (NXOSFP-CC-S35-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -303,7 +303,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical lin
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-CC-S35-40Di)</td>
+          <td>Case Operating Temp. (NXOSFP-CC-S35-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,7 +321,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical lin
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S35-40D)</td>
+          <td>Supply Current (NXOSFP-CC-S35-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -330,7 +330,7 @@ performance for SONET OC-48 / SDH STM-16 applications up to SMF 40km optical lin
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S35-40Di)</td>
+          <td>Supply Current (NXOSFP-CC-S35-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

@@ -76,7 +76,7 @@ const Products_SFP_CWDM = () => {
   2.5G SFP OC-48 / STM-16 CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 20dB(40KM), DDM
 </h5>
-<p>Part Number : NXO-E7-Cxx-b20D</p>
+<p>Part Number : NXOSFP-E7-Cxx-b20D</p>
 <h4>Feature's</h4> 
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -107,7 +107,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 20dB(40KM), DDM
   2.5G SFP OC-48 / STM-16 CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 20dB(40KM), DDM
 </h5>
-<p>Part Number : NXO-E7-Cxx-b20Di</p>
+<p>Part Number : NXOSFP-E7-Cxx-b20Di</p>
 <h4>Feature's</h4> 
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -139,7 +139,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b26D</p>
+<p>Part Number : NXOSFP-E7-Cxx-b26D</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -170,7 +170,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b26Di</p>
+<p>Part Number : NXOSFP-E7-Cxx-b26Di</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -202,7 +202,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b30D</p>
+<p>Part Number : NXOSFP-E7-Cxx-b30D</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -234,7 +234,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b30Di</p>
+<p>Part Number : NXOSFP-E7-Cxx-b30Di</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -264,7 +264,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b30DM</p>
+<p>Part Number : NXOSFP-E7-Cxx-b30DM</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -293,7 +293,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(100KM), DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b30DMi</p>
+<p>Part Number : NXOSFP-E7-Cxx-b30DMi</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -323,7 +323,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b26DM</p>
+<p>Part Number : NXOSFP-E7-Cxx-b26DM</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -353,7 +353,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-Cxx-b26DMi</p>
+<p>Part Number : NXOSFP-E7-Cxx-b26DMi</p>
 <h4>Feature's</h4>
 
 <p>Link budget 30dB over SM fiber at 2.5G
@@ -384,7 +384,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-M85-X3DM</p>
+<p>Part Number : NXOSFP-E7-M85-X3DM</p>
 <h4>Feature's</h4>
 
 <p>850nm VCSEL laser transmitter
@@ -415,7 +415,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-E7-M85-X3DMi</p>
+<p>Part Number : NXOSFP-E7-M85-X3DMi</p>
 <h4>Feature's</h4>
 
 <p>850nm VCSEL laser transmitter

@@ -75,7 +75,7 @@ const SFP_Dual_1_25_Products = () => {
   1.25G SFP 1000BASE-SX2 Transceiver
 Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
 </h5>
-<p>Part Numebr : NXO-C7-M13-02D</p>
+<p>Part Numebr : NXOSFP-C7-M13-02D</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -101,7 +101,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
   1.25G SFP 1000BASE-SX2 Transceiver
 Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
 </h5>
-<p>Part Numebr : NXO-C7-M13-02Di</p>
+<p>Part Numebr : NXOSFP-C7-M13-02Di</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -127,7 +127,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
   1.25G SFP 1000BASE-SX Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
 </h5>
-<p>Part Number : NXO-C7-M85-X5D</p>
+<p>Part Number : NXOSFP-C7-M85-X5D</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Duplex LC connector</p>
@@ -152,7 +152,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
   1.25G SFP 1000BASE-SX Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
 </h5>
-<p>Part Number : NXO-C7-M85-X5Di</p>
+<p>Part Number : NXOSFP-C7-M85-X5Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Duplex LC connector</p>
@@ -179,7 +179,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S13-10D</p>
+<p>Part Number : NXOSFP-C7-S13-10D</p>
 <h4>Feature's</h4> 
 <p>Duplex LC connector</p>
 <p>Link distance 10km over SM fiber</p>
@@ -206,7 +206,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S13-10Di</p>
+<p>Part Number : NXOSFP-C7-S13-10Di</p>
 <h4>Feature's</h4> 
 <p>Duplex LC connector</p>
 <p>Link distance 10km over SM fiber</p>
@@ -234,7 +234,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-C7-S13-10DR</p>
+<p>Part Number : NXOSFP-C7-S13-10DR</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Duplex LC connector</p>
@@ -262,7 +262,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-C7-S13-10DRi</p>
+<p>Part Number : NXOSFP-C7-S13-10DRi</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Duplex LC connector</p>
@@ -289,7 +289,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 10KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S13-20D</p>
+<p>Part Number : NXOSFP-C7-S13-20D</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>1310nm FP laser transmitter</p>
@@ -316,7 +316,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S13-20Di</p>
+<p>Part Number : NXOSFP-C7-S13-20Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>1310nm FP laser transmitter</p>
@@ -343,7 +343,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S13-20DM</p>
+<p>Part Number : NXOSFP-C7-S13-20DM</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Link distance 20km over SM fiber</p>
@@ -370,7 +370,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S13-20DMi</p>
+<p>Part Number : NXOSFP-C7-S13-20DMi</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Link distance 20km over SM fiber</p>
@@ -398,7 +398,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-C7-S13-20DR</p>
+<p>Part Number : NXOSFP-C7-S13-20DR</p>
 <h4>Feature's</h4> 
 <p>Compliant with IEEE802.3z Gigabit Ethernet</p>
 <p>1310nm FP laser transmitter</p>
@@ -426,7 +426,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-C7-S13-20DRi</p>
+<p>Part Number : NXOSFP-C7-S13-20DRi</p>
 <h4>Feature's</h4> 
 <p>Compliant with IEEE802.3z Gigabit Ethernet</p>
 <p>1310nm FP laser transmitter</p>
@@ -454,7 +454,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-C7-S13-40D</p>
+<p>Part Number : NXOSFP-C7-S13-40D</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Link distance 40km over SM fiber</p>
@@ -482,7 +482,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-C7-S13-40Di</p>
+<p>Part Number : NXOSFP-C7-S13-40Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Link distance 40km over SM fiber</p>
@@ -508,7 +508,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
   1.25G SFP 1000BASE-LHX(EX) Transceiver
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 </h5>
-<p>Part Number : NXO-C7-S13-60D</p>
+<p>Part Number : NXOSFP-C7-S13-60D</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Link distance 60km over SM fiber</p>
@@ -534,7 +534,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
   1.25G SFP 1000BASE-LHX(EX) Transceiver
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 </h5>
-<p>Part Number : NXO-C7-S13-60Di</p>
+<p>Part Number : NXOSFP-C7-S13-60Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Link distance 60km over SM fiber</p>
@@ -561,7 +561,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 50KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S15-50D</p>
+<p>Part Number : NXOSFP-C7-S15-50D</p>
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
 <p>Compatible with Fiber Channel 100-SM-LL-V</p>
@@ -588,7 +588,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 50KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 50KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S15-50Di</p>
+<p>Part Number : NXOSFP-C7-S15-50Di</p>
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
 <p>Compatible with Fiber Channel 100-SM-LL-V</p>
@@ -614,7 +614,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 50KM, DDM
   1.25G SFP 1000BASE-ZX Transceiver
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-C7-S15-80D</p>
+<p>Part Number : NXOSFP-C7-S15-80D</p>
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
 <p>Compatible with Fiber Channel 100-SM-LL-V</p>
@@ -640,7 +640,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
   1.25G SFP 1000BASE-ZX Transceiver
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-C7-S15-80Di</p>
+<p>Part Number : NXOSFP-C7-S15-80Di</p>
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
 <p>Compatible with Fiber Channel 100-SM-LL-V</p>
@@ -667,7 +667,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S15-A0D</p>
+<p>Part Number : NXOSFP-C7-S15-A0D</p>
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
 <p>Link distance 100km over SM fiber</p>
@@ -694,7 +694,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 </h5>
-<p>Part Number : NXO-C7-S15-A0Di</p>
+<p>Part Number : NXOSFP-C7-S15-A0Di</p>
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
 <p>Link distance 100km over SM fiber</p>
@@ -720,7 +720,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
   1.25G SFP 1000BASE-EZX Transceiver
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 </h5>
-<p>Part Number : NXO-C7-S15-A2D</p>
+<p>Part Number : NXOSFP-C7-S15-A2D</p>
 <h4>Feature's</h4> 
 <p>APD receiver</p>
 <p>Link distance 120km over SM fiber</p>
@@ -746,7 +746,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
   1.25G SFP 1000BASE-EZX Transceiver
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 </h5>
-<p>Part Number : NXO-C7-S15-A2Di</p>
+<p>Part Number : NXOSFP-C7-S15-A2Di</p>
 <h4>Feature's</h4> 
 <p>APD receiver</p>
 <p>Link distance 120km over SM fiber</p>

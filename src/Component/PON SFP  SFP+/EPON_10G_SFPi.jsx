@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const EPON_10G_SFPi = () => { 
 
-  let PartNumber = "NXO-H2-PE2-20Pi";
+  let PartNumber = "NXOSPP-H2-PE2-20Pi";
   let productName ="10G EPON SFP+ Symmetric ONU Transceiver  Hot Pluggable, SC, Tx1270nm DFB / Rx1577nm, Single-Fiber, 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -291,7 +291,7 @@ const EPON_10G_SFPi = () => {
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-H2-PE2-20Px)</td>
+          <td>Case Operating Temp.(NXOSPP-H2-PE2-20Px)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ const EPON_10G_SFPi = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-H2-PE2-20Pxi)</td>
+          <td>Case Operating Temp.(NXOSPP-H2-PE2-20Pxi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

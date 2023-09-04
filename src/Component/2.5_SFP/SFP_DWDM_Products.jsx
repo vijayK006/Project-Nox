@@ -72,7 +72,7 @@ const SFP_DWDM_Products = () => {
   <h5>1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-E7-Dxx-80D</p>
+<p>Part Number : NXOSFP-E7-Dxx-80D</p>
 <h4>Feature's</h4>
 <p>Single +3.3V power supply</p>
 <p>Link distance 80km over SM fiber</p>
@@ -95,7 +95,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   <h5>1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-E7-Dxx-80Di</p>
+<p>Part Number : NXOSFP-E7-Dxx-80Di</p>
 
 <h4>Feature's</h4>
 <p>Cooled DWDM DFB laser transmitter</p>
@@ -119,7 +119,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   <h5>1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-E7-Dxx-A2D</p>
+<p>Part Number : NXOSFP-E7-Dxx-A2D</p>
 
 <h4>Feature's</h4>
 <p>Cooled DWDM DFB laser transmitter</p>
@@ -143,7 +143,7 @@ Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
   <h5>1.25G SFP DWDM Transceiver
 Hot Pluggable, Duplex LC, DWDM DFB, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-E7-Dxx-A2Di</p>
+<p>Part Number : NXOSFP-E7-Dxx-A2Di</p>
 
 <h4>Feature's</h4>
 <p>Cooled DWDM DFB laser transmitter</p>

@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_67_X3D = () => {
 
-    let PartNumber = "NXO-67-M85-X3D";
+    let PartNumber = "NXOSPP-67-M85-X3D";
     let productName = "6.144G SFP+ SR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM";
 
     const [name, setName] = useState("");
@@ -291,7 +291,7 @@ performance for OBSAI & CPRI Option #6 applications up to MMF OM3 300m optical l
                                     <tbody>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-67-M85-X3D)</td>
+                                            <td>Case Operating Temp. (NXOSPP-67-M85-X3D)</td>
                                             <td>Top</td>
                                             <td>0</td>
                                             <td>-</td>
@@ -300,7 +300,7 @@ performance for OBSAI & CPRI Option #6 applications up to MMF OM3 300m optical l
                                         </tr>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-67-M85-X3Di)</td>
+                                            <td>Case Operating Temp. (NXOSPP-67-M85-X3Di)</td>
                                             <td>Top</td>
                                             <td>-40</td>
                                             <td>-</td>
@@ -318,7 +318,7 @@ performance for OBSAI & CPRI Option #6 applications up to MMF OM3 300m optical l
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-67-M85-X3D)</td>
+                                            <td>Supply Current (NXOSPP-67-M85-X3D)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>
@@ -327,7 +327,7 @@ performance for OBSAI & CPRI Option #6 applications up to MMF OM3 300m optical l
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-67-M85-X3Di)</td>
+                                            <td>Supply Current (NXOSPP-67-M85-X3Di)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>

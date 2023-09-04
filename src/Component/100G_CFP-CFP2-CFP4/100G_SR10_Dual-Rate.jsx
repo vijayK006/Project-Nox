@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const SR10_DuleRate_100G = () => {
    
-  let PartNumber = "NXO-K9-M85-X1DR";
+  let PartNumber = "NXOCFP2-K9-M85-X1DR";
   let productName = "100G CFP2 SR10 Dual Rate Transceiver Hot Pluggable, MPO / MTP-24, 850nm VCSEL, MMF, 100M, DDM";
   
   const [name, setName] = useState("");
@@ -248,7 +248,7 @@ Link length up to 100m over OM3 MMF and
   <h2>Overview</h2>
   
  <p>
- NXO-K9-M85-X1DR is a parallel fiber optical transceiver module for dual rate 103.1Gbps / 112Gbps data transmission applications with uncooled 850nm VCSEL array transmitter and PIN array receiver. It is Ideally suited for datacom, storage area network (SAN/NAS) and OTN networks applications based on IEEE 802.3ba 100GBASE-SR10 and OTN standards. Designed for short range multi-lane data communication, the CFP2 optical module with MPO-24 receptacle integrates ten independent transmitter and receiver channels each capable 10.3125G to 11.181Gbps operation for 
+ NXOCFP2-K9-M85-X1DR is a parallel fiber optical transceiver module for dual rate 103.1Gbps / 112Gbps data transmission applications with uncooled 850nm VCSEL array transmitter and PIN array receiver. It is Ideally suited for datacom, storage area network (SAN/NAS) and OTN networks applications based on IEEE 802.3ba 100GBASE-SR10 and OTN standards. Designed for short range multi-lane data communication, the CFP2 optical module with MPO-24 receptacle integrates ten independent transmitter and receiver channels each capable 10.3125G to 11.181Gbps operation for 
  an aggregate data rate of 103.1Gbps to 112Gbps up to MMF OM4 100m optical links.
 </p>
 </div>

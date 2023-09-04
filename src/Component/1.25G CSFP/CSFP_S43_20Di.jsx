@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CSFP_S43_20Di = () => { 
 
-  let PartNumber = "NXO-CC-S43-20Di";
+  let PartNumber = "NXOSFP-CC-S43-20Di";
   let productName ="1.25G SFP 1000BX-D Compact 2CH Bidi Transceiver Hot Pluggable, Dual Bidi LC, Tx1490nm DFB / Rx1310nm, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -295,7 +295,7 @@ optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-CC-S43-20D)</td>
+          <td>Case Operating Temp. (NXOSFP-CC-S43-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -304,7 +304,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-CC-S43-20Di)</td>
+          <td>Case Operating Temp. (NXOSFP-CC-S43-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -322,7 +322,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S43-20D)</td>
+          <td>Supply Current (NXOSFP-CC-S43-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -331,7 +331,7 @@ optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-CC-S43-20Di)</td>
+          <td>Supply Current (NXOSFP-CC-S43-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

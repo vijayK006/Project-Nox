@@ -74,7 +74,7 @@ const SR4_40G_Products = () => {
 
 </h5>
 
-<p>Part Number : NXO-I9-M85-X1D</p>
+<p>Part Number : NXOQFP-I9-M85-X1D</p>
 
 <h4>Feature's</h4> 
 <p>Support InfiniBand QDR
@@ -107,7 +107,7 @@ const SR4_40G_Products = () => {
   40G QSFP+ SR4 Transceiver Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 100M, DDM
 </h5>
 
-<p>Part Number : NXO-I9-M85-X1Di</p>
+<p>Part Number : NXOQFP-I9-M85-X1Di</p>
 
 <h4>Feature's</h4> 
 <p>Support InfiniBand QDR

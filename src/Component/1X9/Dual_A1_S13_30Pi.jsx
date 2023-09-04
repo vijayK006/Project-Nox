@@ -32,7 +32,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_A1_S13_30Pi = () => { 
 
-  let PartNumber = "NXO-A1-S13-30Pi";
+  let PartNumber = "NXO1X9-A1-S13-30Pi";
   let productName ="125/155Mbps 1x9-100LX Transceiver Duplex SC/ST/FC, 1310nm FP, Single Mode, 30KM";
 
 
@@ -303,7 +303,7 @@ provide superior performance for SONET OC3/ SDH STM1 and Ethernet applications u
       <tbody>
 
       <tr>
-          <td>Operating Temp. (NXO-Ax-S13-30P)</td>
+          <td>Operating Temp. (NXO1X9-Ax-S13-30P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -312,7 +312,7 @@ provide superior performance for SONET OC3/ SDH STM1 and Ethernet applications u
         </tr>
 
         <tr>
-          <td>Operating Temp. (NXO-Ax-S13-30Pi)</td>
+          <td>Operating Temp. (NXO1X9-Ax-S13-30Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -367,7 +367,7 @@ provide superior performance for SONET OC3/ SDH STM1 and Ethernet applications u
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

@@ -72,7 +72,7 @@ const BIDI_4WDM_Products = () => {
 Hot Pluggable, Bidi LC, LAN-WDM
 Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-K8-L13-20De</p>
+<p>Part Number : NXOQ28-K8-L13-20De</p>
 <h4>Feature's</h4>
 <p>O-Band LWDM DFB transmitter</p>
 <p>Single 3.3V power supply</p>
@@ -96,7 +96,7 @@ Tx 1273.55~1286.66nm DFB / Rx 1295.56~1309.14nm, SMF 20KM, DDM
 Hot Pluggable, Bidi LC, LAN-WDM
 Tx 1295.56~1309.14nm DFB / Rx 1273.55~1286.66nm, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-K8-L12-20De</p>
+<p>Part Number : NXOQ28-K8-L12-20De</p>
 <h4>Feature's</h4>
 <p>Compatible with 4WDM-20 MSA</p>
 <p>Simplex LC connector</p>

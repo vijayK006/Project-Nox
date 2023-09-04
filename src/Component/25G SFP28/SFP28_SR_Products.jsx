@@ -71,7 +71,7 @@ const SFP28_SR_Products = () => {
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
 
 </h5>
-<p>Part Number : NXO-N7-M85-X1DQ</p>
+<p>Part Number : NXOSPP-N7-M85-X1DQ</p>
 <h4>Feature's</h4>
 <p>Hot Pluggable</p>
 <p>850nm VCSEL laser transmitter</p>
@@ -95,7 +95,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
 
 </h5>
-<p>Part Number : NXO-N7-M85-X1DQi</p>
+<p>Part Number : NXOSPP-N7-M85-X1DQi</p>
 <h4>Feature's</h4>
 <p>Hot Pluggable</p>
 <p>850nm VCSEL laser transmitter</p>
@@ -118,7 +118,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 100M, DDM
   <h5>25G SFP28 eSR Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM
 </h5>
-<p>Part Number : NXO-N7-M85-X3DQ</p>
+<p>Part Number : NXOSPP-N7-M85-X3DQ</p>
 <h4>Feature's</h4>
 <p>Compliant with CPRI option10</p>
 <p>Data Rate up to 25.78Gbps</p>
@@ -141,7 +141,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM
   <h5>25G SFP28 eSR Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM
 </h5>
-<p>Part Number : NXO-N7-M85-X3DQi</p>
+<p>Part Number : NXOSPP-N7-M85-X3DQi</p>
 <h4>Feature's</h4>
 <p>Compliant with CPRI option10</p>
 <p>Data Rate up to 25.78Gbps</p>
@@ -164,7 +164,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM
   <h5>10G / 25G SFP28 eSR Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate
 </h5>
-<p>Part Number : NXO-N7-M85-X3DR</p>
+<p>Part Number : NXOSPP-N7-M85-X3DR</p>
 <h4>Feature's</h4>
 <p>Compliant with CPRI option10</p>
 <p>Compliant with SFF-8402 SFP28 MSA</p>
@@ -187,7 +187,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate
   <h5>10G / 25G SFP28 eSR Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate
 </h5>
-<p>Part Number : NXO-N7-M85-X3DRi</p>
+<p>Part Number : NXOSPP-N7-M85-X3DRi</p>
 <h4>Feature's</h4>
 <p>Compliant with CPRI option10</p>
 <p>Compliant with SFF-8402 SFP28 MSA</p>

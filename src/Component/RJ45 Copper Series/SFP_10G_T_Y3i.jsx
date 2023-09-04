@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP_10G_T_Y3i = () => {
-  let PartNumber = "NXO-HJ-T11-Y3i";
+  let PartNumber = "NXOSPP-HJ-T11-Y3i";
   let productName = "10GBASE-T SFP+ Transceiver Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp";
 
   const [name, setName] = useState("");
@@ -254,7 +254,7 @@ Support 10GBASE-T
   
  <p>
 
-The NXO-HJ-T11-Y3i Small Form Factor Pluggable SFP+ Copper transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA)
+The NXOSPP-HJ-T11-Y3i Small Form Factor Pluggable SFP+ Copper transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA)
 Specification. The High performance designed is integrated full duplex data link at 10Gbps over four pair Category 6a/7 cable up to 30m links. It is specifically
 designed for high speed communication links that require 10 Gigabit Ethernet over copper cable in
 Industrial Temperature(-40~+85°C) applications.
@@ -417,7 +417,7 @@ Industrial Temperature(-40~+85°C) applications.
  {/* <div id="menu4" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
-  <p>As defined by the QSFP28 MSA(SFF-8472) , NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
+  <p>As defined by the QSFP28 MSA(SFF-8472) , NXOSPP QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
 </p>
 
 <ul>

@@ -71,7 +71,7 @@ const SFP28_25G_CWDM_Products = () => {
 
 
 </h5>
-<p>Part Number : NXO-N7-Cxx-10DQ</p>
+<p>Part Number : NXOSPP-N7-Cxx-10DQ</p>
 
 <h4>Feature's</h4>
 <p>Maximum Power consumption 1.4W</p>
@@ -96,7 +96,7 @@ const SFP28_25G_CWDM_Products = () => {
 
 
 </h5>
-<p>Part Number : NXO-N7-Cxx-10DQi</p>
+<p>Part Number : NXOSPP-N7-Cxx-10DQi</p>
 
 <h4>Feature's</h4>
 <p>Maximum Power consumption 1.4W</p>

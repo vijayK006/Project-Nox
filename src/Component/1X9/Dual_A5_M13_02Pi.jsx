@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_A5_M13_02Pi = () => { 
 
-  let PartNumber = "NXO-A5-M13-02Pi";
+  let PartNumber = "NXO1X9-A5-M13-02Pi";
   let productName ="125/155Mbps 1x9-100FX Transceiver Duplex SC/ST/FC, 1310nm FP, Multi Mode, 2KM";
 
 
@@ -278,7 +278,7 @@ const Dual_A5_M13_02Pi = () => {
 
         </tr>
         {/* <tr>
-          <td>Supply Voltage(NXO-Ax-M13-02P5) </td>
+          <td>Supply Voltage(NXO1X9-Ax-M13-02P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -317,7 +317,7 @@ const Dual_A5_M13_02Pi = () => {
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
-          <td>NXO-Ax-M13-02P</td>
+          <td>NXO1X9-Ax-M13-02P</td>
         </tr>
         <tr>
           <td>Operating Temperature</td>
@@ -326,7 +326,7 @@ const Dual_A5_M13_02Pi = () => {
           <td>-</td>
           <td>+85</td>
           <td>°C</td>
-          <td>NXO-Ax-M13-02Pi</td>
+          <td>NXO1X9-Ax-M13-02Pi</td>
 
         </tr>
       
@@ -383,7 +383,7 @@ const Dual_A5_M13_02Pi = () => {
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
 
-  <p>As defined by the SFP MSA (SFF-8472)  NXO SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
+  <p>As defined by the SFP MSA (SFF-8472)  NXO1X9 SFP transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters</p>
   <ul>
     <li>Transceiver temperature</li>
     <li>Laser bias current</li>

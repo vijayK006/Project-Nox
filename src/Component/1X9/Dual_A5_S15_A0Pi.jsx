@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_A5_S15_A0Pi = () => { 
 
-  let PartNumber = "NXO-A5-S15-A0Pi";
+  let PartNumber = "NXO1X9-A5-S15-A0Pi";
   let productName ="125M / 155M 1X9-100ZX100 TransceiverDuplex SC/FC/ST, 1550nm DFB, SMF 100KM, LVPECL / PECL Signal Detection";
 
 
@@ -261,7 +261,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
        
 
         <tr>
-          <td>Supply Voltage(NXO-Ax-S15-A0P) </td>
+          <td>Supply Voltage(NXO1X9-Ax-S15-A0P) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
@@ -271,7 +271,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
         
         <tr>
-          <td>Supply Voltage(NXO-Ax-S15-A0P5) </td>
+          <td>Supply Voltage(NXO1X9-Ax-S15-A0P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -304,7 +304,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-Ax-S15-A0P)</td>
+          <td>Case Operating Temp. (NXO1X9-Ax-S15-A0P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -313,7 +313,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-Ax-S15-A0Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-Ax-S15-A0Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -322,7 +322,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
 
         <tr>
-          <td>Supply Voltage (NXO-Ax-S15-A0P)</td>
+          <td>Supply Voltage (NXO1X9-Ax-S15-A0P)</td>
           <td>Vcc</td>
           <td>+3.13</td>
           <td>+3.3</td>
@@ -330,7 +330,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>V</td>
         </tr>
         <tr>
-          <td>Supply Voltage (NXO-Ax-S15-A0P5)</td>
+          <td>Supply Voltage (NXO1X9-Ax-S15-A0P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
@@ -339,7 +339,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
         </tr>
        
         <tr>
-          <td>Supply Current(NXO-Ax-S15-A0P)</td>
+          <td>Supply Current(NXO1X9-Ax-S15-A0P)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -347,7 +347,7 @@ performance for Fast Ethernet and SDH STM-1 / SONET OC-3 and applications up to 
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current(NXO-Ax-S15-A0Pi)</td>
+          <td>Supply Current(NXO1X9-Ax-S15-A0Pi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

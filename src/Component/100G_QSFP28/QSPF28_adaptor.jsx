@@ -26,7 +26,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const QSPF28_adaptor = () => {
-  let PartNumber = "NXO-KV-SPP-01"
+  let PartNumber = "NXOQ2S-KV-SPP-01"
   let productName = "100G QSFP28 / QSFP+ to SFP28 / SFP+ Adapter"
 
   const [name, setName] = useState("");

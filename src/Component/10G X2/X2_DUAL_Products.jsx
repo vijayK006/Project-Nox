@@ -75,7 +75,7 @@ const X2_DUAL_Products = () => {
   <h5>10G X2-LR Transceiver
 Hot Pluggable, Duplex SC, 1310nm DFB, Single Mode, 10KM, DDM
 </h5>
-<p>Part Number : NXO-H1-S13-10D</p>
+<p>Part Number : NXOXF2-H1-S13-10D</p>
 <h4>Feature's</h4>
 <p>Duplex SC connector</p>
 <p>Support DDM function</p>
@@ -98,7 +98,7 @@ Hot Pluggable, Duplex SC, 1310nm DFB, Single Mode, 10KM, DDM
   <h5>10G X2-ER Transceiver
 Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 40KM, DDM
 </h5>
-<p>Part Number : NXO-H1-S15-40D</p>
+<p>Part Number : NXOXF2-H1-S15-40D</p>
 <h4>Feature's</h4>
 <p>Duplex SC connector</p>
 <p>Support DDM function</p>
@@ -122,7 +122,7 @@ Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 40KM, DDM
   <h5>10G X2-ZR Transceiver
 Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 80KM, DDM
 </h5>
-<p>Part Number : NXO-H1-S15-80D</p>
+<p>Part Number : NXOXF2-H1-S15-80D</p>
 <h4>Feature's</h4>
 <p>Cooled 1550nm EA-DFB transmitter</p>
 <p>Support DDM function</p>
@@ -144,7 +144,7 @@ Hot Pluggable, Duplex SC, 1550nm EA-DFB, Single Mode, 80KM, DDM
 <div className='product-dec'>
   <h5>100G CFP2 to QSFP28 Adapter Module, Dual-Rate
 </h5>
-<p>Part Number : NXO-H1-M85-X3D</p>
+<p>Part Number : NXOXF2-H1-M85-X3D</p>
 <h4>Feature's</h4>
 <p>Hot Pluggable</p>
 <p>1 port QSFP28 TX&RX</p>

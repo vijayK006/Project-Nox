@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_19D_1_25G = () => { 
 
-  let PartNumber = "NXO-C7-Cxx-b19D";
+  let PartNumber = "NXOSFP-C7-Cxx-b19D";
   let productName ="1.25G SFP CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 19dB(40KM), DDM";
 
   const [name, setName] = useState("");
@@ -216,7 +216,7 @@ const CWDM_19D_1_25G = () => {
   
  <p>
 
- NXO-C7-Cxx-b19D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ NXOSFP-C7-Cxx-b19D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. There
 are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver provide superior performance for 1.25G CWDM applications up to SMF 19dB budget optical links.
 
@@ -294,7 +294,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-Cxx-b19D)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-Cxx-b19D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -303,7 +303,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-Cxx-b19Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-Cxx-b19Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,7 +321,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-Cxx-b19D)</td>
+          <td>Supply Current (NXOSFP-C7-Cxx-b19D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -330,7 +330,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-Cxx-b19Di)</td>
+          <td>Supply Current (NXOSFP-C7-Cxx-b19Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

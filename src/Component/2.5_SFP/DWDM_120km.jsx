@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_120km = () => { 
 
-  let PartNumber = "NXO-E7-Dxx-A2D  ";
+  let PartNumber = "NXOSFP-E7-Dxx-A2D  ";
   let productName ="1.25G SFP DWDM Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 120KM, DDM";
 
     const [name, setName] = useState("");
@@ -211,7 +211,7 @@ const DWDM_120km = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-E7-Dxx-A2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH61) to 1563.86nm(CH17). The high performance Cooled
+ <p>NXOSFP-E7-Dxx-A2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP Multi-Source Agreement (MSA) Specification. There are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH61) to 1563.86nm(CH17). The high performance Cooled
 DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G DWDM applications up to SMF 120km optical links.
 
 </p>
@@ -288,7 +288,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-Dxx-A2D)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-Dxx-A2D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -297,7 +297,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-Dxx-A2Di)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-Dxx-A2Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -315,7 +315,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Dxx-A2D)</td>
+          <td>Supply Current (NXOSFP-E7-Dxx-A2D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -324,7 +324,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 2.5G
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Dxx-A2Di)</td>
+          <td>Supply Current (NXOSFP-E7-Dxx-A2Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

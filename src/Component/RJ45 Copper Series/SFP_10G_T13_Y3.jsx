@@ -24,7 +24,7 @@ import {TiTickOutline} from 'react-icons/ti';
 
 
 const SFP_10G_T13_Y3 = () => {
-  let PartNumber = "NXO-HJ-T13-Y3";
+  let PartNumber = "NXOSPP-HJ-T13-Y3";
   let productName = "10GBASE-T SFP+ TransceiverHot Pluggable, RJ-45, Active Copper SFP+, 30M";
 
   const [name, setName] = useState("");
@@ -252,7 +252,7 @@ Support 10GBASE-T/ 5GBASE-T/ 2.5GBASE-T/ 1000BASE-T/ 100BASE-TX
   <h2>Overview</h2>
   
  <p>
-The NXO-HJ-Txx-Y3 Small Form Factor Pluggable SFP+ Copper transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA)
+The NXOSPP-HJ-Txx-Y3 Small Form Factor Pluggable SFP+ Copper transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA)
 Specification. The High performance designed is integrated full duplex data link at 10Gbps over four pair Category 6a/7 cable up to 30m links. It is specifically
 designed for high speed communication links that require 10 Gigabit Ethernet over copper cable.
 

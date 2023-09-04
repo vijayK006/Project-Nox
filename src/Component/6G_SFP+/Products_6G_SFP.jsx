@@ -81,7 +81,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
 
 
 </h5>
-<p>Part Number : NXO-67-M85-X3D
+<p>Part Number : NXOSPP-67-M85-X3D
 </p>
 
 <h4>Feature's</h4> 
@@ -114,7 +114,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
 
 
 </h5>
-<p>Part Number : NXO-67-M85-X3Di
+<p>Part Number : NXOSPP-67-M85-X3Di
 </p>
 
 <h4>Feature's</h4> 
@@ -149,7 +149,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-67-S13-02D
+<p>Part Number : NXOSPP-67-S13-02D
 </p>
 
 <h4>Feature's</h4> 
@@ -184,7 +184,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-67-S13-02Di
+<p>Part Number : NXOSPP-67-S13-02Di
 </p>
 
 <h4>Feature's</h4> 

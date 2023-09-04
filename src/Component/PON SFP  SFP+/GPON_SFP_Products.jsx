@@ -76,7 +76,7 @@ const GPON_SFP_Products = () => {
 Hot Pluggable, Bidi SC, Tx1310nm DFB / Rx1490nm APD, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-Cx-PG3-20B</p>
+<p>Part Number : NXOSPP-Cx-PG3-20B</p>
 <h4>Feature's</h4> 
 <p>Transmitter state indication (TX_SD)</p>
 <p>Link distance 20km over SM fiber</p>
@@ -103,7 +103,7 @@ Hot Pluggable, Bidi SC, Tx1310nm DFB / Rx1490nm APD, SMF 20KM, DDM
 Hot Pluggable, Bidi SC, Tx1310nm DFB / Rx1490nm APD, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-Cx-PG3-20Bi</p>
+<p>Part Number : NXOSPP-Cx-PG3-20Bi</p>
 <h4>Feature's</h4> 
 <p>Transmitter state indication (TX_SD)</p>
 <p>Link distance 20km over SM fiber</p>
@@ -131,7 +131,7 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E2-PG4-20B</p>
+<p>Part Number : NXOSPP-E2-PG4-20B</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>1244 Mbps Burst mode receiver</p>
@@ -159,7 +159,7 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-E2-PG4-20Bi</p>
+<p>Part Number : NXOSPP-E2-PG4-20Bi</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>1244 Mbps Burst mode receiver</p>
@@ -185,7 +185,7 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
   GPON OLT C+ 2.5G-Tx / 1.25G-Rx SFP Transceiver
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-E2-PG4-201</p>
+<p>Part Number : NXOSPP-E2-PG4-201</p>
 <h4>Feature's</h4> 
 <p>1310nm APD-TIA receiver</p>
 <p>1244 Mbps Burst mode receiver</p>
@@ -211,7 +211,7 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
   GPON OLT C+ 2.5G-Tx / 1.25G-Rx SFP Transceiver
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-E2-PG4-201i</p>
+<p>Part Number : NXOSPP-E2-PG4-201i</p>
 <h4>Feature's</h4> 
 <p>1310nm APD-TIA receiver</p>
 <p>1244 Mbps Burst mode receiver</p>
@@ -238,7 +238,7 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-E2-PG4-202</p>
+<p>Part Number : NXOSPP-E2-PG4-202</p>
 <h4>Feature's</h4> 
 <p>1310nm APD-TIA receiver</p>
 <p>1244 Mbps Burst mode receiver</p>
@@ -264,7 +264,7 @@ Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
   GPON OLT C+++ 7dBm 2.5G-Tx / 1.25G-Rx SFP Transceiver
 Hot Pluggable, Bidi SC, Tx1490nm DFB / Rx1310nm APD, SMF 20KM, DDM
 </h5>
-<p>Part Number : NXO-E2-PG4-203</p>
+<p>Part Number : NXOSPP-E2-PG4-203</p>
 <h4>Feature's</h4> 
 <p>1310nm APD-TIA receiver</p>
 <p>Link distance 20km over SM fiber</p>

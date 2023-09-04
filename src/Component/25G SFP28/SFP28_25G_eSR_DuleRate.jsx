@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_25G_eSR_DuleRate = () => {
-  let PartNumber = "NXO-N7-M85-X3DR";
+  let PartNumber = "NXOSPP-N7-M85-X3DR";
   let productName = "10G / 25G SFP28 eSR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM4 300M, DDM, Dual-Rate";
 
   const [name, setName] = useState("");
@@ -208,7 +208,7 @@ const SFP28_25G_eSR_DuleRate = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-N7-M85-X3DR is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 10GBASE-SR / 25GBASE-SR Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
+ <p>NXOSPP-N7-M85-X3DR is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for 10GBASE-SR / 25GBASE-SR Ethernet and CPRI Option #10 applications up to MMF OM4 300m optical links.
 
 
 </p>
@@ -287,7 +287,7 @@ const SFP28_25G_eSR_DuleRate = () => {
       <tbody>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N7-M85-X1DQ)</td>
+          <td>Case Operating Temp. (NXOSPP-N7-M85-X1DQ)</td>
           <td>TOP</td>
           <td>0</td>
           <td>-</td>
@@ -296,7 +296,7 @@ const SFP28_25G_eSR_DuleRate = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-N7-M85-X1DQi)</td>
+          <td>Case Operating Temp. (NXOSPP-N7-M85-X1DQi)</td>
           <td>TOP</td>
           <td>-40</td>
           <td>-</td>
@@ -315,7 +315,7 @@ const SFP28_25G_eSR_DuleRate = () => {
 
 
         <tr>
-          <td>Supply Current (NXO-N7-M85-X1DQ)</td>
+          <td>Supply Current (NXOSPP-N7-M85-X1DQ)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -325,7 +325,7 @@ const SFP28_25G_eSR_DuleRate = () => {
        
        
         <tr>
-          <td>Supply Current (NXO-N7-M85-X1DQi)</td>
+          <td>Supply Current (NXOSPP-N7-M85-X1DQi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

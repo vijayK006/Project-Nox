@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const HundredGLoopbackProduct = () => {
    
-  let PartNumber = "NXO-KX-XLB-xx-xx";
+  let PartNumber = "NXOQ28-KX-XLB-XX-XX";
   let productName = "100G QSFP28 Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 0~3.5W Power Consumption";
 
   const [name, setName] = useState("");
@@ -197,7 +197,7 @@ const HundredGLoopbackProduct = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-KX-XLB QSFP28 Loopback modules are compliant with the current QSFP28 Multi-Source Agreement
+ <p>NXOQ28-KX-XLB-XX-XX QSFP28 Loopback modules are compliant with the current QSFP28 Multi-Source Agreement
 ( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP28 port in the host
 system by looping back the electrical signal (optics are excluded). It provides an economical way to mimic 100G Ethernet in simulation testing environments.
 </p>

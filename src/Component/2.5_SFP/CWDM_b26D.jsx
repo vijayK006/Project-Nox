@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_b26D = () => { 
 
-  let PartNumber = "NXO-E7-Cxx-b26D";
+  let PartNumber = "NXOSFP-E7-Cxx-b26D";
   let productName ="2.5G SFP OC-48 LR-2 / STM-16 L16.2 CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 26dB(80KM), DDM";
 
   const [name, setName] = useState("");
@@ -244,7 +244,7 @@ RoHS Compliant
   
  <p>
 
-NXO-E7-Cxx-b26D Small Form Factor Pluggable
+NXOSFP-E7-Cxx-b26D Small Form Factor Pluggable
 SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. There
 are 18 wavelengths available from 1270nm to 1610nm
@@ -326,7 +326,7 @@ to SMF 26dB budget optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b26D)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-Cxx-b26D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -335,7 +335,7 @@ to SMF 26dB budget optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-E7-Cxx-b26Di)</td>
+          <td>Case Operating Temp. (NXOSFP-E7-Cxx-b26Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -353,7 +353,7 @@ to SMF 26dB budget optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b26D)</td>
+          <td>Supply Current (NXOSFP-E7-Cxx-b26D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -362,7 +362,7 @@ to SMF 26dB budget optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-E7-Cxx-b26Di)</td>
+          <td>Supply Current (NXOSFP-E7-Cxx-b26Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

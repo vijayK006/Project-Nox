@@ -71,7 +71,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M
 
 
 </h5>
-<p>Part Number : NXO-HJ-T11-Y3</p>
+<p>Part Number : NXOSPP-HJ-T11-Y3</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 
@@ -106,7 +106,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M
 
 
 </h5>
-<p>Part Number : NXO-HJ-T12-Y3</p>
+<p>Part Number : NXOSPP-HJ-T12-Y3</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 
@@ -142,7 +142,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M
 
 </h5>
 
-<p>Part Number : NXO-HJ-T13-Y3</p>
+<p>Part Number : NXOSPP-HJ-T13-Y3</p>
 
 
 <h4>Feature's</h4>
@@ -178,7 +178,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp
 
 
 </h5>
-<p>Part Number : NXO-HJ-T11-Y3i</p>
+<p>Part Number : NXOSPP-HJ-T11-Y3i</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 
@@ -214,7 +214,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp
 
 
 </h5>
-<p>Part Number : NXO-HJ-T22-Y3</p>
+<p>Part Number : NXOSPP-HJ-T22-Y3</p>
 <h4>Feature's</h4>
 <p>I2C 2-wire interface for serial ID
 </p>
@@ -247,7 +247,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 30M, I-Temp
 
 
 </h5>
-<p>Part Number : NXO-HJ-T11-Y8 </p>
+<p>Part Number : NXOSPP-HJ-T11-Y8 </p>
 <h4>Feature's</h4>
 <p>I2C 2-wire interface for serial ID
 </p>
@@ -280,7 +280,7 @@ Hot Pluggable, RJ-45, Active Copper SFP+, 80M
 
 
 </h5>
-<p>Part Number : NXO-HJ-Txx-Y3</p>
+<p>Part Number : NXOSPP-HJ-Txx-Y3</p>
 <h4>Feature's</h4>
 <p>Support RX_LOS function
 

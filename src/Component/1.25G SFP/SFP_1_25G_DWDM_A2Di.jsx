@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const SFP_1_25G_DWDM_A2Di = () => { 
 
-  let PartNumber = "NXO-C7-Dxx-A2Di";
+  let PartNumber = "NXOSFP-C7-Dxx-A2Di";
   let productName ="1.25G SFP DWDM Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 120KM, DDM";
 
   const [name, setName] = useState("");
@@ -294,7 +294,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 1.25
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-Dxx-A2D)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-Dxx-A2D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -303,7 +303,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 1.25
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-Dxx-A2Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-Dxx-A2Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,7 +321,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 1.25
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-Dxx-A2D)</td>
+          <td>Supply Current (NXOSFP-C7-Dxx-A2D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -330,7 +330,7 @@ DWDM DFB transmitter and high APD receiver provide superior performance for 1.25
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-Dxx-A2Di)</td>
+          <td>Supply Current (NXOSFP-C7-Dxx-A2Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

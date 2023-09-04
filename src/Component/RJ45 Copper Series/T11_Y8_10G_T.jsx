@@ -24,7 +24,7 @@ import {TiTickOutline} from 'react-icons/ti';
 
 
 const T11_Y8_10G_T = () => {
-  let PartNumber = "NXO-HJ-T11-Y8  ";
+  let PartNumber = "NXOSPP-HJ-T11-Y8  ";
   let productName = "10GBASE-T SFP+ Transceiver Hot Pluggable, RJ-45, Active Copper SFP+, 80M";
 
   const [name, setName] = useState("");
@@ -417,7 +417,7 @@ require 10 Gigabit Ethernet over copper cable.
  {/* <div id="menu4" class="container tab-pane fade"><br/>
     <div class="container mt-3">
   <h2>Digital Diagnostic Functions</h2>
-  <p>As defined by the QSFP28 MSA(SFF-8472) , NXO QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
+  <p>As defined by the QSFP28 MSA(SFF-8472) , NXOSPP QSFP28 transceivers provide digital diagnostic functions via a 2-wire serial interface, which allows real-time access to the following operating parameters:
 </p>
 
 <ul>

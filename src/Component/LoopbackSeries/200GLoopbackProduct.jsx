@@ -19,7 +19,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const TwoHGLoopbackProduct = () => {
-  let PartNumber = "NXO-SX-XLB-xx-xx"
+  let PartNumber = "NXOQ56-SX-XLB-XX-XX"
   let productName = "200G QSFP56 Electrical Passive Loopback Hot Pluggable, 0~5dB Internal Attenuation, 0~3.5W Power Consumption"
 
   const [name, setName] = useState("");
@@ -194,7 +194,7 @@ MSA</p>
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-SX-XLB QSFP56 Loopback modules are compliant with the current QSFP56 Multi-Source Agreement
+ <p>NXOQ56-SX-XLB-XX-XX QSFP56 Loopback modules are compliant with the current QSFP56 Multi-Source Agreement
 ( MSA ) specification. The Loopback modules provide an effective way of testing the QSFP56 port in the host
 system by looping back the electrical signal (optics are excluded). It could be downgraded for 100G application and provides an economical way to mimic 100G/200G Ethernet in simulation testing environments.
 

@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const ESR4_100G = () => {
-  let PartNumber = "NXO-K9-M85-X3D"
+  let PartNumber = "NXOQ28-K9-M85-X3D"
   let productName = "100G QSFP28 eSR4 Transceiver Hot Pluggable, MPO / MTP, 850nm VCSEL, MMF 300M, DDM"
 
   const [name, setName] = useState("");
@@ -225,7 +225,7 @@ const ESR4_100G = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-K9-M85-X3D is a parallel fiber optical transceiver module for 103.1Gbps data transmission applications at 850nm. It is ideally suited for datacom & storage area network (SAN/NAS) applications based on IEEE 802.3ba 100GBASE-SR4 standard. Designed for short range multi-lane data communication, The QSFP28 full-duplex optical module with MPO-12 receptacle integrates four independent transmitter and receiver channels. Each capable 25.78125 operation for an aggregate data rate of 103.1Gbps up to MMF OM4 300m optical links.
+ <p>NXOQ28-K9-M85-X3D is a parallel fiber optical transceiver module for 103.1Gbps data transmission applications at 850nm. It is ideally suited for datacom & storage area network (SAN/NAS) applications based on IEEE 802.3ba 100GBASE-SR4 standard. Designed for short range multi-lane data communication, The QSFP28 full-duplex optical module with MPO-12 receptacle integrates four independent transmitter and receiver channels. Each capable 25.78125 operation for an aggregate data rate of 103.1Gbps up to MMF OM4 300m optical links.
 
 </p>
 </div>

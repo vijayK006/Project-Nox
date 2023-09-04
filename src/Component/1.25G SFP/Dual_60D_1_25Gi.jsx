@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_60D_1_25Gi = () => { 
 
-  let PartNumber = "NXO-C7-S13-60Di";
+  let PartNumber = "NXOSFP-C7-S13-60Di";
   let productName ="1.25G SFP 1000BASE-LHX(EX) Transceiver  Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM";
 
   const [name, setName] = useState("");
@@ -291,7 +291,7 @@ and Fiber Channel 1GFC applications up to SMF 60km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-S13-60D)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-S13-60D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ and Fiber Channel 1GFC applications up to SMF 60km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-S13-60Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-S13-60Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -318,7 +318,7 @@ and Fiber Channel 1GFC applications up to SMF 60km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-S13-60D)</td>
+          <td>Supply Current (NXOSFP-C7-S13-60D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -327,7 +327,7 @@ and Fiber Channel 1GFC applications up to SMF 60km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-S13-60Di)</td>
+          <td>Supply Current (NXOSFP-C7-S13-60Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

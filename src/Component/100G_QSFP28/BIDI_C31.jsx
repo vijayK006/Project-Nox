@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const BIDI_C31 = () => {
-  let PartNumber = "NXO-K8-C31-20D"
+  let PartNumber = "NXOQ2S-K8-C31-20D"
   let productName = "100G QSFP28 Single Lambda LR1-20-BiDi Transceiver  Hot Pluggable, Bidi LC, Tx1311nm EML / Rx1291nm, SMF 20KM, DDM"
 
   const [name, setName] = useState("");

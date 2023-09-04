@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_A3_S13_60P = () => { 
 
-  let PartNumber = "NXO-A3-S13-60P";
+  let PartNumber = "NXO1X9-A3-S13-60P";
   let productName ="125/155Mbps 1x9-100LX Transceiver Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM";
 
 
@@ -279,7 +279,7 @@ const Dual_A3_S13_60P = () => {
 
         </tr>
         {/* <tr>
-          <td>Supply Voltage(NXO-Ax-S13-60P5) </td>
+          <td>Supply Voltage(NXO1X9-Ax-S13-60P5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -318,7 +318,7 @@ const Dual_A3_S13_60P = () => {
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
-          <td>NXO-Ax-S13-60P</td>
+          <td>NXO1X9-Ax-S13-60P</td>
         </tr>
         <tr>
           <td>Operating Temperature</td>
@@ -327,7 +327,7 @@ const Dual_A3_S13_60P = () => {
           <td>-</td>
           <td>+85</td>
           <td>°C</td>
-          <td>NXO-Ax-S13-60Pi</td>
+          <td>NXO1X9-Ax-S13-60Pi</td>
 
         </tr>
       

@@ -70,7 +70,7 @@ const SFF_2X5_Products = () => {
   <h5> 
   125M / 1.25G 2x5 SFF 100BASE-SX /1000BASE-SX Dual-Rate Transceiver Duplex LC, 850nm VCSEL, MMF OM2 2KM(100SX) / 550M(1000SX) 
 </h5>
-<p>Part Number : NXO-C7-M85-X5TR</p>
+<p>Part Number : NXOSF1-C7-M85-X5TR</p>
 <h4>Feature's</h4> 
 <p>LVTTL Signal Detection Output
 </p>
@@ -101,7 +101,7 @@ const SFF_2X5_Products = () => {
   <h5> 
   125M / 1.25G 2x5 SFF 100BASE-SX /1000BASE-SX Dual-Rate Transceiver Duplex LC, 850nm VCSEL, MMF OM2 2KM(100SX) / 550M(1000SX) 
 </h5>
-<p>Part Number : NXO-C7-M85-X5TRi</p>
+<p>Part Number : NXOSF1-C7-M85-X5TRi</p>
 <h4>Feature's</h4> 
 <p>LVTTL Signal Detection Output
 </p>

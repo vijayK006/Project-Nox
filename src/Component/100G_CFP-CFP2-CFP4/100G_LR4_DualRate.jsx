@@ -21,7 +21,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const LR4_DualRate_100G = () => {
    
-  let PartNumber = "NXO-K7-L13-10DR";
+  let PartNumber = "NXOCFP2-K7-L13-10DR";
   let productName = "100G CFP2 LR4 Dual Rate Transceiver Hot Pluggable, Duplex LC, EML LAN-WDM, Single Mode, 10KM, DDM";
   
   const [name, setName] = useState("");
@@ -273,7 +273,7 @@ Datacom/ Telecom Switch & Router
   <h2>Overview</h2>
   
  <p>
- NXO-K7-L13-10DR is a parallel fiber optical transceiver module for 100Gbit/s data transmission applications at 1300nm LAN-WDM. It is ideally suited for 100GbE Datacom, Storage Area Network (SAN) and OTN Telecom applications based on IEEE 802.3ba 100GBase Ethernet and OTN OTU4 standards.
+ NXOCFP2-K7-L13-10DR is a parallel fiber optical transceiver module for 100Gbit/s data transmission applications at 1300nm LAN-WDM. It is ideally suited for 100GbE Datacom, Storage Area Network (SAN) and OTN Telecom applications based on IEEE 802.3ba 100GBase Ethernet and OTN OTU4 standards.
 The transceiver incorporates a 4-channel laser driver circuit together with a 4-channel EML LAN-WDM array coupled with an optical multiplexer. On the receiver side. an optical de-multiplexer is coupled with a 4-channel photodiode array and a 4-channel TIA array resulting in a compact module for an aggregate bandwidth of 111.8Gb/s
 </p>
 </div>

@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP28_25G_DWDM = () => {
-  let PartNumber = "NXO-N7-Dxx-10DQ";
+  let PartNumber = "NXOSPP-N7-Dxx-10DQ";
   let productName = "25G SFP28 DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 10KM, DDM";
 
   const [name, setName] = useState("");
@@ -228,7 +228,7 @@ const SFP28_25G_DWDM = () => {
   
  <p>
 
-NXO-N7-Dxx-10DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance cooled DWDM EML transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for DWDM Networks, 25GBASE-LR Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
+NXOSPP-N7-Dxx-10DQ is a Small Form Factor Pluggable SFP28 transceiver compliant with SFF-8402 SFP28 MSA standard. The high performance cooled DWDM EML transmitter and high sensitivity PIN receiver with built-in CDR provide superior performance for DWDM Networks, 25GBASE-LR Ethernet and CPRI Option #10 applications up to SMF 10km optical links.
 
 </p>
 </div>

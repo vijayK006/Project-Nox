@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_50D_1_25Gi = () => { 
 
-  let PartNumber = "NXO-C7-S15-50Di";
+  let PartNumber = "NXOSFP-C7-S15-50Di";
   let productName ="1.25G SFP 1000BASE-XD Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 50KM, DDM";
 
   const [name, setName] = useState("");
@@ -292,7 +292,7 @@ Fiber Channel 1GFC applications up to SMF 50km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-C7-S15-50D)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-S15-50D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -301,7 +301,7 @@ Fiber Channel 1GFC applications up to SMF 50km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-C7-S15-50Di)</td>
+          <td>Case Operating Temp. (NXOSFP-C7-S15-50Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -319,7 +319,7 @@ Fiber Channel 1GFC applications up to SMF 50km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-S15-50D)</td>
+          <td>Supply Current (NXOSFP-C7-S15-50D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -328,7 +328,7 @@ Fiber Channel 1GFC applications up to SMF 50km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-C7-S15-50Di)</td>
+          <td>Supply Current (NXOSFP-C7-S15-50Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 
 const SFP_1000T_T01_Xl = () => {
-  let PartNumber = "NXO-CJ-T01-X1";
+  let PartNumber = "NXOSFP-CJ-T01-X1";
   let productName = "1.25G SFP-10/100/1000T Transceiver Hot Pluggable, RJ-45, Active Copper SFP";
 
   const [name, setName] = useState("");

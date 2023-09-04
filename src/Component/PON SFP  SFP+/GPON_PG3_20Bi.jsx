@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const GPON_PG3_20Bi = () => { 
 
-  let PartNumber = "NXO-Cx-PG3-20Bi";
+  let PartNumber = "NXOSPP-Cx-PG3-20Bi";
   let productName ="GPON ONU B+ 1.244G-Tx / 2.488G-Rx SFP Transceiver Hot Pluggable, Bidi SC, Tx1310nm DFB / Rx1490nm APD, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -296,7 +296,7 @@ superior performance for GPON ONU Class B+ applications.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp.(NXO-Cx-PG3-20B)</td>
+          <td>Case Operating Temp.(NXOSPP-Cx-PG3-20B)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -305,7 +305,7 @@ superior performance for GPON ONU Class B+ applications.
         </tr>
 
         <tr>
-          <td>Case Operating Temp.(NXO-Cx-PG3-20Bi)</td>
+          <td>Case Operating Temp.(NXOSPP-Cx-PG3-20Bi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
