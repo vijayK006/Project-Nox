@@ -382,8 +382,9 @@ const Switchclose_menu8=()=>{
     </Link>
 </div>
 
-
 <ul className='n mobile-screen-noneed'>
+<Link to="/" style={{color:"black", textDecoration:"none"}}><li className='n-items'>Home</li></Link> 
+
     <li className='n-items hover-item'>All Products
 
     <div className='inner-menu'>

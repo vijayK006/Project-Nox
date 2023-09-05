@@ -25,7 +25,7 @@ const NXO_1001C_NXO_1001CS = () => {
 
   let PartNumber = "NXO-1001C & NXO-1001CS";
   let productName ="1x GbE RJ45 to 1x 1000Base Fiber (SC) (Compact, Size)";
-  let productName2 ="1x GbE RJ45 to 1x 1000Base Fiber (SC) (Compact, Size)";
+  let productName2 ="1x GbE RJ45 to 1x 100/1000Base SFP (Compact, Size)";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
