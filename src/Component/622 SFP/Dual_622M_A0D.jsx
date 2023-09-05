@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_622M_A0D = () => {
   let productName = "622M SFP OC-12 LR-2 / STM-4 L4.2 Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM";
-  let PartNumber = "NXO-B7-S15-A2D";
+  let PartNumber = "NXOSFP-B7-S15-A2D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -202,7 +202,7 @@ const Dual_622M_A0D = () => {
             <div class="container mt-3">
               <h2>Overview</h2>
 
-              <p> NXO-B7-S15-A2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+              <p> NXOSFP-B7-S15-A2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
                 Multi-Source Agreement (MSA) Specification. The high
                 performance uncooled 1550nm DFB transmitter and high sensitivity APD receiver provide superior
                 performance for SONET OC-12 / SDH STM-4 applications up to SMF 120km optical links
@@ -285,7 +285,7 @@ const Dual_622M_A0D = () => {
                   <tbody>
 
                     <tr>
-                      <td>Case Operating Temp. (NXO-B7-S15-A2D)</td>
+                      <td>Case Operating Temp. (NXOSFP-B7-S15-A2D)</td>
                       <td>TOP</td>
                       <td>0</td>
                       <td>-</td>
@@ -294,7 +294,7 @@ const Dual_622M_A0D = () => {
                     </tr>
 
                     <tr>
-                      <td>Case Operating Temp. (NXO-B7-S15-A2Di)</td>
+                      <td>Case Operating Temp. (NXOSFP-B7-S15-A2Di)</td>
                       <td>TOP</td>
                       <td>-40</td>
                       <td>-</td>
@@ -312,7 +312,7 @@ const Dual_622M_A0D = () => {
 
 
                     <tr>
-                      <td>Supply Current(NXO-B7-S15-A2D)</td>
+                      <td>Supply Current(NXOSFP-B7-S15-A2D)</td>
                       <td>ICC</td>
                       <td></td>
                       <td></td>
@@ -321,7 +321,7 @@ const Dual_622M_A0D = () => {
                     </tr>
 
                     <tr>
-                      <td>Supply Current(NXO-B7-S15-A2Di)</td>
+                      <td>Supply Current(NXOSFP-B7-S15-A2Di)</td>
                       <td>ICC</td>
                       <td></td>
                       <td></td>

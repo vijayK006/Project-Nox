@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_622M_A4D = () => {
   let productName = "622M SFP Extended OC12 LR-2 / STM4 L4.2 Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM(36dB), DDM";
-  let PartNumber = "NXO-B7-S15-A4D";
+  let PartNumber = "NXOSFP-B7-S15-A4D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -202,7 +202,7 @@ const Dual_622M_A4D = () => {
             <div class="container mt-3">
               <h2>Overview</h2>
 
-              <p>NXO-B7-S15-A4D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+              <p>NXOSFP-B7-S15-A4D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
                 Multi-Source Agreement (MSA) Specification. The high
                 performance uncooled 1550nm DFB transmitter and high sensitivity APD receiver provide superior
                 performance for SONET/SDH applications up to SMF 140km(36dB) optical Links.

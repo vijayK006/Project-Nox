@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_622M_X5Di = () => {
   let productName = "622M SFP OC-12 / STM-4 Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM";
-  let PartNumber = "NXO-B7-M85-X5Di";
+  let PartNumber = "NXOSFP-B7-M85-X5Di";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -201,7 +201,7 @@ const Dual_622M_X5Di = () => {
             <div class="container mt-3">
               <h2>Overview</h2>
 
-              <p>NXO-B7-M85-X5Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+              <p>NXOSFP-B7-M85-X5Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
                 Multi-Source Agreement (MSA) Specification. The high
                 performance 850nm VCSEL transmitter and high
                 sensitivity PIN receiver provide superior performance for SONET OC-12 / SDH STM-4 applications up to MMF
@@ -284,7 +284,7 @@ const Dual_622M_X5Di = () => {
                   <tbody>
 
                     <tr>
-                      <td>Case Operating Temp. (NXO-B7-M85-X5D)</td>
+                      <td>Case Operating Temp. (NXOSFP-B7-M85-X5D)</td>
                       <td>TOP</td>
                       <td>0</td>
                       <td>-</td>
@@ -293,7 +293,7 @@ const Dual_622M_X5Di = () => {
                     </tr>
 
                     <tr>
-                      <td>Case Operating Temp. (NXO-B7-M85-X5Di)</td>
+                      <td>Case Operating Temp. (NXOSFP-B7-M85-X5Di)</td>
                       <td>TOP</td>
                       <td>-40</td>
                       <td>-</td>
@@ -311,7 +311,7 @@ const Dual_622M_X5Di = () => {
 
 
                     <tr>
-                      <td>Supply Current(NXO-B7-M85-X3D)</td>
+                      <td>Supply Current(NXOSFP-B7-M85-X3D)</td>
                       <td>ICC</td>
                       <td></td>
                       <td></td>
@@ -320,7 +320,7 @@ const Dual_622M_X5Di = () => {
                     </tr>
 
                     <tr>
-                      <td>Supply Current(NXO-B7-M85-X3Di)</td>
+                      <td>Supply Current(NXOSFP-B7-M85-X3Di)</td>
                       <td>ICC</td>
                       <td></td>
                       <td></td>

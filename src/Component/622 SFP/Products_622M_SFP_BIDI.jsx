@@ -79,7 +79,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-B8-S35-20D</p>
+<p>Part Number : NXOSFP-B8-S35-20D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -112,7 +112,7 @@ Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-B8-S35-20Di</p>
+<p>Part Number : NXOSFP-B8-S35-20Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -147,7 +147,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-B8-S53-20D</p>
+<p>Part Number : NXOSFP-B8-S53-20D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -181,7 +181,7 @@ Hot Pluggable, Bidi LC, Tx1550nm DFB / Rx1310nm, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-B8-S53-20Di</p>
+<p>Part Number : NXOSFP-B8-S53-20Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable

@@ -80,7 +80,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
 
 
 </h5>
-<p>Part Number : NXO-B7-M85-X5D</p>
+<p>Part Number : NXOSFP-B7-M85-X5D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -114,7 +114,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
 
 
 </h5>
-<p>Part Number : NXO-B7-M85-X5Di</p>
+<p>Part Number : NXOSFP-B7-M85-X5Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -145,7 +145,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 550M, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-B7-S13-20D</p>
+<p>Part Number : NXOSFP-B7-S13-20D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -176,7 +176,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-B7-S13-20Di</p>
+<p>Part Number : NXOSFP-B7-S13-20Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -208,7 +208,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-B7-S13-60D</p>
+<p>Part Number : NXOSFP-B7-S13-60D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -240,7 +240,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-B7-S13-60Di</p>
+<p>Part Number : NXOSFP-B7-S13-60Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -271,7 +271,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 60KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-B7-S15-80D</p>
+<p>Part Number : NXOSFP-B7-S15-80D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -302,7 +302,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-B7-S15-80Di</p>
+<p>Part Number : NXOSFP-B7-S15-80Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -334,7 +334,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-B7-S15-A2D</p>
+<p>Part Number : NXOSFP-B7-S15-A2D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -366,7 +366,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-B7-S15-A2Di</p>
+<p>Part Number : NXOSFP-B7-S15-A2Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -398,7 +398,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM(36dB), DDM
 
 
 </h5>
-<p>Part Number : NXO-B7-S15-A4D</p>
+<p>Part Number : NXOSFP-B7-S15-A4D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -429,7 +429,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM(36dB), DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 160KM(40dB), DDM
 
 </h5>
-<p>Part Number : NXO-B7-S15-A6D</p>
+<p>Part Number : NXOSFP-B7-S15-A6D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable

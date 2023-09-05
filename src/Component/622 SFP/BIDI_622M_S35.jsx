@@ -24,7 +24,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_622M_S35 = () => {
   let productName = "622M SFP OC-12 IR-1 / STM-4 S4.1 BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM";
-  let PartNumber = "NXO-B8-S35-20D";
+  let PartNumber = "NXOSFP-B8-S35-20D";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -202,7 +202,7 @@ const BIDI_622M_S35 = () => {
             <div class="container mt-3">
               <h2>Overview</h2>
 
-              <p>NXO-B8-S35-20D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+              <p>NXOSFP-B8-S35-20D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
                 Multi-Source Agreement (MSA) Specification. The high
                 performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
                 performance for SONET OC-12 / SDH STM-4 applications up to SMF 20km optical links.
@@ -283,7 +283,7 @@ const BIDI_622M_S35 = () => {
                   <tbody>
 
                     <tr>
-                      <td>Case Operating Temp. (NXO-B8-S35-20D)</td>
+                      <td>Case Operating Temp. (NXOSFP-B8-S35-20D)</td>
                       <td>TOP</td>
                       <td>0</td>
                       <td>-</td>
@@ -292,7 +292,7 @@ const BIDI_622M_S35 = () => {
                     </tr>
 
                     <tr>
-                      <td>Case Operating Temp. (NXO-B8-S35-20Di)</td>
+                      <td>Case Operating Temp. (NXOSFP-B8-S35-20Di)</td>
                       <td>TOP</td>
                       <td>-40</td>
                       <td>-</td>
@@ -310,7 +310,7 @@ const BIDI_622M_S35 = () => {
 
 
                     <tr>
-                      <td>Supply Current(NXO-B8-S35-20D)</td>
+                      <td>Supply Current(NXOSFP-B8-S35-20D)</td>
                       <td>ICC</td>
                       <td></td>
                       <td></td>
@@ -319,7 +319,7 @@ const BIDI_622M_S35 = () => {
                     </tr>
 
                     <tr>
-                      <td>Supply Current(NXO-B8-S35-20Di)</td>
+                      <td>Supply Current(NXOSFP-B8-S35-20Di)</td>
                       <td>ICC</td>
                       <td></td>
                       <td></td>
