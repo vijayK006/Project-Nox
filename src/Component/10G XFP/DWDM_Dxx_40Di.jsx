@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_Dxx_40Di = () => { 
 
-  let PartNumber = "NXO-H7-Dxx-X40Di";
+  let PartNumber = "NXOXFP-H7-Dxx-X40Di";
   let productName ="10G XFP DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 40KM, DDM";
 
   const [name, setName] = useState("");

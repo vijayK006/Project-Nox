@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_10G_A0D = () => { 
 
-  let PartNumber = "NXO-H7-Dxx-A0D";
+  let PartNumber = "NXOSPP-H7-Dxx-A0D";
   let productName ="10G SFP+ DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 100KM, DDM";
 
   const [name, setName] = useState("");
@@ -218,7 +218,7 @@ const DWDM_10G_A0D = () => {
   
  <p>
 
-NXO-H7-Dxx-A0D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled DWDM EML transmitter and high sensitivity APD receiver provide superior performance for 10GBASE-ZR/ZW applications up to SMF 100km optical links.
+NXOSPP-H7-Dxx-A0D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled DWDM EML transmitter and high sensitivity APD receiver provide superior performance for 10GBASE-ZR/ZW applications up to SMF 100km optical links.
 
 </p>
 </div>
@@ -303,7 +303,7 @@ NXO-H7-Dxx-A0D Small Form Factor Pluggable SFP+ transceivers are compliant with 
         </tr>
 
         {/* <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxx-A0Di)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-Dxx-A0Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

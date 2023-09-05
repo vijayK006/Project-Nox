@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_A8_35_40D = () => { 
 
-  let PartNumber = "NXO-A8-S35-40D";
+  let PartNumber = "NXOSFP-A8-S35-40D";
   let productName ="125M / 155M SFP 100BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -212,7 +212,7 @@ const BIDI_A8_35_40D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-A8-S35-40D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ <p>NXOSFP-A8-S35-40D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1310nm FP transmitter and
 high sensitivity PIN receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to SMF 40km optical links.
@@ -291,7 +291,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A8-S35-40D)</td>
+          <td>Case Operating Temp. (NXOSFP-A8-S35-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A8-S35-40Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A8-S35-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -318,7 +318,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A8-S35-40D)</td>
+          <td>Supply Current (NXOSFP-A8-S35-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -327,7 +327,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A8-S35-40Di)</td>
+          <td>Supply Current (NXOSFP-A8-S35-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

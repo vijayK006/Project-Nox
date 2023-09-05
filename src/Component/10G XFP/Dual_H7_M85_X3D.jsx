@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_M85_X3D = () => { 
 
-  let PartNumber = "NXO-H7-M85-XX3D";
+  let PartNumber = "NXOXFP-H7-M85-XX3D";
   let productName ="10G XFP-SR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, Multi-Mode, 300M, DDM";
 
   const [name, setName] = useState("");

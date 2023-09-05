@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_40DMi = () => { 
 
-  let PartNumber = "NXO-H7-S13-40DMi";
+  let PartNumber = "NXOSPP-H7-S13-40DMi";
   let productName ="10G SFP+ LR ( ER-1310 ) Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate";
 
   const [name, setName] = useState("");
@@ -238,7 +238,7 @@ const Dual_H7_40DMi = () => {
   
  <p>
 
-NXO-H7-S13-40DMi Small Form Factor Pluggable
+NXOSPP-H7-S13-40DMi Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for Multi-Rate applications up to SMF 40km optical links.
 
@@ -316,7 +316,7 @@ performance for Multi-Rate applications up to SMF 40km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-40DM)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S13-40DM)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -325,7 +325,7 @@ performance for Multi-Rate applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-40DMi)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S13-40DMi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -343,7 +343,7 @@ performance for Multi-Rate applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-40DM)</td>
+          <td>Supply Current (NXOSPP-H7-S13-40DM)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -352,7 +352,7 @@ performance for Multi-Rate applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-40DMi)</td>
+          <td>Supply Current (NXOSPP-H7-S13-40DMi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

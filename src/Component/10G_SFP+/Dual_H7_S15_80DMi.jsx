@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_S15_80DMi = () => {
 
-    let PartNumber = "NXO-H7-S15-80DMi";
+    let PartNumber = "NXOSPP-H7-S15-80DMi";
     let productName = "10G SFP+ ZR Transceiver Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, Multi-Rate";
 
     const [name, setName] = useState("");
@@ -333,7 +333,7 @@ const Dual_H7_S15_80DMi = () => {
                                     <tbody>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-H7-S15-80DM)</td>
+                                            <td>Case Operating Temp. (NXOSPP-H7-S15-80DM)</td>
                                             <td>Top</td>
                                             <td>0</td>
                                             <td>-</td>
@@ -342,7 +342,7 @@ const Dual_H7_S15_80DMi = () => {
                                         </tr>
 
                                         <tr>
-                                            <td>Case Operating Temp. (NXO-H7-S15-80DMi)</td>
+                                            <td>Case Operating Temp. (NXOSPP-H7-S15-80DMi)</td>
                                             <td>Top</td>
                                             <td>-40</td>
                                             <td>-</td>
@@ -360,7 +360,7 @@ const Dual_H7_S15_80DMi = () => {
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-H7-S15-80DM)</td>
+                                            <td>Supply Current (NXOSPP-H7-S15-80DM)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>
@@ -369,7 +369,7 @@ const Dual_H7_S15_80DMi = () => {
                                         </tr>
 
                                         <tr>
-                                            <td>Supply Current (NXO-H7-S15-80DMi)</td>
+                                            <td>Supply Current (NXOSPP-H7-S15-80DMi)</td>
                                             <td>Icc</td>
                                             <td></td>
                                             <td></td>

@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_A8_S45_A2D = () => { 
 
-  let PartNumber = "NXO-A8-S45-A2D  ";
+  let PartNumber = "NXOSFP-A8-S45-A2D  ";
   let productName ="125/155M SFP-100BX-U Transceiver Hot Pluggable, LC, Tx1490nm DFB/Rx1550nm, Single-Fiber, 120KM, DDM";
 
   const [name, setName] = useState("");
@@ -220,7 +220,7 @@ const BIDI_A8_S45_A2D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-A8-S45-A2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ <p>NXOSFP-A8-S45-A2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 1490nm DFB transmitter and high sensitivity 1550nm PIN receiver provide superior performance for Fast Ethernet applications up to 120km optical links with a single strand of single mode fiber.
 
 </p>
@@ -297,7 +297,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 149
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature (NXO-A8-S45-A2D)</td>
+          <td>Case Operating Temperature (NXOSFP-A8-S45-A2D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -306,7 +306,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 149
         </tr>
 
         <tr>
-          <td>Case Operating Temperature (NXO-A8-S45-A2Di)</td>
+          <td>Case Operating Temperature (NXOSFP-A8-S45-A2Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

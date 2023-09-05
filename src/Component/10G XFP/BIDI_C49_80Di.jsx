@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_C49_80Di = () => { 
 
-  let PartNumber = "NXO-H8-C49-X80Di";
+  let PartNumber = "NXOXFP-H8-C49-X80Di";
   let productName ="10G XFP BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -300,7 +300,7 @@ Multi-Source Agreement (MSA) Specification. The high performance cooled 1490nm E
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H8-C49-X80D)</td>
+          <td>Case Operating Temp. (NXOXFP-H8-C49-X80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -309,7 +309,7 @@ Multi-Source Agreement (MSA) Specification. The high performance cooled 1490nm E
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H8-C49-X80Di)</td>
+          <td>Case Operating Temp. (NXOXFP-H8-C49-X80Di)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -327,7 +327,7 @@ Multi-Source Agreement (MSA) Specification. The high performance cooled 1490nm E
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C49-X80D)</td>
+          <td>Supply Current (NXOXFP-H8-C49-X80D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -335,7 +335,7 @@ Multi-Source Agreement (MSA) Specification. The high performance cooled 1490nm E
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current (NXO-H8-C49-X80Di)</td>
+          <td>Supply Current (NXOXFP-H8-C49-X80Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -344,7 +344,7 @@ Multi-Source Agreement (MSA) Specification. The high performance cooled 1490nm E
         </tr>
 
         <tr>
-          <td>Power Consumption (NXO-H8-C49-X80D)</td>
+          <td>Power Consumption (NXOXFP-H8-C49-X80D)</td>
           <td>P</td>
           <td></td>
           <td></td>
@@ -353,7 +353,7 @@ Multi-Source Agreement (MSA) Specification. The high performance cooled 1490nm E
         </tr>
 
         <tr>
-          <td>Power Consumption (NXO-H8-C49-X80Di)</td>
+          <td>Power Consumption (NXOXFP-H8-C49-X80Di)</td>
           <td>P</td>
           <td></td>
           <td></td>

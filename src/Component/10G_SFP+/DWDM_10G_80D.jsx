@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_10G_80D = () => { 
 
-  let PartNumber = "NXO-H7-Dxx-80D";
+  let PartNumber = "NXOSPP-H7-Dxx-80D";
   let productName ="10G SFP+ DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -218,7 +218,7 @@ const DWDM_10G_80D = () => {
   
  <p>
 
-NXO-H7-Dxx-80D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled DWDM EML transmitter and high sensitivity APD receiver provide superior performance for 10GBASE-ZR/ZW applications up to SMF 80km optical links.
+NXOSPP-H7-Dxx-80D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled DWDM EML transmitter and high sensitivity APD receiver provide superior performance for 10GBASE-ZR/ZW applications up to SMF 80km optical links.
 
 </p>
 </div>
@@ -294,7 +294,7 @@ NXO-H7-Dxx-80D Small Form Factor Pluggable SFP+ transceivers are compliant with 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxx-80D)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-Dxx-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -303,7 +303,7 @@ NXO-H7-Dxx-80D Small Form Factor Pluggable SFP+ transceivers are compliant with 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxx-80Di)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-Dxx-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,7 +321,7 @@ NXO-H7-Dxx-80D Small Form Factor Pluggable SFP+ transceivers are compliant with 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-Dxx-80D)</td>
+          <td>Supply Current (NXOSPP-H7-Dxx-80D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -330,7 +330,7 @@ NXO-H7-Dxx-80D Small Form Factor Pluggable SFP+ transceivers are compliant with 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-Dxx-80Di)</td>
+          <td>Supply Current (NXOSPP-H7-Dxx-80Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

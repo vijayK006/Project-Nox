@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_A8_S53_20D = () => { 
 
-  let PartNumber = "NXO-A8-S53-20D ";
+  let PartNumber = "NXOSFP-A8-S53-20D ";
   let productName ="125M / 155M SFP 100BX-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm FP / Rx1310nm, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -214,7 +214,7 @@ const BIDI_A8_S53_20D = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXO-A8-S53-20D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ <p>NXOSFP-A8-S53-20D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1550nm FP transmitter and
 high sensitivity PIN receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to SMF 20km optical links.
@@ -295,7 +295,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature  (NXO-A8-S53-20D)</td>
+          <td>Case Operating Temperature  (NXOSFP-A8-S53-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -304,7 +304,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Case Operating Temperature  (NXO-A8-S53-20Di)</td>
+          <td>Case Operating Temperature  (NXOSFP-A8-S53-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -322,7 +322,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current  (NXO-A8-S53-20D)</td>
+          <td>Supply Current  (NXOSFP-A8-S53-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -331,7 +331,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current  (NXO-A8-S53-20Di)</td>
+          <td>Supply Current  (NXOSFP-A8-S53-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

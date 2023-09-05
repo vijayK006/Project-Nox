@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_H7_40Di = () => { 
 
-  let PartNumber = "NXO-H7-Dxxx-40D";
+  let PartNumber = "NXOSPP-H7-Dxxx-40D";
   let productName ="10G SFP+ DWDM Transceiver Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -219,7 +219,7 @@ const DWDM_H7_40Di = () => {
   
  <p>
 
- NXO-H7-Dxxx-40Di Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled DWDM EML transmitter and high sensitivity PIN receiver provide superior performance for 10GBASE-ER/EW applications up to SMF 40km optical links with DWDM wavelength 50GHz spacing.
+ NXOSPP-H7-Dxxx-40Di Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled DWDM EML transmitter and high sensitivity PIN receiver provide superior performance for 10GBASE-ER/EW applications up to SMF 40km optical links with DWDM wavelength 50GHz spacing.
 
 </p>
 </div>
@@ -295,7 +295,7 @@ const DWDM_H7_40Di = () => {
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxxx-40D
+          <td>Case Operating Temp. (NXOSPP-H7-Dxxx-40D
 )</td>
           <td>Top</td>
           <td>0</td>
@@ -305,7 +305,7 @@ const DWDM_H7_40Di = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxxx-40D
+          <td>Case Operating Temp. (NXOSPP-H7-Dxxx-40D
 i)</td>
           <td>Top</td>
           <td>-40</td>
@@ -324,7 +324,7 @@ i)</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-Dxxx-40D
+          <td>Supply Current (NXOSPP-H7-Dxxx-40D
 )</td>
           <td>Icc</td>
           <td></td>
@@ -334,7 +334,7 @@ i)</td>
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-Dxxx-40D
+          <td>Supply Current (NXOSPP-H7-Dxxx-40D
 i)</td>
           <td>Icc</td>
           <td></td>

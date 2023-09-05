@@ -73,7 +73,7 @@ const XFP_BIDI_Products = () => {
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
-<p>Part Number : NXO-H8-C27-X20D</p>
+<p>Part Number : NXOXFP-H8-C27-X20D</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 20km over SM fiber</p>
@@ -97,7 +97,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
-<p>Part Number : NXO-H8-C27-X20Di</p>
+<p>Part Number : NXOXFP-H8-C27-X20Di</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 20km over SM fiber</p>
@@ -121,7 +121,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
-<p>Part Number : NXO-H8-C27-X40D</p>
+<p>Part Number : NXOXFP-H8-C27-X40D</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 40km over SM fiber</p>
@@ -145,7 +145,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
 <div className='product-dec'>
   <h5>10G XFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
-<p>Part Number : NXO-H8-C27-X40Di</p>
+<p>Part Number : NXOXFP-H8-C27-X40Di</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 40km over SM fiber</p>
@@ -170,7 +170,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM</h5>
   <h5>10G XFP BX(BR)-U Transceiver
 Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 </h5>
-<p>Part Number : NXO-H8-C27-X60D</p>
+<p>Part Number : NXOXFP-H8-C27-X60D</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 60km over SM fiber</p>
@@ -195,7 +195,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
   <h5>10G XFP BX(BR)-U Transceiver
 Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 </h5>
-<p>Part Number : NXO-H8-C27-X60Di</p>
+<p>Part Number : NXOXFP-H8-C27-X60Di</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 60km over SM fiber</p>
@@ -221,7 +221,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-X20D</p>
+<p>Part Number : NXOXFP-H8-C33-X20D</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 60km over SM fiber</p>
@@ -247,7 +247,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 20KM, DDM
 Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-X20Di</p>
+<p>Part Number : NXOXFP-H8-C33-X20Di</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter</p>
 <p>Link distance 20km over SM fiber</p>
@@ -274,7 +274,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C33-X40D</p>
+<p>Part Number : NXOXFP-H8-C33-X40D</p>
 <h4>Feature's</h4> 
 <p>1330nm DFB laser transmitter</p>
 <p>Link distance 40km over SM fiber</p>
@@ -301,7 +301,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C33-X40Di</p>
+<p>Part Number : NXOXFP-H8-C33-X40Di</p>
 <h4>Feature's</h4> 
 <p>1330nm DFB laser transmitter</p>
 <p>Link distance 40km over SM fiber</p>
@@ -328,7 +328,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C33-X60D</p>
+<p>Part Number : NXOXFP-H8-C33-X60D</p>
 <h4>Feature's</h4> 
 <p>1330nm DFB laser transmitter</p>
 <p>Link distance 60km over SM fiber</p>
@@ -355,7 +355,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C33-X60Di</p>
+<p>Part Number : NXOXFP-H8-C33-X60Di</p>
 <h4>Feature's</h4> 
 <p>1330nm DFB laser transmitter</p>
 <p>Link distance 60km over SM fiber</p>
@@ -381,7 +381,7 @@ Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 40KM, DDM
 Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C49-X80D</p>
+<p>Part Number : NXOXFP-H8-C49-X80D</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Link distance 80km over SM fiber</p>
@@ -407,7 +407,7 @@ Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM
 Hot Pluggable, Bidi LC, Tx1490nm EML / Rx1550nm, SMF 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C49-X80Di</p>
+<p>Part Number : NXOXFP-H8-C49-X80Di</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Link distance 80km over SM fiber</p>
@@ -434,7 +434,7 @@ Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C55-X80D</p>
+<p>Part Number : NXOXFP-H8-C55-X80D</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Link distance 80km over SM fiber</p>
@@ -461,7 +461,7 @@ Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C55-X80Di</p>
+<p>Part Number : NXOXFP-H8-C55-X80Di</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Link distance 80km over SM fiber</p>

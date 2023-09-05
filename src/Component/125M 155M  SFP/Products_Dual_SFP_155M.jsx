@@ -77,7 +77,7 @@ const Products_Dual_SFP_155M = () => {
 Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-M13-02D</p>
+<p>Part Number : NXOSFP-A7-M13-02D</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -105,7 +105,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-M13-02Di</p>
+<p>Part Number : NXOSFP-A7-M13-02Di</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -132,7 +132,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM
 125M / 155M SFP 100BASE-FX Transceiver
 Hot Pluggable, Duplex LC, 1310nm FP, MMF 5KM, DDM
 </h5>
-<p>Part Number : NXO-A7-M13-05D</p>
+<p>Part Number : NXOSFP-A7-M13-05D</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -159,7 +159,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 5KM, DDM
 125M / 155M SFP 100BASE-FX Transceiver
 Hot Pluggable, Duplex LC, 1310nm FP, MMF 5KM, DDM
 </h5>
-<p>Part Number : NXO-A7-M13-05Di</p>
+<p>Part Number : NXOSFP-A7-M13-05Di</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -188,7 +188,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-M85-02D</p>
+<p>Part Number : NXOSFP-A7-M85-02D</p>
 <h4>Feature's</h4> 
 {/* <p>850nm VCSEL laser transmitter
 </p> */}
@@ -218,7 +218,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-M85-02Di</p>
+<p>Part Number : NXOSFP-A7-M85-02Di</p>
 <h4>Feature's</h4> 
 {/* <p>850nm VCSEL laser transmitter
 </p> */}
@@ -249,7 +249,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-20D</p>
+<p>Part Number : NXOSFP-A7-S13-20D</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Duplex LC connector</p>
@@ -279,7 +279,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-20Di</p>
+<p>Part Number : NXOSFP-A7-S13-20Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 <p>Duplex LC connector</p>
@@ -307,7 +307,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-S13-30D</p>
+<p>Part Number : NXOSFP-A7-S13-30D</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -336,7 +336,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 20KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-S13-30Di</p>
+<p>Part Number : NXOSFP-A7-S13-30Di</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -366,7 +366,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-40D</p>
+<p>Part Number : NXOSFP-A7-S13-40D</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 {/* <p>1310nm FP laser transmitter</p> */}
@@ -395,7 +395,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-40Di</p>
+<p>Part Number : NXOSFP-A7-S13-40Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
 {/* <p>1310nm FP laser transmitter</p> */}
@@ -425,7 +425,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 60KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-60D</p>
+<p>Part Number : NXOSFP-A7-S13-60D</p>
 
 <h4>Feature's</h4> 
 
@@ -458,7 +458,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 60KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S13-60Di</p>
+<p>Part Number : NXOSFP-A7-S13-60Di</p>
 
 <h4>Feature's</h4> 
 
@@ -490,7 +490,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S15-80D</p>
+<p>Part Number : NXOSFP-A7-S15-80D</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -520,7 +520,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S15-80Di</p>
+<p>Part Number : NXOSFP-A7-S15-80Di</p>
 
 <h4>Feature's</h4> 
 <p>Compliant with INF-8074i SFP MSA</p>
@@ -548,7 +548,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 80KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-S15-A0D</p>
+<p>Part Number : NXOSFP-A7-S15-A0D</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -576,7 +576,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-S15-A0Di</p>
+<p>Part Number : NXOSFP-A7-S15-A0Di</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -605,7 +605,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S15-A2D</p>
+<p>Part Number : NXOSFP-A7-S15-A2D</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -636,7 +636,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S15-A2Di</p>
+<p>Part Number : NXOSFP-A7-S15-A2Di</p>
 
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
@@ -663,7 +663,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 120KM, DDM
   125M / 155M SFP 100BASE-EZX Transceiver
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM, DDM
 </h5>
-<p>Part Number : NXO-A7-S15-A4D</p>
+<p>Part Number : NXOSFP-A7-S15-A4D</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Link distance 140km over SM fiber</p>
@@ -689,7 +689,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM, DDM
   125M / 155M SFP 100BASE-EZX Transceiver
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM, DDM
 </h5>
-<p>Part Number : NXO-A7-S15-A4Di</p>
+<p>Part Number : NXOSFP-A7-S15-A4Di</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply</p>
 <p>Link distance 140km over SM fiber</p>
@@ -716,7 +716,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 140KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 160KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-S15-A6D</p>
+<p>Part Number : NXOSFP-A7-S15-A6D</p>
 
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
@@ -744,7 +744,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 160KM, DDM
 Hot Pluggable, Duplex LC, 1550nm DFB, SMF 160KM, DDM
 
 </h5>
-<p>Part Number : NXO-A7-S15-A6Di</p>
+<p>Part Number : NXOSFP-A7-S15-A6Di</p>
 
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
@@ -773,7 +773,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 200KM(46dB), DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S15-B0D</p>
+<p>Part Number : NXOSFP-A7-S15-B0D</p>
 
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
@@ -802,7 +802,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 200KM(46dB), DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S15-B0Di</p>
+<p>Part Number : NXOSFP-A7-S15-B0Di</p>
 
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>
@@ -832,7 +832,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 220KM(50dB), DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-S15-B2D</p>
+<p>Part Number : NXOSFP-A7-S15-B2D</p>
 
 <h4>Feature's</h4> 
 <p>1550nm DFB laser transmitter</p>

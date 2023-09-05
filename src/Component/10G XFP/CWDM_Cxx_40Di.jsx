@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_Cxx_40Di = () => { 
 
-  let PartNumber = "NXO-H7-Cxx-X40Di";
+  let PartNumber = "NXOXFP-H7-Cxx-X40Di";
   let productName ="10G XFP CWDM Transceiver Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -304,7 +304,7 @@ performance cooled CWDM EML transmitter and high sensitivity PIN receiver provid
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-Cxx-40D)</td>
+          <td>Case Operating Temp. (NXOXFP-H7-Cxx-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -313,7 +313,7 @@ performance cooled CWDM EML transmitter and high sensitivity PIN receiver provid
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-Cxx-40Di)</td>
+          <td>Case Operating Temp. (NXOXFP-H7-Cxx-40Di)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>

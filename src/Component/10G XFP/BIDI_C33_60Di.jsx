@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_C33_60Di = () => { 
 
-  let PartNumber = "NXO-H8-C33-X60Di";
+  let PartNumber = "NXOXFP-H8-C33-X60Di";
   let productName ="10G XFP BX(BR)-D Transceiver Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 60KM, DDM";
 
   const [name, setName] = useState("");
@@ -300,7 +300,7 @@ performance for 10GBASE Ethernet applications up to 60km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H8-C33-X60D)</td>
+          <td>Case Operating Temp. (NXOXFP-H8-C33-X60D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -309,7 +309,7 @@ performance for 10GBASE Ethernet applications up to 60km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H8-C33-X60Di)</td>
+          <td>Case Operating Temp. (NXOXFP-H8-C33-X60Di)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -327,7 +327,7 @@ performance for 10GBASE Ethernet applications up to 60km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C33-X60D)</td>
+          <td>Supply Current (NXOXFP-H8-C33-X60D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -335,7 +335,7 @@ performance for 10GBASE Ethernet applications up to 60km optical links.
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current (NXO-H8-C33-X60Di)</td>
+          <td>Supply Current (NXOXFP-H8-C33-X60Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -344,7 +344,7 @@ performance for 10GBASE Ethernet applications up to 60km optical links.
         </tr>
 
         <tr>
-          <td>Power Consumption (NXO-H8-C33-X60D)</td>
+          <td>Power Consumption (NXOXFP-H8-C33-X60D)</td>
           <td>P</td>
           <td></td>
           <td></td>
@@ -353,7 +353,7 @@ performance for 10GBASE Ethernet applications up to 60km optical links.
         </tr>
 
         <tr>
-          <td>Power Consumption (NXO-H8-C33-X60Di)</td>
+          <td>Power Consumption (NXOXFP-H8-C33-X60Di)</td>
           <td>P</td>
           <td></td>
           <td></td>

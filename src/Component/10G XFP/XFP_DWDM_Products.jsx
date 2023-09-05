@@ -70,7 +70,7 @@ const XFP_DWDM_Products = () => {
 
 <div className='product-dec'>
   <h5>10G XFP DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 40KM, DDM </h5>
-<p>Part Number : NXO-H7-Dxx-X40D</p>
+<p>Part Number : NXOXFP-H7-Dxx-X40D</p>
 <h4>Feature's</h4> 
 <p>No Reference Clock required</p>
 <p>Link distance 40km over SM fiber</p>
@@ -93,7 +93,7 @@ const XFP_DWDM_Products = () => {
 
 <div className='product-dec'>
   <h5>10G XFP DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 40KM, DDM </h5>
-<p>Part Number : NXO-H7-Dxx-X40Di</p>
+<p>Part Number : NXOXFP-H7-Dxx-X40Di</p>
 <h4>Feature's</h4> 
 <p>No Reference Clock required</p>
 <p>Link distance 40km over SM fiber</p>
@@ -116,7 +116,7 @@ const XFP_DWDM_Products = () => {
 
 <div className='product-dec'>
   <h5>10G XFP DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM, DDM </h5>
-<p>Part Number : NXO-H7-Dxx-X80D</p>
+<p>Part Number : NXOXFP-H7-Dxx-X80D</p>
 <h4>Feature's</h4> 
 <p>Dual +3.3V and 5.0V power supply</p>
 <p>Link distance 80km over SM fiber</p>
@@ -139,7 +139,7 @@ const XFP_DWDM_Products = () => {
 
 <div className='product-dec'>
   <h5>10G XFP DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM, DDM </h5>
-<p>Part Number : NXO-H7-Dxx-X80Di</p>
+<p>Part Number : NXOXFP-H7-Dxx-X80Di</p>
 <h4>Feature's</h4> 
 <p>Dual +3.3V and 5.0V power supply</p>
 <p>Link distance 80km over SM fiber</p>

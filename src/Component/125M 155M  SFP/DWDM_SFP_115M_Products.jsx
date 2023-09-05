@@ -74,7 +74,7 @@ const DWDM_SFP_115M_Products = () => {
   <h5>
   125M / 155M DWDM SFP Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 200KM(46dB), DDM
 </h5>
-<p>Part Number : NXO-05-M13-05B</p>
+<p>Part Number : NXOSFP-05-M13-05B</p>
 <h4>Feature's</h4> 
 <p>Link distance 200km(46dB) over SM fiber</p>
 <p>Maximum Power consumption 1.5W</p>
@@ -99,7 +99,7 @@ const DWDM_SFP_115M_Products = () => {
   <h5>
   125M / 155M DWDM SFP Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 200KM(46dB), DDM
 </h5>
-<p>Part Number : NXO-05-M13-05Bi</p>
+<p>Part Number : NXOSFP-05-M13-05Bi</p>
 <h4>Feature's</h4> 
 <p>Link distance 200km(46dB) over SM fiber</p>
 <p>Maximum Power consumption 1.5W</p>

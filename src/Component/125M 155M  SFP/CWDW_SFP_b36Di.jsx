@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDW_SFP_b36Di = () => { 
 
-  let PartNumber = "NXO-A7-Cxx-b36Di";
+  let PartNumber = "NXOSFP-A7-Cxx-b36Di";
   let productName ="125M / 155M SFP CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 36dB(100~120KM), DDM";
 
 
@@ -281,7 +281,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
         </tr>
 {/*         
         <tr>
-          <td>Supply Voltage(NXO-A7-Cxx-b36D5) </td>
+          <td>Supply Voltage(NXOSFP-A7-Cxx-b36D5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -314,7 +314,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A7-Cxx-b36D)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-Cxx-b36D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -323,7 +323,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A7-Cxx-b36Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-Cxx-b36Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -342,7 +342,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
       
        
         <tr>
-          <td>Supply Current(NXO-A7-Cxx-b36D)</td>
+          <td>Supply Current(NXOSFP-A7-Cxx-b36D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -350,7 +350,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current(NXO-A7-Cxx-b36Di)</td>
+          <td>Supply Current(NXOSFP-A7-Cxx-b36Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

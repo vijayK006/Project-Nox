@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDW_SFP_b30D = () => { 
 
-  let PartNumber = "NXO-A7-Cxx-b30D";
+  let PartNumber = "NXOSFP-A7-Cxx-b30D";
   let productName ="125M / 155M SFP CWDM Transceiver Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(80~100KM), DDM";
 
 
@@ -226,7 +226,7 @@ CWDM Networks
   
  <p>
 
-NXO-A7-Cxx-b30D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+NXOSFP-A7-Cxx-b30D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. There
 are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to SMF 30dB budget optical links.
 
@@ -281,7 +281,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
         </tr>
 {/*         
         <tr>
-          <td>Supply Voltage(NXO-A7-Cxx-b30D5) </td>
+          <td>Supply Voltage(NXOSFP-A7-Cxx-b30D5) </td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
@@ -314,7 +314,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A7-Cxx-b30D)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-Cxx-b30D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -323,7 +323,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A7-Cxx-b30Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-Cxx-b30Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -342,7 +342,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
       
        
         <tr>
-          <td>Supply Current(NXO-A7-Cxx-b30D)</td>
+          <td>Supply Current(NXOSFP-A7-Cxx-b30D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -350,7 +350,7 @@ are 18 wavelengths available from 1270nm to 1610nm The high performance uncooled
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current(NXO-A7-Cxx-b30Di)</td>
+          <td>Supply Current(NXOSFP-A7-Cxx-b30Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

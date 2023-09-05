@@ -78,7 +78,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Cxx-b08D</p>
+<p>Part Number : NXOSPP-H7-Cxx-b08D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -109,7 +109,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Cxx-b08Di</p>
+<p>Part Number : NXOSPP-H7-Cxx-b08Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -141,7 +141,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Cxx-40D</p>
+<p>Part Number : NXOSPP-H7-Cxx-40D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -173,7 +173,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Cxx-40Di</p>
+<p>Part Number : NXOSPP-H7-Cxx-40Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -204,7 +204,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Cxx-80D</p>
+<p>Part Number : NXOSPP-H7-Cxx-80D</p>
 
 
 <h4>Feature's</h4> 
@@ -236,7 +236,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Cxx-80Di</p>
+<p>Part Number : NXOSPP-H7-Cxx-80Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -266,7 +266,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM
 Hot Pluggable, Duplex LC, CWDM 1270~1450nm DFB, SMF 12dB(20KM), DDM
 
 </h5>
-<p>Part Number :NXO-H7-Cxx-b12D</p>
+<p>Part Number :NXOSPP-H7-Cxx-b12D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -296,7 +296,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1450nm DFB, SMF 12dB(20KM), DDM
 Hot Pluggable, Duplex LC, CWDM 1270~1450nm DFB, SMF 12dB(20KM), DDM
 
 </h5>
-<p>Part Number :NXO-H7-Cxx-b12Di</p>
+<p>Part Number :NXOSPP-H7-Cxx-b12Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -327,7 +327,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 26dB, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Cxx-b26D</p>
+<p>Part Number : NXOSPP-H7-Cxx-b26D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable
@@ -358,7 +358,7 @@ Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 26dB, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Cxx-b26Di</p>
+<p>Part Number : NXOSPP-H7-Cxx-b26Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable

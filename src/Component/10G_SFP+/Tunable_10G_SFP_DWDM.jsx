@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Tunable_10G_SFP_DWDM = () => { 
 
-  let PartNumber = "NXO-H7-DTU-80D";
+  let PartNumber = "NXOSPP-H7-DTU-80D";
   let productName ="10G SFP+ DWDM Tunable Transceiver Hot Pluggable, Duplex LC, 50GHz DWDM ILMZ, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -218,7 +218,7 @@ const Tunable_10G_SFP_DWDM = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-H7-DTU-80D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+
+ NXOSPP-H7-DTU-80D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+
 Multi-Source Agreement (MSA) Specification. The high
 performance DWDM C-band tunable cooled InP integrated Laser Mach-Zehnder (ILMZ) transmitter and high
 Sensitivity APD receiver provide superior performance for
@@ -307,7 +307,7 @@ Sensitivity APD receiver provide superior performance for
         </tr>
 
         {/* <tr>
-          <td>Case Operating Temp. (NXO-H7-DTU-80Di)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-DTU-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -334,7 +334,7 @@ Sensitivity APD receiver provide superior performance for
         </tr>
 
         {/* <tr>
-          <td>Supply Current (NXO-H7-DTU-80Di)</td>
+          <td>Supply Current (NXOSPP-H7-DTU-80Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

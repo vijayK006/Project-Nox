@@ -28,7 +28,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_155M_S15_B2D = () => { 
 
-  let PartNumber = "NXO-A7-S15-B2D";
+  let PartNumber = "NXOSFP-A7-S15-B2D";
   let productName ="125M / 155M SFP 100BASE-EZX Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 220KM(50dB), DDM";
 
   const [name, setName] = useState("");
@@ -222,7 +222,7 @@ const Dual_155M_S15_B2D = () => {
   
  <p>
 
-NXO-A7-S15-B2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+NXOSFP-A7-S15-B2D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1550nm DFB transmitter and
 high sensitivity APD receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to SMF 220km(50dB) optical links.
@@ -310,7 +310,7 @@ high sensitivity APD receiver provide superior performance for Fast Ethernet and
         </tr>
 
         {/* <tr>
-          <td>Case Operating Temp. (NXO-A7-S15-B2Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-S15-B2Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -328,7 +328,7 @@ high sensitivity APD receiver provide superior performance for Fast Ethernet and
         </tr>
 
         {/* <tr>
-          <td>Supply Current (NXO-A7-S15-B2D)</td>
+          <td>Supply Current (NXOSFP-A7-S15-B2D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

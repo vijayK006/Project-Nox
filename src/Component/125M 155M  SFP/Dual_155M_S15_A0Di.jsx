@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_155M_S15_A0Di = () => { 
 
-  let PartNumber = "NXO-A7-S15-A0Di";
+  let PartNumber = "NXOSFP-A7-S15-A0Di";
   let productName ="125M / 155M SFP 100BASE-ZX Transceiver Hot Pluggable, Duplex LC, 1550nm DFB, SMF 100KM, DDM";
 
   const [name, setName] = useState("");
@@ -221,7 +221,7 @@ const Dual_155M_S15_A0Di = () => {
   
  <p>
 
-NXO-A7-S15-A0Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+NXOSFP-A7-S15-A0Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1550nm DFB transmitter and
 high sensitivity PIN receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to SMF 100km optical links.
@@ -300,7 +300,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A7-S15-A0D)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-S15-A0D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -309,7 +309,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A7-S15-A0Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-S15-A0Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -327,7 +327,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A7-S15-A0D)</td>
+          <td>Supply Current (NXOSFP-A7-S15-A0D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -336,7 +336,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A7-S15-A0Di)</td>
+          <td>Supply Current (NXOSFP-A7-S15-A0Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

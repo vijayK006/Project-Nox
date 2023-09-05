@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_S15_A0Di_SFP = () => { 
 
-  let PartNumber = "NXO-H7-S15-XA0Di";
+  let PartNumber = "NXOXFP-H7-S15-XA0Di";
   let productName ="10G XFP-ZR Transceiver Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM";
 
   const [name, setName] = useState("");
@@ -303,7 +303,7 @@ performance cooled 1550nm EML transmitter and high sensitivity APD receiver prov
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature (NXO-H7-S15-A0D)</td>
+          <td>Case Operating Temperature (NXOXFP-H7-S15-A0D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -312,7 +312,7 @@ performance cooled 1550nm EML transmitter and high sensitivity APD receiver prov
         </tr>
 
         <tr>
-          <td>Case Operating Temperature (NXO-H7-S15-A0Di)</td>
+          <td>Case Operating Temperature (NXOXFP-H7-S15-A0Di)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>

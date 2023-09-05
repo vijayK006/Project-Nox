@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_Dxx_80D = () => { 
 
-  let PartNumber = "NXO-H7-Dxx-X80D";
+  let PartNumber = "NXOXFP-H7-Dxx-X80D";
   let productName ="10G XFP DWDM Transceiver Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -305,7 +305,7 @@ performance cooled DWDM EML transmitter and high sensitivity APD receiver provid
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxx-80D)</td>
+          <td>Case Operating Temp. (NXOXFP-H7-Dxx-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -314,7 +314,7 @@ performance cooled DWDM EML transmitter and high sensitivity APD receiver provid
         </tr>
 
         <tr>
-        <td>Case Operating Temp. (NXO-H7-Dxx-80Di)</td>
+        <td>Case Operating Temp. (NXOXFP-H7-Dxx-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

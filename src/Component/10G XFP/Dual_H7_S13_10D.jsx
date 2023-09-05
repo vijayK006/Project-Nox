@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_S13_10D = () => { 
 
-  let PartNumber = "NXO-H7-S13-X10D";
+  let PartNumber = "NXOXFP-H7-S13-X10D";
   let productName ="10G XFP-LR Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM";
 
   const [name, setName] = useState("");
@@ -295,7 +295,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance uncooled 1310
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature (NXO-H8-S13-10D)</td>
+          <td>Case Operating Temperature (NXOXFP-H8-S13-10D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -304,7 +304,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance uncooled 1310
         </tr>
 
         <tr>
-          <td>Case Operating Temperature (NXO-H8-S13-10Di)</td>
+          <td>Case Operating Temperature (NXOXFP-H8-S13-10Di)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>

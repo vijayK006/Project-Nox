@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_H7_80D = () => { 
 
-  let PartNumber = "NXO-H7-Dxxx-80D";
+  let PartNumber = "NXOSPP-H7-Dxxx-80D";
   let productName ="10G SFP+ DWDM Transceiver Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -219,7 +219,7 @@ const DWDM_H7_80D = () => {
   
  <p>
 
- NXO-H7-Dxxx-80D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled DWDM EML transmitter and high sensitivity APD receiver provide superior performance for 10GBASE-ZR/ZW applications up to SMF 80km optical links with DWDM wavelength 50GHz spacing
+ NXOSPP-H7-Dxxx-80D Small Form Factor Pluggable SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled DWDM EML transmitter and high sensitivity APD receiver provide superior performance for 10GBASE-ZR/ZW applications up to SMF 80km optical links with DWDM wavelength 50GHz spacing
 </p>
 </div>
 </div>
@@ -294,7 +294,7 @@ const DWDM_H7_80D = () => {
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxxx-80D)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-Dxxx-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -303,7 +303,7 @@ const DWDM_H7_80D = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxxx-80Di)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-Dxxx-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,7 +321,7 @@ const DWDM_H7_80D = () => {
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-Dxxx-80D
+          <td>Supply Current (NXOSPP-H7-Dxxx-80D
 )</td>
           <td>Icc</td>
           <td></td>
@@ -331,7 +331,7 @@ const DWDM_H7_80D = () => {
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-Dxxx-80Di)</td>
+          <td>Supply Current (NXOSPP-H7-Dxxx-80Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

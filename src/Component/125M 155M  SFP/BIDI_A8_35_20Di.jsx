@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_A8_35_20Di = () => { 
 
-  let PartNumber = "NXO-A8-S35-20Di";
+  let PartNumber = "NXOSFP-A8-S35-20Di";
   let productName ="125M / 155M SFP 100BX-U Transceiver Hot Pluggable, Bidi LC, Tx1310nm FP / Rx1550nm, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -291,7 +291,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A8-S35-20D)</td>
+          <td>Case Operating Temp. (NXOSFP-A8-S35-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A8-S35-20Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A8-S35-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -318,7 +318,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A8-S35-20D)</td>
+          <td>Supply Current (NXOSFP-A8-S35-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -327,7 +327,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A8-S35-20Di)</td>
+          <td>Supply Current (NXOSFP-A8-S35-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

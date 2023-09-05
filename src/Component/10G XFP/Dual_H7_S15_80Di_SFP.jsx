@@ -28,7 +28,7 @@ import Dual_H7_S15_80Di from '../10G_SFP+/Dual_H7_S15_80Di';
 
 const Dual_H7_S15_80Di_SFP = () => { 
 
-  let PartNumber = "NXO-H7-S15-X80Di";
+  let PartNumber = "NXOXFP-H7-S15-X80Di";
   let productName ="10G XFP-ZR Transceiver Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -298,7 +298,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance cooled 1550nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature (NXO-H7-S15-80D)</td>
+          <td>Case Operating Temperature (NXOXFP-H7-S15-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -307,7 +307,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance cooled 1550nm
         </tr>
 
         <tr>
-          <td>Case Operating Temperature (NXO-H7-S15-80Di)</td>
+          <td>Case Operating Temperature (NXOXFP-H7-S15-80Di)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>

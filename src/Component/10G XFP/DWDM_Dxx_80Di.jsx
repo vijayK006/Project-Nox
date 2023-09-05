@@ -305,7 +305,7 @@ performance cooled DWDM EML transmitter and high sensitivity APD receiver provid
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-Dxx-80D)</td>
+          <td>Case Operating Temp. (NXOXFP-H7-Dxx-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -314,7 +314,7 @@ performance cooled DWDM EML transmitter and high sensitivity APD receiver provid
         </tr>
 
         <tr>
-        <td>Case Operating Temp. (NXO-H7-Dxx-80Di)</td>
+        <td>Case Operating Temp. (NXOXFP-H7-Dxx-80Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>

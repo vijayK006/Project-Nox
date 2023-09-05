@@ -77,7 +77,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(80~100KM), DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-Cxx-b30D</p>
+<p>Part Number : NXOSFP-A7-Cxx-b30D</p>
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
 
@@ -108,7 +108,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(80~100KM), DDM
 
 
 </h5>
-<p>Part Number : NXO-A7-Cxx-b30Di</p>
+<p>Part Number : NXOSFP-A7-Cxx-b30Di</p>
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
 
@@ -138,7 +138,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 30dB(80~100KM), DDM
   125M / 155M SFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 34dB(100~120KM), DDM
 </h5>
-<p>Part Number : NXO-A7-Cxx-b34D</p>
+<p>Part Number : NXOSFP-A7-Cxx-b34D</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply
 </p>
@@ -165,7 +165,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 34dB(100~120KM), DDM
   125M / 155M SFP CWDM Transceiver
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 34dB(100~120KM), DDM
 </h5>
-<p>Part Number : NXO-A7-Cxx-b34Di</p>
+<p>Part Number : NXOSFP-A7-Cxx-b34Di</p>
 <h4>Feature's</h4> 
 <p>Single +3.3V power supply
 </p>
@@ -193,7 +193,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 34dB(100~120KM), DDM
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 36dB(120~140KM), DDM
 
 </h5>
-<p>Part Number : NXO-A7-Cxx-b36D</p>
+<p>Part Number : NXOSFP-A7-Cxx-b36D</p>
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
 <p>Single +3.3V power supply
@@ -222,7 +222,7 @@ Hot Pluggable, Duplex LC, CWDM DFB, SMF 36dB(120~140KM), DDM
 Hot Pluggable, Duplex LC, CWDM DFB, SMF 36dB(120~140KM), DDM
 
 </h5>
-<p>Part Number : NXO-A7-Cxx-b36Di</p>
+<p>Part Number : NXOSFP-A7-Cxx-b36Di</p>
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
 <p>Single +3.3V power supply

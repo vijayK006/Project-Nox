@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_S15_40DM = () => { 
 
-  let PartNumber = "NXO-H7-S15-40DM";
+  let PartNumber = "NXOSPP-H7-S15-40DM";
   let productName ="10G SFP+ ER Transceiver Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, Multi-Rate";
 
   const [name, setName] = useState("");
@@ -330,7 +330,7 @@ SMF 40km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-S15-40D)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S15-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -339,7 +339,7 @@ SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-S15-40Di)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S15-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -357,7 +357,7 @@ SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S15-40D)</td>
+          <td>Supply Current (NXOSPP-H7-S15-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -366,7 +366,7 @@ SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S15-40Di)</td>
+          <td>Supply Current (NXOSPP-H7-S15-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

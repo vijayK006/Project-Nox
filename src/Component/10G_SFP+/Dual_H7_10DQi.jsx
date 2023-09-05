@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_10DQi = () => { 
 
-  let PartNumber = "NXO-H7-S13-10DQi";
+  let PartNumber = "NXOSPP-H7-S13-10DQi";
   let productName ="10G SFP+ LR Transceiver Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM, CDR";
 
   const [name, setName] = useState("");
@@ -238,7 +238,7 @@ const Dual_H7_10DQi = () => {
   
  <p>
 
-NXO-H7-S13-10DQi Small Form Factor Pluggable
+NXOSPP-H7-S13-10DQi Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for 10GBASE-LR/LW applications up to
 SMF 10km optical links. And it is equipped with internal TX and RX retime units (Clock and Data Recover, CDR) to comply SONET/SDH jitter requirements and to enhance host card’s high-speed data signal integrity.
@@ -317,7 +317,7 @@ SMF 10km optical links. And it is equipped with internal TX and RX retime units 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-10DQ)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S13-10DQ)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -326,7 +326,7 @@ SMF 10km optical links. And it is equipped with internal TX and RX retime units 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-10DQi)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S13-10DQi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -344,7 +344,7 @@ SMF 10km optical links. And it is equipped with internal TX and RX retime units 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-10DQ)</td>
+          <td>Supply Current (NXOSPP-H7-S13-10DQ)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -353,7 +353,7 @@ SMF 10km optical links. And it is equipped with internal TX and RX retime units 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-10DQi)</td>
+          <td>Supply Current (NXOSPP-H7-S13-10DQi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

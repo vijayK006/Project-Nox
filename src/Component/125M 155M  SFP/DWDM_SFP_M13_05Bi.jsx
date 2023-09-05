@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_SFP_M13_05Bi = () => { 
 
-  let PartNumber = "NXO-05-M13-05Bi";
+  let PartNumber = "NXOSFP-05-M13-05Bi";
   let productName ="125M / 155M DWDM SFP Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 200KM(46dB), DDM";
 
   const [name, setName] = useState("");
@@ -298,7 +298,7 @@ are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A7-Dxx-B0D)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-Dxx-B0D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -307,7 +307,7 @@ are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A7-Dxx-B0Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-Dxx-B0Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -325,7 +325,7 @@ are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A7-Dxx-B0D)</td>
+          <td>Supply Current (NXOSFP-A7-Dxx-B0D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -334,7 +334,7 @@ are 45 channels ITU-T 100GHz C-Band DWDM wavelengths available from 1528.77nm(CH
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A7-Dxx-B0Di)</td>
+          <td>Supply Current (NXOSFP-A7-Dxx-B0Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

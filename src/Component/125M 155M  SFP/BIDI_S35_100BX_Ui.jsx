@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_S35_100BX_Ui = () => { 
 
-  let PartNumber = "NXO-A2-S35-20Di";
+  let PartNumber = "NXOSFP-A2-S35-20Di";
   let productName ="125M / 155M SFP 100BX-U Transceiver  Hot Pluggable, Bidi SC, 1310nm FP / Rx1550nm, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -290,7 +290,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A2-S35-20D)</td>
+          <td>Case Operating Temp. (NXOSFP-A2-S35-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -299,7 +299,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A2-S35-20Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A2-S35-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -317,7 +317,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A2-S35-20D)</td>
+          <td>Supply Current (NXOSFP-A2-S35-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -326,7 +326,7 @@ performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A2-S35-20Di)</td>
+          <td>Supply Current (NXOSFP-A2-S35-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

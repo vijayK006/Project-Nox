@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_A8_S54_80Di = () => { 
 
-  let PartNumber = "NXO-A8-S54-80Di";
+  let PartNumber = "NXOSFP-A8-S54-80Di";
   let productName ="125/155M SFP-100BX-D Transceiver  Hot Pluggable, LC, Tx1550nm DFB/Rx1490nm, Single-Fiber, 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -296,7 +296,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 155
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature  (NXO-A8-S54-A2D)</td>
+          <td>Case Operating Temperature  (NXOSFP-A8-S54-A2D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -305,7 +305,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 155
         </tr>
 
         <tr>
-          <td>Case Operating Temperature  (NXO-A8-S54-A2Di)</td>
+          <td>Case Operating Temperature  (NXOSFP-A8-S54-A2Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -323,7 +323,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 155
         </tr>
 
         <tr>
-          <td>Supply Current </td>
+          <td>Supply Current(NXOSFP-A8-S54-A2D) </td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -332,7 +332,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance un-cooled 155
         </tr>
 
         <tr>
-          <td>Supply Current  (NXO-A8-S53-60Di)</td>
+          <td>Supply Current  (NXOSFP-A8-S53-60Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

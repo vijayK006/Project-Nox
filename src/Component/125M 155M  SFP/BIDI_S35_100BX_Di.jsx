@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_S35_100BX_Di = () => { 
 
-  let PartNumber = "NXO-A2-S53-20Di  ";
+  let PartNumber = "NXOSFP-A2-S53-20Di  ";
   let productName ="125M / 155M SFP 100BX-D Transceiver Hot Pluggable, Bidi SC, 1550nm FP / Rx1310nm, SMF 20KM, DDM";
 
   const [name, setName] = useState("");
@@ -291,7 +291,7 @@ high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A2-S53-20D)</td>
+          <td>Case Operating Temp. (NXOSFP-A2-S53-20D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A2-S53-20Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A2-S53-20Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -318,7 +318,7 @@ high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A2-S53-20D)</td>
+          <td>Supply Current (NXOSFP-A2-S53-20D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -327,7 +327,7 @@ high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A2-S53-20Di)</td>
+          <td>Supply Current (NXOSFP-A2-S53-20Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

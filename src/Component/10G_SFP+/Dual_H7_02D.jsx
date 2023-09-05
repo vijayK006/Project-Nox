@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_02D = () => { 
 
-  let PartNumber = "NXO-H7-S13-02D";
+  let PartNumber = "NXOSPP-H7-S13-02D";
   let productName ="10G SFP+ LR-Lite Transceiver Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM";
 
   const [name, setName] = useState("");
@@ -235,7 +235,7 @@ const Dual_H7_02D = () => {
   
  <p>
 
- NXO-H7-S13-02D Small Form Factor Pluggable
+ NXOSPP-H7-S13-02D Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
 performance for 10GBASE-LR/LW applications up to SMF 2km optical links.
 
@@ -314,7 +314,7 @@ performance for 10GBASE-LR/LW applications up to SMF 2km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-02D)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S13-02D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -323,7 +323,7 @@ performance for 10GBASE-LR/LW applications up to SMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-02Di)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S13-02Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -341,7 +341,7 @@ performance for 10GBASE-LR/LW applications up to SMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-02D)</td>
+          <td>Supply Current (NXOSPP-H7-S13-02D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -350,7 +350,7 @@ performance for 10GBASE-LR/LW applications up to SMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-02Di)</td>
+          <td>Supply Current (NXOSPP-H7-S13-02Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

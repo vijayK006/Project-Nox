@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_Cxx_80D = () => { 
 
-  let PartNumber = "NXO-H7-Cxx-X80D";
+  let PartNumber = "NXOXFP-H7-Cxx-X80D";
   let productName ="10G XFP CWDM Transceiver Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -305,7 +305,7 @@ performance cooled CWDM EML transmitter and high sensitivity APD receiver provid
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-Cxx-80D)</td>
+          <td>Case Operating Temp. (NXOXFP-H7-Cxx-80D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -314,7 +314,7 @@ performance cooled CWDM EML transmitter and high sensitivity APD receiver provid
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-Cxx-80Di)</td>
+          <td>Case Operating Temp. (NXOXFP-H7-Cxx-80Di)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>

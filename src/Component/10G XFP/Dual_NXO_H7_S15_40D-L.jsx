@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_NXO_H7_S15_40D_L = () => { 
 
-  let PartNumber = "NXO-H7-S15-X40D-L";
+  let PartNumber = "NXOXFP-H7-S15-X40D-L";
   let productName ="10G XFP-ZR Transceiver Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 80KM, DDM";
 
   const [name, setName] = useState("");
@@ -297,7 +297,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance cooled 1550nm
       <tbody>
 
       <tr>
-          <td>Case Operating Temperature (NXO-H7-S15-40D-L)</td>
+          <td>Case Operating Temperature (NXOXFP-H7-S15-40D-L)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -306,7 +306,7 @@ Multi-Source Agreement ( MSA ) Specification. The high performance cooled 1550nm
         </tr>
 
         <tr>
-          <td>Case Operating Temperature (NXO-H7-S15-40D-Li)</td>
+          <td>Case Operating Temperature (NXOXFP-H7-S15-40D-Li)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>

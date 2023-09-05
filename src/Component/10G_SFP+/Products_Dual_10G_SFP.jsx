@@ -79,7 +79,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 220M, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-M13-X2D
+<p>Part Number : NXOSPP-H7-M13-X2D
 </p>
 
 <h4>Feature's</h4> 
@@ -110,7 +110,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 220M, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-M13-X2Di
+<p>Part Number : NXOSPP-H7-M13-X2Di
 </p>
 
 <h4>Feature's</h4> 
@@ -139,7 +139,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, MMF 220M, DDM
   10G SFP+ SR Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
 </h5>
-<p>Part Number : NXO-H7-M85-X3D</p>
+<p>Part Number : NXOSPP-H7-M85-X3D</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -166,7 +166,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
   10G SFP+ SR Transceiver
 Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM
 </h5>
-<p>Part Number : NXO-H7-M85-X3Di</p>
+<p>Part Number : NXOSPP-H7-M85-X3Di</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -196,7 +196,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-M85-X3DM</p>
+<p>Part Number : NXOSPP-H7-M85-X3DM</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -226,7 +226,7 @@ Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-M85-X3DMi</p>
+<p>Part Number : NXOSPP-H7-M85-X3DMi</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -257,7 +257,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-S13-02D</p>
+<p>Part Number : NXOSPP-H7-S13-02D</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -288,7 +288,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-S13-02D</p>
+<p>Part Number : NXOSPP-H7-S13-02D</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -315,7 +315,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
   10G SFP+ LR-Lite Transceiver
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM, Multi-Rate
 </h5>
-<p>Part Number : NXO-H7-S13-02DM</p>
+<p>Part Number : NXOSPP-H7-S13-02DM</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -341,7 +341,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM, Multi-Rate
   10G SFP+ LR-Lite Transceiver
 Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM, Multi-Rate
 </h5>
-<p>Part Number : NXO-H7-S13-02DMi</p>
+<p>Part Number : NXOSPP-H7-S13-02DMi</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -368,7 +368,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM, Multi-Rate
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM, CDR
 
 </h5>
-<p>Part Number : NXO-H7-S13-10DQ</p>
+<p>Part Number : NXOSPP-H7-S13-10DQ</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -395,7 +395,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM, CDR
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM, CDR
 
 </h5>
-<p>Part Number : NXO-H7-S13-10DQi</p>
+<p>Part Number : NXOSPP-H7-S13-10DQi</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -425,7 +425,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-S13-20DM</p>
+<p>Part Number : NXOSPP-H7-S13-20DM</p>
 
 <h4>Feature's</h4> 
 
@@ -458,7 +458,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-S13-20DMi</p>
+<p>Part Number : NXOSPP-H7-S13-20DMi</p>
 
 <h4>Feature's</h4> 
 
@@ -489,7 +489,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 20KM, DDM, Multi-Rate
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-S13-40D</p>
+<p>Part Number : NXOSPP-H7-S13-40D</p>
 
 <h4>Feature's</h4> 
 
@@ -519,7 +519,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
 Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-S13-40Di</p>
+<p>Part Number : NXOSPP-H7-S13-40Di</p>
 
 <h4>Feature's</h4> 
 
@@ -552,7 +552,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-S13-40DM</p>
+<p>Part Number : NXOSPP-H7-S13-40DM</p>
 
 <h4>Feature's</h4> 
 
@@ -585,7 +585,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-S13-40DMi</p>
+<p>Part Number : NXOSPP-H7-S13-40DMi</p>
 
 <h4>Feature's</h4> 
 
@@ -618,7 +618,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-S15-40D
+<p>Part Number : NXOSPP-H7-S15-40D
 </p>
 
 <h4>Feature's</h4> 
@@ -652,7 +652,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-S15-40Di
+<p>Part Number : NXOSPP-H7-S15-40Di
 </p>
 
 <h4>Feature's</h4> 
@@ -683,7 +683,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 40KM, DDM, Multi-Rate
 Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, Multi-Rate
 
 </h5>
-<p>Part Number : NXO-H7-S15-40DM
+<p>Part Number : NXOSPP-H7-S15-40DM
 </p>
 
 <h4>Feature's</h4> 
@@ -714,7 +714,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, Multi-Rate
 Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, Multi-Rate
 
 </h5>
-<p>Part Number : NXO-H7-S15-40DMi
+<p>Part Number : NXOSPP-H7-S15-40DMi
 </p>
 
 <h4>Feature's</h4> 
@@ -744,7 +744,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, Multi-Rate
 Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, CDR
 
 </h5>
-<p>Part Number : NXO-H7-S15-40DQ</p>
+<p>Part Number : NXOSPP-H7-S15-40DQ</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -773,7 +773,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, CDR
 Hot Pluggable, Duplex LC, 1550nm EML, SMF 40KM, DDM, CDR
 
 </h5>
-<p>Part Number : NXO-H7-S15-40DQi</p>
+<p>Part Number : NXOSPP-H7-S15-40DQi</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -804,7 +804,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-S15-80D</p>
+<p>Part Number : NXOSPP-H7-S15-80D</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -836,7 +836,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-S15-80Di</p>
+<p>Part Number : NXOSPP-H7-S15-80Di</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -869,7 +869,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-S15-80DM</p>
+<p>Part Number : NXOSPP-H7-S15-80DM</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -902,7 +902,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, Multi-Rate
 
 
 </h5>
-<p>Part Number : NXO-H7-S15-80DMi</p>
+<p>Part Number : NXOSPP-H7-S15-80DMi</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -930,7 +930,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, Multi-Rate
   10G SFP+ ZR Transceiver
 Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, CDR
 </h5>
-<p>Part Number : NXO-H7-S15-80DQ</p>
+<p>Part Number : NXOSPP-H7-S15-80DQ</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -957,7 +957,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, CDR
   10G SFP+ ZR Transceiver
 Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, CDR
 </h5>
-<p>Part Number : NXO-H7-S15-80DQi</p>
+<p>Part Number : NXOSPP-H7-S15-80DQi</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -985,7 +985,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 80KM, DDM, CDR
 Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-S15-A0D</p>
+<p>Part Number : NXOSPP-H7-S15-A0D</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable
@@ -1013,7 +1013,7 @@ Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
 Hot Pluggable, Duplex LC, 1550nm EML, SMF 100KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-S15-A0Di</p>
+<p>Part Number : NXOSPP-H7-S15-A0Di</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable

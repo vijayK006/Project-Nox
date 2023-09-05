@@ -78,7 +78,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Dxx-40D</p>
+<p>Part Number : NXOSPP-H7-Dxx-40D</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -107,7 +107,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H7-Dxx-40Di</p>
+<p>Part Number : NXOSPP-H7-Dxx-40Di</p>
 
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
@@ -135,7 +135,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 40KM, DDM
 Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-Dxx-80D</p>
+<p>Part Number : NXOSPP-H7-Dxx-80D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
@@ -164,7 +164,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM
 Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-Dxx-80Di</p>
+<p>Part Number : NXOSPP-H7-Dxx-80Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
@@ -192,7 +192,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 80KM, DDM
   10G SFP+ DWDM Transceiver
 Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 100KM, DDM
 </h5>
-<p>Part Number : NXO-H7-Dxx-A0D</p>
+<p>Part Number : NXOSPP-H7-Dxx-A0D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
@@ -221,7 +221,7 @@ Hot Pluggable, Duplex LC, 100GHz DWDM EML, SMF 100KM, DDM
   10G SFP+ DWDM Transceiver
 Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 40KM, DDM
 </h5>
-<p>Part Number : NXO-H7-Dxxx-40D</p>
+<p>Part Number : NXOSPP-H7-Dxxx-40D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
@@ -249,7 +249,7 @@ Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 40KM, DDM
   10G SFP+ DWDM Transceiver
 Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 40KM, DDM
 </h5>
-<p>Part Number : NXO-H7-Dxxx-40Di</p>
+<p>Part Number : NXOSPP-H7-Dxxx-40Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
@@ -278,7 +278,7 @@ Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 40KM, DDM
 Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-Dxxx-80D</p>
+<p>Part Number : NXOSPP-H7-Dxxx-80D</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>
@@ -307,7 +307,7 @@ Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 80KM, DDM
 Hot Pluggable, Duplex LC, 50GHz DWDM EML, SMF 80KM, DDM
 
 </h5>
-<p>Part Number : NXO-H7-Dxxx-80Di</p>
+<p>Part Number : NXOSPP-H7-Dxxx-80Di</p>
 
 <h4>Feature's</h4> 
 <p>Hot Pluggable</p>

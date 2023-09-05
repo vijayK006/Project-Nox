@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_155M_02Di = () => { 
 
-  let PartNumber = "NXO-A7-M13-02Di";
+  let PartNumber = "NXOSFP-A7-M13-02Di";
   let productName ="125M / 155M SFP 100BASE-FX Transceiver Hot Pluggable, Duplex LC, 1310nm FP, MMF 2KM, DDM";
 
   const [name, setName] = useState("");
@@ -214,7 +214,7 @@ const Dual_155M_02Di = () => {
   <h2>Overview</h2>
   
  <p>
-NXO-A7-M13-02Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+NXOSFP-A7-M13-02Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1310nm FP transmitter and
 high sensitivity PIN receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to MMF 2km optical links.
@@ -293,7 +293,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A7-M13-02D)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-M13-02D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -302,7 +302,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A7-M13-02Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-M13-02Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -320,7 +320,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A7-M13-02D)</td>
+          <td>Supply Current (NXOSFP-A7-M13-02D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -329,7 +329,7 @@ high sensitivity PIN receiver provide superior performance for Fast Ethernet and
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A7-M13-02Di)</td>
+          <td>Supply Current (NXOSFP-A7-M13-02Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

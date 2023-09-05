@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_H7_02DM = () => { 
 
-  let PartNumber = "NXO-H7-S13-02DM";
+  let PartNumber = "NXOSPP-H7-S13-02DM";
   let productName ="10G SFP+ LR-Lite Transceiver Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM, Multi-Rate";
 
   const [name, setName] = useState("");
@@ -235,7 +235,7 @@ const Dual_H7_02DM = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-H7-S13-02DM Small Form Factor Pluggable
+ NXOSPP-H7-S13-02DM Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
 performance for Multi-Rate applications up to SMF 2km optical links.
 
@@ -313,7 +313,7 @@ performance for Multi-Rate applications up to SMF 2km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-02DM)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S13-02DM)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -322,7 +322,7 @@ performance for Multi-Rate applications up to SMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-S13-02DMi)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-S13-02DMi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -340,7 +340,7 @@ performance for Multi-Rate applications up to SMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-02DM)</td>
+          <td>Supply Current (NXOSPP-H7-S13-02DM)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -349,7 +349,7 @@ performance for Multi-Rate applications up to SMF 2km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-S13-02DMi)</td>
+          <td>Supply Current (NXOSPP-H7-S13-02DMi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

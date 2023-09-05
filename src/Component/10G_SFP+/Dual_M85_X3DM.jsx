@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_M85_X3DM = () => { 
 
-  let PartNumber = "NXO-H7-M85-X3DM";
+  let PartNumber = "NXOSPP-H7-M85-X3DM";
   let productName ="10G SFP+ SR Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF OM3 300M, DDM, Multi-Rate";
 
   const [name, setName] = useState("");
@@ -228,7 +228,7 @@ const Dual_M85_X3DM = () => {
   
  <p>
 
-NXO-H7-M85-X3DM Small Form Factor Pluggable
+NXOSPP-H7-M85-X3DM Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver provide superior
 performance for 10GBASE-SR Ethernet applications up to MMF OM3 300m optical links.
 
@@ -306,7 +306,7 @@ performance for 10GBASE-SR Ethernet applications up to MMF OM3 300m optical link
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-M85-X3DM)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-M85-X3DM)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -315,7 +315,7 @@ performance for 10GBASE-SR Ethernet applications up to MMF OM3 300m optical link
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-M85-X3DMi)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-M85-X3DMi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -333,7 +333,7 @@ performance for 10GBASE-SR Ethernet applications up to MMF OM3 300m optical link
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-M85-X3DM
+          <td>Supply Current (NXOSPP-H7-M85-X3DM
 )</td>
           <td>Icc</td>
           <td></td>
@@ -343,7 +343,7 @@ performance for 10GBASE-SR Ethernet applications up to MMF OM3 300m optical link
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-M85-X3DMi)</td>
+          <td>Supply Current (NXOSPP-H7-M85-X3DMi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

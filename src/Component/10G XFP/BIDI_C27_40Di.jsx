@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_C27_40Di = () => { 
 
-  let PartNumber = "NXO-H8-C27-X40Di";
+  let PartNumber = "NXOXFP-H8-C27-X40Di";
   let productName ="10G XFP BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -295,7 +295,7 @@ performance for 10GBASE Ethernet applications up to 40km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-40D)</td>
+          <td>Case Operating Temp. (NXOXFP-H8-C27-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -304,7 +304,7 @@ performance for 10GBASE Ethernet applications up to 40km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-40Di)</td>
+          <td>Case Operating Temp. (NXOXFP-H8-C27-40Di)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -322,7 +322,7 @@ performance for 10GBASE Ethernet applications up to 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-40D)</td>
+          <td>Supply Current (NXOXFP-H8-C27-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -330,7 +330,7 @@ performance for 10GBASE Ethernet applications up to 40km optical links.
           <td>mA</td>
         </tr>
         <tr>
-          <td>Supply Current (NXO-H8-C27-40Di)</td>
+          <td>Supply Current (NXOXFP-H8-C27-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -339,7 +339,7 @@ performance for 10GBASE Ethernet applications up to 40km optical links.
         </tr>
 
         <tr>
-          <td>Power Consumption (NXO-H8-C27-40D)</td>
+          <td>Power Consumption (NXOXFP-H8-C27-40D)</td>
           <td>P</td>
           <td></td>
           <td></td>
@@ -348,7 +348,7 @@ performance for 10GBASE Ethernet applications up to 40km optical links.
         </tr>
 
         <tr>
-          <td>Power Consumption (NXO-H8-C27-40Di)</td>
+          <td>Power Consumption (NXOXFP-H8-C27-40Di)</td>
           <td>P</td>
           <td></td>
           <td></td>

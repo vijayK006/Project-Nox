@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const Dual_155M_M85_02Di = () => { 
 
-  let PartNumber = "NXO-A7-M85-02Di";
+  let PartNumber = "NXOSFP-A7-M85-02Di";
   let productName ="125M / 155M SFP 100SX Transceiver Hot Pluggable, Duplex LC, 850nm VCSEL, MMF 2KM, DDM";
 
   const [name, setName] = useState("");
@@ -215,7 +215,7 @@ const Dual_155M_M85_02Di = () => {
   
  <p>
 
-NXO-A7-M85-02Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+NXOSFP-A7-M85-02Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to MMF 2km optical links.
 
@@ -293,7 +293,7 @@ performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver p
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-A7-M85-02D)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-M85-02D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -302,7 +302,7 @@ performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver p
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-A7-M85-02Di)</td>
+          <td>Case Operating Temp. (NXOSFP-A7-M85-02Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -320,7 +320,7 @@ performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver p
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A7-M85-02D)</td>
+          <td>Supply Current (NXOSFP-A7-M85-02D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -329,7 +329,7 @@ performance uncooled 850nm VCSEL transmitter and high sensitivity PIN receiver p
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-A7-M85-02Di)</td>
+          <td>Supply Current (NXOSFP-A7-M85-02Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

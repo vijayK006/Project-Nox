@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_H7_40D = () => { 
 
-  let PartNumber = "NXO-H7-Cxx-40D";
+  let PartNumber = "NXOSPP-H7-Cxx-40D";
   let productName ="10G SFP+ CWDM Transceiver Hot Pluggable, Duplex LC, CWDM 1470~1610nm EML, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -218,7 +218,7 @@ const CWDM_H7_40D = () => {
   <h2>Overview</h2>
   
  <p>
- NXO-H7-Cxx-40D Small Form Factor Pluggable SFP+ CWDM transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled CWDM EML transmitter and high sensitivity PIN receiver provide superior performance for 10GBASE-ER/EW applications up to SMF 40km optical links.
+ NXOSPP-H7-Cxx-40D Small Form Factor Pluggable SFP+ CWDM transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled CWDM EML transmitter and high sensitivity PIN receiver provide superior performance for 10GBASE-ER/EW applications up to SMF 40km optical links.
 
 </p>
 </div>
@@ -294,7 +294,7 @@ const CWDM_H7_40D = () => {
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H7-Cxx-40D)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-Cxx-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -303,7 +303,7 @@ const CWDM_H7_40D = () => {
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H7-Cxx-40Di)</td>
+          <td>Case Operating Temp. (NXOSPP-H7-Cxx-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -321,7 +321,7 @@ const CWDM_H7_40D = () => {
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-Cxx-40D
+          <td>Supply Current (NXOSPP-H7-Cxx-40D
 )</td>
           <td>Icc</td>
           <td></td>
@@ -331,7 +331,7 @@ const CWDM_H7_40D = () => {
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H7-Cxx-40Di)</td>
+          <td>Supply Current (NXOSPP-H7-Cxx-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
