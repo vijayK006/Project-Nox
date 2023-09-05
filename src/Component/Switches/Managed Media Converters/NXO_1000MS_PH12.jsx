@@ -21,8 +21,8 @@ import { Link } from 'react-router-dom';
 
 const NXO_1000MS_PH12 = () => { 
 
-  let PartNumber = "NXO-1000MS";
-  let productName ="1x GbE RJ45 to 1x 100/1000Base SFP";
+  let PartNumber = "NXO-1000MS-PH12";
+  let productName ="1x GbE RJ45 to 100/1000Base SFP with PoE PSE (30W, 12/24/48VDC)";
 
   const [name, setName] = useState("");
   const [mobNumber, setmobNumber] = useState("");
@@ -143,7 +143,7 @@ const NXO_1000MS_PH12 = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>{PartNumber} is a 10/100/1000Base-T to 100/1000Base-X managed GbE media converter which offers dual speed fiber  (100M/1G) transmission. Housed in rugged DIN rail or wall mountable enclosures, the converter is designed for harsh  environments, such as industrial networking and intelligent transportation systems (ITS) and is also suitable for many military and  utility market applications where environmental conditions exceed commercial product specifications. Standard operating  temperature range models (-10 to 60°C) and wide operating temperature range models (-40 to 75°C) fulfill the special needs of  industrial automation applications.
+ <p>{PartNumber} is a 10/100/1000Base-T to 100/1000Base-X manageable GbE media converter which not only offers dual-  speed fixed fiber transceiver or SFP cage module options for the optical interface, but also injects PoE+ power through the  electrical RJ-45 port. Housed in rugged DIN rail or wall mountable enclosures, NXO 1000MS-PH12 converter is designed for harsh  environments, such as IP surveillance, industrial networking, intelligent transportation systems (ITS) and is also suitable for many  military and utility market applications where environmental conditions exceed commercial product specifications.
 
 </p>
 </div>
