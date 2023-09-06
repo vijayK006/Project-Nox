@@ -107,7 +107,6 @@ const NXO_500_NXO_800 = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Wide operating temperature -40 ~ 75°C ("-E" model)</p>
 <p className='listFeture'>Supports flow control</p>
 <p className='listFeture'>Jumbo frame support</p>
 <p className='listFeture'>Wide operating temperature -40~75°C (-E model)</p>

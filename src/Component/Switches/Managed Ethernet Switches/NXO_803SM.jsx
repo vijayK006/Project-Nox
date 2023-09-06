@@ -101,7 +101,7 @@ const NXO_803SM = () => {
 
 <h5>Features</h5>
 
-<p className='listFeture'>Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses.Supports up to 5 rings in one device (Please  see CTC μ-Ring white paper for more details and more topology application)</p>
+<p className='listFeture'>Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses.Supports up to 5 rings in one device (Please  see NXO μ-Ring white paper for more details and more topology application)</p>
 <p className='listFeture'>Provides SmartConfig for quick and easy mass Configuration Tool*</p>
 <p className='listFeture'>μ-Ring for Redundant Cabling, recovery time{'<10ms'} in 250 devices</p>
 <p className='listFeture'>Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to Peer Transparent Clock, End to End  Transparent Clock, Master, Slave mode by each port</p>

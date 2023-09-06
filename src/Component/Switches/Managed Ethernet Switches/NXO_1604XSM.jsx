@@ -104,7 +104,7 @@ const NXO_1604XSM = () => {
 <p className='listFeture'>12/24/48VDC (9.6~60VDC) redundant dual input power</p>
 <p className='listFeture'>Cable diagnostics, identifies opens/shorts distance</p>
 <p className='listFeture'>Provides 5 ring instances that each can support µ-Ring, µ-Chain or Sub-Ring type for flexible uses. Supports up to 5 rings in one device
-(Please see CTC µ-Ring white paper for more details and more topology application)</p>
+(Please see NXO µ-Ring white paper for more details and more topology application)</p>
 <p className='listFeture'>μ-Ring for Redundant Cabling, recovery time{'<10ms'} in 250 devices</p>
 <p className='listFeture'>Supports SmartView™ for Centralized Management</p>
 
@@ -140,7 +140,7 @@ const NXO_1604XSM = () => {
  <p>{PartNumber} An Industrial 20-port Ethernet switch comes with 16 ports Gigabit copper interface and 4 ports 10 Gigabit SFP+ 
  slots, supporting  various types of 10 and 2.5Gigabit optical small form-factor pluggable transceivers for long-distance 
  and wide-bandwidth transmission,  supports STP, RSTP, MSTP, ITU-T G.8032 Ethernet Ring Protection Switching (ERPS) for 
- link redundancy. Moreover, CTC proprietary  μ-Ring supports recovery time {'<10ms'} in 250 devices to enhance a reliable 
+ link redundancy. Moreover, NXO proprietary  μ-Ring supports recovery time {'<10ms'} in 250 devices to enhance a reliable 
  non-stop network that used to connect various types of  Ethernet devices. It adopts an enhanced and hardened design for high surge protection, wide operating temperature and safety  certified to meet critical and centralize strict requirements.
 
 </p>

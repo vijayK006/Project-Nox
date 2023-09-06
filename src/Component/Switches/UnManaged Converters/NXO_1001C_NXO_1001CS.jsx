@@ -149,7 +149,7 @@ const NXO_1001C_NXO_1001CS = () => {
   <h2>Overview</h2>
   
  <p>
- These compact models are unmanaged industrial grade gigabit Ethernet media converters that support conversion between  electrical 10/100/1000Base-T and optical 1000Base-X Ethernet. Housed in rugged DIN rail or wall mountable enclosures, these  converters are designed for harsh environments, such as industrial networking and intelligent transportation systems (ITS) and are  also suitable for many military and utility market applications where environmental conditions exceed commercial product  specifications.
+ {PartNumber} These compact models are unmanaged industrial grade gigabit Ethernet media converters that support conversion between  electrical 10/100/1000Base-T and optical 1000Base-X Ethernet. Housed in rugged DIN rail or wall mountable enclosures, these  converters are designed for harsh environments, such as industrial networking and intelligent transportation systems (ITS) and are  also suitable for many military and utility market applications where environmental conditions exceed commercial product  specifications.
 
 
 </p>

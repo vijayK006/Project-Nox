@@ -198,13 +198,13 @@ Peer to Peer Transparent Clock, End to End 	Transparent Clock, Master, Slave mod
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>{PartNumber} is a rackmount, managed, Industrial Grade, L2 Gigabit PoE (Power over Ethernet) Switch that provides 
-  24x 10/100/1000BaseTX PoE ports, plus 8 dual speed (100/1000Base-X) SFP ports, thus providing up to 32 ports total Ethernet 
-   connectivity. The PoE features enable power and data to be transferred via a single cable, thereby considerably reducing cabling  
-   and electrical wiring expenses. NXO-2408SM-24PH is an ideal solution for applications in Smart City, surveillance, Intelligent 
-   traffic  control systems (ITS) and production automation applications. The NXO-2408SM-24PH is designed for harsh outdoor cabinet 
-    applications, with 4kV surge protection, to ensure the uninterrupted reliability of PoE systems. Isolated power inputs also help 
-    to  increase system reliability and the availability of your network backbone.
+ <p>As an Industrial grade Layer 3 Ethernet switch, the NXO-2408SM-24PH provides full 
+ Gigabit capability with high performance and  the ability to quickly transfer large 
+ amounts of video, voice, and data across a network. NXO series has 8x Gigabit SFP slots
+  and 24x  Gigabit RJ45 Ethernet ports with PoE. They support Layer 3 routing function,
+   ERPS ring, RSTP/STP and u-Ring redundancy  technologies, support wide operating temperature, 
+   fanless design, to increase system reliability and the availability of your network.
+
 
 
 </p>
