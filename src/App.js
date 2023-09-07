@@ -101,7 +101,7 @@ import SFP28_BX20_27 from './Component/25G SFP28/SFP28_BX20_27';
 import SFP28_BX20_27_i from './Component/25G SFP28/SFP28_BX20_27_i';
 import SFP28_BX10_33 from './Component/25G SFP28/SFP28_BX10_33';
 import SFP28_BX10_33_i from './Component/25G SFP28/SFP28_BX10_33_i';
-import SFP28_BX20_33 from './Component/25G SFP28/SFP28_BX20_33';
+import SFP28_BX20_33 from './Component/25G SFP28/SFP28_BX20_33'; 
 import SFP28_BX20_33_i from './Component/25G SFP28/SFP28_BX20_33_i';
 
 import SFP28_25G_CWDM_Products from './Component/25G SFP28/SFP28_25G_CWDM_Products';

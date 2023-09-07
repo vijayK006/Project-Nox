@@ -175,7 +175,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, SMF 10KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_Transceiver" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_DualRate" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
@@ -206,7 +206,7 @@ Data Rate up to 25.78Gbps
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_Transceiver_i" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/SFP28_LR_25G_Projects/SFP28_25G_LR_DualRate_i" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg1} className='productImg3'/>
