@@ -140,7 +140,7 @@ const NXO_402S_NXO_402F = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>These models are unmanaged industrial grade Gigabit switches with 4 10/100/1000Base-T ports and 2 fiber ports, that provide stable  and reliable Ethernet transmission. Housed in rugged DIN rail or wall mountable enclosures, these switches are designed for harsh  environments, such as industrial networking, intelligent transportation systems (ITS) and are also suitable for many military and utility  market applications where environmental conditions exceed commercial product specifications (See Figure). Standard operating  temperature range models (-10 to 60°C) and wide operating temperature range models (-40 to 75°C) fulfill the special needs of industrial  automation applications.
+ <p>{PartNumber} These models are unmanaged industrial grade Gigabit switches with 4 10/100/1000Base-T ports and 2 fiber ports, that provide stable  and reliable Ethernet transmission. Housed in rugged DIN rail or wall mountable enclosures, these switches are designed for harsh  environments, such as industrial networking, intelligent transportation systems (ITS) and are also suitable for many military and utility  market applications where environmental conditions exceed commercial product specifications (See Figure). Standard operating  temperature range models (-10 to 60°C) and wide operating temperature range models (-40 to 75°C) fulfill the special needs of industrial  automation applications.
 
 </p>
 </div>

@@ -109,7 +109,7 @@ const NXO_402GSM_NXO_803GSM = () => {
 <p className='listFeture'>Redundant dual DC input power 12/24/48/-48VDC (9.6~60VDC)</p>
 <p className='listFeture'>2.25K VDC Hi-pot isolation protection for Ethernet ports and power</p>
 <p className='listFeture'>4KV surge protection for UTP and fiber ports</p>
-<p className='listFeture'>Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses. (Please see CTC μ-Ring white paper for more details and more topology application)</p>
+<p className='listFeture'>Provides 5 instances that each can support μ-Ring, μ-Chain or Sub-Ring type for flexible uses. (Please see NXO μ-Ring white paper for more details and more topology application)</p>
 <p className='listFeture'>μ-Ring for Redundant Cabling, recovery time{'<10ms'} in 250 devices</p>
 <p className='listFeture'>Supports IEEE 1588 PTP V2 for precise time synchronization to operate in Ordinary-Boundary, Peer to Peer Transparent Clock, End to End  Transparent Clock, Master, Slave mode by each port</p>
 <p className='listFeture'>Supports SmartView™ for Centralized Management*</p>
