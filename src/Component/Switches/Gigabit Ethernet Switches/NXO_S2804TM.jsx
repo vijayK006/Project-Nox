@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../../img/products/Switches/NXO-S2804TM.png'
+import productImg1 from '../../../img/products/Switches/Gigabit ethernet switches/NXO-S2804TM.jpg'
 
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';

@@ -5,7 +5,7 @@ import productImg1 from '../../../img/products/Switches/GBE_img.png'
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
 
-import Application from '../../../img/products/Switches/NOX-2408SM-24PH_Application.png';
+import Application from '../../../img/products/Switches/Gigabit ethernet switches/NXO-S2408GTM _ NXO-2408SM _ NXO-4804SM.jpg';
 import dime1 from '../../../img/products/Switches/GBE_Dimenssion_img.png';
 
 
