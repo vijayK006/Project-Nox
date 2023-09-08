@@ -198,7 +198,7 @@ Peer to Peer Transparent Clock, End to End 	Transparent Clock, Master, Slave mod
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>As an Industrial grade Layer 3 Ethernet switch, the NXO-2408SM-24PH provides full 
+ <p>{PartNumber} As an Industrial grade Layer 3 Ethernet switch, the NXO-2408SM-24PH provides full 
  Gigabit capability with high performance and  the ability to quickly transfer large 
  amounts of video, voice, and data across a network. NXO series has 8x Gigabit SFP slots
   and 24x  Gigabit RJ45 Ethernet ports with PoE. They support Layer 3 routing function,
