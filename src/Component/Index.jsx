@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 
 import { Link } from 'react-router-dom';
 
@@ -310,7 +310,7 @@ import { TbTruckDelivery, TbMessageChatbot, TbMessage2 } from 'react-icons/tb';
 
   <div className='row'>
 
-  <div className='col-lg-4 col-md-6 col-sm-12 mt-2 pb-2'>
+  {/* <div className='col-lg-4 col-md-6 col-sm-12 mt-2 pb-2'>
       <div className='content-card'>
       <div className='d-flex justify-content-center'>
       <MdOutlineEngineering className="content-card-icon"/>
@@ -323,10 +323,10 @@ import { TbTruckDelivery, TbMessageChatbot, TbMessage2 } from 'react-icons/tb';
 that make optical operations easier, 
 faster and more reliable.</p>
       </div>
-    </div>
+    </div> */}
   
 
-    <div className='col-lg-4 col-md-6 col-sm-12 mt-2 pb-2'>
+    <div className='col-lg-6 col-md-6 col-sm-12 mt-2 pb-2'>
       <div className='content-card'>
       <div className='d-flex justify-content-center'>
       <MdOutlineAssuredWorkload className="content-card-icon"/>
@@ -342,7 +342,7 @@ with a significant level of reliability.</p>
       </div>
     </div>
 
-    <div className='col-lg-4 col-md-6 col-sm-12 mt-2 pb-2'>
+    <div className='col-lg-6 col-md-6 col-sm-12 mt-2 pb-2'>
       <div className='content-card'>
       <div className='d-flex justify-content-center'>
       <MdOutlineSwitchAccessShortcutAdd className="content-card-icon"/>
@@ -503,7 +503,7 @@ allow you to enjoy worry-free experience.</p>
 
 {/* Certification Section Start */}
 
-<section className='container pt-lg-5 pb-lg-5 pt-3 pb-3'>
+{/* <section className='container pt-lg-5 pb-lg-5 pt-3 pb-3'>
 <h3 className='text-center section-heading pt-4 pb-4'>NX Optics Certified</h3>
 
 <div className='row'>
@@ -655,13 +655,13 @@ urgent and unpredictable needs around the world.</p>
 
 </div>
 
-</section>
+</section> */}
 
 {/* Customer Section End */}
 
 
 
-<section className='container pt-lg-5 pb-lg-5 pt-3 pb-3'>
+{/* <section className='container pt-lg-5 pb-lg-5 pt-3 pb-3'>
 <h3 className='text-center section-heading pt-4 pb-4'>Customer Successs</h3>
 
 <div className='row pt-lg-5 pt-2'>
@@ -710,7 +710,7 @@ urgent and unpredictable needs around the world.</p>
 
 </div>
 
-</section>
+</section> */}
 
 {/* Customer Section End */}
 

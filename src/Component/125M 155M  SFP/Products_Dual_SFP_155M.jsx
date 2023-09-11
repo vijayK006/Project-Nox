@@ -789,7 +789,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 200KM(46dB), DDM
 
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_B0Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -816,7 +816,7 @@ Hot Pluggable, Duplex LC, 1550nm DFB, SMF 200KM(46dB), DDM
 </div>
 </Link>
 
-        </div>
+        </div> */}
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_Dual_SFP_155M/Dual_155M_S15_B2D" style={{textDecoration:"none", color:"black"}}>

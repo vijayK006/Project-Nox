@@ -356,7 +356,7 @@ const Switchclose_menu8=()=>{
             <div className='bg-gray'>
         <div className='container'>
 <div className='d-flex justify-content-between' style={{flexWrap:"wrap"}}>
-    <p className='margin-0-lineHeight text-center'>Fast shipping to India</p>
+    <p className='margin-0-lineHeight text-center'>Fast Shipping Worldwide</p>
 
     <div className='d-flex'>
 <p className='margin-0-lineHeight mobile-screen-noneed'> India (English/ $ USD)</p>

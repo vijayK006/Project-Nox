@@ -176,6 +176,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM Low Power Consumpti
 Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
 
 
+
 </h5>
 <p>Part Number : NXOXFP-H7-S15-X40D</p>
 <h4>Feature's</h4> 
