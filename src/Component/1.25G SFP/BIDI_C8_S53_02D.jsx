@@ -229,7 +229,7 @@ const BIDI_C8_S53_02D = () => {
   
  <p>
 
-NXOSFP-C8-S45-A0D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ {PartNumber} Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1490nm DFB transmitter and high sensitivity PIN receiver provide superior
 performance for Gigabit Ethernet 1000BASE-BX and

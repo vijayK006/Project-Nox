@@ -234,7 +234,7 @@ const Dual_H7_02Di = () => {
   
  <p>
 
-NXOSPP-H7-S13-02D Small Form Factor Pluggable
+{PartNumber} Small Form Factor Pluggable
 SFP+ transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
 performance for 10GBASE-LR/LW applications up to SMF 2km optical links.
 

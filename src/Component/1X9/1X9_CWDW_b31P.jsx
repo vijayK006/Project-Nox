@@ -226,7 +226,7 @@ const CWDW_1X9_b31P = () => {
   <h2>Overview</h2>
   
  <p>
-NXO1X9-Ax-Cxx-b31 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 31dB budget optical links.
+{PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 31dB budget optical links.
 
 </p>
 </div>

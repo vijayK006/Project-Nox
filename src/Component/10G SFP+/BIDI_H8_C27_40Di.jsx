@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_H8_C27_40Di = () => { 
 
-  let PartNumber = "NXO-H8-C27-40Di";
+  let PartNumber = "NXOSPP-H8-C27-40Di";
   let productName ="10G SFP+ BX(BR)-U Transceiver  Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -290,7 +290,7 @@ performance for 10GBASE Ethernet applications up to SMF 40km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-40D)</td>
+          <td>Case Operating Temp. (NXOSPP-H8-C27-40D)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -299,7 +299,7 @@ performance for 10GBASE Ethernet applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-40Di)</td>
+          <td>Case Operating Temp. (NXOSPP-H8-C27-40Di)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -317,7 +317,7 @@ performance for 10GBASE Ethernet applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-40D)</td>
+          <td>Supply Current (NXOSPP-H8-C27-40D)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -326,7 +326,7 @@ performance for 10GBASE Ethernet applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-40Di)</td>
+          <td>Supply Current (NXOSPP-H8-C27-40Di)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

@@ -25,7 +25,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const BIDI_H8_C27_40DM = () => { 
 
-  let PartNumber = "NXO-H8-C27-40DM";
+  let PartNumber = "NXOSPP-H8-C27-40DM";
   let productName ="1G~10G Multi-Rate SFP+ BX(BR)-U Transceiver  Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM";
 
   const [name, setName] = useState("");
@@ -291,7 +291,7 @@ performance at Multi-Rate applications up to SMF 40km optical links.
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-40DM)</td>
+          <td>Case Operating Temp. (NXOSPP-H8-C27-40DM)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
@@ -300,7 +300,7 @@ performance at Multi-Rate applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Case Operating Temp. (NXO-H8-C27-40DMi)</td>
+          <td>Case Operating Temp. (NXOSPP-H8-C27-40DMi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
@@ -318,7 +318,7 @@ performance at Multi-Rate applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-40DM)</td>
+          <td>Supply Current (NXOSPP-H8-C27-40DM)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
@@ -327,7 +327,7 @@ performance at Multi-Rate applications up to SMF 40km optical links.
         </tr>
 
         <tr>
-          <td>Supply Current (NXO-H8-C27-40DMi)</td>
+          <td>Supply Current (NXOSPP-H8-C27-40DMi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>

@@ -288,7 +288,7 @@ Hot Pluggable, Duplex LC, 1310nm FP, SMF 2KM, DDM
 
 
 </h5>
-<p>Part Number : NXOSPP-H7-S13-02D</p>
+<p>Part Number : NXOSPP-H7-S13-02Di</p>
 <h4>Feature's</h4> 
 <p>RoHS Compliant</p>
 <p>Hot Pluggable

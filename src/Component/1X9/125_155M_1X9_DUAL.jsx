@@ -118,7 +118,7 @@ Duplex SC, 1310nm FP, MMF 2KM, LVPECL / PECL Signal Detection
 
         </div>
 
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_155M_M85_02P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -172,7 +172,7 @@ Duplex Plastic ST, 850nm VCSEL, MMF 2KM, LVPECL / PECL Signal Detection
 </div>
 </Link>
 
-        </div>
+        </div> */}
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_155M_AM_M13" style={{textDecoration:"none", color:"black"}}>
 

@@ -214,7 +214,7 @@ const BIDI_A8_S53_20Di = () => {
     <div class="container mt-3">
   <h2>Overview</h2>
   
- <p>NXOSFP-A8-S53-20D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ <p>NXOSFP-A8-S53-20Di Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1550nm FP transmitter and
 high sensitivity PIN receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 applications up to SMF 20km optical links.

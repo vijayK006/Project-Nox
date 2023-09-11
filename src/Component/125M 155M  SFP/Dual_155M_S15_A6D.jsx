@@ -220,7 +220,7 @@ const Dual_155M_S15_A6D = () => {
   <h2>Overview</h2>
   
  <p>
- NXOSFP-A7-S15-B0D Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ {PartNumber} Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1550nm DFB transmitter and
 high sensitivity APD receiver provide superior performance for Fast Ethernet and SONET OC-3 / SDH STM-1 

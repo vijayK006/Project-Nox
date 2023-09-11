@@ -166,7 +166,7 @@ Hot Pluggable, Duplex LC, 1310nm DFB, Single Mode, 10KM, DDM Low Power Consumpti
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/XFP_DUAL_Products/Dual_NXOXFP_H7_S15_40D" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40D" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg4} className='productImg3'/>
@@ -193,7 +193,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/XFP_DUAL_Products/Dual_NXOXFP_H7_S15_40Di" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg4} className='productImg3'/>
@@ -220,7 +220,7 @@ Hot Pluggable, Duplex LC, 1550nm EML-LD, Single Mode, 40KM, DDM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
-        <Link to="/XFP_DUAL_Products/Dual_NXOXFP_H7_S15_40D_L" style={{textDecoration:"none", color:"black"}}>
+        <Link to="/XFP_DUAL_Products/Dual_NXO_H7_S15_40D_L" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
 <img src={productImg4} className='productImg3'/>

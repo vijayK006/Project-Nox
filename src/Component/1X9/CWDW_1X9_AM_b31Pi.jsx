@@ -29,7 +29,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDW_1X9_AM_b31Pi = () => { 
 
-  let PartNumber = "NXO1X9-A3-Cxx-b31Pi";
+  let PartNumber = "NXO1X9-Ax-Cxx-b31P";
   let productName ="125M / 155M 1X9-100ZX80 Transceiver Duplex SC/FC/ST, CWDM DFB, SMF 31dB, LVPECL / PECL Signal Detection";
 
 

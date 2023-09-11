@@ -216,7 +216,7 @@ const Dual_20DM_1_25G = () => {
   <h2>Overview</h2>
   
  <p>
- NXOSFP-C7-S13-10DR Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
+ {PartNumber} Small Form Factor Pluggable SFP transceivers are compliant with the current SFP
 Multi-Source Agreement (MSA) Specification. The high
 performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
 performance for Fast Ethernet 100BASE-LX, Gigabit

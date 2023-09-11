@@ -221,7 +221,7 @@ SDH STM-1 / SONET OC-3 @155M
  <p>
 
 
-NXO1X9-A1-M13-02P 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
+{PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1310nm FP transmitter and high sensitivity PIN receiver provide superior
 performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to MMF 2km optical links.
 
 </p>

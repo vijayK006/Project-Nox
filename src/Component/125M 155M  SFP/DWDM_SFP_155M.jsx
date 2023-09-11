@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const DWDM_SFP_BOD = () => { 
 
-  let PartNumber = "NXOSFP-05-M13-05B";
+  let PartNumber = "NXOSFP-A7-Dxx-B0D";
   let productName ="125M / 155M DWDM SFP Transceiver Hot Pluggable, Duplex LC, DWDM DFB, SMF 200KM(46dB), DDM";
 
   const [name, setName] = useState("");

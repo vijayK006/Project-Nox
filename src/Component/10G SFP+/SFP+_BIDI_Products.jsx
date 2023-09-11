@@ -76,7 +76,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C27-20D</p>
+<p>Part Number : NXOSPP-H8-C27-20D</p>
 
 <h4>Feature's</h4> 
 
@@ -111,7 +111,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C27-20Di</p>
+<p>Part Number : NXOSPP-H8-C27-20Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with CPRI Option 7, 8
 </p>
@@ -146,7 +146,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C27-20DM</p>
+<p>Part Number : NXOSPP-H8-C27-20DM</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFF-8431 SFP+ MSA
 </p>
@@ -180,7 +180,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 20KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C27-20DMi</p>
+<p>Part Number : NXOSPP-H8-C27-20DMi</p>
 <h4>Feature's</h4> 
 <p>Compliant with SFF-8431 SFP+ MSA
 </p>
@@ -216,7 +216,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C27-40D</p>
+<p>Part Number : NXOSPP-H8-C27-40D</p>
 <h4>Feature's</h4> 
 <p>Compliant with CPRI Option 7, 8
 </p>
@@ -251,7 +251,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C27-40Di</p>
+<p>Part Number : NXOSPP-H8-C27-40Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with CPRI Option 7, 8
 </p>
@@ -286,7 +286,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C27-40DM</p>
+<p>Part Number : NXOSPP-H8-C27-40DM</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter
 </p>
@@ -321,7 +321,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
 
 
 </h5>
-<p>Part Number : NXO-H8-C27-40DMi</p>
+<p>Part Number : NXOSPP-H8-C27-40DMi</p>
 <h4>Feature's</h4> 
 <p>1270nm DFB laser transmitter
 </p>
@@ -352,7 +352,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C27-60D</p>
+<p>Part Number : NXOSPP-H8-C27-60D</p>
 <h4>Feature's</h4> 
 <p>Compliant with CPRI Option 7, 8
 </p>
@@ -383,7 +383,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C27-60Di</p>
+<p>Part Number : NXOSPP-H8-C27-60Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with CPRI Option 7, 8
 </p>
@@ -414,7 +414,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-20D</p>
+<p>Part Number : NXOSPP-H8-C33-20D</p>
 <h4>Feature's</h4> 
 <p>Compliant with CPRI Option 7, 8
 </p>
@@ -445,7 +445,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-20Di</p>
+<p>Part Number : NXOSPP-H8-C33-20Di</p>
 <h4>Feature's</h4> 
 <p>Compliant with CPRI Option 7, 8
 </p>
@@ -476,7 +476,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-20DM</p>
+<p>Part Number : NXOSPP-H8-C33-20DM</p>
 <h4>Feature's</h4> 
 <p>Support 1.0625Gb/s to 11.32Gb/s Multi-Rate
 </p>
@@ -507,7 +507,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-20DMi</p>
+<p>Part Number : NXOSPP-H8-C33-20DMi</p>
 <h4>Feature's</h4> 
 <p>Support 1.0625Gb/s to 11.32Gb/s Multi-Rate
 </p>
@@ -538,7 +538,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-40D</p>
+<p>Part Number : NXOSPP-H8-C33-40D</p>
 <h4>Feature's</h4> 
 <p>Support 1.0625Gb/s to 11.32Gb/s Multi-Rate
 </p>
@@ -569,7 +569,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-40Di</p>
+<p>Part Number : NXOSPP-H8-C33-40Di</p>
 <h4>Feature's</h4> 
 <p>Support 1.0625Gb/s to 11.32Gb/s Multi-Rate
 </p>
@@ -600,7 +600,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-40DM</p>
+<p>Part Number : NXOSPP-H8-C33-40DM</p>
 <h4>Feature's</h4> 
 <p>Support 1.0625Gb/s to 11.32Gb/s Multi-Rate
 </p>
@@ -631,7 +631,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-40DMi</p>
+<p>Part Number : NXOSPP-H8-C33-40DMi</p>
 <h4>Feature's</h4> 
 <p>Support 1.0625Gb/s to 11.32Gb/s Multi-Rate
 </p>
@@ -662,7 +662,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-60D</p>
+<p>Part Number : NXOSPP-H8-C33-60D</p>
 <h4>Feature's</h4> 
 <p>APD receiver
 </p>
@@ -693,7 +693,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-U Transceiver Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C33-60Di</p>
+<p>Part Number : NXOSPP-H8-C33-60Di</p>
 <h4>Feature's</h4> 
 <p>APD receiver
 </p>
@@ -724,7 +724,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-D Transceiver Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C49-80D</p>
+<p>Part Number : NXOSPP-H8-C49-80D</p>
 <h4>Feature's</h4> 
 <p>APD receiver
 </p>
@@ -755,7 +755,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   10G SFP+ BX(BR)-D Transceiver Hot Pluggable, Bidi LC, Tx1330nm DFB / Rx1270nm, SMF 60KM, DDM
 
 </h5>
-<p>Part Number : NXO-H8-C49-80Di</p>
+<p>Part Number : NXOSPP-H8-C49-80Di</p>
 <h4>Feature's</h4> 
 <p>APD receiver
 </p>
@@ -784,7 +784,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   <h5>
   10G SFP+ BX(BR)-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-H8-C55-80D</p>
+<p>Part Number : NXOSPP-H8-C55-80D</p>
 <h4>Feature's</h4> 
 <p>APD receiver
 </p>
@@ -813,7 +813,7 @@ Hot Pluggable, Bidi LC, Tx1270nm DFB / Rx1330nm, SMF 40KM, DDM
   <h5>
   10G SFP+ BX(BR)-D Transceiver Hot Pluggable, Bidi LC, Tx1550nm EML / Rx1490nm, SMF 80KM, DDM
 </h5>
-<p>Part Number : NXO-H8-C55-80Di</p>
+<p>Part Number : NXOSPP-H8-C55-80Di</p>
 <h4>Feature's</h4> 
 <p>APD receiver
 </p>
