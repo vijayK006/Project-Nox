@@ -1,13 +1,14 @@
+
 import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
-import productImg1 from '../../img/products/1X9/1X9_CWDW.jpg'
+import productImg1 from '../../img/products/1X9/ultra.jpg'
 
 import transcrve from '../../img/products/100G CFP CFP2 CFP4/Transceiver.jpg';
-import pinassisment from '../../img/products/1X9/CWDW_pinAssignment.jpg';
-import machdimenssion from '../../img/products/1X9/1X9_MachanicalDimension.jpg';
-import Memorymap from '../../img/products/1X9/CWDW_dimension.jpg';
-import Memorymap2 from '../../img/products/1X9/CWDW_dimension_2.jpg';
-import connector2 from '../../img/products/1X9/ST_connector.png';
+import pinassisment from '../../img/products/1X9/1X9_Pinassignment.jpg';
+import machdimenssion from '../../img/products/1X9/ultra_machanical.jpg';
+import Memorymap from '../../img/products/1X9/Dual_155M_dimension_SC.jpg';
+import Memorymap2 from '../../img/products/1X9/Dual_155M_dimension_ST.jpg';
+import Memorymap3 from '../../img/products/1X9/Dual_155M_dimension_FC.jpg';
 
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
@@ -27,10 +28,10 @@ import { Link } from 'react-router-dom';
 import 'photoswipe/dist/photoswipe.css'
 import { Gallery, Item } from 'react-photoswipe-gallery'
 
-const CWDW_1X9_AM_b31P = () => { 
+const Dual_A5_80Pi = () => { 
 
-  let PartNumber = "NXO1X9-AM-Cxx-b31P";
-  let productName ="125M / 155M 1X9-100ZX80 Transceiver Duplex SC/FC/ST, CWDM DFB, SMF 31dB, LVPECL / PECL Signal Detection";
+  let PartNumber = "NXO1X9-A5-S15-80Pi";
+  let productName ="125M / 155M 1X9 100BASE-ZX Transceiver Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection";
 
 
 
@@ -160,31 +161,22 @@ const CWDW_1X9_AM_b31P = () => {
 <h5>Features</h5>
 
 
-  <p className='listFeture'>  Compatible with 100BASE-ZX</p>
-  <p className='listFeture'>  Compatible with SDH STM1 and SONET OC3</p>
-   <p className='listFeture'> Industry Standard 1x9 Footprint</p>
-  <p className='listFeture'>  CWDM DFB laser transmitter</p>
-  <p className='listFeture'>  Duplex SC/ST/FC optical connector</p>
-  <p className='listFeture'>  Single 3.3V or 5V Power Supply</p>
-  <p className='listFeture'>  DC-coupled Differential LVPECL inputs and outputs</p>
-  <p className='listFeture'>  LVPECL / PECL Signal Detection Output</p>
-  <p className='listFeture'>  Wave Solderable and Aqueous Washable</p>
-  <p className='listFeture'>  Link budget 31dB over SM fiber</p>
-  <p className='listFeture'>  RoHS Compliant</p>
+  <p className='listFeture'>  Compatible with Fast Ethernet 100BASE-ZX </p>
+ <p className='listFeture'>   Compliant with SONET OC-3 LR-2 and SDH STM-1 L1.2 </p>
+ <p className='listFeture'>   Industry Standard 1x9 Footprint </p>
+  <p className='listFeture'>  1550nm DFB laser transmitter </p>
+ <p className='listFeture'>   Duplex Plastic ST connector </p>
+<p className='listFeture'>    Single 3.3V or 5V Power Supply </p>
+ <p className='listFeture'>   DC-coupled Differential PECL inputs and outputs </p>
+ <p className='listFeture'>   LVPECL / PECL Signal Detection Output </p>
+ <p className='listFeture'>   Wave Solderable and Aqueous Washable </p>
+  <p className='listFeture'>  Link distance 80km over SM fiber </p>
+ <p className='listFeture'>   RoHS Compliant </p>
 
 <h5 className='pt-5'>Applications</h5>
 
-<p className='listFeture'>
-100BASE-ZX Ethernet
-
-
-</p>
-<p className='listFeture'>SDH STM1 / SONET OC3
-
-</p>
-<p className='listFeture'>CWDM Networks
-
-</p>
+   <p className='listFeture'>Fast Ethernet 100BASE-ZX @125M</p>
+   <p className='listFeture'> SONET OC-3 / SDH STM-1 @155M</p>
 
 
 </div>
@@ -225,7 +217,10 @@ const CWDW_1X9_AM_b31P = () => {
   <h2>Overview</h2>
   
  <p>
-{PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled CWDM DFB transmitter and high sensitivity PIN receiver provide superior performance for SDH STM-1 / SONET OC-3 and Fast Ethernet applications up to SMF 31dB budget optical links.
+
+{PartNumber} 1X9 SIP package style transceivers are compliant with the industrial standard specification. The high performance uncooled 1550nm DFB transmitter and high sensitivity PIN receiver provide superior
+performance for Fast Ethernet and SONET OC-3 /
+SDH STM-1 applications up to SMF 80km optical links.
 
 </p>
 </div>
@@ -244,8 +239,6 @@ const CWDW_1X9_AM_b31P = () => {
           <th>Min.</th>
           <th>Max.</th>
           <th>Unit</th>
-
-
         </tr>
       </thead>
       <tbody>
@@ -256,30 +249,40 @@ const CWDW_1X9_AM_b31P = () => {
           <td>-40</td>
           <td>+85</td>
           <td>°C</td>
+  
         </tr>
-
-        <tr>
+         <tr>
           <td>Storage Relative Humidity</td>
           <td>RH</td>
           <td>5</td>
           <td>95</td>
           <td>%</td>
-        </tr>
+     </tr>
 
-        <tr>
-          <td>Supply Voltage(NXO1X9-AM-Cxx-b31P) </td>
+          <tr>
+          <td>Supply Voltage (NXO1X9-A5-S15-80P)</td>
           <td>Vcc</td>
           <td>0</td>
           <td>+4.5</td>
           <td>V</td>
-        </tr>
+        
+</tr>
         <tr>
-          <td>Supply Voltage(NXO1X9-AM-Cxx-b31P5) </td>
+          <td>Supply Voltage (NXO1X9-A5-S15-80P5)</td>
           <td>Vcc</td>
           <td>0</td>
           <td>+6.0</td>
           <td>V</td>
         </tr>
+
+        
+        {/* <tr>
+          <td>Supply Voltage(NXO1X9-Ax-M13-02P5) </td>
+          <td>Vcc</td>
+          <td>0</td>
+          <td>+6.0</td>
+          <td>V</td>
+        </tr> */}
       </tbody>
     </table>
   </div>
@@ -300,72 +303,81 @@ const CWDW_1X9_AM_b31P = () => {
           <th>Typ.</th>
           <th>Max.</th>
           <th>Unit</th>
-
+          <th></th>
 
         </tr>
       </thead>
       <tbody>
 
       <tr>
-          <td>Case Operating Temp. (NXO1X9-AM-Cxx-b31P)</td>
+          <td>Case Operating Temp. (NXO1X9-A5-S15-80P)</td>
           <td>Top</td>
           <td>0</td>
           <td>-</td>
           <td>+70</td>
           <td>°C</td>
         </tr>
-
         <tr>
-          <td>Case Operating Temp. (NXO1X9-AM-Cxx-b31Pi)</td>
+          <td>Case Operating Temp. (NXO1X9-A5-S15-80Pi)</td>
           <td>Top</td>
           <td>-40</td>
           <td>-</td>
           <td>+85</td>
           <td>°C</td>
+          
+
         </tr>
+      
 
         <tr>
-          <td>Supply Voltage (NXO1X9-AM-Cxx-b31P)</td>
+          <td>Supply Voltage (NXO1X9-A5-S15-80P)</td>
           <td>Vcc</td>
-          <td>+3.13</td>
+          <td>+3.15</td>
           <td>+3.3</td>
-          <td>+3.47</td>
+          <td>+3.45</td>
           <td>V</td>
+
         </tr>
         <tr>
-          <td>Supply Voltage (NXO1X9-AM-Cxx-b31P5)</td>
+          <td>Supply Voltage (NXO1X9-A5-S15-80P5)</td>
           <td>Vcc</td>
           <td>+4.75</td>
           <td>+5.0</td>
           <td>+5.25</td>
           <td>V</td>
-        </tr>
 
+        </tr>
+       
+       
         <tr>
-          <td>Supply Current (NXO1X9-AM-Cxx-b31P)</td>
+          <td>Supply Current</td>
+          <td>Icc</td>
+          <td></td>
+          <td>300</td>
+          <td>mA</td>
+          <td></td>
+        </tr>
+{/* 
+        <tr>
+          <td>Supply Current (NXO1X9-A5-S15-80Pi)</td>
           <td>Icc</td>
           <td></td>
           <td></td>
-          <td>200</td>
+          <td>300</td>
           <td>mA</td>
-        </tr>
-
+          <td></td> 
+        </tr> */}
+      
         <tr>
-          <td>Supply Current (NXO1X9-AM-Cxx-b31P5)</td>
-          <td>Icc</td>
-          <td></td>
-          <td></td>
-          <td>250</td>
-          <td>mA</td>
-        </tr>
-        {/* <tr>
           <td>Power Consumption</td>
           <td>P</td>
           <td></td>
           <td></td>
           <td>1000</td>
-          <td>mA</td>
-        </tr> */}
+          <td>mW</td>
+          {/* <td></td> */}
+
+        </tr>
         <tr>
           <td>Lead Soldering Limits</td>
           <td>Tsold</td>
@@ -373,14 +385,8 @@ const CWDW_1X9_AM_b31P = () => {
           <td></td>
           <td>260/10</td>
           <td>°C/Sec</td>
-        </tr>
-        <tr>
-          <td>Data Rate</td>
-          <td>DR</td>
-          <td></td>
-          <td>125/155</td>
-          <td></td>
-          <td>Mbps</td>
+          {/* <td></td> */}
+
         </tr>
       </tbody>
     </table>
@@ -431,25 +437,9 @@ Specification.
 
 <div className='container pt-lg-2 pb-lg-5 pt-2 pb-2'>
   <h1 className='pb-4'>Mechanical Dimensions </h1>
-  <h3 className='pb-4'>SC Connector Type </h3>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap} className='sectionImg3' alt="memorymapImg"/>
-</div>
-<br/>
-<br/>
-<h3 className='pb-4'>FC Connector Type  </h3>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ Memorymap2 } className='sectionImg3' alt="memorymapImg"/>
-</div>
-
-<br/>
-<br/>
-<h3 className='pb-4'>ST Connector Type  </h3>
-
-<div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={ connector2 } className='sectionImg3' alt="memorymapImg"/>
+<img src={ machdimenssion} className='sectionImg3' alt="memorymapImg"/>
 </div>
 </div>
 
@@ -460,7 +450,7 @@ Specification.
   <h1 className='pb-4'>Mechanical Dimensions </h1>
 
 <div className='d-flex justify-content-center' style={{width:"100%"}}>
-<img src={machdimenssion} className='sectionImg3' alt="Transceiver Block Diagram"/>
+<img src={machdimenssion} className='sectionImg2' alt="Transceiver Block Diagram"/>
 </div>
 
 </div> */}
@@ -542,4 +532,4 @@ Specification.
   )
 }
 
-export default CWDW_1X9_AM_b31P;
+export default Dual_A5_80Pi;

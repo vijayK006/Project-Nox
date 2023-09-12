@@ -27,7 +27,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const CWDM_H7_08D = () => { 
 
-  let PartNumber = "NXOSPP-H7-Cxx-08D";
+  let PartNumber = "NXOSPP-H7-Cxx-b08D";
   let productName ="10G SFP+ CWDM Transceiver Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM";
 
   const [name, setName] = useState("");

@@ -223,7 +223,7 @@ const CWDM_H7_08Di = () => {
   <h2>Overview</h2>
   
  <p>
- NXOSPP-H7-Cxx-08Di Small Form Factor Pluggable SFP+ CWDM transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled CWDM EML transmitter and high sensitivity PIN receiver provide superior performance for 10GBASE-ER/EW applications up to SMF 40km optical links.
+ NXOSPP-H7-Cxx-b08Di Small Form Factor Pluggable SFP+ CWDM transceivers are compliant with the current SFP+ Multi-Source Agreement (MSA) Specification. The high performance cooled CWDM EML transmitter and high sensitivity PIN receiver provide superior performance for 10GBASE-ER/EW applications up to SMF 40km optical links.
 
 </p>
 </div>

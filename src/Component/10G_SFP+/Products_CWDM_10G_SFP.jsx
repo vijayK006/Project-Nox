@@ -96,7 +96,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM
 
         </div>
 
-        {/* <div className='col-lg-4 col-md-6 col-sm-12'>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_08Di" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
@@ -125,7 +125,7 @@ Hot Pluggable, Duplex LC, CWDM 1270~1610nm DFB, SMF 8dB(10KM), DDM
 </div>
 </Link>
 
-        </div> */}
+        </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Products_CWDM_10G_SFP/CWDM_H7_40D" style={{textDecoration:"none", color:"black"}}>

@@ -460,6 +460,8 @@ import Dual_A1_S13_30P from './Component/1X9/Dual_A1_S13_30P';
 import Dual_A1_S13_30Pi from './Component/1X9/Dual_A1_S13_30Pi';
 import Dual_A1_S13_60P from './Component/1X9/Dual_A1_S13_60P';
 import Dual_A1_S13_60Pi from './Component/1X9/Dual_A1_S13_60Pi';
+import Dual_A5_80P from './Component/1X9/Dual_A5_80P';
+import Dual_A5_80Pi from './Component/1X9/Dual_A5_80Pi';
 import Dual_A5_S15_80P from './Component/1X9/Dual_A1_S15_80P';
 import Dual_A5_S15_80Pi from './Component/1X9/Dual_A1_S15_80Pi';
 import Dual_A1_S15_A0P from './Component/1X9/Dual_A1_S15_A0P';
@@ -1150,6 +1152,8 @@ function App() {
      <Route path="/Dual_125_155M_1X9/Dual_A1_S13_30Pi" element={<Dual_A1_S13_30Pi/>}/>
      <Route path="/Dual_125_155M_1X9/Dual_A1_S13_60P" element={<Dual_A1_S13_60P/>}/>
      <Route path="/Dual_125_155M_1X9/Dual_A1_S13_60Pi" element={<Dual_A1_S13_60Pi/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_A5_80P" element={<Dual_A5_80P/>}/>
+     <Route path="/Dual_125_155M_1X9/Dual_A5_80Pi" element={<Dual_A5_80Pi/>}/>
      <Route path="/Dual_125_155M_1X9/Dual_A5_S15_80P" element={<Dual_A5_S15_80P/>}/>
      <Route path="/Dual_125_155M_1X9/Dual_A5_S15_80Pi" element={<Dual_A5_S15_80Pi/>}/>
      <Route path="/Dual_125_155M_1X9/Dual_A1_S15_A0P" element={<Dual_A1_S15_A0P/>}/>

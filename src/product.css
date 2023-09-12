@@ -827,3 +827,12 @@ font-weight: 500;
 cursor: pointer;
 }
 
+.tab-content h2{
+    text-align: center;
+}
+.tab-content h1{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

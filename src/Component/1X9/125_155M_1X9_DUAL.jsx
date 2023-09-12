@@ -1267,6 +1267,67 @@ Duplex SC/ST/FC, 1310nm FP, Single Mode, 60KM
         </div>
 
         <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Dual_125_155M_1X9/Dual_A5_80P" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>125M / 155M 1X9 100BASE-ZX Transceiver
+Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
+
+
+
+</h5>
+<p>Part Number : NXO1X9-A5-S15-80P</p>
+<h4>Feature's</h4>
+
+<p>Industry Standard 1x9 Footprint</p>
+<p>Duplex Plastic ST connector
+</p>
+<p>RoHS Compliant
+
+
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+        <Link to="/Dual_125_155M_1X9/Dual_A5_80Pi" style={{textDecoration:"none", color:"black"}}>
+
+<div className='product-card position-relative'>
+<img src={productImg1_2} className='productImg3'/>
+
+<div className='product-dec'>
+  <h5>125M / 155M 1X9 100BASE-ZX Transceiver
+Duplex Plastic ST, 1550nm DFB, SMF 80KM, LVPECL / PECL Signal Detection
+
+
+
+</h5>
+<p>Part Number : NXO1X9-A5-S15-80Pi</p>
+<h4>Feature's</h4>
+
+<p>Industry Standard 1x9 Footprint</p>
+<p>Duplex Plastic ST connector
+</p>
+<p>RoHS Compliant
+
+
+</p>
+</div>
+
+<TfiHeadphoneAlt className="enquire-btn" data-bs-toggle="modal" data-bs-target="#myModal"/>
+</div>
+</Link>
+
+        </div>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
         <Link to="/Dual_125_155M_1X9/Dual_A5_S15_A0P" style={{textDecoration:"none", color:"black"}}>
 
 <div className='product-card position-relative'>
